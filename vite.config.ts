@@ -11,4 +11,20 @@ export default defineConfig({
       '@': path.resolve(import.meta.dirname, './src'),
     },
   },
+  build: {
+    rolldownOptions: {
+      output: {
+        // Lessons and questions change more often than the app code, so they get their own file
+        // and the browser can keep the rest cached.
+        codeSplitting: {
+          groups: [
+            { name: 'content', test: /[/\\]content[/\\].*\.json$/ },
+            { name: 'vendor', test: /[/\\]node_modules[/\\]/ },
+          ],
+        },
+      },
+    },
+    // The content file holds the whole question bank; its size is expected.
+    chunkSizeWarningLimit: 2000,
+  },
 })
