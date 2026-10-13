@@ -6,6 +6,25 @@
   "timeLimitMinutes": 190,
   "passingRating": 80,
   "calculatorAllowed": false,
+  "mock": {
+    "full": {
+      "items": 150,
+      "minutes": 190
+    },
+    "half": {
+      "items": 75,
+      "minutes": 95
+    },
+    "paceWarningMinutes": 10,
+    "blendNote": "This is the app's own practice blend. CSC does not publish how many items come from each subject.",
+    "blend": {
+      "verbal-en": 30,
+      "verbal-fil": 15,
+      "numerical": 40,
+      "analytical": 40,
+      "gen-info": 25
+    }
+  },
   "source": {
     "label": "CSC Examination Announcement No. 03, s. 2026",
     "url": "https://csc.gov.ph/examination-advisories/examination-announcement-no-03-s-2026-conduct-of-career-service-examination-pen-and-paper-test-cse-ppt-for-professional-and-subprofessional-levels-09-august-2026"
@@ -28,7 +47,11 @@
       "id": "numerical",
       "name": "Numerical Ability",
       "languages": "English",
-      "topics": ["Basic operations", "Number sequence", "Word problems"]
+      "topics": [
+        "Basic operations",
+        "Number sequence",
+        "Word problems"
+      ]
     },
     {
       "id": "analytical",
