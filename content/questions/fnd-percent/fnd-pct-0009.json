@@ -1,0 +1,50 @@
+{
+  "id": "fnd-pct-0009",
+  "topicId": "fnd-percent",
+  "skill": "fnd-pct-of",
+  "difficulty": 2,
+  "stem": "An office has 20 employees. 75% of them attended a seminar. How many employees attended?",
+  "choices": [
+    "5",
+    "25",
+    "15",
+    "60"
+  ],
+  "answer": "15",
+  "hints": [
+    "75% is the same as 3/4, or three quarters.",
+    "First find 1/4 of 20 by dividing 20 by 4.",
+    "You found one quarter. 75% is three quarters, so multiply that number by 3."
+  ],
+  "solution": {
+    "methodName": "Change the percent to an easy fraction",
+    "steps": [
+      {
+        "action": "Change 75% to a fraction: 75% = 3/4.",
+        "why": "75/100, with the top and the bottom divided by 25, is 3/4."
+      },
+      {
+        "action": "Find 1/4 of 20: 20 ÷ 4 = 5.",
+        "why": "1/4 means 4 equal parts. Each part is 5 employees."
+      },
+      {
+        "action": "Take 3 of those parts: 3 × 5 = 15.",
+        "why": "3/4 means 3 of the 4 equal parts."
+      },
+      {
+        "action": "Check: the other 25% is 5 employees, and 15 + 5 = 20."
+      },
+      {
+        "action": "15 employees attended."
+      }
+    ]
+  },
+  "trapNotes": {
+    "5": "This is only 25% of 20, one quarter. It is the number who did not attend. 75% is three quarters, so multiply by 3.",
+    "25": "This adds 5 to 20. The people who attended are part of the 20 employees, so the answer must be less than 20.",
+    "60": "This multiplies 20 by 3 but forgets to divide by 4."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

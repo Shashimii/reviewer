@@ -1,0 +1,46 @@
+{
+  "id": "fnd-pct-0006",
+  "topicId": "fnd-percent",
+  "skill": "fnd-pct-of",
+  "difficulty": 1,
+  "stem": "What is 50% of 80?",
+  "choices": [
+    "160",
+    "40",
+    "30",
+    "8"
+  ],
+  "answer": "40",
+  "hints": [
+    "50% is the same as one half.",
+    "To find half of a number, divide it by 2.",
+    "Work out 80 ÷ 2. That is 50% of 80."
+  ],
+  "solution": {
+    "methodName": "Change the percent to an easy fraction",
+    "steps": [
+      {
+        "action": "Change 50% to a fraction: 50% = 1/2.",
+        "why": "50 out of 100 is the same as 1 out of 2."
+      },
+      {
+        "action": "Find half of 80 by dividing by 2: 80 ÷ 2 = 40.",
+        "why": "1/2 means 2 equal parts, and you take 1 of them."
+      },
+      {
+        "action": "Check: 40 + 40 = 80, so 40 is half of 80."
+      },
+      {
+        "action": "50% of 80 is 40."
+      }
+    ]
+  },
+  "trapNotes": {
+    "8": "This divides by 10, which gives 10% of 80. For 50%, divide by 2.",
+    "30": "This subtracts 50 from 80. 50% of a number means half of it, so divide by 2.",
+    "160": "This multiplies 80 by 2. Half of a number is smaller than the number, so divide by 2."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

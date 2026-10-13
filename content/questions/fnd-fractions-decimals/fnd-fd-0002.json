@@ -1,0 +1,47 @@
+{
+  "id": "fnd-fd-0002",
+  "topicId": "fnd-fractions-decimals",
+  "skill": "fnd-fd-meaning",
+  "difficulty": 1,
+  "stem": "Which decimal is the same as 7/10?",
+  "choices": [
+    "7.10",
+    "0.07",
+    "0.7",
+    "7.0"
+  ],
+  "answer": "0.7",
+  "hints": [
+    "Look at the bottom number. A bottom of 10 means the whole is cut into tenths.",
+    "7/10 is read \"7 tenths\". Tenths go in the first place after the decimal point.",
+    "Write 0, then the decimal point, then put the 7 in the first place after the point."
+  ],
+  "solution": {
+    "methodName": "Say it as tenths or hundredths, then write it",
+    "steps": [
+      {
+        "action": "Read 7/10 aloud: \"7 tenths\".",
+        "why": "A bottom number of 10 means tenths. A bottom number of 100 means hundredths."
+      },
+      {
+        "action": "Put the 7 in the first place after the decimal point.",
+        "why": "The first place after the point is the tenths place."
+      },
+      {
+        "action": "Write 0 before the point: 0.7.",
+        "why": "7/10 is less than 1 whole, so there are no whole numbers. We write 0 there."
+      },
+      {
+        "action": "7/10 is the same as 0.7."
+      }
+    ]
+  },
+  "trapNotes": {
+    "7.10": "This copies the two numbers of the fraction with a point between them. The decimal point does not replace the fraction bar.",
+    "0.07": "This is 7 hundredths (7/100). The 7 is one place too far to the right.",
+    "7.0": "This is 7 wholes. 7/10 is less than 1 whole."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

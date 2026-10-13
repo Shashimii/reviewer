@@ -1,0 +1,47 @@
+{
+  "id": "fnd-pct-0004",
+  "topicId": "fnd-percent",
+  "skill": "fnd-pct-meaning",
+  "difficulty": 2,
+  "stem": "Which is the same as 10%?",
+  "choices": [
+    "10 out of 10",
+    "1 out of 10",
+    "1 out of 100",
+    "10 out of 1,000"
+  ],
+  "answer": "1 out of 10",
+  "hints": [
+    "Percent means \"out of 100\". So 10% is 10 out of 100.",
+    "No choice says \"10 out of 100\", so simplify 10/100.",
+    "Divide the top and the bottom of 10/100 by 10. Then find the choice that matches."
+  ],
+  "solution": {
+    "methodName": "Write it over 100, then simplify",
+    "steps": [
+      {
+        "action": "Write 10% over 100: 10/100.",
+        "why": "Percent means out of 100."
+      },
+      {
+        "action": "Divide the top and the bottom by 10: 10 ÷ 10 = 1 and 100 ÷ 10 = 10.",
+        "why": "Dividing the top and the bottom by the same number keeps the value the same."
+      },
+      {
+        "action": "10/100 = 1/10.",
+        "why": "1 out of every 10 people is the same share as 10 out of every 100 people."
+      },
+      {
+        "action": "10% is the same as 1 out of 10."
+      }
+    ]
+  },
+  "trapNotes": {
+    "10 out of 10": "This is the whole thing, which is 100%. 10% is only a small part.",
+    "1 out of 100": "This is 1%, not 10%. Divide both the top and the bottom of 10/100 by 10, not just the top.",
+    "10 out of 1,000": "This is 1%. Percent compares with 100, not with 1,000."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,43 @@
+{
+  "id": "fnd-pct-0007",
+  "topicId": "fnd-percent",
+  "skill": "fnd-pct-of",
+  "difficulty": 1,
+  "stem": "What is 10% of ₱350?",
+  "choices": [
+    "₱3.50",
+    "₱340",
+    "₱70",
+    "₱35"
+  ],
+  "answer": "₱35",
+  "hints": [
+    "10% is the same as 1/10.",
+    "To find 1/10 of a number, divide it by 10.",
+    "Dividing by 10 moves the decimal point 1 place to the left. Do this to ₱350."
+  ],
+  "solution": {
+    "methodName": "Change the percent to an easy fraction",
+    "steps": [
+      {
+        "action": "Change 10% to a fraction: 10% = 1/10.",
+        "why": "10 out of 100 is the same as 1 out of 10."
+      },
+      {
+        "action": "Divide by 10: ₱350 ÷ 10 = ₱35.",
+        "why": "To divide a number that ends in 0 by 10, drop the last 0. 350 becomes 35."
+      },
+      {
+        "action": "10% of ₱350 is ₱35."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱3.50": "This divides by 100, which gives 1%. For 10%, divide by 10.",
+    "₱340": "This subtracts 10 from 350. 10% means 1/10 of the amount, so divide by 10.",
+    "₱70": "This divides by 5, which gives 20%. For 10%, divide by 10."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

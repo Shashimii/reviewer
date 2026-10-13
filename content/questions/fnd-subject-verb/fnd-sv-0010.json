@@ -1,0 +1,46 @@
+{
+  "id": "fnd-sv-0010",
+  "topicId": "fnd-subject-verb",
+  "skill": "fnd-sv-agree",
+  "difficulty": 2,
+  "stem": "Choose the word that correctly completes the sentence.\n\nAna and her sister ___ nurses.",
+  "choices": [
+    "is",
+    "are",
+    "am",
+    "was"
+  ],
+  "answer": "are",
+  "hints": [
+    "Look at the whole subject, not just the word right before the blank.",
+    "Ask: who are nurses? Count the people joined by \"and\".",
+    "Two people joined by \"and\" make a plural subject, like \"they\". Am goes only with I. Pick the verb that goes with two or more people."
+  ],
+  "solution": {
+    "methodName": "Count the subject, then match the verb",
+    "steps": [
+      {
+        "action": "Find the subject: \"Ana and her sister\".",
+        "why": "Ask who the sentence is about. It is about both of them."
+      },
+      {
+        "action": "Count: Ana is one person and her sister is another. Two people make a plural subject.",
+        "why": "\"And\" adds the people together, so you can replace the subject with \"they\"."
+      },
+      {
+        "action": "A plural subject takes \"are\": they are nurses."
+      },
+      {
+        "action": "The answer is \"are\": Ana and her sister are nurses."
+      }
+    ]
+  },
+  "trapNotes": {
+    "is": "Sister is right before the blank, so it is easy to treat the subject as one person. But \"and\" joins Ana and her sister, and that makes two people.",
+    "am": "Am goes only with I, as in \"I am a nurse.\"",
+    "was": "Was goes with one person or thing. Ana and her sister are two people."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

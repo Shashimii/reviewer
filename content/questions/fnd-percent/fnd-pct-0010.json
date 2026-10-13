@@ -1,0 +1,47 @@
+{
+  "id": "fnd-pct-0010",
+  "topicId": "fnd-percent",
+  "skill": "fnd-pct-of",
+  "difficulty": 2,
+  "stem": "A shirt costs ₱400. It is on sale at 25% off. What is the sale price?",
+  "choices": [
+    "₱100",
+    "₱300",
+    "₱375",
+    "₱500"
+  ],
+  "answer": "₱300",
+  "hints": [
+    "There are two amounts here: the discount (the amount taken off) and the sale price (what you pay).",
+    "First find the discount: 25% of ₱400. 25% is 1/4, so divide by 4.",
+    "Subtract the discount from ₱400 to get the sale price."
+  ],
+  "solution": {
+    "methodName": "Find the discount, then subtract",
+    "steps": [
+      {
+        "action": "Change 25% to a fraction: 25% = 1/4.",
+        "why": "25 out of 100 is the same as 1 out of 4."
+      },
+      {
+        "action": "Find the discount: ₱400 ÷ 4 = ₱100.",
+        "why": "The discount is the amount taken off the price."
+      },
+      {
+        "action": "Subtract the discount from the price: ₱400 − ₱100 = ₱300.",
+        "why": "\"25% off\" means you pay the price minus the discount."
+      },
+      {
+        "action": "The sale price is ₱300."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱100": "This is the discount, the amount taken off. The question asks for the price you pay.",
+    "₱375": "This takes ₱25 off instead of 25%. 25% of ₱400 is ₱100.",
+    "₱500": "This adds the discount to the price. A discount is taken off, so subtract."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

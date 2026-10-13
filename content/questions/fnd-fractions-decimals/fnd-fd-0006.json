@@ -1,0 +1,43 @@
+{
+  "id": "fnd-fd-0006",
+  "topicId": "fnd-fractions-decimals",
+  "skill": "fnd-fd-compare",
+  "difficulty": 1,
+  "stem": "Which list is in order from smallest to largest?",
+  "choices": [
+    "6/7, 3/7, 1/7",
+    "3/7, 1/7, 6/7",
+    "1/7, 3/7, 6/7",
+    "1/7, 6/7, 3/7"
+  ],
+  "answer": "1/7, 3/7, 6/7",
+  "hints": [
+    "All three fractions have the same bottom number, 7.",
+    "When the bottoms are the same, the fraction with the bigger top is the bigger fraction.",
+    "Put the tops in order from smallest to largest, then find the list that matches."
+  ],
+  "solution": {
+    "methodName": "Same bottom: compare the tops",
+    "steps": [
+      {
+        "action": "Notice that 1/7, 3/7 and 6/7 all have the same bottom number, 7.",
+        "why": "The same bottom means the pieces are the same size: sevenths."
+      },
+      {
+        "action": "Compare the tops: 1 is less than 3, and 3 is less than 6.",
+        "why": "When the pieces are the same size, more pieces means a bigger amount. 6 sevenths is more than 3 sevenths."
+      },
+      {
+        "action": "From smallest to largest, the order is 1/7, 3/7, 6/7."
+      }
+    ]
+  },
+  "trapNotes": {
+    "6/7, 3/7, 1/7": "This list goes from largest to smallest. The question asks for the smallest first.",
+    "3/7, 1/7, 6/7": "This starts with 3/7, but 1/7 is smaller than 3/7. The smallest must come first.",
+    "1/7, 6/7, 3/7": "This puts 6/7 before 3/7. But 6/7 is bigger, so it must come last."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

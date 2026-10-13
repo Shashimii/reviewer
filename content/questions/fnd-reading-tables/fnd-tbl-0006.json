@@ -1,0 +1,46 @@
+{
+  "id": "fnd-tbl-0006",
+  "topicId": "fnd-reading-tables",
+  "skill": "fnd-tbl-compare",
+  "difficulty": 1,
+  "passage": "**Items sold at Aling Nena's sari-sari store**\n\n| Item | Monday | Tuesday | Wednesday |\n| --- | --- | --- | --- |\n| Bread | 24 | 30 | 18 |\n| Eggs | 36 | 28 | 40 |\n| Coffee sachets | 15 | 22 | 19 |\n| Soft drinks | 12 | 16 | 20 |",
+  "stem": "Which item sold the most on Wednesday?",
+  "choices": [
+    "Bread",
+    "Eggs",
+    "Coffee sachets",
+    "Soft drinks"
+  ],
+  "answer": "Eggs",
+  "hints": [
+    "Look only at the Wednesday column.",
+    "Read the four numbers in the Wednesday column, one for each item.",
+    "Find the largest number in the Wednesday column, then read the item name at the start of its row."
+  ],
+  "solution": {
+    "methodName": "Compare within one column, then read the row",
+    "steps": [
+      {
+        "action": "Find the Wednesday column.",
+        "why": "The question is only about Wednesday, so ignore the other days."
+      },
+      {
+        "action": "Read its numbers: Bread 18, Eggs 40, Coffee sachets 19, Soft drinks 20."
+      },
+      {
+        "action": "Find the largest: 40 is more than 20, 19 and 18."
+      },
+      {
+        "action": "40 is in the Eggs row, so eggs sold the most on Wednesday."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Bread": "Bread sold the most on Tuesday (30), but the question asks about Wednesday. On Wednesday, bread sold only 18.",
+    "Coffee sachets": "Coffee sachets sold only 19 on Wednesday. Compare all four numbers in the Wednesday column.",
+    "Soft drinks": "Soft drinks had their best day on Wednesday (20), but eggs sold even more that day (40)."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,50 @@
+{
+  "id": "fnd-fd-0004",
+  "topicId": "fnd-fractions-decimals",
+  "skill": "fnd-fd-compare",
+  "difficulty": 1,
+  "stem": "Write 6/8 in simplest form.",
+  "choices": [
+    "3/8",
+    "2/4",
+    "4/3",
+    "3/4"
+  ],
+  "answer": "3/4",
+  "hints": [
+    "Find a number that divides both 6 and 8 with nothing left over.",
+    "Both 6 and 8 are even, so you can divide both by 2.",
+    "Divide the top by 2 and the bottom by 2. Then check that no number except 1 divides both new numbers."
+  ],
+  "solution": {
+    "methodName": "Simplify: divide top and bottom by the same number",
+    "steps": [
+      {
+        "action": "Find a number that divides both 6 and 8: 2.",
+        "why": "Both numbers are even, and every even number can be divided by 2."
+      },
+      {
+        "action": "Divide the top by 2: 6 ÷ 2 = 3."
+      },
+      {
+        "action": "Divide the bottom by 2: 8 ÷ 2 = 4.",
+        "why": "Divide the top and the bottom by the same number. Then the fraction keeps its value."
+      },
+      {
+        "action": "Check: no number except 1 divides both 3 and 4, so you can stop.",
+        "why": "This is what simplest form means."
+      },
+      {
+        "action": "6/8 in simplest form is 3/4."
+      }
+    ]
+  },
+  "trapNotes": {
+    "3/8": "This divides only the top by 2. Divide the bottom by 2 as well.",
+    "2/4": "This subtracts 4 from the top and the bottom. To simplify, divide, don't subtract. Also, 2/4 is only a half, which is less than 6/8.",
+    "4/3": "These are the right numbers upside down. The top (6) gives the new top, so the answer is 3 over 4."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

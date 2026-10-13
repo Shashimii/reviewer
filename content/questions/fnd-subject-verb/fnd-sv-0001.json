@@ -1,0 +1,42 @@
+{
+  "id": "fnd-sv-0001",
+  "topicId": "fnd-subject-verb",
+  "skill": "fnd-sv-find",
+  "difficulty": 1,
+  "stem": "What is the subject of this sentence?\n\nMy mother cooks dinner every night.",
+  "choices": [
+    "dinner",
+    "mother",
+    "cooks",
+    "night"
+  ],
+  "answer": "mother",
+  "hints": [
+    "The subject is the person or thing that does the action.",
+    "Find the verb first: what action happens in the sentence?",
+    "Once you have the action word, ask \"Who does it?\". The word that answers is the subject."
+  ],
+  "solution": {
+    "methodName": "Find the verb, then ask who or what",
+    "steps": [
+      {
+        "action": "Find the verb: \"cooks\" is the action."
+      },
+      {
+        "action": "Ask: who cooks? My mother cooks.",
+        "why": "The subject is the one doing the action. \"My\" only tells whose mother, so the main word is \"mother\"."
+      },
+      {
+        "action": "The subject is \"mother\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "dinner": "Dinner is what gets cooked, not who does the cooking. Ask who cooks.",
+    "cooks": "Cooks is the verb, the action. The subject is the one who does it.",
+    "night": "Every night tells when she cooks. It does not do the action."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

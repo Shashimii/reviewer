@@ -1,0 +1,46 @@
+{
+  "id": "fnd-sv-0005",
+  "topicId": "fnd-subject-verb",
+  "skill": "fnd-sv-find",
+  "difficulty": 2,
+  "stem": "What is the subject of this sentence?\n\nThe box of pens is on the desk.",
+  "choices": [
+    "box",
+    "pens",
+    "is",
+    "desk"
+  ],
+  "answer": "box",
+  "hints": [
+    "The noun right before the verb is not always the subject.",
+    "Find the verb first. Then ask: what is on the desk?",
+    "The words \"of pens\" only tell what is inside. Cover them with your finger and read the sentence again. The noun left before the verb is the subject."
+  ],
+  "solution": {
+    "methodName": "Find the verb, then ask who or what",
+    "steps": [
+      {
+        "action": "Find the verb: \"is\".",
+        "why": "Am, is, are, was and were are verbs, even though they show no action."
+      },
+      {
+        "action": "Ask: what is on the desk? The box is on the desk."
+      },
+      {
+        "action": "\"of pens\" only tells what is inside the box. Cover it and read: The box is on the desk.",
+        "why": "A group of words like \"of pens\" adds detail about the noun before it. The subject is the main noun, not the detail."
+      },
+      {
+        "action": "The subject is \"box\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "pens": "Pens is right next to the verb, so it is easy to pick. But the pens are inside the box, and it is the box that is on the desk.",
+    "is": "Is is the verb. The subject is the thing the sentence is about.",
+    "desk": "Desk tells where the box is. It comes after the verb and is not what the sentence is about."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

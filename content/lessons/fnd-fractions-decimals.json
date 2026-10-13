@@ -1,0 +1,55 @@
+{
+  "id": "fnd-fractions-decimals-lesson",
+  "topicId": "fnd-fractions-decimals",
+  "workedExampleId": "fnd-fd-0001",
+  "sections": [
+    {
+      "heading": "What fractions and decimals mean",
+      "body": "A **fraction** shows part of a whole, like 3/4. The bottom number, the **denominator**, tells how many **equal** parts the whole is cut into. The top number, the **numerator**, tells how many of those parts you have. A cake is cut into 6 equal slices and you eat 1, so you ate **1/6** of the cake.\n\nA **decimal** shows parts of a whole after a dot called the **decimal point**. The first place after the point is **tenths**. The second place is **hundredths**.\n\n- 0.3 = 3 tenths = 3/10\n- 0.25 = 25 hundredths = 25/100, like 25 centavos out of ₱1\n\nLearn these by heart:\n\n| Fraction | Decimal |\n| --- | --- |\n| 1/2 | 0.5 |\n| 1/4 | 0.25 |\n| 3/4 | 0.75 |\n| 1/10 | 0.1 |"
+    },
+    {
+      "heading": "Comparing and simplifying",
+      "body": "- **Same bottom:** the bigger top is the bigger fraction. 5/9 is more than 2/9.\n- **Same top:** the smaller bottom is the bigger fraction. 1/2 is more than 1/5, because fewer pieces means bigger pieces.\n- **Simplify:** divide the top and the bottom by the same number. 10/15, divided by 5, is **2/3**. A fraction is in **simplest form** when no number except 1 divides both.\n- **Decimals:** add zeros at the end until they have the same number of digits after the point, then compare. 0.6 = 0.60, which is more than 0.58."
+    },
+    {
+      "heading": "Adding, subtracting, multiplying and dividing",
+      "body": "- **Same bottom:** add or subtract the tops and keep the bottom. 1/5 + 3/5 = 4/5. 7/9 − 2/9 = 5/9.\n- **Decimals:** line up the points. Add zeros if needed. 2.5 + 0.35 → 2.50 + 0.35 = 2.85.\n- **A fraction of a number:** divide by the bottom, then multiply by the top. 3/5 of 20: 20 ÷ 5 = 4, then 4 × 3 = 12.\n- **Divide by a fraction:** count how many fit. How many 1/2-cup scoops are in 3 cups? Each cup holds 2 scoops, so 3 × 2 = 6."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Adding the bottoms.** 1/5 + 3/5 is 4/5, not 4/10.\n- **Upside down.** The whole goes on the bottom.\n- **More digits is not bigger.** 0.45 is less than 0.5.\n- **Lining up the last digits.** Line up the decimal points instead.\n- **Answering the wrong part.** If 1 of 6 slices is eaten, 5/6 is the part left, not the part eaten."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Fraction",
+      "definition": "A number that shows part of a whole, written as top/bottom, like 3/4.",
+      "taglish": "Fraction – bahagi ng isang buo, halimbawa 1/6 ng cake kung 1 sa 6 na hiwa ang kinain"
+    },
+    {
+      "term": "Numerator",
+      "definition": "The top number of a fraction. It tells how many parts you have.",
+      "taglish": "Numerator – ang numero sa itaas; ilang bahagi ang hawak mo"
+    },
+    {
+      "term": "Denominator",
+      "definition": "The bottom number of a fraction. It tells how many equal parts make the whole.",
+      "taglish": "Denominator – ang numero sa ibaba; ilang pantay na hati ang buo"
+    },
+    {
+      "term": "Simplest form",
+      "definition": "A fraction is in simplest form when no number except 1 divides both its top and its bottom.",
+      "taglish": "Simplest form – pinakasimpleng anyo; wala nang numerong puwedeng mag-divide sa taas at baba maliban sa 1"
+    },
+    {
+      "term": "Decimal",
+      "definition": "A number with a decimal point, where the digits after the point are parts of a whole, like 0.25.",
+      "taglish": "Decimal – numerong may tuldok, gaya ng 0.25 o 25 sentimo sa ₱1"
+    },
+    {
+      "term": "Tenths and hundredths",
+      "definition": "Tenths are the first place after the decimal point (0.3 = 3/10). Hundredths are the second place (0.07 = 7/100).",
+      "taglish": "Tenths at hundredths – una at ikalawang puwesto pagkatapos ng tuldok; ikasampu at ikasandaang bahagi"
+    }
+  ]
+}

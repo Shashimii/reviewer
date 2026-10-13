@@ -1,0 +1,46 @@
+{
+  "id": "fnd-sv-0004",
+  "topicId": "fnd-subject-verb",
+  "skill": "fnd-sv-find",
+  "difficulty": 1,
+  "stem": "What is the subject of this sentence?\n\nEvery morning, the guard checks the bags.",
+  "choices": [
+    "morning",
+    "guard",
+    "checks",
+    "bags"
+  ],
+  "answer": "guard",
+  "hints": [
+    "The first noun in a sentence is not always the subject.",
+    "Find the verb first: what action happens?",
+    "Ask \"Who checks the bags?\". Words that only tell when something happens are not the subject."
+  ],
+  "solution": {
+    "methodName": "Find the verb, then ask who or what",
+    "steps": [
+      {
+        "action": "Find the verb: \"checks\"."
+      },
+      {
+        "action": "Ask: who checks? The guard checks.",
+        "why": "The subject is the one doing the action."
+      },
+      {
+        "action": "\"Every morning\" only tells when, and \"the bags\" are what get checked.",
+        "why": "Neither of them does the action, so neither is the subject."
+      },
+      {
+        "action": "The subject is \"guard\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "morning": "Morning comes first, but \"every morning\" only tells when. A morning cannot check bags.",
+    "checks": "Checks is the verb, the action. The subject is the one who does it.",
+    "bags": "The bags are what get checked. They do not do the action."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

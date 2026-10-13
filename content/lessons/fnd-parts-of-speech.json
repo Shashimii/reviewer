@@ -1,0 +1,65 @@
+{
+  "id": "fnd-parts-of-speech-lesson",
+  "topicId": "fnd-parts-of-speech",
+  "workedExampleId": "fnd-pos-0001",
+  "sections": [
+    {
+      "heading": "Nouns and verbs",
+      "body": "Every word in a sentence has a job. That job is called its **part of speech**. To find it, **ask what job the word does** in that sentence.\n\n- A **noun** names a person, place, thing or idea: *teacher, Rosa, market, chair, honesty*.\n- A **verb** shows an action (*sign, waited, opens*) or a state of being (*am, is, are, was, were*).\n\n**Example:** *The nurse signed the form.* What did the nurse do? She **signed**, so *signed* is the verb. *Nurse* and *form* name a person and a thing, so they are nouns."
+    },
+    {
+      "heading": "Adjectives and adverbs: the describers",
+      "body": "Some words add detail. To tell them apart, **find the word it describes**.\n\n- An **adjective** describes a noun. It tells what kind, which one or how many: *a red dress, three chairs, the new clerk*.\n- An **adverb** usually describes a verb. It tells how, when or where: *spoke softly, arrived early, waited outside*. Many adverbs end in **-ly**.\n\n**Example:** *The new clerk works quickly.* *New* describes the clerk, a noun, so it is an adjective. *Quickly* tells how the clerk works, a verb, so it is an adverb."
+    },
+    {
+      "heading": "The small words",
+      "body": "- A **pronoun** takes the place of a noun, so you don't repeat it: *I, you, he, she, it, we, they*.\n- A **preposition** shows place, time or direction, and comes before a noun: *in, on, at, under, near, to, from*.\n- A **conjunction** joins words or parts of a sentence: *and, but, or, so, because*.\n\n**Example:** *Ana sat near the door, and she waited.*\n\n| Word | Job | Part of speech |\n| --- | --- | --- |\n| she | stands for Ana | pronoun |\n| near | shows where | preposition |\n| and | joins two parts | conjunction |"
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **One word, two jobs.** In *Please file the papers*, *file* is a verb. In *Open the file*, it is a noun. Always check the sentence.\n- **Am, is, are, was and were are verbs**, even though they show no action.\n- **Not every -ly word is an adverb.** *Friendly, lovely* and *costly* describe nouns, so they are adjectives.\n- **Small words do different jobs.** *At* and *under* show place, so they are prepositions. *And* and *but* join, so they are conjunctions.\n- **Names are nouns.** The pronoun is the word that replaces the name."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Part of speech",
+      "definition": "The job a word does in a sentence, such as naming something or showing an action.",
+      "taglish": "Part of speech – ang trabaho o papel ng salita sa pangungusap"
+    },
+    {
+      "term": "Noun",
+      "definition": "A noun names a person, place, thing or idea.",
+      "taglish": "Noun (pangngalan) – pangalan ng tao, lugar, bagay o ideya"
+    },
+    {
+      "term": "Verb",
+      "definition": "A verb shows an action, like walk, or a state of being, like is.",
+      "taglish": "Verb (pandiwa) – salitang kilos, o salitang tulad ng is, are, was"
+    },
+    {
+      "term": "Adjective",
+      "definition": "An adjective describes a noun: what kind, which one or how many.",
+      "taglish": "Adjective (pang-uri) – naglalarawan sa pangngalan, hal. red, tired, three"
+    },
+    {
+      "term": "Adverb",
+      "definition": "An adverb usually describes a verb: how, when or where something happens.",
+      "taglish": "Adverb (pang-abay) – naglalarawan sa kilos: paano, kailan, saan"
+    },
+    {
+      "term": "Pronoun",
+      "definition": "A pronoun is a word used in place of a noun, such as he, she or they.",
+      "taglish": "Pronoun (panghalip) – pamalit sa pangngalan, hal. he, she, they"
+    },
+    {
+      "term": "Preposition",
+      "definition": "A preposition is a small word before a noun that shows place, time or direction.",
+      "taglish": "Preposition (pang-ukol) – maliit na salitang nagsasabi ng lugar, oras o direksyon, hal. in, on, under"
+    },
+    {
+      "term": "Conjunction",
+      "definition": "A conjunction joins words or parts of a sentence, such as and, but or because.",
+      "taglish": "Conjunction (pangatnig) – pandugtong ng mga salita o bahagi ng pangungusap, hal. and, but"
+    }
+  ]
+}

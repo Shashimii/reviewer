@@ -1,0 +1,42 @@
+{
+  "id": "fnd-pos-0008",
+  "topicId": "fnd-parts-of-speech",
+  "skill": "fnd-pos-small-words",
+  "difficulty": 1,
+  "stem": "Which word is a pronoun in this sentence?\n\nBen was late because he missed the bus.",
+  "choices": [
+    "he",
+    "Ben",
+    "late",
+    "bus"
+  ],
+  "answer": "he",
+  "hints": [
+    "A pronoun takes the place of a noun, so you don't have to repeat a name.",
+    "Look at the second part of the sentence. Which word stands for Ben?",
+    "Names like Ben are nouns. Find the short word used instead of the name. That word is the pronoun."
+  ],
+  "solution": {
+    "methodName": "Ask what job the word does",
+    "steps": [
+      {
+        "action": "A pronoun is a word used in place of a noun, such as I, you, he, she, it, we or they."
+      },
+      {
+        "action": "In the second part of the sentence, \"he\" stands for Ben.",
+        "why": "Without the pronoun, the sentence would say \"Ben was late because Ben missed the bus.\" The pronoun saves you from repeating the name."
+      },
+      {
+        "action": "The pronoun is \"he\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Ben": "Ben is a name, so it is a noun. The pronoun is the word used in place of Ben.",
+    "late": "Late describes Ben, so it is an adjective, not a pronoun.",
+    "bus": "Bus names a thing, so it is a noun."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

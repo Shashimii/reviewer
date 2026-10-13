@@ -1,0 +1,45 @@
+{
+  "id": "fnd-pos-0004",
+  "topicId": "fnd-parts-of-speech",
+  "skill": "fnd-pos-nouns-verbs",
+  "difficulty": 2,
+  "stem": "Which word is the verb in this sentence?\n\nMy sister is a nurse.",
+  "choices": [
+    "My",
+    "sister",
+    "is",
+    "nurse"
+  ],
+  "answer": "is",
+  "hints": [
+    "Not every verb shows an action. Some verbs tell what someone is.",
+    "Start by finding the nouns: which words name a person?",
+    "Set aside the words that name a person, and the word that only tells whose sister. The word left joins \"my sister\" to \"a nurse\". A joining word like this is a verb, even though it is not an action."
+  ],
+  "solution": {
+    "methodName": "Ask what job the word does",
+    "steps": [
+      {
+        "action": "\"sister\" and \"nurse\" name people, so they are nouns."
+      },
+      {
+        "action": "\"My\" only tells whose sister it is. It is not an action or a state of being."
+      },
+      {
+        "action": "\"is\" joins \"my sister\" to \"a nurse\". It tells what she is.",
+        "why": "A verb shows an action or a state of being. Am, is, are, was and were are state-of-being verbs. This sentence has no action word, so \"is\" does the verb's job."
+      },
+      {
+        "action": "The verb is \"is\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "My": "My tells whose sister it is. It is not something anyone does or is.",
+    "sister": "Sister names a person, so it is a noun. It is the person the sentence is about, not the verb.",
+    "nurse": "Nurse tells what job she has, so it is easy to treat it as the action. But it names a job, so it is a noun."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

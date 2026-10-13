@@ -1,0 +1,60 @@
+{
+  "id": "fnd-reading-tables-lesson",
+  "topicId": "fnd-reading-tables",
+  "workedExampleId": "fnd-tbl-0001",
+  "sections": [
+    {
+      "heading": "Parts of a table",
+      "body": "A **table** puts information in rows and columns.\n\n- A **row** goes across, from left to right.\n- A **column** goes down, from top to bottom.\n- The **heading** is the top row. It names what each column is about.\n- A **cell** is one box, where a row and a column meet.\n\nAlways read the title and the headings first, so you know what the numbers mean: items, pesos, days or times."
+    },
+    {
+      "heading": "Finding a value",
+      "body": "Use two fingers:\n\n1. Put one finger on the row you need, for example **Sugar**.\n2. Put the other finger on the column you need, for example **Tuesday**.\n3. Read the cell where they meet.\n\n| Item | Monday | Tuesday |\n| --- | --- | --- |\n| Rice (kg) | 12 | 15 |\n| Sugar (kg) | 8 | 6 |\n\nSugar on Tuesday: **6 kg**.\n\nSometimes you know the value and need the row. Go down the right column until you find the value, then read the name at the start of that row."
+    },
+    {
+      "heading": "Comparing and adding",
+      "body": "Use the same small table.\n\n- **Most or least:** stay in one column. Find the biggest or smallest number, then read its row name. On Monday, rice (12) beat sugar (8).\n- **In all** or **total:** add. Rice on both days: 12 + 15 = 27 kg.\n- **How much more** or **how much higher:** subtract the smaller number from the bigger one. Rice minus sugar on Monday: 12 − 8 = 4 kg. This answer is called the **difference**.\n- **Times:** count the minutes from the first time to the second. A trip from 9:00 a.m. to 9:40 a.m. takes 40 minutes."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Wrong row or wrong column.** Check both labels before you answer.\n- **Two columns that look alike.** Leaves or arrives? Vacation or sick leave? Use the column the question names.\n- **Leaving out a value.** \"Monday to Wednesday\" means three values, not two.\n- **Adding when you should subtract.** \"How much more\" means subtract.\n- **Forgetting to carry or borrow** when you work by hand."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Table",
+      "definition": "A way of showing information in rows and columns.",
+      "taglish": "Table – talaan ng impormasyon na nakaayos sa rows at columns"
+    },
+    {
+      "term": "Row",
+      "definition": "A line of cells that goes across a table, from left to right.",
+      "taglish": "Row – pahalang na linya ng mga kahon, mula kaliwa pakanan"
+    },
+    {
+      "term": "Column",
+      "definition": "A line of cells that goes down a table, from top to bottom.",
+      "taglish": "Column – patayong linya ng mga kahon, mula itaas pababa"
+    },
+    {
+      "term": "Heading",
+      "definition": "The label at the top of a column that tells what the column is about.",
+      "taglish": "Heading – pamagat sa itaas ng column; sinasabi kung tungkol saan ito"
+    },
+    {
+      "term": "Cell",
+      "definition": "One box in a table, where a row and a column meet.",
+      "taglish": "Cell – isang kahon sa table kung saan nagtatagpo ang row at column"
+    },
+    {
+      "term": "Total",
+      "definition": "The amount you get when you add values together.",
+      "taglish": "Total – kabuuan; i-add lahat ng numero"
+    },
+    {
+      "term": "Difference",
+      "definition": "How much bigger one number is than another. You find it by subtracting.",
+      "taglish": "Difference – pagkakaiba; ang sagot kapag nag-subtract ka"
+    }
+  ]
+}

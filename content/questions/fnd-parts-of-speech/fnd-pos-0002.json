@@ -1,0 +1,48 @@
+{
+  "id": "fnd-pos-0002",
+  "topicId": "fnd-parts-of-speech",
+  "skill": "fnd-pos-nouns-verbs",
+  "difficulty": 1,
+  "stem": "Which of these words is a noun?",
+  "choices": [
+    "arrive",
+    "beautiful",
+    "quickly",
+    "teacher"
+  ],
+  "answer": "teacher",
+  "hints": [
+    "A noun names a person, a place, a thing or an idea.",
+    "Take each word in turn and ask: is it a person, a place, a thing or an idea?",
+    "One word is an action, one describes how something looks, one tells how something is done, and one names a person. Pick the word that names a person."
+  ],
+  "solution": {
+    "methodName": "Ask what job the word does",
+    "steps": [
+      {
+        "action": "A noun names a person, place, thing or idea.",
+        "why": "So look for the word that is the name of something."
+      },
+      {
+        "action": "\"arrive\" is something you do, as in \"I arrive at eight.\" It is a verb."
+      },
+      {
+        "action": "\"beautiful\" describes how something looks, as in \"a beautiful park.\" It is an adjective."
+      },
+      {
+        "action": "\"quickly\" tells how something is done, as in \"walk quickly.\" It is an adverb."
+      },
+      {
+        "action": "\"teacher\" names a person, so the noun is \"teacher\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "arrive": "Arrive is an action: you can say \"I arrive at eight.\" Action words are verbs, not nouns.",
+    "beautiful": "Beautiful describes a person or thing, as in \"a beautiful park.\" Describing words like this are adjectives.",
+    "quickly": "Quickly tells how something is done, as in \"walk quickly.\" Words like this are adverbs."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

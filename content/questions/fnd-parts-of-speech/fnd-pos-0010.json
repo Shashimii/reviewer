@@ -1,0 +1,46 @@
+{
+  "id": "fnd-pos-0010",
+  "topicId": "fnd-parts-of-speech",
+  "skill": "fnd-pos-small-words",
+  "difficulty": 2,
+  "stem": "Which word is a conjunction in this sentence?\n\nPedro and Lita waited at the gate.",
+  "choices": [
+    "Pedro",
+    "and",
+    "waited",
+    "at"
+  ],
+  "answer": "and",
+  "hints": [
+    "A conjunction is a joining word. It connects two words or two parts of a sentence.",
+    "Two of the choices are small words. Ask what each one does in the sentence.",
+    "One small word shows where they waited. The other joins two people together. The joining word is the conjunction."
+  ],
+  "solution": {
+    "methodName": "Ask what job the word does",
+    "steps": [
+      {
+        "action": "\"Pedro\" is a name, so it is a noun. \"waited\" is the action, so it is a verb."
+      },
+      {
+        "action": "\"at\" comes before \"the gate\" and shows where they waited.",
+        "why": "A small word that shows place before a noun is a preposition."
+      },
+      {
+        "action": "\"and\" joins Pedro with Lita.",
+        "why": "A word that joins words or parts of a sentence is a conjunction. Common ones are and, but, or, so and because."
+      },
+      {
+        "action": "The conjunction is \"and\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Pedro": "Pedro is a name, so it is a noun.",
+    "waited": "Waited is what they did, so it is a verb.",
+    "at": "At is a small word too, but it shows where they waited. A word that shows place is a preposition, not a conjunction."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

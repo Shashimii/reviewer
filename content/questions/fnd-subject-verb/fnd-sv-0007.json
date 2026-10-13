@@ -1,0 +1,49 @@
+{
+  "id": "fnd-sv-0007",
+  "topicId": "fnd-subject-verb",
+  "skill": "fnd-sv-agree",
+  "difficulty": 1,
+  "stem": "Which sentence is correct?",
+  "choices": [
+    "My brother have a new job.",
+    "My brothers has a new job.",
+    "My brother having a new job.",
+    "My brother has a new job."
+  ],
+  "answer": "My brother has a new job.",
+  "hints": [
+    "Check the subject in each sentence. Is it one brother or more than one?",
+    "Start with the subject: \"brother\" means one person, and \"brothers\" means more than one.",
+    "One person or thing goes with has. Two or more go with have. A word ending in -ing cannot be the verb by itself. Check each sentence against these rules."
+  ],
+  "solution": {
+    "methodName": "Count the subject, then match the verb",
+    "steps": [
+      {
+        "action": "Look at the subject in each choice: \"brother\" is one person, and \"brothers\" is more than one."
+      },
+      {
+        "action": "One person takes \"has\". More than one takes \"have\".",
+        "why": "He, she, it and one person or thing go with has. We, they and two or more go with have."
+      },
+      {
+        "action": "\"My brother have\" and \"My brothers has\" mix these up, so both are wrong."
+      },
+      {
+        "action": "\"My brother having\" has no full verb.",
+        "why": "A word ending in -ing needs a helper like is or was before it, as in \"is having\"."
+      },
+      {
+        "action": "The correct sentence is \"My brother has a new job.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "My brother have a new job.": "Brother is one person, so the verb must be has. Have goes with two or more, or with I and you.",
+    "My brothers has a new job.": "Brothers means more than one, so the verb must be have. Has goes with only one person or thing.",
+    "My brother having a new job.": "This is not a full sentence. A word ending in -ing cannot be the verb by itself; it needs a helper like is."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

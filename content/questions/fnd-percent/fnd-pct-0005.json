@@ -1,0 +1,45 @@
+{
+  "id": "fnd-pct-0005",
+  "topicId": "fnd-percent",
+  "skill": "fnd-pct-meaning",
+  "difficulty": 1,
+  "stem": "A barangay office has a budget for supplies. By December, it has used 100% of that budget. How much of the budget has it used?",
+  "choices": [
+    "Half of it",
+    "A tenth of it",
+    "All of it",
+    "A quarter of it"
+  ],
+  "answer": "All of it",
+  "hints": [
+    "Percent means \"out of 100\". Think of the budget as 100 equal parts.",
+    "100% means 100 out of 100 parts.",
+    "If you use 100 of the 100 parts, how many parts are left? Pick the choice that matches."
+  ],
+  "solution": {
+    "methodName": "Percent means out of 100",
+    "steps": [
+      {
+        "action": "Think of the budget as 100 equal parts.",
+        "why": "Percent means out of 100, so 100 parts make the whole."
+      },
+      {
+        "action": "100% means 100 out of 100 parts."
+      },
+      {
+        "action": "100 out of 100 parts is every part, so nothing is left."
+      },
+      {
+        "action": "The office has used all of its budget."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Half of it": "Half is 50 out of 100, which is 50%. 100% means all 100 parts.",
+    "A tenth of it": "A tenth is 10 out of 100, which is 10%. 100% means all 100 parts.",
+    "A quarter of it": "A quarter is 25 out of 100, which is 25%. 100% means all 100 parts."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

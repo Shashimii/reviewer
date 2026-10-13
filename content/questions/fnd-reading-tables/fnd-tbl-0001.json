@@ -1,0 +1,48 @@
+{
+  "id": "fnd-tbl-0001",
+  "topicId": "fnd-reading-tables",
+  "skill": "fnd-tbl-find",
+  "difficulty": 1,
+  "passage": "**Items sold at Aling Nena's sari-sari store**\n\n| Item | Monday | Tuesday | Wednesday |\n| --- | --- | --- | --- |\n| Bread | 24 | 30 | 18 |\n| Eggs | 36 | 28 | 40 |\n| Coffee sachets | 15 | 22 | 19 |\n| Soft drinks | 12 | 16 | 20 |",
+  "stem": "How many eggs were sold on Tuesday?",
+  "choices": [
+    "30",
+    "36",
+    "28",
+    "40"
+  ],
+  "answer": "28",
+  "hints": [
+    "You need two things: the row for eggs and the column for Tuesday.",
+    "Find the row that starts with \"Eggs\". Keep your finger on that row.",
+    "Move along the Eggs row until you reach the Tuesday column. Read the number in that box."
+  ],
+  "solution": {
+    "methodName": "Find the row, find the column, read where they meet",
+    "steps": [
+      {
+        "action": "Find the row for the item: Eggs.",
+        "why": "Each row is about one item. The item names are in the first column."
+      },
+      {
+        "action": "Find the column for the day: Tuesday.",
+        "why": "Each column is about one day. The day names are in the top row, called the heading."
+      },
+      {
+        "action": "Read the box where the Eggs row and the Tuesday column meet: 28.",
+        "why": "This box belongs to both eggs and Tuesday, so it answers the question."
+      },
+      {
+        "action": "The store sold 28 eggs on Tuesday."
+      }
+    ]
+  },
+  "trapNotes": {
+    "30": "This is bread on Tuesday. You used the right column but the wrong row.",
+    "36": "This is eggs on Monday. You used the right row but the wrong column.",
+    "40": "This is eggs on Wednesday. You used the right row but the wrong column."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,46 @@
+{
+  "id": "fnd-fd-0009",
+  "topicId": "fnd-fractions-decimals",
+  "skill": "fnd-fd-operations",
+  "difficulty": 1,
+  "stem": "Lito has 12 mangoes. He gives 1/3 of them to his neighbor. How many mangoes does he give away?",
+  "choices": [
+    "8",
+    "4",
+    "36",
+    "9"
+  ],
+  "answer": "4",
+  "hints": [
+    "1/3 of something means you split it into 3 equal groups and take 1 group.",
+    "Split the 12 mangoes into 3 equal groups: 12 ÷ 3.",
+    "Find how many mangoes are in one group. Lito gives away 1 group."
+  ],
+  "solution": {
+    "methodName": "Fraction of a number: divide by the bottom, multiply by the top",
+    "steps": [
+      {
+        "action": "Divide 12 by the bottom number: 12 ÷ 3 = 4.",
+        "why": "The bottom number 3 tells you to split the mangoes into 3 equal groups. Each group has 4 mangoes."
+      },
+      {
+        "action": "Multiply by the top number: 4 × 1 = 4.",
+        "why": "The top number 1 tells you how many groups he gives away."
+      },
+      {
+        "action": "Check: 3 groups of 4 mangoes make 12 mangoes."
+      },
+      {
+        "action": "Lito gives away 4 mangoes."
+      }
+    ]
+  },
+  "trapNotes": {
+    "8": "This is the number of mangoes Lito keeps (12 − 4 = 8). The question asks how many he gives away.",
+    "9": "This takes 3 away from 12. To find 1/3, split 12 into 3 equal groups instead.",
+    "36": "This multiplies 12 by 3. To find 1/3 of 12, divide by 3."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

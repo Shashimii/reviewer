@@ -1,0 +1,45 @@
+{
+  "id": "fnd-pos-0006",
+  "topicId": "fnd-parts-of-speech",
+  "skill": "fnd-pos-describers",
+  "difficulty": 1,
+  "stem": "Which word is an adverb in this sentence?\n\nThe guard spoke softly to the visitor.",
+  "choices": [
+    "guard",
+    "spoke",
+    "visitor",
+    "softly"
+  ],
+  "answer": "softly",
+  "hints": [
+    "An adverb describes a verb. It tells how, when or where something happens.",
+    "Find the verb first: what did the guard do?",
+    "Ask \"How did the guard speak?\". The word that answers tells how, so it is the adverb."
+  ],
+  "solution": {
+    "methodName": "Find the word it describes",
+    "steps": [
+      {
+        "action": "Find the verb: the guard \"spoke\"."
+      },
+      {
+        "action": "Ask: how did the guard speak? Softly.",
+        "why": "An adverb answers how, when or where about a verb."
+      },
+      {
+        "action": "\"softly\" describes the verb \"spoke\". It also ends in -ly, like many adverbs."
+      },
+      {
+        "action": "The adverb is \"softly\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "guard": "Guard names a person, so it is a noun.",
+    "spoke": "Spoke is the verb, the action itself. The adverb is the word that describes how the guard spoke.",
+    "visitor": "Visitor names a person, so it is a noun. Adverbs describe actions, not people."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

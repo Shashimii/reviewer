@@ -1,0 +1,42 @@
+{
+  "id": "fnd-sv-0002",
+  "topicId": "fnd-subject-verb",
+  "skill": "fnd-sv-find",
+  "difficulty": 1,
+  "stem": "Which word is the verb in this sentence?\n\nOur office opens at nine.",
+  "choices": [
+    "Our",
+    "office",
+    "opens",
+    "nine"
+  ],
+  "answer": "opens",
+  "hints": [
+    "The verb shows what the subject does, or what it is.",
+    "Find what the sentence is about: our office. Then ask what it does.",
+    "Ask \"What does the office do at nine?\". The word that answers is the verb."
+  ],
+  "solution": {
+    "methodName": "Find the verb, then ask who or what",
+    "steps": [
+      {
+        "action": "The sentence is about \"our office\"."
+      },
+      {
+        "action": "Ask: what does the office do? It opens.",
+        "why": "The verb tells what the subject does."
+      },
+      {
+        "action": "The verb is \"opens\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Our": "Our tells whose office it is. It does not show an action.",
+    "office": "Office is the subject, the thing the sentence is about. The verb tells what the office does.",
+    "nine": "Nine tells the time. It does not show an action."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

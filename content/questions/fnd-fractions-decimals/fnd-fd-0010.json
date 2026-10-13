@@ -1,0 +1,47 @@
+{
+  "id": "fnd-fd-0010",
+  "topicId": "fnd-fractions-decimals",
+  "skill": "fnd-fd-operations",
+  "difficulty": 2,
+  "stem": "Aling Rosa has 2 kilos of sugar. She packs it into small bags of 1/4 kilo each. How many bags can she fill?",
+  "choices": [
+    "4",
+    "6",
+    "1/2",
+    "8"
+  ],
+  "answer": "8",
+  "hints": [
+    "Ask first: how many 1/4-kilo bags can 1 kilo fill?",
+    "1 kilo is 4 quarters, so 1 kilo fills 4 bags.",
+    "She has 2 kilos. Multiply the number of bags for 1 kilo by the number of kilos."
+  ],
+  "solution": {
+    "methodName": "Dividing by a fraction: count how many fit",
+    "steps": [
+      {
+        "action": "Find how many 1/4-kilo bags 1 kilo fills: 4 bags.",
+        "why": "1/4 means 1 of 4 equal parts. So 1 kilo splits into 4 parts of 1/4 kilo."
+      },
+      {
+        "action": "She has 2 kilos, so multiply: 2 × 4 = 8.",
+        "why": "Each kilo fills 4 bags, so 2 kilos fill twice as many."
+      },
+      {
+        "action": "This is the same as 2 ÷ 1/4 = 2 × 4 = 8.",
+        "why": "Dividing by 1/4 is the same as multiplying by 4."
+      },
+      {
+        "action": "Aling Rosa can fill 8 bags."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4": "This is the number of bags for 1 kilo only. She has 2 kilos.",
+    "6": "This adds 2 + 4. Each kilo fills 4 bags, so multiply 2 × 4.",
+    "1/2": "This multiplies 2 × 1/4. That gives the weight of 2 small bags in kilos, not the number of bags."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

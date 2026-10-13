@@ -1,0 +1,46 @@
+{
+  "id": "fnd-pos-0007",
+  "topicId": "fnd-parts-of-speech",
+  "skill": "fnd-pos-describers",
+  "difficulty": 2,
+  "stem": "What part of speech is the word \"friendly\" in this sentence?\n\nThe friendly clerk helped us.",
+  "choices": [
+    "Adverb",
+    "Adjective",
+    "Noun",
+    "Verb"
+  ],
+  "answer": "Adjective",
+  "hints": [
+    "Do not decide by the ending alone. Look at which word \"friendly\" describes.",
+    "Ask: friendly describes what? Then ask whether that word is a noun or a verb.",
+    "A word that describes a noun is an adjective. A word that describes a verb is an adverb. Find what \"friendly\" describes, then decide."
+  ],
+  "solution": {
+    "methodName": "Find the word it describes",
+    "steps": [
+      {
+        "action": "Find the word that \"friendly\" describes: the friendly clerk.",
+        "why": "It comes right before \"clerk\" and tells what kind of clerk."
+      },
+      {
+        "action": "\"clerk\" names a person, so it is a noun."
+      },
+      {
+        "action": "A word that describes a noun is an adjective.",
+        "why": "Many adverbs end in -ly, like softly and quickly. But not every -ly word is an adverb. Friendly, lovely and costly describe nouns."
+      },
+      {
+        "action": "\"friendly\" is an adjective."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Adverb": "Many adverbs end in -ly, so this is the easy trap. But adverbs describe verbs. Friendly describes the clerk, which is a noun.",
+    "Noun": "Friendly does not name a person or thing. It tells what kind of clerk.",
+    "Verb": "The action here is \"helped\". Friendly is not something the clerk did; it describes the clerk."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

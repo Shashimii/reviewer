@@ -1,0 +1,51 @@
+{
+  "id": "fnd-pct-0008",
+  "topicId": "fnd-percent",
+  "skill": "fnd-pct-of",
+  "difficulty": 1,
+  "stem": "What is 25% of 40?",
+  "choices": [
+    "10",
+    "160",
+    "15",
+    "4"
+  ],
+  "answer": "10",
+  "hints": [
+    "25% is the same as one quarter, 1/4.",
+    "To find 1/4 of a number, divide it by 4.",
+    "Work out 40 ÷ 4. That is 25% of 40."
+  ],
+  "solution": {
+    "methodName": "Change the percent to an easy fraction",
+    "steps": [
+      {
+        "action": "Write 25% as a fraction over 100: 25/100.",
+        "why": "Percent means out of 100."
+      },
+      {
+        "action": "Simplify: 25/100 = 1/4.",
+        "why": "Divide the top and the bottom by 25. 25 goes into 100 exactly 4 times, like four 25-centavo coins in ₱1."
+      },
+      {
+        "action": "To find 1/4 of 40, divide by 4: 40 ÷ 4 = 10.",
+        "why": "1/4 means you split 40 into 4 equal parts and take 1 part."
+      },
+      {
+        "action": "Check: 4 parts of 10 make 40.",
+        "why": "If the 4 equal parts add back to the whole, your part is right."
+      },
+      {
+        "action": "25% of 40 is 10."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4": "This divides by 10, which gives 10%. For 25%, divide by 4.",
+    "15": "This subtracts 25 from 40. To find 25%, divide by 4 instead.",
+    "160": "This multiplies 40 by 4. 25% is a part of 40, so the answer must be smaller than 40. Divide by 4."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

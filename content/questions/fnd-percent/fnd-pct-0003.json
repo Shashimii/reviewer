@@ -1,0 +1,46 @@
+{
+  "id": "fnd-pct-0003",
+  "topicId": "fnd-percent",
+  "skill": "fnd-pct-meaning",
+  "difficulty": 1,
+  "stem": "Write 75% as a decimal.",
+  "choices": [
+    "7.5",
+    "75.0",
+    "0.075",
+    "0.75"
+  ],
+  "answer": "0.75",
+  "hints": [
+    "Percent means \"out of 100\", so 75% = 75/100.",
+    "Dividing by 100 moves the decimal point 2 places to the left.",
+    "Start with 75.0 and move the point 2 places to the left. Write a 0 before the point if there is no whole number."
+  ],
+  "solution": {
+    "methodName": "Percent to decimal: move the point 2 places left",
+    "steps": [
+      {
+        "action": "Write 75% as 75/100.",
+        "why": "Percent means out of 100."
+      },
+      {
+        "action": "75/100 is 75 hundredths."
+      },
+      {
+        "action": "Write 75 hundredths as a decimal: 0.75.",
+        "why": "Hundredths use 2 places after the point. A quick way: start with 75.0 and move the point 2 places to the left."
+      },
+      {
+        "action": "75% = 0.75."
+      }
+    ]
+  },
+  "trapNotes": {
+    "7.5": "This moves the point only 1 place. Move it 2 places, because percent is out of 100.",
+    "75.0": "This does not move the point at all. 75.0 is 75 wholes, but 75% is less than 1 whole.",
+    "0.075": "This moves the point 3 places. Move it only 2 places."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,46 @@
+{
+  "id": "fnd-tbl-0010",
+  "topicId": "fnd-reading-tables",
+  "skill": "fnd-tbl-compare",
+  "difficulty": 2,
+  "passage": "**Monthly water bill of the Santos family**\n\n| Month | Water bill |\n| --- | --- |\n| January | ₱450 |\n| February | ₱520 |\n| March | ₱480 |\n| April | ₱610 |",
+  "stem": "How much higher was the water bill in April than in January?",
+  "choices": [
+    "₱160",
+    "₱240",
+    "₱130",
+    "₱1,060"
+  ],
+  "answer": "₱160",
+  "hints": [
+    "\"How much higher\" means find the difference. Subtract the smaller amount from the bigger one.",
+    "Read the two bills you need: April and January.",
+    "Subtract January's bill from April's bill. Remember to borrow when a top digit is smaller than the one below it."
+  ],
+  "solution": {
+    "methodName": "Read both values, then subtract",
+    "steps": [
+      {
+        "action": "Read April's bill: ₱610."
+      },
+      {
+        "action": "Read January's bill: ₱450."
+      },
+      {
+        "action": "Subtract: ₱610 − ₱450 = ₱160.",
+        "why": "In the tens, 1 is less than 5, so borrow 1 hundred: 11 − 5 = 6 tens. Then 5 − 4 = 1 hundred."
+      },
+      {
+        "action": "April's bill was ₱160 higher than January's."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱240": "This takes the smaller digit from the bigger one in the tens (5 − 1 = 4) instead of borrowing. 610 − 450 needs borrowing in the tens.",
+    "₱130": "This compares April with March (₱610 − ₱480). The question asks about January.",
+    "₱1,060": "This adds the two bills (₱610 + ₱450). \"How much higher\" means subtract."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

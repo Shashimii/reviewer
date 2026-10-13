@@ -1,0 +1,45 @@
+{
+  "id": "fnd-pos-0003",
+  "topicId": "fnd-parts-of-speech",
+  "skill": "fnd-pos-nouns-verbs",
+  "difficulty": 1,
+  "stem": "What part of speech is the word \"market\" in this sentence?\n\nRosa bought rice at the market.",
+  "choices": [
+    "Noun",
+    "Verb",
+    "Adjective",
+    "Adverb"
+  ],
+  "answer": "Noun",
+  "hints": [
+    "Ask what the word \"market\" does in this sentence: does it name something, show an action or describe something?",
+    "Is a market a person, a place, a thing or an action?",
+    "A word that names a person, place or thing is a noun. A word that shows an action is a verb. A word that describes is an adjective or an adverb. Decide which job \"market\" does here."
+  ],
+  "solution": {
+    "methodName": "Ask what job the word does",
+    "steps": [
+      {
+        "action": "Look at how \"market\" is used: Rosa bought rice at the market.",
+        "why": "The same word can do different jobs in different sentences, so always check the sentence."
+      },
+      {
+        "action": "A market is a place where people buy and sell."
+      },
+      {
+        "action": "A word that names a person, place, thing or idea is a noun."
+      },
+      {
+        "action": "\"market\" is a noun."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Verb": "The action in this sentence is \"bought\". The market is where Rosa bought the rice, not something she did.",
+    "Adjective": "An adjective describes a noun, like \"fresh\" in \"fresh rice.\" Here \"market\" does not describe anything; it names a place.",
+    "Adverb": "The whole group \"at the market\" tells where, but the word \"market\" by itself names a place. A word that names a place is a noun."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "fnd-fd-0008",
+  "topicId": "fnd-fractions-decimals",
+  "skill": "fnd-fd-operations",
+  "difficulty": 1,
+  "stem": "Nena buys 1.5 kg of chicken and 0.25 kg of onions. How many kilograms is that in all?",
+  "choices": [
+    "1.30 kg",
+    "1.25 kg",
+    "1.70 kg",
+    "1.75 kg"
+  ],
+  "answer": "1.75 kg",
+  "hints": [
+    "\"In all\" means add. Watch where the decimal points are.",
+    "Write 1.5 as 1.50, so both numbers have 2 digits after the point. Then line up the points.",
+    "Add 1.50 + 0.25 one column at a time: hundredths, then tenths, then ones. Keep the point in the same place."
+  ],
+  "solution": {
+    "methodName": "Line up the decimal points, then add",
+    "steps": [
+      {
+        "action": "Write 1.5 as 1.50.",
+        "why": "A zero at the end does not change the value. Now both numbers have 2 digits after the point."
+      },
+      {
+        "action": "Write 0.25 under 1.50, with the points in a line.",
+        "why": "This makes tenths add to tenths and hundredths add to hundredths."
+      },
+      {
+        "action": "Add the hundredths: 0 + 5 = 5."
+      },
+      {
+        "action": "Add the tenths: 5 + 2 = 7."
+      },
+      {
+        "action": "Add the ones: 1 + 0 = 1. Bring down the point: 1.75."
+      },
+      {
+        "action": "Nena buys 1.75 kg in all."
+      }
+    ]
+  },
+  "trapNotes": {
+    "1.30 kg": "This adds 5 and 25 as if they were in the same place. Write 1.5 as 1.50 first, then line up the points.",
+    "1.25 kg": "This subtracts (1.5 − 0.25 = 1.25). \"In all\" means add.",
+    "1.70 kg": "This adds only the 2 tenths of 0.25 and leaves out its 5 hundredths."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

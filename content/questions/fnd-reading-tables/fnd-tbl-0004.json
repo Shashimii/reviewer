@@ -1,0 +1,43 @@
+{
+  "id": "fnd-tbl-0004",
+  "topicId": "fnd-reading-tables",
+  "skill": "fnd-tbl-find",
+  "difficulty": 1,
+  "passage": "**Monthly water bill of the Santos family**\n\n| Month | Water bill |\n| --- | --- |\n| January | ₱450 |\n| February | ₱520 |\n| March | ₱480 |\n| April | ₱610 |",
+  "stem": "What was the Santos family's water bill in March?",
+  "choices": [
+    "₱520",
+    "₱480",
+    "₱610",
+    "₱450"
+  ],
+  "answer": "₱480",
+  "hints": [
+    "Look down the Month column for March.",
+    "March is the third month in the table.",
+    "Move across the March row to the Water bill column and read the amount."
+  ],
+  "solution": {
+    "methodName": "Find the row, find the column, read where they meet",
+    "steps": [
+      {
+        "action": "Find March in the Month column.",
+        "why": "Each row is one month, so the March row has March's bill."
+      },
+      {
+        "action": "Move across to the Water bill column: ₱480."
+      },
+      {
+        "action": "The water bill in March was ₱480."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱520": "This is February's bill, one row above March.",
+    "₱610": "This is April's bill, one row below March.",
+    "₱450": "This is January's bill, in the first row. Find the row that says March."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

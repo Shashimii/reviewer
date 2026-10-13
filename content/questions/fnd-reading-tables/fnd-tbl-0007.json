@@ -1,0 +1,47 @@
+{
+  "id": "fnd-tbl-0007",
+  "topicId": "fnd-reading-tables",
+  "skill": "fnd-tbl-compare",
+  "difficulty": 2,
+  "passage": "**Items sold at Aling Nena's sari-sari store**\n\n| Item | Monday | Tuesday | Wednesday |\n| --- | --- | --- | --- |\n| Bread | 24 | 30 | 18 |\n| Eggs | 36 | 28 | 40 |\n| Coffee sachets | 15 | 22 | 19 |\n| Soft drinks | 12 | 16 | 20 |",
+  "stem": "How many coffee sachets did the store sell from Monday to Wednesday in all?",
+  "choices": [
+    "37",
+    "46",
+    "41",
+    "56"
+  ],
+  "answer": "56",
+  "hints": [
+    "\"In all\" means add. Use only the Coffee sachets row.",
+    "Read the three numbers in the Coffee sachets row: Monday, Tuesday and Wednesday.",
+    "Add two of the numbers first, then add the third. Remember to carry."
+  ],
+  "solution": {
+    "methodName": "Read the values, then add",
+    "steps": [
+      {
+        "action": "Find the Coffee sachets row: 15, 22 and 19.",
+        "why": "\"Monday to Wednesday\" means all three days, so you need three numbers."
+      },
+      {
+        "action": "Add Monday and Tuesday: 15 + 22 = 37."
+      },
+      {
+        "action": "Add Wednesday: 37 + 19 = 56.",
+        "why": "In the ones, 7 + 9 = 16. Write 6 and carry 1. In the tens, 3 + 1 + 1 = 5."
+      },
+      {
+        "action": "The store sold 56 coffee sachets in all."
+      }
+    ]
+  },
+  "trapNotes": {
+    "37": "This adds only Monday and Tuesday (15 + 22). Add Wednesday's 19 too.",
+    "41": "This adds only Tuesday and Wednesday (22 + 19). Add Monday's 15 too.",
+    "46": "This forgets to carry the 1 when adding 37 + 19. In the ones, 7 + 9 = 16, so carry 1 to the tens."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

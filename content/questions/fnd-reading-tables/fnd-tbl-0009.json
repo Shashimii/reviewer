@@ -1,0 +1,46 @@
+{
+  "id": "fnd-tbl-0009",
+  "topicId": "fnd-reading-tables",
+  "skill": "fnd-tbl-compare",
+  "difficulty": 1,
+  "passage": "**Leave days used this year by four office employees**\n\n| Employee | Vacation leave (days) | Sick leave (days) |\n| --- | --- | --- |\n| Ana | 5 | 2 |\n| Ben | 3 | 4 |\n| Carlo | 6 | 1 |\n| Dina | 2 | 3 |",
+  "stem": "Who used the most vacation leave?",
+  "choices": [
+    "Ana",
+    "Ben",
+    "Carlo",
+    "Dina"
+  ],
+  "answer": "Carlo",
+  "hints": [
+    "Look only at the Vacation leave column.",
+    "Read the four numbers in the Vacation leave column.",
+    "Find the largest number in that column, then read the name at the start of its row."
+  ],
+  "solution": {
+    "methodName": "Compare within one column, then read the row",
+    "steps": [
+      {
+        "action": "Find the Vacation leave column.",
+        "why": "The question is only about vacation leave, so ignore the Sick leave column."
+      },
+      {
+        "action": "Read its numbers: Ana 5, Ben 3, Carlo 6, Dina 2."
+      },
+      {
+        "action": "Find the largest: 6 is more than 5, 3 and 2."
+      },
+      {
+        "action": "6 is in Carlo's row, so Carlo used the most vacation leave."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Ana": "Ana used 5 days of vacation leave. That is a lot, but Carlo used 6.",
+    "Ben": "Ben used the most sick leave (4 days). The question asks about vacation leave, and Ben used only 3 days.",
+    "Dina": "Dina used the fewest vacation days (2). The question asks for the most."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

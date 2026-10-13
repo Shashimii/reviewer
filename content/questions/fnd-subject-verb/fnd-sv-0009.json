@@ -1,0 +1,47 @@
+{
+  "id": "fnd-sv-0009",
+  "topicId": "fnd-subject-verb",
+  "skill": "fnd-sv-agree",
+  "difficulty": 1,
+  "stem": "Choose the word that correctly completes the sentence.\n\nThe workers ___ lunch at noon.",
+  "choices": [
+    "eat",
+    "eats",
+    "eaten",
+    "eating"
+  ],
+  "answer": "eat",
+  "hints": [
+    "Look at the subject. Is it one worker or more than one?",
+    "Find the subject: \"workers\". The -s at the end means more than one.",
+    "With one person or thing, an action verb takes -s. With two or more, it does not. Words ending in -en or -ing need a helper word, so they cannot be the verb alone. Choose the form that fits."
+  ],
+  "solution": {
+    "methodName": "Count the subject, then match the verb",
+    "steps": [
+      {
+        "action": "Find the subject: \"workers\". It ends in -s, so it means more than one.",
+        "why": "For most nouns, an -s at the end means plural (more than one)."
+      },
+      {
+        "action": "A plural subject takes the verb with no -s: the workers eat.",
+        "why": "For verbs it works the other way. The verb takes -s only when the subject is one person or thing, as in \"The worker eats.\""
+      },
+      {
+        "action": "\"eaten\" and \"eating\" cannot be the verb alone.",
+        "why": "They need a helper, as in \"have eaten\" or \"are eating\"."
+      },
+      {
+        "action": "The answer is \"eat\": The workers eat lunch at noon."
+      }
+    ]
+  },
+  "trapNotes": {
+    "eats": "Eats goes with one person: the worker eats. Workers means more than one, so drop the -s from the verb.",
+    "eaten": "Eaten needs a helper, as in \"have eaten.\" It cannot be the verb by itself.",
+    "eating": "Eating needs a helper, as in \"are eating.\" It cannot be the verb by itself."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

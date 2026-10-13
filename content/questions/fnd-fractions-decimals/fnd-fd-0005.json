@@ -1,0 +1,46 @@
+{
+  "id": "fnd-fd-0005",
+  "topicId": "fnd-fractions-decimals",
+  "skill": "fnd-fd-compare",
+  "difficulty": 2,
+  "stem": "Which number is the biggest?",
+  "choices": [
+    "0.45",
+    "0.5",
+    "0.405",
+    "0.05"
+  ],
+  "answer": "0.5",
+  "hints": [
+    "Don't judge by how many digits a number has. Compare place by place.",
+    "Add zeros at the end so every number has 3 digits after the point. For example, 0.45 becomes 0.450.",
+    "With 3 digits after the point each, compare the digits after the point like whole numbers. The largest wins."
+  ],
+  "solution": {
+    "methodName": "Add zeros to the same length, then compare",
+    "steps": [
+      {
+        "action": "Give every number 3 digits after the point: 0.450, 0.500, 0.405 and 0.050.",
+        "why": "Zeros at the end of a decimal do not change its value. ₱0.5 and ₱0.50 are the same amount."
+      },
+      {
+        "action": "Compare the digits after the point like whole numbers: 450, 500, 405 and 50."
+      },
+      {
+        "action": "500 is the largest, so 0.500 is the largest.",
+        "why": "Another check: 0.5 has 5 tenths. 0.45 and 0.405 have only 4 tenths, and 0.05 has 0 tenths."
+      },
+      {
+        "action": "The biggest number is 0.5."
+      }
+    ]
+  },
+  "trapNotes": {
+    "0.45": "45 looks bigger than 5, but 0.45 = 0.450, which is less than 0.500. More digits do not mean a bigger number.",
+    "0.405": "This has the most digits, but it has only 4 tenths. 0.405 is less than 0.500.",
+    "0.05": "This is 5 hundredths. The 0 right after the point means 0 tenths, so it is the smallest here."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

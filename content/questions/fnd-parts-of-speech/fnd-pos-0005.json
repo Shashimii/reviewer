@@ -1,0 +1,45 @@
+{
+  "id": "fnd-pos-0005",
+  "topicId": "fnd-parts-of-speech",
+  "skill": "fnd-pos-describers",
+  "difficulty": 1,
+  "stem": "Which word is an adjective in this sentence?\n\nShe wore a red dress to the party.",
+  "choices": [
+    "wore",
+    "red",
+    "dress",
+    "party"
+  ],
+  "answer": "red",
+  "hints": [
+    "An adjective describes a noun. It tells what kind, which one or how many.",
+    "Find the nouns first: \"dress\" and \"party\" name things. Then look for a word that describes one of them.",
+    "Ask \"What kind of dress?\". The word that answers describes the dress, so it is the adjective."
+  ],
+  "solution": {
+    "methodName": "Find the word it describes",
+    "steps": [
+      {
+        "action": "An adjective describes a noun."
+      },
+      {
+        "action": "Find the nouns: \"dress\" and \"party\" name things."
+      },
+      {
+        "action": "Ask: what kind of dress? A red dress.",
+        "why": "\"red\" tells what the dress looks like, so it describes the noun \"dress\"."
+      },
+      {
+        "action": "The adjective is \"red\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "wore": "Wore is what she did, so it is a verb. It does not describe a noun.",
+    "dress": "Dress names a thing, so it is a noun. The adjective is the word that describes the dress.",
+    "party": "Party names an event, so it is a noun. Nouns name things; adjectives describe them."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

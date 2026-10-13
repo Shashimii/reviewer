@@ -1,0 +1,50 @@
+{
+  "id": "fnd-tbl-0008",
+  "topicId": "fnd-reading-tables",
+  "skill": "fnd-tbl-compare",
+  "difficulty": 2,
+  "passage": "**Jeepney trips from the terminal to city hall**\n\n| Trip | Leaves terminal | Arrives at city hall |\n| --- | --- | --- |\n| 1st | 6:00 a.m. | 6:45 a.m. |\n| 2nd | 6:30 a.m. | 7:15 a.m. |\n| 3rd | 7:15 a.m. | 8:05 a.m. |\n| 4th | 8:00 a.m. | 8:45 a.m. |",
+  "stem": "Liza must arrive at city hall no later than 7:30 a.m. She wants to leave the terminal as late as possible. Which trip should she take?",
+  "choices": [
+    "1st trip",
+    "2nd trip",
+    "3rd trip",
+    "4th trip"
+  ],
+  "answer": "2nd trip",
+  "hints": [
+    "Liza's deadline is about arriving, so look at the \"Arrives at city hall\" column.",
+    "Find the trips that arrive at 7:30 a.m. or earlier.",
+    "Of the trips that arrive in time, pick the one that leaves the terminal last."
+  ],
+  "solution": {
+    "methodName": "Compare within one column, then read the row",
+    "steps": [
+      {
+        "action": "Look at the \"Arrives at city hall\" column.",
+        "why": "The deadline is about arriving, so use the arriving times, not the leaving times."
+      },
+      {
+        "action": "Compare each arriving time with 7:30 a.m. 6:45 and 7:15 are before 7:30. 8:05 and 8:45 are after 7:30."
+      },
+      {
+        "action": "Only the 1st and 2nd trips arrive in time."
+      },
+      {
+        "action": "Of these two, the 2nd trip leaves later: 6:30 a.m. instead of 6:00 a.m.",
+        "why": "Liza wants to leave as late as possible."
+      },
+      {
+        "action": "Liza should take the 2nd trip."
+      }
+    ]
+  },
+  "trapNotes": {
+    "1st trip": "The 1st trip arrives in time, but it leaves at 6:00 a.m. The 2nd trip also arrives in time and leaves later.",
+    "3rd trip": "The 3rd trip leaves at 7:15 a.m. but arrives at 8:05 a.m., after 7:30. Check the arriving time, not the leaving time.",
+    "4th trip": "The 4th trip arrives at 8:45 a.m., which is too late."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

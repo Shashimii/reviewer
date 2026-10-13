@@ -1,0 +1,50 @@
+{
+  "id": "fnd-subject-verb-lesson",
+  "topicId": "fnd-subject-verb",
+  "workedExampleId": "fnd-sv-0006",
+  "sections": [
+    {
+      "heading": "Finding the subject and the verb",
+      "body": "Every sentence has two main parts:\n\n- The **verb** shows an action (*cooks, played*) or a state of being (*am, is, are, was, were*).\n- The **subject** is the person or thing that does the action, or that the sentence is about.\n\nThe method: **find the verb, then ask who or what.**\n\n**Example:** *The clerk sorted the letters.* What happened? *Sorted*: that is the verb. Who sorted? *The clerk*: that is the subject.\n\nWords that only tell **when** or **where** something happens, like *every morning* or *in the park*, are not the subject."
+    },
+    {
+      "heading": "One or more than one",
+      "body": "**Singular** means one. **Plural** means more than one.\n\n- Most nouns add **-s** to show plural: *clerk, clerks*. Some add **-es**: *box, boxes*.\n- Two subjects joined by **and** are plural: *Lito and Mia* means two people, like *they*.\n- *He, she* and *it* are singular. *We* and *they* are plural."
+    },
+    {
+      "heading": "Making them agree",
+      "body": "The subject and verb must **agree**, or match. A singular subject takes a singular verb, and a plural subject takes a plural verb. The method: **count the subject, then match the verb.**\n\n| Subject | is or are | has or have | was or were |\n| --- | --- | --- | --- |\n| One: he, she, it, the clerk | is | has | was |\n| More than one: we, they, the clerks | are | have | were |\n| I | am | have | was |\n| You | are | have | were |\n\nAction verbs follow the same idea. One person or thing takes **-s**: *The clerk works.* More than one takes no -s: *The clerks work.*\n\n**Example:** *The forms ___ on the desk.* *Forms* means more than one, so: *The forms **are** on the desk.*"
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **The nearest noun is not always the subject.** In *The list of names is long*, it is the list that is long, so use *is*.\n- **The first noun is not always the subject.** In *Every Friday, the clerk files the reports*, *Friday* only tells when.\n- **The -s goes on the noun or the verb, not both.** *The workers eat*, not *The workers eats*.\n- **Two people joined by and are plural.** *Lito and Mia are here.*\n- **Watch the time words.** *Yesterday* and *last week* need *was* or *were*, not *is* or *are*.\n- **You always takes are, were and have**, even for one person."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Subject",
+      "definition": "The subject is the person or thing that does the action, or that the sentence is about.",
+      "taglish": "Subject (simuno) – kung sino o ano ang gumagawa ng kilos o pinag-uusapan sa pangungusap"
+    },
+    {
+      "term": "Verb",
+      "definition": "A verb shows an action, like works, or a state of being, like is or was.",
+      "taglish": "Verb (pandiwa) – salitang kilos, o is, are, was, were"
+    },
+    {
+      "term": "Singular",
+      "definition": "Singular means one, like one clerk or she.",
+      "taglish": "Singular – isa lang, hal. one clerk"
+    },
+    {
+      "term": "Plural",
+      "definition": "Plural means more than one, like two clerks or they.",
+      "taglish": "Plural – higit sa isa, hal. two clerks"
+    },
+    {
+      "term": "Subject-verb agreement",
+      "definition": "The subject and verb agree when they match: a singular subject takes a singular verb, and a plural subject takes a plural verb.",
+      "taglish": "Subject-verb agreement – dapat magkatugma ang simuno at pandiwa: isa = is, has, was; marami = are, have, were"
+    }
+  ]
+}

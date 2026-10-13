@@ -1,0 +1,42 @@
+{
+  "id": "fnd-pct-0001",
+  "topicId": "fnd-percent",
+  "skill": "fnd-pct-meaning",
+  "difficulty": 1,
+  "stem": "What does 25% mean?",
+  "choices": [
+    "25 out of 10",
+    "100 out of 25",
+    "25 out of 100",
+    "25 out of 1,000"
+  ],
+  "answer": "25 out of 100",
+  "hints": [
+    "The sign % is read \"percent\". Think about what \"per cent\" means.",
+    "\"Cent\" means 100, like the 100 centavos in ₱1.",
+    "Percent means \"out of 100\". The number before the % sign is the part, and 100 is the whole."
+  ],
+  "solution": {
+    "methodName": "Percent means out of 100",
+    "steps": [
+      {
+        "action": "Read the sign %: it means \"percent\"."
+      },
+      {
+        "action": "\"Percent\" means \"out of 100\".",
+        "why": "\"Cent\" means 100, as in the 100 centavos in one peso."
+      },
+      {
+        "action": "So 25% means 25 out of 100, or 25/100."
+      }
+    ]
+  },
+  "trapNotes": {
+    "25 out of 10": "Percent is always out of 100, not out of 10. 25 out of 10 would be more than the whole.",
+    "100 out of 25": "This is upside down. The number before % is the part, and 100 is the whole.",
+    "25 out of 1,000": "Percent is out of 100, not out of 1,000."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

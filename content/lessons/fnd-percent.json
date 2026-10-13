@@ -1,0 +1,46 @@
+{
+  "id": "fnd-percent-lesson",
+  "topicId": "fnd-percent",
+  "workedExampleId": "fnd-pct-0008",
+  "sections": [
+    {
+      "heading": "What percent means",
+      "body": "**Percent** (written **%**) means \"out of 100\". *Cent* means 100, like the 100 centavos in ₱1. So 75% means 75 out of 100.\n\nA percent, a fraction and a decimal can show the same amount. Learn these five friendly percents by heart:\n\n| Percent | Fraction | Decimal | In words |\n| --- | --- | --- | --- |\n| 10% | 1/10 | 0.1 | one tenth |\n| 25% | 1/4 | 0.25 | one quarter |\n| 50% | 1/2 | 0.5 | one half |\n| 75% | 3/4 | 0.75 | three quarters |\n| 100% | 1 | 1 | the whole |\n\nA **quarter** is one of 4 equal parts.\n\n- **Percent → fraction:** put it over 100, then simplify. 25% = 25/100 = 1/4.\n- **Percent → decimal:** move the decimal point 2 places to the left. 50% → 0.50 = 0.5."
+    },
+    {
+      "heading": "Finding a percent of a number",
+      "body": "Change the percent to its easy fraction, then divide.\n\n- **10%:** divide by 10. 10% of ₱250 = ₱25.\n- **25%:** divide by 4. 25% of 60 = 15.\n- **50%:** divide by 2. 50% of 90 = 45.\n- **75%:** divide by 4, then multiply by 3. 75% of 40: 40 ÷ 4 = 10, and 10 × 3 = 30.\n- **100%:** the whole amount. 100% of 35 = 35.\n\nCheck: a percent under 100% always gives an answer smaller than the number you started with.\n\n**Discounts.** A **discount** is the amount taken off a price. The **sale price** is what you pay. For ₱200 at 25% off, the discount is ₱200 ÷ 4 = ₱50. The sale price is ₱200 − ₱50 = ₱150."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Moving the point the wrong number of places.** 25% is 0.25, not 2.5.\n- **Multiplying instead of dividing.** 25% of 60 is 15, not 240.\n- **Subtracting the percent.** 10% of ₱250 is ₱25, not ₱250 − 10.\n- **Stopping halfway on 75%.** Divide by 4, then multiply by 3.\n- **Giving the discount instead of the sale price.** Read what the question asks for."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Percent",
+      "definition": "Percent (%) means \"out of 100\". 75% means 75 out of 100.",
+      "taglish": "Percent – \"bawat 100\"; ang 75% ay 75 sa bawat 100"
+    },
+    {
+      "term": "Quarter",
+      "definition": "One of 4 equal parts, written 1/4. One quarter is 25%.",
+      "taglish": "Quarter – isang kapat o 1/4; katumbas ng 25%"
+    },
+    {
+      "term": "Whole",
+      "definition": "The full amount, with nothing taken away. The whole is 100%.",
+      "taglish": "Whole – ang buo; ang 100% ay ang buong halaga"
+    },
+    {
+      "term": "Discount",
+      "definition": "The amount taken off a price.",
+      "taglish": "Discount – bawas sa presyo; ang halagang ibinabawas"
+    },
+    {
+      "term": "Sale price",
+      "definition": "The price you pay after the discount is taken off.",
+      "taglish": "Sale price – presyo pagkatapos ng bawas; ito ang babayaran mo"
+    }
+  ]
+}

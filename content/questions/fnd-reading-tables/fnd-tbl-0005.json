@@ -1,0 +1,46 @@
+{
+  "id": "fnd-tbl-0005",
+  "topicId": "fnd-reading-tables",
+  "skill": "fnd-tbl-find",
+  "difficulty": 1,
+  "passage": "**Jeepney trips from the terminal to city hall**\n\n| Trip | Leaves terminal | Arrives at city hall |\n| --- | --- | --- |\n| 1st | 6:00 a.m. | 6:45 a.m. |\n| 2nd | 6:30 a.m. | 7:15 a.m. |\n| 3rd | 7:15 a.m. | 8:05 a.m. |\n| 4th | 8:00 a.m. | 8:45 a.m. |",
+  "stem": "Which trip leaves the terminal at 7:15 a.m.?",
+  "choices": [
+    "1st trip",
+    "2nd trip",
+    "3rd trip",
+    "4th trip"
+  ],
+  "answer": "3rd trip",
+  "hints": [
+    "This time you know the time and need the trip. Look in the \"Leaves terminal\" column.",
+    "Go down the \"Leaves terminal\" column until you find 7:15 a.m.",
+    "When you find 7:15 a.m. in that column, look at the start of its row to see which trip it is."
+  ],
+  "solution": {
+    "methodName": "Find the value in the right column, then read the row",
+    "steps": [
+      {
+        "action": "Find the column \"Leaves terminal\".",
+        "why": "7:15 a.m. appears twice in the table. Only one of them is a leaving time."
+      },
+      {
+        "action": "Go down that column to 7:15 a.m."
+      },
+      {
+        "action": "Read the trip at the start of that row: 3rd."
+      },
+      {
+        "action": "The 3rd trip leaves the terminal at 7:15 a.m."
+      }
+    ]
+  },
+  "trapNotes": {
+    "2nd trip": "The 2nd trip arrives at city hall at 7:15 a.m. The question asks which trip leaves at 7:15 a.m.",
+    "1st trip": "The 1st trip leaves at 6:00 a.m. Look for 7:15 a.m. in the \"Leaves terminal\" column.",
+    "4th trip": "The 4th trip leaves at 8:00 a.m. Look for 7:15 a.m. in the \"Leaves terminal\" column."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

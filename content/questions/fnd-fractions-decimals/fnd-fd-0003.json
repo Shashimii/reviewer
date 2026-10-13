@@ -1,0 +1,50 @@
+{
+  "id": "fnd-fd-0003",
+  "topicId": "fnd-fractions-decimals",
+  "skill": "fnd-fd-meaning",
+  "difficulty": 2,
+  "stem": "Which fraction is the same as 0.25?",
+  "choices": [
+    "1/4",
+    "2/5",
+    "1/25",
+    "25/10"
+  ],
+  "answer": "1/4",
+  "hints": [
+    "Count the digits after the decimal point. Two digits means hundredths.",
+    "0.25 is 25 hundredths, so write it as 25/100.",
+    "Simplify 25/100 by dividing the top and the bottom by 25."
+  ],
+  "solution": {
+    "methodName": "Write as tenths or hundredths, then simplify",
+    "steps": [
+      {
+        "action": "Read 0.25 aloud: \"25 hundredths\".",
+        "why": "There are 2 digits after the point, so the last digit is in the hundredths place."
+      },
+      {
+        "action": "Write it as a fraction: 25/100."
+      },
+      {
+        "action": "Divide the top by 25: 25 ÷ 25 = 1.",
+        "why": "Dividing the top and the bottom by the same number keeps the value the same."
+      },
+      {
+        "action": "Divide the bottom by 25: 100 ÷ 25 = 4.",
+        "why": "Think of money: four 25-centavo coins make ₱1."
+      },
+      {
+        "action": "25/100 = 1/4, so 0.25 is the same as 1/4."
+      }
+    ]
+  },
+  "trapNotes": {
+    "2/5": "This uses the digits 2 and 5 as the top and the bottom. But 2/5 = 0.4, not 0.25.",
+    "1/25": "This puts 25 on the bottom. 1/25 is a very small part (0.04). Write 0.25 as 25/100 first.",
+    "25/10": "This reads 0.25 as tenths. 25/10 is 2.5, more than 2 wholes. Two digits after the point means hundredths."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

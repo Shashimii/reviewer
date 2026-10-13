@@ -1,0 +1,51 @@
+{
+  "id": "fnd-sv-0006",
+  "topicId": "fnd-subject-verb",
+  "skill": "fnd-sv-agree",
+  "difficulty": 1,
+  "stem": "Choose the word that correctly completes the sentence.\n\nThe two drivers ___ ready to leave.",
+  "choices": [
+    "am",
+    "is",
+    "be",
+    "are"
+  ],
+  "answer": "are",
+  "hints": [
+    "Look at the subject. Is it one person or more than one?",
+    "Find the subject: the two drivers. Count them.",
+    "A subject that means one takes a singular verb. A subject that means two or more takes a plural verb. Am goes only with I. Decide how many drivers there are, then pick the matching verb."
+  ],
+  "solution": {
+    "methodName": "Count the subject, then match the verb",
+    "steps": [
+      {
+        "action": "Find the subject: \"drivers\".",
+        "why": "Ask: who is ready to leave? The drivers. The subject is who or what the sentence is about."
+      },
+      {
+        "action": "Count the subject: \"two drivers\" means more than one, so the subject is plural.",
+        "why": "Plural means more than one. The word \"two\" and the -s at the end of \"drivers\" both tell you this."
+      },
+      {
+        "action": "Match the verb: a plural subject takes \"are\".",
+        "why": "\"is\" goes with one person or thing. \"are\" goes with two or more. \"am\" goes only with I."
+      },
+      {
+        "action": "Read it back: \"The two drivers are ready to leave.\"",
+        "why": "Reading the full sentence is a quick check that the subject and verb match."
+      },
+      {
+        "action": "The answer is \"are\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "am": "Am goes only with I, as in \"I am ready.\"",
+    "is": "Is goes with one person or thing, as in \"The driver is ready.\" Here there are two drivers.",
+    "be": "Be cannot follow the subject by itself here. It needs a helper word, as in \"will be ready.\""
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

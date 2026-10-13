@@ -1,0 +1,49 @@
+{
+  "id": "fnd-sv-0008",
+  "topicId": "fnd-subject-verb",
+  "skill": "fnd-sv-agree",
+  "difficulty": 2,
+  "stem": "Choose the word that correctly completes the sentence.\n\nYesterday, the office ___ closed.",
+  "choices": [
+    "is",
+    "are",
+    "was",
+    "were"
+  ],
+  "answer": "was",
+  "hints": [
+    "Two things decide the verb here: when it happened, and how many.",
+    "Start with the word \"Yesterday\". Does it point to the past or to now?",
+    "Is and are are for now; the other two choices are for the past. First decide if the sentence is about now or the past. Then check if the subject is one thing or more than one, and pick the form that matches both."
+  ],
+  "solution": {
+    "methodName": "Count the subject, then match the verb",
+    "steps": [
+      {
+        "action": "\"Yesterday\" tells you the sentence is about the past.",
+        "why": "Is and are are for now. Was and were are for the past."
+      },
+      {
+        "action": "So the answer is \"was\" or \"were\"."
+      },
+      {
+        "action": "Find the subject: \"office\". It is one office, so it is singular.",
+        "why": "Singular means one."
+      },
+      {
+        "action": "One person or thing takes \"was\". Two or more take \"were\"."
+      },
+      {
+        "action": "The answer is \"was\": Yesterday, the office was closed."
+      }
+    ]
+  },
+  "trapNotes": {
+    "is": "Is is for now. The word yesterday points to the past, so use was or were.",
+    "are": "Are is for now, and for two or more. Yesterday points to the past, and there is only one office.",
+    "were": "Were is the past form for two or more. There is only one office, so use was."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

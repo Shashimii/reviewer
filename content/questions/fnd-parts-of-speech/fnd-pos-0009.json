@@ -1,0 +1,45 @@
+{
+  "id": "fnd-pos-0009",
+  "topicId": "fnd-parts-of-speech",
+  "skill": "fnd-pos-small-words",
+  "difficulty": 1,
+  "stem": "Which word is a preposition in this sentence?\n\nThe keys are under the table.",
+  "choices": [
+    "keys",
+    "are",
+    "under",
+    "table"
+  ],
+  "answer": "under",
+  "hints": [
+    "A preposition is a small word that shows place, time or direction.",
+    "Ask: where are the keys?",
+    "Find the small word that shows where the keys are compared with the table. A word that shows position like this is a preposition."
+  ],
+  "solution": {
+    "methodName": "Ask what job the word does",
+    "steps": [
+      {
+        "action": "A preposition shows where something is, or when, or which way. It comes before a noun."
+      },
+      {
+        "action": "Ask: where are the keys? Under the table."
+      },
+      {
+        "action": "\"under\" shows the position of the keys compared with the table.",
+        "why": "It comes before the noun \"table\" and links it to the keys."
+      },
+      {
+        "action": "The preposition is \"under\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "keys": "Keys names things, so it is a noun.",
+    "are": "Are is the verb. It joins the keys to where they are, but it does not show the position itself.",
+    "table": "Table names a thing, so it is a noun. The preposition is the word before it that shows position."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

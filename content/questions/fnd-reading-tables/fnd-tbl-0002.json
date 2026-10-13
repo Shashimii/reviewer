@@ -1,0 +1,46 @@
+{
+  "id": "fnd-tbl-0002",
+  "topicId": "fnd-reading-tables",
+  "skill": "fnd-tbl-find",
+  "difficulty": 1,
+  "passage": "**Jeepney trips from the terminal to city hall**\n\n| Trip | Leaves terminal | Arrives at city hall |\n| --- | --- | --- |\n| 1st | 6:00 a.m. | 6:45 a.m. |\n| 2nd | 6:30 a.m. | 7:15 a.m. |\n| 3rd | 7:15 a.m. | 8:05 a.m. |\n| 4th | 8:00 a.m. | 8:45 a.m. |",
+  "stem": "What time does the 3rd trip arrive at city hall?",
+  "choices": [
+    "7:15 a.m.",
+    "8:45 a.m.",
+    "8:00 a.m.",
+    "8:05 a.m."
+  ],
+  "answer": "8:05 a.m.",
+  "hints": [
+    "Find the row for the 3rd trip, then the column about arriving.",
+    "The column \"Arrives at city hall\" is the last column.",
+    "Move along the 3rd trip row to the \"Arrives at city hall\" column and read the time."
+  ],
+  "solution": {
+    "methodName": "Find the row, find the column, read where they meet",
+    "steps": [
+      {
+        "action": "Find the row for the 3rd trip."
+      },
+      {
+        "action": "Find the column \"Arrives at city hall\".",
+        "why": "Each trip has two times. The question asks when the jeepney arrives, not when it leaves."
+      },
+      {
+        "action": "Read the box where they meet: 8:05 a.m."
+      },
+      {
+        "action": "The 3rd trip arrives at city hall at 8:05 a.m."
+      }
+    ]
+  },
+  "trapNotes": {
+    "7:15 a.m.": "This is when the 3rd trip leaves the terminal. The question asks when it arrives.",
+    "8:45 a.m.": "This is when the 4th trip arrives. You read one row too low.",
+    "8:00 a.m.": "This is when the 4th trip leaves the terminal. Check both the row and the column."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

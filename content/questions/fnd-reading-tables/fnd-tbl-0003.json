@@ -1,0 +1,46 @@
+{
+  "id": "fnd-tbl-0003",
+  "topicId": "fnd-reading-tables",
+  "skill": "fnd-tbl-find",
+  "difficulty": 1,
+  "passage": "**Leave days used this year by four office employees**\n\n| Employee | Vacation leave (days) | Sick leave (days) |\n| --- | --- | --- |\n| Ana | 5 | 2 |\n| Ben | 3 | 4 |\n| Carlo | 6 | 1 |\n| Dina | 2 | 3 |",
+  "stem": "How many days of sick leave did Ben use?",
+  "choices": [
+    "4 days",
+    "3 days",
+    "7 days",
+    "2 days"
+  ],
+  "answer": "4 days",
+  "hints": [
+    "Find Ben's row, then the column for sick leave.",
+    "Ben is in the second row of names. Sick leave is the last column.",
+    "Read the number where Ben's row meets the Sick leave column."
+  ],
+  "solution": {
+    "methodName": "Find the row, find the column, read where they meet",
+    "steps": [
+      {
+        "action": "Find Ben's row."
+      },
+      {
+        "action": "Find the Sick leave column.",
+        "why": "There are two kinds of leave. Use the column the question names."
+      },
+      {
+        "action": "Read the box where they meet: 4."
+      },
+      {
+        "action": "Ben used 4 days of sick leave."
+      }
+    ]
+  },
+  "trapNotes": {
+    "3 days": "This is Ben's vacation leave. The question asks about sick leave.",
+    "7 days": "This adds Ben's vacation leave and sick leave (3 + 4). The question asks only about sick leave.",
+    "2 days": "This is Ana's sick leave. You used the right column but the wrong row."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

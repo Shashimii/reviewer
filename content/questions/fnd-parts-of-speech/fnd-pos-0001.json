@@ -1,0 +1,51 @@
+{
+  "id": "fnd-pos-0001",
+  "topicId": "fnd-parts-of-speech",
+  "skill": "fnd-pos-nouns-verbs",
+  "difficulty": 1,
+  "stem": "Which word is the verb in this sentence?\n\nThe driver waited outside the office.",
+  "choices": [
+    "driver",
+    "outside",
+    "waited",
+    "office"
+  ],
+  "answer": "waited",
+  "hints": [
+    "A verb shows an action: something a person or thing does.",
+    "Find who the sentence is about, then ask: what did the driver do?",
+    "Check each choice. A word that names a person, place or thing is a noun. A word that tells where is not an action. The word that tells what the driver did is the verb."
+  ],
+  "solution": {
+    "methodName": "Ask what job the word does",
+    "steps": [
+      {
+        "action": "Remember what a verb is: a word that shows an action, or a state of being like is or was.",
+        "why": "Every sentence has a verb. It tells what someone does, did or is."
+      },
+      {
+        "action": "Find who the sentence is about: the driver.",
+        "why": "Once you know who the sentence is about, you can ask what that person did."
+      },
+      {
+        "action": "Ask: what did the driver do? The driver waited.",
+        "why": "The word that answers \"What did the driver do?\" is the action word, so it is the verb."
+      },
+      {
+        "action": "Check the other choices. \"driver\" names a person and \"office\" names a place, so both are nouns. \"outside\" tells where the driver waited.",
+        "why": "Nouns name people, places and things. A word that only tells where is not something you can do."
+      },
+      {
+        "action": "The verb is \"waited\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "driver": "The driver is the person in the sentence, so this word is a noun. The verb tells what the driver did.",
+    "outside": "This word tells where the driver waited. It is not an action that anyone does.",
+    "office": "An office is a place, so this word is a noun. Nouns name people, places and things; verbs show actions."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

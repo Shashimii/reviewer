@@ -1,0 +1,51 @@
+{
+  "id": "fnd-fd-0001",
+  "topicId": "fnd-fractions-decimals",
+  "skill": "fnd-fd-meaning",
+  "difficulty": 1,
+  "stem": "A pizza is cut into 8 equal slices. Ana eats 3 slices. What fraction of the pizza did Ana eat?",
+  "choices": [
+    "5/8",
+    "3/8",
+    "8/3",
+    "3/5"
+  ],
+  "answer": "3/8",
+  "hints": [
+    "A fraction shows part of a whole. Count how many equal slices make the whole pizza.",
+    "The whole pizza has 8 equal slices, so 8 is the bottom number.",
+    "Put the number of slices Ana ate on top and the number of slices in the whole pizza on the bottom."
+  ],
+  "solution": {
+    "methodName": "Part over whole",
+    "steps": [
+      {
+        "action": "Count the equal parts in the whole pizza: 8 slices.",
+        "why": "The bottom number of a fraction tells how many equal parts make one whole."
+      },
+      {
+        "action": "Count the parts Ana ate: 3 slices.",
+        "why": "The top number tells how many of those parts you are talking about."
+      },
+      {
+        "action": "Write the part over the whole: 3/8.",
+        "why": "Read 3/8 as \"3 out of 8\" or \"three-eighths\". The part goes on top and the whole goes on the bottom."
+      },
+      {
+        "action": "Check: 3/8 is less than 1 whole.",
+        "why": "Ana did not eat the whole pizza, so the answer must be less than 8/8."
+      },
+      {
+        "action": "Ana ate 3/8 of the pizza."
+      }
+    ]
+  },
+  "trapNotes": {
+    "5/8": "This is the part Ana did not eat (8 − 3 = 5 slices). The question asks what she ate.",
+    "8/3": "This is upside down. The whole (8 slices) goes on the bottom, and the part (3 slices) goes on top.",
+    "3/5": "This compares the 3 slices eaten with the 5 slices left. A fraction of the pizza needs all 8 slices on the bottom."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,47 @@
+{
+  "id": "fnd-fd-0007",
+  "topicId": "fnd-fractions-decimals",
+  "skill": "fnd-fd-operations",
+  "difficulty": 1,
+  "stem": "Add: 3/8 + 2/8",
+  "choices": [
+    "5/8",
+    "5/16",
+    "6/8",
+    "1/8"
+  ],
+  "answer": "5/8",
+  "hints": [
+    "Check the bottom numbers first. Are they the same?",
+    "Both bottoms are 8, so the bottom stays 8. Only the tops are added.",
+    "Add the tops, 3 + 2, and write the sum over 8."
+  ],
+  "solution": {
+    "methodName": "Same bottom: add the tops, keep the bottom",
+    "steps": [
+      {
+        "action": "Check the bottoms: both are 8.",
+        "why": "You can add fractions straight away only when the pieces are the same size. Here both are eighths."
+      },
+      {
+        "action": "Add the tops: 3 + 2 = 5.",
+        "why": "3 eighths plus 2 eighths is 5 eighths, just like 3 mangoes plus 2 mangoes is 5 mangoes."
+      },
+      {
+        "action": "Keep the bottom: 8.",
+        "why": "Adding does not change the size of each piece, so the bottom stays 8."
+      },
+      {
+        "action": "3/8 + 2/8 = 5/8."
+      }
+    ]
+  },
+  "trapNotes": {
+    "5/16": "This adds the bottoms too (8 + 8 = 16). Keep the bottom the same and add only the tops.",
+    "6/8": "This multiplies the tops (3 × 2 = 6). The sign is +, so add the tops.",
+    "1/8": "This subtracts the tops (3 − 2 = 1). The sign is +, so add the tops."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

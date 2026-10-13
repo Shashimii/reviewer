@@ -1,0 +1,43 @@
+{
+  "id": "fnd-pct-0002",
+  "topicId": "fnd-percent",
+  "skill": "fnd-pct-meaning",
+  "difficulty": 1,
+  "stem": "Which fraction is the same as 50%?",
+  "choices": [
+    "1/2",
+    "1/5",
+    "1/50",
+    "5/100"
+  ],
+  "answer": "1/2",
+  "hints": [
+    "Percent means \"out of 100\".",
+    "Write 50% as a fraction over 100: 50/100.",
+    "Simplify 50/100 by dividing the top and the bottom by 50."
+  ],
+  "solution": {
+    "methodName": "Write it over 100, then simplify",
+    "steps": [
+      {
+        "action": "Write 50% over 100: 50/100.",
+        "why": "Percent means out of 100."
+      },
+      {
+        "action": "Divide the top and the bottom by 50: 50 ÷ 50 = 1 and 100 ÷ 50 = 2.",
+        "why": "Dividing the top and the bottom by the same number keeps the value the same."
+      },
+      {
+        "action": "50/100 = 1/2, so 50% is the same as 1/2, or half."
+      }
+    ]
+  },
+  "trapNotes": {
+    "1/5": "This uses the 5 from 50. But 1/5 is 20%, not 50%.",
+    "1/50": "This puts 50 on the bottom. 50% means 50 on top, out of 100.",
+    "5/100": "This drops the zero from 50. 5/100 is 5%, not 50%."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

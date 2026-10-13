@@ -1,0 +1,45 @@
+{
+  "id": "fnd-sv-0003",
+  "topicId": "fnd-subject-verb",
+  "skill": "fnd-sv-find",
+  "difficulty": 1,
+  "stem": "Which choice shows the subject and the verb of this sentence?\n\nThe children played in the park.",
+  "choices": [
+    "Subject: park, verb: played",
+    "Subject: played, verb: children",
+    "Subject: children, verb: park",
+    "Subject: children, verb: played"
+  ],
+  "answer": "Subject: children, verb: played",
+  "hints": [
+    "Every sentence has a subject (who or what) and a verb (the action).",
+    "Find the action first: what happened in the sentence?",
+    "After you find the action word, ask \"Who did it?\". Then find the choice that has both of your answers in the right places."
+  ],
+  "solution": {
+    "methodName": "Find the verb, then ask who or what",
+    "steps": [
+      {
+        "action": "Find the verb: \"played\" is the action."
+      },
+      {
+        "action": "Ask: who played? The children.",
+        "why": "The subject is the one who does the action."
+      },
+      {
+        "action": "\"park\" tells where they played, so it is not the subject or the verb."
+      },
+      {
+        "action": "The subject is \"children\" and the verb is \"played\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Subject: park, verb: played": "The verb is right, but the park did not play. The park is where the children played.",
+    "Subject: played, verb: children": "These are switched. Played is the action, so it is the verb. The children did the action, so they are the subject.",
+    "Subject: children, verb: park": "The subject is right, but park is a place, not an action. The verb is the action word."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}
