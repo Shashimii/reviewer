@@ -6,10 +6,25 @@ import type { Solution } from '@/content'
 import { cn } from '@/lib/utils'
 
 // Reveals a solution one step at a time. Steps with a "why" get an expander.
-function SolutionStepper({ solution, className }: { solution: Solution; className?: string }) {
-  const [shown, setShown] = useState(1)
+function SolutionStepper({
+  solution,
+  revealAll = false,
+  onDone,
+  className,
+}: {
+  solution: Solution
+  revealAll?: boolean
+  onDone?: () => void
+  className?: string
+}) {
   const total = solution.steps.length
+  const [shown, setShown] = useState(revealAll ? total : 1)
   const done = shown >= total
+
+  function reveal(count: number) {
+    setShown(count)
+    if (count >= total) onDone?.()
+  }
 
   return (
     <section data-slot="solution-stepper" aria-label="Step-by-step solution" className={cn('flex flex-col gap-4', className)}>
@@ -42,10 +57,10 @@ function SolutionStepper({ solution, className }: { solution: Solution; classNam
         </p>
       ) : (
         <div className="flex gap-2">
-          <Button className="h-11 flex-1 text-base" onClick={() => setShown((n) => n + 1)}>
+          <Button className="h-11 flex-1 text-base" onClick={() => reveal(shown + 1)}>
             Next step ({shown + 1} of {total})
           </Button>
-          <Button variant="ghost" className="h-11 text-base" onClick={() => setShown(total)}>
+          <Button variant="ghost" className="h-11 text-base" onClick={() => reveal(total)}>
             Show all
           </Button>
         </div>
