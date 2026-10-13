@@ -1,0 +1,53 @@
+{
+  "id": "gi-hr-0019",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-peace",
+  "difficulty": 1,
+  "stem": "During an armed conflict, a group attacks a village of civilians who are not taking a direct part in the fighting. Under RA 9851, what is this act?",
+  "choices": [
+    "Lawful, if the village lies in enemy territory",
+    "Lawful, if the group gave a warning first",
+    "A private matter between the two sides",
+    "A war crime, punishable under the Act"
+  ],
+  "answer": "A war crime, punishable under the Act",
+  "hints": [
+    "RA 9851 protects people who are not fighting. Are the villagers fighting?",
+    "Recall Section 4 of RA 9851, which lists the acts that are \"war crimes\". Look at the first item of Section 4(c).",
+    "Section 4(c)(1) covers attacks on \"individual civilians not taking direct part in hostilities\". Check whether the villagers fit, and whether any excuse in the choices appears in that item."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Spot the facts: the targets are civilians who are not taking a direct part in the fighting."
+      },
+      {
+        "action": "Find the provision: RA 9851, Section 4(c)(1). It lists as a war crime \"directing attacks against the civilian population as such or against individual civilians not taking direct part in hostilities\".",
+        "why": "Hostilities means the fighting. Civilians who are not fighting are protected."
+      },
+      {
+        "action": "Section 4(c)(1) gives no exception for enemy territory or for a warning.",
+        "why": "Read the item as written. If the law gives no exception, do not invent one."
+      },
+      {
+        "action": "Section 7 sets prison terms and fines for the acts in Section 4, so this is a crime, not a private matter."
+      },
+      {
+        "action": "The answer is: a war crime, punishable under the Act."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Lawful, if the village lies in enemy territory": "Section 4(c)(1) protects civilians who are not taking part in the fighting. Being in enemy territory does not make them targets.",
+    "Lawful, if the group gave a warning first": "Section 4(c)(1) has no warning exception. Attacking civilians not taking direct part in hostilities is a war crime.",
+    "A private matter between the two sides": "RA 9851 calls this a war crime, and Section 7 sets prison terms and fines for it. It is a crime, not a private matter."
+  },
+  "sourceRef": {
+    "citation": "RA 9851, Sections 4(c)(1) and 7",
+    "url": "https://lawphil.net/statutes/repacts/ra2009/ra_9851_2009.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

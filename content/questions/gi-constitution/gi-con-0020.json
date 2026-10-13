@@ -1,0 +1,51 @@
+{
+  "id": "gi-con-0020",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-accountability",
+  "difficulty": 1,
+  "stem": "Article XI of the 1987 Constitution is about the accountability of public officers. Which principle does Section 1 begin with?",
+  "choices": [
+    "Public office is a public trust",
+    "Public office is a personal privilege",
+    "Public office is a reward for loyalty",
+    "Public office is a lifetime right"
+  ],
+  "answer": "Public office is a public trust",
+  "hints": [
+    "Ask yourself: for whose benefit does a public officer hold power, the officer's or the people's?",
+    "Article XI, Section 1 goes on to say that public officers and employees \"must, at all times, be accountable to the people.\" The opening principle must fit this.",
+    "Drop any choice that treats the office as something the officer owns, earns as a prize, or keeps for life. Choose the principle that describes power held in care for the people."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Recall the opening words of Article XI, Section 1: \"Public office is a public trust.\"",
+        "why": "A trust is something placed in your care to keep and use for others. A public office is power held for the people, not owned by the officer."
+      },
+      {
+        "action": "Read the rest of Section 1 to see what the trust requires.",
+        "why": "Public officers and employees must \"be accountable to the people, serve them with utmost responsibility, integrity, loyalty, and efficiency; act with patriotism and justice, and lead modest lives.\""
+      },
+      {
+        "action": "Reject the choices that treat the office as belonging to the officer.",
+        "why": "A privilege, a reward or a lifetime right would be something the officer owns. Section 1 says the office is held in trust for the people."
+      },
+      {
+        "action": "Section 1 begins: \"Public office is a public trust.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Public office is a personal privilege": "This treats the office as a benefit for the officer. Section 1 says it is a public trust, held for the people.",
+    "Public office is a reward for loyalty": "Office is not a prize. Civil service appointments go by \"merit and fitness\" (Article IX-B, Section 2), and Section 1 calls office a public trust.",
+    "Public office is a lifetime right": "No one owns a public office for life. Officers may be removed by impeachment or \"as provided by law\" (Article XI, Section 2)."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XI, Section 1",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

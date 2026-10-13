@@ -1,0 +1,50 @@
+{
+  "id": "gi-env-0003",
+  "topicId": "gi-environment",
+  "skill": "gi-env-principles",
+  "difficulty": 2,
+  "stem": "Article XII of the 1987 Constitution says most natural resources \"shall not be alienated.\" This means they cannot be sold or transferred to private owners. Which class of public land is the exception?",
+  "choices": [
+    "Agricultural lands",
+    "Forest or timber lands",
+    "Mineral lands",
+    "National parks"
+  ],
+  "answer": "Agricultural lands",
+  "hints": [
+    "Article XII, Section 3 sorts lands of the public domain into four classes. All four choices come from that list, but only one can become private property.",
+    "Read Section 2: \"With the exception of ___ lands, all other natural resources shall not be alienated.\" Find the missing word.",
+    "Section 3 repeats the rule: alienable lands of the public domain \"shall be limited to\" one of the four classes. Check each choice against that rule."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match its key words",
+    "steps": [
+      {
+        "action": "List the four classes in Article XII, Section 3: \"agricultural, forest or timber, mineral lands and national parks.\"",
+        "why": "All four choices come from this list, so you must know which one the rule singles out."
+      },
+      {
+        "action": "Recall Section 2: \"With the exception of agricultural lands, all other natural resources shall not be alienated.\"",
+        "why": "To alienate means to sell or transfer ownership to someone else."
+      },
+      {
+        "action": "Confirm with Section 3: \"Alienable lands of the public domain shall be limited to agricultural lands.\""
+      },
+      {
+        "action": "The answer is agricultural lands."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Forest or timber lands": "Forests stay with the State. Section 4 says forest lands, once their limits are fixed, \"shall be conserved.\"",
+    "Mineral lands": "Minerals are natural resources owned by the State and cannot be alienated. Only agricultural lands are the exception.",
+    "National parks": "National parks are meant to be conserved, not sold. Section 4 says they \"may not be increased nor diminished, except by law.\""
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XII, Sections 2 and 3",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

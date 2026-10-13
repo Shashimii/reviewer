@@ -1,0 +1,50 @@
+{
+  "id": "gi-cc-0017",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-prohibited",
+  "difficulty": 2,
+  "stem": "Liza works in a government licensing office. A private hospital with a pending license application at her office asks her to recommend someone for its open nurse position. Under Section 7(b)(3) of RA 6713, what should Liza do?",
+  "choices": [
+    "Recommend someone, as long as the person is not related to her",
+    "Decline; the hospital has a pending transaction with her office",
+    "Recommend someone, as long as she receives nothing in return",
+    "Recommend someone, as long as she puts the referral in writing"
+  ],
+  "answer": "Decline; the hospital has a pending transaction with her office",
+  "hints": [
+    "Notice the hospital's link to Liza's office: its license application is still pending there.",
+    "Section 7(b)(3) bars officials from recommending \"any person to any position in a private enterprise\" that has a certain link to their office.",
+    "The link is \"a regular or pending official transaction with their office.\" If that link exists, the rule covers any person, and it has no exception for non-relatives, for getting nothing in return, or for written referrals. Decide what Liza must do."
+  ],
+  "solution": {
+    "methodName": "Match the act to the prohibition",
+    "steps": [
+      {
+        "action": "Find the key detail: the hospital has a pending license application with Liza's office."
+      },
+      {
+        "action": "Read Section 7(b)(3): during their incumbency, officials shall not \"recommend any person to any position in a private enterprise which has a regular or pending official transaction with their office.\"",
+        "why": "Incumbency means the time a person holds the office. A private enterprise is a private business, such as a private hospital."
+      },
+      {
+        "action": "Apply it: the hospital is a private enterprise, and its license application is a pending official transaction with her office. So she may not recommend anyone.",
+        "why": "The law says \"any person,\" so it does not matter whether the person is a relative or whether Liza gains anything."
+      },
+      {
+        "action": "The answer is: Decline; the hospital has a pending transaction with her office."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Recommend someone, as long as the person is not related to her": "Section 7(b)(3) bars recommending \"any person,\" not only relatives.",
+    "Recommend someone, as long as she receives nothing in return": "The rule does not depend on a reward. Recommending \"any person\" to a business with a pending transaction with her office is prohibited.",
+    "Recommend someone, as long as she puts the referral in writing": "Putting it in writing changes nothing. The recommendation itself is prohibited under Section 7(b)(3)."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 7(b)(3)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

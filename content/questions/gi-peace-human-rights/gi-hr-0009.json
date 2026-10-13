@@ -1,0 +1,53 @@
+{
+  "id": "gi-hr-0009",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-constitution",
+  "difficulty": 2,
+  "stem": "The Commission on Human Rights (CHR) learns of a possible violation of a person's civil and political rights, but no one has filed a complaint. Under Article XIII, Section 18 of the 1987 Constitution, may the CHR investigate?",
+  "choices": [
+    "No. It must wait for a complaint from the victim.",
+    "No. It needs an order from the President first.",
+    "Only if Congress asks it to look into the case.",
+    "Yes. It may investigate on its own."
+  ],
+  "answer": "Yes. It may investigate on its own.",
+  "hints": [
+    "Look at how the first power in Section 18 begins. It says who can start an investigation.",
+    "Recall the opening words of Section 18(1): the CHR may investigate \"on its own or on complaint by any party\".",
+    "With \"or\", either way is enough to start. Check which choices add a condition that the text does not have."
+  ],
+  "solution": {
+    "methodName": "Recall the exact words of the provision",
+    "steps": [
+      {
+        "action": "Find the provision: Article XIII, Section 18(1) of the 1987 Constitution."
+      },
+      {
+        "action": "Read it: the CHR may \"Investigate, on its own or on complaint by any party, all forms of human rights violations involving civil and political rights\"."
+      },
+      {
+        "action": "The word \"or\" gives two separate ways to start: on its own, or on a complaint.",
+        "why": "With \"or\", either one is enough. A complaint is not required."
+      },
+      {
+        "action": "Section 18(1) does not ask for the President's order or for a request from Congress.",
+        "why": "Section 17 creates the CHR as \"an independent office\"."
+      },
+      {
+        "action": "The answer is: yes, it may investigate on its own."
+      }
+    ]
+  },
+  "trapNotes": {
+    "No. It must wait for a complaint from the victim.": "Section 18(1) says the CHR may investigate \"on its own or on complaint by any party\". A complaint is one way to start, not the only way.",
+    "No. It needs an order from the President first.": "Section 17 creates the CHR as \"an independent office\", and Section 18(1) does not require the President's order.",
+    "Only if Congress asks it to look into the case.": "Section 19 lets Congress add other kinds of cases to the CHR's authority, but Section 18(1) does not require Congress to ask before the CHR investigates."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XIII, Sections 17 and 18(1)",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

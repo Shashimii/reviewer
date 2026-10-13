@@ -1,0 +1,53 @@
+{
+  "id": "gi-cc-0022",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-disclosure",
+  "difficulty": 2,
+  "stem": "Carlo is appointed to a permanent position and assumes office on August 3, 2026. Under Section 8(A) of RA 6713, when must he file his FIRST SALN?",
+  "choices": [
+    "On or before April 30 of the next year",
+    "Within 60 days after he assumes office",
+    "Within 15 working days after he assumes office",
+    "Within 30 days after he assumes office"
+  ],
+  "answer": "Within 30 days after he assumes office",
+  "hints": [
+    "The question asks for his FIRST SALN. Section 8(A) has a separate deadline for people who are just starting.",
+    "Section 8(A) lists three deadlines: one counted from assumption of office, one fixed date every year, and one counted from separation from the service.",
+    "The yearly date is for \"every year thereafter,\" which means after the first filing. Use the deadline counted from assumption of office, and recall its number of days."
+  ],
+  "solution": {
+    "methodName": "Match each number to its rule",
+    "steps": [
+      {
+        "action": "Read the three deadlines in Section 8(A): \"(a) within thirty (30) days after assumption of office; (b) on or before April 30, of every year thereafter; and (c) within thirty (30) days after separation from the service.\""
+      },
+      {
+        "action": "Carlo is just starting, so deadline (a) applies to his first SALN.",
+        "why": "Assumption of office means the day he starts holding the post."
+      },
+      {
+        "action": "Deadline (b) is for later years.",
+        "why": "\"Thereafter\" means after that. The April 30 deadline applies every year after the first filing."
+      },
+      {
+        "action": "Check that he must file at all: Section 8(A) exempts only \"those who serve in an honorary capacity, laborers and casual or temporary workers.\" Carlo holds a permanent position, so he must file."
+      },
+      {
+        "action": "The answer is: Within 30 days after he assumes office."
+      }
+    ]
+  },
+  "trapNotes": {
+    "On or before April 30 of the next year": "April 30 is the yearly deadline \"of every year thereafter,\" meaning after the first filing. His first SALN is due within 30 days after assumption of office.",
+    "Within 60 days after he assumes office": "60 days is the Section 9 deadline for divesting shares when there is a conflict of interest. The first SALN is due within 30 days.",
+    "Within 15 working days after he assumes office": "15 working days is the deadline for answering letters from the public (Section 5(a)), not for the SALN."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 8(A)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

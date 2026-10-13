@@ -1,0 +1,56 @@
+{
+  "id": "gi-hr-0005",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-concepts",
+  "difficulty": 3,
+  "stem": "Which statement best matches what Article 29 of the Universal Declaration of Human Rights says about limits on our rights and freedoms?",
+  "choices": [
+    "Rights and freedoms can never be limited, whatever the reason or situation.",
+    "Limits must be set by law, and only for aims such as respect for others' rights.",
+    "Limits may be set by any public official who finds them useful at the time.",
+    "Rights belong only to people who have first done their duties to the community."
+  ],
+  "answer": "Limits must be set by law, and only for aims such as respect for others' rights.",
+  "hints": [
+    "Article 29 talks about both duties and limits. Look closely at who sets the limits, and for what purpose.",
+    "Recall Article 29(2): everyone \"shall be subject only to such limitations as are determined by law solely for the purpose of\" certain aims.",
+    "Test each choice against that sentence. Does it allow limits at all? Who sets them: the law, or one person's opinion? Does Article 29 make rights depend on duties, or does it simply say everyone has duties?"
+  ],
+  "solution": {
+    "methodName": "Recall the exact words of the provision",
+    "steps": [
+      {
+        "action": "Find the provision: Article 29 of the UDHR."
+      },
+      {
+        "action": "Read Article 29(2): everyone \"shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society.\"",
+        "why": "In simple words: rights can be limited, but only by law, and only to protect the rights of others, public order and the general welfare."
+      },
+      {
+        "action": "Rule out \"can never be limited\": Article 29 clearly allows some limits."
+      },
+      {
+        "action": "Rule out \"any public official\": the limits must be \"determined by law\", not by one person's choice."
+      },
+      {
+        "action": "Rule out \"only people who have done their duties\": Article 29(1) says \"Everyone has duties to the community\", but Article 2 gives the rights to everyone \"without distinction of any kind\".",
+        "why": "Having duties is not the same as earning your rights by doing them first."
+      },
+      {
+        "action": "The answer is the statement that limits must be set by law, and only for aims such as respect for others' rights."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Rights and freedoms can never be limited, whatever the reason or situation.": "Article 29(2) does allow limits, as long as they are \"determined by law\" for aims like respect for the rights of others and public order.",
+    "Limits may be set by any public official who finds them useful at the time.": "Article 29(2) says limits must be \"determined by law\" and \"solely\" for the listed aims. One official's view of what is useful is not enough.",
+    "Rights belong only to people who have first done their duties to the community.": "Article 29(1) says everyone has duties, but it does not make rights depend on them. Article 2 gives the rights to everyone \"without distinction of any kind\"."
+  },
+  "sourceRef": {
+    "citation": "Universal Declaration of Human Rights, Article 29; Article 2",
+    "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

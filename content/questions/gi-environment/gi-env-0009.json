@@ -1,0 +1,50 @@
+{
+  "id": "gi-env-0009",
+  "topicId": "gi-environment",
+  "skill": "gi-env-waste",
+  "difficulty": 3,
+  "stem": "Under Section 10 of RA 9003, the barangay handles the segregation and collection of biodegradable, compostable and reusable wastes. Who is responsible for collecting non-recyclable materials and special wastes?",
+  "choices": [
+    "The barangay",
+    "The province",
+    "The municipality or city",
+    "The DENR regional office"
+  ],
+  "answer": "The municipality or city",
+  "hints": [
+    "Section 10 splits the collection work between two levels of local government.",
+    "The first level is named in the question. The rule for the other kinds of waste starts with \"Provided, That ...\"",
+    "Read that proviso: the collection of non-recyclable materials and special wastes \"shall be the responsibility of the ...\" Find the level it names among the choices."
+  ],
+  "solution": {
+    "methodName": "Name who is responsible, then check the exact role",
+    "steps": [
+      {
+        "action": "Recall Section 10: \"Segregation and collection of solid waste shall be conducted at the barangay level specifically for biodegradable, compostable and reusable wastes.\""
+      },
+      {
+        "action": "Read the proviso that follows: \"the collection of non-recyclable materials and special wastes shall be the responsibility of the municipality or city.\"",
+        "why": "A proviso is a \"Provided, That\" clause. It adds a condition or an exception to the rule before it."
+      },
+      {
+        "action": "Note that Section 10 makes LGUs \"primarily responsible for the implementation and enforcement\" of RA 9003. The DENR supports them.",
+        "why": "This is why a national agency like the DENR is not the collector."
+      },
+      {
+        "action": "The answer is the municipality or city."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The barangay": "The barangay handles biodegradable, compostable and reusable wastes. Non-recyclable and special wastes go to the municipality or city.",
+    "The province": "The province has a Solid Waste Management Board (Section 11), but Section 10 does not name it as the collector.",
+    "The DENR regional office": "Section 10 makes LGUs primarily responsible for carrying out RA 9003. The DENR gives technical help (Section 8) but does not collect garbage."
+  },
+  "sourceRef": {
+    "citation": "RA 9003, Section 10",
+    "url": "https://lawphil.net/statutes/repacts/ra2001/ra_9003_2001.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

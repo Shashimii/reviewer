@@ -1,0 +1,51 @@
+{
+  "id": "gi-cc-0012",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-duties",
+  "difficulty": 1,
+  "stem": "A purchase request needs the signature of the division chief, but she is away on leave. Under Section 5(c) of RA 6713, who should sign for and on her behalf?",
+  "choices": [
+    "The employee who has served longest in the division",
+    "Only the head of the agency, as the highest official",
+    "The official next-in-rank or the officer in charge",
+    "No one; the request must wait until she returns"
+  ],
+  "answer": "The official next-in-rank or the officer in charge",
+  "hints": [
+    "Section 5(c) is about processing documents quickly. It says what happens when an authorized signatory is absent.",
+    "Read the last sentence of Section 5(c). It begins: \"In the absence of duly authorized signatories, ...\"",
+    "Section 5(c) names who signs \"for and in their behalf\" so that papers are not delayed. It is based on rank or on being formally put in charge, not on years of service. Pick the choice that matches."
+  ],
+  "solution": {
+    "methodName": "Find the section, then match its exact words",
+    "steps": [
+      {
+        "action": "Find the rule: Section 5(c), \"Process documents and papers expeditiously.\"",
+        "why": "Expeditiously means quickly and efficiently."
+      },
+      {
+        "action": "Read its last sentence: \"In the absence of duly authorized signatories, the official next-in-rank or officer in charge shall sign for and in their behalf.\"",
+        "why": "An officer in charge (OIC) is the person assigned to act for an official who is away."
+      },
+      {
+        "action": "So the request does not wait. The official next in rank, or the OIC, signs it.",
+        "why": "Section 5(c) also says documents should have, \"as far as practicable, not more than three (3) signatories.\" Both rules aim to keep papers moving."
+      },
+      {
+        "action": "The answer is: The official next-in-rank or the officer in charge."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The employee who has served longest in the division": "Years of service do not decide who signs. Section 5(c) names \"the official next-in-rank or officer in charge.\"",
+    "Only the head of the agency, as the highest official": "Section 5(c) does not send the document up to the agency head. It names \"the official next-in-rank or officer in charge.\"",
+    "No one; the request must wait until she returns": "Waiting goes against Section 5(c), which is about processing papers quickly. The next-in-rank official or the officer in charge signs instead."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 5(c)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

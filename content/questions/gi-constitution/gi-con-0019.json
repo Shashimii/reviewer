@@ -1,0 +1,50 @@
+{
+  "id": "gi-con-0019",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-government",
+  "difficulty": 3,
+  "stem": "Representative Santos, a Member of the House of Representatives, accepts an appointment as head of an executive department in the middle of her term. Under Article VI, Section 13 of the 1987 Constitution, what is the result?",
+  "choices": [
+    "She keeps both posts if the President consents",
+    "She keeps both posts but receives one salary",
+    "She must first take a leave from the House",
+    "She forfeits her seat in the House"
+  ],
+  "answer": "She forfeits her seat in the House",
+  "hints": [
+    "The question is about a lawmaker holding a second government post at the same time.",
+    "Article VI, Section 13 says no Senator or Member of the House may hold any other office in the Government during the term \"without forfeiting his seat.\"",
+    "To \"forfeit\" means to lose something because of what you did. Check whether Section 13 makes any exception for consent, a leave or a single salary, then choose the result it states."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Find the rule: no Member of Congress \"may hold any other office or employment in the Government ... during his term without forfeiting his seat.\"",
+        "why": "Forfeit means to lose something because of what you did. Here, taking another government post costs the lawmaker the seat."
+      },
+      {
+        "action": "Apply it: head of an executive department is an office in the Government, so accepting it means holding another office during her term.",
+        "why": "The heads of the executive departments are appointed by the President with the consent of the Commission on Appointments (Article VII, Section 16). They are officers of the executive branch."
+      },
+      {
+        "action": "Check the other choices: Section 13 has no exception for the President's consent, a leave of absence, or taking only one salary."
+      },
+      {
+        "action": "She forfeits her seat in the House."
+      }
+    ]
+  },
+  "trapNotes": {
+    "She keeps both posts if the President consents": "The President appoints department heads, but Section 13 has no exception for the President's consent. Holding the second office costs her the seat.",
+    "She keeps both posts but receives one salary": "Section 13 is about holding two offices, not about pay. Taking one salary does not save her seat.",
+    "She must first take a leave from the House": "Section 13 has no leave option. Holding another government office during her term means she forfeits her seat."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article VI, Section 13",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

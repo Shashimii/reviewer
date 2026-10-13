@@ -1,0 +1,49 @@
+{
+  "id": "gi-env-0012",
+  "topicId": "gi-environment",
+  "skill": "gi-env-air-water",
+  "difficulty": 1,
+  "stem": "Under RA 9275, the Philippine Clean Water Act of 2004, what must a factory get from the DENR before it may discharge wastewater (regulated effluents) into a river?",
+  "choices": [
+    "A barangay clearance",
+    "A discharge permit",
+    "A Certificate of Conformity",
+    "A building permit"
+  ],
+  "answer": "A discharge permit",
+  "hints": [
+    "The name of the document says exactly what it allows the factory to do.",
+    "Section 14 of RA 9275 is about the permit to let wastewater out.",
+    "Section 14 calls it \"the legal authorization granted by the Department to discharge wastewater.\" Pick the choice whose name matches."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match its key words",
+    "steps": [
+      {
+        "action": "Recall Section 14 of RA 9275: the DENR \"shall require owners or operators of facilities that discharge regulated effluents pursuant to this Act to secure a permit to discharge.\"",
+        "why": "Effluent is wastewater or other discharge from a known source, such as a factory, that is passed into water or onto land (Section 4(m))."
+      },
+      {
+        "action": "Note what the permit sets: \"the quantity and quality of effluent\" the facility may discharge into a particular water body."
+      },
+      {
+        "action": "Note that discharging regulated water pollutants without a valid discharge permit is a prohibited act under Section 27(i)."
+      },
+      {
+        "action": "The answer is a discharge permit."
+      }
+    ]
+  },
+  "trapNotes": {
+    "A barangay clearance": "A barangay clearance is a local document. RA 9275 requires a discharge permit from the DENR.",
+    "A Certificate of Conformity": "This comes from the Clean Air Act (RA 8749, Section 5(e)). It shows that a new vehicle meets the law's requirements.",
+    "A building permit": "A building permit is about construction. It does not allow anyone to discharge wastewater into a river."
+  },
+  "sourceRef": {
+    "citation": "RA 9275 (Philippine Clean Water Act of 2004), Section 14; see also Sections 4(m) and 27(i)",
+    "url": "https://lawphil.net/statutes/repacts/ra2004/ra_9275_2004.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

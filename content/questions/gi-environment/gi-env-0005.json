@@ -1,0 +1,51 @@
+{
+  "id": "gi-env-0005",
+  "topicId": "gi-environment",
+  "skill": "gi-env-waste",
+  "difficulty": 1,
+  "stem": "Which of these acts is prohibited under Section 48 of RA 9003, the Ecological Solid Waste Management Act of 2000?",
+  "choices": [
+    "Composting kitchen scraps in a backyard",
+    "Selling old newspapers to a junk shop",
+    "Open burning of household garbage",
+    "Bringing empty bottles to a buy-back center"
+  ],
+  "answer": "Open burning of household garbage",
+  "hints": [
+    "RA 9003 encourages reuse, recycling and composting. Look for the one act that harms the air and people's health instead.",
+    "Section 48 lists the prohibited acts. Item (3) is about getting rid of garbage with fire.",
+    "Check each choice: is it composting, recycling or reuse, which the law encourages, or is it on the Section 48 list? Only one choice is on the list."
+  ],
+  "solution": {
+    "methodName": "Check the act against the law's list of prohibited acts",
+    "steps": [
+      {
+        "action": "Recall that Section 48 of RA 9003 lists the prohibited acts. Item (3) is \"The open burning of solid waste.\"",
+        "why": "Prohibited means not allowed by law. A person who does a prohibited act can be fined or punished."
+      },
+      {
+        "action": "Check that household garbage is solid waste. Section 3(kk) says solid waste includes \"all discarded household\" waste.",
+        "why": "So burning household garbage in the open is the open burning of solid waste."
+      },
+      {
+        "action": "Check the other three choices. Composting, selling recyclables and using a buy-back center are ways to reuse and recycle.",
+        "why": "Section 2(c) names \"composting, recycling, re-use, recovery\" as ways to reduce waste. The law promotes these acts; it does not ban them."
+      },
+      {
+        "action": "The answer is open burning of household garbage."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Composting kitchen scraps in a backyard": "Composting is encouraged, not banned. Section 3(f) defines it as turning organic matter into \"a humus-like product.\"",
+    "Selling old newspapers to a junk shop": "This is recycling. Section 3(z) lists newspaper as a recyclable material.",
+    "Bringing empty bottles to a buy-back center": "A buy-back center is a recycling center that buys recyclable materials from the public (Section 3(d)). Using one is encouraged."
+  },
+  "sourceRef": {
+    "citation": "RA 9003 (Ecological Solid Waste Management Act of 2000), Section 48(3); see also Sections 2(c) and 3",
+    "url": "https://lawphil.net/statutes/repacts/ra2001/ra_9003_2001.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

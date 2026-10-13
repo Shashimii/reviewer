@@ -1,0 +1,69 @@
+{
+  "id": "gi-peace-human-rights-lesson",
+  "topicId": "gi-peace-human-rights",
+  "workedExampleId": "gi-hr-0012",
+  "sections": [
+    {
+      "heading": "Human rights and the Universal Declaration",
+      "body": "**Human rights** are the rights every person has just by being human. The main world text on them is the [Universal Declaration of Human Rights (UDHR)](https://www.un.org/en/about-us/universal-declaration-of-human-rights), proclaimed by the United Nations General Assembly in Paris on 10 December 1948.\n\n- **Art. 1:** \"All human beings are born free and equal in dignity and rights.\"\n- **Art. 2:** these rights belong to everyone \"without distinction of any kind\".\n- **Art. 5:** no torture. **Art. 21:** \"equal access to public service\".\n- **Art. 26:** \"Elementary education shall be compulsory.\"\n- **Art. 29:** rights may be limited only by law, for aims like respect for the rights of others.\n- **Art. 30:** no one may use the Declaration to destroy the rights in it.\n\n**Method: recall the exact words.** Which education is compulsory? Higher education is only \"equally accessible\", so the answer is elementary."
+    },
+    {
+      "heading": "The Constitution and the Commission on Human Rights",
+      "body": "The [1987 Constitution](https://lawphil.net/consti/cons1987.html) says: \"The State values the dignity of every human person and guarantees full respect for human rights\" (Art. II, Sec. 11).\n\nUnder the **Bill of Rights** (Art. III, Sec. 12), a person under investigation for an offense must be told of his right to remain silent and to have **counsel** (a lawyer). He can **waive** (give up) these rights only \"in writing and in the presence of counsel.\" A confession taken in violation is \"inadmissible in evidence against him\": it cannot be used as proof.\n\nThe **Commission on Human Rights (CHR)** is \"an independent office\" (Art. XIII, Sec. 17): a Chairman and four Members, all natural-born citizens, \"a majority of whom shall be members of the Bar\" (lawyers). It may investigate \"on its own or on complaint by any party\" and has \"visitorial powers over jails, prisons, or detention facilities\" (Sec. 18). Congress may add other cases to its authority (Sec. 19).\n\n**Method: match the situation to the provision.** A CHR team inspects a jail. That is a visit to a detention facility, so the power used is visitorial powers."
+    },
+    {
+      "heading": "Laws that protect people in custody",
+      "body": "- [RA 7438](https://lawphil.net/statutes/repacts/ra1992/ra_7438_1992.html): a person arrested, detained or under **custodial investigation** \"shall at all times be assisted by counsel.\" A police \"invitation\" to a suspect counts as custodial investigation.\n- [RA 9745](https://lawphil.net/statutes/repacts/ra2009/ra_9745_2009.html), the Anti-Torture Act of 2009: war, a threat of war, an emergency or an \"order of battle\" \"can never be invoked as a justification for torture\" (Sec. 6).\n- [RA 10353](https://lawphil.net/statutes/repacts/ra2012/ra_10353_2012.html) punishes **enforced disappearance**. If a relative asks a detention center about a reported victim, the official must \"immediately issue a certification in writing\" (Sec. 8).\n\n**Method: find the rule, then check its exception.** A statement obtained through torture is \"inadmissible in evidence in any proceedings\", except against those \"accused of committing torture\" (RA 9745, Sec. 8)."
+    },
+    {
+      "heading": "Peace and international humanitarian law",
+      "body": "The UDHR Preamble calls the recognition of everyone's dignity and equal rights \"the foundation of freedom, justice and peace in the world.\" The Constitution says: \"The Philippines renounces war as an instrument of national policy\" (Art. II, Sec. 2). To renounce means to give up.\n\n[RA 9851](https://lawphil.net/statutes/repacts/ra2009/ra_9851_2009.html) punishes crimes against **international humanitarian law**. Its **war crimes** (Sec. 4) include:\n\n- attacking civilians \"not taking direct part in hostilities\" (the fighting)\n- killing a person known to be **hors de combat**, such as a fighter who has surrendered\n- recruiting children under 15 into the national armed forces or under 18 into other armed groups, or using children under 18 in hostilities\n- attacking buildings for religion or education, or hospitals, that are not military objectives. In case of doubt, such a place \"shall be presumed not to be so used.\"\n\nExample: a fighter lays down his weapon and surrenders. He is now hors de combat, so killing him is a war crime."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **\"All\" or \"a majority\"?** All CHR members must be natural-born citizens; only a majority must be lawyers.\n- **\"Or\" means either one.** The CHR may investigate on its own, without a complaint.\n- **Writing alone is not enough.** A waiver needs writing and counsel present.\n- **No emergency excuses torture.** Not war, not a threat of war, not an order of battle.\n- **Two ages for children.** 15 is only for recruiting into the national armed forces; 18 covers everything else.\n- **Doubt protects.** A school or hospital is presumed not used for military action.\n- **Keep phrases apart.** War is renounced \"as an instrument of national policy\"; \"part of the law of the land\" describes international law."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Human rights",
+      "definition": "The rights every person has just by being human, \"without distinction of any kind\" (UDHR, Article 2).",
+      "taglish": "Human rights – mga karapatang taglay ng bawat tao dahil siya ay tao, walang pinipili"
+    },
+    {
+      "term": "Commission on Human Rights (CHR)",
+      "definition": "An independent office created by Article XIII of the 1987 Constitution. It investigates human rights violations and works to protect human rights.",
+      "taglish": "CHR – malayang tanggapan na nag-iimbestiga ng mga paglabag sa karapatang pantao"
+    },
+    {
+      "term": "Counsel",
+      "definition": "A lawyer who assists a person, for example while the person is being questioned about an offense.",
+      "taglish": "Counsel – abogadong tumutulong sa iyo, lalo na kapag iniimbestigahan ka"
+    },
+    {
+      "term": "Custodial investigation",
+      "definition": "Questioning by officers of a person suspected of an offense. Under RA 7438 it includes an \"invitation\" to a suspect.",
+      "taglish": "Custodial investigation – pagtatanong ng pulis sa suspek; kasama kahit \"imbitasyon\" lang"
+    },
+    {
+      "term": "Waive",
+      "definition": "To give up a right on purpose. Under Article III, Section 12, the right to remain silent and to counsel can be waived only in writing and in the presence of counsel.",
+      "taglish": "Waive – kusang isuko o talikuran ang isang karapatan"
+    },
+    {
+      "term": "Enforced disappearance",
+      "definition": "Under RA 10353, a deprivation of liberty by agents of the State, or with the State's support, followed by a refusal to admit it or by hiding the person's fate or whereabouts.",
+      "taglish": "Enforced disappearance – pagkuha o pagkulong sa tao ng ahente ng gobyerno, tapos itinatanggi o itinatago kung nasaan siya"
+    },
+    {
+      "term": "International humanitarian law",
+      "definition": "The laws and customs that apply in armed conflict. RA 9851 punishes serious violations of them as war crimes.",
+      "taglish": "International humanitarian law – mga patakaran sa digmaan o armadong labanan, lalo na para protektahan ang mga sibilyan"
+    },
+    {
+      "term": "Hors de combat",
+      "definition": "Under RA 9851, Section 3(k), a person who is in the power of the other side, has clearly expressed an intention to surrender, or is too wounded or sick to defend himself.",
+      "taglish": "Hors de combat – taong wala na sa laban, gaya ng sumuko, nahuli o sugatan"
+    }
+  ]
+}

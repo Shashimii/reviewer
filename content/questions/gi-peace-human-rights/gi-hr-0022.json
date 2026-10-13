@@ -1,0 +1,52 @@
+{
+  "id": "gi-hr-0022",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-peace",
+  "difficulty": 2,
+  "stem": "In an armed conflict, an enemy fighter lays down his weapon and clearly surrenders. Under RA 9851, what is true about killing him?",
+  "choices": [
+    "It is lawful, since he was a fighter earlier.",
+    "It is lawful if his unit is still fighting nearby.",
+    "It is a war crime, since he is hors de combat.",
+    "It is lawful if he had attacked civilians before."
+  ],
+  "answer": "It is a war crime, since he is hors de combat.",
+  "hints": [
+    "RA 9851 has a special term for a fighter who is out of the fight. What changes once he surrenders?",
+    "Recall Section 3(k), the meaning of \"hors de combat\". One of its cases is a person who \"has clearly expressed an intention to surrender\".",
+    "Then recall Section 4(c)(8), on killing or wounding a person known to be hors de combat. Check whether any excuse in the choices appears in it."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Spot the facts: the fighter laid down his weapon and clearly surrendered."
+      },
+      {
+        "action": "Section 3(k) of RA 9851 defines \"hors de combat\" to include a person who \"has clearly expressed an intention to surrender\".",
+        "why": "Hors de combat describes a person who is out of the fighting: captured, surrendered, or too wounded or sick to defend himself."
+      },
+      {
+        "action": "Section 4(c)(8) lists as a war crime \"Killing or wounding a person in the knowledge that he/she is hors de combat, including a combatant who, having laid down his/her arms or no longer having means of defense, has surrendered at discretion\"."
+      },
+      {
+        "action": "Section 4(c)(8) has no exception for what he did before, or for fighting that goes on nearby."
+      },
+      {
+        "action": "The answer is: it is a war crime, since he is hors de combat."
+      }
+    ]
+  },
+  "trapNotes": {
+    "It is lawful, since he was a fighter earlier.": "What matters is his status now. Once he clearly surrenders, he is hors de combat under Section 3(k), and killing him is a war crime under Section 4(c)(8).",
+    "It is lawful if his unit is still fighting nearby.": "Section 4(c)(8) has no exception for fighting nearby. The person who surrendered is protected.",
+    "It is lawful if he had attacked civilians before.": "Section 4(c)(8) has no exception for past acts. Killing a person known to be hors de combat is a war crime."
+  },
+  "sourceRef": {
+    "citation": "RA 9851, Sections 3(k) and 4(c)(8)",
+    "url": "https://lawphil.net/statutes/repacts/ra2009/ra_9851_2009.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

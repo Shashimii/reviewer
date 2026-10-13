@@ -1,0 +1,47 @@
+{
+  "id": "gi-con-0028",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-social",
+  "difficulty": 1,
+  "stem": "Under Article XIV, Section 5 of the 1987 Constitution, which area must the State give the highest budgetary priority?",
+  "choices": [
+    "Education",
+    "National defense",
+    "Public health",
+    "Infrastructure"
+  ],
+  "answer": "Education",
+  "hints": [
+    "This rule is in Article XIV, the article on education, science and technology, arts, culture and sports.",
+    "Section 5 of Article XIV says the State \"shall assign the highest budgetary priority to\" one area, then gives a reason about teaching.",
+    "Section 5 says this priority should help teaching \"attract and retain its rightful share of the best available talents.\" Pick the area that teaching belongs to."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Find the rule: \"The State shall assign the highest budgetary priority to education.\"",
+        "why": "Budgetary priority means which area comes first when the government divides its money."
+      },
+      {
+        "action": "Read the purpose: to \"ensure that teaching will attract and retain its rightful share of the best available talents through adequate remuneration and other means of job satisfaction and fulfillment.\"",
+        "why": "Remuneration means pay. Good pay helps draw and keep good teachers."
+      },
+      {
+        "action": "The State must give education the highest budgetary priority."
+      }
+    ]
+  },
+  "trapNotes": {
+    "National defense": "Defense is important, but Article XIV, Section 5 names education for the highest budgetary priority.",
+    "Public health": "Article XIII, Section 11 gives priority to the health needs of the under-privileged, sick, elderly, disabled, women and children. But the highest budgetary priority goes to education.",
+    "Infrastructure": "Section 5 does not mention infrastructure. It names education for the highest budgetary priority."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XIV, Section 5",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

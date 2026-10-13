@@ -1,0 +1,50 @@
+{
+  "id": "gi-cc-0015",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-prohibited",
+  "difficulty": 1,
+  "stem": "Rey works in a city procurement office. His supervisor reminds him of Section 7(a) of RA 6713: public officials and employees shall not, directly or indirectly, have any financial or material interest in ___. What completes the rule?",
+  "choices": [
+    "any transaction requiring the approval of their office",
+    "any private business, even one unrelated to their office",
+    "any company owned by their relatives or friends",
+    "any property they buy while they are in office"
+  ],
+  "answer": "any transaction requiring the approval of their office",
+  "hints": [
+    "Section 7(a) is not a ban on owning any business at all. It is tied to the official's own office.",
+    "The rule targets deals where officials could approve something that benefits themselves.",
+    "Read Section 7(a): the forbidden interest is in a deal that needs the approval of the official's own office. Pick the choice with that limit."
+  ],
+  "solution": {
+    "methodName": "Find the section, then match its exact words",
+    "steps": [
+      {
+        "action": "Find the rule: Section 7(a), \"Financial and material interest.\""
+      },
+      {
+        "action": "Read it: officials \"shall not, directly or indirectly, have any financial or material interest in any transaction requiring the approval of their office.\"",
+        "why": "A financial or material interest means you stand to gain money or property from the deal. \"Indirectly\" covers gaining through another person or a company."
+      },
+      {
+        "action": "Note the limit: the rule is about transactions that their own office must approve.",
+        "why": "That is where the danger lies: the official could approve a deal that pays himself."
+      },
+      {
+        "action": "The answer is: any transaction requiring the approval of their office."
+      }
+    ]
+  },
+  "trapNotes": {
+    "any private business, even one unrelated to their office": "Section 7(a) is narrower. It covers only transactions \"requiring the approval of their office,\" not every private business.",
+    "any company owned by their relatives or friends": "Section 7(a) does not mention companies of relatives or friends. It covers \"any transaction requiring the approval of their office.\"",
+    "any property they buy while they are in office": "Section 7(a) does not ban buying property while in office. It covers interests in transactions \"requiring the approval of their office.\""
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 7(a)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

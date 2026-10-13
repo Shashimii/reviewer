@@ -1,0 +1,49 @@
+{
+  "id": "gi-env-0011",
+  "topicId": "gi-environment",
+  "skill": "gi-env-air-water",
+  "difficulty": 1,
+  "stem": "Under Section 34 of RA 8749, the Philippine Clean Air Act of 1999, which agency is the primary government agency responsible for carrying out and enforcing the law?",
+  "choices": [
+    "Department of Health",
+    "Department of Energy",
+    "Department of the Interior and Local Government",
+    "Department of Environment and Natural Resources"
+  ],
+  "answer": "Department of Environment and Natural Resources",
+  "hints": [
+    "The Clean Air Act is an environment law. Think of the department in charge of the environment.",
+    "Section 34 is titled \"Lead Agency.\" It names \"the Department,\" and Section 5(f) says which department that is.",
+    "Read Section 5(f) for the meaning of \"Department\" in RA 8749, then match that name to a choice."
+  ],
+  "solution": {
+    "methodName": "Name who is responsible, then check the exact role",
+    "steps": [
+      {
+        "action": "Recall Section 34 of RA 8749: \"The Department, unless otherwise provided herein, shall be the primary government agency responsible for the implementation and enforcement of this Act.\""
+      },
+      {
+        "action": "Find what \"Department\" means. Section 5(f) says \"Department\" means the Department of Environment and Natural Resources.",
+        "why": "Laws often define a short word once and then use it throughout. Always check the definitions section."
+      },
+      {
+        "action": "Note that Section 34 also names the DENR's Environmental Management Bureau (EMB), which does much of the work."
+      },
+      {
+        "action": "The answer is the Department of Environment and Natural Resources."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Department of Health": "The DOH works on health, but Section 34 names the DENR as the lead agency.",
+    "Department of Energy": "The DOE regulates fuels and fuel additives (Sections 26 and 27), but it is not the lead agency for the whole Act.",
+    "Department of the Interior and Local Government": "The DILG helps in the public information campaign (Section 39), but it is not the lead agency."
+  },
+  "sourceRef": {
+    "citation": "RA 8749 (Philippine Clean Air Act of 1999), Sections 34 and 5(f)",
+    "url": "https://lawphil.net/statutes/repacts/ra1999/ra_8749_1999.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

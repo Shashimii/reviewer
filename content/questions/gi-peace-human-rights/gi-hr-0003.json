@@ -1,0 +1,52 @@
+{
+  "id": "gi-hr-0003",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-concepts",
+  "difficulty": 1,
+  "stem": "Lorna is told she may not apply for a government post because she is a woman. Which right in the Universal Declaration of Human Rights is most directly at stake?",
+  "choices": [
+    "The right of equal access to public service",
+    "The right to rest and leisure",
+    "The right to freedom of movement and residence",
+    "The right to a nationality"
+  ],
+  "answer": "The right of equal access to public service",
+  "hints": [
+    "A government post is a job in the public service. Look for the right about getting into government work.",
+    "Recall Article 21 of the UDHR. Its second paragraph is about public service.",
+    "Ask what Lorna is being kept from. Then check each choice: is it about working hours, moving from place to place, nationality, or entry into government work?"
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Spot what Lorna is being denied: the chance to apply for a government post."
+      },
+      {
+        "action": "A government post is part of the public service, so look for the right about public service."
+      },
+      {
+        "action": "Article 21(2) of the UDHR says: \"Everyone has the right of equal access to public service in his country.\"",
+        "why": "Article 2 adds that everyone has the rights \"without distinction of any kind\", including sex. Being a woman is no reason to shut the door."
+      },
+      {
+        "action": "Check the others: rest and leisure (Article 24), movement and residence (Article 13) and nationality (Article 15) are not about getting a government job."
+      },
+      {
+        "action": "The answer is the right of equal access to public service."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The right to rest and leisure": "Article 24 covers rest, leisure and limits on working hours. Lorna's problem is being kept out of a government post, not her working hours.",
+    "The right to freedom of movement and residence": "Article 13 covers moving and living within your country, and leaving and returning. Lorna is not stopped from moving; she is stopped from applying.",
+    "The right to a nationality": "Article 15 covers having a nationality and not losing it arbitrarily. Nothing in the story takes away Lorna's nationality."
+  },
+  "sourceRef": {
+    "citation": "Universal Declaration of Human Rights, Article 21(2); Article 2",
+    "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

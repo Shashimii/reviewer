@@ -1,0 +1,55 @@
+{
+  "id": "gi-cc-0023",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-disclosure",
+  "difficulty": 2,
+  "stem": "After due notice and hearing by the proper agency, an employee is found to have violated RA 6713. Which of these penalties is NOT allowed under the first sentence of Section 11(a)?",
+  "choices": [
+    "A fine equal to three months' salary",
+    "Suspension for six months",
+    "Suspension for two years",
+    "Removal from the service"
+  ],
+  "answer": "Suspension for two years",
+  "hints": [
+    "Section 11(a) gives three kinds of penalty. Two of them have an upper limit.",
+    "The limits: a fine \"not exceeding the equivalent of six (6) months' salary,\" and suspension \"not exceeding one (1) year.\" The third penalty is removal.",
+    "Check each choice against its limit. A penalty at or below its limit is allowed. Find the one that goes over."
+  ],
+  "solution": {
+    "methodName": "Match each number to its rule",
+    "steps": [
+      {
+        "action": "Read Section 11(a): a violator \"shall be punished with a fine not exceeding the equivalent of six (6) months' salary or suspension not exceeding one (1) year, or removal depending on the gravity of the offense after due notice and hearing by the appropriate body or agency.\"",
+        "why": "\"Not exceeding\" means \"at most.\" Gravity means how serious the offense is."
+      },
+      {
+        "action": "Fine of three months' salary: 3 months is within the 6-month limit, so it is allowed."
+      },
+      {
+        "action": "Suspension for six months: 6 months is within the 1-year limit, so it is allowed."
+      },
+      {
+        "action": "Removal from the service: it is listed, \"depending on the gravity of the offense,\" so it is allowed."
+      },
+      {
+        "action": "Suspension for two years: 2 years is more than the 1-year limit, so it is not allowed."
+      },
+      {
+        "action": "The answer is: Suspension for two years."
+      }
+    ]
+  },
+  "trapNotes": {
+    "A fine equal to three months' salary": "This is allowed. The fine may go up to \"the equivalent of six (6) months' salary,\" and three months is within that.",
+    "Suspension for six months": "This is allowed. Suspension may go up to \"one (1) year.\" Don't mix it up with the six-month limit on fines.",
+    "Removal from the service": "This is allowed. Section 11(a) lists \"removal depending on the gravity of the offense.\""
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 11(a)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

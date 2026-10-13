@@ -1,0 +1,53 @@
+{
+  "id": "gi-hr-0007",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-constitution",
+  "difficulty": 1,
+  "stem": "A team from the Commission on Human Rights (CHR) visits a city jail to check how detainees are treated. Which power of the CHR under Article XIII, Section 18 of the 1987 Constitution allows this?",
+  "choices": [
+    "Granting immunity from prosecution to needed witnesses",
+    "Citing people for contempt for breaking its rules of procedure",
+    "Visitorial powers over jails, prisons or detention facilities",
+    "Appointing its own officers and employees in accordance with law"
+  ],
+  "answer": "Visitorial powers over jails, prisons or detention facilities",
+  "hints": [
+    "The team is entering and inspecting a jail. Which power is about places where people are detained?",
+    "Read down the list of powers in Article XIII, Section 18 and look for the item that names jails.",
+    "Check what each choice is about: witnesses, people who break the CHR's rules, the CHR's own staff, or places of detention. Pick the one that fits a jail visit."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Spot what the team is doing: entering a jail to check on detainees."
+      },
+      {
+        "action": "Find the CHR's list of powers in Article XIII, Section 18 of the 1987 Constitution.",
+        "why": "Section 18 lists eleven powers and functions. Only one of them names jails."
+      },
+      {
+        "action": "Section 18(4) says the CHR shall \"Exercise visitorial powers over jails, prisons, or detention facilities\".",
+        "why": "\"Visitorial\" comes from the word \"visit\". It is the power to visit and look into these places."
+      },
+      {
+        "action": "The other choices are real CHR powers too, but they are about witnesses, contempt and staff, not about visiting jails."
+      },
+      {
+        "action": "The answer is visitorial powers over jails, prisons or detention facilities."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Granting immunity from prosecution to needed witnesses": "This is a real CHR power in Section 18, but it is about people whose testimony or evidence is needed in an investigation. It does not cover visiting jails.",
+    "Citing people for contempt for breaking its rules of procedure": "Section 18 lets the CHR cite for contempt people who violate its rules of procedure. That is not the power to inspect a jail.",
+    "Appointing its own officers and employees in accordance with law": "Section 18 lets the CHR appoint its staff. That is about running its own office, not about visiting jails."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XIII, Section 18",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

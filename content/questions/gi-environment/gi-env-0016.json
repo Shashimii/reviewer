@@ -1,0 +1,47 @@
+{
+  "id": "gi-env-0016",
+  "topicId": "gi-environment",
+  "skill": "gi-env-protected",
+  "difficulty": 1,
+  "stem": "The E-NIPAS Act of 2018 (RA 11038) prohibits \"kaingin\" inside protected areas. What is kaingin?",
+  "choices": [
+    "Fishing with fine-mesh nets",
+    "Gathering fallen fruit",
+    "Planting trees along a river",
+    "Slash-and-burn farming"
+  ],
+  "answer": "Slash-and-burn farming",
+  "hints": [
+    "Kaingin is a farming method. Think of how some farmers clear forest land quickly.",
+    "Section 4(s) of RA 7586, as amended by RA 11038, defines kaingin as a kind of \"cultivation of vegetated land.\"",
+    "The definition mentions both cutting and fire. Find the choice that includes both."
+  ],
+  "solution": {
+    "methodName": "Match the term to its legal definition",
+    "steps": [
+      {
+        "action": "Recall Section 4(s): \"Kaingin refers to the slash-and-burn cultivation of vegetated land in a protected area.\"",
+        "why": "Slash means cut down. The farmer cuts the plants, burns them, then plants crops on the cleared land."
+      },
+      {
+        "action": "Recall Section 20(i): it is prohibited to engage in \"'kaingin' or, any manner, causing forest fires inside the protected area.\"",
+        "why": "Kaingin destroys forest cover and can start forest fires."
+      },
+      {
+        "action": "The answer is slash-and-burn farming."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Fishing with fine-mesh nets": "This is about fishing, not farming. Kaingin is a way of clearing and farming land.",
+    "Gathering fallen fruit": "Kaingin is not gathering. It is cutting and burning plants to farm the land.",
+    "Planting trees along a river": "This adds plants. Kaingin removes plants by cutting and burning them."
+  },
+  "sourceRef": {
+    "citation": "RA 7586 as amended by RA 11038 (E-NIPAS Act of 2018), Sections 4(s) and 20(i)",
+    "url": "https://lawphil.net/statutes/repacts/ra2018/ra_11038_2018.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

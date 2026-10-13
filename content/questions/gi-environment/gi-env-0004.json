@@ -1,0 +1,50 @@
+{
+  "id": "gi-env-0004",
+  "topicId": "gi-environment",
+  "skill": "gi-env-principles",
+  "difficulty": 3,
+  "stem": "Congress has fixed the boundaries of a national park by law. Later, a town mayor wants to cut off part of the park to build a subdivision. Under Article XII, Section 4 of the 1987 Constitution, how can the park's area be reduced?",
+  "choices": [
+    "Through a town council ordinance",
+    "Through a DENR Secretary's permit",
+    "Only through a law",
+    "Never, under any circumstances"
+  ],
+  "answer": "Only through a law",
+  "hints": [
+    "Section 4 says what happens to forest lands and national parks after their limits are marked. Watch for an exception at the end of the rule.",
+    "Read the rule: national parks \"shall be conserved and may not be increased nor diminished, except by ...\" Find the last word.",
+    "\"Diminished\" means made smaller. A rule with \"except\" is not a total ban. Section 4 also says who fixes park limits \"by law.\" Match the choice to that one exception."
+  ],
+  "solution": {
+    "methodName": "Apply the rule to the facts",
+    "steps": [
+      {
+        "action": "Recall Article XII, Section 4: after their limits are fixed, \"such forest lands and national parks shall be conserved and may not be increased nor diminished, except by law.\"",
+        "why": "Diminished means made smaller."
+      },
+      {
+        "action": "Apply it to the facts: cutting off part of the park makes it smaller, so it diminishes the park."
+      },
+      {
+        "action": "Find the exception: the only way is \"by law.\" Section 4 gives this job to Congress: \"The Congress shall, as soon as possible, determine, by law, the specific limits of forest lands and national parks.\"",
+        "why": "An ordinance or a permit is not a law passed by Congress. And because there is an exception, the area is not frozen forever."
+      },
+      {
+        "action": "The answer is only through a law."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Through a town council ordinance": "Section 4 gives Congress, not the town council, the power to set park limits by law. An ordinance cannot shrink a national park.",
+    "Through a DENR Secretary's permit": "A permit is not a law. The DENR manages parks but cannot change their area on its own.",
+    "Never, under any circumstances": "Too strong. Section 4 says \"except by law,\" so the area can change through a law."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XII, Section 4",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

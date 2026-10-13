@@ -1,0 +1,50 @@
+{
+  "id": "gi-env-0007",
+  "topicId": "gi-environment",
+  "skill": "gi-env-waste",
+  "difficulty": 2,
+  "stem": "Under RA 9003, where should solid waste mainly be segregated (sorted into kinds)?",
+  "choices": [
+    "At the sanitary landfill",
+    "Inside the garbage truck",
+    "Only at the materials recovery facility",
+    "At the source, where it is produced"
+  ],
+  "answer": "At the source, where it is produced",
+  "hints": [
+    "Think about who holds the waste first: the home, office, store or farm.",
+    "Section 21 says segregation \"shall primarily be conducted at the ...\" Primarily means mainly or first.",
+    "The MRF does \"final sorting,\" so it is not the main place. Compare each choice with the place where the waste first comes from."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match its key words",
+    "steps": [
+      {
+        "action": "Recall Section 21 of RA 9003: \"segregation of wastes shall primarily be conducted at the source, to include household, institutional, industrial, commercial and agricultural sources.\"",
+        "why": "The source is the place where the waste is made, such as your home or office."
+      },
+      {
+        "action": "Check the definition. Section 3(jj) describes segregation at source as separating different materials \"at the point of origin.\"",
+        "why": "Sorting early keeps recyclables clean and reduces the waste to be collected and disposed of."
+      },
+      {
+        "action": "Rule out the MRF. Section 32 says it does \"final sorting,\" which comes after sorting at the source."
+      },
+      {
+        "action": "The answer is at the source, where it is produced."
+      }
+    ]
+  },
+  "trapNotes": {
+    "At the sanitary landfill": "A sanitary landfill is a disposal site, the last stop for waste. Sorting there is too late.",
+    "Inside the garbage truck": "Trucks carry waste that is already sorted. Section 48(8) even prohibits mixing source-separated recyclables with other waste in a collection vehicle.",
+    "Only at the materials recovery facility": "The MRF does the final sorting. The main sorting must happen first, at the source."
+  },
+  "sourceRef": {
+    "citation": "RA 9003, Sections 21, 3(jj) and 32",
+    "url": "https://lawphil.net/statutes/repacts/ra2001/ra_9003_2001.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

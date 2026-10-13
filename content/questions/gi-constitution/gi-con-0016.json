@@ -1,0 +1,53 @@
+{
+  "id": "gi-con-0016",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-government",
+  "difficulty": 3,
+  "stem": "Under the 1987 Constitution, which two officials must be at least forty years old?",
+  "choices": [
+    "The President and a Member of the Supreme Court",
+    "The President and a Senator",
+    "A Senator and a Member of the Supreme Court",
+    "A Senator and a Member of the House of Representatives"
+  ],
+  "answer": "The President and a Member of the Supreme Court",
+  "hints": [
+    "Recall the minimum age for each office in the choices: the President, a Senator, a Member of the House and a Member of the Supreme Court.",
+    "Find the ages in Article VI, Section 3 (Senator), Article VI, Section 6 (House), Article VII, Section 2 (President) and Article VIII, Section 7 (Supreme Court).",
+    "Write each office's minimum age next to it. Then pick the pair where both ages are forty."
+  ],
+  "solution": {
+    "methodName": "Line up the ages and terms by office",
+    "steps": [
+      {
+        "action": "President: \"at least forty years of age on the day of the election\" (Article VII, Section 2)."
+      },
+      {
+        "action": "Member of the Supreme Court: \"must be at least forty years of age\" (Article VIII, Section 7).",
+        "why": "Members of the Supreme Court are appointed by the President (Article VIII, Section 9), not elected, so their age is not tied to an election day."
+      },
+      {
+        "action": "Senator: \"at least thirty-five years of age\" (Article VI, Section 3). Member of the House: \"at least twenty-five years of age\" (Article VI, Section 6)."
+      },
+      {
+        "action": "Line them up: President 40, Supreme Court 40, Senator 35, House 25.",
+        "why": "Only two offices reach forty."
+      },
+      {
+        "action": "The President and a Member of the Supreme Court must be at least forty years old."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The President and a Senator": "The President must be at least 40, but a Senator needs to be only at least 35 (Article VI, Section 3).",
+    "A Senator and a Member of the Supreme Court": "A Member of the Supreme Court must be at least 40, but a Senator needs to be only at least 35.",
+    "A Senator and a Member of the House of Representatives": "Neither needs to be 40. A Senator must be at least 35 and a Member of the House at least 25."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article VI, Sections 3 and 6; Article VII, Section 2; Article VIII, Section 7",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

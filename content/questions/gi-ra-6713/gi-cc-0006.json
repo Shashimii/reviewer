@@ -1,0 +1,49 @@
+{
+  "id": "gi-cc-0006",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-norms",
+  "difficulty": 1,
+  "stem": "Nora, a division chief, was just promoted. Her relatives urge her to throw a lavish party and buy a luxury car to show off. She says no, because she should live modestly, in line with her position and income. Which norm of conduct in Section 4 of RA 6713 is she following?",
+  "choices": [
+    "Professionalism",
+    "Commitment to public interest",
+    "Political neutrality",
+    "Simple living"
+  ],
+  "answer": "Simple living",
+  "hints": [
+    "Look at what Nora refuses to do: show off wealth.",
+    "Find the norm in Section 4(A) that talks about \"modest lives\" and \"display of wealth.\"",
+    "One norm says officials and their families \"shall lead modest lives appropriate to their positions and income\" and must not show off wealth. Pick the norm with that meaning."
+  ],
+  "solution": {
+    "methodName": "Match the key words to the norm",
+    "steps": [
+      {
+        "action": "Find the key detail: Nora refuses a lavish party and a luxury car, and chooses to live modestly."
+      },
+      {
+        "action": "Match it to Section 4(A)(h): officials and their families \"shall lead modest lives appropriate to their positions and income. They shall not indulge in extravagant or ostentatious display of wealth in any form.\"",
+        "why": "Extravagant means spending too much. Ostentatious means showing off."
+      },
+      {
+        "action": "That norm is named simple living."
+      },
+      {
+        "action": "The answer is: Simple living."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Professionalism": "Professionalism (Section 4(A)(b)) is about doing the work with excellence and skill. Nora's choice is about her lifestyle, not the quality of her work.",
+    "Commitment to public interest": "This norm (Section 4(A)(a)) is about putting public interest first and using government resources well. Nora's choice is about her own spending and lifestyle.",
+    "Political neutrality": "Political neutrality (Section 4(A)(d)) is about serving everyone regardless of party. Nothing in the story is about politics."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 4(A)(h)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

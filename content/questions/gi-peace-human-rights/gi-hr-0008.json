@@ -1,0 +1,53 @@
+{
+  "id": "gi-hr-0008",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-constitution",
+  "difficulty": 2,
+  "stem": "Which statement about the members of the Commission on Human Rights is correct under Article XIII, Section 17 of the 1987 Constitution?",
+  "choices": [
+    "All must be natural-born citizens, and all must be members of the Bar.",
+    "All must be natural-born citizens, and a majority must be members of the Bar.",
+    "They may be naturalized citizens, as long as all of them are members of the Bar.",
+    "Only the Chairman must be a natural-born citizen and a member of the Bar."
+  ],
+  "answer": "All must be natural-born citizens, and a majority must be members of the Bar.",
+  "hints": [
+    "Section 17 sets two conditions for the members: one about citizenship and one about being a lawyer. A correct choice must get both right.",
+    "Recall the citizenship rule first. Does it cover all the members or only the Chairman? Does it say natural-born, or any citizen?",
+    "Then recall the lawyer rule. Does it say all the members, or \"a majority\"? Keep only the choice that matches both rules."
+  ],
+  "solution": {
+    "methodName": "Recall the exact words of the provision",
+    "steps": [
+      {
+        "action": "Find the provision: Article XIII, Section 17 of the 1987 Constitution."
+      },
+      {
+        "action": "Read it: the CHR has \"a Chairman and four Members who must be natural-born citizens of the Philippines and a majority of whom shall be members of the Bar.\""
+      },
+      {
+        "action": "Citizenship: all five must be natural-born citizens.",
+        "why": "The words \"who must be natural-born citizens\" describe the Chairman and all four Members. Naturalized citizens do not qualify."
+      },
+      {
+        "action": "Lawyers: only \"a majority\" must be members of the Bar.",
+        "why": "A member of the Bar is a lawyer. A majority means more than half, so at least 3 of the 5, not all of them."
+      },
+      {
+        "action": "The answer is: all must be natural-born citizens, and a majority must be members of the Bar."
+      }
+    ]
+  },
+  "trapNotes": {
+    "All must be natural-born citizens, and all must be members of the Bar.": "The citizenship part is right, but Section 17 says only \"a majority\" must be members of the Bar, not all.",
+    "They may be naturalized citizens, as long as all of them are members of the Bar.": "Section 17 says the members \"must be natural-born citizens\". Being a lawyer does not make up for that.",
+    "Only the Chairman must be a natural-born citizen and a member of the Bar.": "The natural-born rule covers the Chairman and all four Members, not only the Chairman."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XIII, Section 17",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

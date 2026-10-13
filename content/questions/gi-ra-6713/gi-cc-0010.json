@@ -1,0 +1,53 @@
+{
+  "id": "gi-cc-0010",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-norms",
+  "difficulty": 3,
+  "stem": "Mayor Diaz wants to appoint his nephew to a post in the town hall. Under the norm of justness and sincerity, Section 4(A)(c) of RA 6713 bars officials from giving undue favors to relatives because of their office, but it makes one exception for appointments. When does that exception apply?",
+  "choices": [
+    "When the nephew is related to him by marriage, not by blood",
+    "When the post is strictly confidential, or on his coterminous personal staff",
+    "When the nephew agrees to serve the town without any pay",
+    "When the nephew applied for the post before the mayor took office"
+  ],
+  "answer": "When the post is strictly confidential, or on his coterminous personal staff",
+  "hints": [
+    "The rule on relatives in Section 4(A)(c) has the word \"except\" in it. The exception is about the kind of position.",
+    "Read what comes after \"except\": appointments of relatives \"to positions considered strictly confidential or as members of their personal staff whose terms are coterminous with theirs.\"",
+    "Also note that the rule covers relatives \"whether by consanguinity or affinity\" (by blood or by marriage), and nothing in the exception depends on pay or on when the relative applied. Pick the choice that matches the two kinds of position."
+  ],
+  "solution": {
+    "methodName": "Check the list of exceptions",
+    "steps": [
+      {
+        "action": "Read the rule in Section 4(A)(c): officials \"shall not dispense or extend undue favors on account of their office to their relatives whether by consanguinity or affinity.\"",
+        "why": "Consanguinity means related by blood. Affinity means related by marriage, like an in-law."
+      },
+      {
+        "action": "Read the exception: \"except with respect to appointments of such relatives to positions considered strictly confidential or as members of their personal staff whose terms are coterminous with theirs.\"",
+        "why": "Coterminous means ending at the same time. A coterminous staff member's term ends when the official's term ends."
+      },
+      {
+        "action": "Check the choice about a relative by marriage: the rule covers affinity too, so a relative by marriage is not an exception."
+      },
+      {
+        "action": "Check the choices about serving without pay and about applying before the mayor took office: neither appears in the exception."
+      },
+      {
+        "action": "The answer is: When the post is strictly confidential, or on his coterminous personal staff."
+      }
+    ]
+  },
+  "trapNotes": {
+    "When the nephew is related to him by marriage, not by blood": "The rule covers relatives \"whether by consanguinity or affinity.\" Affinity means by marriage, so relatives by marriage are covered, not excepted.",
+    "When the nephew agrees to serve the town without any pay": "Pay is not part of the exception. The only exception is for strictly confidential posts or personal staff whose terms are coterminous with the official's.",
+    "When the nephew applied for the post before the mayor took office": "Section 4(A)(c) says nothing about when the relative applied. The only exception is for strictly confidential posts or coterminous personal staff."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 4(A)(c)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

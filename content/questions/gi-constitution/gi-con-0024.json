@@ -1,0 +1,55 @@
+{
+  "id": "gi-con-0024",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-accountability",
+  "difficulty": 1,
+  "stem": "According to Article XI, Section 17 of the 1987 Constitution, when must a public officer or employee first submit a sworn declaration of assets, liabilities and net worth?",
+  "choices": [
+    "Upon assumption of office",
+    "Only upon retirement from service",
+    "Only when a complaint is filed",
+    "After one year in the service"
+  ],
+  "answer": "Upon assumption of office",
+  "hints": [
+    "Think about when a starting record of what an officer owns and owes would be most useful.",
+    "Article XI, Section 17 says a public officer or employee \"shall, upon ... and as often thereafter as may be required by law, submit a declaration under oath.\" The missing words tell you when the first one is due.",
+    "\"Thereafter\" means \"after that.\" So the first declaration comes at the very start, and later ones follow as the law requires. Pick the choice that marks the start."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Find the rule: a public officer or employee shall, \"upon assumption of office and as often thereafter as may be required by law, submit a declaration under oath of his assets, liabilities, and net worth.\"",
+        "why": "Assets are what you own. Liabilities are what you owe. Net worth is assets minus liabilities. This declaration is often called the SALN."
+      },
+      {
+        "action": "\"Upon assumption of office\" means when the person starts the job.",
+        "why": "This gives a starting record of the officer's wealth."
+      },
+      {
+        "action": "Later declarations are due \"as often thereafter as may be required by law.\"",
+        "why": "The Constitution leaves the schedule of later filings to the law."
+      },
+      {
+        "action": "Note who must also make it public: for the President, the Vice-President, the Members of the Cabinet, the Congress, the Supreme Court, the Constitutional Commissions and other constitutional offices, and officers of the armed forces with general or flag rank, the declaration \"shall be disclosed to the public in the manner provided by law.\"",
+        "why": "Every public officer and employee files the declaration. For these high officials, the public may also see it."
+      },
+      {
+        "action": "The first declaration is due upon assumption of office."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Only upon retirement from service": "A declaration only at the end would leave no starting record. Section 17 requires it \"upon assumption of office.\"",
+    "Only when a complaint is filed": "The duty does not depend on a complaint. Every public officer and employee must submit it upon assumption of office.",
+    "After one year in the service": "Section 17 sets no waiting period. The first declaration is due when the person starts the job."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XI, Section 17",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

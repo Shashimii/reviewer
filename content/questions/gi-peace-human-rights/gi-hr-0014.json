@@ -1,0 +1,53 @@
+{
+  "id": "gi-hr-0014",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-laws",
+  "difficulty": 2,
+  "stem": "Police send Carlo an \"invitation\" to come to the station and answer questions about a theft he is suspected of. He has not been arrested. Under RA 7438, is this a custodial investigation?",
+  "choices": [
+    "Yes. RA 7438 counts such an \"invitation\" as one.",
+    "No. It counts only once he is formally arrested.",
+    "No. Carlo chose to go to the station on his own.",
+    "Only if Carlo is kept at the station overnight."
+  ],
+  "answer": "Yes. RA 7438 counts such an \"invitation\" as one.",
+  "hints": [
+    "The police used a polite word, \"invitation\". Does RA 7438 go by the word, or by what is really happening?",
+    "Recall the paragraph at the end of Section 2 of RA 7438. It explains what \"custodial investigation\" includes.",
+    "That paragraph names a practice that sounds friendly but is treated as custodial investigation. Check whether Carlo's case matches it, and whether the law asks for an arrest or an overnight stay."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Spot the facts: Carlo is a suspect, and the police \"invite\" him to be questioned about the offense."
+      },
+      {
+        "action": "Find the provision: the last paragraph of RA 7438, Section 2."
+      },
+      {
+        "action": "It says \"custodial investigation\" shall include \"the practice of issuing an 'invitation' to a person who is investigated in connection with an offense he is suspected to have committed\".",
+        "why": "The law looks at what is really happening. A suspect questioned about an offense is protected even if the police call it an invitation."
+      },
+      {
+        "action": "Carlo's case matches this exactly. The law does not require an arrest or an overnight stay.",
+        "why": "So Carlo has all the rights in RA 7438, such as being assisted by counsel."
+      },
+      {
+        "action": "The answer is: Yes. RA 7438 counts such an \"invitation\" as one."
+      }
+    ]
+  },
+  "trapNotes": {
+    "No. It counts only once he is formally arrested.": "RA 7438 covers persons \"arrested, detained or under custodial investigation\", and custodial investigation includes an \"invitation\" to a suspect. No arrest is needed.",
+    "No. Carlo chose to go to the station on his own.": "Answering an \"invitation\" does not take Carlo outside the law. Section 2 counts the invitation itself as custodial investigation.",
+    "Only if Carlo is kept at the station overnight.": "RA 7438 has no overnight rule. The \"invitation\" of a suspect already counts as custodial investigation."
+  },
+  "sourceRef": {
+    "citation": "RA 7438, Section 2 (last paragraph)",
+    "url": "https://lawphil.net/statutes/repacts/ra1992/ra_7438_1992.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

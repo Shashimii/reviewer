@@ -1,0 +1,50 @@
+{
+  "id": "gi-env-0015",
+  "topicId": "gi-environment",
+  "skill": "gi-env-air-water",
+  "difficulty": 3,
+  "stem": "A resort owner piles construction debris along the bank of a river. He has not thrown anything into the water, but heavy rain or floods could wash the debris in. Under Section 27(a) of RA 9275, is this a prohibited act?",
+  "choices": [
+    "No, because nothing was thrown into the water",
+    "Yes, because floods could wash it into the river",
+    "No, because the debris is not a toxic chemical",
+    "Yes, but only if he has no business permit"
+  ],
+  "answer": "Yes, because floods could wash it into the river",
+  "hints": [
+    "Section 27(a) covers more than throwing things straight into water. Read where else the material can be placed.",
+    "The rule covers material put \"directly or indirectly into the water bodies or along the margins of any surface water.\" Margins are the edges or banks.",
+    "Check two things: is the material along the margin, and could it be washed in \"by tide action or by storm, floods or otherwise\"? If both are true, decide which choice fits."
+  ],
+  "solution": {
+    "methodName": "Check the act against the law's list of prohibited acts",
+    "steps": [
+      {
+        "action": "Recall Section 27(a) of RA 9275. It prohibits \"Discharging, depositing or causing to be deposited material of any kind directly or indirectly into the water bodies or along the margins of any surface water,\" where it may be \"washed into such surface water, either by tide action or by storm, floods or otherwise.\"",
+        "why": "Margins means the edges or banks of the water."
+      },
+      {
+        "action": "Apply the first part: the debris is \"material of any kind,\" and it sits along the riverbank."
+      },
+      {
+        "action": "Apply the last part: rain or floods could wash it into the river. Every part of the rule is met.",
+        "why": "The rule does not need the material to be toxic or to be thrown into the water. Being placed where it can be washed in is enough."
+      },
+      {
+        "action": "The answer is yes, because floods could wash it into the river."
+      }
+    ]
+  },
+  "trapNotes": {
+    "No, because nothing was thrown into the water": "Section 27(a) also covers material placed \"along the margins\" of surface water, not only material thrown in.",
+    "No, because the debris is not a toxic chemical": "The rule covers \"material of any kind,\" not just toxic chemicals.",
+    "Yes, but only if he has no business permit": "A business permit does not allow anyone to pollute. The act is prohibited whether or not he has one."
+  },
+  "sourceRef": {
+    "citation": "RA 9275, Section 27(a)",
+    "url": "https://lawphil.net/statutes/repacts/ra2004/ra_9275_2004.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

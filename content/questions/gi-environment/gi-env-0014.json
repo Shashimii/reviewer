@@ -1,0 +1,49 @@
+{
+  "id": "gi-env-0014",
+  "topicId": "gi-environment",
+  "skill": "gi-env-air-water",
+  "difficulty": 2,
+  "stem": "A factory spills oil into a bay, polluting it beyond the allowed standards. Under Section 16 of RA 9275, who is responsible for cleaning it up?",
+  "choices": [
+    "The factory, at its own expense",
+    "The DENR, using only public funds",
+    "The city where the bay is located",
+    "The fishers who use the bay"
+  ],
+  "answer": "The factory, at its own expense",
+  "hints": [
+    "The Clean Water Act follows the idea that whoever causes pollution must answer for it.",
+    "Section 16, \"Clean-Up Operations,\" begins its rule with \"any person who causes pollution ...\"",
+    "Section 16 also covers emergencies: if the DENR has to do the clean-up, the expenses \"shall be reimbursed\" by someone. Check who pays in the end, then compare the choices."
+  ],
+  "solution": {
+    "methodName": "Apply the rule to the facts",
+    "steps": [
+      {
+        "action": "Recall Section 16 of RA 9275: \"any person who causes pollution in or pollutes water bodies in excess of the applicable and prevailing standards shall be responsible to contain, remove and clean-up any pollution incident at his own expense.\""
+      },
+      {
+        "action": "Apply it to the facts: the factory caused the spill, so the factory must clean it up and pay for it."
+      },
+      {
+        "action": "Check the emergency rule: if the polluter fails to act, the DENR may do the clean-up, but the expenses \"shall be reimbursed by the persons found to have caused such pollution.\"",
+        "why": "So even then, the cost goes back to the polluter, not to the public."
+      },
+      {
+        "action": "The answer is the factory, at its own expense."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The DENR, using only public funds": "The DENR steps in only if the polluter fails to act in an emergency, and the polluter must pay the costs back.",
+    "The city where the bay is located": "LGUs help with emergency response (Section 20), but Section 16 puts the clean-up and its cost on whoever caused the pollution.",
+    "The fishers who use the bay": "The fishers did not cause the spill. The law makes the polluter responsible."
+  },
+  "sourceRef": {
+    "citation": "RA 9275, Section 16",
+    "url": "https://lawphil.net/statutes/repacts/ra2004/ra_9275_2004.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

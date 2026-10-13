@@ -1,0 +1,54 @@
+{
+  "id": "gi-hr-0004",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-concepts",
+  "difficulty": 2,
+  "stem": "Under Article 26 of the Universal Declaration of Human Rights, which kind of education \"shall be compulsory\"?",
+  "choices": [
+    "Higher education",
+    "Technical and professional education",
+    "Elementary education",
+    "All levels of education"
+  ],
+  "answer": "Elementary education",
+  "hints": [
+    "Article 26 treats each level of education differently. Notice the word it uses for each level.",
+    "Recall the first paragraph of Article 26. It says one thing about elementary education, another about technical and professional education, and another about higher education.",
+    "Match each level to its word: \"compulsory\", \"generally available\" or \"equally accessible ... on the basis of merit\". Only one level gets the word in the question."
+  ],
+  "solution": {
+    "methodName": "Recall the exact words of the provision",
+    "steps": [
+      {
+        "action": "Find the provision: Article 26(1) of the UDHR."
+      },
+      {
+        "action": "Read the rule for elementary education: \"Elementary education shall be compulsory.\"",
+        "why": "Compulsory means required. Everyone must take it."
+      },
+      {
+        "action": "Read the rule for technical and professional education: it \"shall be made generally available\".",
+        "why": "\"Generally available\" means it should be offered to people, not that everyone must take it."
+      },
+      {
+        "action": "Read the rule for higher education: it \"shall be equally accessible to all on the basis of merit\".",
+        "why": "\"On the basis of merit\" means entry depends on ability, so it is not required of everyone."
+      },
+      {
+        "action": "Only elementary education is called compulsory. The answer is elementary education."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Higher education": "Article 26 says higher education \"shall be equally accessible to all on the basis of merit\". Open to all by merit is not the same as compulsory.",
+    "Technical and professional education": "Article 26 says technical and professional education \"shall be made generally available\". Available is not compulsory.",
+    "All levels of education": "Article 26 makes only elementary education compulsory. The other levels are to be available or accessible, not required."
+  },
+  "sourceRef": {
+    "citation": "Universal Declaration of Human Rights, Article 26(1)",
+    "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

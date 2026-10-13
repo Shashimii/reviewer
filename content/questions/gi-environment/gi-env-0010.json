@@ -1,0 +1,49 @@
+{
+  "id": "gi-env-0010",
+  "topicId": "gi-environment",
+  "skill": "gi-env-waste",
+  "difficulty": 3,
+  "stem": "RA 11898, the Extended Producer Responsibility (EPR) Act of 2022, added new rules to RA 9003. Which businesses are obliged to carry out EPR for plastic packaging?",
+  "choices": [
+    "Large enterprises generating plastic packaging waste",
+    "All businesses selling goods in plastic, big or small",
+    "Micro, small and medium enterprises only",
+    "Only the junk shops and recyclers buying plastic waste"
+  ],
+  "answer": "Large enterprises generating plastic packaging waste",
+  "hints": [
+    "EPR makes producers responsible for their product even after it is used and thrown away. The law does not cover every business.",
+    "Look at the new Section 44-B of RA 9003, added by RA 11898. It names the obliged enterprises by size.",
+    "Section 44-B says one group \"shall not be covered\" but is encouraged to join voluntarily. Remove the choices that go against this, then check what is left."
+  ],
+  "solution": {
+    "methodName": "Name who is responsible, then check the exact role",
+    "steps": [
+      {
+        "action": "Recall the definition of EPR in Section 3(m-1), added by RA 11898: it requires \"producers to be environmentally responsible throughout the life cycle of a product, especially its post-consumer or end-of-life stage.\"",
+        "why": "Post-consumer means after the buyer has used it. So the producer must help recover its plastic waste."
+      },
+      {
+        "action": "Read Section 44-B: the obliged enterprises are \"large enterprises that generate plastic packaging waste.\""
+      },
+      {
+        "action": "Note the exclusion: micro, small and medium enterprises \"shall not be covered,\" though they are encouraged to practice EPR voluntarily."
+      },
+      {
+        "action": "The answer is large enterprises generating plastic packaging waste."
+      }
+    ]
+  },
+  "trapNotes": {
+    "All businesses selling goods in plastic, big or small": "Size matters. Section 44-B says micro, small and medium enterprises are not covered.",
+    "Micro, small and medium enterprises only": "This is the reverse of the rule. These smaller businesses are not covered; they may join only voluntarily.",
+    "Only the junk shops and recyclers buying plastic waste": "EPR falls on product producers, such as brand owners, manufacturers and importers (Section 3(w-2)), not on buyers of scrap."
+  },
+  "sourceRef": {
+    "citation": "RA 9003, Sections 3(m-1), 3(w-2) and 44-B, as added by RA 11898 (Extended Producer Responsibility Act of 2022)",
+    "url": "https://lawphil.net/statutes/repacts/ra2022/ra_11898_2022.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

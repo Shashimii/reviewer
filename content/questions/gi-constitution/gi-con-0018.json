@@ -1,0 +1,51 @@
+{
+  "id": "gi-con-0018",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-government",
+  "difficulty": 2,
+  "stem": "The yearly national budget is passed by Congress as the general appropriations bill. Under Article VI, Section 24 of the 1987 Constitution, where must an appropriation bill start (originate)?",
+  "choices": [
+    "In the Senate",
+    "In the House of Representatives",
+    "In the Office of the President",
+    "In the Commission on Audit"
+  ],
+  "answer": "In the House of Representatives",
+  "hints": [
+    "The question asks where the bill is first filed in Congress, not who prepares the budget proposal.",
+    "Article VI, Section 24 lists the kinds of bills that \"shall originate exclusively\" in one House of Congress. Check whether appropriation bills are on that list.",
+    "Section 24 names appropriation, revenue and tariff bills, and says the other House \"may propose or concur with amendments.\" Pick the body where these bills must start, not the body that may only amend them."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Find the rule: \"All appropriation, revenue or tariff bills ... shall originate exclusively in the House of Representatives.\"",
+        "why": "An appropriation bill sets aside public money for spending. \"Originate exclusively\" means it can start only there."
+      },
+      {
+        "action": "Note the Senate's role: it \"may propose or concur with amendments.\"",
+        "why": "To concur means to agree. The Senate can suggest or agree to changes, but the bill cannot start in the Senate."
+      },
+      {
+        "action": "Separate the budget proposal from the bill.",
+        "why": "Under Article VII, Section 22, the President submits a budget of expenditures to Congress \"as the basis of the general appropriations bill.\" That is a proposal. The bill itself is passed by Congress and must start in the House."
+      },
+      {
+        "action": "An appropriation bill must originate in the House of Representatives."
+      }
+    ]
+  },
+  "trapNotes": {
+    "In the Senate": "The Senate passes the budget too, so some think it can start there. Section 24 says these bills originate exclusively in the House; the Senate may only propose or agree to amendments.",
+    "In the Office of the President": "The President submits the budget proposal (Article VII, Section 22), but only Congress passes bills. The bill itself must start in the House.",
+    "In the Commission on Audit": "The Commission on Audit examines and audits how public funds are used (Article IX-D, Section 2). It does not pass bills."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article VI, Section 24",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

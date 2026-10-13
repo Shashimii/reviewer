@@ -1,0 +1,51 @@
+{
+  "id": "gi-con-0001",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-principles",
+  "difficulty": 1,
+  "stem": "According to the Preamble of the 1987 Constitution, who \"ordain and promulgate this Constitution\"?",
+  "choices": [
+    "The Congress of the Philippines",
+    "The sovereign Filipino people",
+    "The President of the Philippines",
+    "The Supreme Court of the Philippines"
+  ],
+  "answer": "The sovereign Filipino people",
+  "hints": [
+    "The Preamble is the opening paragraph of the Constitution. Notice who is speaking in its very first words.",
+    "The Preamble is one long sentence. Find its subject: it starts with the word \"We\". Ask who \"we\" refers to.",
+    "The subject \"We\" is described in the first line, and the verb comes at the very end: \"do ordain and promulgate this Constitution\". The group named in the first line is the one that ordains it. Pick the choice that names that group."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Recall what the Preamble is: the one-sentence opening statement of the Constitution.",
+        "why": "\"Preamble\" means an opening statement. It says who made the Constitution and why."
+      },
+      {
+        "action": "Find its subject. It opens: \"We, the sovereign Filipino people, imploring the aid of Almighty God ...\"",
+        "why": "\"Sovereign\" means holding the highest power. The Preamble says the people hold it."
+      },
+      {
+        "action": "Find its verb at the end: \"... do ordain and promulgate this Constitution.\"",
+        "why": "\"Ordain and promulgate\" means to set up and officially make known. The \"We\" at the start is the one doing this."
+      },
+      {
+        "action": "The sovereign Filipino people ordain and promulgate the Constitution."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The Congress of the Philippines": "Congress is created by the Constitution itself, in Article VI. The Preamble does not mention Congress. It speaks as \"We, the sovereign Filipino people\".",
+    "The President of the Philippines": "The office of the President is set up in Article VII. The Preamble does not mention the President. It names the people.",
+    "The Supreme Court of the Philippines": "The Supreme Court is created in Article VIII, Section 1, so it comes from the Constitution, not the other way around. The Preamble names the people."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Preamble",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

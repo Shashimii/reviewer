@@ -1,0 +1,51 @@
+{
+  "id": "gi-con-0025",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-accountability",
+  "difficulty": 1,
+  "stem": "Under Article X, Section 8 of the 1987 Constitution, how long is one term of office of an elected municipal mayor?",
+  "choices": [
+    "Two years",
+    "Six years",
+    "Three years",
+    "Four years"
+  ],
+  "answer": "Three years",
+  "hints": [
+    "Local officials such as mayors, governors and councilors have their own term in Article X, separate from Members of Congress.",
+    "Article X, Section 8 sets one term length for all elective local officials except barangay officials.",
+    "Section 8 uses the same number twice: once for the years in one term, and once for the most consecutive terms allowed. Find that number and match it to the choices."
+  ],
+  "solution": {
+    "methodName": "Line up the ages and terms by office",
+    "steps": [
+      {
+        "action": "Find the rule: \"The term of office of elective local officials, except barangay officials, which shall be determined by law, shall be three years.\"",
+        "why": "A mayor is an elective local official. Barangay officials are the only exception; their term is set by law."
+      },
+      {
+        "action": "Note the limit: no such official \"shall serve for more than three consecutive terms.\"",
+        "why": "Consecutive means one right after another. So a mayor may serve at most three terms in a row, or nine years."
+      },
+      {
+        "action": "Note that voluntarily giving up the office does not break the run of terms.",
+        "why": "Voluntary renunciation of the office \"for any length of time\" does not count as a break in the official's service for the full term."
+      },
+      {
+        "action": "One term of an elected municipal mayor is three years."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Two years": "Section 8 gives no two-year term. Elective local officials, except barangay officials, serve three years.",
+    "Six years": "Six years is the term of a Senator (Article VI, Section 4) and of the President (Article VII, Section 4), not of a local official.",
+    "Four years": "Section 8 gives no four-year term. Elective local officials, except barangay officials, serve three years."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article X, Section 8",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,50 @@
+{
+  "id": "gi-hr-0001",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-concepts",
+  "difficulty": 1,
+  "stem": "Article 1 of the Universal Declaration of Human Rights (UDHR) says that all human beings are \"born free and equal\" in what?",
+  "choices": [
+    "wealth and talent",
+    "dignity and rights",
+    "rank and power",
+    "skills and knowledge"
+  ],
+  "answer": "dignity and rights",
+  "hints": [
+    "Article 1 is about what every person has just by being human, not what a person owns, earns or learns.",
+    "Recall the first sentence of Article 1. It begins: \"All human beings are born free and equal in ...\"",
+    "Cross out every pair that differs from person to person, such as money, position or schooling. Pick the pair that all people share from birth."
+  ],
+  "solution": {
+    "methodName": "Recall the exact words of the provision",
+    "steps": [
+      {
+        "action": "Find the provision: Article 1 of the UDHR.",
+        "why": "Article 1 is the opening rule of the Declaration. The other articles build on it."
+      },
+      {
+        "action": "Recall its first sentence: \"All human beings are born free and equal in dignity and rights.\""
+      },
+      {
+        "action": "Check the other choices. Wealth, talent, rank, power, skills and knowledge are not the same for everyone, so people cannot all be born equal in them.",
+        "why": "The Declaration is about what every person has just by being human."
+      },
+      {
+        "action": "The answer is dignity and rights."
+      }
+    ]
+  },
+  "trapNotes": {
+    "wealth and talent": "People are not born with equal wealth or talent. Article 1 says all are born equal \"in dignity and rights\".",
+    "rank and power": "Article 1 is not about rank or power. It says all are born equal \"in dignity and rights\".",
+    "skills and knowledge": "Skills and knowledge are learned, so they differ from person to person. Article 1 says all are born equal \"in dignity and rights\"."
+  },
+  "sourceRef": {
+    "citation": "Universal Declaration of Human Rights, Article 1",
+    "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

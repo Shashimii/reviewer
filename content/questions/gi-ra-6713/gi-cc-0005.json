@@ -1,0 +1,55 @@
+{
+  "id": "gi-cc-0005",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-norms",
+  "difficulty": 1,
+  "stem": "Grace works at the front desk of a municipal hall. She gives a resident who campaigned against the mayor the same service she gives the mayor's supporters. Which norm of conduct in Section 4 of RA 6713 is she following?",
+  "choices": [
+    "Professionalism",
+    "Political neutrality",
+    "Simple living",
+    "Nationalism and patriotism"
+  ],
+  "answer": "Political neutrality",
+  "hints": [
+    "Notice the detail about the election campaign. The side the resident took in politics is the key.",
+    "Find the norm in Section 4(A) that mentions \"party affiliation or preference.\"",
+    "Section 4(A)(d) says officials \"shall provide service to everyone without unfair discrimination and regardless of party affiliation or preference.\" Pick the norm with that meaning."
+  ],
+  "solution": {
+    "methodName": "Match the key words to the norm",
+    "steps": [
+      {
+        "action": "Find the key detail in the story: Grace serves people the same way, whatever side they took in politics.",
+        "why": "Every norm question hides one key idea. Here it is politics: the resident campaigned against the mayor."
+      },
+      {
+        "action": "Look for the norm whose words match that idea. Section 4(A)(d) says officials \"shall provide service to everyone without unfair discrimination and regardless of party affiliation or preference.\"",
+        "why": "Party affiliation means the political party or candidate a person supports."
+      },
+      {
+        "action": "That norm is named political neutrality.",
+        "why": "Neutral means not taking sides. Grace does not take sides when she serves the public."
+      },
+      {
+        "action": "Check the other choices: professionalism is about excellence and skill, simple living is about modest lifestyles, and nationalism and patriotism is about loyalty to the country. None of them is about politics.",
+        "why": "Checking the wrong choices makes sure only one norm fits the story."
+      },
+      {
+        "action": "The answer is: Political neutrality."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Professionalism": "Professionalism (Section 4(A)(b)) means doing the job \"with the highest degree of excellence, professionalism, intelligence and skill.\" The story is about politics, not skill.",
+    "Simple living": "Simple living (Section 4(A)(h)) is about leading \"modest lives appropriate to their positions and income.\" It has nothing to do with whom Grace serves.",
+    "Nationalism and patriotism": "Nationalism and patriotism (Section 4(A)(f)) is about being loyal \"to the Republic and to the Filipino people.\" It does not mention party affiliation."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 4(A)(d)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

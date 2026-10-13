@@ -1,0 +1,51 @@
+{
+  "id": "gi-con-0003",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-principles",
+  "difficulty": 1,
+  "stem": "According to Article II, Section 4 of the 1987 Constitution, what is the prime duty of the Government?",
+  "choices": [
+    "To serve and protect the people",
+    "To defend the State from attack",
+    "To maintain peace and order",
+    "To promote social justice"
+  ],
+  "answer": "To serve and protect the people",
+  "hints": [
+    "\"Prime\" means first or most important. Look for the sentence that names the Government's prime duty.",
+    "Article II, Section 4 has two sentences. The first names the Government's prime duty. The second is about what the people may be asked to do.",
+    "Read only the first sentence of Section 4. It names two actions the Government must do for the people. Pick the choice with those two actions, and drop any choice that comes from the second sentence or from another section."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Find Article II, Section 4.",
+        "why": "Article II lists the principles and policies the State must follow."
+      },
+      {
+        "action": "Read its first sentence: \"The prime duty of the Government is to serve and protect the people.\"",
+        "why": "\"Prime duty\" means the most important duty."
+      },
+      {
+        "action": "Note that the second sentence is different: the Government \"may call upon the people to defend the State\".",
+        "why": "Defending the State is something the people may be asked to do. The section does not call it the Government's prime duty."
+      },
+      {
+        "action": "The prime duty of the Government is to serve and protect the people."
+      }
+    ]
+  },
+  "trapNotes": {
+    "To defend the State from attack": "Section 4 mentions defending the State, but as something the Government may ask the people to do. The prime duty it names is to serve and protect the people.",
+    "To maintain peace and order": "Peace and order is in Section 5, which calls it \"essential\" for the people to enjoy democracy. It is not called the prime duty.",
+    "To promote social justice": "Social justice is a state policy in Section 10. It is not the prime duty named in Section 4."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article II, Section 4",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

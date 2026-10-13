@@ -1,0 +1,50 @@
+{
+  "id": "gi-cc-0001",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-coverage",
+  "difficulty": 1,
+  "stem": "Rina has just joined a city government office. She reads Section 2 of RA 6713, the Declaration of Policies. According to this section, to whom shall public officials and employees be accountable at all times?",
+  "choices": [
+    "To their heads of office",
+    "To the Civil Service Commission",
+    "To the people",
+    "To the President"
+  ],
+  "answer": "To the people",
+  "hints": [
+    "Section 2 is the law's statement of purpose. Think about whom public servants work for.",
+    "Recall the key sentence in Section 2: public officials and employees \"shall at all times be accountable to\" someone.",
+    "Section 2 says officials are accountable to the same group they serve, and must put public interest over personal interest. Pick the choice that names that group."
+  ],
+  "solution": {
+    "methodName": "Find the section, then match its exact words",
+    "steps": [
+      {
+        "action": "Find the section the question names: Section 2, Declaration of Policies.",
+        "why": "Section 2 states the policy behind the whole law: \"to promote a high standard of ethics in public service.\""
+      },
+      {
+        "action": "Read the key sentence: public officials and employees \"shall at all times be accountable to the people.\""
+      },
+      {
+        "action": "Compare each choice with these words. Only one choice names the people.",
+        "why": "The question asks what Section 2 says, so the exact words of Section 2 decide the answer."
+      },
+      {
+        "action": "The answer is: To the people."
+      }
+    ]
+  },
+  "trapNotes": {
+    "To their heads of office": "Employees do report to their heads, but Section 2 says officials and employees are accountable \"to the people.\" Heads of office are public officials too, so they also answer to the people.",
+    "To the Civil Service Commission": "The Civil Service Commission enforces RA 6713 (Section 12), but Section 2 does not say officials are accountable to it. It says \"to the people.\"",
+    "To the President": "Section 2 does not name the President. It says public officials and employees \"shall at all times be accountable to the people.\""
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 2",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

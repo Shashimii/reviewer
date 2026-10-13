@@ -1,0 +1,50 @@
+{
+  "id": "gi-env-0001",
+  "topicId": "gi-environment",
+  "skill": "gi-env-principles",
+  "difficulty": 1,
+  "stem": "Article II, Section 16 of the 1987 Constitution says the State shall protect and advance a right of the people. Which right is it?",
+  "choices": [
+    "The right to health of the people",
+    "The right to a balanced and healthful ecology",
+    "The right to use all natural resources freely",
+    "The right to a quiet and pollution-free home"
+  ],
+  "answer": "The right to a balanced and healthful ecology",
+  "hints": [
+    "Section 16 is in Article II, the list of state principles and policies. Look for the choice about nature and our surroundings.",
+    "Recall the phrase in Section 16 that ends with \"in accord with the rhythm and harmony of nature.\"",
+    "Section 15, just before it, covers health. Section 16 covers the environment. Match each choice to the right section, then pick the one for Section 16."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match its key words",
+    "steps": [
+      {
+        "action": "Recall Article II, Section 16: \"The State shall protect and advance the right of the people to a balanced and healthful ecology in accord with the rhythm and harmony of nature.\"",
+        "why": "Article II lists the basic principles and policies of the State. Section 16 is the main environment provision of the Constitution."
+      },
+      {
+        "action": "Pick out the key words: \"balanced and healthful ecology.\"",
+        "why": "Ecology means the relationship between living things and their surroundings. A balanced and healthful ecology is a clean, healthy natural environment."
+      },
+      {
+        "action": "Rule out the right to health. It is in Section 15, the section just before."
+      },
+      {
+        "action": "The answer is the right to a balanced and healthful ecology."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The right to health of the people": "This is Section 15, which comes just before. It is about public health, not the environment.",
+    "The right to use all natural resources freely": "The Constitution gives no such right. Article XII, Section 2 says natural resources are owned by the State, and their use is under its \"full control and supervision.\"",
+    "The right to a quiet and pollution-free home": "These words are not in Section 16. It speaks of a \"balanced and healthful ecology\" for all the people."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article II, Section 16 (compare Section 15)",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

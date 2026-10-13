@@ -1,0 +1,54 @@
+{
+  "id": "gi-con-0007",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-rights",
+  "difficulty": 2,
+  "stem": "During an investigation, an officer gets a suspect to confess by threatening him. Under Article III, Section 12 of the 1987 Constitution, how may this confession be used?",
+  "choices": [
+    "It cannot be used in evidence against him.",
+    "It can be used once the suspect signs it.",
+    "It can be used if a judge approves it later.",
+    "It can be used, but only with other evidence."
+  ],
+  "answer": "It cannot be used in evidence against him.",
+  "hints": [
+    "Notice how the confession was obtained: by a threat.",
+    "Section 12 bans \"torture, force, violence, threat, intimidation\" against a person under investigation. Next, find what it says about a confession obtained that way.",
+    "Section 12 has a sentence about \"Any confession or admission obtained in violation of this\" section. Read the word that describes such a confession, then pick the choice that means the same. Check whether the section gives any exception for signing, a judge's approval or other evidence."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Identify the right involved: the rights of a person under investigation, in Article III, Section 12.",
+        "why": "The suspect is being investigated for an offense, which is exactly who Section 12 protects."
+      },
+      {
+        "action": "Check whether the officer broke Section 12: \"No torture, force, violence, threat, intimidation, or any other means which vitiate the free will shall be used against him.\"",
+        "why": "A threat is named in the list. \"Vitiate the free will\" means to spoil a person's free choice."
+      },
+      {
+        "action": "Read the rule on such confessions: \"Any confession or admission obtained in violation of this or Section 17 hereof shall be inadmissible in evidence against him.\"",
+        "why": "\"Inadmissible\" means it cannot be accepted or used as evidence."
+      },
+      {
+        "action": "Note that the section gives no exception for signing, a judge's approval or other evidence."
+      },
+      {
+        "action": "The confession cannot be used in evidence against him."
+      }
+    ]
+  },
+  "trapNotes": {
+    "It can be used once the suspect signs it.": "Signing does not fix a confession obtained by threat. Section 12 makes any confession obtained in violation of the section inadmissible.",
+    "It can be used if a judge approves it later.": "Section 12 gives no exception for a judge's approval. A confession obtained in violation of the section is inadmissible.",
+    "It can be used, but only with other evidence.": "Other evidence may exist, but this confession itself stays inadmissible. Section 12 does not allow it to be used against him at all."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article III, Section 12",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

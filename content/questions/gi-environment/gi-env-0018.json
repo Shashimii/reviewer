@@ -1,0 +1,49 @@
+{
+  "id": "gi-env-0018",
+  "topicId": "gi-environment",
+  "skill": "gi-env-protected",
+  "difficulty": 2,
+  "stem": "A developer plans to build a permanent cottage 25 meters from the high water mark of a natural lake inside a protected area. Under Section 20(v) of the E-NIPAS Act, may it be built there?",
+  "choices": [
+    "Yes, because 25 meters is outside the easement",
+    "Yes, if the town mayor issues a building permit",
+    "No, because it is within the 40-meter easement",
+    "No, because all buildings are banned in protected areas"
+  ],
+  "answer": "No, because it is within the 40-meter easement",
+  "hints": [
+    "An easement here is a strip of land along the water where building is restricted. Find how wide it is.",
+    "Section 20(v) prohibits \"Constructing any permanent structure within the forty (40)-meter easement from the high water mark of any natural body of water.\"",
+    "Compare 25 meters with the width of the easement. Then check whether the law bans all buildings in a protected area, or only some."
+  ],
+  "solution": {
+    "methodName": "Check the act against the law's list of prohibited acts",
+    "steps": [
+      {
+        "action": "Recall Section 20(v): it is prohibited to construct \"any permanent structure within the forty (40)-meter easement from the high water mark of any natural body of water.\"",
+        "why": "The high water mark is the highest point the water usually reaches. The easement is measured from there."
+      },
+      {
+        "action": "Compare: 25 meters is less than 40 meters, so the cottage would be inside the easement."
+      },
+      {
+        "action": "Check the idea of a total ban. Section 20(o) prohibits building structures \"without prior clearance from the PAMB and permit from the DENR,\" so some structures may be allowed with clearance. The problem here is the easement."
+      },
+      {
+        "action": "The answer is no, because it is within the 40-meter easement."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Yes, because 25 meters is outside the easement": "25 meters is less than 40 meters, so the cottage is inside the easement, not outside it.",
+    "Yes, if the town mayor issues a building permit": "A permit cannot cure this. Section 20(v) even prohibits \"issuing a permit for such construction.\"",
+    "No, because all buildings are banned in protected areas": "Too strong. Section 20(o) shows structures may be built with prior PAMB clearance and a DENR permit. Here the problem is the 40-meter easement."
+  },
+  "sourceRef": {
+    "citation": "RA 7586 as amended by RA 11038, Section 20(v); see also Section 20(o)",
+    "url": "https://lawphil.net/statutes/repacts/ra2018/ra_11038_2018.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

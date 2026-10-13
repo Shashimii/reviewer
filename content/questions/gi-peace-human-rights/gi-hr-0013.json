@@ -1,0 +1,53 @@
+{
+  "id": "gi-hr-0013",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-laws",
+  "difficulty": 1,
+  "stem": "Under RA 7438, a person who is arrested, detained or under custodial investigation shall at all times be assisted by whom?",
+  "choices": [
+    "A police officer of his choice",
+    "A barangay official",
+    "A member of his family",
+    "Counsel (a lawyer)"
+  ],
+  "answer": "Counsel (a lawyer)",
+  "hints": [
+    "RA 7438 protects people held or questioned by the authorities. Think of who protects a suspect's rights during questioning.",
+    "Recall Section 2(a) of RA 7438. It names one person who must assist \"at all times\".",
+    "Section 2(b) says the investigating officer must provide this same person if the suspect \"cannot afford\" one. Match that person to the choices."
+  ],
+  "solution": {
+    "methodName": "Recall the exact words of the provision",
+    "steps": [
+      {
+        "action": "Find the provision: RA 7438, Section 2(a)."
+      },
+      {
+        "action": "It says the person \"shall at all times be assisted by counsel.\"",
+        "why": "Counsel means a lawyer."
+      },
+      {
+        "action": "Section 2(b) adds: \"If such person cannot afford the services of his own counsel, he must be provided with a competent and independent counsel by the investigating officer.\"",
+        "why": "So being poor is no reason to go without a lawyer."
+      },
+      {
+        "action": "Family members may visit under Section 2(f), but the law does not make them the ones who assist during questioning."
+      },
+      {
+        "action": "The answer is counsel (a lawyer)."
+      }
+    ]
+  },
+  "trapNotes": {
+    "A police officer of his choice": "A police officer is on the investigating side. Section 2(a) says the person must be assisted by counsel.",
+    "A barangay official": "A barangay official is not named in Section 2(a). The law requires counsel, meaning a lawyer.",
+    "A member of his family": "Family may visit under Section 2(f), but Section 2(a) says the person must be assisted by counsel."
+  },
+  "sourceRef": {
+    "citation": "RA 7438, Section 2(a), (b) and (f)",
+    "url": "https://lawphil.net/statutes/repacts/ra1992/ra_7438_1992.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,59 @@
+{
+  "id": "gi-cc-0014",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-duties",
+  "difficulty": 3,
+  "stem": "Ben, a records officer, receives a letter from a citizen asking for a certified copy of a document on Wednesday, September 9, 2026. Friday, September 18 is a declared holiday, and there are no other holidays. Under Section 5(a) of RA 6713, what is the last day for his reply?\nCount only working days (Monday to Friday, not holidays). Day 1 is the first working day after he receives the letter.",
+  "choices": [
+    "Thursday, September 24",
+    "Tuesday, September 29",
+    "Wednesday, September 30",
+    "Thursday, October 1"
+  ],
+  "answer": "Thursday, October 1",
+  "hints": [
+    "This time there are two kinds of days to skip: weekends and the holiday.",
+    "Day 1 is Thursday, September 10. List the working days in order, crossing out every Saturday, Sunday and September 18.",
+    "Keep counting until you reach the number of working days in Section 5(a). To check: without the holiday, 3 work weeks from a Wednesday ends on a Wednesday; the holiday pushes the deadline one working day later."
+  ],
+  "solution": {
+    "methodName": "Count working days, one by one",
+    "steps": [
+      {
+        "action": "Recall the rule: Section 5(a) gives \"fifteen (15) working days from receipt.\""
+      },
+      {
+        "action": "Day 1 is the first working day after receipt: Thursday, September 10."
+      },
+      {
+        "action": "Days 1 and 2 are September 10 and 11. Skip the weekend, September 12 and 13. Days 3 to 6 are September 14 to 17."
+      },
+      {
+        "action": "Skip Friday, September 18.",
+        "why": "A holiday is not a working day, even when it falls on a weekday."
+      },
+      {
+        "action": "Days 7 to 11 are September 21 to 25. Days 12 to 14 are September 28, 29 and 30."
+      },
+      {
+        "action": "Day 15 is the next working day, Thursday, October 1.",
+        "why": "Check with the shortcut: 15 working days is 3 work weeks, which from Wednesday, September 9 would end on Wednesday, September 30. The holiday adds one working day."
+      },
+      {
+        "action": "The answer is: Thursday, October 1."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Thursday, September 24": "This is 15 calendar days after September 9. Section 5(a) counts working days, so weekends and the holiday must be skipped.",
+    "Tuesday, September 29": "This makes two slips: it counts September 9 itself as Day 1, and it counts the September 18 holiday as a working day.",
+    "Wednesday, September 30": "This makes one slip: it forgets to skip the September 18 holiday, or it counts September 9 as Day 1. Either way it ends one working day too early."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 5(a)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

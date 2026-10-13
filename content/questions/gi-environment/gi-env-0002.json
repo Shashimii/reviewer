@@ -1,0 +1,47 @@
+{
+  "id": "gi-env-0002",
+  "topicId": "gi-environment",
+  "skill": "gi-env-principles",
+  "difficulty": 1,
+  "stem": "Under Article XII, Section 2 of the 1987 Constitution, who owns the country's forests, waters, minerals and wildlife?",
+  "choices": [
+    "Private landowners",
+    "Local government units",
+    "The first discoverers",
+    "The State"
+  ],
+  "answer": "The State",
+  "hints": [
+    "Article XII, Section 2 opens with a long list of natural resources. Look at the last words of that first sentence.",
+    "The first sentence ends with \"are owned by the ...\" Find who is named there.",
+    "The same section says that using these resources is under someone's \"full control and supervision.\" The owner and the one in control are the same. Check each choice against that."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match its key words",
+    "steps": [
+      {
+        "action": "Recall the first sentence of Article XII, Section 2. It lists lands of the public domain, waters, minerals, forests, and \"wildlife, flora and fauna, and other natural resources are owned by the State.\"",
+        "why": "Flora means plants and fauna means animals. The list covers almost every natural resource."
+      },
+      {
+        "action": "Note the next rule: \"The exploration, development, and utilization of natural resources shall be under the full control and supervision of the State.\"",
+        "why": "Private persons may take part only through agreements with the State, so they do not own the resources."
+      },
+      {
+        "action": "The answer is the State."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Private landowners": "Owning the land on top does not make you the owner of the minerals, waters or wildlife there. Section 2 says these are owned by the State.",
+    "Local government units": "LGUs help manage the environment, but the Constitution names the State as the owner.",
+    "The first discoverers": "Finding a resource first gives no ownership. Its use is under the State's \"full control and supervision.\""
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XII, Section 2",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

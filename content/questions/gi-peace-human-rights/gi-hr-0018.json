@@ -1,0 +1,50 @@
+{
+  "id": "gi-hr-0018",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-peace",
+  "difficulty": 1,
+  "stem": "Article II, Section 2 of the 1987 Constitution says the Philippines renounces war as what?",
+  "choices": [
+    "An instrument of national policy",
+    "A part of the law of the land",
+    "A source of national wealth",
+    "A right given to the Armed Forces"
+  ],
+  "answer": "An instrument of national policy",
+  "hints": [
+    "Section 2 says three things: what the Philippines gives up (renounces), what it adopts, and what policy it follows. Keep the three parts apart.",
+    "Recall the first part of Section 2: \"The Philippines renounces war as ...\"",
+    "\"Part of the law of the land\" belongs to the second part, about international law. Find the choice that completes the first part."
+  ],
+  "solution": {
+    "methodName": "Recall the exact words of the provision",
+    "steps": [
+      {
+        "action": "Find the provision: Article II, Section 2 of the 1987 Constitution."
+      },
+      {
+        "action": "Read it: \"The Philippines renounces war as an instrument of national policy, adopts the generally accepted principles of international law as part of the law of the land and adheres to the policy of peace, equality, justice, freedom, cooperation, and amity with all nations.\"",
+        "why": "To renounce means to give up. The Philippines gives up war as a tool of its national policy."
+      },
+      {
+        "action": "\"Part of the law of the land\" describes \"the generally accepted principles of international law\", not war.",
+        "why": "Section 2 has three parts. Each phrase belongs to one part only."
+      },
+      {
+        "action": "The answer is: an instrument of national policy."
+      }
+    ]
+  },
+  "trapNotes": {
+    "A part of the law of the land": "In Section 2, \"part of the law of the land\" describes \"the generally accepted principles of international law\", not war.",
+    "A source of national wealth": "Section 2 says nothing about war and wealth. It renounces war \"as an instrument of national policy\".",
+    "A right given to the Armed Forces": "Section 2 gives no one a right to war. Section 3 calls the Armed Forces \"the protector of the people and the State\"."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article II, Section 2",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

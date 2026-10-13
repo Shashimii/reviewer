@@ -1,0 +1,49 @@
+{
+  "id": "gi-cc-0007",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-norms",
+  "difficulty": 1,
+  "stem": "A city permits office rewrites its instructions in clear, simple language and removes extra steps that only cause red tape. Which norm of conduct in Section 4 of RA 6713 does this follow?",
+  "choices": [
+    "Responsiveness to the public",
+    "Commitment to democracy",
+    "Simple living",
+    "Nationalism and patriotism"
+  ],
+  "answer": "Responsiveness to the public",
+  "hints": [
+    "Look at who benefits from clearer instructions and fewer steps.",
+    "Find the norm in Section 4(A) that mentions \"clear and understandable language\" and \"red tape.\"",
+    "Section 4(A)(e) asks officials to give information \"in clear and understandable language\" and to \"avoid red tape.\" Pick the norm with that meaning."
+  ],
+  "solution": {
+    "methodName": "Match the key words to the norm",
+    "steps": [
+      {
+        "action": "Find the key detail: clearer instructions and fewer needless steps, so the public is served better.",
+        "why": "Red tape means slow, needless steps and paperwork."
+      },
+      {
+        "action": "Match it to Section 4(A)(e): officials \"shall extend prompt, courteous, and adequate service to the public,\" give information \"in clear and understandable language,\" and \"avoid red tape.\""
+      },
+      {
+        "action": "That norm is named responsiveness to the public."
+      },
+      {
+        "action": "The answer is: Responsiveness to the public."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Commitment to democracy": "Commitment to democracy (Section 4(A)(g)) is about the democratic way of life, public accountability and civilian authority. It does not mention clear language or red tape.",
+    "Simple living": "Simple living (Section 4(A)(h)) is about officials leading modest lives. It is not about how an office serves the public.",
+    "Nationalism and patriotism": "Nationalism and patriotism (Section 4(A)(f)) is about loyalty to the country and using locally produced goods. It does not mention red tape."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 4(A)(e)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

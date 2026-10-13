@@ -1,0 +1,49 @@
+{
+  "id": "gi-env-0022",
+  "topicId": "gi-environment",
+  "skill": "gi-env-climate",
+  "difficulty": 1,
+  "stem": "After a typhoon, an official repacks donated relief goods into bags printed with a politician's name, to make the goods look like they came from that politician. Under Section 19 of RA 10121, what is this?",
+  "choices": [
+    "Prohibited, as it misrepresents the goods' source",
+    "Allowed, as long as the goods reach the victims",
+    "Allowed, if the politician gave written consent",
+    "Prohibited only if the goods are already spoiled"
+  ],
+  "answer": "Prohibited, as it misrepresents the goods' source",
+  "hints": [
+    "Section 19 of RA 10121 lists prohibited acts about relief goods. One group is about giving a false picture of where the goods came from.",
+    "Look at Section 19(i), \"Misrepresenting the source of relief goods,\" and the three ways it lists.",
+    "Item (i)(2) covers repacking goods \"into containers with different markings to make it appear that the goods came from another agency or persons.\" Compare it with the facts."
+  ],
+  "solution": {
+    "methodName": "Check the act against the law's list of prohibited acts",
+    "steps": [
+      {
+        "action": "Recall Section 19(i) of RA 10121: \"Misrepresenting the source of relief goods, equipment or other aid commodities\" is a prohibited act.",
+        "why": "To misrepresent means to give a false picture of something."
+      },
+      {
+        "action": "Read the second way it lists: repacking goods \"into containers with different markings to make it appear that the goods came from another agency or persons.\""
+      },
+      {
+        "action": "Apply it to the facts: the bags carry a politician's name so the goods look like they came from that person. This fits Section 19(i)(2). Delivery and consent do not change that."
+      },
+      {
+        "action": "The answer is prohibited, as it misrepresents the goods' source."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Allowed, as long as the goods reach the victims": "Delivery does not make it right. Section 19(i) prohibits misrepresenting the source even if the goods reach the victims.",
+    "Allowed, if the politician gave written consent": "Section 19 gives no exception for consent. The act is prohibited no matter who agrees to it.",
+    "Prohibited only if the goods are already spoiled": "Spoilage is not part of this rule. Repacking to fake the source is prohibited even when the goods are in good condition."
+  },
+  "sourceRef": {
+    "citation": "RA 10121 (Philippine Disaster Risk Reduction and Management Act of 2010), Section 19(i)",
+    "url": "https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

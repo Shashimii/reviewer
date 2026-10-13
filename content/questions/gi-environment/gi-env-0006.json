@@ -1,0 +1,47 @@
+{
+  "id": "gi-env-0006",
+  "topicId": "gi-environment",
+  "skill": "gi-env-waste",
+  "difficulty": 1,
+  "stem": "Under Section 32 of RA 9003, where must a Materials Recovery Facility (MRF) be set up?",
+  "choices": [
+    "In every barangay or cluster of barangays",
+    "In every province, run by the governor",
+    "Only in highly urbanized cities",
+    "In every region, run by the DENR"
+  ],
+  "answer": "In every barangay or cluster of barangays",
+  "hints": [
+    "An MRF is where waste is sorted, composted and sent for recycling. RA 9003 wants it close to the households.",
+    "Section 32 names the smallest unit of local government as the place for an MRF.",
+    "Section 32 says the land for the MRF is chosen by a local council through its Sanggunian. The facility is set up at that same level, alone or with neighbors. Find the matching choice."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match its key words",
+    "steps": [
+      {
+        "action": "Recall Section 32 of RA 9003: \"There shall be established a Materials Recovery Facility (MRF) in every barangay or cluster of barangays.\"",
+        "why": "A cluster is a group. Small neighboring barangays may share one MRF."
+      },
+      {
+        "action": "Note what the MRF does: it \"shall receive mixed waste for final sorting, segregation, composting, and recycling.\"",
+        "why": "What is left, the residual waste, goes to a long-term storage or disposal facility or sanitary landfill."
+      },
+      {
+        "action": "The answer is in every barangay or cluster of barangays."
+      }
+    ]
+  },
+  "trapNotes": {
+    "In every province, run by the governor": "The province has a Solid Waste Management Board (Section 11), but the MRF is set up at the barangay level.",
+    "Only in highly urbanized cities": "Section 32 covers every barangay, not just big cities.",
+    "In every region, run by the DENR": "The DENR gives technical help to LGUs (Section 8). The barangay sets aside the land for the MRF."
+  },
+  "sourceRef": {
+    "citation": "RA 9003, Section 32",
+    "url": "https://lawphil.net/statutes/repacts/ra2001/ra_9003_2001.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

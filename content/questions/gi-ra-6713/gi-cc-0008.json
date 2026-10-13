@@ -1,0 +1,53 @@
+{
+  "id": "gi-cc-0008",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-norms",
+  "difficulty": 2,
+  "stem": "To avoid wasting public funds, Director Lim orders staff to switch off the air-conditioners after office hours and to use office vehicles only for official trips. Which norm of conduct in Section 4 of RA 6713 does this reflect?",
+  "choices": [
+    "Simple living",
+    "Professionalism",
+    "Commitment to public interest",
+    "Responsiveness to the public"
+  ],
+  "answer": "Commitment to public interest",
+  "hints": [
+    "Notice that the electricity and vehicles being saved belong to the government, not to the staff.",
+    "Find the norm in Section 4(A) that talks about \"government resources\" and \"wastage in public funds.\"",
+    "One norm says government resources must be used \"efficiently, effectively, honestly and economically, particularly to avoid wastage in public funds.\" Another norm is about officials' own modest lifestyles. Pick the norm about government resources."
+  ],
+  "solution": {
+    "methodName": "Match the key words to the norm",
+    "steps": [
+      {
+        "action": "Find the key detail: saving electricity and vehicles that belong to the government."
+      },
+      {
+        "action": "Match it to Section 4(A)(a): \"All government resources and powers of their respective offices must be employed and used efficiently, effectively, honestly and economically, particularly to avoid wastage in public funds and revenues.\""
+      },
+      {
+        "action": "That sentence belongs to the norm named commitment to public interest.",
+        "why": "The same norm begins: officials \"shall always uphold the public interest over and above personal interest.\""
+      },
+      {
+        "action": "Rule out simple living: it covers officials' own modest lives and display of wealth, not the use of office resources.",
+        "why": "Both norms are about not wasting money, which is the trap. Ask whose money it is: the government's (public interest) or the official's own (simple living)."
+      },
+      {
+        "action": "The answer is: Commitment to public interest."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Simple living": "Simple living (Section 4(A)(h)) is about officials and their families leading modest lives. Saving the office's electricity and vehicles is about government resources, which Section 4(A)(a) covers.",
+    "Professionalism": "Professionalism (Section 4(A)(b)) is about excellence, intelligence and skill in the work. It does not mention saving public funds.",
+    "Responsiveness to the public": "Responsiveness (Section 4(A)(e)) is about prompt, courteous service and avoiding red tape. The story is about saving government resources."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 4(A)(a)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

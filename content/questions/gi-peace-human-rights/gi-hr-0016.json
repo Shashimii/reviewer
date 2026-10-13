@@ -1,0 +1,53 @@
+{
+  "id": "gi-hr-0016",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-laws",
+  "difficulty": 3,
+  "stem": "Under RA 9745 (the Anti-Torture Act of 2009), in which case may a confession obtained as a result of torture be used as evidence?",
+  "choices": [
+    "Against the person who confessed, if he signed it",
+    "Against the persons accused of doing the torture",
+    "In any case, as long as a lawyer was there too",
+    "In no case at all, in any proceeding whatsoever"
+  ],
+  "answer": "Against the persons accused of doing the torture",
+  "hints": [
+    "The general rule in Section 8 of RA 9745 is strict, but it has one exception. Look for it.",
+    "Recall the rule: a confession, admission or statement obtained as a result of torture \"shall be inadmissible in evidence in any proceedings\".",
+    "Now read what follows the word \"except\". The exception helps punish the wrongdoers, not the victim. Find the choice that matches it."
+  ],
+  "solution": {
+    "methodName": "Find the rule, then check its exception",
+    "steps": [
+      {
+        "action": "Find the provision: RA 9745, Section 8."
+      },
+      {
+        "action": "Read the rule: \"Any confession, admission or statement obtained as a result of torture shall be inadmissible in evidence in any proceedings\".",
+        "why": "Inadmissible means the court cannot accept it as proof."
+      },
+      {
+        "action": "Read the exception: \"except if the same is used as evidence against a person or persons accused of committing torture.\"",
+        "why": "The statement can help prove that torture happened, so it may be used against the torturers."
+      },
+      {
+        "action": "Signing it or having a lawyer present is not an exception in Section 8. And \"in no case at all\" ignores the exception."
+      },
+      {
+        "action": "The answer is: against the persons accused of doing the torture."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Against the person who confessed, if he signed it": "This is exactly what Section 8 forbids. A statement obtained through torture is inadmissible, signed or not.",
+    "In any case, as long as a lawyer was there too": "Section 8 has no lawyer exception. A statement obtained through torture stays inadmissible.",
+    "In no case at all, in any proceeding whatsoever": "Close, but Section 8 has one exception: the statement may be used as evidence against the persons accused of committing torture."
+  },
+  "sourceRef": {
+    "citation": "RA 9745 (Anti-Torture Act of 2009), Section 8",
+    "url": "https://lawphil.net/statutes/repacts/ra2009/ra_9745_2009.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

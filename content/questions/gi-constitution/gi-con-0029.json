@@ -1,0 +1,51 @@
+{
+  "id": "gi-con-0029",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-social",
+  "difficulty": 2,
+  "stem": "According to Article XIV, Section 7 of the 1987 Constitution, what are the official languages of the Philippines for purposes of communication and instruction?",
+  "choices": [
+    "Filipino only",
+    "Tagalog and English",
+    "Filipino and English",
+    "Filipino, English and Spanish"
+  ],
+  "answer": "Filipino and English",
+  "hints": [
+    "Do not mix up the national language with the official languages. Article XIV names them in different sections.",
+    "Section 6 names the national language. Section 7 names the official languages \"For purposes of communication and instruction.\"",
+    "Section 7 lists two official languages, one of them only \"until otherwise provided by law.\" It calls regional languages auxiliary and says Spanish and Arabic are only promoted \"on a voluntary and optional basis.\" Pick the choice that names just the two."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Find the national language: \"The national language of the Philippines is Filipino\" (Section 6).",
+        "why": "The national language is the one language of the whole nation."
+      },
+      {
+        "action": "Find the official languages: \"the official languages of the Philippines are Filipino and, until otherwise provided by law, English\" (Section 7).",
+        "why": "Official languages are the ones used for government communication and for teaching in schools. There are two."
+      },
+      {
+        "action": "Place the other languages: regional languages are \"the auxiliary official languages in the regions,\" and \"Spanish and Arabic shall be promoted on a voluntary and optional basis.\"",
+        "why": "Auxiliary means helping or supporting. Regional languages help in their own regions. Spanish and Arabic are encouraged but are not official languages."
+      },
+      {
+        "action": "The official languages are Filipino and English."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Filipino only": "Filipino alone is the national language (Section 6). The official languages in Section 7 are Filipino and English.",
+    "Tagalog and English": "The Constitution names the national language Filipino, not Tagalog. Section 7 lists Filipino and English.",
+    "Filipino, English and Spanish": "Spanish is not an official language. Section 7 says Spanish and Arabic \"shall be promoted on a voluntary and optional basis.\""
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XIV, Sections 6 and 7",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

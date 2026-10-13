@@ -1,0 +1,49 @@
+{
+  "id": "gi-hr-0021",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-peace",
+  "difficulty": 2,
+  "stem": "During an armed conflict, it is unclear whether a school building is being used to help military action. Under RA 9851, how must the building be treated?",
+  "choices": [
+    "It is presumed not to be used for military action.",
+    "It may be attacked, since it might be a military target.",
+    "It may be attacked once the school's classes have stopped.",
+    "It is presumed to be used for military action."
+  ],
+  "answer": "It is presumed not to be used for military action.",
+  "hints": [
+    "Section 4(c)(10) of RA 9851 protects buildings for religion, education, art, science or charity, and hospitals. The question is what to do when in doubt.",
+    "Read the last sentence of Section 4(c)(10). It begins: \"In case of doubt...\"",
+    "In case of doubt, the law leans toward protecting the building. Find the choice that does this, and watch out for a choice that reverses it."
+  ],
+  "solution": {
+    "methodName": "Find the rule, then check its exception",
+    "steps": [
+      {
+        "action": "Find the provision: RA 9851, Section 4(c)(10). It makes it a war crime to direct attacks against \"buildings dedicated to religion, education, art, science or charitable purposes, historic monuments, hospitals and places where the sick and wounded are collected, provided they are not military objectives\"."
+      },
+      {
+        "action": "A school is a building dedicated to education, so the rule protects it."
+      },
+      {
+        "action": "Check the doubt rule: \"In case of doubt whether such building or place has been used to make an effective contribution to military action, it shall be presumed not to be so used\".",
+        "why": "To presume means to treat something as true unless it is proved otherwise. So the school keeps its protection."
+      },
+      {
+        "action": "The answer is: it is presumed not to be used for military action."
+      }
+    ]
+  },
+  "trapNotes": {
+    "It may be attacked, since it might be a military target.": "Doubt works in the building's favour. Section 4(c)(10) says that in case of doubt it \"shall be presumed not to be so used\".",
+    "It may be attacked once the school's classes have stopped.": "Section 4(c)(10) says nothing about classes. The building is protected because it is dedicated to education.",
+    "It is presumed to be used for military action.": "This reverses the rule. Section 4(c)(10) presumes the building is not used for military action."
+  },
+  "sourceRef": {
+    "citation": "RA 9851, Section 4(c)(10)",
+    "url": "https://lawphil.net/statutes/repacts/ra2009/ra_9851_2009.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

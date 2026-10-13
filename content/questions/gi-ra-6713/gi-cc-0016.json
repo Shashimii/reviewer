@@ -1,0 +1,49 @@
+{
+  "id": "gi-cc-0016",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-prohibited",
+  "difficulty": 1,
+  "stem": "Jun, an engineer in a public works office, learns through his work about a planned new highway before it is announced to the public. He quickly buys cheap land along the route so he can sell it later at a high price. Which prohibited act under Section 7 of RA 6713 did he commit?",
+  "choices": [
+    "Solicitation or acceptance of gifts",
+    "Recommending someone to a private job",
+    "Misuse of confidential information",
+    "Private practice of his profession"
+  ],
+  "answer": "Misuse of confidential information",
+  "hints": [
+    "Ask: what did Jun know that the public did not?",
+    "Section 7(c) covers information officials learn \"by reason of their office and not made available to the public.\"",
+    "Section 7(c) bars officials from using such information \"to further their private interests.\" Jun used inside knowledge to make money. Pick the matching prohibited act."
+  ],
+  "solution": {
+    "methodName": "Match the act to the prohibition",
+    "steps": [
+      {
+        "action": "Find the key detail: Jun learned of the highway through his job, before the public knew, and used it to make a profit."
+      },
+      {
+        "action": "Match it to Section 7(c), \"Disclosure and/or misuse of confidential information\": officials \"shall not use or divulge, confidential or classified information officially known to them by reason of their office and not made available to the public\" to \"further their private interests.\"",
+        "why": "Divulge means to reveal. Confidential means meant to be kept secret."
+      },
+      {
+        "action": "Rule out the others: Jun received no gift, recommended no one, and did not practice a profession privately."
+      },
+      {
+        "action": "The answer is: Misuse of confidential information."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Solicitation or acceptance of gifts": "Jun did not ask for or receive any gift. He used inside information, which Section 7(c) covers.",
+    "Recommending someone to a private job": "That is Section 7(b)(3). Jun did not recommend anyone; he used inside information for his own profit.",
+    "Private practice of his profession": "That is Section 7(b)(2). Buying land is not practicing engineering. The wrong act was using inside information (Section 7(c))."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 7(c)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

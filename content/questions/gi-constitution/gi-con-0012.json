@@ -1,0 +1,55 @@
+{
+  "id": "gi-con-0012",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-rights",
+  "difficulty": 2,
+  "stem": "Ana was born in Japan in 2001. Her mother is a Filipino citizen and her father is a Japanese citizen. Under Article IV, Section 1 of the 1987 Constitution, is Ana a citizen of the Philippines?",
+  "choices": [
+    "No, because she was born outside the Philippines",
+    "No, because her father is not a Filipino citizen",
+    "Yes, because her mother is a Filipino citizen",
+    "Yes, but only if she elects it at the age of majority"
+  ],
+  "answer": "Yes, because her mother is a Filipino citizen",
+  "hints": [
+    "Notice two facts: where Ana was born, and who her parents are.",
+    "Read the list of citizens in Article IV, Section 1. Find the item about a person's father or mother.",
+    "Read that item and notice whether it says \"and\" or \"or\". Then check two things: whether Section 1 mentions the place of birth at all, and whether the rule about electing citizenship covers someone born in 2001."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Read Article IV, Section 1, which lists four groups of citizens of the Philippines.",
+        "why": "Ana only needs to fit one of the groups."
+      },
+      {
+        "action": "Find the second group: \"Those whose fathers or mothers are citizens of the Philippines\".",
+        "why": "The word \"or\" means one Filipino parent is enough. Ana's mother is a Filipino citizen."
+      },
+      {
+        "action": "Check the place of birth: Section 1 does not mention where the person is born.",
+        "why": "Nothing in Section 1 requires birth in the Philippines. The second group depends only on the parents."
+      },
+      {
+        "action": "Check the rule on electing citizenship: it covers only \"Those born before January 17, 1973, of Filipino mothers\".",
+        "why": "Ana was born in 2001, so she does not need to elect anything."
+      },
+      {
+        "action": "Yes, Ana is a citizen of the Philippines because her mother is a Filipino citizen."
+      }
+    ]
+  },
+  "trapNotes": {
+    "No, because she was born outside the Philippines": "Section 1 does not make citizenship depend on the place of birth. The second group looks only at the parents.",
+    "No, because her father is not a Filipino citizen": "Section 1 says \"fathers or mothers\". One Filipino parent is enough, so her father's citizenship does not matter here.",
+    "Yes, but only if she elects it at the age of majority": "Electing citizenship at the age of majority applies only to those \"born before January 17, 1973, of Filipino mothers\". Ana was born in 2001."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article IV, Section 1",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

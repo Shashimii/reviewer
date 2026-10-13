@@ -1,0 +1,52 @@
+{
+  "id": "gi-con-0023",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-accountability",
+  "difficulty": 2,
+  "stem": "Under Article XI, Section 2 of the 1987 Constitution, which of these officials may be removed from office by impeachment?",
+  "choices": [
+    "A Senator",
+    "A department secretary",
+    "A regional trial court judge",
+    "The Ombudsman"
+  ],
+  "answer": "The Ombudsman",
+  "hints": [
+    "Only a short list of high officials can be impeached. Everyone else is removed in other ways set by law.",
+    "Find the list of impeachable officials in Article XI, Section 2. It has five entries.",
+    "Go through the choices one at a time. A Senator is a Member of Congress, a department secretary is a Member of the Cabinet, and a trial court judge sits in a lower court. Check which choice actually appears in the Section 2 list."
+  ],
+  "solution": {
+    "methodName": "Check each choice against the text",
+    "steps": [
+      {
+        "action": "Find the list in Article XI, Section 2: \"The President, the Vice-President, the Members of the Supreme Court, the Members of the Constitutional Commissions, and the Ombudsman.\"",
+        "why": "Impeachment is a way of removing these high officials. The House of Representatives starts the case and the Senate tries and decides it (Article XI, Section 3)."
+      },
+      {
+        "action": "Read the last sentence of Section 2: all other public officers and employees \"may be removed from office as provided by law, but not by impeachment.\"",
+        "why": "So an official who is not on the list cannot be impeached."
+      },
+      {
+        "action": "Check each choice against the list.",
+        "why": "Senators, department secretaries and trial court judges are not on it. Only Members of the Supreme Court are listed, not judges of lower courts."
+      },
+      {
+        "action": "Of the choices, only the Ombudsman may be removed by impeachment.",
+        "why": "The Ombudsman heads the independent Office of the Ombudsman (Article XI, Section 5). The Ombudsman and the Deputies act on complaints against public officials \"as protectors of the people\" (Article XI, Section 12)."
+      }
+    ]
+  },
+  "trapNotes": {
+    "A Senator": "The Senate tries impeachment cases, but Senators are not on the Section 2 list. Each House of Congress may instead suspend or expel its own Members (Article VI, Section 16).",
+    "A department secretary": "Department secretaries are Members of the Cabinet, and the Cabinet is not on the Section 2 list. They are removed as provided by law, not by impeachment.",
+    "A regional trial court judge": "Only Members of the Supreme Court are on the list. The Supreme Court en banc disciplines judges of lower courts or orders their dismissal (Article VIII, Section 11)."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XI, Section 2",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

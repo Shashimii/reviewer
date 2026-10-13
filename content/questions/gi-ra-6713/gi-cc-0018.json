@@ -1,0 +1,53 @@
+{
+  "id": "gi-cc-0018",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-prohibited",
+  "difficulty": 2,
+  "stem": "A contractor with a pending bid at the city engineering office invites Engr. Tan, who evaluates the bids, to a free dinner at an expensive restaurant. Under Section 7(d) of RA 6713, what should Engr. Tan do?",
+  "choices": [
+    "Accept, since a meal is not a gift of cash or goods",
+    "Accept, but report the dinner to his chief the next day",
+    "Accept, as long as other office staff are invited too",
+    "Decline, since the rule also covers entertainment"
+  ],
+  "answer": "Decline, since the rule also covers entertainment",
+  "hints": [
+    "Ask two questions: what is being offered, and does the giver have business with Engr. Tan's office?",
+    "Section 7(d) lists what officials may not accept: \"any gift, gratuity, favor, entertainment, loan or anything of monetary value.\"",
+    "The ban applies when the giver is connected with \"any transaction which may be affected by the functions of their office.\" A pending bid that Engr. Tan evaluates is such a transaction. Check whether a free dinner is on the list."
+  ],
+  "solution": {
+    "methodName": "Match the act to the prohibition",
+    "steps": [
+      {
+        "action": "Find the giver's link: the contractor has a pending bid that Engr. Tan evaluates.",
+        "why": "This is a \"transaction which may be affected by the functions of their office.\""
+      },
+      {
+        "action": "Find what is offered: a free dinner at an expensive restaurant."
+      },
+      {
+        "action": "Check the list in Section 7(d): officials shall not \"solicit or accept, directly or indirectly, any gift, gratuity, favor, entertainment, loan or anything of monetary value.\" A free dinner is entertainment and has monetary value.",
+        "why": "Monetary value means it is worth money, even if no cash changes hands."
+      },
+      {
+        "action": "Both parts match, so he must not accept. The rule has no exception for reporting it later or for inviting other staff."
+      },
+      {
+        "action": "The answer is: Decline, since the rule also covers entertainment."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Accept, since a meal is not a gift of cash or goods": "Section 7(d) is not limited to cash or goods. It also covers \"favor, entertainment\" and \"anything of monetary value.\"",
+    "Accept, but report the dinner to his chief the next day": "Reporting afterward does not make it allowed. Section 7(d) says officials \"shall not solicit or accept\" it in the first place.",
+    "Accept, as long as other office staff are invited too": "Inviting others does not change the rule. The dinner still comes from a contractor whose bid Engr. Tan evaluates."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 7(d)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "gi-hr-0006",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-concepts",
+  "difficulty": 3,
+  "stem": "A group says that because the Universal Declaration of Human Rights protects free expression, it may run a campaign aimed at destroying the rights and freedoms of others. Which principle of the Declaration answers this claim?",
+  "choices": [
+    "No part of it gives anyone a right to act to destroy the rights it sets out.",
+    "Everyone has the right to freedom of opinion and expression.",
+    "Everyone has the right to freedom of peaceful assembly and association.",
+    "The will of the people shall be the basis of the authority of government."
+  ],
+  "answer": "No part of it gives anyone a right to act to destroy the rights it sets out.",
+  "hints": [
+    "The group is using one right as a shield to attack the rights of others. Look for the principle that blocks this.",
+    "Recall the last article of the Declaration, Article 30.",
+    "Ask of each choice: does it stop the group, or does it only state a right? Only one choice speaks about acts aimed at destroying rights."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Spot the claim: the group uses free expression as cover for a campaign aimed at destroying other people's rights."
+      },
+      {
+        "action": "Find the provision that deals with using the Declaration against itself: Article 30, the last article."
+      },
+      {
+        "action": "Article 30 says: \"Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.\"",
+        "why": "In simple words: no one can use a right in the Declaration to destroy the other rights in it."
+      },
+      {
+        "action": "Check the others: free expression (Article 19) is the right the group leans on. Assembly (Article 20) and the will of the people (Article 21) do not answer the claim either."
+      },
+      {
+        "action": "The answer is: no part of it gives anyone a right to act to destroy the rights it sets out."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Everyone has the right to freedom of opinion and expression.": "This is Article 19, the right the group is relying on. It does not answer the claim; Article 30 does.",
+    "Everyone has the right to freedom of peaceful assembly and association.": "This is Article 20. It protects peaceful groups, but it says nothing about acts aimed at destroying the rights of others.",
+    "The will of the people shall be the basis of the authority of government.": "This is part of Article 21. It is about where government gets its authority, not about using rights to destroy rights."
+  },
+  "sourceRef": {
+    "citation": "Universal Declaration of Human Rights, Article 30; Articles 19, 20 and 21",
+    "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

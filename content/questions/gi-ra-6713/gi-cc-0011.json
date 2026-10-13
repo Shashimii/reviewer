@@ -1,0 +1,52 @@
+{
+  "id": "gi-cc-0011",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-duties",
+  "difficulty": 1,
+  "stem": "A resident writes to the city health office asking for a copy of her vaccination record. Under Section 5(a) of RA 6713, within what period must the office respond to her letter?",
+  "choices": [
+    "Within 10 working days from receipt",
+    "Within 15 working days from receipt",
+    "Within 30 working days from receipt",
+    "Within 45 working days from receipt"
+  ],
+  "answer": "Within 15 working days from receipt",
+  "hints": [
+    "Section 5(a) is titled \"Act promptly on letters and requests.\" Its deadline is counted in working days from the day the letter is received.",
+    "RA 6713 has several numbers of working days. Letters from the public, annual performance reports and copies of SALNs each have their own number.",
+    "Match each number to its rule: annual performance reports get 45 working days from the end of the year (Section 5(b)), and SALNs may be copied after 10 working days (Section 8(C)(2)). Recall the number in Section 5(a) for letters and pick it."
+  ],
+  "solution": {
+    "methodName": "Match each number to its rule",
+    "steps": [
+      {
+        "action": "Find the rule for letters: Section 5(a), \"Act promptly on letters and requests.\""
+      },
+      {
+        "action": "Read the deadline: officials \"shall, within fifteen (15) working days from receipt thereof, respond to letters, telegrams or other means of communications sent by the public.\"",
+        "why": "Working days are days the office is open for work, so weekends and holidays are not counted."
+      },
+      {
+        "action": "Note what the reply must contain: \"The reply must contain the action taken on the request.\""
+      },
+      {
+        "action": "Keep the other numbers apart: 45 working days is for annual performance reports, and 10 working days is when filed SALNs may be copied."
+      },
+      {
+        "action": "The answer is: Within 15 working days from receipt."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Within 10 working days from receipt": "10 working days is in Section 8(C)(2): SALNs may be copied 10 working days after they are filed. Letters from the public get 15 working days (Section 5(a)).",
+    "Within 30 working days from receipt": "30 days is the SALN deadline after assuming office or leaving the service (Section 8(A)). Letters from the public get 15 working days (Section 5(a)).",
+    "Within 45 working days from receipt": "45 working days is the deadline for annual performance reports, counted from the end of the year (Section 5(b)). Letters get 15 working days."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 5(a)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "gi-cc-0002",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-coverage",
+  "difficulty": 2,
+  "stem": "Lito is appointed to a temporary, non-career position in a provincial office. He gets no regular salary, only a small allowance. Is he a \"public official\" as defined in Section 3(b) of RA 6713?",
+  "choices": [
+    "Yes, since it covers temporary and non-career staff, paid or not",
+    "No, since it covers only employees with permanent positions",
+    "No, since it covers only employees in the career service",
+    "No, since it covers only employees with a regular salary"
+  ],
+  "answer": "Yes, since it covers temporary and non-career staff, paid or not",
+  "hints": [
+    "Look for the words in Section 3(b) about three things: the kind of appointment, the kind of service, and pay.",
+    "Section 3(b) says the term includes officials and employees, \"permanent or temporary, whether in the career or non-career service.\"",
+    "Check each of Lito's details against Section 3(b): temporary, non-career, and no regular salary. The definition ends with \"whether or not they receive compensation, regardless of amount.\" Decide whether any detail leaves him out."
+  ],
+  "solution": {
+    "methodName": "Check every condition in the definition",
+    "steps": [
+      {
+        "action": "Read the definition in Section 3(b): \"Public Officials\" includes \"elective and appointive officials and employees, permanent or temporary, whether in the career or non-career service, including military and police personnel, whether or not they receive compensation, regardless of amount.\""
+      },
+      {
+        "action": "Check \"temporary\": the definition says \"permanent or temporary,\" so temporary staff are covered."
+      },
+      {
+        "action": "Check \"non-career\": the definition says \"whether in the career or non-career service,\" so non-career staff are covered."
+      },
+      {
+        "action": "Check pay: the definition covers them \"whether or not they receive compensation, regardless of amount.\" A small allowance does not matter.",
+        "why": "Compensation means pay. \"Regardless of amount\" means a small amount, or none at all, still counts."
+      },
+      {
+        "action": "None of Lito's details leaves him out. The answer is: Yes, since it covers temporary and non-career staff, paid or not."
+      }
+    ]
+  },
+  "trapNotes": {
+    "No, since it covers only employees with permanent positions": "Section 3(b) says \"permanent or temporary,\" so temporary employees are also public officials under RA 6713.",
+    "No, since it covers only employees in the career service": "Section 3(b) says \"whether in the career or non-career service,\" so non-career employees are covered too.",
+    "No, since it covers only employees with a regular salary": "Section 3(b) covers them \"whether or not they receive compensation, regardless of amount.\" Pay does not decide who is covered."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 3(b)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

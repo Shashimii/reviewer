@@ -1,0 +1,56 @@
+{
+  "id": "gi-cc-0013",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-duties",
+  "difficulty": 2,
+  "stem": "Joy, a clerk in a municipal treasurer's office, receives a letter from a taxpayer on Monday, July 6, 2026. Under Section 5(a) of RA 6713, what is the last day for her reply?\nCount only working days (Monday to Friday). Day 1 is the first working day after she receives the letter. There are no holidays in the period.",
+  "choices": [
+    "Tuesday, July 21",
+    "Friday, July 24",
+    "Monday, July 27",
+    "Wednesday, August 5"
+  ],
+  "answer": "Monday, July 27",
+  "hints": [
+    "Section 5(a) gives the deadline in working days, not calendar days. Saturdays and Sundays do not count.",
+    "Recall the number of working days in Section 5(a). Then start counting: Day 1 is Tuesday, July 7.",
+    "Count only Monday to Friday. Five working days make one work week, so count week by week until you reach the number in Section 5(a). The date of that last working day is the deadline."
+  ],
+  "solution": {
+    "methodName": "Count working days, one by one",
+    "steps": [
+      {
+        "action": "Recall the rule: Section 5(a) says officials shall respond \"within fifteen (15) working days from receipt.\""
+      },
+      {
+        "action": "Day 1 is the first working day after receipt: Tuesday, July 7."
+      },
+      {
+        "action": "Days 1 to 4 are July 7 to 10 (Tuesday to Friday). Skip Saturday and Sunday, July 11 and 12.",
+        "why": "Weekends are not working days, so they are not counted."
+      },
+      {
+        "action": "Days 5 to 9 are July 13 to 17. Days 10 to 14 are July 20 to 24."
+      },
+      {
+        "action": "Day 15 is the next working day after Friday, July 24, which is Monday, July 27.",
+        "why": "Shortcut: 15 working days is 3 work weeks of 5 days. Received on a Monday with no holidays, the deadline is the Monday 3 weeks later."
+      },
+      {
+        "action": "The answer is: Monday, July 27."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Tuesday, July 21": "This is 15 calendar days after July 6. Section 5(a) counts working days, so weekends must be skipped.",
+    "Friday, July 24": "This counts July 6, the day of receipt, as Day 1. The stem says Day 1 is the first working day after she receives the letter.",
+    "Wednesday, August 5": "This is 30 calendar days after July 6. The rule for letters is 15 working days, not 30 days."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 5(a)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

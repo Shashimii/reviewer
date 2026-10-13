@@ -1,0 +1,50 @@
+{
+  "id": "gi-con-0002",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-principles",
+  "difficulty": 2,
+  "stem": "Article I of the 1987 Constitution describes the national territory. The waters around, between, and connecting the islands of the archipelago form part of which waters of the Philippines?",
+  "choices": [
+    "Its territorial sea",
+    "Its exclusive economic zone",
+    "Its insular shelves",
+    "Its internal waters"
+  ],
+  "answer": "Its internal waters",
+  "hints": [
+    "Article I has only two sentences. The second one is about the waters between the islands.",
+    "Skip the long list in the first sentence. Go to the second sentence, which begins \"The waters around, between, and connecting the islands ...\", and read how it ends.",
+    "The second sentence says these waters, no matter how wide (\"regardless of their breadth and dimensions\"), belong to one kind of Philippine waters. Its last words name that kind. Match those words to a choice, and be careful with terms copied from the first sentence's list."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Open Article I (National Territory). It has two sentences.",
+        "why": "The first sentence lists everything the territory includes. The second sentence is only about the waters between the islands."
+      },
+      {
+        "action": "Read the second sentence: \"The waters around, between, and connecting the islands of the archipelago, regardless of their breadth and dimensions, form part of the internal waters of the Philippines.\"",
+        "why": "An \"archipelago\" is a group of islands. \"Regardless of their breadth\" means no matter how wide the water is."
+      },
+      {
+        "action": "Match the last words, \"internal waters\", to the choices."
+      },
+      {
+        "action": "The waters between the islands form part of its internal waters."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Its territorial sea": "Article I does list the territorial sea as part of the national territory, but in the first sentence. The second sentence calls the waters between the islands \"internal waters\".",
+    "Its exclusive economic zone": "This term is not in Article I at all. It appears in Article XII, Section 2, on the national economy.",
+    "Its insular shelves": "Article I lists the insular shelves together with the seabed, the subsoil and \"other submarine areas\". They are areas under the sea, not the waters between the islands."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article I",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

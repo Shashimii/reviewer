@@ -1,0 +1,73 @@
+{
+  "id": "gi-environment-lesson",
+  "topicId": "gi-environment",
+  "workedExampleId": "gi-env-0005",
+  "sections": [
+    {
+      "heading": "Your right to a healthy environment",
+      "body": "Every environment law builds on the [1987 Constitution](https://lawphil.net/consti/cons1987.html).\n\n- **Article II, Section 16:** \"The State shall protect and advance the right of the people to a balanced and healthful ecology in accord with the rhythm and harmony of nature.\" (Section 15, just before it, is the right to *health*.)\n- **Article XII, Section 2:** \"wildlife, flora and fauna, and other natural resources are owned by the State.\"\n- Only **agricultural lands** are **alienable**, or able to be sold to private owners (Sections 2 and 3).\n- **Section 4:** national parks \"may not be increased nor diminished, except by law.\"\n\n**Method: find the provision, then match its key words.** \"Who owns the wildlife?\" Section 2 says \"owned by the State.\""
+    },
+    {
+      "heading": "Solid waste: RA 9003",
+      "body": "Under [RA 9003](https://lawphil.net/statutes/repacts/ra2001/ra_9003_2001.html), the Ecological Solid Waste Management Act, LGUs are \"primarily responsible\" (Section 10).\n\n- **Segregation at source** (Section 21): sort waste where it is made. Containers are marked \"compostable,\" \"non-recyclable,\" \"recyclable\" or \"special waste\" (Section 22). Special waste is household hazardous waste, like paints and batteries.\n- **Who collects** (Section 10): the barangay collects biodegradable, compostable and reusable waste; the municipality or city collects non-recyclables and special waste.\n- **MRF** (Section 32): a Materials Recovery Facility \"in every barangay or cluster of barangays.\"\n- **Prohibited** (Section 48): littering in public places, \"The open burning of solid waste,\" collecting unsorted waste, open dumps.\n- **EPR** ([RA 11898](https://lawphil.net/statutes/repacts/ra2022/ra_11898_2022.html)): large enterprises that generate plastic packaging waste must recover it. Smaller enterprises are not covered.\n\n**Method: check the act against the list of prohibited acts.** Burning garbage in the yard is open burning, so it is prohibited."
+    },
+    {
+      "heading": "Clean air and clean water",
+      "body": "The **DENR** leads both [RA 8749](https://lawphil.net/statutes/repacts/ra1999/ra_8749_1999.html), the Clean Air Act (Section 34), and [RA 9275](https://lawphil.net/statutes/repacts/ra2004/ra_9275_2004.html), the Clean Water Act (Section 19).\n\n- RA 8749 recognizes \"The right to breathe clean air\" (Section 4) and that \"polluters must pay\" (Section 2).\n- **Incineration ban** (RA 8749, Section 20): no burning of municipal, biomedical and hazardous waste. Crematoria are excluded.\n- **Discharge permit** (RA 9275, Section 14): needed from the DENR before letting out **effluent**.\n- **Clean-up** (RA 9275, Section 16): the polluter pays \"at his own expense.\"\n- **Prohibited** (RA 9275, Section 27(a)): putting material into water, or on its banks where floods could wash it in.\n\n**Method: name who is responsible, then check the exact role.** \"Who pays for an oil spill clean-up?\" The polluter."
+    },
+    {
+      "heading": "Protected areas and wildlife",
+      "body": "The **E-NIPAS Act** ([RA 11038](https://lawphil.net/statutes/repacts/ra2018/ra_11038_2018.html), amending RA 7586) sets aside **protected areas** for their \"unique physical and biological diversity.\" Each has a Protected Area Management Board (PAMB), chaired by the DENR Regional Director.\n\n- **Buffer zone** (Section 4(c)): an area just outside a protected area that needs special development control.\n- **Prohibited** (Section 20): kaingin (slash-and-burn farming), mineral exploration, exotic species, and permanent structures within 40 meters of the high water mark.\n- **Wildlife** ([RA 9147](https://lawphil.net/statutes/repacts/ra2001/ra_9147_2001.html), Section 4): the DENR covers land species, wetland species and the dugong; the DA covers marine mammals \"except dugong.\"\n- Killing wildlife is illegal except in five cases, such as preventing imminent danger to human life (Section 27(a)).\n\n**Method: match the term to its legal definition.** \"Slash-and-burn cultivation\" defines kaingin."
+    },
+    {
+      "heading": "Climate change and disasters",
+      "body": "[RA 9729](https://lawphil.net/statutes/repacts/ra2009/ra_9729_2009.html), the Climate Change Act (amended by [RA 10174](https://lawphil.net/statutes/repacts/ra2012/ra_10174_2012.html)), created the Climate Change Commission, chaired by the **President**. LGUs are \"the frontline agencies\" for local climate plans (Section 14). **Mitigation** cuts greenhouse gas emissions; **adaptation** adjusts to climate effects.\n\nUnder [RA 10121](https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html), the DRRM Act of 2010:\n\n- The **Secretary of National Defense** chairs the NDRRMC. The DILG, DSWD and DOST Secretaries are Vice Chairpersons for preparedness, response, and prevention and mitigation.\n- LGUs set aside at least **5%** of estimated regular revenue as the LDRRMF; **30%** of it is the Quick Response Fund (Section 21).\n- Selling, diverting or repacking relief goods to fake their source is prohibited (Section 19).\n- Emergency response and preparedness training is **mandatory** for public sector employees (Section 14)."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Section 15 vs 16.** Health is Section 15; the environment is Section 16.\n- **\"Never\" choices.** Parks can change \"by law.\" Look for the exception.\n- **Barangay vs city.** The municipality or city collects non-recyclables and special waste.\n- **Sorting order.** Segregation starts at the source, not the MRF.\n- **Dugong.** A marine mammal, but under the DENR, not the DA.\n- **Two chairs.** The President chairs the Climate Change Commission; the Defense Secretary chairs the NDRRMC."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Ecology",
+      "definition": "Ecology is the relationship between living things and their surroundings. The Constitution protects the right to a balanced and healthful ecology.",
+      "taglish": "Ecology – ugnayan ng mga buhay na nilalang at ng kanilang kapaligiran"
+    },
+    {
+      "term": "Alienable",
+      "definition": "Land that is alienable can be sold or transferred to private owners. Among lands of the public domain, only agricultural lands are alienable.",
+      "taglish": "Alienable – puwedeng ibenta o ilipat sa pribadong may-ari; sa public lands, agricultural lands lang"
+    },
+    {
+      "term": "Segregation at source",
+      "definition": "Segregation at source means sorting waste into kinds at the place where it is produced, such as a home or office.",
+      "taglish": "Segregation at source – paghihiwalay ng basura mismo sa bahay o opisina kung saan ito galing"
+    },
+    {
+      "term": "Materials Recovery Facility (MRF)",
+      "definition": "An MRF is a facility in a barangay or group of barangays that receives waste for final sorting, composting and recycling.",
+      "taglish": "MRF – pasilidad sa barangay kung saan inaayos, kino-compost at nire-recycle ang basura"
+    },
+    {
+      "term": "Effluent",
+      "definition": "Effluent is wastewater or other discharge from a known source, such as a factory, that flows into water or onto land.",
+      "taglish": "Effluent – maruming tubig o discharge na lumalabas mula sa pabrika o establisimyento"
+    },
+    {
+      "term": "Buffer zone",
+      "definition": "A buffer zone is an area just outside a protected area that needs special development control to protect it.",
+      "taglish": "Buffer zone – lugar sa labas mismo ng protected area na may dagdag na proteksyon"
+    },
+    {
+      "term": "Mitigation",
+      "definition": "In climate change, mitigation is human action to reduce greenhouse gas emissions and increase their removal.",
+      "taglish": "Mitigation – pagbabawas ng greenhouse gas emissions para mabawasan ang sanhi ng climate change"
+    },
+    {
+      "term": "Adaptation",
+      "definition": "Adaptation is adjusting natural or human systems in response to the actual or expected effects of climate change.",
+      "taglish": "Adaptation – pag-aangkop o pag-adjust sa epekto ng climate change"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "gi-con-0010",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-rights",
+  "difficulty": 1,
+  "stem": "Under Article V, Section 1 of the 1987 Constitution, how old must a citizen be to exercise suffrage (the right to vote)?",
+  "choices": [
+    "At least 21 years old",
+    "At least 25 years old",
+    "At least 35 years old",
+    "At least 18 years old"
+  ],
+  "answer": "At least 18 years old",
+  "hints": [
+    "Suffrage means the right to vote. Article V (Suffrage) has only two sections.",
+    "Section 1 lists who may vote: citizens not disqualified by law, of a certain age, who meet certain residence rules.",
+    "Find the words \"who are at least ... years of age\" in Section 1. Don't mix it up with the ages for Members of Congress in Article VI, which are ages to be elected, not to vote."
+  ],
+  "solution": {
+    "methodName": "Line up the ages and terms by office",
+    "steps": [
+      {
+        "action": "Find Article V (Suffrage), Section 1.",
+        "why": "\"Suffrage\" means the right to vote."
+      },
+      {
+        "action": "Read the age rule: suffrage may be exercised by citizens \"who are at least eighteen years of age\"."
+      },
+      {
+        "action": "Compare with the other ages: 25 is for a Member of the House (Article VI, Section 6) and 35 is for a Senator (Article VI, Section 3).",
+        "why": "These are ages to be elected, not to vote. They are the usual traps."
+      },
+      {
+        "action": "A citizen must be at least 18 years old to vote."
+      }
+    ]
+  },
+  "trapNotes": {
+    "At least 21 years old": "Article V does not mention 21. Section 1 sets the voting age at \"at least eighteen years of age\".",
+    "At least 25 years old": "25 is the minimum age to be a Member of the House of Representatives (Article VI, Section 6), not to vote.",
+    "At least 35 years old": "35 is the minimum age to be a Senator (Article VI, Section 3), not to vote."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article V, Section 1",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "gi-cc-0020",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-prohibited",
+  "difficulty": 3,
+  "stem": "Atty. Ramos resigned from a government regulatory office four months ago. Under Section 7(b) of RA 6713, which of these may she do now?",
+  "choices": [
+    "Practice law in matters that are not before her former office",
+    "Represent a client in a case pending before her former office",
+    "Work as a consultant for a firm her former office regulates",
+    "Recommend a friend to a firm with a pending case at her former office"
+  ],
+  "answer": "Practice law in matters that are not before her former office",
+  "hints": [
+    "Section 7(b) has three prohibitions, plus a rule on how long they last after a person leaves government.",
+    "After \"resignation, retirement, or separation,\" the prohibitions \"continue to apply for a period of one (1) year,\" with one exception: private practice of a profession, (b)(2).",
+    "Only four months have passed, so the one-year rule is still running. Prohibitions (b)(1) and (b)(3) still apply. Private practice is allowed again, except in matters before her former office. Find the choice that falls under the exception."
+  ],
+  "solution": {
+    "methodName": "Check the list of exceptions",
+    "steps": [
+      {
+        "action": "List the three Section 7(b) prohibitions: (1) working for or owning a private enterprise \"regulated, supervised or licensed by their office\"; (2) private practice of their profession; (3) recommending any person to a private enterprise with \"a regular or pending official transaction with their office.\""
+      },
+      {
+        "action": "Read the time rule: \"These prohibitions shall continue to apply for a period of one (1) year after resignation, retirement, or separation from public office, except in the case of subparagraph (b) (2) above.\""
+      },
+      {
+        "action": "Read the limit on the exception: the professional \"cannot practice his profession in connection with any matter before the office he used to be with, in which case the one-year prohibition shall likewise apply.\"",
+        "why": "So after leaving, she may practice again, but not in matters before her former office until the year is up."
+      },
+      {
+        "action": "Apply it at four months after resignation: consulting for a firm her former office regulates breaks (b)(1); recommending a friend to a firm with a pending case breaks (b)(3); representing a client before her former office breaks the limit on (b)(2)."
+      },
+      {
+        "action": "Only private practice in matters not before her former office is allowed. The answer is: Practice law in matters that are not before her former office."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Represent a client in a case pending before her former office": "Within one year, she \"cannot practice his profession in connection with any matter before the office he used to be with.\" Four months is too soon.",
+    "Work as a consultant for a firm her former office regulates": "Section 7(b)(1) still applies for one year after resignation. Working as a consultant for a firm regulated by her former office is barred.",
+    "Recommend a friend to a firm with a pending case at her former office": "Section 7(b)(3) still applies for one year after resignation. Recommending anyone to a firm with a pending transaction with her former office is barred."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 7(b)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

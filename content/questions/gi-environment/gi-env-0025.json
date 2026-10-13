@@ -1,0 +1,50 @@
+{
+  "id": "gi-env-0025",
+  "topicId": "gi-environment",
+  "skill": "gi-env-climate",
+  "difficulty": 3,
+  "stem": "Under Section 21 of RA 10121, how much of its estimated revenue from regular sources must an LGU set aside as its Local Disaster Risk Reduction and Management Fund (LDRRMF), and how much of that fund is the Quick Response Fund?",
+  "choices": [
+    "At least 5%; 30% of the fund is the Quick Response Fund",
+    "At least 30%; 5% of the fund is the Quick Response Fund",
+    "At least 5%; 70% of the fund is the Quick Response Fund",
+    "At least 10%; 30% of the fund is the Quick Response Fund"
+  ],
+  "answer": "At least 5%; 30% of the fund is the Quick Response Fund",
+  "hints": [
+    "There are two numbers to recall: a small share of the LGU's revenue, and a bigger share of the fund itself.",
+    "Section 21 says \"Not less than ...\" of the estimated revenue from regular sources \"shall be set aside as the LDRRMF.\" Find that number first.",
+    "Then Section 21 says what part of the LDRRMF \"shall be allocated as Quick Response Fund (QRF) or stand-by fund.\" Find both numbers, then match the pair."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match its key words",
+    "steps": [
+      {
+        "action": "Recall Section 21: \"Not less than five percent (5%) of the estimated revenue from regular sources shall be set aside as the LDRRMF.\"",
+        "why": "\"Not less than\" means at least. The LDRRMF is the new name of the old Local Calamity Fund."
+      },
+      {
+        "action": "Recall the next rule: \"Of the amount appropriated for LDRRMF, thirty percent (30%) shall be allocated as Quick Response Fund (QRF) or stand-by fund for relief and recovery programs.\"",
+        "why": "The QRF is kept ready so help reaches disaster-hit areas quickly. The rest of the fund supports activities such as preparedness training and rescue equipment."
+      },
+      {
+        "action": "Put the two numbers together: at least 5% of revenue, and 30% of that fund as the QRF."
+      },
+      {
+        "action": "The answer is at least 5%; 30% of the fund is the Quick Response Fund."
+      }
+    ]
+  },
+  "trapNotes": {
+    "At least 30%; 5% of the fund is the Quick Response Fund": "The numbers are swapped. The LDRRMF is at least 5% of revenue, and 30% of the fund is the QRF.",
+    "At least 5%; 70% of the fund is the Quick Response Fund": "70% is the part of the fund left after the QRF. The QRF itself is 30%.",
+    "At least 10%; 30% of the fund is the Quick Response Fund": "The minimum is 5% of the estimated revenue from regular sources, not 10%."
+  },
+  "sourceRef": {
+    "citation": "RA 10121, Section 21",
+    "url": "https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,49 @@
+{
+  "id": "gi-env-0008",
+  "topicId": "gi-environment",
+  "skill": "gi-env-waste",
+  "difficulty": 2,
+  "stem": "Section 22 of RA 9003 requires waste containers to be marked \"compostable,\" \"non-recyclable,\" \"recyclable\" or \"special waste.\" Which item belongs in the special waste container?",
+  "choices": [
+    "Vegetable peelings",
+    "Used household batteries",
+    "Old newspapers",
+    "Empty tin cans"
+  ],
+  "answer": "Used household batteries",
+  "hints": [
+    "Special waste needs extra care because it can harm people or the environment.",
+    "Section 3(pp) of RA 9003 defines special wastes as \"household hazardous wastes\" and gives examples.",
+    "Sort each choice: does it rot (compostable), is it on the list of recyclables in Section 3(z), or is it hazardous (special)? Only one choice is hazardous."
+  ],
+  "solution": {
+    "methodName": "Match the term to its legal definition",
+    "steps": [
+      {
+        "action": "Recall Section 3(pp): special wastes are \"household hazardous wastes such as paints, thinners, household batteries, lead-acid batteries, spray canisters and the like.\"",
+        "why": "Hazardous means it can harm health or the environment if it is handled the wrong way."
+      },
+      {
+        "action": "Sort the other choices. Vegetable peelings rot, so they are compostable. Newspaper and tin cans are both listed as recyclable materials in Section 3(z)."
+      },
+      {
+        "action": "Only household batteries appear in the list of special wastes."
+      },
+      {
+        "action": "The answer is used household batteries."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Vegetable peelings": "Peelings rot and can become compost. They go in the compostable container.",
+    "Old newspapers": "Section 3(z) lists newspaper as a recyclable material. It goes in the recyclable container.",
+    "Empty tin cans": "Section 3(z) lists tin cans as a recyclable material. They go in the recyclable container."
+  },
+  "sourceRef": {
+    "citation": "RA 9003, Sections 22(b), 3(pp) and 3(z)",
+    "url": "https://lawphil.net/statutes/repacts/ra2001/ra_9003_2001.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

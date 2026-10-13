@@ -1,0 +1,53 @@
+{
+  "id": "gi-con-0014",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-government",
+  "difficulty": 2,
+  "stem": "Which statement about terms of office in Article VI of the 1987 Constitution is correct?",
+  "choices": [
+    "Senators: six-year term, limit of three consecutive terms",
+    "House members: six-year term, limit of two consecutive terms",
+    "House members: three-year term, limit of two consecutive terms",
+    "Senators: six-year term, limit of two consecutive terms"
+  ],
+  "answer": "Senators: six-year term, limit of two consecutive terms",
+  "hints": [
+    "Each choice has two parts: the length of one term and the limit on terms in a row. Both parts must be right.",
+    "Senators are covered by Article VI, Section 4. Members of the House are covered by Article VI, Section 7.",
+    "From those two sections, write down the term length and the limit for each house. Then check both parts of every choice against your notes."
+  ],
+  "solution": {
+    "methodName": "Line up the ages and terms by office",
+    "steps": [
+      {
+        "action": "Read Article VI, Section 4: \"The term of office of the Senators shall be six years ... No Senator shall serve for more than two consecutive terms.\"",
+        "why": "\"Consecutive\" means one after another, with no break."
+      },
+      {
+        "action": "Read Article VI, Section 7: Members of the House are elected \"for a term of three years\", and none shall serve \"for more than three consecutive terms\"."
+      },
+      {
+        "action": "Make a small table: Senators = 6-year term, limit 2. House = 3-year term, limit 3.",
+        "why": "The numbers cross over: the longer term has the smaller limit. Mixing them up is the common trap."
+      },
+      {
+        "action": "Check both parts of each choice against the table. Only the Senators' six-year term with a limit of two consecutive terms matches."
+      },
+      {
+        "action": "The correct statement is: Senators: six-year term, limit of two consecutive terms."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Senators: six-year term, limit of three consecutive terms": "The six-year term is right, but Section 4 limits Senators to two consecutive terms. Three is the House limit.",
+    "House members: six-year term, limit of two consecutive terms": "Both numbers belong to Senators. Section 7 gives House members a three-year term and a limit of three consecutive terms.",
+    "House members: three-year term, limit of two consecutive terms": "The three-year term is right, but Section 7 sets the House limit at three consecutive terms, not two."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article VI, Sections 4 and 7",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

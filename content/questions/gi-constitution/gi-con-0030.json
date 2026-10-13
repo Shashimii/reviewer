@@ -1,0 +1,51 @@
+{
+  "id": "gi-con-0030",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-social",
+  "difficulty": 2,
+  "stem": "Under Article XVI, Section 2 of the 1987 Constitution, Congress may pass a law adopting a new national anthem. When does such a law take effect?",
+  "choices": [
+    "As soon as the President signs the bill into law",
+    "Once the people ratify it in a national referendum",
+    "Once the Supreme Court approves its wording",
+    "Once two-thirds of all the Members of the Senate agree"
+  ],
+  "answer": "Once the people ratify it in a national referendum",
+  "hints": [
+    "A new name for the country, a national anthem or a national seal gets special treatment. Look for an extra step beyond the usual way a bill becomes law.",
+    "Article XVI, Section 2 says such a law \"shall take effect only upon\" a certain event. Find that event.",
+    "Section 2 gives the final say on these symbols to the people themselves, not to a branch of government. Choose the choice that matches a direct vote of the people."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Find the rule: \"The Congress may, by law, adopt a new name for the country, a national anthem, or a national seal.\"",
+        "why": "These must be \"truly reflective and symbolic of the ideals, history, and traditions of the people.\""
+      },
+      {
+        "action": "Find the extra step: \"Such law shall take effect only upon its ratification by the people in a national referendum.\"",
+        "why": "To ratify means to approve. A national referendum is a vote of all the people on a proposal. Because these are the people's symbols, the people must approve the change."
+      },
+      {
+        "action": "Compare the usual process: a bill normally becomes law when the President signs it, or when Congress overrides a veto (Article VI, Section 27).",
+        "why": "For a new name, anthem or seal, that is not enough. The people's ratification is still needed."
+      },
+      {
+        "action": "Such a law takes effect only once the people ratify it in a national referendum."
+      }
+    ]
+  },
+  "trapNotes": {
+    "As soon as the President signs the bill into law": "Signing is the usual last step for a bill (Article VI, Section 27). Section 2 adds one more step: ratification by the people in a national referendum.",
+    "Once the Supreme Court approves its wording": "Section 2 gives the Supreme Court no role here. The approval must come from the people in a national referendum.",
+    "Once two-thirds of all the Members of the Senate agree": "A two-thirds Senate vote is needed for treaties (Article VII, Section 21), not for national symbols. Section 2 requires ratification by the people."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XVI, Section 2",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

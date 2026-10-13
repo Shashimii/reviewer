@@ -1,0 +1,53 @@
+{
+  "id": "gi-hr-0020",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-peace",
+  "difficulty": 3,
+  "stem": "RA 9851 makes it a war crime to use children under a certain age to participate actively in hostilities. What age does the Act set for this?",
+  "choices": [
+    "12 years",
+    "15 years",
+    "18 years",
+    "21 years"
+  ],
+  "answer": "18 years",
+  "hints": [
+    "RA 9851 uses two different ages for children in armed conflict. Check which act each age goes with.",
+    "Find Section 4(c)(24) of RA 9851. It lists three acts involving children.",
+    "One age is only for recruiting children into the national armed forces. The other age covers recruiting into other armed groups and using children in the fighting. Pick the age that goes with using children in hostilities."
+  ],
+  "solution": {
+    "methodName": "Recall the exact words of the provision",
+    "steps": [
+      {
+        "action": "Find the provision: RA 9851, Section 4(c)(24). It lists three acts involving children."
+      },
+      {
+        "action": "Item (i): \"Conscripting, enlisting or recruiting children under the age of fifteen (15) years into the national armed forces\".",
+        "why": "Conscripting, enlisting or recruiting all mean bringing someone into an armed force."
+      },
+      {
+        "action": "Item (ii): \"Conscripting, enlisting or recruiting children under the age of eighteen (18) years into an armed force or group other than the national armed forces\"."
+      },
+      {
+        "action": "Item (iii): \"Using children under the age of eighteen (18) years to participate actively in hostilities\".",
+        "why": "The question is about using children in the fighting, so item (iii) applies, not item (i)."
+      },
+      {
+        "action": "The answer is 18 years."
+      }
+    ]
+  },
+  "trapNotes": {
+    "12 years": "No age of 12 appears in Section 4(c)(24). The ages there are 15 and 18.",
+    "15 years": "Fifteen is the age in item (i), for recruiting into the national armed forces. Using children in hostilities, item (iii), uses 18.",
+    "21 years": "No age of 21 appears in Section 4(c)(24). Using children in hostilities is a war crime for children under 18."
+  },
+  "sourceRef": {
+    "citation": "RA 9851, Section 4(c)(24)",
+    "url": "https://lawphil.net/statutes/repacts/ra2009/ra_9851_2009.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,51 @@
+{
+  "id": "gi-con-0017",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-government",
+  "difficulty": 2,
+  "stem": "In case of invasion or rebellion, when public safety requires it, the President may place the Philippines or any part of it under martial law. Under Article VII, Section 18 of the 1987 Constitution, what is the longest period the President's proclamation may cover, unless Congress extends it?",
+  "choices": [
+    "48 hours",
+    "30 days",
+    "60 days",
+    "90 days"
+  ],
+  "answer": "60 days",
+  "hints": [
+    "Section 18 has several time limits. Look for the one about how long martial law itself may last, not about reports or court cases.",
+    "Find the words \"for a period not exceeding\" in Article VII, Section 18. The number after them is the limit on the proclamation.",
+    "Sort the time limits in Section 18: one is for the President's report to Congress, one is for the Supreme Court's decision if a citizen questions the proclamation, and one is for the proclamation itself. Choose the limit on the proclamation."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Find the rule: the President may place the Philippines or any part of it under martial law \"for a period not exceeding sixty days.\"",
+        "why": "\"Not exceeding\" means \"no longer than.\" So 60 days is the most the proclamation can cover on its own."
+      },
+      {
+        "action": "Set aside the other time limits in the same section.",
+        "why": "The President must report to Congress \"Within forty-eight hours.\" If a citizen questions the proclamation, the Supreme Court must decide \"within thirty days from its filing.\" These are deadlines for other acts, not the length of martial law."
+      },
+      {
+        "action": "Note that only Congress can make it longer, and Congress can also end it.",
+        "why": "Congress, voting jointly by a majority of all its Members, \"may revoke such proclamation.\" Upon the President's initiative, it may also extend it if the invasion or rebellion persists and public safety requires it."
+      },
+      {
+        "action": "The President's proclamation may cover at most 60 days."
+      }
+    ]
+  },
+  "trapNotes": {
+    "48 hours": "This is the deadline for the President to report to Congress after the proclamation. It is not how long martial law may last.",
+    "30 days": "This is the deadline for the Supreme Court to decide a case questioning the proclamation. It is not how long martial law may last.",
+    "90 days": "Section 18 does not use 90 days. It says \"for a period not exceeding sixty days.\""
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article VII, Section 18",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

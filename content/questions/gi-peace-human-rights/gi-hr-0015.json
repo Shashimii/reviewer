@@ -1,0 +1,53 @@
+{
+  "id": "gi-hr-0015",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-laws",
+  "difficulty": 2,
+  "stem": "An officer says torturing a detainee is allowed because the country faces a threat of war. Under RA 9745 (the Anti-Torture Act of 2009), is he right?",
+  "choices": [
+    "Yes, but only while a state of war exists.",
+    "Yes, if the detainee is named in an order of battle.",
+    "No. A threat of war can never justify torture.",
+    "No, unless a superior officer gave the order."
+  ],
+  "answer": "No. A threat of war can never justify torture.",
+  "hints": [
+    "The officer points to an emergency as an excuse. Check whether RA 9745 allows any excuse at all.",
+    "Recall Section 6 of RA 9745. Its title calls freedom from torture an absolute right.",
+    "Section 6 lists things that \"shall not and can never be invoked\" to justify torture. See whether war, a threat of war or an order of battle is on that list. Then recall what Section 13 says about a superior's order."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Spot the excuse: a threat of war."
+      },
+      {
+        "action": "Find the provision: RA 9745, Section 6, which makes freedom from torture an absolute right.",
+        "why": "Absolute means it has no exceptions."
+      },
+      {
+        "action": "Section 6 says: \"A state of war or a threat of war, internal political instability, or any other public emergency, or a document or any determination comprising an 'order of battle' shall not and can never be invoked as a justification for torture\".",
+        "why": "So war, a threat of war, emergencies and an order of battle are all ruled out as excuses."
+      },
+      {
+        "action": "Section 13 makes anyone who \"actually participated\" in torture liable as a principal, and a superior who ordered it \"equally liable\". So an order is no excuse either."
+      },
+      {
+        "action": "The answer is: No. A threat of war can never justify torture."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Yes, but only while a state of war exists.": "Section 6 names \"a state of war\" itself as something that \"can never be invoked\" to justify torture.",
+    "Yes, if the detainee is named in an order of battle.": "Section 6 says an \"order of battle\" also \"can never be invoked\" as a justification for torture.",
+    "No, unless a superior officer gave the order.": "Under Section 13, anyone who actually takes part in torture is liable as a principal, and the superior who ordered it is \"equally liable\". An order is no excuse."
+  },
+  "sourceRef": {
+    "citation": "RA 9745 (Anti-Torture Act of 2009), Sections 6 and 13",
+    "url": "https://lawphil.net/statutes/repacts/ra2009/ra_9745_2009.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

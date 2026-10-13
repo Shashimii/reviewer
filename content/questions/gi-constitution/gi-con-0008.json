@@ -1,0 +1,50 @@
+{
+  "id": "gi-con-0008",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-rights",
+  "difficulty": 3,
+  "stem": "A person under investigation for an offense wants to give up (waive) his right to remain silent and his right to counsel. According to Article III, Section 12 of the 1987 Constitution, how may he validly waive these rights?",
+  "choices": [
+    "Orally, as long as an officer witnesses it",
+    "In writing, even without counsel present",
+    "Orally, in the presence of counsel",
+    "In writing and in the presence of counsel"
+  ],
+  "answer": "In writing and in the presence of counsel",
+  "hints": [
+    "Section 12 sets more than one condition for a valid waiver. All of them must be met.",
+    "Find the sentence in Section 12 that begins \"These rights cannot be waived except ...\"",
+    "That sentence names one condition about the form of the waiver and one about who must be there. Choose the option that has both conditions, not just one of them."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Identify the rights: Section 12 gives a person under investigation \"the right to be informed of his right to remain silent and to have competent and independent counsel preferably of his own choice\".",
+        "why": "\"Counsel\" means a lawyer. To \"waive\" a right means to give it up on purpose."
+      },
+      {
+        "action": "Find the waiver rule: \"These rights cannot be waived except in writing and in the presence of counsel.\""
+      },
+      {
+        "action": "Note the word \"and\": both conditions are needed.",
+        "why": "A written waiver without a lawyer fails, and a spoken waiver with a lawyer also fails."
+      },
+      {
+        "action": "He may waive these rights only in writing and in the presence of counsel."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Orally, as long as an officer witnesses it": "This fails both conditions. Section 12 requires writing, and the person who must be present is counsel (a lawyer), not an officer.",
+    "In writing, even without counsel present": "Writing alone is not enough. Section 12 also requires that counsel be present.",
+    "Orally, in the presence of counsel": "Having counsel present is not enough. Section 12 also requires the waiver to be in writing."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article III, Section 12",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

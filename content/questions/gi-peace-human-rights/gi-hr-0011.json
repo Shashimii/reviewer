@@ -1,0 +1,53 @@
+{
+  "id": "gi-hr-0011",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-constitution",
+  "difficulty": 2,
+  "stem": "Under Article III, Section 12 of the 1987 Constitution, a person under investigation for an offense has the right to remain silent and to have counsel. How may he give up (waive) these rights?",
+  "choices": [
+    "By telling the investigating officer so out loud",
+    "In writing, even if no lawyer is present",
+    "Only in writing and in the presence of counsel",
+    "In writing, before any public officer he chooses"
+  ],
+  "answer": "Only in writing and in the presence of counsel",
+  "hints": [
+    "Section 12 sets two conditions for a valid waiver. A choice that meets only one of them is wrong.",
+    "Recall the last sentence of the first paragraph of Section 12. It begins: \"These rights cannot be waived except...\"",
+    "Ask of each choice: is it in writing? Is counsel (a lawyer) there? Keep only the choice where both are true."
+  ],
+  "solution": {
+    "methodName": "Recall the exact words of the provision",
+    "steps": [
+      {
+        "action": "Find the provision: Article III, Section 12(1) of the 1987 Constitution."
+      },
+      {
+        "action": "It gives a person under investigation \"the right to be informed of his right to remain silent and to have competent and independent counsel preferably of his own choice\".",
+        "why": "Counsel means a lawyer."
+      },
+      {
+        "action": "Then it says: \"These rights cannot be waived except in writing and in the presence of counsel.\"",
+        "why": "To waive a right means to give it up. The word \"and\" means both conditions are needed."
+      },
+      {
+        "action": "A spoken waiver fails (not in writing). A written waiver without a lawyer fails (no counsel). Another public officer is not counsel."
+      },
+      {
+        "action": "The answer is: only in writing and in the presence of counsel."
+      }
+    ]
+  },
+  "trapNotes": {
+    "By telling the investigating officer so out loud": "A spoken waiver is not \"in writing\". Section 12 needs writing and counsel.",
+    "In writing, even if no lawyer is present": "Writing alone is not enough. Section 12 also requires \"the presence of counsel\".",
+    "In writing, before any public officer he chooses": "Section 12 requires counsel, meaning a lawyer, to be present. Any other public officer does not count."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article III, Section 12(1)",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

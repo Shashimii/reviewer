@@ -1,0 +1,50 @@
+{
+  "id": "gi-con-0011",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-rights",
+  "difficulty": 2,
+  "stem": "Under Article V, Section 1 of the 1987 Constitution, which of these may NOT be required of a citizen who wants to vote?",
+  "choices": [
+    "Being able to read and write",
+    "Being at least 18 years old",
+    "Living in the Philippines for at least one year",
+    "Living in the voting place for at least six months"
+  ],
+  "answer": "Being able to read and write",
+  "hints": [
+    "The word NOT matters. Three choices are real requirements for voters; one is a kind of requirement that Section 1 bans.",
+    "Read the first sentence of Section 1 and list what a voter needs: an age, a time of residence in the Philippines, and a time of residence in the voting place.",
+    "Now read the last sentence of Section 1, which lists kinds of requirements that \"shall\" not be imposed. Find the choice that is not on your list from the first sentence, and check that it fits one of those banned kinds."
+  ],
+  "solution": {
+    "methodName": "Check each choice against the text",
+    "steps": [
+      {
+        "action": "List what the first sentence of Section 1 requires: \"at least eighteen years of age\", residence in the Philippines \"for at least one year\", and residence in the voting place \"for at least six months immediately preceding the election\".",
+        "why": "These three may be required, so the choices that match them are not the answer."
+      },
+      {
+        "action": "Read the last sentence: \"No literacy, property, or other substantive requirement shall be imposed on the exercise of suffrage.\"",
+        "why": "\"Literacy\" means being able to read and write. \"Imposed\" means required."
+      },
+      {
+        "action": "Match: being able to read and write is a literacy requirement, which Section 1 forbids."
+      },
+      {
+        "action": "Being able to read and write may NOT be required of a voter."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Being at least 18 years old": "Age is a valid requirement. Section 1 says voters must be \"at least eighteen years of age\".",
+    "Living in the Philippines for at least one year": "This is a valid requirement. Section 1 requires voters to have resided in the Philippines \"for at least one year\".",
+    "Living in the voting place for at least six months": "This is a valid requirement. Section 1 requires residence in the voting place \"for at least six months immediately preceding the election\"."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article V, Section 1",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

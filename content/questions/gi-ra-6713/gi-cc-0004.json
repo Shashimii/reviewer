@@ -1,0 +1,57 @@
+{
+  "id": "gi-cc-0004",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-coverage",
+  "difficulty": 3,
+  "stem": "Lea works in a city government office. At the office Christmas party, Mr. Cruz, a businessman who is not related to Lea, gives her a bag worth ₱15,000, far more than a token gift. He does not ask her for any favor. Under Section 3(d) of RA 6713, does Lea's acceptance count as \"receiving any gift\"?",
+  "choices": [
+    "No, because gifts given at Christmas are allowed",
+    "Yes, because its value is neither nominal nor insignificant",
+    "No, because Mr. Cruz did not ask her for any favor",
+    "No, because it was given at a party, not at her desk"
+  ],
+  "answer": "Yes, because its value is neither nominal nor insignificant",
+  "hints": [
+    "Section 3(d) mentions Christmas on purpose. Read what it says about gifts given on such occasions.",
+    "Section 3(d) counts a gift as received \"even on the occasion of a family celebration or national festivity like Christmas\" if one of two conditions is met. Find the two conditions.",
+    "The two conditions are joined by \"or\": the value is \"neither nominal nor insignificant,\" or the gift is given in exchange for a favor. Only one needs to be true. Check the ₱15,000 bag against the first condition."
+  ],
+  "solution": {
+    "methodName": "Check every condition in the definition",
+    "steps": [
+      {
+        "action": "Read Section 3(d): receiving any gift includes accepting a gift from someone who is not family or a relative, \"even on the occasion of a family celebration or national festivity like Christmas, if the value of the gift is neither nominal nor insignificant, or the gift is given in anticipation of, or in exchange for, a favor.\""
+      },
+      {
+        "action": "Check the giver: Mr. Cruz is not related to Lea, so the rule applies to his gift."
+      },
+      {
+        "action": "Check the occasion: Christmas does not excuse the gift.",
+        "why": "The law says \"even on the occasion of\" Christmas. \"Even\" means the rule still applies at Christmas."
+      },
+      {
+        "action": "Check the value: ₱15,000 is far more than a token amount, so the bag's value is neither nominal nor insignificant.",
+        "why": "Nominal or insignificant means very small in value, like a token."
+      },
+      {
+        "action": "The two conditions are joined by \"or,\" so one is enough. The value condition is met, even though no favor was asked.",
+        "why": "With \"or,\" a gift counts if it is valuable, or if it is tied to a favor. It does not have to be both."
+      },
+      {
+        "action": "The answer is: Yes, because its value is neither nominal nor insignificant."
+      }
+    ]
+  },
+  "trapNotes": {
+    "No, because gifts given at Christmas are allowed": "Section 3(d) says the rule applies \"even on the occasion of a family celebration or national festivity like Christmas.\" Christmas is no excuse.",
+    "No, because Mr. Cruz did not ask her for any favor": "A favor is only one of two conditions joined by \"or.\" The other is that the value is \"neither nominal nor insignificant,\" and a ₱15,000 bag meets it.",
+    "No, because it was given at a party, not at her desk": "Section 3(d) does not depend on where the gift is handed over. What matters is who gives it, its value, and whether it is tied to a favor."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 3(d)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

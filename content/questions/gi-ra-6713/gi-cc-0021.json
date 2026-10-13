@@ -1,0 +1,49 @@
+{
+  "id": "gi-cc-0021",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-disclosure",
+  "difficulty": 1,
+  "stem": "Maria has worked in a government office for five years. Every year she files her Statement of Assets, Liabilities and Net Worth (SALN). Under Section 8(A) of RA 6713, by what date each year must she file it?",
+  "choices": [
+    "On or before January 31",
+    "On or before April 30",
+    "On or before June 30",
+    "On or before December 31"
+  ],
+  "answer": "On or before April 30",
+  "hints": [
+    "Section 8(A) lists three times to file: when you start, every year after that, and when you leave. Maria needs the yearly one.",
+    "The yearly deadline is written as \"on or before\" a fixed date \"of every year thereafter.\"",
+    "The three deadlines are: (a) within 30 days after assumption of office; (b) a fixed date every year; (c) within 30 days after separation from the service. Recall the fixed date in (b) and pick it."
+  ],
+  "solution": {
+    "methodName": "Match each number to its rule",
+    "steps": [
+      {
+        "action": "Note that Maria is already in service, so she needs the yearly deadline, not the first-time one."
+      },
+      {
+        "action": "Read the three deadlines in Section 8(A): \"(a) within thirty (30) days after assumption of office; (b) on or before April 30, of every year thereafter; and (c) within thirty (30) days after separation from the service.\"",
+        "why": "A SALN is a sworn list of what you own (assets), what you owe (liabilities), and the difference between them (net worth)."
+      },
+      {
+        "action": "The yearly deadline is (b): on or before April 30."
+      },
+      {
+        "action": "The answer is: On or before April 30."
+      }
+    ]
+  },
+  "trapNotes": {
+    "On or before January 31": "This date is not in Section 8(A). The yearly SALN is due \"on or before April 30, of every year thereafter.\"",
+    "On or before June 30": "This date is not in Section 8(A). The yearly SALN is due \"on or before April 30.\"",
+    "On or before December 31": "December 31 is the end of the year, but it is not a SALN deadline. Section 8(A) says \"on or before April 30.\""
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 8(A)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

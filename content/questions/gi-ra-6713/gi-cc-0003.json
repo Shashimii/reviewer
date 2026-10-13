@@ -1,0 +1,53 @@
+{
+  "id": "gi-cc-0003",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-coverage",
+  "difficulty": 2,
+  "stem": "Nora works in a government office. Section 3(g) of RA 6713 defines the \"family\" of a public official or employee. Which of these people is part of Nora's family under that definition?",
+  "choices": [
+    "Her unmarried daughter, aged 19",
+    "Her married son, aged 17",
+    "Her widowed mother, aged 70",
+    "Her unmarried son, aged 16"
+  ],
+  "answer": "Her unmarried son, aged 16",
+  "hints": [
+    "The definition in Section 3(g) is short. It names one kind of adult and one kind of child.",
+    "Section 3(g) says family means \"spouses and unmarried children under eighteen (18) years of age.\" A child must pass two tests.",
+    "For each child, ask two questions: Is the child unmarried? Is the child under 18? Only a child who passes both tests counts. Parents are not named in the definition."
+  ],
+  "solution": {
+    "methodName": "Check every condition in the definition",
+    "steps": [
+      {
+        "action": "Read Section 3(g): the family of public officials or employees \"means their spouses and unmarried children under eighteen (18) years of age.\"",
+        "why": "A spouse is a husband or wife. So the family is the spouse plus children who are both unmarried and below 18."
+      },
+      {
+        "action": "Daughter, 19: she is unmarried, but she is not under 18. She fails the age test."
+      },
+      {
+        "action": "Son, 17: he is under 18, but he is married. He fails the unmarried test."
+      },
+      {
+        "action": "Mother, 70: parents are not named in Section 3(g).",
+        "why": "The law uses a separate, wider word, \"relatives,\" in Section 3(k). \"Family\" and \"relatives\" are two different terms in RA 6713."
+      },
+      {
+        "action": "Son, 16: he is unmarried and under 18, so he passes both tests. The answer is: Her unmarried son, aged 16."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Her unmarried daughter, aged 19": "She is unmarried, but she is 19. Section 3(g) covers only children \"under eighteen (18) years of age.\"",
+    "Her married son, aged 17": "He is under 18, but he is married. Section 3(g) covers only \"unmarried children.\"",
+    "Her widowed mother, aged 70": "Section 3(g) defines family as only \"spouses and unmarried children under eighteen (18) years of age.\" A parent is not in that list."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 3(g)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

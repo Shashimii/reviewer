@@ -1,0 +1,50 @@
+{
+  "id": "gi-env-0017",
+  "topicId": "gi-environment",
+  "skill": "gi-env-protected",
+  "difficulty": 2,
+  "stem": "How does the E-NIPAS Act (RA 7586 as amended by RA 11038) define a buffer zone?",
+  "choices": [
+    "An area just outside a protected area that needs special development control",
+    "An area where nature is kept undisturbed, mainly for scientific study",
+    "An area where settlement and farming may be allowed under the management plan",
+    "A marsh, mangrove, river or seagrass area, wherever it is found"
+  ],
+  "answer": "An area just outside a protected area that needs special development control",
+  "hints": [
+    "A \"buffer\" protects something by standing between it and danger. Think about where such an area would be.",
+    "Section 4(c) says buffer zones are areas \"outside the boundaries of and immediately adjacent to\" protected areas.",
+    "The other choices describe a strict nature reserve, a multiple-use zone and wetlands. Find the choice that matches \"outside\" and \"immediately adjacent.\""
+  ],
+  "solution": {
+    "methodName": "Match the term to its legal definition",
+    "steps": [
+      {
+        "action": "Recall Section 4(c): \"Buffer zones refers to identified areas outside the boundaries of and immediately adjacent to designated protected areas that need special development control in order to avoid or minimize harm to the protected area.\"",
+        "why": "Immediately adjacent means right next to it."
+      },
+      {
+        "action": "Recall Section 8: the DENR Secretary, on the recommendation of the PAMB, may designate buffer zones \"for the purpose of providing extra layer of protection where restrictions may be applied.\"",
+        "why": "So the buffer zone shields the protected area from harmful activity next door."
+      },
+      {
+        "action": "Match the other choices to their own definitions: a strict nature reserve (Section 4(jj)), a multiple-use zone (Section 4(t)) and wetlands (Section 4(mm))."
+      },
+      {
+        "action": "The answer is an area just outside a protected area that needs special development control."
+      }
+    ]
+  },
+  "trapNotes": {
+    "An area where nature is kept undisturbed, mainly for scientific study": "This describes a strict nature reserve (Section 4(jj)), a kind of protected area. A buffer zone lies outside the protected area.",
+    "An area where settlement and farming may be allowed under the management plan": "This describes a multiple-use zone (Section 4(t)). A buffer zone is defined as an area outside the protected area's boundaries.",
+    "A marsh, mangrove, river or seagrass area, wherever it is found": "This describes wetlands (Section 4(mm)), a kind of habitat. A buffer zone is defined by where it is: right next to a protected area."
+  },
+  "sourceRef": {
+    "citation": "RA 7586 as amended by RA 11038, Sections 4(c) and 8",
+    "url": "https://lawphil.net/statutes/repacts/ra2018/ra_11038_2018.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

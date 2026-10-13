@@ -1,0 +1,51 @@
+{
+  "id": "gi-con-0026",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-social",
+  "difficulty": 1,
+  "stem": "Article XIII, Section 3 says \"The State shall afford full protection to labor.\" Which workers does this protection cover?",
+  "choices": [
+    "Only union members who work inside the country",
+    "Local and overseas, organized and unorganized",
+    "Only workers employed by the government",
+    "Only workers with regular, permanent jobs"
+  ],
+  "answer": "Local and overseas, organized and unorganized",
+  "hints": [
+    "The word \"full\" in \"full protection\" is a clue about how wide the coverage is.",
+    "Read the words right after \"labor\" in Article XIII, Section 3. They name two pairs of groups.",
+    "Section 3 pairs workers by place (in the country or abroad) and by union membership (in a union or not). Pick the choice that includes both sides of each pair."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Find the rule: \"The State shall afford full protection to labor, local and overseas, organized and unorganized.\"",
+        "why": "Local means working in the Philippines; overseas means working abroad. Organized means belonging to a labor union; unorganized means not."
+      },
+      {
+        "action": "See that the section covers both sides of each pair.",
+        "why": "So no worker is left out because of where they work or whether they belong to a union."
+      },
+      {
+        "action": "Note the rights the same section guarantees.",
+        "why": "Workers have the rights to \"self-organization, collective bargaining and negotiations, and peaceful concerted activities, including the right to strike in accordance with law.\" They are also entitled to \"security of tenure, humane conditions of work, and a living wage.\""
+      },
+      {
+        "action": "The protection covers labor local and overseas, organized and unorganized."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Only union members who work inside the country": "This leaves out overseas workers and workers without a union. Section 3 covers both.",
+    "Only workers employed by the government": "Section 3 protects labor in general and speaks of the relations \"between workers and employers.\" It is not limited to government workers.",
+    "Only workers with regular, permanent jobs": "Section 3 sets no such limit. It protects labor \"local and overseas, organized and unorganized.\""
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XIII, Section 3",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

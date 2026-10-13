@@ -1,0 +1,52 @@
+{
+  "id": "gi-hr-0017",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-laws",
+  "difficulty": 2,
+  "stem": "Rosa asks an official at a police detention center whether her brother, reported as a victim of enforced disappearance, is being held there. Under RA 10353, what must the official do?",
+  "choices": [
+    "Tell her to get an order from a court first",
+    "Answer only if her brother agrees to it",
+    "Refuse, since the detention records are kept secret",
+    "Immediately certify in writing whether he is there"
+  ],
+  "answer": "Immediately certify in writing whether he is there",
+  "hints": [
+    "RA 10353 puts duties on officials so that families can find people who have disappeared. Think about what Rosa needs.",
+    "Recall Section 8 of RA 10353: the duty to certify in writing the results of an inquiry about a disappeared person.",
+    "Section 8 says how fast and in what form the official must answer. Compare each choice with that, and recall what Section 10 says about the register of detained persons."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Spot the situation: a relative asks a detention official about a reported victim of enforced disappearance."
+      },
+      {
+        "action": "Find the provision: RA 10353, Section 8. It covers inquiries by \"a family member, relative, lawyer, representative of a human rights organization or a member of the media\"."
+      },
+      {
+        "action": "Section 8 says the official \"shall immediately issue a certification in writing to the inquiring person or entity on the presence or absence and/or information on the whereabouts of such disappeared person\".",
+        "why": "The written certification is a record of the answer. It must state the date and time of the inquiry and the response."
+      },
+      {
+        "action": "Section 10 also says relatives \"shall have free access\" to the official register of persons detained, so the records are not secret from her."
+      },
+      {
+        "action": "The answer is: immediately certify in writing whether he is there."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Tell her to get an order from a court first": "Section 8 sets no court step. The official must answer the inquiry \"immediately\".",
+    "Answer only if her brother agrees to it": "Section 8 does not wait for the detained person's consent. It covers inquiries by \"a family member, relative, lawyer\" and others.",
+    "Refuse, since the detention records are kept secret": "Section 10 says relatives have \"free access\" to the register of detained persons, and its information \"shall be made available to the public\"."
+  },
+  "sourceRef": {
+    "citation": "RA 10353 (Anti-Enforced or Involuntary Disappearance Act of 2012), Sections 8 and 10",
+    "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10353_2012.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

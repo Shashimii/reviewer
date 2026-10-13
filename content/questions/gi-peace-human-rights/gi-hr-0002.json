@@ -1,0 +1,50 @@
+{
+  "id": "gi-hr-0002",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-concepts",
+  "difficulty": 1,
+  "stem": "The Universal Declaration of Human Rights was proclaimed in Paris on 10 December 1948. Which body proclaimed it?",
+  "choices": [
+    "The United Nations Security Council",
+    "The Congress of the Philippines",
+    "The International Court of Justice",
+    "The United Nations General Assembly"
+  ],
+  "answer": "The United Nations General Assembly",
+  "hints": [
+    "The Declaration is a United Nations (UN) document, meant for \"all peoples and all nations\". That rules out the body of only one country.",
+    "Recall the closing lines of the Preamble. They name the body that \"Proclaims this Universal Declaration of Human Rights\".",
+    "Cross out the Congress of the Philippines (it serves one country) and the court (the Declaration is not a court ruling). Of the two UN bodies left, pick the one named at the end of the Preamble."
+  ],
+  "solution": {
+    "methodName": "Recall the exact words of the provision",
+    "steps": [
+      {
+        "action": "Note what kind of document it is: a UN declaration, made as \"a common standard of achievement for all peoples and all nations\"."
+      },
+      {
+        "action": "Cross out the Congress of the Philippines.",
+        "why": "Article VI, Section 1 of the 1987 Constitution gives Congress the legislative power of the Philippines only. The Declaration is for all nations."
+      },
+      {
+        "action": "Recall the closing lines of the Preamble: \"The General Assembly, Proclaims this Universal Declaration of Human Rights...\"",
+        "why": "The UN's own page also says it was proclaimed by the General Assembly, through General Assembly resolution 217 A."
+      },
+      {
+        "action": "The answer is the United Nations General Assembly."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The United Nations Security Council": "The Preamble and the UN page both name the General Assembly, through General Assembly resolution 217 A. The Security Council did not proclaim it.",
+    "The Congress of the Philippines": "Congress makes laws for the Philippines only. The Declaration is a UN document meant for \"all peoples and all nations\".",
+    "The International Court of Justice": "The Declaration is not a court ruling. The Preamble says the General Assembly proclaimed it."
+  },
+  "sourceRef": {
+    "citation": "Universal Declaration of Human Rights, Preamble (UN General Assembly resolution 217 A)",
+    "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

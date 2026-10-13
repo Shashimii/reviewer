@@ -1,0 +1,51 @@
+{
+  "id": "gi-con-0006",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-rights",
+  "difficulty": 1,
+  "stem": "Article III, Section 1 of the 1987 Constitution says: \"No person shall be deprived of life, liberty, or property without ___.\" What completes the sentence?",
+  "choices": [
+    "just compensation",
+    "a search warrant",
+    "due process of law",
+    "the advice of counsel"
+  ],
+  "answer": "due process of law",
+  "hints": [
+    "Section 1 is the first right in the Bill of Rights. It is about fair treatment before the government takes away a person's life, liberty or property.",
+    "The missing words name a fair legal process that must be followed first. The same words appear again in Section 14, for criminal cases.",
+    "Each wrong choice belongs to a different section: payment when property is taken for public use, a court order to search, and a lawyer during an investigation. Remove those, then pick the choice that names a fair legal process."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Find Article III, Section 1, the first section of the Bill of Rights.",
+        "why": "The Bill of Rights (Article III) lists the rights that the government must respect."
+      },
+      {
+        "action": "Read it: \"No person shall be deprived of life, liberty, or property without due process of law, nor shall any person be denied the equal protection of the laws.\"",
+        "why": "\"Deprived\" means having something taken away."
+      },
+      {
+        "action": "Understand the phrase: due process of law means the government must follow fair, lawful steps before it takes away life, liberty or property.",
+        "why": "For a civil servant, this means following the proper, lawful steps before any action that takes away a person's liberty or property."
+      },
+      {
+        "action": "The missing words are \"due process of law\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "just compensation": "This comes from Section 9: private property shall not be taken for public use \"without just compensation\". It is about payment, not the general rule in Section 1.",
+    "a search warrant": "Search warrants are in Section 2, on unreasonable searches and seizures. Section 1 is the general rule on life, liberty and property.",
+    "the advice of counsel": "Counsel (a lawyer) is in Section 12, for a person under investigation. Section 1 is the general rule of due process."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article III, Section 1",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gi-env-0021",
+  "topicId": "gi-environment",
+  "skill": "gi-env-climate",
+  "difficulty": 1,
+  "stem": "Under RA 9729, the Climate Change Act of 2009, who serves as the Chairperson of the Climate Change Commission?",
+  "choices": [
+    "The Secretary of Environment and Natural Resources",
+    "The Vice President of the Philippines",
+    "The President of the Philippines",
+    "The Secretary of Science and Technology"
+  ],
+  "answer": "The President of the Philippines",
+  "hints": [
+    "The Commission is attached to the Office of the President and is the government's lead policy-making body on climate change.",
+    "Section 5 says who makes up the Commission: a Chairperson and three Commissioners.",
+    "Section 5 says the three Commissioners are \"appointed by\" the same official who chairs the Commission. Find that official among the choices."
+  ],
+  "solution": {
+    "methodName": "Name who is responsible, then check the exact role",
+    "steps": [
+      {
+        "action": "Recall Section 5 of RA 9729, as amended by RA 10174: the Commission is composed of the President of the Republic of the Philippines, \"who shall serve as the Chairperson,\" and three Commissioners appointed by the President.",
+        "why": "Section 4 says the Commission is \"attached to the Office of the President,\" so it makes sense that the President heads it."
+      },
+      {
+        "action": "Note the other roles: one of the three Commissioners is appointed Vice Chairperson, and department secretaries such as those of the DENR and DOST sit on the advisory board."
+      },
+      {
+        "action": "The answer is the President of the Philippines."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The Secretary of Environment and Natural Resources": "The DENR Secretary is a member of the Commission's advisory board, not its Chairperson.",
+    "The Vice President of the Philippines": "The Vice President is not named in Section 5. The Vice Chairperson is one of the three Commissioners.",
+    "The Secretary of Science and Technology": "The DOST Secretary is a member of the advisory board, not the Chairperson."
+  },
+  "sourceRef": {
+    "citation": "RA 9729 (Climate Change Act of 2009), Sections 4 and 5, as amended by RA 10174",
+    "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10174_2012.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

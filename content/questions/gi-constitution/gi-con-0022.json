@@ -1,0 +1,51 @@
+{
+  "id": "gi-con-0022",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-accountability",
+  "difficulty": 2,
+  "stem": "The Civil Service Commission is made up of a Chairman and two Commissioners, appointed by the President with the consent of the Commission on Appointments. Under Article IX-B, Section 1 of the 1987 Constitution, what is their regular term of office?",
+  "choices": [
+    "Six years, without reappointment",
+    "Seven years, without reappointment",
+    "Seven years, with one reappointment",
+    "Five years, with one reappointment"
+  ],
+  "answer": "Seven years, without reappointment",
+  "hints": [
+    "There are two things to check: the number of years, and whether the same person can be appointed again.",
+    "Article IX-B, Section 1 says the Chairman and the Commissioners are appointed \"for a term of ... years without reappointment.\" Find the number.",
+    "The same section gave shorter terms only to the very first members appointed under the 1987 Constitution. Use the regular term, and keep the words that follow it."
+  ],
+  "solution": {
+    "methodName": "Line up the ages and terms by office",
+    "steps": [
+      {
+        "action": "Find the rule: the Chairman and the Commissioners are appointed \"for a term of seven years without reappointment.\"",
+        "why": "\"Without reappointment\" means a person can serve only one term in the Commission."
+      },
+      {
+        "action": "Set aside the five-year and three-year terms in the same section.",
+        "why": "Those applied only to \"those first appointed\": the first Chairman served seven years, one Commissioner five years, and another three years. This way their terms ended in different years."
+      },
+      {
+        "action": "Note the vacancy rule: a person appointed to a vacancy serves \"only for the unexpired term of the predecessor.\"",
+        "why": "So filling a vacancy does not start a fresh seven-year term."
+      },
+      {
+        "action": "The regular term is seven years, without reappointment."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Six years, without reappointment": "Six years is the term of a Senator (Article VI, Section 4) and of the President (Article VII, Section 4). Members of the Civil Service Commission serve seven years.",
+    "Seven years, with one reappointment": "The number is right, but Section 1 says \"without reappointment.\" A member serves only one term.",
+    "Five years, with one reappointment": "Five years was only for one of the first Commissioners appointed under the 1987 Constitution, and Section 1 does not allow reappointment."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article IX-B, Section 1",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

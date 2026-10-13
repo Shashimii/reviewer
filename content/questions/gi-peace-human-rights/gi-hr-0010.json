@@ -1,0 +1,55 @@
+{
+  "id": "gi-hr-0010",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-constitution",
+  "difficulty": 3,
+  "stem": "Under Article XIII of the 1987 Constitution, who may provide for other cases of human rights violations to fall within the authority of the Commission on Human Rights (CHR)?",
+  "choices": [
+    "Congress, taking into account the CHR's recommendations",
+    "The CHR alone, by adopting its own rules of procedure",
+    "The President, through an executive order on human rights",
+    "The Supreme Court, through its rulings on human rights cases"
+  ],
+  "answer": "Congress, taking into account the CHR's recommendations",
+  "hints": [
+    "Section 18 lists what the CHR can do now. The question asks who can add more. Look at the next section, Section 19.",
+    "Section 19 names one body that \"may provide for other cases\", and gives the CHR a smaller role.",
+    "In Section 19 the CHR only gives recommendations, so it is not the one that decides. Of the rest, pick the body that Section 19 names."
+  ],
+  "solution": {
+    "methodName": "Recall the exact words of the provision",
+    "steps": [
+      {
+        "action": "Find the provision: Article XIII, Section 19 of the 1987 Constitution."
+      },
+      {
+        "action": "Read it: \"The Congress may provide for other cases of violations of human rights that should fall within the authority of the Commission, taking into account its recommendations.\""
+      },
+      {
+        "action": "So Congress decides, and the CHR's part is to give recommendations.",
+        "why": "\"Its recommendations\" means the CHR's recommendations. Congress must take them into account."
+      },
+      {
+        "action": "The CHR's own rules of procedure (Section 18) govern how it works. They do not add new kinds of cases."
+      },
+      {
+        "action": "Section 19 does not mention the President or the Supreme Court."
+      },
+      {
+        "action": "The answer is Congress, taking into account the CHR's recommendations."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The CHR alone, by adopting its own rules of procedure": "Section 18 lets the CHR adopt its own rules of procedure, but Section 19 gives the power to add new cases to Congress. The CHR only recommends.",
+    "The President, through an executive order on human rights": "Section 19 does not mention the President. It names Congress.",
+    "The Supreme Court, through its rulings on human rights cases": "Section 19 does not mention the Supreme Court. It names Congress."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XIII, Sections 18 and 19",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

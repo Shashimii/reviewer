@@ -1,0 +1,50 @@
+{
+  "id": "gi-env-0019",
+  "topicId": "gi-environment",
+  "skill": "gi-env-protected",
+  "difficulty": 2,
+  "stem": "RA 9147, the Wildlife Resources Conservation and Protection Act, makes killing wildlife illegal, with a few exceptions. Which of these is one of the exceptions in Section 27(a)?",
+  "choices": [
+    "Killing it to sell its meat in a market",
+    "Killing it to prevent imminent danger to human life",
+    "Killing it because it keeps eating garden crops",
+    "Killing it to use its skin as a decoration"
+  ],
+  "answer": "Killing it to prevent imminent danger to human life",
+  "hints": [
+    "The exceptions are about religious rituals, sick or suffering animals, human safety and approved research. None is about profit or convenience.",
+    "Read the five exceptions listed under Section 27(a), numbered (i) to (v).",
+    "Check each choice against the five: tribal religious rituals, an incurable communicable disease, ending the animal's misery, imminent danger to a person, and use in authorized research. Only one choice matches."
+  ],
+  "solution": {
+    "methodName": "Check the act against the law's list of prohibited acts",
+    "steps": [
+      {
+        "action": "Recall Section 27(a) of RA 9147: \"killing and destroying wildlife species\" is illegal, except in five instances.",
+        "why": "Wildlife means wild plants and animals in all stages of growth, including those in captivity (Section 5(x))."
+      },
+      {
+        "action": "List the five exceptions: (i) religious rituals of established tribal groups or indigenous cultural communities; (ii) the animal has an incurable communicable disease; (iii) to end its misery; (iv) \"to prevent an imminent danger to the life or limb of a human being\"; and (v) after use in authorized research or experiments.",
+        "why": "Imminent means about to happen."
+      },
+      {
+        "action": "Check the choices: selling meat, protecting a garden and using the skin for decoration are not on the list. Only preventing danger to human life is."
+      },
+      {
+        "action": "The answer is killing it to prevent imminent danger to human life."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Killing it to sell its meat in a market": "Selling wildlife is not an exception. Trading of wildlife is itself listed as an illegal act in Section 27(e).",
+    "Killing it because it keeps eating garden crops": "Protecting a garden is not one of the five exceptions. The danger must be to the life or limb of a person.",
+    "Killing it to use its skin as a decoration": "This is not an exception. Collecting or possessing wildlife by-products is itself listed as an illegal act in Section 27(f)."
+  },
+  "sourceRef": {
+    "citation": "RA 9147 (Wildlife Resources Conservation and Protection Act), Section 27(a)",
+    "url": "https://lawphil.net/statutes/repacts/ra2001/ra_9147_2001.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

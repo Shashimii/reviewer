@@ -1,0 +1,55 @@
+{
+  "id": "gi-hr-0012",
+  "topicId": "gi-peace-human-rights",
+  "skill": "gi-hr-constitution",
+  "difficulty": 1,
+  "stem": "Police question Ben, a suspect in a robbery, without telling him of his right to remain silent and to have a lawyer. Ben then confesses. Under Article III, Section 12 of the 1987 Constitution, what is true of his confession?",
+  "choices": [
+    "It may be used against him if he signs it.",
+    "It cannot be used as evidence against him.",
+    "It may be used against him if it is true.",
+    "It may be used if two officers witnessed it."
+  ],
+  "answer": "It cannot be used as evidence against him.",
+  "hints": [
+    "First ask: did the police follow Section 12? Then ask what Section 12 says happens to a confession taken in breach of it.",
+    "The police skipped a duty in Section 12(1): telling Ben of his right to remain silent and to have counsel.",
+    "Recall the third paragraph of Section 12, about a confession obtained in violation of it. Then check whether signing, truth or witnesses change that rule."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Spot the problem: the police did not tell Ben of his right to remain silent and to have a lawyer.",
+        "why": "These are the first things Section 12 protects. Skipping them is a violation."
+      },
+      {
+        "action": "Section 12(1) says a person under investigation \"shall have the right to be informed of his right to remain silent and to have competent and independent counsel\". So the questioning broke Section 12.",
+        "why": "Counsel means a lawyer. Being informed means the police must tell him; he does not have to ask."
+      },
+      {
+        "action": "Section 12(3) says: \"Any confession or admission obtained in violation of this or Section 17 hereof shall be inadmissible in evidence against him.\"",
+        "why": "\"Inadmissible in evidence\" means the court cannot accept it as proof."
+      },
+      {
+        "action": "Section 12(3) has no exception for a signed confession, a true confession or witnesses.",
+        "why": "Section 12(3) asks only one thing: was the confession obtained in violation of Section 12? Here it was."
+      },
+      {
+        "action": "The answer is: it cannot be used as evidence against him."
+      }
+    ]
+  },
+  "trapNotes": {
+    "It may be used against him if he signs it.": "Signing does not cure the problem. Section 12(3) makes a confession taken in violation of Section 12 \"inadmissible in evidence against him\".",
+    "It may be used against him if it is true.": "Section 12(3) does not ask whether the confession is true. If it was taken in violation of Section 12, it cannot be used against him.",
+    "It may be used if two officers witnessed it.": "Witnesses do not fix the violation. Section 12(3) has no exception for witnesses."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article III, Section 12(1) and (3)",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

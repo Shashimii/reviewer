@@ -1,0 +1,51 @@
+{
+  "id": "gi-con-0004",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-principles",
+  "difficulty": 2,
+  "stem": "A city government posts all its contracts and bidding results on its website so that anyone can read them. Which state policy in Article II of the 1987 Constitution does this practice carry out?",
+  "choices": [
+    "Autonomy of local governments",
+    "An independent foreign policy",
+    "Full public disclosure of its transactions",
+    "Equal access to opportunities for public service"
+  ],
+  "answer": "Full public disclosure of its transactions",
+  "hints": [
+    "Focus on what the city is doing: making its dealings open for anyone to see.",
+    "Look for the Article II policy about the State making its transactions known to the public. It is the last section of Article II.",
+    "For each choice, ask: is this policy about making government dealings open to the public? Section 28 is the policy on transactions; Sections 7, 25 and 26 are about other countries, local self-rule and serving in government. Keep the one that fits the city's action."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Name the key action: the city makes its contracts and bidding results open to everyone.",
+        "why": "Contracts and bidding are government transactions, and they involve the public, so they are transactions involving public interest."
+      },
+      {
+        "action": "Find the matching policy: Article II, Section 28, \"the State adopts and implements a policy of full public disclosure of all its transactions involving public interest.\"",
+        "why": "\"Disclosure\" means making something known. \"Full public disclosure\" means showing it openly to the public."
+      },
+      {
+        "action": "Check the other choices: Section 25 is about local governments governing themselves, Section 7 is about relations with other states, and Section 26 is about access to public service.",
+        "why": "None of them is about showing government dealings to the public."
+      },
+      {
+        "action": "The practice carries out the policy of full public disclosure of its transactions."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Autonomy of local governments": "The actor is a city, so this looks related. But Section 25 is about local governments governing themselves, not about showing their dealings to the public.",
+    "An independent foreign policy": "Section 7 is about the Philippines' relations with other states. Posting city contracts has nothing to do with other countries.",
+    "Equal access to opportunities for public service": "Section 26 is about fair chances to serve in government. Posting contracts is about openness, not about who may serve."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article II, Section 28",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,50 @@
+{
+  "id": "gi-con-0013",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-government",
+  "difficulty": 1,
+  "stem": "Under Article VI, Section 6 of the 1987 Constitution, how old must a person be on the day of the election to become a Member of the House of Representatives?",
+  "choices": [
+    "At least 18 years old",
+    "At least 25 years old",
+    "At least 35 years old",
+    "At least 40 years old"
+  ],
+  "answer": "At least 25 years old",
+  "hints": [
+    "Each elected office has its own minimum age. This question is about the House of Representatives, not the Senate.",
+    "Find Article VI, Section 6, which lists the qualifications of a Member of the House.",
+    "Look for the words \"on the day of the election, is at least ... years of age\" in Section 6. Senators (Article VI, Section 3) and the President (Article VII, Section 2) need higher ages; voters (Article V) need a lower one."
+  ],
+  "solution": {
+    "methodName": "Line up the ages and terms by office",
+    "steps": [
+      {
+        "action": "Find Article VI, Section 6: the qualifications of a Member of the House of Representatives."
+      },
+      {
+        "action": "Read the age rule: \"on the day of the election, is at least twenty-five years of age\".",
+        "why": "The age is counted on election day itself."
+      },
+      {
+        "action": "Compare with the nearby numbers: voters 18 (Article V), Senators 35 (Article VI, Section 3), President 40 (Article VII, Section 2).",
+        "why": "These nearby numbers are the usual traps, so line them up by office."
+      },
+      {
+        "action": "A Member of the House must be at least 25 years old on election day."
+      }
+    ]
+  },
+  "trapNotes": {
+    "At least 18 years old": "18 is the minimum age to vote (Article V, Section 1), not to be elected to the House.",
+    "At least 35 years old": "35 is the minimum age for a Senator (Article VI, Section 3).",
+    "At least 40 years old": "40 is the minimum age for the President (Article VII, Section 2)."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article VI, Section 6",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,50 @@
+{
+  "id": "gi-env-0013",
+  "topicId": "gi-environment",
+  "skill": "gi-env-air-water",
+  "difficulty": 2,
+  "stem": "Section 20 of RA 8749 bans incineration: the burning of municipal, biomedical and hazardous waste that gives off poisonous and toxic fumes. Which of these does the law expressly exclude from the ban?",
+  "choices": [
+    "Burning hospital waste in an incinerator",
+    "Burning a town's garbage in an incinerator",
+    "Cremating the dead in crematoria",
+    "Burning hazardous factory waste"
+  ],
+  "answer": "Cremating the dead in crematoria",
+  "hints": [
+    "The ban covers three kinds of waste: municipal, biomedical and hazardous. Three choices fall under these.",
+    "Section 20 has a \"Provided, however\" clause that lists what the ban \"shall not apply to.\"",
+    "Match each choice to a kind of waste in the ban. The one left over should be in the list of exclusions."
+  ],
+  "solution": {
+    "methodName": "Check the act against the law's list of prohibited acts",
+    "steps": [
+      {
+        "action": "Recall Section 20 of RA 8749: incineration, \"the burning of municipal, biomedical and hazardous waste, which process emits poisonous and toxic fumes is hereby prohibited.\"",
+        "why": "Biomedical waste comes from hospitals and clinics. Municipal waste is a community's garbage."
+      },
+      {
+        "action": "Read the exclusions: the prohibition \"shall not apply to\" certain traditional practices \"and crematoria.\"",
+        "why": "Crematoria are places where the bodies of the dead are burned."
+      },
+      {
+        "action": "Match the other choices: hospital waste is biomedical, a town's garbage is municipal, and hazardous factory waste is hazardous. All three are banned."
+      },
+      {
+        "action": "The answer is cremating the dead in crematoria."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Burning hospital waste in an incinerator": "Hospital waste is biomedical waste, one of the three kinds the ban covers.",
+    "Burning a town's garbage in an incinerator": "This is municipal waste, which the ban covers. RA 9003 also prohibits the open burning of solid waste.",
+    "Burning hazardous factory waste": "Hazardous waste is the third kind named in the ban."
+  },
+  "sourceRef": {
+    "citation": "RA 8749, Section 20",
+    "url": "https://lawphil.net/statutes/repacts/ra1999/ra_8749_1999.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

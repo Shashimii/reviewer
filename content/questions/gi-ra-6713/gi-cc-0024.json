@@ -1,0 +1,49 @@
+{
+  "id": "gi-cc-0024",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-disclosure",
+  "difficulty": 2,
+  "stem": "Section 11(a) of RA 6713 also sets a prison term for violating Sections 7, 8 or 9 (prohibited acts, statements and disclosure, and divestment). What is the longest prison term it allows for these violations?",
+  "choices": [
+    "Five years",
+    "One year",
+    "Six months",
+    "Ten years"
+  ],
+  "answer": "Five years",
+  "hints": [
+    "Section 11(a) has two parts: penalties after notice and hearing (fine, suspension or removal), and penalties for violating Sections 7, 8 or 9. This question is about the second part.",
+    "For Sections 7, 8 or 9, the penalty is imprisonment, a fine, or both, and the court may also disqualify the person from public office.",
+    "Keep the numbers apart: six months' salary is the limit on the fine in the first part, one year is the limit on suspension, and ten years is how long SALNs stay open to the public (Section 8(C)(4)). Recall the prison limit for Sections 7, 8 or 9 and pick it."
+  ],
+  "solution": {
+    "methodName": "Match each number to its rule",
+    "steps": [
+      {
+        "action": "Find the sentence on Sections 7, 8 and 9 in Section 11(a): \"Violations of Sections 7, 8 or 9 of this Act shall be punishable with imprisonment not exceeding five (5) years, or a fine not exceeding five thousand pesos (P5,000), or both, and, in the discretion of the court of competent jurisdiction, disqualification to hold public office.\""
+      },
+      {
+        "action": "The prison limit is \"not exceeding five (5) years.\"",
+        "why": "Imprisonment means jail time. \"Not exceeding\" means \"at most.\""
+      },
+      {
+        "action": "Don't mix it up with the other numbers in Section 11(a): suspension of at most one year, and a fine of at most six months' salary."
+      },
+      {
+        "action": "The answer is: Five years."
+      }
+    ]
+  },
+  "trapNotes": {
+    "One year": "One year is the limit on suspension in Section 11(a), not on imprisonment. The prison limit is five years.",
+    "Six months": "Six months is the limit on the fine (\"six (6) months' salary\"), not the prison term. The prison limit is five years.",
+    "Ten years": "Ten years is how long a filed SALN stays available to the public (Section 8(C)(4)). The prison limit is five years."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 11(a)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

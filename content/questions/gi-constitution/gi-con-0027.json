@@ -1,0 +1,50 @@
+{
+  "id": "gi-con-0027",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-social",
+  "difficulty": 3,
+  "stem": "Under Article XIII, Section 18 of the 1987 Constitution, the Commission on Human Rights may investigate, on its own or on complaint by any party, all forms of human rights violations involving which rights?",
+  "choices": [
+    "Economic and social rights",
+    "Property and contract rights",
+    "Labor and land rights",
+    "Civil and political rights"
+  ],
+  "answer": "Civil and political rights",
+  "hints": [
+    "Human rights are often sorted into groups by what they protect. Section 18 names one group for this investigating power.",
+    "Find the first power listed in Article XIII, Section 18: \"Investigate, on its own or on complaint by any party, all forms of human rights violations involving ...\"",
+    "Think of the rights in the Bill of Rights (Article III) and the right to vote (Article V). Choose the pair of words that names this group."
+  ],
+  "solution": {
+    "methodName": "Find the provision, then match the key words",
+    "steps": [
+      {
+        "action": "Find the rule: the Commission on Human Rights shall \"Investigate, on its own or on complaint by any party, all forms of human rights violations involving civil and political rights.\"",
+        "why": "Civil rights protect a person's life, liberty and dignity, like the rights in the Bill of Rights. Political rights let a person take part in government, like the right to vote."
+      },
+      {
+        "action": "Note whom else it protects: it shall \"Provide appropriate legal measures for the protection of human rights of all persons within the Philippines, as well as Filipinos residing abroad.\""
+      },
+      {
+        "action": "Note another key power: it may \"Exercise visitorial powers over jails, prisons, or detention facilities.\"",
+        "why": "Visitorial powers mean the power to visit and inspect these places."
+      },
+      {
+        "action": "Its power to investigate under Section 18 covers violations involving civil and political rights."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Economic and social rights": "These are human rights too, and Article XIII protects them through sections on labor, agrarian reform, housing and health. But the investigating power in Section 18 names civil and political rights.",
+    "Property and contract rights": "Section 18 does not name these. Its investigating power covers violations involving civil and political rights.",
+    "Labor and land rights": "Labor and agrarian reform are covered by other sections of Article XIII (Sections 3 to 8), not by the Commission's investigating power in Section 18."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article XIII, Section 18",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,57 @@
+{
+  "id": "gi-cc-0025",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-disclosure",
+  "difficulty": 3,
+  "stem": "Engr. Santos has just assumed a government post. She is a board member and a substantial stockholder of a private construction company whose interests may be affected by her official duties, so a conflict of interest arises. Under Section 9 of RA 6713, what must she do?",
+  "choices": [
+    "Resign from the company within 30 days and divest her shares within 60 days of assuming office",
+    "Resign from the company within 60 days and divest her shares within 30 days of assuming office",
+    "Resign from the company and divest her shares within one year of assuming office",
+    "Declare the shares in her SALN; she need not resign or divest"
+  ],
+  "answer": "Resign from the company within 30 days and divest her shares within 60 days of assuming office",
+  "hints": [
+    "Section 9 sets two different deadlines: one for leaving her position in the company, and one for giving up her shares.",
+    "Both deadlines are counted from her assumption of office. The deadline for resigning is the shorter one.",
+    "When a conflict of interest arises, Section 9 asks for action, not just disclosure. Recall which deadline is 30 days and which is 60 days, and match each to resigning or divesting."
+  ],
+  "solution": {
+    "methodName": "Match each number to its rule",
+    "steps": [
+      {
+        "action": "Check that there is a conflict of interest. Section 3(i) says it arises when an official is \"a member of a board, an officer, or a substantial stockholder of a private corporation\" whose interest \"may be opposed to or affected by the faithful performance of official duty.\" Engr. Santos fits.",
+        "why": "A substantial stockholder owns enough shares to elect a director of the company (Section 3(f))."
+      },
+      {
+        "action": "Read Section 9: \"When a conflict of interest arises, he shall resign from his position in any private business enterprise within thirty (30) days from his assumption of office and/or divest himself of his shareholdings or interest within sixty (60) days from such assumption.\"",
+        "why": "To divest means to give up ownership, for example by transferring the shares to someone who is not her spouse or relative (Section 3(j))."
+      },
+      {
+        "action": "Match the numbers: resign from the board within 30 days; divest the shares within 60 days."
+      },
+      {
+        "action": "Read \"and/or\": she must resign if the conflict comes from her position, divest if it comes from her shares, or do both if it comes from both. Engr. Santos is a board member and a substantial stockholder, and Section 3(i) makes each one a source of conflict, so she must do both.",
+        "why": "Resigning alone would leave her a substantial stockholder, and divesting alone would leave her on the board. Either way the conflict would remain."
+      },
+      {
+        "action": "Rule out declaring the shares in her SALN only: Section 9 requires her to resign and/or divest. Disclosure alone does not remove the conflict."
+      },
+      {
+        "action": "The answer is: Resign from the company within 30 days and divest her shares within 60 days of assuming office."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Resign from the company within 60 days and divest her shares within 30 days of assuming office": "The numbers are swapped. Section 9 gives 30 days to resign from the position and 60 days to divest the shares.",
+    "Resign from the company and divest her shares within one year of assuming office": "One year is the Section 7(b) period after leaving office. Section 9 gives 30 days to resign and 60 days to divest.",
+    "Declare the shares in her SALN; she need not resign or divest": "Section 9 requires action, not just disclosure: when a conflict of interest arises, she \"shall resign\" from her position \"and/or divest\" her shares within the set deadlines. As a board member and a substantial stockholder, she must do both."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 9",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

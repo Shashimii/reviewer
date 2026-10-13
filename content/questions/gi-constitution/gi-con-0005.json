@@ -1,0 +1,55 @@
+{
+  "id": "gi-con-0005",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-principles",
+  "difficulty": 3,
+  "stem": "Which statement agrees with Article II of the 1987 Constitution?",
+  "choices": [
+    "Civilian authority is supreme over the military, but only in times of peace.",
+    "Sovereignty resides in the people and all government authority emanates from them.",
+    "The separation of Church and State may be set aside by Congress in an emergency.",
+    "The State shall promote social justice only in the poorest parts of the country."
+  ],
+  "answer": "Sovereignty resides in the people and all government authority emanates from them.",
+  "hints": [
+    "Three of these statements add a limit, such as \"only\" or \"may be set aside\". Check whether the Constitution really has that limit.",
+    "Start with the military and the Church. Section 3 says civilian authority is supreme \"at all times\". Section 6 says the separation of Church and State \"shall be inviolable\".",
+    "Then check Section 10, which says social justice is promoted \"in all phases of national development\", and Section 1, on where sovereignty resides. Keep the statement whose wording matches the text with no limit added."
+  ],
+  "solution": {
+    "methodName": "Check each choice against the text",
+    "steps": [
+      {
+        "action": "Test the statement about the military against Section 3: \"Civilian authority is, at all times, supreme over the military.\"",
+        "why": "\"At all times\" includes war and emergencies, so \"only in times of peace\" does not agree."
+      },
+      {
+        "action": "Test the statement about Church and State against Section 6: \"The separation of Church and State shall be inviolable.\"",
+        "why": "\"Inviolable\" means it must never be broken or set aside, so Congress cannot set it aside."
+      },
+      {
+        "action": "Test the statement about social justice against Section 10: \"The State shall promote social justice in all phases of national development.\"",
+        "why": "\"All phases\" means every part of the nation's development, not only the poorest areas."
+      },
+      {
+        "action": "Test the statement about sovereignty against Section 1: \"Sovereignty resides in the people and all government authority emanates from them.\"",
+        "why": "\"Sovereignty\" is the highest power to govern, and \"emanates\" means comes from. This statement matches the text word for word."
+      },
+      {
+        "action": "The statement that agrees with Article II is: sovereignty resides in the people and all government authority emanates from them."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Civilian authority is supreme over the military, but only in times of peace.": "The word \"only\" makes this wrong. Section 3 says civilian authority is supreme \"at all times\", in peace and in war.",
+    "The separation of Church and State may be set aside by Congress in an emergency.": "Section 6 calls the separation \"inviolable\", meaning it can never be set aside, not even by Congress.",
+    "The State shall promote social justice only in the poorest parts of the country.": "Section 10 says the State promotes social justice \"in all phases of national development\", not only in poor areas."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article II, Sections 1, 3, 6 and 10",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

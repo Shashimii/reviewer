@@ -1,0 +1,54 @@
+{
+  "id": "gi-con-0015",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-government",
+  "difficulty": 3,
+  "stem": "The President resigns, and the Vice-President becomes President to serve the unexpired term. She serves as President for five years. Under Article VII, Section 4 of the 1987 Constitution, may she later be elected President?",
+  "choices": [
+    "Yes, because she was never elected as President",
+    "Yes, but only after one full term has passed",
+    "No, because she served as President over four years",
+    "No, because no Vice-President may run for President"
+  ],
+  "answer": "No, because she served as President over four years",
+  "hints": [
+    "She was not elected President; she succeeded to the office. Notice how long she served.",
+    "Article VII, Section 4 has a special rule for a person \"who has succeeded as President\". Find the number of years in that rule.",
+    "That rule bars a successor who served more than a certain number of years, and it ends with the words \"at any time\". Compare her five years with that number, then decide whether waiting a term would change anything."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Identify her situation: she became President by succession, not by election.",
+        "why": "Article VII, Section 8 says that if the President resigns, \"the Vice-President shall become the President to serve the unexpired term.\""
+      },
+      {
+        "action": "Read the rule in Article VII, Section 4: \"No person who has succeeded as President and has served as such for more than four years shall be qualified for election to the same office at any time.\""
+      },
+      {
+        "action": "Compare: she served five years, which is more than four.",
+        "why": "So the rule applies to her even though she was never elected President."
+      },
+      {
+        "action": "Note the words \"at any time\".",
+        "why": "The bar never ends, so waiting one term does not help."
+      },
+      {
+        "action": "No, she may not be elected President, because she served as President for more than four years."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Yes, because she was never elected as President": "Section 4 covers successors too. A person who \"has succeeded as President\" and served more than four years is barred, even if never elected.",
+    "Yes, but only after one full term has passed": "The bar applies \"at any time\", so waiting a term does not remove it.",
+    "No, because no Vice-President may run for President": "Section 4 does not bar every Vice-President. Only a person who succeeded as President and served more than four years is barred."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article VII, Sections 4 and 8",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

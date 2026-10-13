@@ -1,0 +1,52 @@
+{
+  "id": "gi-cc-0009",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-norms",
+  "difficulty": 2,
+  "stem": "A provincial office chooses locally produced goods and Filipino-made technology for its projects whenever it can. Which norm of conduct in Section 4 of RA 6713 does this follow?",
+  "choices": [
+    "Commitment to democracy",
+    "Political neutrality",
+    "Simple living",
+    "Nationalism and patriotism"
+  ],
+  "answer": "Nationalism and patriotism",
+  "hints": [
+    "Notice where the goods and technology come from.",
+    "Find the norm in Section 4(A) that mentions \"locally produced goods, resources and technology.\"",
+    "Two norms talk about loyalty to the country. Only one of them says officials shall \"promote the use of locally produced goods, resources and technology.\" Pick that norm."
+  ],
+  "solution": {
+    "methodName": "Match the key words to the norm",
+    "steps": [
+      {
+        "action": "Find the key detail: the office prefers goods and technology made in the Philippines."
+      },
+      {
+        "action": "Match it to Section 4(A)(f): officials \"shall at all times be loyal to the Republic and to the Filipino people, promote the use of locally produced goods, resources and technology and encourage appreciation and pride of country and people.\""
+      },
+      {
+        "action": "That norm is named nationalism and patriotism."
+      },
+      {
+        "action": "Rule out commitment to democracy: it also speaks of loyalty to country, but its key ideas are the democratic way of life, public accountability and civilian authority, not local goods.",
+        "why": "Both norms mention loyalty, so look for the exact key words: \"locally produced goods.\""
+      },
+      {
+        "action": "The answer is: Nationalism and patriotism."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Commitment to democracy": "Commitment to democracy (Section 4(A)(g)) mentions \"loyalty to country,\" but its focus is democracy, accountability and civilian authority. Local goods belong to Section 4(A)(f).",
+    "Political neutrality": "Political neutrality (Section 4(A)(d)) is about serving everyone regardless of party. It does not mention local goods.",
+    "Simple living": "Simple living (Section 4(A)(h)) is about officials leading modest lives. Buying local goods for projects is not about an official's lifestyle."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 4(A)(f)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

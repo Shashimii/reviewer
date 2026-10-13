@@ -1,0 +1,50 @@
+{
+  "id": "gi-env-0020",
+  "topicId": "gi-environment",
+  "skill": "gi-env-protected",
+  "difficulty": 3,
+  "stem": "The dugong is a marine mammal. Outside Palawan, which department has jurisdiction over the dugong under Section 4 of RA 9147?",
+  "choices": [
+    "Department of Agriculture (DA)",
+    "Department of Science and Technology (DOST)",
+    "Department of the Interior and Local Government (DILG)",
+    "Department of Environment and Natural Resources (DENR)"
+  ],
+  "answer": "Department of Environment and Natural Resources (DENR)",
+  "hints": [
+    "Section 4 splits wildlife between two departments. Most sea animals go to one of them, but the law names an exception.",
+    "Read Section 4: one department covers \"all terrestrial plant and animal species, all turtles and tortoises and wetland species,\" and its list ends with the dugong.",
+    "The other department covers \"all marine mammals, except dugong.\" Use the word \"except\" to decide which department keeps the dugong."
+  ],
+  "solution": {
+    "methodName": "Name who is responsible, then check the exact role",
+    "steps": [
+      {
+        "action": "Recall Section 4 of RA 9147. The DENR has jurisdiction over \"all terrestrial plant and animal species, all turtles and tortoises and wetland species, including but not limited to crocodiles, waterbirds and all amphibians and dugong.\"",
+        "why": "Terrestrial means living on land. Jurisdiction means the power to regulate and protect."
+      },
+      {
+        "action": "Recall the DA's list: \"all aquatic resources including but not limited to all fishes, aquatic plants, invertebrates and all marine mammals, except dugong.\"",
+        "why": "The word \"except\" takes the dugong out of the DA's list, even though it is a marine mammal."
+      },
+      {
+        "action": "Note the Palawan rule: there, this jurisdiction is vested in the Palawan Council for Sustainable Development. The question says outside Palawan, so that rule does not apply."
+      },
+      {
+        "action": "The answer is the Department of Environment and Natural Resources (DENR)."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Department of Agriculture (DA)": "The DA covers marine mammals, but Section 4 says \"except dugong.\" The dugong is on the DENR's list.",
+    "Department of Science and Technology (DOST)": "Section 4 gives wildlife jurisdiction only to the DENR and the DA, not the DOST.",
+    "Department of the Interior and Local Government (DILG)": "Section 4 gives wildlife jurisdiction only to the DENR and the DA, not the DILG."
+  },
+  "sourceRef": {
+    "citation": "RA 9147, Section 4",
+    "url": "https://lawphil.net/statutes/repacts/ra2001/ra_9147_2001.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,55 @@
+{
+  "id": "gi-con-0021",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-accountability",
+  "difficulty": 3,
+  "stem": "Lorna is a clerk in a municipal hall. Her supervisor says she will be appointed to a higher position if she hands out campaign flyers for the mayor's reelection on weekends. Under Article IX-B, Section 2 of the 1987 Constitution, which statement is correct?",
+  "choices": [
+    "She may campaign, since she does it only on weekends",
+    "She may campaign, since the mayor heads her office",
+    "She may not campaign; appointments go by merit and fitness",
+    "She must campaign, or else she may be removed from her job"
+  ],
+  "answer": "She may not campaign; appointments go by merit and fitness",
+  "hints": [
+    "Two rules in Article IX-B, Section 2 apply here: one about how appointments are made, and one about election campaigns.",
+    "Section 2 says no civil service officer or employee shall engage, \"directly or indirectly, in any electioneering or partisan political campaign.\" Check whether this rule mentions any day, time or candidate as an exception.",
+    "Section 2 also says appointments are made \"only according to merit and fitness,\" and no one may be removed \"except for cause provided by law.\" Choose the statement that agrees with all three rules."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Check that Lorna is covered: \"The civil service embraces all branches, subdivisions, instrumentalities, and agencies of the Government.\"",
+        "why": "A municipality is a territorial and political subdivision (Article X, Section 1), so a municipal clerk is in the civil service."
+      },
+      {
+        "action": "Apply the campaign rule: no civil servant shall engage, \"directly or indirectly, in any electioneering or partisan political campaign.\"",
+        "why": "Handing out a candidate's flyers is campaigning. The rule gives no exception for weekends, and none for a candidate who is the employee's own boss."
+      },
+      {
+        "action": "Apply the appointment rule: \"Appointments in the civil service shall be made only according to merit and fitness.\"",
+        "why": "Merit and fitness means a person's own ability and qualifications for the job. Campaign work is not one of them, so it cannot be the basis for a higher post."
+      },
+      {
+        "action": "Note the removal rule: no civil servant \"shall be removed or suspended except for cause provided by law.\"",
+        "why": "Campaigning is banned, so refusing to campaign cannot be a lawful cause for removal."
+      },
+      {
+        "action": "Correct statement: she may not campaign, and appointments go by merit and fitness."
+      }
+    ]
+  },
+  "trapNotes": {
+    "She may campaign, since she does it only on weekends": "Many think campaigning is fine outside office hours. Section 2 bans campaigning \"directly or indirectly\" and gives no exception for weekends.",
+    "She may campaign, since the mayor heads her office": "Who the candidate is does not matter. Section 2 bars every civil servant from any partisan political campaign, including one for their own boss.",
+    "She must campaign, or else she may be removed from her job": "Section 2 says no civil servant may be removed or suspended \"except for cause provided by law.\" Refusing to do something the Constitution bans is not such a cause."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article IX-B, Section 2",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

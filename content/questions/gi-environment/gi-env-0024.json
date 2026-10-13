@@ -1,0 +1,47 @@
+{
+  "id": "gi-env-0024",
+  "topicId": "gi-environment",
+  "skill": "gi-env-climate",
+  "difficulty": 2,
+  "stem": "Under Section 5 of RA 10121, the Philippine Disaster Risk Reduction and Management Act of 2010, who is the Chairperson of the National Disaster Risk Reduction and Management Council (NDRRMC)?",
+  "choices": [
+    "Secretary of Social Welfare and Development",
+    "Secretary of the Interior and Local Government",
+    "Secretary of Science and Technology",
+    "Secretary of National Defense"
+  ],
+  "answer": "Secretary of National Defense",
+  "hints": [
+    "The NDRRMC has one Chairperson and several Vice Chairpersons. Three of the choices are Vice Chairpersons.",
+    "Section 5 says the Council \"shall be headed by the Secretary of the Department of ...\" Find the department named first.",
+    "Match the Vice Chairpersons for disaster preparedness, disaster response, and disaster prevention and mitigation. The choice left over is the head."
+  ],
+  "solution": {
+    "methodName": "Name who is responsible, then check the exact role",
+    "steps": [
+      {
+        "action": "Recall Section 5 of RA 10121: the National Council \"shall be headed by the Secretary of the Department of National Defense (DND) as Chairperson.\"",
+        "why": "The NDRRMC is the new name of the old National Disaster Coordinating Council (NDCC)."
+      },
+      {
+        "action": "Match the Vice Chairpersons in Section 5: the DILG Secretary for Disaster Preparedness, the DSWD Secretary for Disaster Response, and the DOST Secretary for Disaster Prevention and Mitigation.",
+        "why": "Knowing who is vice chair for what helps you avoid these three traps."
+      },
+      {
+        "action": "The answer is the Secretary of National Defense."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Secretary of Social Welfare and Development": "The DSWD Secretary is Vice Chairperson for Disaster Response, not the Chairperson.",
+    "Secretary of the Interior and Local Government": "The DILG Secretary is Vice Chairperson for Disaster Preparedness, not the Chairperson.",
+    "Secretary of Science and Technology": "The DOST Secretary is Vice Chairperson for Disaster Prevention and Mitigation, not the Chairperson."
+  },
+  "sourceRef": {
+    "citation": "RA 10121, Section 5",
+    "url": "https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

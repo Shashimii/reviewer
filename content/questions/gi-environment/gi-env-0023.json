@@ -1,0 +1,50 @@
+{
+  "id": "gi-env-0023",
+  "topicId": "gi-environment",
+  "skill": "gi-env-climate",
+  "difficulty": 2,
+  "stem": "A city replaces its diesel buses with electric buses to cut its greenhouse gas emissions. Under the definitions in RA 9729, this action is an example of what?",
+  "choices": [
+    "Adaptation",
+    "Mitigation",
+    "Climate variability",
+    "Vulnerability"
+  ],
+  "answer": "Mitigation",
+  "hints": [
+    "Ask: is the city reducing a cause of climate change, or adjusting to its effects?",
+    "Section 3 of RA 9729 defines both adaptation and mitigation. Only one of them is about greenhouse gas emissions.",
+    "Adaptation is adjustment \"in response to actual or expected climatic stimuli or their effects.\" The other term is human action on emissions. Decide which one fits the buses."
+  ],
+  "solution": {
+    "methodName": "Match the term to its legal definition",
+    "steps": [
+      {
+        "action": "Recall the definition of mitigation in Section 3 of RA 9729, as amended by RA 10174: \"human intervention to reduce anthropogenic emissions sources and enhance removals by sinks of all GHG.\"",
+        "why": "Anthropogenic means caused by human activity (Section 3(c)). GHG means greenhouse gases, the gases that trap heat and warm the Earth."
+      },
+      {
+        "action": "Compare with adaptation: \"the adjustment in natural or human systems in response to actual or expected climatic stimuli or their effects.\"",
+        "why": "Adaptation copes with the effects of climate change. Mitigation reduces its cause."
+      },
+      {
+        "action": "Apply it: switching to electric buses cuts greenhouse gas emissions from human activity. That is mitigation."
+      },
+      {
+        "action": "The answer is mitigation."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Adaptation": "Adaptation means adjusting to the effects of climate change. The buses cut emissions, which tackles a cause, so this is mitigation.",
+    "Climate variability": "Climate variability means variations in the climate itself (Section 3). It is not an action that anyone takes.",
+    "Vulnerability": "Vulnerability is how easily a system is harmed by climate change (Section 3). It is a condition, not an action."
+  },
+  "sourceRef": {
+    "citation": "RA 9729, Section 3, as amended by RA 10174 (definitions of adaptation and mitigation)",
+    "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10174_2012.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

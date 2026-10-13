@@ -1,0 +1,56 @@
+{
+  "id": "gi-con-0009",
+  "topicId": "gi-constitution",
+  "skill": "gi-con-rights",
+  "difficulty": 1,
+  "stem": "A citizen asks a government office for copies of the official records of a road project. Which right in Article III of the 1987 Constitution supports her request?",
+  "choices": [
+    "The right to privacy of communication and correspondence",
+    "The right to information on matters of public concern",
+    "The right against unreasonable searches and seizures",
+    "The right to a speedy disposition of cases"
+  ],
+  "answer": "The right to information on matters of public concern",
+  "hints": [
+    "Notice what the citizen wants: to see official government records.",
+    "Look for the section of the Bill of Rights (Article III) that mentions \"access to official records\".",
+    "That section is Section 7. Read the right it names in its first sentence, then find the choice with the same name. Each other choice protects something else, such as private letters, homes or the speed of a case."
+  ],
+  "solution": {
+    "methodName": "Match the situation to the provision",
+    "steps": [
+      {
+        "action": "Name what the citizen wants: copies of the official records of a road project.",
+        "why": "A road project is a government project that affects the public, so its records are a matter of public concern."
+      },
+      {
+        "action": "Find the section of Article III that mentions official records: Section 7.",
+        "why": "Article III is the Bill of Rights. Section 7 is the section in it that speaks of access to official records."
+      },
+      {
+        "action": "Read Section 7: \"The right of the people to information on matters of public concern shall be recognized. Access to official records ... shall be afforded the citizen, subject to such limitations as may be provided by law.\"",
+        "why": "\"Afforded\" means given. So citizens may get official records, except where a law sets a limit."
+      },
+      {
+        "action": "Check the other choices: privacy of communication (Section 3), searches and seizures (Section 2) and speedy disposition of cases (Section 16).",
+        "why": "None of these is about getting records from the government. They protect a person's messages, home and belongings, and the speed of a case."
+      },
+      {
+        "action": "The request is supported by the right to information on matters of public concern.",
+        "why": "As a civil servant, you must respect this right when the public asks for official records, unless a law limits access."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The right to privacy of communication and correspondence": "Section 3 protects the privacy of a person's messages and letters. The citizen is asking for government records, not protecting her own messages.",
+    "The right against unreasonable searches and seizures": "Section 2 protects people and their homes, papers and belongings from unreasonable searches. Nobody is being searched here.",
+    "The right to a speedy disposition of cases": "Section 16 is about having cases decided without delay. The citizen has no case; she wants records."
+  },
+  "sourceRef": {
+    "citation": "1987 Constitution, Article III, Section 7",
+    "url": "https://lawphil.net/consti/cons1987.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

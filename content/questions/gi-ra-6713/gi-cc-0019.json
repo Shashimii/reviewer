@@ -1,0 +1,55 @@
+{
+  "id": "gi-cc-0019",
+  "topicId": "gi-ra-6713",
+  "skill": "gi-cc-prohibited",
+  "difficulty": 3,
+  "stem": "A foreign government offers gifts to employees of a Philippine agency. Under Section 7(d) of RA 6713, Congress consents to only certain kinds of gifts from foreign governments. Which of these may an employee accept?",
+  "choices": [
+    "A gold watch worth ₱80,000, given as a souvenir",
+    "A ₱50,000 cash gift to thank the agency for its help",
+    "A fellowship grant to study in that country",
+    "Free travel and hotels for a trip within the Philippines"
+  ],
+  "answer": "A fellowship grant to study in that country",
+  "hints": [
+    "Section 7(d) lists three kinds of foreign gifts that may be accepted. Anything not on the list is not allowed.",
+    "The list: (i) a gift \"of nominal value\" as a souvenir or mark of courtesy; (ii) a scholarship, fellowship grant or medical treatment; (iii) travel that takes place entirely outside the Philippines, if the head of office permits it.",
+    "Test each choice against the list. A souvenir or mark of courtesy must be of nominal (very small) value. Travel must be entirely outside the Philippines. A gift that fits none of the three items is not allowed. Pick the one choice that passes."
+  ],
+  "solution": {
+    "methodName": "Check the list of exceptions",
+    "steps": [
+      {
+        "action": "Read the list in Section 7(d). As to gifts from foreign governments, Congress consents to: (i) \"a gift of nominal value tendered and received as a souvenir or mark of courtesy\"; (ii) \"a gift in the nature of a scholarship or fellowship grant or medical treatment\"; (iii) travel grants or expenses for travel that takes place entirely outside the Philippines, if appropriate and \"permitted by the head of office.\"",
+        "why": "Consent means permission. Nominal value means a very small, token value."
+      },
+      {
+        "action": "Gold watch worth ₱80,000: a souvenir is allowed only if it is of nominal value. ₱80,000 is not nominal, so it fails item (i)."
+      },
+      {
+        "action": "₱50,000 cash gift: it is not a scholarship, fellowship, medical treatment or travel grant. As a mark of courtesy under item (i), it would have to be of nominal value, and ₱50,000 is not. So it fails."
+      },
+      {
+        "action": "Trip within the Philippines: item (iii) covers only travel entirely outside the Philippines, so it fails."
+      },
+      {
+        "action": "Fellowship grant: it matches item (ii) exactly."
+      },
+      {
+        "action": "The answer is: A fellowship grant to study in that country."
+      }
+    ]
+  },
+  "trapNotes": {
+    "A gold watch worth ₱80,000, given as a souvenir": "Souvenirs are allowed only if they are \"of nominal value.\" An ₱80,000 gold watch is far from nominal.",
+    "A ₱50,000 cash gift to thank the agency for its help": "A thank-you gift could only fit item (i), which requires \"a gift of nominal value.\" ₱50,000 in cash is not nominal, and it is not a scholarship, fellowship, medical treatment or travel grant.",
+    "Free travel and hotels for a trip within the Philippines": "Item (iii) covers only travel that takes place entirely outside the Philippines. A trip within the country is not covered."
+  },
+  "sourceRef": {
+    "citation": "RA 6713, Section 7(d)",
+    "url": "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}
