@@ -110,12 +110,12 @@ export function IndexPage() {
               how to solve it, step by step.
             </p>
             <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
-              <Button className="h-11 px-5 text-base">
+              <Link to="/learn" className={cn(buttonVariants(), 'h-11 px-5 text-base')}>
                 Start learning
                 <ArrowRight data-icon="inline-end" />
-              </Button>
-              <Button variant="outline" className="h-11 px-5 text-base">
-                Check your basics first
+              </Link>
+              <Button variant="outline" className="h-11 px-5 text-base" disabled>
+                Basics check (coming soon)
               </Button>
             </div>
           </div>
