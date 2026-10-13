@@ -1,0 +1,57 @@
+[
+  {
+    "id": "gi-constitution",
+    "subjectId": "gen-info",
+    "name": "1987 Philippine Constitution",
+    "order": 1,
+    "prerequisites": [],
+    "skills": [
+      { "id": "gi-con-principles", "name": "Preamble, territory and state principles (Articles I–II)" },
+      { "id": "gi-con-rights", "name": "Bill of Rights, citizenship and suffrage (Articles III–V)" },
+      { "id": "gi-con-government", "name": "Legislative, executive and judicial branches (Articles VI–VIII)" },
+      { "id": "gi-con-accountability", "name": "Commissions, local government and accountability (Articles IX–XI)" },
+      { "id": "gi-con-social", "name": "Economy, social justice, education and other provisions (Articles XII–XVIII)" }
+    ]
+  },
+  {
+    "id": "gi-ra-6713",
+    "subjectId": "gen-info",
+    "name": "RA 6713: Code of Conduct and Ethical Standards",
+    "order": 2,
+    "prerequisites": [],
+    "skills": [
+      { "id": "gi-cc-coverage", "name": "Policy, coverage and definitions" },
+      { "id": "gi-cc-norms", "name": "Norms of conduct" },
+      { "id": "gi-cc-duties", "name": "Duties of public officials and employees" },
+      { "id": "gi-cc-prohibited", "name": "Prohibited acts and transactions" },
+      { "id": "gi-cc-disclosure", "name": "Statements of assets, disclosure and penalties" }
+    ]
+  },
+  {
+    "id": "gi-peace-human-rights",
+    "subjectId": "gen-info",
+    "name": "Peace and human rights",
+    "order": 3,
+    "prerequisites": [],
+    "skills": [
+      { "id": "gi-hr-concepts", "name": "Human rights concepts and the Universal Declaration" },
+      { "id": "gi-hr-constitution", "name": "Human rights in the Constitution and the Commission on Human Rights" },
+      { "id": "gi-hr-laws", "name": "Philippine human rights laws" },
+      { "id": "gi-hr-peace", "name": "Peace and international humanitarian law" }
+    ]
+  },
+  {
+    "id": "gi-environment",
+    "subjectId": "gen-info",
+    "name": "Environment management and protection",
+    "order": 4,
+    "prerequisites": [],
+    "skills": [
+      { "id": "gi-env-principles", "name": "The right to a balanced and healthful ecology" },
+      { "id": "gi-env-waste", "name": "Ecological solid waste management (RA 9003)" },
+      { "id": "gi-env-air-water", "name": "Clean air and clean water (RA 8749, RA 9275)" },
+      { "id": "gi-env-protected", "name": "Protected areas and wildlife" },
+      { "id": "gi-env-climate", "name": "Climate change and disaster risk reduction" }
+    ]
+  }
+]

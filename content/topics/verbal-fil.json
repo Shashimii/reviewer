@@ -1,0 +1,62 @@
+[
+  {
+    "id": "vfil-talasalitaan",
+    "subjectId": "verbal-fil",
+    "name": "Talasalitaan",
+    "order": 1,
+    "prerequisites": ["ven-vocabulary"],
+    "skills": [
+      { "id": "vfil-tal-kasingkahulugan", "name": "Kasingkahulugan" },
+      { "id": "vfil-tal-kasalungat", "name": "Kasalungat" },
+      { "id": "vfil-tal-konteksto", "name": "Kahulugan mula sa konteksto" },
+      { "id": "vfil-tal-sawikain", "name": "Sawikain at idyoma" }
+    ]
+  },
+  {
+    "id": "vfil-pangungusap",
+    "subjectId": "verbal-fil",
+    "name": "Pagbuo ng pangungusap",
+    "order": 2,
+    "prerequisites": ["ven-sentence-completion"],
+    "skills": [
+      { "id": "vfil-pb-salita", "name": "Angkop na salita" },
+      { "id": "vfil-pb-anyo", "name": "Angkop na anyo ng pandiwa" }
+    ]
+  },
+  {
+    "id": "vfil-wastong-gamit",
+    "subjectId": "verbal-fil",
+    "name": "Wastong gamit at pagkilala ng mali",
+    "order": 3,
+    "prerequisites": ["ven-grammar"],
+    "skills": [
+      { "id": "vfil-wg-ng-nang", "name": "Ng at nang" },
+      { "id": "vfil-wg-din-rin", "name": "Din/rin at daw/raw" },
+      { "id": "vfil-wg-may-mayroon", "name": "May at mayroon" },
+      { "id": "vfil-wg-iba", "name": "Iba pang madalas ipagkamali" }
+    ]
+  },
+  {
+    "id": "vfil-talata",
+    "subjectId": "verbal-fil",
+    "name": "Pagsasaayos ng talata",
+    "order": 4,
+    "prerequisites": ["ven-paragraph-organization"],
+    "skills": [
+      { "id": "vfil-tl-ayos", "name": "Pagsusunod-sunod ng mga pangungusap" },
+      { "id": "vfil-tl-paksa", "name": "Paksang pangungusap" }
+    ]
+  },
+  {
+    "id": "vfil-pag-unawa",
+    "subjectId": "verbal-fil",
+    "name": "Pag-unawa sa binasa",
+    "order": 5,
+    "prerequisites": ["ven-reading"],
+    "skills": [
+      { "id": "vfil-pu-pangunahin", "name": "Pangunahing ideya" },
+      { "id": "vfil-pu-detalye", "name": "Mga detalye" },
+      { "id": "vfil-pu-hinuha", "name": "Paghihinuha" }
+    ]
+  }
+]

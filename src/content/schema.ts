@@ -68,6 +68,9 @@ export const QuestionSchema = z
     topicId: id,
     skill: id,
     difficulty: z.union([z.literal(1), z.literal(2), z.literal(3)]),
+    // Markdown shown above the stem: a reading passage or a data table.
+    passage: text.optional(),
+    // Plain text; line breaks are kept (e.g. sentences to put in order).
     stem: text,
     choices: z.array(text).min(2).max(5),
     answer: text,

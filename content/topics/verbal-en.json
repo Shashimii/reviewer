@@ -1,0 +1,78 @@
+[
+  {
+    "id": "ven-vocabulary",
+    "subjectId": "verbal-en",
+    "name": "Vocabulary and context clues",
+    "order": 1,
+    "prerequisites": [],
+    "skills": [
+      { "id": "ven-voc-synonym", "name": "Words with the same meaning" },
+      { "id": "ven-voc-antonym", "name": "Words with the opposite meaning" },
+      { "id": "ven-voc-context", "name": "Meaning from context clues" },
+      { "id": "ven-voc-idiom", "name": "Idioms and expressions" }
+    ]
+  },
+  {
+    "id": "ven-sentence-completion",
+    "subjectId": "verbal-en",
+    "name": "Sentence completion",
+    "order": 2,
+    "prerequisites": ["ven-vocabulary"],
+    "skills": [
+      { "id": "ven-sc-word", "name": "Choosing the right word" },
+      { "id": "ven-sc-form", "name": "Choosing the right form" },
+      { "id": "ven-sc-connector", "name": "Choosing the right connecting word" }
+    ]
+  },
+  {
+    "id": "ven-grammar",
+    "subjectId": "verbal-en",
+    "name": "Grammar and error recognition",
+    "order": 3,
+    "prerequisites": [],
+    "skills": [
+      { "id": "ven-gr-agreement", "name": "Subject–verb agreement" },
+      { "id": "ven-gr-tense", "name": "Verb tense" },
+      { "id": "ven-gr-pronoun", "name": "Pronouns" },
+      { "id": "ven-gr-usage", "name": "Prepositions and word usage" }
+    ]
+  },
+  {
+    "id": "ven-sentence-structure",
+    "subjectId": "verbal-en",
+    "name": "Sentence structure",
+    "order": 4,
+    "prerequisites": ["ven-grammar"],
+    "skills": [
+      { "id": "ven-ss-complete", "name": "Complete sentences, fragments and run-ons" },
+      { "id": "ven-ss-parallel", "name": "Parallel structure" },
+      { "id": "ven-ss-modifier", "name": "Misplaced modifiers" },
+      { "id": "ven-ss-combine", "name": "Combining sentences" }
+    ]
+  },
+  {
+    "id": "ven-paragraph-organization",
+    "subjectId": "verbal-en",
+    "name": "Paragraph organization",
+    "order": 5,
+    "prerequisites": ["ven-sentence-structure"],
+    "skills": [
+      { "id": "ven-po-order", "name": "Putting sentences in order" },
+      { "id": "ven-po-topic", "name": "Finding the topic sentence" },
+      { "id": "ven-po-odd", "name": "Finding the sentence that does not belong" }
+    ]
+  },
+  {
+    "id": "ven-reading",
+    "subjectId": "verbal-en",
+    "name": "Reading comprehension",
+    "order": 6,
+    "prerequisites": ["ven-vocabulary"],
+    "skills": [
+      { "id": "ven-rc-main", "name": "Main idea" },
+      { "id": "ven-rc-detail", "name": "Details" },
+      { "id": "ven-rc-inference", "name": "Inference" },
+      { "id": "ven-rc-purpose", "name": "Purpose and tone" }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "fnd-fractions-decimals",
+    "subjectId": "foundations",
+    "name": "Fractions and decimals",
+    "order": 1,
+    "prerequisites": [],
+    "skills": [
+      { "id": "fnd-fd-meaning", "name": "What fractions and decimals mean" },
+      { "id": "fnd-fd-compare", "name": "Comparing and simplifying" },
+      { "id": "fnd-fd-operations", "name": "Adding, subtracting, multiplying and dividing" }
+    ]
+  },
+  {
+    "id": "fnd-percent",
+    "subjectId": "foundations",
+    "name": "Percent",
+    "order": 2,
+    "prerequisites": ["fnd-fractions-decimals"],
+    "skills": [
+      { "id": "fnd-pct-meaning", "name": "What percent means" },
+      { "id": "fnd-pct-of", "name": "Finding a percent of a number" }
+    ]
+  },
+  {
+    "id": "fnd-reading-tables",
+    "subjectId": "foundations",
+    "name": "Reading tables",
+    "order": 3,
+    "prerequisites": [],
+    "skills": [
+      { "id": "fnd-tbl-find", "name": "Finding a value in a table" },
+      { "id": "fnd-tbl-compare", "name": "Comparing and adding values" }
+    ]
+  },
+  {
+    "id": "fnd-parts-of-speech",
+    "subjectId": "foundations",
+    "name": "Parts of speech",
+    "order": 4,
+    "prerequisites": [],
+    "skills": [
+      { "id": "fnd-pos-nouns-verbs", "name": "Nouns and verbs" },
+      { "id": "fnd-pos-describers", "name": "Adjectives and adverbs" },
+      { "id": "fnd-pos-small-words", "name": "Pronouns, prepositions and conjunctions" }
+    ]
+  },
+  {
+    "id": "fnd-subject-verb",
+    "subjectId": "foundations",
+    "name": "Subject–verb basics",
+    "order": 5,
+    "prerequisites": ["fnd-parts-of-speech"],
+    "skills": [
+      { "id": "fnd-sv-find", "name": "Finding the subject and the verb" },
+      { "id": "fnd-sv-agree", "name": "Making the subject and verb agree" }
+    ]
+  }
+]

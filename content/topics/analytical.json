@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ana-word-analogy",
+    "subjectId": "analytical",
+    "name": "Word analogy",
+    "order": 1,
+    "prerequisites": ["ven-vocabulary"],
+    "skills": [
+      { "id": "ana-wa-meaning", "name": "Same or opposite meaning" },
+      { "id": "ana-wa-part-whole", "name": "Part and whole" },
+      { "id": "ana-wa-use", "name": "Tool, worker and purpose" },
+      { "id": "ana-wa-category", "name": "Type and category" },
+      { "id": "ana-wa-cause-degree", "name": "Cause, effect and degree" }
+    ]
+  },
+  {
+    "id": "ana-letter-figure-series",
+    "subjectId": "analytical",
+    "name": "Letter and figure series (abstract reasoning)",
+    "order": 2,
+    "prerequisites": ["num-number-series"],
+    "skills": [
+      { "id": "ana-lf-letters", "name": "Letter series" },
+      { "id": "ana-lf-codes", "name": "Letter and number codes" },
+      { "id": "ana-lf-figures", "name": "Shape patterns" },
+      { "id": "ana-lf-odd", "name": "Odd one out" }
+    ]
+  },
+  {
+    "id": "ana-symbolic-logic",
+    "subjectId": "analytical",
+    "name": "Symbolic logic",
+    "order": 3,
+    "prerequisites": [],
+    "skills": [
+      { "id": "ana-sl-syllogism", "name": "All, some and no statements" },
+      { "id": "ana-sl-conditional", "name": "If–then statements" },
+      { "id": "ana-sl-connectives", "name": "And, or and not" },
+      { "id": "ana-sl-ordering", "name": "Ordering and ranking" }
+    ]
+  },
+  {
+    "id": "ana-assumptions-conclusions",
+    "subjectId": "analytical",
+    "name": "Assumptions and conclusions",
+    "order": 4,
+    "prerequisites": ["ven-reading"],
+    "skills": [
+      { "id": "ana-ac-assumption", "name": "Finding the assumption" },
+      { "id": "ana-ac-conclusion", "name": "Which conclusion follows" },
+      { "id": "ana-ac-inference", "name": "Fact, inference or opinion" }
+    ]
+  },
+  {
+    "id": "ana-data-interpretation",
+    "subjectId": "analytical",
+    "name": "Data interpretation",
+    "order": 5,
+    "prerequisites": ["num-fractions-decimals-percent", "num-ratio-proportion"],
+    "skills": [
+      { "id": "ana-di-read", "name": "Reading values from a table" },
+      { "id": "ana-di-totals", "name": "Totals, differences and averages" },
+      { "id": "ana-di-percent", "name": "Percent, share and change" }
+    ]
+  }
+]
