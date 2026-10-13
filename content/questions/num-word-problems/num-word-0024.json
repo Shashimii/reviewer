@@ -1,0 +1,45 @@
+{
+  "id": "num-word-0024",
+  "topicId": "num-word-problems",
+  "skill": "word-money",
+  "difficulty": 1,
+  "stem": "A pair of shoes costs ₱1,200. It is on sale at 25% off. What is the sale price?",
+  "choices": [
+    "₱900",
+    "₱300",
+    "₱1,175",
+    "₱1,500"
+  ],
+  "answer": "₱900",
+  "hints": [
+    "\"25% off\" means you pay 100% − 25% = 75% of the price.",
+    "Find the discount: 25% of ₱1,200 = 1/4 of ₱1,200.",
+    "Subtract the discount from ₱1,200."
+  ],
+  "solution": {
+    "methodName": "Discount: pay (100% − discount) of the price",
+    "steps": [
+      {
+        "action": "Let p = the sale price."
+      },
+      {
+        "action": "Discount: 25% of ₱1,200 = 1/4 × ₱1,200 = 1,200 ÷ 4 = ₱300.",
+        "why": "25% is the same as 1/4, and 1/4 of a number is that number ÷ 4."
+      },
+      {
+        "action": "Sale price: p = ₱1,200 − ₱300 = ₱900."
+      },
+      {
+        "action": "Check another way: you pay 75% = 3/4 of ₱1,200, and 3 × ₱300 = ₱900. The sale price is ₱900."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱300": "This is the discount (25% of ₱1,200). Subtract it from the original price to get the sale price.",
+    "₱1,175": "This takes off 25 pesos. 25% off means 25% of ₱1,200, which is ₱300.",
+    "₱1,500": "This adds the discount. A discount lowers the price."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

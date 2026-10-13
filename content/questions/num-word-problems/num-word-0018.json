@@ -1,0 +1,55 @@
+{
+  "id": "num-word-0018",
+  "topicId": "num-word-problems",
+  "skill": "word-motion",
+  "difficulty": 3,
+  "stem": "Rey bikes from his house to town at 12 km/h and bikes back home on the same road at 18 km/h. The round trip takes 2 1/2 hours in all. How far is the town from his house?",
+  "choices": [
+    "30 km",
+    "18 km",
+    "36 km",
+    "45 km"
+  ],
+  "answer": "18 km",
+  "hints": [
+    "The distance is the same both ways. Time going + time coming back = 2 1/2 hours.",
+    "Let d = the distance. Time going = d ÷ 12. Time coming back = d ÷ 18.",
+    "Write d/12 + d/18 = 5/2. Multiply every part by 36 to clear the fractions, then solve for d."
+  ],
+  "solution": {
+    "methodName": "D = R × T (distance = rate × time)",
+    "steps": [
+      {
+        "action": "Let d = the distance from his house to town, in km."
+      },
+      {
+        "action": "Time = distance ÷ rate. Going: d/12 hours. Coming back: d/18 hours."
+      },
+      {
+        "action": "The two times add up to 2 1/2 hours: d/12 + d/18 = 5/2.",
+        "why": "2 1/2 = 5/2."
+      },
+      {
+        "action": "Multiply every part by 36: 36 × d/12 = 3d, 36 × d/18 = 2d, and 36 × 5/2 = 90.",
+        "why": "36 is the smallest number that 12, 18 and 2 all divide into. Multiplying by it removes the fractions."
+      },
+      {
+        "action": "So 3d + 2d = 90, which is 5d = 90."
+      },
+      {
+        "action": "Divide both sides by 5: d = 90 ÷ 5 = 18 km."
+      },
+      {
+        "action": "Check: going takes 18 ÷ 12 = 1 1/2 hours, and coming back takes 18 ÷ 18 = 1 hour. 1 1/2 + 1 = 2 1/2 hours. The town is 18 km away."
+      }
+    ]
+  },
+  "trapNotes": {
+    "30 km": "This is 12 × 2 1/2, as if he biked the whole time at 12 km/h. He came back faster.",
+    "36 km": "This is the round-trip distance (18 + 18). The question asks for the distance one way.",
+    "45 km": "This is 18 × 2 1/2, as if he biked the whole time at 18 km/h."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

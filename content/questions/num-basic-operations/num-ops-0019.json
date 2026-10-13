@@ -1,0 +1,51 @@
+{
+  "id": "num-ops-0019",
+  "topicId": "num-basic-operations",
+  "skill": "ops-divisibility",
+  "difficulty": 1,
+  "stem": "Which number can be divided by 3 with no remainder?",
+  "choices": [
+    "7,613",
+    "5,236",
+    "4,563",
+    "9,010"
+  ],
+  "answer": "4,563",
+  "hints": [
+    "To test for 3, don't look at the last digit. Look at all the digits.",
+    "Add up the digits of each number.",
+    "A number can be divided by 3 when its digit sum can be divided by 3. Check which digit sum is in the 3 times table."
+  ],
+  "solution": {
+    "methodName": "Divisibility rules: check the last digits or the digit sum",
+    "steps": [
+      {
+        "action": "Use the rule for 3: add the digits. If the sum can be divided by 3, so can the number.",
+        "why": "This works for any number, so you never need long division to test for 3."
+      },
+      {
+        "action": "7,613: 7 + 6 + 1 + 3 = 17. 17 is not in the 3 times table."
+      },
+      {
+        "action": "5,236: 5 + 2 + 3 + 6 = 16. 16 is not in the 3 times table."
+      },
+      {
+        "action": "4,563: 4 + 5 + 6 + 3 = 18. 18 = 3 × 6, so it passes."
+      },
+      {
+        "action": "9,010: 9 + 0 + 1 + 0 = 10. 10 is not in the 3 times table."
+      },
+      {
+        "action": "The answer is 4,563. Check: 4,563 ÷ 3 = 1,521, with no remainder."
+      }
+    ]
+  },
+  "trapNotes": {
+    "7,613": "It ends in 3, but the last digit does not decide this. Its digits add to 17, which cannot be divided by 3.",
+    "5,236": "It is even, so it can be divided by 2, but that is a different rule. Its digits add to 16, which cannot be divided by 3.",
+    "9,010": "It starts with 9, but the first digit does not decide this either. Its digits add to 10, which cannot be divided by 3."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

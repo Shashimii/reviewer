@@ -1,0 +1,45 @@
+{
+  "id": "num-series-0011",
+  "topicId": "num-number-series",
+  "skill": "series-growing",
+  "difficulty": 1,
+  "stem": "What comes next? 3, 4, 6, 9, 13, ___",
+  "choices": [
+    "17",
+    "19",
+    "26",
+    "18"
+  ],
+  "answer": "18",
+  "hints": [
+    "The numbers go up by a different amount each time. Write down each step.",
+    "Find the differences: 4 − 3, 6 − 4, 9 − 6, 13 − 9.",
+    "The differences are 1, 2, 3, 4. Each one is 1 more than the last. Find the next difference and add it to 13."
+  ],
+  "solution": {
+    "methodName": "Check differences of differences",
+    "steps": [
+      {
+        "action": "Check the differences: 4 − 3 = 1, 6 − 4 = 2, 9 − 6 = 3, 13 − 9 = 4."
+      },
+      {
+        "action": "The differences are not the same, but they grow by 1 each time: 1, 2, 3, 4.",
+        "why": "When the differences change, look at the differences themselves. Here they make their own simple series."
+      },
+      {
+        "action": "The next difference is 4 + 1 = 5."
+      },
+      {
+        "action": "Add it to the last number: 13 + 5 = 18. The answer is 18."
+      }
+    ]
+  },
+  "trapNotes": {
+    "17": "This adds 4 again. The steps grow by 1 each time, so the next step is 5.",
+    "19": "This adds 6, skipping a step. After +4 comes +5, not +6.",
+    "26": "This doubles 13. The numbers are not doubling: 3 × 2 = 6, not 4."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

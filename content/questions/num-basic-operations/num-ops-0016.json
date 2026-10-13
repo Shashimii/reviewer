@@ -1,0 +1,49 @@
+{
+  "id": "num-ops-0016",
+  "topicId": "num-basic-operations",
+  "skill": "ops-powers",
+  "difficulty": 2,
+  "stem": "What is −4² + (−3)²?",
+  "choices": [
+    "−7",
+    "25",
+    "7",
+    "−25"
+  ],
+  "answer": "−7",
+  "hints": [
+    "Look closely at the brackets. In −4², is the minus sign part of what gets squared?",
+    "−4² means −(4 × 4). (−3)² means (−3) × (−3).",
+    "Work out each part with the right sign, then add them."
+  ],
+  "solution": {
+    "methodName": "Write the power as repeated multiplication",
+    "steps": [
+      {
+        "action": "−4² has no brackets, so only the 4 is squared and the minus stays in front: −4² = −(4 × 4) = −16.",
+        "why": "A power acts only on the number right next to it. Without brackets, the minus sign is not squared."
+      },
+      {
+        "action": "(−3)² has brackets, so the whole −3 is squared: (−3) × (−3) = 9.",
+        "why": "A negative times a negative is positive."
+      },
+      {
+        "action": "Add: −16 + 9. The signs are different, so subtract the sizes: 16 − 9 = 7."
+      },
+      {
+        "action": "16 is the bigger size and it is negative, so the result is negative."
+      },
+      {
+        "action": "The answer is −7."
+      }
+    ]
+  },
+  "trapNotes": {
+    "7": "This flips both signs: 16 − 9 = 7. −4² is −16 and (−3)² is +9, so the sum is −16 + 9.",
+    "25": "This reads −4² as +16: 16 + 9 = 25. Without brackets, only the 4 is squared, so −4² = −16.",
+    "−25": "This reads (−3)² as −9: −16 − 9 = −25. With brackets the whole −3 is squared, and (−3) × (−3) = +9."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,59 @@
+{
+  "id": "num-word-0017",
+  "topicId": "num-word-problems",
+  "skill": "word-motion",
+  "difficulty": 3,
+  "stem": "A jeepney leaves the terminal at 7:00 a.m. and travels at 40 km/h. At 8:00 a.m., a car leaves the same terminal on the same road at 60 km/h. At what time will the car catch up with the jeepney?",
+  "choices": [
+    "8:24 a.m.",
+    "8:40 a.m.",
+    "9:00 a.m.",
+    "10:00 a.m."
+  ],
+  "answer": "10:00 a.m.",
+  "hints": [
+    "By 8:00 a.m., the jeepney already has a head start. How far ahead is it?",
+    "Head start = 40 × 1 = 40 km. They go the same direction, so the car gains 60 − 40 = 20 km each hour.",
+    "Time to catch up = head start ÷ 20 km/h. Add that time to 8:00 a.m."
+  ],
+  "solution": {
+    "methodName": "D = R × T (distance = rate × time)",
+    "steps": [
+      {
+        "action": "Let t = the hours the car drives until it catches up."
+      },
+      {
+        "action": "The jeepney left 1 hour earlier, so it drives t + 1 hours."
+      },
+      {
+        "action": "When the car catches up, both have gone the same distance: 60 × t = 40 × (t + 1).",
+        "why": "Distance = rate × time for each vehicle."
+      },
+      {
+        "action": "Multiply out: 60t = 40t + 40.",
+        "why": "40 × (t + 1) = 40t + 40. The 40 km is the jeepney's head start."
+      },
+      {
+        "action": "Subtract 40t from both sides: 20t = 40.",
+        "why": "20 km/h is how much faster the car is. That is how fast it closes the gap."
+      },
+      {
+        "action": "Divide both sides by 20: t = 40 ÷ 20 = 2 hours."
+      },
+      {
+        "action": "Clock time: 8:00 a.m. + 2 hours = 10:00 a.m."
+      },
+      {
+        "action": "Check: by 10:00 a.m. the jeepney has gone 40 × 3 = 120 km and the car has gone 60 × 2 = 120 km. Same place. The car catches up at 10:00 a.m."
+      }
+    ]
+  },
+  "trapNotes": {
+    "8:24 a.m.": "This divides the 40 km head start by 100 km/h, adding the speeds. They go the same direction, so the car closes the gap at 60 − 40 = 20 km/h.",
+    "8:40 a.m.": "This divides the 40 km head start by the car's speed, 60 km/h. But the jeepney keeps moving, so use the difference of the speeds.",
+    "9:00 a.m.": "This counts the 2 hours from 7:00 a.m. The 2 hours start when the car leaves at 8:00 a.m."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

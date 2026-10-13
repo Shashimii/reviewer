@@ -1,0 +1,59 @@
+{
+  "id": "num-word-0003",
+  "topicId": "num-word-problems",
+  "skill": "word-age",
+  "difficulty": 2,
+  "stem": "Rosa is 6 years older than her sister Lea. The sum of their ages is 40. How old is Rosa?",
+  "choices": [
+    "23",
+    "17",
+    "20",
+    "29"
+  ],
+  "answer": "23",
+  "hints": [
+    "Call the younger sister's age x. Then Rosa's age is x + 6.",
+    "Add the two ages and set the total to 40: x + (x + 6) = 40.",
+    "Combine to 2x + 6 = 40. Subtract 6 from both sides, divide by 2 to get Lea's age, then add 6 for Rosa."
+  ],
+  "solution": {
+    "methodName": "Age table: Now, Past, Future",
+    "steps": [
+      {
+        "action": "Let x = Lea's age now.",
+        "why": "Pick the younger person as x. Then the older age is x plus a number."
+      },
+      {
+        "action": "Rosa is 6 years older, so Rosa's age = x + 6.",
+        "why": "Only the Now column is needed here."
+      },
+      {
+        "action": "Their ages add up to 40: x + (x + 6) = 40."
+      },
+      {
+        "action": "Combine the x's: 2x + 6 = 40.",
+        "why": "x + x is 2x."
+      },
+      {
+        "action": "Subtract 6 from both sides: 2x = 40 − 6 = 34."
+      },
+      {
+        "action": "Divide both sides by 2: x = 34 ÷ 2 = 17. Lea is 17."
+      },
+      {
+        "action": "Rosa = 17 + 6 = 23."
+      },
+      {
+        "action": "Check: 23 + 17 = 40, and 23 − 17 = 6. Rosa is 23 years old."
+      }
+    ]
+  },
+  "trapNotes": {
+    "17": "This is Lea's age (x). The question asks for Rosa, who is 6 years older: 17 + 6.",
+    "20": "This is 40 ÷ 2, as if the sisters were the same age. Rosa is 6 years older, so the ages are not equal.",
+    "29": "This adds 6 instead of taking it away (2x = 40 + 6). To undo + 6, subtract 6 from both sides."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

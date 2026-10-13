@@ -1,0 +1,46 @@
+{
+  "id": "num-ratio-0010",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-proportion",
+  "difficulty": 2,
+  "stem": "6 workers can paint a school building in 12 days. Working at the same rate, how many days would 8 workers take to paint the same building?",
+  "choices": [
+    "16 days",
+    "9 days",
+    "10 days",
+    "72 days"
+  ],
+  "answer": "9 days",
+  "hints": [
+    "More workers finish faster. When one amount goes up and the other goes down, it is an inverse proportion.",
+    "Find the total work in worker-days: 6 workers × 12 days.",
+    "6 × 12 gives the worker-days for the whole job. Share them among 8 workers by dividing by 8."
+  ],
+  "solution": {
+    "methodName": "Inverse proportion: find the total work, then divide",
+    "steps": [
+      {
+        "action": "Decide the type: more workers means fewer days. This is an inverse proportion.",
+        "why": "In an inverse proportion you multiply first, then divide. Cross-multiplying the usual way would give more days, which makes no sense."
+      },
+      {
+        "action": "Find the total work: 6 × 12 = 72 worker-days.",
+        "why": "A worker-day is one worker working for one day. The job always needs 72 of them, however many workers there are."
+      },
+      {
+        "action": "Divide the total work by the new number of workers: 72 ÷ 8 = 9."
+      },
+      {
+        "action": "8 workers would take 9 days."
+      }
+    ]
+  },
+  "trapNotes": {
+    "16 days": "This treats it as a direct proportion: 12 × 8 ÷ 6 = 16. More workers should take fewer days, not more.",
+    "10 days": "This subtracts: 2 more workers, so 2 fewer days (12 − 2). Multiply and divide instead of subtracting.",
+    "72 days": "This is the total work, 6 × 12 = 72 worker-days. Divide it by 8 workers to get the number of days."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

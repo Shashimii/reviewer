@@ -1,0 +1,47 @@
+{
+  "id": "num-fdp-0023",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-percent",
+  "difficulty": 3,
+  "stem": "After a 20% discount, a pair of shoes costs ₱1,600. What was the original price?",
+  "choices": [
+    "₱1,920",
+    "₱2,000",
+    "₱1,280",
+    "₱8,000"
+  ],
+  "answer": "₱2,000",
+  "hints": [
+    "₱1,600 is not 100% of the original price. After 20% off, what percent of the original price is left?",
+    "100% − 20% = 80%. So ₱1,600 is 80% of the original price.",
+    "If 80% is ₱1,600, then 10% is ₱1,600 ÷ 8. Multiply that by 10 to get 100%."
+  ],
+  "solution": {
+    "methodName": "Find the original: the new amount is a percent of the original",
+    "steps": [
+      {
+        "action": "After 20% off, the shoes cost 100% − 20% = 80% of the original price.",
+        "why": "The discount was taken from the original price. What is left, ₱1,600, is the other 80% of it."
+      },
+      {
+        "action": "So 80% of the original price is ₱1,600."
+      },
+      {
+        "action": "Find 10%: ₱1,600 ÷ 8 = ₱200.",
+        "why": "80% is 8 groups of 10%. Dividing by 8 gives one group."
+      },
+      {
+        "action": "Find 100%: ₱200 × 10 = ₱2,000. The original price was ₱2,000.",
+        "why": "Check: 20% of ₱2,000 is ₱400, and ₱2,000 − ₱400 = ₱1,600."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱1,920": "This adds 20% of ₱1,600 (₱320). The 20% was taken from the original price, not from ₱1,600. Check: 20% off ₱1,920 gives ₱1,536, not ₱1,600.",
+    "₱1,280": "This takes another 20% off ₱1,600. The original price is before the discount, so it must be more than ₱1,600.",
+    "₱8,000": "This treats ₱1,600 as the 20%. ₱1,600 is what is left after the discount, which is 80% of the original."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

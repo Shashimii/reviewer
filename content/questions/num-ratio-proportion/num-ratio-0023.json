@@ -1,0 +1,45 @@
+{
+  "id": "num-ratio-0023",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-rates",
+  "difficulty": 2,
+  "stem": "An encoder at the municipal hall types 12 forms in 20 minutes. At this rate, how many forms can she type in 2 hours?",
+  "choices": [
+    "36",
+    "24",
+    "72",
+    "1,440"
+  ],
+  "answer": "72",
+  "hints": [
+    "The rate is given per 20 minutes, but the question asks about hours. Work out the rate per hour first.",
+    "1 hour = 60 minutes, which is 3 lots of 20 minutes.",
+    "Multiply 12 forms by 3 to get the forms per hour. Then multiply by 2 for 2 hours."
+  ],
+  "solution": {
+    "methodName": "Unit rate: divide to get the amount for 1",
+    "steps": [
+      {
+        "action": "One hour = 60 minutes, and 60 ÷ 20 = 3. So 1 hour has 3 lots of 20 minutes."
+      },
+      {
+        "action": "Forms per hour: 12 × 3 = 36 forms.",
+        "why": "She types 12 forms in each 20-minute block, and an hour has 3 blocks."
+      },
+      {
+        "action": "Forms in 2 hours: 36 × 2 = 72 forms."
+      },
+      {
+        "action": "She can type 72 forms in 2 hours."
+      }
+    ]
+  },
+  "trapNotes": {
+    "24": "This is 12 × 2, which treats 20 minutes as if it were 1 hour. An hour has 3 lots of 20 minutes.",
+    "36": "This is the number of forms in 1 hour. The question asks about 2 hours, so multiply by 2.",
+    "1,440": "This is 12 × 120, as if she typed 12 forms every minute. She types 12 forms every 20 minutes, so divide by 20 as well."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

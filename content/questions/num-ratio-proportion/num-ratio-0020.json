@@ -1,0 +1,43 @@
+{
+  "id": "num-ratio-0020",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-rates",
+  "difficulty": 1,
+  "stem": "A delivery van travels 180 km in 3 hours at a steady speed. What is its speed?",
+  "choices": [
+    "540 km/h",
+    "6 km/h",
+    "177 km/h",
+    "60 km/h"
+  ],
+  "answer": "60 km/h",
+  "hints": [
+    "Speed is a rate: how many kilometres the van covers in one hour.",
+    "Speed = distance ÷ time.",
+    "Divide 180 km by 3 hours."
+  ],
+  "solution": {
+    "methodName": "Unit rate: divide to get the amount for 1",
+    "steps": [
+      {
+        "action": "Speed = distance ÷ time.",
+        "why": "Speed is the distance covered in 1 hour, so share the distance equally among the hours."
+      },
+      {
+        "action": "Divide: 180 ÷ 3 = 60.",
+        "why": "Think: 18 ÷ 3 = 6, then put back the zero. Check: 60 × 3 = 180."
+      },
+      {
+        "action": "The van's speed is 60 km/h (60 kilometres per hour)."
+      }
+    ]
+  },
+  "trapNotes": {
+    "540 km/h": "This multiplies (180 × 3). Speed is distance divided by time.",
+    "6 km/h": "This drops a zero: 180 ÷ 3 is 60, not 6. Check: 6 × 3 = 18, not 180.",
+    "177 km/h": "This subtracts (180 − 3). Speed is distance divided by time."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

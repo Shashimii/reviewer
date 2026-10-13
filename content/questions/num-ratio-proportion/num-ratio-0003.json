@@ -1,0 +1,46 @@
+{
+  "id": "num-ratio-0003",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-simplify",
+  "difficulty": 2,
+  "stem": "Liza spends 40 minutes cooking dinner and 2 hours cleaning the house. What is the ratio of her cooking time to her cleaning time?",
+  "choices": [
+    "20 : 1",
+    "1 : 5",
+    "3 : 1",
+    "1 : 3"
+  ],
+  "answer": "1 : 3",
+  "hints": [
+    "The two times are in different units. A ratio needs both amounts in the same unit.",
+    "Change 2 hours into minutes. 1 hour = 60 minutes.",
+    "2 hours = 2 × 60 minutes. Write cooking : cleaning in minutes, then divide both by the biggest number that goes into both."
+  ],
+  "solution": {
+    "methodName": "Convert to the same unit, then simplify",
+    "steps": [
+      {
+        "action": "Change hours to minutes: 2 hours = 2 × 60 = 120 minutes.",
+        "why": "You can only compare amounts in the same unit. Minutes are easier here because they avoid fractions."
+      },
+      {
+        "action": "Write cooking : cleaning = 40 : 120."
+      },
+      {
+        "action": "Divide both numbers by 40: 40 ÷ 40 = 1 and 120 ÷ 40 = 3.",
+        "why": "40 is the biggest number that divides both 40 and 120."
+      },
+      {
+        "action": "The ratio of cooking time to cleaning time is 1 : 3."
+      }
+    ]
+  },
+  "trapNotes": {
+    "20 : 1": "This uses 40 : 2 without changing the hours to minutes. Convert to the same unit first.",
+    "1 : 5": "This treats 1 hour as 100 minutes (40 : 200). An hour has 60 minutes, so 2 hours is 120 minutes.",
+    "3 : 1": "This is cleaning to cooking (120 : 40). The question asks for cooking time first."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,45 @@
+{
+  "id": "num-series-0021",
+  "topicId": "num-number-series",
+  "skill": "series-squares",
+  "difficulty": 1,
+  "stem": "What comes next? 4, 9, 16, 25, 36, ___",
+  "choices": [
+    "49",
+    "47",
+    "64",
+    "72"
+  ],
+  "answer": "49",
+  "hints": [
+    "Do these numbers look familiar? Think of a number times itself.",
+    "4 = 2 × 2 and 9 = 3 × 3. Check 16, 25 and 36 the same way.",
+    "The numbers are 2², 3², 4², 5², 6². The next one is 7², which means 7 × 7."
+  ],
+  "solution": {
+    "methodName": "Compare with squares and cubes",
+    "steps": [
+      {
+        "action": "Check the differences: 9 − 4 = 5, 16 − 9 = 7, 25 − 16 = 9, 36 − 25 = 11. Not the same."
+      },
+      {
+        "action": "Compare with the squares: 4 = 2 × 2, 9 = 3 × 3, 16 = 4 × 4, 25 = 5 × 5, 36 = 6 × 6.",
+        "why": "A square is a number times itself, written with a small 2: 6² = 6 × 6. Learn the squares from 1² to 15² so you can spot them fast."
+      },
+      {
+        "action": "The next number is 7² = 7 × 7 = 49."
+      },
+      {
+        "action": "Check another way: the differences grow by 2 (5, 7, 9, 11), so the next difference is 13, and 36 + 13 = 49. The answer is 49."
+      }
+    ]
+  },
+  "trapNotes": {
+    "47": "This adds 11 again. The steps grow by 2 each time (5, 7, 9, 11), so the next step is 13.",
+    "64": "This is 8², which skips 7². The squares go in order: 6², then 7².",
+    "72": "This doubles 36. The numbers are not doubling: 4 × 2 = 8, not 9."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

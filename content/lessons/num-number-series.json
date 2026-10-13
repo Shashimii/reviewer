@@ -1,0 +1,68 @@
+{
+  "id": "num-number-series-lesson",
+  "topicId": "num-number-series",
+  "workedExampleId": "num-series-0001",
+  "sections": [
+    {
+      "heading": "What a number series is",
+      "body": "A **number series** is a list of numbers that follows a **rule**. Each number in the list is called a **term**. Your job is to find the rule, then use it to fill the blank.\n\nExample: 5, 8, 11, 14, ___. Each term is 3 more than the one before. The rule is +3, so the next term is 14 + 3 = **17**.\n\nSome items put the blank in the middle: 6, 10, ___, 18, 22. Find the rule from the terms you can see (+4), fill the blank (10 + 4 = **14**), then check it with the next term: 14 + 4 = 18."
+    },
+    {
+      "heading": "The checklist: differences, then ratios",
+      "body": "Use this checklist in order. Stop when a rule fits **every** term.\n\n1. **Differences.** A *difference* is what you add to get from one term to the next. Subtract each term from the one after it. 30, 26, 22, 18: each difference is −4, so next is 18 − 4 = **14**.\n2. **Ratios.** If the differences are not the same, divide each term by the one before it. This *ratio* tells you what each term is multiplied by. 3, 6, 12, 24: 6 ÷ 3 = 2, 12 ÷ 6 = 2, 24 ÷ 12 = 2. The rule is ×2, so next is **48**. If the terms get smaller, like 400, 200, 100, the rule is ÷2.\n\nBy-hand shortcuts (no calculator on exam day):\n\n- Below zero, count steps on a number line. From 1 down to −3 is 4 steps, so −3 − 4 = −7.\n- If the signs take turns (1, −3, 9, −27), the ratio is negative: ×(−3).\n- ×1.5 means \"add half\": 40 × 1.5 = 40 + 20 = 60."
+    },
+    {
+      "heading": "When the differences change",
+      "body": "Sometimes the differences are not the same, but they follow their own simple rule. Write the differences in a row and run the checklist on **them**.\n\n- 1, 2, 4, 7, 11, ___: the differences are 1, 2, 3, 4. They grow by 1, so the next difference is 5, and the next term is 11 + 5 = **16**.\n- 3, 4, 6, 10, 18, ___: the differences are 1, 2, 4, 8. Each one doubles, so the next difference is 16, and the next term is 18 + 16 = **34**."
+    },
+    {
+      "heading": "Two patterns taking turns",
+      "body": "If the terms jump up and down, the list may be two series mixed together.\n\n**Split into two series.** Put the 1st, 3rd and 5th terms in one row, and the 2nd, 4th and 6th in another. 1, 20, 3, 18, 5, 16, ___: the first row is 1, 3, 5 (+2), and the second is 20, 18, 16 (−2). The blank is the 7th term, so it belongs to the first row: 5 + 2 = **7**.\n\n**Two steps taking turns.** Sometimes two different steps take turns. 1, 3, 9, 11, 33, ___ goes +2, ×3, +2, ×3. The last step was ×3, so the next is +2: 33 + 2 = **35**."
+    },
+    {
+      "heading": "Squares and cubes",
+      "body": "A *square* is a number times itself: 4² = 4 × 4 = 16. A *cube* is a number times itself three times: 2³ = 2 × 2 × 2 = 8. If the differences keep growing, compare the terms with these tables. Learn them by heart.\n\n| n | n² | n | n² | n | n² |\n|---|---|---|---|---|---|\n| 1 | 1 | 6 | 36 | 11 | 121 |\n| 2 | 4 | 7 | 49 | 12 | 144 |\n| 3 | 9 | 8 | 64 | 13 | 169 |\n| 4 | 16 | 9 | 81 | 14 | 196 |\n| 5 | 25 | 10 | 100 | 15 | 225 |\n\n| n | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| n³ | 1 | 8 | 27 | 64 | 125 | 216 |\n\nExample: 1, 4, 9, 16, ___ are 1², 2², 3², 4², so next is 5² = **25**. Watch for a twist: 2, 5, 10, 17, ___ are each a square + 1, so next is 5² + 1 = **26**."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Reusing the old step** when the steps grow. In 1, 2, 4, 7, ___, the next step is +4, not +3 again.\n- **Going the wrong way.** If the terms get smaller, take away or divide.\n- **Sign slips below zero.** −3 − 4 is −7, not −1.\n- **Taking from the wrong series** when two series take turns. Count the places: odd places belong to one series, even places to the other.\n- **Picking the halfway number** for a blank in the middle. It only works when all the steps are equal.\n- **Forgetting the twist**, like the +1 in \"square + 1\".\n- **Checking only one pair.** Test your rule on every term before you answer."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Number series",
+      "definition": "A list of numbers that follows a rule.",
+      "taglish": "Number series – listahan ng mga numero na sumusunod sa isang pattern o rule"
+    },
+    {
+      "term": "Term",
+      "definition": "One number in a series.",
+      "taglish": "Term – isang numero sa loob ng series, halimbawa ang 3rd term"
+    },
+    {
+      "term": "Rule",
+      "definition": "What you do to one term to get the next one, such as +7 or ×2.",
+      "taglish": "Rule – ang ginagawa sa isang numero para makuha ang kasunod, gaya ng +7 o ×2"
+    },
+    {
+      "term": "Difference",
+      "definition": "How much you add or take away to get from one term to the next.",
+      "taglish": "Difference – ang layo ng dalawang magkasunod na numero; ibawas ang nauna sa kasunod"
+    },
+    {
+      "term": "Ratio",
+      "definition": "The number you multiply one term by to get the next; find it by dividing a term by the one before it.",
+      "taglish": "Ratio – kung ilang beses pinarami ang isang numero para makuha ang kasunod"
+    },
+    {
+      "term": "Square",
+      "definition": "A number times itself, such as 6² = 6 × 6 = 36.",
+      "taglish": "Square – numerong pinarami sa sarili niya, halimbawa 6 × 6 = 36"
+    },
+    {
+      "term": "Cube",
+      "definition": "A number times itself three times, such as 3³ = 3 × 3 × 3 = 27.",
+      "taglish": "Cube – numerong pinarami sa sarili niya nang tatlong beses, halimbawa 3 × 3 × 3 = 27"
+    }
+  ]
+}

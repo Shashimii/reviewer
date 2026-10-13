@@ -1,0 +1,45 @@
+{
+  "id": "num-series-0009",
+  "topicId": "num-number-series",
+  "skill": "series-multiply",
+  "difficulty": 2,
+  "stem": "What is the missing number? 3, 12, ___, 192, 768",
+  "choices": [
+    "96",
+    "48",
+    "21",
+    "36"
+  ],
+  "answer": "48",
+  "hints": [
+    "The numbers grow fast. Check whether each number is multiplied by the same amount.",
+    "Find the first ratio: 12 ÷ 3.",
+    "12 ÷ 3 = 4 and 768 ÷ 192 = 4, so the rule is ×4. Multiply 12 by 4, then check that the result × 4 gives 192."
+  ],
+  "solution": {
+    "methodName": "Find the rule: check differences, then ratios",
+    "steps": [
+      {
+        "action": "Check the differences you can see: 12 − 3 = 9 and 768 − 192 = 576. Very different, so it is not adding."
+      },
+      {
+        "action": "Check the ratios you can see: 12 ÷ 3 = 4 and 768 ÷ 192 = 4. The rule is ×4.",
+        "why": "To work out 768 ÷ 192 by hand, try multiplying: 192 × 4 = 768."
+      },
+      {
+        "action": "Fill the blank: 12 × 4 = 48."
+      },
+      {
+        "action": "Check: 48 × 4 = 192, which matches the number after the blank. The missing number is 48."
+      }
+    ]
+  },
+  "trapNotes": {
+    "21": "This adds 9 (the step from 3 to 12) again. The numbers grow too fast for adding: 21 + 9 = 30, not 192.",
+    "36": "This is 12 × 3. The rule is ×4, because 3 × 4 = 12.",
+    "96": "This is 192 ÷ 2. Going back one step undoes ×4, so divide by 4: 192 ÷ 4 = 48."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

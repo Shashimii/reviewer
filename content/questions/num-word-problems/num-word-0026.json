@@ -1,0 +1,48 @@
+{
+  "id": "num-word-0026",
+  "topicId": "num-word-problems",
+  "skill": "word-money",
+  "difficulty": 1,
+  "stem": "Ana bought a bag for ₱400 and sold it for ₱500. What was her profit percent?",
+  "choices": [
+    "20%",
+    "25%",
+    "80%",
+    "125%"
+  ],
+  "answer": "25%",
+  "hints": [
+    "Profit percent always compares the profit with the cost (the buying price).",
+    "Profit = ₱500 − ₱400.",
+    "Divide the profit by ₱400 and change the fraction to a percent."
+  ],
+  "solution": {
+    "methodName": "Profit or loss percent: divide by the cost",
+    "steps": [
+      {
+        "action": "Let p = the profit percent."
+      },
+      {
+        "action": "Profit = selling price − cost = ₱500 − ₱400 = ₱100."
+      },
+      {
+        "action": "p = profit ÷ cost × 100% = 100 ÷ 400 × 100%.",
+        "why": "The base is always what she paid for the bag (the cost)."
+      },
+      {
+        "action": "100 ÷ 400 = 1/4 = 25%."
+      },
+      {
+        "action": "Check: 25% of ₱400 = ₱100, and ₱400 + ₱100 = ₱500. Her profit was 25%."
+      }
+    ]
+  },
+  "trapNotes": {
+    "20%": "This divides the profit by the selling price (100 ÷ 500). Profit percent uses the cost, ₱400, as the base.",
+    "80%": "This is 400 ÷ 500, the cost compared with the selling price. Find the profit first, then divide it by the cost.",
+    "125%": "This is 500 ÷ 400, the selling price as a percent of the cost. The profit is only the part above 100%."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

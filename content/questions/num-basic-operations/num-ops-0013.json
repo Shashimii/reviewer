@@ -1,0 +1,52 @@
+{
+  "id": "num-ops-0013",
+  "topicId": "num-basic-operations",
+  "skill": "ops-order",
+  "difficulty": 3,
+  "stem": "What is 5 − 3 × (−4) + (−18) ÷ 6?",
+  "choices": [
+    "14",
+    "−11",
+    "20",
+    "−10"
+  ],
+  "answer": "14",
+  "hints": [
+    "Do the × and ÷ first. Each one has a negative number, so watch the signs.",
+    "Work out 3 × (−4) and (−18) ÷ 6.",
+    "Put those answers back in: 5 − (−12) + (−3). Subtracting a negative means adding. Finish from left to right."
+  ],
+  "solution": {
+    "methodName": "PEMDAS: brackets, powers, × ÷ left to right, + − left to right",
+    "steps": [
+      {
+        "action": "Multiply: 3 × (−4) = −12.",
+        "why": "Different signs give a negative answer."
+      },
+      {
+        "action": "Divide: (−18) ÷ 6 = −3.",
+        "why": "Different signs give a negative answer."
+      },
+      {
+        "action": "Rewrite: 5 − (−12) + (−3)."
+      },
+      {
+        "action": "Subtracting a negative is adding: 5 − (−12) = 5 + 12 = 17."
+      },
+      {
+        "action": "Adding a negative is subtracting: 17 + (−3) = 17 − 3 = 14."
+      },
+      {
+        "action": "The answer is 14."
+      }
+    ]
+  },
+  "trapNotes": {
+    "20": "This uses 5 + 12 + 3. But (−18) ÷ 6 is −3, so the 3 is subtracted, not added.",
+    "−11": "This subtracts first: 5 − 3 = 2, then 2 × (−4) = −8, and −8 + (−3) = −11. Multiplication comes before subtraction.",
+    "−10": "This uses 5 − 12 − 3. But 5 − (−12) takes away a negative, which is the same as adding 12."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

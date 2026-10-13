@@ -1,0 +1,52 @@
+{
+  "id": "num-word-0016",
+  "topicId": "num-word-problems",
+  "skill": "word-motion",
+  "difficulty": 2,
+  "stem": "The province is 120 km from Lito's house. He drove there at 60 km/h and drove back home on the same road at 40 km/h. What was his average speed for the whole round trip?",
+  "choices": [
+    "48 km/h",
+    "50 km/h",
+    "24 km/h",
+    "100 km/h"
+  ],
+  "answer": "48 km/h",
+  "hints": [
+    "Average speed is not the average of the two speeds. Use total distance ÷ total time.",
+    "Time going = 120 ÷ 60 hours. Time coming back = 120 ÷ 40 hours.",
+    "Add the two times. The total distance is 120 + 120. Divide the total distance by the total time."
+  ],
+  "solution": {
+    "methodName": "D = R × T (distance = rate × time)",
+    "steps": [
+      {
+        "action": "Let s = the average speed for the round trip, in km/h."
+      },
+      {
+        "action": "Time going: T = D ÷ R = 120 ÷ 60 = 2 hours."
+      },
+      {
+        "action": "Time coming back: 120 ÷ 40 = 3 hours."
+      },
+      {
+        "action": "Total time: 2 + 3 = 5 hours. Total distance: 120 + 120 = 240 km.",
+        "why": "A round trip means there and back, so the distance counts twice."
+      },
+      {
+        "action": "Average speed = total distance ÷ total time: s = 240 ÷ 5 = 48 km/h.",
+        "why": "He drove longer at 40 km/h than at 60 km/h, so the average is closer to 40 than to 60."
+      },
+      {
+        "action": "Check: 48 × 5 = 240 km, the whole round trip. His average speed was 48 km/h."
+      }
+    ]
+  },
+  "trapNotes": {
+    "50 km/h": "This averages the two speeds, (60 + 40) ÷ 2. He spent more time at the slower speed, so the true average is below 50. Use total distance ÷ total time.",
+    "24 km/h": "This uses only one way: 120 km ÷ 5 hours. The round trip is 120 + 120 = 240 km.",
+    "100 km/h": "This adds the two speeds. Average speed = total distance ÷ total time."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

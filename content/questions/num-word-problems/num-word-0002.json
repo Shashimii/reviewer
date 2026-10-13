@@ -1,0 +1,46 @@
+{
+  "id": "num-word-0002",
+  "topicId": "num-word-problems",
+  "skill": "word-age",
+  "difficulty": 1,
+  "stem": "Lito is twice as old as his niece Bea. Bea is 14 years old now. How old was Lito 5 years ago?",
+  "choices": [
+    "9",
+    "18",
+    "23",
+    "33"
+  ],
+  "answer": "23",
+  "hints": [
+    "\"Twice as old\" is true now. Find Lito's age now before you go back in time.",
+    "Lito's age now = 2 × Bea's age now = 2 × 14.",
+    "Take Lito's age now and subtract 5 years."
+  ],
+  "solution": {
+    "methodName": "Age table: Now, Past, Future",
+    "steps": [
+      {
+        "action": "Let x = Lito's age now."
+      },
+      {
+        "action": "Lito is twice as old as Bea now: x = 2 × 14 = 28.",
+        "why": "\"Twice as old\" compares their ages now, so use Bea's age now."
+      },
+      {
+        "action": "5 years ago: 28 − 5 = 23.",
+        "why": "Past ages take years away."
+      },
+      {
+        "action": "Check: 23 + 5 = 28, and 28 = 2 × 14. Lito was 23 years old 5 years ago."
+      }
+    ]
+  },
+  "trapNotes": {
+    "9": "This is Bea's age 5 years ago (14 − 5). The question asks for Lito's age.",
+    "18": "This doubles Bea's age 5 years ago (2 × 9). Lito is twice as old as Bea now, not in the past. Find his age now first: 2 × 14 = 28.",
+    "33": "This is 28 + 5, his age 5 years from now. \"Ago\" means subtract."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

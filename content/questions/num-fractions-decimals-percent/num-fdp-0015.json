@@ -1,0 +1,46 @@
+{
+  "id": "num-fdp-0015",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-convert",
+  "difficulty": 2,
+  "stem": "Write 12.5% as a fraction in lowest terms.",
+  "choices": [
+    "1/8",
+    "5/4",
+    "1/80",
+    "25/2"
+  ],
+  "answer": "1/8",
+  "hints": [
+    "Percent means \"out of 100\". Write 12.5 over 100.",
+    "12.5/100 has a decimal on top. Multiply the top and the bottom by 10 to clear it.",
+    "You get 125/1000. Divide the top and the bottom by 125."
+  ],
+  "solution": {
+    "methodName": "Percent to fraction: put it over 100, then simplify",
+    "steps": [
+      {
+        "action": "Write the percent over 100: 12.5% = 12.5/100."
+      },
+      {
+        "action": "Clear the decimal: 12.5 × 10 = 125 and 100 × 10 = 1000. So 12.5/100 = 125/1000.",
+        "why": "Multiplying the top and the bottom by the same number keeps the value the same."
+      },
+      {
+        "action": "Simplify: 125 ÷ 125 = 1 and 1000 ÷ 125 = 8.",
+        "why": "125 × 8 = 1000. If that is hard to see, divide by 5 three times: 125/1000 → 25/200 → 5/40 → 1/8."
+      },
+      {
+        "action": "So 12.5% = 1/8."
+      }
+    ]
+  },
+  "trapNotes": {
+    "5/4": "This multiplies only the top by 10 (125/100). Multiply the top and the bottom by the same number.",
+    "1/80": "This multiplies only the bottom by 10 (12.5/1000). Multiply the top and the bottom by the same number.",
+    "25/2": "This is 12.5 written as a fraction. It forgets that percent means \"out of 100\", so it never divides by 100."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,51 @@
+{
+  "id": "num-word-0027",
+  "topicId": "num-word-problems",
+  "skill": "word-money",
+  "difficulty": 2,
+  "stem": "A ₱2,000 rice cooker is on sale at 20% off. At the counter, you get an extra 10% off the sale price. How much do you pay?",
+  "choices": [
+    "₱1,400",
+    "₱1,600",
+    "₱1,440",
+    "₱560"
+  ],
+  "answer": "₱1,440",
+  "hints": [
+    "Two discounts in a row do not add up. The second one is taken from the new, lower price.",
+    "First discount: 20% of ₱2,000 = ₱400, so the sale price is ₱1,600.",
+    "Now find 10% of ₱1,600 and subtract it from ₱1,600."
+  ],
+  "solution": {
+    "methodName": "Discount: pay (100% − discount) of the price",
+    "steps": [
+      {
+        "action": "Let f = the final price you pay."
+      },
+      {
+        "action": "First discount: 20% of ₱2,000 = 2,000 ÷ 100 × 20 = ₱400."
+      },
+      {
+        "action": "Sale price: ₱2,000 − ₱400 = ₱1,600."
+      },
+      {
+        "action": "Second discount: 10% of ₱1,600 = 1,600 ÷ 10 = ₱160.",
+        "why": "The extra 10% is off the sale price, so the base is now ₱1,600."
+      },
+      {
+        "action": "Final price: f = ₱1,600 − ₱160 = ₱1,440."
+      },
+      {
+        "action": "Check: the total discount is ₱2,000 − ₱1,440 = ₱560, which is 28% of ₱2,000, not 30%. You pay ₱1,440."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱1,400": "This takes 30% off at once (20% + 10%). The second 10% comes off the lower sale price, ₱1,600, not off ₱2,000.",
+    "₱1,600": "This applies only the first discount. Take another 10% off ₱1,600.",
+    "₱560": "This is the total discount (₱2,000 − ₱1,440). The question asks how much you pay."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

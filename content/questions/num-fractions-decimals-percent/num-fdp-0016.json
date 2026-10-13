@@ -1,0 +1,53 @@
+{
+  "id": "num-fdp-0016",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-convert",
+  "difficulty": 2,
+  "stem": "Which is the largest: 2/5, 0.395, 41%, or 3/8?",
+  "choices": [
+    "2/5",
+    "0.395",
+    "41%",
+    "3/8"
+  ],
+  "answer": "41%",
+  "hints": [
+    "Fractions, decimals and percents are hard to compare as they are. Change them all to the same form.",
+    "Change all of them to decimals. For 2/5, make the bottom 10: 2/5 = 4/10.",
+    "2/5 = 0.4, 41% = 0.41 and 3/8 = 0.375. Write each with three digits after the point and compare them with 0.395."
+  ],
+  "solution": {
+    "methodName": "Compare: change everything to decimals",
+    "steps": [
+      {
+        "action": "2/5: 2 × 2 = 4 and 5 × 2 = 10, so 2/5 = 4/10 = 0.4 = 0.400."
+      },
+      {
+        "action": "0.395 is already a decimal."
+      },
+      {
+        "action": "41% = 41 ÷ 100 = 0.41 = 0.410.",
+        "why": "To change a percent to a decimal, move the point two places left."
+      },
+      {
+        "action": "3/8 = 0.375.",
+        "why": "1/8 = 0.125, so 3/8 = 3 × 0.125 = 0.375. This one is worth memorizing."
+      },
+      {
+        "action": "Compare: 0.410 > 0.400 > 0.395 > 0.375.",
+        "why": "With three digits after the point, you can compare them like whole numbers: 410, 400, 395, 375."
+      },
+      {
+        "action": "The largest is 41%."
+      }
+    ]
+  },
+  "trapNotes": {
+    "2/5": "2/5 = 0.400 is close, but 41% = 0.410 is a little bigger. Change everything to decimals before deciding.",
+    "0.395": "More digits does not mean bigger. 0.395 is less than 0.400 and 0.410.",
+    "3/8": "3/8 = 0.375, the smallest of the four. A fraction with bigger numbers in it is not always bigger."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

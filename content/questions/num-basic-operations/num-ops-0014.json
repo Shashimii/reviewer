@@ -1,0 +1,45 @@
+{
+  "id": "num-ops-0014",
+  "topicId": "num-basic-operations",
+  "skill": "ops-powers",
+  "difficulty": 1,
+  "stem": "What is 4³?",
+  "choices": [
+    "12",
+    "16",
+    "64",
+    "81"
+  ],
+  "answer": "64",
+  "hints": [
+    "The small 3 tells you how many 4s to multiply together.",
+    "Write it out: 4³ = 4 × 4 × 4.",
+    "Multiply the first two 4s, then multiply that answer by the last 4."
+  ],
+  "solution": {
+    "methodName": "Write the power as repeated multiplication",
+    "steps": [
+      {
+        "action": "4³ means three 4s multiplied together: 4 × 4 × 4.",
+        "why": "The big number (4) is the base. The small number (3) is the exponent: it says how many times the base is used."
+      },
+      {
+        "action": "Multiply the first two: 4 × 4 = 16."
+      },
+      {
+        "action": "Multiply by the last 4: 16 × 4 = 64."
+      },
+      {
+        "action": "4³ = 64."
+      }
+    ]
+  },
+  "trapNotes": {
+    "12": "This is 4 × 3. The exponent 3 means three 4s multiplied together, not 4 times 3.",
+    "16": "This is 4 × 4, which is 4². You need one more 4: 4 × 4 × 4.",
+    "81": "This is 3⁴ = 3 × 3 × 3 × 3. The base is 4 and the exponent is 3, not the other way around."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

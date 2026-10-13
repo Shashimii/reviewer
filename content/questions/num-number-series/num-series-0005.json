@@ -1,0 +1,45 @@
+{
+  "id": "num-series-0005",
+  "topicId": "num-number-series",
+  "skill": "series-add",
+  "difficulty": 2,
+  "stem": "What is the missing number? 83, 71, ___, 47, 35",
+  "choices": [
+    "61",
+    "83",
+    "60",
+    "59"
+  ],
+  "answer": "59",
+  "hints": [
+    "The numbers go down. Use two numbers that sit side by side to find how much they drop.",
+    "Find the first difference: 83 − 71.",
+    "The numbers drop by 12 each time. Take 12 away from 71, then check that taking 12 away again gives 47."
+  ],
+  "solution": {
+    "methodName": "Find the rule: check differences, then ratios",
+    "steps": [
+      {
+        "action": "Check the differences you can see: 83 − 71 = 12 and 47 − 35 = 12."
+      },
+      {
+        "action": "Both differences are 12, and the numbers go down, so the rule is −12."
+      },
+      {
+        "action": "Fill the blank: 71 − 12 = 59.",
+        "why": "Take it away in two parts: 71 − 10 = 61, then 61 − 2 = 59."
+      },
+      {
+        "action": "Check: 59 − 12 = 47, which matches the number after the blank. The missing number is 59."
+      }
+    ]
+  },
+  "trapNotes": {
+    "60": "60 looks like it sits between 71 and 47, but the steps are not equal: 71 − 60 = 11 and 60 − 47 = 13.",
+    "61": "This is a borrowing slip in 71 − 12. Do it in two parts: 71 − 10 = 61, then 61 − 2 = 59.",
+    "83": "This adds 12 to 71. The numbers go down, so take 12 away."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

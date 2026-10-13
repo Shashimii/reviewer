@@ -1,0 +1,52 @@
+{
+  "id": "num-word-0029",
+  "topicId": "num-word-problems",
+  "skill": "word-money",
+  "difficulty": 2,
+  "stem": "After a 20% discount, a dress costs ₱960. What was its original price?",
+  "choices": [
+    "₱1,152",
+    "₱1,200",
+    "₱768",
+    "₱980"
+  ],
+  "answer": "₱1,200",
+  "hints": [
+    "After 20% off, you pay 80% of the original price. So ₱960 is 80% of the original price.",
+    "Let x = the original price. Then 80% of x = ₱960, which is 0.8x = 960.",
+    "Divide 960 by 0.8. Tip: 960 ÷ 0.8 is the same as 9,600 ÷ 8."
+  ],
+  "solution": {
+    "methodName": "Discount: pay (100% − discount) of the price",
+    "steps": [
+      {
+        "action": "Let x = the original price."
+      },
+      {
+        "action": "20% off means you pay 100% − 20% = 80% of x."
+      },
+      {
+        "action": "So 80% of x = ₱960, which is 0.8x = 960."
+      },
+      {
+        "action": "x = 960 ÷ 0.8.",
+        "why": "To undo multiplying by 0.8, divide by 0.8."
+      },
+      {
+        "action": "960 ÷ 0.8 = 9,600 ÷ 8 = 1,200. So x = ₱1,200.",
+        "why": "Multiply both numbers by 10 to remove the decimal. The answer stays the same."
+      },
+      {
+        "action": "Check: 20% of ₱1,200 = ₱240, and ₱1,200 − ₱240 = ₱960. The original price was ₱1,200."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱1,152": "This adds 20% of ₱960 (₱192). The 20% discount was taken from the original price, not from ₱960.",
+    "₱768": "This takes another 20% off ₱960. The original price is higher than the sale price, not lower.",
+    "₱980": "This adds 20 pesos. The discount is 20% of the original price, not ₱20."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

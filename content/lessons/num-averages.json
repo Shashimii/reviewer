@@ -1,0 +1,68 @@
+{
+  "id": "num-averages-lesson",
+  "topicId": "num-averages",
+  "workedExampleId": "num-avg-0001",
+  "sections": [
+    {
+      "heading": "What an average is",
+      "body": "An *average* (also called the *mean*) is the equal share. If everything were shared out equally, the average is how much each one would get.\n\n**Average = total ÷ count**\n\n- The **total** is all the numbers added together.\n- The **count** is how many numbers there are.\n\nTurn it around and you get the key idea of this topic:\n\n**Total = average × count**\n\nExample: 3 friends have an average of ₱50 each. Together they have ₱50 × 3 = ₱150. Most averages questions start by finding a total this way."
+    },
+    {
+      "heading": "Finding the average",
+      "body": "Add all the numbers, then divide by how many there are.\n\nExample: 4, 7 and 10. Total = 4 + 7 + 10 = 21. Count = 3. Average = 21 ÷ 3 = 7.\n\nA score of 0 still counts. It adds nothing to the total, but it adds 1 to the count.\n\n**Middle-number shortcut.** *Consecutive* numbers come one right after another, like 21, 22, 23, 24, 25. When numbers are *evenly spaced* (they go up by the same step each time), the average is simply the middle number. For 21 to 25, the average is 23.\n\nIf there are two middle numbers, use (first + last) ÷ 2. For 2, 4, 6, 8: (2 + 8) ÷ 2 = 5.\n\n**No calculator on exam day:**\n\n- To divide by 4, halve twice: 144 ÷ 2 = 72, then 72 ÷ 2 = 36.\n- To divide by 5, double, then divide by 10: 1,400 → 2,800 → 280.\n- Add in friendly pairs: 1,250 + 1,450 = 2,700.\n- Check your answer: average × count should give back the total."
+    },
+    {
+      "heading": "Finding a missing number",
+      "body": "Use the average to find the total you need, then subtract what you already know.\n\nExample: the average of 3 numbers is 10. Two of them are 8 and 9. What is the third?\n\n1. Total needed = 10 × 3 = 30.\n2. Known so far = 8 + 9 = 17.\n3. Missing number = 30 − 17 = 13.\n\nThe same steps answer \"What score do I need on the next test?\""
+    },
+    {
+      "heading": "Averages of groups (weighted average)",
+      "body": "When two groups are different sizes, **do not just take halfway between the two averages.** The bigger group pulls the average toward itself. This is called a *weighted average*.\n\n1. Find each group's total (average × count).\n2. Add the totals.\n3. Divide by the number in **all** the groups together.\n\nExample: 3 bags cost ₱10 each and 1 bag costs ₱30.\n\n- Total = 3 × ₱10 + ₱30 = ₱30 + ₱30 = ₱60.\n- Count = 3 + 1 = 4 bags.\n- Average = ₱60 ÷ 4 = ₱15, not ₱20."
+    },
+    {
+      "heading": "When someone joins or leaves",
+      "body": "Compare the totals before and after.\n\n- **Someone joins:** old total + their number, then divide by the new count.\n- **Someone leaves:** old total − their number, then divide by the new count.\n- **Find the newcomer's number:** new total − old total.\n\nExample: 4 people bring an average of 10 kg of rice. A fifth person brings 15 kg.\n\n1. Old total = 10 × 4 = 40 kg.\n2. New total = 40 + 15 = 55 kg.\n3. New average = 55 ÷ 5 = 11 kg.\n\n**Shortcut:** the newcomer is 5 kg above the old average. Those 5 extra kilograms are shared by 5 people, so the average goes up by 5 ÷ 5 = 1."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Forgetting to divide.** The total is not the average.\n- **Wrong count.** From 46 to 50 there are 5 numbers, not 4. A 0 score still counts. After someone joins or leaves, use the new count.\n- **Halfway between two averages.** For groups of different sizes, always work with totals.\n- **Mixing up the groups.** Multiply each average by its own group's count.\n- **Answering with the average.** A missing number is whatever makes the total right. It is rarely the average itself.\n- **Not sharing a change.** If one number in a group of 6 goes down by 18, the average goes down by 18 ÷ 6 = 3, not by 18."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Average",
+      "definition": "The equal share you get when you add all the numbers and divide by how many there are.",
+      "taglish": "Average – ang pantay na hati; i-add lahat, tapos i-divide sa kung ilan sila"
+    },
+    {
+      "term": "Mean",
+      "definition": "Another name for the average.",
+      "taglish": "Mean – ibang tawag sa average"
+    },
+    {
+      "term": "Total",
+      "definition": "The answer you get when you add all the numbers together.",
+      "taglish": "Total – ang kabuuan kapag pinagsama-sama mo lahat"
+    },
+    {
+      "term": "Count",
+      "definition": "How many numbers, people or things you are averaging.",
+      "taglish": "Count – kung ilan ang binibilang mo, halimbawa 5 quizzes o 8 players"
+    },
+    {
+      "term": "Consecutive numbers",
+      "definition": "Numbers that come one right after another, like 21, 22, 23.",
+      "taglish": "Consecutive numbers – magkakasunod na numbers, tulad ng 21, 22, 23"
+    },
+    {
+      "term": "Evenly spaced",
+      "definition": "Going up by the same step each time, like 2, 4, 6, 8.",
+      "taglish": "Evenly spaced – pare-pareho ang agwat, halimbawa laging +2"
+    },
+    {
+      "term": "Weighted average",
+      "definition": "The average of groups of different sizes, where a bigger group counts more.",
+      "taglish": "Weighted average – average ng mga grupo na magkaiba ang laki; mas malaki ang grupo, mas malakas ang hila"
+    }
+  ]
+}

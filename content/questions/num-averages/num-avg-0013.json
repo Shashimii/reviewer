@@ -1,0 +1,49 @@
+{
+  "id": "num-avg-0013",
+  "topicId": "num-averages",
+  "skill": "avg-weighted",
+  "difficulty": 1,
+  "stem": "Lito sold 4 shirts at ₱150 each and 1 shirt at ₱200. What is the average price of the 5 shirts?",
+  "choices": [
+    "₱175",
+    "₱200",
+    "₱160",
+    "₱800"
+  ],
+  "answer": "₱160",
+  "hints": [
+    "Four shirts cost ₱150 but only one costs ₱200. Should the two prices count equally?",
+    "Find the total price: 4 × ₱150, plus ₱200.",
+    "The total is ₱800 for 5 shirts. Divide the total by the number of shirts."
+  ],
+  "solution": {
+    "methodName": "Weighted average: add group totals, divide by total count",
+    "steps": [
+      {
+        "action": "Total for the ₱150 shirts: 4 × ₱150 = ₱600.",
+        "why": "Each of the 4 shirts adds ₱150 to the total."
+      },
+      {
+        "action": "Add the ₱200 shirt: ₱600 + ₱200 = ₱800."
+      },
+      {
+        "action": "Count all the shirts: 4 + 1 = 5."
+      },
+      {
+        "action": "Divide: ₱800 ÷ 5 = ₱160.",
+        "why": "Every shirt counts once, so the ₱150 price, which appears 4 times, pulls the average down toward ₱150."
+      },
+      {
+        "action": "The average price is ₱160."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱175": "This is halfway between ₱150 and ₱200. But 4 shirts cost ₱150 and only 1 costs ₱200, so the average is pulled closer to ₱150.",
+    "₱200": "This is ₱800 ÷ 4. There are 5 shirts in all (4 + 1), so divide by 5.",
+    "₱800": "This is the total price of all the shirts. Divide it by 5 to get the average price."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

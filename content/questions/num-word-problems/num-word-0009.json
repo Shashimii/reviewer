@@ -1,0 +1,52 @@
+{
+  "id": "num-word-0009",
+  "topicId": "num-word-problems",
+  "skill": "word-work",
+  "difficulty": 2,
+  "stem": "Ana can type a report in 2 hours. Bea can type the same report in 3 hours. If they work together, how many minutes will it take them?",
+  "choices": [
+    "50 minutes",
+    "72 minutes",
+    "150 minutes",
+    "300 minutes"
+  ],
+  "answer": "72 minutes",
+  "hints": [
+    "Working together is faster than either one alone, so the answer is less than 2 hours (120 minutes).",
+    "Ana types 1/2 of the report per hour. Bea types 1/3 of it per hour. Add these rates.",
+    "1/2 + 1/3 = 3/6 + 2/6. Flip the sum to get the time in hours, then multiply by 60 for minutes."
+  ],
+  "solution": {
+    "methodName": "Work rates: rate = 1 ÷ time, then add the rates",
+    "steps": [
+      {
+        "action": "Let t = the time, in hours, for Ana and Bea working together."
+      },
+      {
+        "action": "Ana's rate: 1/2 of the report per hour. Bea's rate: 1/3 of the report per hour."
+      },
+      {
+        "action": "Add the rates: 1/2 + 1/3 = 3/6 + 2/6 = 5/6 of the report per hour.",
+        "why": "To add fractions, give them the same bottom number. 6 works for both 2 and 3."
+      },
+      {
+        "action": "Time = 1 ÷ rate: t = 1 ÷ 5/6 = 6/5 hours.",
+        "why": "Dividing by a fraction is the same as multiplying by it flipped: 1 × 6/5."
+      },
+      {
+        "action": "Change to minutes: 6/5 × 60 = 360 ÷ 5 = 72 minutes."
+      },
+      {
+        "action": "Check: in 6/5 hours Ana types 6/5 × 1/2 = 3/5 and Bea types 6/5 × 1/3 = 2/5 of the report. 3/5 + 2/5 = 1 whole report. It takes 72 minutes."
+      }
+    ]
+  },
+  "trapNotes": {
+    "50 minutes": "This is 5/6 of an hour, their combined rate. You forgot to flip it: time = 1 ÷ 5/6 = 6/5 hours.",
+    "150 minutes": "This is the average of 2 and 3 hours (2 1/2 hours). Working together must be faster than Ana alone (2 hours).",
+    "300 minutes": "This adds the times: 2 + 3 = 5 hours. Add the rates, not the hours."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

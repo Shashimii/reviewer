@@ -1,0 +1,45 @@
+{
+  "id": "num-ratio-0014",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-share",
+  "difficulty": 1,
+  "stem": "Joy and Karen share some mangoes in the ratio 2 : 3. Joy gets 10 mangoes. How many mangoes does Karen get?",
+  "choices": [
+    "11",
+    "15",
+    "25",
+    "6"
+  ],
+  "answer": "15",
+  "hints": [
+    "Joy's 2 parts are worth 10 mangoes. Find what 1 part is worth.",
+    "One part = 10 ÷ 2.",
+    "Karen has 3 parts. Multiply the value of one part by 3."
+  ],
+  "solution": {
+    "methodName": "Find one part, then multiply",
+    "steps": [
+      {
+        "action": "Joy has 2 parts, and they make 10 mangoes.",
+        "why": "Joy is named first, so her number is the first number in the ratio, 2."
+      },
+      {
+        "action": "Find one part: 10 ÷ 2 = 5 mangoes."
+      },
+      {
+        "action": "Karen has 3 parts: 3 × 5 = 15 mangoes."
+      },
+      {
+        "action": "Karen gets 15 mangoes."
+      }
+    ]
+  },
+  "trapNotes": {
+    "6": "This treats 10 as all the mangoes (10 ÷ 5 × 3). But 10 is only Joy's share, which is 2 parts.",
+    "11": "This adds 1 because 3 is 1 more than 2. Ratios work by multiplying: here each part is 5 mangoes.",
+    "25": "This is the total for both girls (10 + 15). The question asks for Karen's share only."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

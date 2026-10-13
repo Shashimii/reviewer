@@ -1,0 +1,50 @@
+{
+  "id": "num-avg-0022",
+  "topicId": "num-averages",
+  "skill": "avg-change",
+  "difficulty": 3,
+  "stem": "A barangay basketball team of 10 players has an average height of 170 cm. Two players leave the team, and the average height of the 8 who remain is 168 cm. What is the average height of the 2 players who left?",
+  "choices": [
+    "356 cm",
+    "178 cm",
+    "172 cm",
+    "166 cm"
+  ],
+  "answer": "178 cm",
+  "hints": [
+    "Work with totals: the whole team's total height, and the total of the 8 who stayed.",
+    "Team total = 170 × 10. Remaining total = 168 × 8.",
+    "Subtract to get the total height of the 2 who left, then divide by 2."
+  ],
+  "solution": {
+    "methodName": "Compare totals before and after the change",
+    "steps": [
+      {
+        "action": "Total height of all 10 players: 170 × 10 = 1,700 cm.",
+        "why": "Total = average × count."
+      },
+      {
+        "action": "Total height of the 8 who remain: 168 × 8 = 1,344 cm.",
+        "why": "By hand: 160 × 8 = 1,280 and 8 × 8 = 64, so 1,280 + 64 = 1,344."
+      },
+      {
+        "action": "Total height of the 2 who left: 1,700 − 1,344 = 356 cm.",
+        "why": "Whatever is missing from the team total belongs to the players who left."
+      },
+      {
+        "action": "Their average: 356 ÷ 2 = 178 cm."
+      },
+      {
+        "action": "The average height of the 2 players who left is 178 cm."
+      }
+    ]
+  },
+  "trapNotes": {
+    "356 cm": "This is the total height of the 2 players who left. Divide it by 2 to get their average.",
+    "172 cm": "This is 170 + 2. The 2 cm drop is spread over the 8 who remain, so they are 8 × 2 = 16 cm short in all. The 2 who left were 16 cm above 170 together, or 8 cm each.",
+    "166 cm": "This is 168 − 2. The average went down when they left, so the two who left must be taller than average, not shorter."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,45 @@
+{
+  "id": "num-fdp-0002",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-fractions",
+  "difficulty": 1,
+  "stem": "What is 2/3 × 3/5?",
+  "choices": [
+    "5/8",
+    "2/5",
+    "19/15",
+    "10/9"
+  ],
+  "answer": "2/5",
+  "hints": [
+    "To multiply fractions, you do not need the same bottom numbers.",
+    "Multiply the tops: 2 × 3. Then multiply the bottoms: 3 × 5.",
+    "Top: 2 × 3 = 6. Bottom: 3 × 5 = 15. Now simplify 6/15 by dividing the top and the bottom by 3."
+  ],
+  "solution": {
+    "methodName": "Multiply fractions: top × top, bottom × bottom",
+    "steps": [
+      {
+        "action": "Multiply the tops: 2 × 3 = 6."
+      },
+      {
+        "action": "Multiply the bottoms: 3 × 5 = 15. So the product is 6/15.",
+        "why": "When multiplying, the bottoms do not need to match. That rule is only for adding and subtracting."
+      },
+      {
+        "action": "Simplify: 6 ÷ 3 = 2 and 15 ÷ 3 = 5."
+      },
+      {
+        "action": "So 2/3 × 3/5 = 2/5."
+      }
+    ]
+  },
+  "trapNotes": {
+    "5/8": "This adds the tops (2 + 3) and the bottoms (3 + 5). To multiply, multiply the tops and multiply the bottoms.",
+    "19/15": "This is 2/3 + 3/5 = 10/15 + 9/15. The question asks you to multiply, not add.",
+    "10/9": "This is 2/3 ÷ 3/5. You flip the second fraction only when dividing."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

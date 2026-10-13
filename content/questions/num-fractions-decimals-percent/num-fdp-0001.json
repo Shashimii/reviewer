@@ -1,0 +1,46 @@
+{
+  "id": "num-fdp-0001",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-fractions",
+  "difficulty": 1,
+  "stem": "Simplify 18/24 to lowest terms.",
+  "choices": [
+    "3/8",
+    "3/24",
+    "3/4",
+    "4/3"
+  ],
+  "answer": "3/4",
+  "hints": [
+    "Look for a number that divides both 18 and 24 with nothing left over.",
+    "Both 18 and 24 can be divided by 6. Start with 18 ÷ 6.",
+    "Divide 18 by 6 to get the new top, and 24 by 6 to get the new bottom. Then check that no number except 1 divides both."
+  ],
+  "solution": {
+    "methodName": "Simplify: divide top and bottom by the same number",
+    "steps": [
+      {
+        "action": "Find the biggest number that divides both 18 and 24. 18 = 6 × 3 and 24 = 6 × 4, so it is 6.",
+        "why": "This number is called the greatest common factor (GCF). Dividing by it reaches lowest terms in one step."
+      },
+      {
+        "action": "Divide the top by 6: 18 ÷ 6 = 3."
+      },
+      {
+        "action": "Divide the bottom by 6: 24 ÷ 6 = 4.",
+        "why": "Dividing the top and the bottom by the same number keeps the value of the fraction the same."
+      },
+      {
+        "action": "No number except 1 divides both 3 and 4, so 18/24 in lowest terms is 3/4."
+      }
+    ]
+  },
+  "trapNotes": {
+    "3/8": "This divides the top by 6 (18 ÷ 6 = 3) but the bottom by 3 (24 ÷ 3 = 8). You must divide the top and the bottom by the same number.",
+    "3/24": "This divides only the top by 6. Divide the bottom by 6 too.",
+    "4/3": "This is the answer upside down. The top (18) gives the new top, so it is 3 over 4."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

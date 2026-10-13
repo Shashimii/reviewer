@@ -1,0 +1,54 @@
+{
+  "id": "num-ops-0020",
+  "topicId": "num-basic-operations",
+  "skill": "ops-divisibility",
+  "difficulty": 2,
+  "stem": "Which number can be divided by both 4 and 9 with no remainder?",
+  "choices": [
+    "1,548",
+    "2,754",
+    "4,936",
+    "6,390"
+  ],
+  "answer": "1,548",
+  "hints": [
+    "Use two quick rules, one for 4 and one for 9. The number must pass both.",
+    "For 4, look only at the last two digits. Can that two-digit number be divided by 4?",
+    "For 9, add all the digits. The sum must be in the 9 times table. Find the number that passes both tests."
+  ],
+  "solution": {
+    "methodName": "Divisibility rules: check the last digits or the digit sum",
+    "steps": [
+      {
+        "action": "Rule for 4: the last two digits must make a number that can be divided by 4.",
+        "why": "100 can always be divided by 4, so only the last two digits matter."
+      },
+      {
+        "action": "Rule for 9: the digits must add up to a number in the 9 times table."
+      },
+      {
+        "action": "1,548: the last two digits are 48, and 48 = 4 × 12, so it passes for 4."
+      },
+      {
+        "action": "1,548: 1 + 5 + 4 + 8 = 18, and 18 = 9 × 2, so it passes for 9 too."
+      },
+      {
+        "action": "Check the others: 2,754 ends in 54 and 6,390 ends in 90. 54 ÷ 4 and 90 ÷ 4 both leave remainder 2, so they fail for 4."
+      },
+      {
+        "action": "4,936 ends in 36 = 4 × 9, so it passes for 4. But 4 + 9 + 3 + 6 = 22, which is not in the 9 times table, so it fails for 9."
+      },
+      {
+        "action": "The answer is 1,548."
+      }
+    ]
+  },
+  "trapNotes": {
+    "2,754": "Its digits add to 18, so it passes for 9. It is even, but even is not enough for 4: its last two digits, 54, cannot be divided by 4.",
+    "4,936": "Its last two digits, 36, pass the test for 4. But its digits add to 22, which is not in the 9 times table.",
+    "6,390": "Its digits add to 18, so it passes for 9. But its last two digits, 90, cannot be divided by 4."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

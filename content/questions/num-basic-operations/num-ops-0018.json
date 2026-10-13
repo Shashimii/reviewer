@@ -1,0 +1,58 @@
+{
+  "id": "num-ops-0018",
+  "topicId": "num-basic-operations",
+  "skill": "ops-powers",
+  "difficulty": 3,
+  "stem": "What is 10³ − 3 × 4² + √64?",
+  "choices": [
+    "864",
+    "60",
+    "960",
+    "984"
+  ],
+  "answer": "960",
+  "hints": [
+    "There is a power of 10, a square and a square root. Turn each one into an ordinary number first.",
+    "Work out 10³, 4² and √64.",
+    "Multiply 3 by your value of 4². Then go from left to right: subtract that from 10³, then add √64."
+  ],
+  "solution": {
+    "methodName": "PEMDAS: brackets, powers, × ÷ left to right, + − left to right",
+    "steps": [
+      {
+        "action": "10³ = 10 × 10 × 10 = 1,000.",
+        "why": "A power of 10 is 1 followed by that many zeros."
+      },
+      {
+        "action": "4² = 4 × 4 = 16."
+      },
+      {
+        "action": "√64 = 8, because 8 × 8 = 64."
+      },
+      {
+        "action": "Rewrite: 1,000 − 3 × 16 + 8."
+      },
+      {
+        "action": "Multiply: 3 × 16 = 48.",
+        "why": "× comes before − and +."
+      },
+      {
+        "action": "Left to right, subtract first: 1,000 − 48 = 952."
+      },
+      {
+        "action": "Then add: 952 + 8 = 960."
+      },
+      {
+        "action": "The answer is 960."
+      }
+    ]
+  },
+  "trapNotes": {
+    "60": "This reads 10³ as 100: 100 − 48 + 8 = 60. 10³ has three zeros, so it is 1,000.",
+    "864": "This multiplies before squaring: (3 × 4)² = 12² = 144, then 1,000 − 144 + 8 = 864. The power belongs only to the 4, so 4² = 16 comes first.",
+    "984": "This reads 4² as 4 × 2 = 8: 1,000 − 24 + 8 = 984. 4² means 4 × 4 = 16."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

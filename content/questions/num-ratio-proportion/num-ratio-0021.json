@@ -1,0 +1,46 @@
+{
+  "id": "num-ratio-0021",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-rates",
+  "difficulty": 2,
+  "stem": "Store A sells 3 kg of rice for ₱150. Store B sells 5 kg of the same rice for ₱240. How much cheaper per kilo is Store B?",
+  "choices": [
+    "₱2",
+    "₱48",
+    "₱90",
+    "₱45"
+  ],
+  "answer": "₱2",
+  "hints": [
+    "To compare fairly, find the price of 1 kg at each store.",
+    "Store A: ₱150 ÷ 3. Store B: ₱240 ÷ 5.",
+    "Find both prices per kilo, then subtract the smaller price from the bigger one."
+  ],
+  "solution": {
+    "methodName": "Unit rate: divide to get the amount for 1",
+    "steps": [
+      {
+        "action": "Find Store A's price per kilo: ₱150 ÷ 3 = ₱50.",
+        "why": "Packs of different sizes can only be compared for the same amount, here 1 kg."
+      },
+      {
+        "action": "Find Store B's price per kilo: ₱240 ÷ 5 = ₱48.",
+        "why": "By hand: dividing by 5 is the same as doubling, then dividing by 10. ₱240 × 2 = ₱480, and ₱480 ÷ 10 = ₱48."
+      },
+      {
+        "action": "Subtract: ₱50 − ₱48 = ₱2."
+      },
+      {
+        "action": "Store B is ₱2 cheaper per kilo."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱48": "This is Store B's price per kilo. Subtract it from Store A's price per kilo to find the difference.",
+    "₱90": "This is the difference in total prices (₱240 − ₱150). The amounts of rice are different, so compare the price per kilo.",
+    "₱45": "This divides the price difference by the kilo difference (₱90 ÷ 2). Find each store's price per kilo instead."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

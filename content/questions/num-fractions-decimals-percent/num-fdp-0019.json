@@ -1,0 +1,45 @@
+{
+  "id": "num-fdp-0019",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-percent",
+  "difficulty": 2,
+  "stem": "Joy got 34 items correct on a 40-item quiz. What percent of the items did she get correct?",
+  "choices": [
+    "34%",
+    "68%",
+    "85%",
+    "15%"
+  ],
+  "answer": "85%",
+  "hints": [
+    "Write her score as a fraction: correct items over total items.",
+    "The fraction is 34/40. Simplify it by dividing the top and the bottom by 2.",
+    "34/40 = 17/20. Multiply the top and the bottom by 5 to make the bottom 100. The top is then the percent."
+  ],
+  "solution": {
+    "methodName": "What percent: part over whole, then make the bottom 100",
+    "steps": [
+      {
+        "action": "Part over whole: 34/40.",
+        "why": "The part is what she got right. The whole is all the items on the quiz."
+      },
+      {
+        "action": "Simplify: 34 ÷ 2 = 17 and 40 ÷ 2 = 20. So 34/40 = 17/20."
+      },
+      {
+        "action": "Make the bottom 100: 20 × 5 = 100, so multiply the top by 5 too: 17 × 5 = 85. That gives 85/100."
+      },
+      {
+        "action": "85/100 = 85%. She got 85% of the items correct."
+      }
+    ]
+  },
+  "trapNotes": {
+    "34%": "This uses the score as the percent. The quiz has 40 items, not 100, so 34 right is not 34%.",
+    "68%": "This doubles 34 as if the quiz had 50 items. With 40 items, simplify to 17/20 and multiply by 5.",
+    "15%": "This is the percent she got wrong (6 out of 40). The question asks for the percent correct."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,69 @@
+{
+  "id": "num-basic-operations-lesson",
+  "topicId": "num-basic-operations",
+  "workedExampleId": "num-ops-0007",
+  "sections": [
+    {
+      "heading": "Positive and negative numbers",
+      "body": "An *integer* is a whole number with no fraction part. It can be positive (above zero), negative (below zero) or zero. Negative numbers show things like temperatures below 0°C, depths below sea level, or money you owe.\n\n**Adding and subtracting.** Picture a thermometer. Adding a positive number moves you up. Subtracting a positive number moves you down.\n\n- Same signs: add the sizes and keep the sign. −5 + (−3) = −8\n- Different signs: subtract the sizes and keep the sign of the bigger size. −9 + 4 = −5\n- Subtracting a negative is adding: 6 − (−2) = 6 + 2 = 8\n\n**Multiplying and dividing.** Work out the numbers first, then the sign.\n\n- Same signs give **+**: (−4) × (−3) = 12\n- Different signs give **−**: (−20) ÷ 5 = −4"
+    },
+    {
+      "heading": "Order of operations (PEMDAS)",
+      "body": "The *order of operations* is the agreed order for doing a calculation with several steps. Remember it as **PEMDAS**:\n\n1. **P**arentheses (brackets) first\n2. **E**xponents (powers and square roots)\n3. **M**ultiply and **D**ivide, from left to right\n4. **A**dd and **S**ubtract, from left to right\n\nM and D are equal partners: do whichever comes first from the left. A and S work the same way.\n\n- 10 − 2 × 3 = 10 − 6 = 4 (multiply first, so not 8 × 3 = 24)\n- 12 ÷ 3 × 2 = 4 × 2 = 8 (left to right, so not 12 ÷ 6 = 2)"
+    },
+    {
+      "heading": "Powers and square roots",
+      "body": "A *power* is a short way to write repeated multiplication. In 5³, the 5 is the *base* and the small 3 is the *exponent*. The exponent says how many 5s to multiply: 5³ = 5 × 5 × 5 = 125.\n\n- 5² is \"5 squared\": 5 × 5 = 25. It is **not** 5 × 2.\n- **Powers of 10:** the exponent is the number of zeros. 10⁴ = 10,000.\n- A *square root* (√) undoes squaring. √49 = 7, because 7 × 7 = 49.\n\n**Watch the brackets with negatives:**\n\n- (−3)² = (−3) × (−3) = 9\n- −3² = −(3 × 3) = −9\n\nNo calculator on exam day, so learn these squares by heart: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144. And these cubes: 1, 8, 27, 64, 125."
+    },
+    {
+      "heading": "Divisibility, GCF and LCM",
+      "body": "A *factor* divides a number exactly, with no remainder: 6 is a factor of 18. A *multiple* is what you get when you multiply a number: 18 is a multiple of 6.\n\n**Quick divisibility rules**\n\n| Divisible by | Rule | Example |\n| --- | --- | --- |\n| 2 | Last digit is even | 586 |\n| 3 | Digits add to a multiple of 3 | 312: 3 + 1 + 2 = 6 |\n| 4 | Last two digits divide by 4 | 1,732: 32 ÷ 4 = 8 |\n| 5 | Ends in 0 or 5 | 405 |\n| 6 | Passes the rules for 2 and 3 | 114 |\n| 9 | Digits add to a multiple of 9 | 729: 7 + 2 + 9 = 18 |\n| 10 | Ends in 0 | 490 |\n\nThe *GCF* (greatest common factor) is the biggest number that divides two numbers exactly. GCF of 12 and 18: the factors of 12 are 1, 2, 3, 4, 6, 12. The biggest one that also divides 18 is **6**.\n\nThe *LCM* (least common multiple) is the smallest number that both numbers divide into. LCM of 4 and 6: the multiples of 6 are 6, 12, 18, … The first one that 4 also divides is **12**.\n\n**Which one do I need?**\n\n- Cutting, sharing, splitting into equal groups, \"longest\" or \"as many as possible\" → **GCF**\n- Repeating events, \"next time together\", \"at the same time again\" → **LCM**"
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Adding before multiplying.** 2 + 3 × 4 is 2 + 12 = 14, not 5 × 4 = 20.\n- **Doing × before ÷.** 24 ÷ 4 × 2 is 6 × 2 = 12, not 24 ÷ 8 = 3. Go left to right.\n- **Reading 4² as 4 × 2.** 4² = 4 × 4 = 16.\n- **Mixing up −3² and (−3)².** −3² = −9 but (−3)² = 9.\n- **Forgetting that subtracting a negative means adding.** 5 − (−2) = 7.\n- **Using the LCM when you need the GCF**, or the other way round. Check the clue words.\n- **Answering a different question.** If you find the number of bags, check whether the question asks for the items in each bag."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Integer",
+      "definition": "A whole number that can be positive, negative or zero, such as −3, 0 or 7.",
+      "taglish": "Integer – buong numero na puwedeng positive, negative o zero, halimbawa −3, 0, 7"
+    },
+    {
+      "term": "Order of operations (PEMDAS)",
+      "definition": "The agreed order for the steps of a calculation: brackets, powers, × and ÷, then + and −.",
+      "taglish": "PEMDAS – tamang pagkakasunod-sunod ng pag-compute: bracket muna, tapos power, × at ÷, saka + at −"
+    },
+    {
+      "term": "Exponent",
+      "definition": "The small raised number that tells how many times the base is multiplied by itself.",
+      "taglish": "Exponent – maliit na numero sa itaas na nagsasabi kung ilang beses i-multiply ang base, halimbawa 5³ = 5 × 5 × 5"
+    },
+    {
+      "term": "Square root",
+      "definition": "The number that, multiplied by itself, gives the number under the √ sign.",
+      "taglish": "Square root – numerong kapag ni-multiply sa sarili ay babalik sa orihinal, halimbawa √49 = 7"
+    },
+    {
+      "term": "Factor",
+      "definition": "A number that divides another number exactly, with no remainder.",
+      "taglish": "Factor – numerong eksaktong naghahati sa isang numero, walang tira"
+    },
+    {
+      "term": "Multiple",
+      "definition": "The result of multiplying a number by 1, 2, 3 and so on.",
+      "taglish": "Multiple – resulta ng pag-multiply ng numero sa 1, 2, 3 at iba pa, halimbawa 6, 12, 18 para sa 6"
+    },
+    {
+      "term": "GCF (greatest common factor)",
+      "definition": "The biggest number that divides two or more numbers exactly.",
+      "taglish": "GCF – pinakamalaking numerong eksaktong naghahati sa dalawang numero; gamit sa paghahati-hati nang pantay"
+    },
+    {
+      "term": "LCM (least common multiple)",
+      "definition": "The smallest number that two or more numbers all divide into exactly.",
+      "taglish": "LCM – pinakamaliit na numerong multiple ng dalawang numero; gamit kung kailan ulit magsasabay"
+    }
+  ]
+}

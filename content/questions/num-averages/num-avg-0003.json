@@ -1,0 +1,45 @@
+{
+  "id": "num-avg-0003",
+  "topicId": "num-averages",
+  "skill": "avg-mean",
+  "difficulty": 1,
+  "stem": "What is the average of 46, 47, 48, 49 and 50?",
+  "choices": [
+    "48",
+    "60",
+    "96",
+    "240"
+  ],
+  "answer": "48",
+  "hints": [
+    "These numbers go up by 1 each time. For numbers like this, the average sits right in the middle.",
+    "Find the number in the middle of the list.",
+    "There are 5 numbers, so the middle one is the 3rd. Read it off the list."
+  ],
+  "solution": {
+    "methodName": "Evenly spaced numbers: average = middle number",
+    "steps": [
+      {
+        "action": "Notice that the numbers go up by the same amount (1) each time.",
+        "why": "When numbers are evenly spaced, the ones above the middle balance the ones below it, so the average is the middle number."
+      },
+      {
+        "action": "Find the middle number. There are 5 numbers, so the middle is the 3rd one: 48."
+      },
+      {
+        "action": "Check the long way: 46 + 47 = 93; 93 + 48 = 141; 141 + 49 = 190; 190 + 50 = 240. Then 240 ÷ 5 = 48."
+      },
+      {
+        "action": "The average is 48."
+      }
+    ]
+  },
+  "trapNotes": {
+    "60": "This is 240 ÷ 4. There are 5 numbers, not 4. Count them: 46, 47, 48, 49, 50.",
+    "96": "This is 46 + 50, the first number plus the last. You forgot to divide by 2: (46 + 50) ÷ 2.",
+    "240": "This is the total of the five numbers. You still need to divide it by 5."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

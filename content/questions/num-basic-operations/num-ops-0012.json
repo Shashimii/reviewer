@@ -1,0 +1,55 @@
+{
+  "id": "num-ops-0012",
+  "topicId": "num-basic-operations",
+  "skill": "ops-order",
+  "difficulty": 3,
+  "stem": "What is 36 ÷ (2 + 4) × 3 − 2³?",
+  "choices": [
+    "22",
+    "−6",
+    "12",
+    "10"
+  ],
+  "answer": "10",
+  "hints": [
+    "Follow PEMDAS: brackets, then the power, then ÷ and × from left to right, then −.",
+    "Work out 2 + 4 and 2³ first.",
+    "Do 36 ÷ 6, multiply that by 3, then subtract 2³."
+  ],
+  "solution": {
+    "methodName": "PEMDAS: brackets, powers, × ÷ left to right, + − left to right",
+    "steps": [
+      {
+        "action": "Brackets first: 2 + 4 = 6."
+      },
+      {
+        "action": "Power next: 2³ = 2 × 2 × 2 = 8.",
+        "why": "The small ³ means three 2s multiplied together. It does not mean 2 × 3."
+      },
+      {
+        "action": "Rewrite: 36 ÷ 6 × 3 − 8."
+      },
+      {
+        "action": "÷ and × go from left to right. Divide first: 36 ÷ 6 = 6.",
+        "why": "The ÷ is on the left, so it goes before the ×."
+      },
+      {
+        "action": "Multiply: 6 × 3 = 18."
+      },
+      {
+        "action": "Subtract: 18 − 8 = 10."
+      },
+      {
+        "action": "The answer is 10."
+      }
+    ]
+  },
+  "trapNotes": {
+    "12": "This reads 2³ as 2 × 3 = 6, so 18 − 6 = 12. 2³ means 2 × 2 × 2 = 8.",
+    "22": "This ignores the brackets: 36 ÷ 2 + 4 × 3 − 8 = 18 + 12 − 8 = 22. Brackets come first, so add 2 + 4 before dividing.",
+    "−6": "This does × before ÷: 6 × 3 = 18, then 36 ÷ 18 = 2, and 2 − 8 = −6. ÷ and × go from left to right, so 36 ÷ 6 comes first."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

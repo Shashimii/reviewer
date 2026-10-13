@@ -1,0 +1,42 @@
+{
+  "id": "num-fdp-0021",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-percent",
+  "difficulty": 2,
+  "stem": "Carla pays ₱8,000 a month for rent. Next year, her rent will go up by 12.5%. What will her new monthly rent be?",
+  "choices": [
+    "₱1,000",
+    "₱10,000",
+    "₱9,000",
+    "₱7,000"
+  ],
+  "answer": "₱9,000",
+  "hints": [
+    "Find the increase, which is 12.5% of ₱8,000. Then add it to the old rent.",
+    "12.5% is the easy fraction 1/8. So the increase is ₱8,000 ÷ 8.",
+    "The increase is ₱1,000. \"Go up\" means add it to the old rent."
+  ],
+  "solution": {
+    "methodName": "Percent increase or decrease: find the change, then add or subtract",
+    "steps": [
+      {
+        "action": "Change 12.5% to a fraction: 12.5% = 1/8.",
+        "why": "12.5% is half of 25%, and 25% = 1/4. Half of 1/4 is 1/8."
+      },
+      {
+        "action": "Increase: 1/8 of ₱8,000 = ₱8,000 ÷ 8 = ₱1,000."
+      },
+      {
+        "action": "\"Go up\" means add. New rent: ₱8,000 + ₱1,000 = ₱9,000."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱1,000": "This is only the increase. Add it to the old rent to get the new rent.",
+    "₱10,000": "This uses 25% (₱8,000 ÷ 4 = ₱2,000). 12.5% is half of 25%, so the increase is half of ₱2,000.",
+    "₱7,000": "This subtracts the increase. \"Go up\" means add."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

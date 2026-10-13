@@ -1,0 +1,48 @@
+{
+  "id": "num-ops-0011",
+  "topicId": "num-basic-operations",
+  "skill": "ops-order",
+  "difficulty": 2,
+  "stem": "Lito buys 3 packs of pandesal at ₱45 each and 2 bottles of juice at ₱28 each. He pays with a ₱500 bill. Which expression gives his change correctly?",
+  "choices": [
+    "500 − 3 × 45 + 2 × 28",
+    "(500 − 3) × 45 + 2 × 28",
+    "500 − (3 × 45 + 2 × 28)",
+    "500 − 3 × (45 + 2) × 28"
+  ],
+  "answer": "500 − (3 × 45 + 2 × 28)",
+  "hints": [
+    "His change is ₱500 minus his total cost. The whole total cost must be taken away.",
+    "His total cost is 3 × 45 + 2 × 28. How do you make sure the minus sign takes away all of it, not just the first part?",
+    "Brackets are done first. Look for the choice that finds the full cost first and then takes it away from 500."
+  ],
+  "solution": {
+    "methodName": "PEMDAS: brackets, powers, × ÷ left to right, + − left to right",
+    "steps": [
+      {
+        "action": "Cost of the pandesal: 3 × 45 = 135."
+      },
+      {
+        "action": "Cost of the juice: 2 × 28 = 56."
+      },
+      {
+        "action": "Total cost: 3 × 45 + 2 × 28 = 135 + 56 = 191."
+      },
+      {
+        "action": "His change is 500 minus the whole total cost, so put the total cost in brackets: 500 − (3 × 45 + 2 × 28).",
+        "why": "Without brackets, the minus sign only takes away 3 × 45. The 2 × 28 would be added to his change instead of taken away."
+      },
+      {
+        "action": "Check: 500 − 191 = 309, so his change is ₱309. The correct expression is 500 − (3 × 45 + 2 × 28)."
+      }
+    ]
+  },
+  "trapNotes": {
+    "500 − 3 × 45 + 2 × 28": "Without brackets this is 500 − 135 + 56 = 421. The juice cost gets added to his change instead of taken away.",
+    "(500 − 3) × 45 + 2 × 28": "This subtracts 3 from 500 first. The 3 is a number of packs, not pesos. It must be multiplied by ₱45, not subtracted from ₱500.",
+    "500 − 3 × (45 + 2) × 28": "These brackets join the price ₱45 with the 2 bottles, which mixes up the items. The 3 goes with ₱45 and the 2 goes with ₱28."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

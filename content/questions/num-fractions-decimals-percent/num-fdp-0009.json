@@ -1,0 +1,45 @@
+{
+  "id": "num-fdp-0009",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-decimals",
+  "difficulty": 1,
+  "stem": "What is 3.45 × 100?",
+  "choices": [
+    "34.5",
+    "345",
+    "0.0345",
+    "3,450"
+  ],
+  "answer": "345",
+  "hints": [
+    "Multiplying by 100 makes a number bigger. Count the zeros in 100.",
+    "Move the decimal point to the right, one place for each zero.",
+    "Start at 3.45 and move the point two places to the right."
+  ],
+  "solution": {
+    "methodName": "Multiply or divide by 10, 100, 1000: move the point",
+    "steps": [
+      {
+        "action": "100 has two zeros, so move the decimal point two places."
+      },
+      {
+        "action": "Multiplying makes the number bigger, so move the point to the right.",
+        "why": "Each move to the right makes the number 10 times bigger. Two moves make it 100 times bigger."
+      },
+      {
+        "action": "Move it one place: 3.45 → 34.5. Move it again: 34.5 → 345."
+      },
+      {
+        "action": "So 3.45 × 100 = 345."
+      }
+    ]
+  },
+  "trapNotes": {
+    "34.5": "This moves the point only one place. That is × 10. For × 100, move it two places.",
+    "0.0345": "This moves the point to the left. That is ÷ 100. Multiplying makes the number bigger.",
+    "3,450": "This moves the point three places. That is × 1000. 100 has only two zeros."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

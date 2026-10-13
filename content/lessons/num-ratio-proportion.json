@@ -1,0 +1,69 @@
+{
+  "id": "num-ratio-proportion-lesson",
+  "topicId": "num-ratio-proportion",
+  "workedExampleId": "num-ratio-0013",
+  "sections": [
+    {
+      "heading": "What a ratio is",
+      "body": "A **ratio** compares two amounts. If a store has 6 mangoes and 9 bananas, the ratio of mangoes to bananas is **6 : 9** (say \"6 is to 9\").\n\n- **Order matters.** Write the amounts in the order the question names them. Bananas to mangoes is 9 : 6, a different ratio.\n- **Simplify** by dividing both numbers by the same number. Use the biggest number that divides both, called the **GCF** (greatest common factor). 6 : 9, divided by 3, is **2 : 3**. A ratio in **simplest form** cannot be divided any further.\n- **Same units first.** To compare 30 minutes with 2 hours, change 2 hours to 120 minutes. 30 : 120, divided by 30, is **1 : 4**.\n- **\"To the total\"** means add first. Mangoes to all the fruit is 6 : 15, which is 2 : 5.\n\nNo calculator? If both numbers end in 0, divide both by 10. If both are even, divide both by 2. Repeat until you can't, then try dividing both by 3, then by 5."
+    },
+    {
+      "heading": "Proportions: two equal ratios",
+      "body": "A **proportion** says two ratios are equal, like 2 : 5 = 6 : x. To find x, **cross-multiply**:\n\n1. Write it as fractions: 2/5 = 6/x.\n2. Multiply across: 2 × x = 5 × 6 = 30.\n3. Divide: x = 30 ÷ 2 = **15**.\n\nUse this for recipes, maps and any problem where both amounts go up together. Keep the same order on both sides, for example cups : people = 3 : 6 = x : 10.\n\nShortcut: look for an easy multiplier. If 3 cm on a map stands for 20 km, then 12 cm is 4 × 3 cm, so it stands for 4 × 20 = 80 km.\n\nA map **scale** like 1 : 50,000 means 1 cm on the map is 50,000 cm on the ground. Remember 100,000 cm = 1 km.\n\n**Inverse proportion:** sometimes one amount goes up while the other goes down. More workers finish in fewer days. Then multiply first, then divide. If 4 workers take 6 days, the job is 4 × 6 = 24 worker-days, so 3 workers take 24 ÷ 3 = **8 days**."
+    },
+    {
+      "heading": "Sharing in a ratio",
+      "body": "To share ₱500 between Carlo and Dina in the ratio 2 : 3:\n\n1. Add the parts: 2 + 3 = 5 parts.\n2. Find **one part**: ₱500 ÷ 5 = ₱100.\n3. Multiply: Carlo gets 2 × ₱100 = ₱200. Dina gets 3 × ₱100 = ₱300.\n4. Check: ₱200 + ₱300 = ₱500.\n\nEvery sharing problem comes down to finding one part. Use what the question gives you:\n\n| You know | One part is |\n| --- | --- |\n| The total | the total ÷ all the parts |\n| One person's share | that share ÷ that person's number |\n| How much more one person gets | the difference ÷ the difference in parts |\n\nThen multiply one part by what the question asks for: a share, the total, or a difference."
+    },
+    {
+      "heading": "Rates and unit prices",
+      "body": "A **rate** compares two different kinds of amount, like pesos per kilo or kilometres per hour. Divide to find the amount for **one**.\n\n- **Unit price** = price ÷ number of items. 5 pens for ₱60 cost ₱60 ÷ 5 = ₱12 each.\n- **Speed** = distance ÷ time. 150 km in 3 hours is 150 ÷ 3 = 50 km/h.\n- **Best buy:** compare prices for the same amount. 250 g for ₱40 is the same as 500 g for ₱80, so 500 g for ₱75 is the better buy.\n- **Minutes to hours:** build up to 60 minutes. 10 km in 20 minutes: an hour is 3 lots of 20 minutes, so the speed is 3 × 10 = 30 km/h."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Wrong order.** Losses to wins is not wins to losses. 2 : 3 and 3 : 2 are different answers.\n- **Adding instead of multiplying.** If 2 cups of rice serve 4 people, then 4 cups serve 8, not 6. Ratios grow by multiplying.\n- **Mixed units.** Change hours to minutes, or metres to centimetres, before you compare.\n- **Dividing by the wrong number.** When sharing, divide the total by all the parts (2 + 3 = 5), not by one person's number.\n- **Stopping too early.** One part is rarely the final answer. Check whether the question wants a share, the total or a difference.\n- **Inverse treated as direct.** Ask yourself: should the answer be bigger or smaller? More workers means fewer days.\n- **Cheapest tag is not the best buy.** Compare the price for the same amount."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Ratio",
+      "definition": "A ratio compares two amounts, written like 2 : 3.",
+      "taglish": "Ratio – paghahambing ng dalawang dami, halimbawa 2 is to 3"
+    },
+    {
+      "term": "Simplest form",
+      "definition": "A ratio is in simplest form when its numbers cannot both be divided by the same whole number other than 1.",
+      "taglish": "Simplest form – pinakasimpleng anyo; hindi na mahahati pa ang dalawang numero sa iisang numero"
+    },
+    {
+      "term": "Proportion",
+      "definition": "A proportion says that two ratios are equal, like 2 : 5 = 6 : 15.",
+      "taglish": "Proportion – dalawang ratio na magkapantay ang halaga"
+    },
+    {
+      "term": "Cross-multiply",
+      "definition": "To cross-multiply, you multiply the top of each fraction by the bottom of the other to find a missing number.",
+      "taglish": "Cross-multiply – i-multiply nang pa-ekis para mahanap ang nawawalang numero"
+    },
+    {
+      "term": "Inverse proportion",
+      "definition": "In an inverse proportion, when one amount goes up the other goes down, like more workers needing fewer days.",
+      "taglish": "Inverse proportion – kapag dumami ang isa, kumokonti ang isa, gaya ng mas maraming trabahador, mas kaunting araw"
+    },
+    {
+      "term": "Scale",
+      "definition": "A scale tells you how a distance on a map compares with the real distance.",
+      "taglish": "Scale – katumbas ng sukat sa mapa sa totoong layo, halimbawa 1 cm = 5 km"
+    },
+    {
+      "term": "Rate",
+      "definition": "A rate compares two different kinds of amount, like kilometres per hour or pesos per kilo.",
+      "taglish": "Rate – dami kada isang yunit, gaya ng km kada oras o piso kada kilo"
+    },
+    {
+      "term": "Unit price",
+      "definition": "The unit price is the cost of one item or one unit, such as one kilo.",
+      "taglish": "Unit price – presyo ng isang piraso o isang kilo"
+    }
+  ]
+}

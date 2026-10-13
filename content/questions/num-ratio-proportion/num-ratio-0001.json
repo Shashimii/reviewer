@@ -1,0 +1,49 @@
+{
+  "id": "num-ratio-0001",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-simplify",
+  "difficulty": 1,
+  "stem": "A barangay basketball team played 20 games. It won 12 and lost 8. What is the ratio of games lost to games won, in simplest form?",
+  "choices": [
+    "3 : 2",
+    "2 : 5",
+    "2 : 3",
+    "3 : 5"
+  ],
+  "answer": "2 : 3",
+  "hints": [
+    "Read the order in the question: \"lost\" comes first, then \"won\".",
+    "Write the two numbers in that order: lost : won = 8 : 12.",
+    "Find the biggest number that divides both 8 and 12, then divide both numbers by it."
+  ],
+  "solution": {
+    "methodName": "Write in the order asked, then simplify",
+    "steps": [
+      {
+        "action": "Find the numbers: games lost = 8, games won = 12."
+      },
+      {
+        "action": "Write them in the order asked: lost : won = 8 : 12.",
+        "why": "The first thing named in the question goes first. Swapping the order gives a different ratio."
+      },
+      {
+        "action": "Find the biggest number that divides both: 4 divides 8 and 12.",
+        "why": "This is the GCF (greatest common factor). Dividing by it simplifies the ratio in one go."
+      },
+      {
+        "action": "Divide both numbers by 4: 8 ÷ 4 = 2 and 12 ÷ 4 = 3."
+      },
+      {
+        "action": "The ratio of games lost to games won is 2 : 3."
+      }
+    ]
+  },
+  "trapNotes": {
+    "3 : 2": "This is won to lost (12 : 8). The question asks for lost to won, so the games lost come first.",
+    "2 : 5": "This is lost to all games played (8 : 20). The question compares games lost with games won, not with the total.",
+    "3 : 5": "This is won to all games played (12 : 20). Use games lost and games won, in that order."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

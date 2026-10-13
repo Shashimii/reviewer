@@ -1,0 +1,49 @@
+{
+  "id": "num-ratio-0004",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-simplify",
+  "difficulty": 2,
+  "stem": "A public school has 45 male teachers and 60 female teachers. What is the ratio of female teachers to all the teachers?",
+  "choices": [
+    "4 : 7",
+    "4 : 3",
+    "3 : 7",
+    "3 : 4"
+  ],
+  "answer": "4 : 7",
+  "hints": [
+    "The question compares one group with all the teachers, not with the other group.",
+    "First find the total: add the male and female teachers.",
+    "The total is 45 + 60. Write female : total, then divide both numbers by the biggest number that goes into both."
+  ],
+  "solution": {
+    "methodName": "Write in the order asked, then simplify",
+    "steps": [
+      {
+        "action": "Find the total number of teachers: 45 + 60 = 105.",
+        "why": "\"All the teachers\" means the whole group, so you need the total."
+      },
+      {
+        "action": "Write female : all = 60 : 105."
+      },
+      {
+        "action": "Find the biggest number that divides both 60 and 105. It is 15.",
+        "why": "Both end in 0 or 5, so try 5 first: 60 ÷ 5 = 12 and 105 ÷ 5 = 21. Then 12 and 21 both divide by 3. So the GCF is 5 × 3 = 15."
+      },
+      {
+        "action": "Divide both numbers by 15: 60 ÷ 15 = 4 and 105 ÷ 15 = 7."
+      },
+      {
+        "action": "The ratio of female teachers to all the teachers is 4 : 7."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4 : 3": "This is female to male (60 : 45). The question asks for female teachers to all the teachers.",
+    "3 : 7": "This is male to all the teachers (45 : 105). The question asks about the female teachers.",
+    "3 : 4": "This is male to female (45 : 60). Use the female teachers and the total, in that order."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

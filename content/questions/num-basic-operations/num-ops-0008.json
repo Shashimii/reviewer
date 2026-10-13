@@ -1,0 +1,45 @@
+{
+  "id": "num-ops-0008",
+  "topicId": "num-basic-operations",
+  "skill": "ops-order",
+  "difficulty": 1,
+  "stem": "What is 48 ÷ 6 × 2?",
+  "choices": [
+    "4",
+    "8",
+    "96",
+    "16"
+  ],
+  "answer": "16",
+  "hints": [
+    "÷ and × have the same rank. When they are side by side, which one do you do first?",
+    "Go from left to right. Start with 48 ÷ 6.",
+    "Take your answer to 48 ÷ 6 and multiply it by 2."
+  ],
+  "solution": {
+    "methodName": "PEMDAS: brackets, powers, × ÷ left to right, + − left to right",
+    "steps": [
+      {
+        "action": "÷ and × are equal partners, so work from left to right.",
+        "why": "PEMDAS lists M before D, but they are a pair. Neither one beats the other: the one on the left goes first."
+      },
+      {
+        "action": "Divide first, since it is on the left: 48 ÷ 6 = 8."
+      },
+      {
+        "action": "Then multiply: 8 × 2 = 16."
+      },
+      {
+        "action": "The answer is 16."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4": "This does 6 × 2 = 12 first, then 48 ÷ 12 = 4. × does not come before ÷. Work from left to right.",
+    "8": "This is only 48 ÷ 6. You still need to multiply by 2.",
+    "96": "This is 48 × 2, skipping the ÷ 6. Every operation must be used."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

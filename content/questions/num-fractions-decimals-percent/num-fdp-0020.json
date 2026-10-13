@@ -1,0 +1,46 @@
+{
+  "id": "num-fdp-0020",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-percent",
+  "difficulty": 2,
+  "stem": "An electric fan costs ₱1,200. It is sold at 15% off. What is the sale price?",
+  "choices": [
+    "₱1,020",
+    "₱180",
+    "₱1,185",
+    "₱1,380"
+  ],
+  "answer": "₱1,020",
+  "hints": [
+    "First find the discount, which is 15% of ₱1,200. Then subtract it from ₱1,200.",
+    "Build 15% from 10% and 5%. 10% of ₱1,200 is ₱120.",
+    "5% is half of 10%. Add the 10% and the 5% to get the discount, then subtract it from ₱1,200."
+  ],
+  "solution": {
+    "methodName": "Percent increase or decrease: find the change, then add or subtract",
+    "steps": [
+      {
+        "action": "10% of ₱1,200 = ₱1,200 ÷ 10 = ₱120.",
+        "why": "To find 10%, divide by 10. This is the same as moving the decimal point one place left."
+      },
+      {
+        "action": "5% of ₱1,200 = ₱120 ÷ 2 = ₱60.",
+        "why": "5% is half of 10%."
+      },
+      {
+        "action": "Discount: 15% = 10% + 5%, so ₱120 + ₱60 = ₱180."
+      },
+      {
+        "action": "\"Off\" means subtract. Sale price: ₱1,200 − ₱180 = ₱1,020."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱180": "This is the discount. The question asks for the price after the discount.",
+    "₱1,185": "This takes away ₱15, not 15%. 15% of ₱1,200 is ₱180.",
+    "₱1,380": "This adds the discount. \"Off\" means subtract."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

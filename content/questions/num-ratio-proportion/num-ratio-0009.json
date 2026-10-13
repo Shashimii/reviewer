@@ -1,0 +1,48 @@
+{
+  "id": "num-ratio-0009",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-proportion",
+  "difficulty": 2,
+  "stem": "Mang Ben's family uses 6 kg of rice every 4 days. At the same rate, how much rice will they use in 14 days?",
+  "choices": [
+    "16 kg",
+    "1.5 kg",
+    "84 kg",
+    "21 kg"
+  ],
+  "answer": "21 kg",
+  "hints": [
+    "More days means more rice, at the same rate. This is a direct proportion.",
+    "Write rice : days = 6 : 4 = x : 14.",
+    "Cross-multiply: 4 × x = 6 × 14. Then divide by 4."
+  ],
+  "solution": {
+    "methodName": "Cross-multiply, then divide",
+    "steps": [
+      {
+        "action": "Set up the proportion, rice first on both sides: 6 : 4 = x : 14."
+      },
+      {
+        "action": "Cross-multiply: 4 × x = 6 × 14."
+      },
+      {
+        "action": "Multiply: 6 × 14 = 84, so 4 × x = 84."
+      },
+      {
+        "action": "Divide by 4: x = 84 ÷ 4 = 21.",
+        "why": "Another way: the family uses 6 ÷ 4 = 1.5 kg a day, and 1.5 × 14 = 21."
+      },
+      {
+        "action": "They will use 21 kg of rice in 14 days."
+      }
+    ]
+  },
+  "trapNotes": {
+    "16 kg": "This adds: 14 days is 10 more than 4 days, so 6 + 10 = 16. Proportions multiply, they do not add.",
+    "1.5 kg": "This is the rice for one day (6 ÷ 4). Multiply by 14 to get the rice for 14 days.",
+    "84 kg": "This is 6 × 14. You still need to divide by 4, because 6 kg lasts 4 days, not 1 day."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

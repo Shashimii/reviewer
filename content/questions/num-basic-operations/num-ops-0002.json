@@ -1,0 +1,42 @@
+{
+  "id": "num-ops-0002",
+  "topicId": "num-basic-operations",
+  "skill": "ops-integers",
+  "difficulty": 1,
+  "stem": "What is (−6) × (−7)?",
+  "choices": [
+    "−42",
+    "42",
+    "−13",
+    "13"
+  ],
+  "answer": "42",
+  "hints": [
+    "Both numbers are negative. What happens to the sign when you multiply two negatives?",
+    "First multiply the numbers without their signs: 6 × 7.",
+    "Then fix the sign: same signs give a positive answer, different signs give a negative answer. Put the right sign on 6 × 7."
+  ],
+  "solution": {
+    "methodName": "Sign rules for multiplying and dividing",
+    "steps": [
+      {
+        "action": "Multiply the sizes, ignoring the signs: 6 × 7 = 42."
+      },
+      {
+        "action": "Decide the sign. Both numbers are negative, so the signs are the same.",
+        "why": "For × and ÷: same signs give +, different signs give −."
+      },
+      {
+        "action": "Same signs give a positive answer, so (−6) × (−7) = 42."
+      }
+    ]
+  },
+  "trapNotes": {
+    "13": "This adds 6 + 7 and drops the signs. The question asks for multiplication.",
+    "−42": "6 × 7 = 42 is right, but the sign is wrong. A negative times a negative is positive.",
+    "−13": "This is (−6) + (−7). The question multiplies, it doesn't add."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

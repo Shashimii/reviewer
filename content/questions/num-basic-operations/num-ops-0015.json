@@ -1,0 +1,45 @@
+{
+  "id": "num-ops-0015",
+  "topicId": "num-basic-operations",
+  "skill": "ops-powers",
+  "difficulty": 1,
+  "stem": "What is √144 + √25?",
+  "choices": [
+    "13",
+    "17",
+    "169",
+    "84.5"
+  ],
+  "answer": "17",
+  "hints": [
+    "Find each square root on its own before adding. A square root asks: which number times itself gives this?",
+    "Which number times itself is 144? Which number times itself is 25?",
+    "Add the two square roots you found."
+  ],
+  "solution": {
+    "methodName": "Square root: find the number that times itself gives it",
+    "steps": [
+      {
+        "action": "Find √144: 12 × 12 = 144, so √144 = 12.",
+        "why": "The square root of a number is the number that, multiplied by itself, gives it."
+      },
+      {
+        "action": "Find √25: 5 × 5 = 25, so √25 = 5."
+      },
+      {
+        "action": "Add: 12 + 5 = 17."
+      },
+      {
+        "action": "The answer is 17."
+      }
+    ]
+  },
+  "trapNotes": {
+    "13": "This adds first: 144 + 25 = 169, then √169 = 13. Find each square root separately, then add.",
+    "169": "This adds 144 + 25 and forgets to take the square roots.",
+    "84.5": "This halves each number: 144 ÷ 2 = 72 and 25 ÷ 2 = 12.5. A square root is not half. √25 = 5 because 5 × 5 = 25."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

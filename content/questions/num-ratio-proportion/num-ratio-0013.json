@@ -1,0 +1,51 @@
+{
+  "id": "num-ratio-0013",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-share",
+  "difficulty": 1,
+  "stem": "Liza and Marco share ₱600 in the ratio 2 : 3. How much does Marco get?",
+  "choices": [
+    "₱240",
+    "₱360",
+    "₱300",
+    "₱200"
+  ],
+  "answer": "₱360",
+  "hints": [
+    "The ratio 2 : 3 splits the money into equal parts. Liza gets 2 parts and Marco gets 3 parts.",
+    "Add the parts to find how many equal parts there are: 2 + 3.",
+    "Divide ₱600 by the total number of parts to get one part. Marco gets 3 of these parts."
+  ],
+  "solution": {
+    "methodName": "Find one part, then multiply",
+    "steps": [
+      {
+        "action": "Add the numbers in the ratio: 2 + 3 = 5 parts.",
+        "why": "The ratio 2 : 3 means that for every ₱2 Liza gets, Marco gets ₱3. Together that is 5 equal parts."
+      },
+      {
+        "action": "Find the value of one part: ₱600 ÷ 5 = ₱120.",
+        "why": "The ₱600 is cut into 5 equal parts, so divide by 5. Think: 60 ÷ 5 = 12, then put back the zero."
+      },
+      {
+        "action": "Marco gets 3 parts: 3 × ₱120 = ₱360.",
+        "why": "Marco is named second, so his number is the second number in the ratio, 3."
+      },
+      {
+        "action": "Check: Liza gets 2 × ₱120 = ₱240, and ₱240 + ₱360 = ₱600.",
+        "why": "The shares must add back to the total. If they do, your parts are right."
+      },
+      {
+        "action": "Marco gets ₱360."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱240": "This is Liza's share (2 × ₱120). Marco's number in the ratio is 3, not 2.",
+    "₱300": "This splits the money equally (₱600 ÷ 2). The ratio 2 : 3 means Marco gets more than Liza.",
+    "₱200": "This divides ₱600 by 3. First add the parts (2 + 3 = 5), then divide ₱600 by 5."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

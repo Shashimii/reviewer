@@ -1,0 +1,49 @@
+{
+  "id": "num-ratio-0015",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-share",
+  "difficulty": 2,
+  "stem": "Rey and Sol run a small carinderia and share the profit in the ratio 3 : 5. Rey's share is ₱4,500. How much is the total profit?",
+  "choices": [
+    "₱7,500",
+    "₱36,000",
+    "₱7,200",
+    "₱12,000"
+  ],
+  "answer": "₱12,000",
+  "hints": [
+    "Rey's ₱4,500 is 3 parts. Find what 1 part is worth first.",
+    "One part = ₱4,500 ÷ 3.",
+    "The total profit is 3 + 5 parts. Multiply the value of one part by the total number of parts."
+  ],
+  "solution": {
+    "methodName": "Find one part, then multiply",
+    "steps": [
+      {
+        "action": "Rey's number in the ratio is 3, so ₱4,500 is 3 parts.",
+        "why": "Rey is named first, so he gets the first number, 3."
+      },
+      {
+        "action": "Find one part: ₱4,500 ÷ 3 = ₱1,500."
+      },
+      {
+        "action": "Count all the parts: 3 + 5 = 8 parts."
+      },
+      {
+        "action": "Find the total: 8 × ₱1,500 = ₱12,000.",
+        "why": "Check: Sol gets 5 × ₱1,500 = ₱7,500, and ₱4,500 + ₱7,500 = ₱12,000."
+      },
+      {
+        "action": "The total profit is ₱12,000."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱7,500": "This is Sol's share (5 × ₱1,500). The question asks for the total profit, so add both shares.",
+    "₱36,000": "This is ₱4,500 × 8. You skipped finding one part: divide ₱4,500 by 3 first.",
+    "₱7,200": "This divides ₱4,500 by 5 instead of 3, then multiplies by 8. Rey's number is 3, because he is named first."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

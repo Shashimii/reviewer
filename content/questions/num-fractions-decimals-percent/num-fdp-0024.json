@@ -1,0 +1,45 @@
+{
+  "id": "num-fdp-0024",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-percent",
+  "difficulty": 3,
+  "stem": "A store raises the price of a ₱500 item by 20%. Later, it gives 20% off the new price. What is the final price?",
+  "choices": [
+    "₱480",
+    "₱500",
+    "₱600",
+    "₱400"
+  ],
+  "answer": "₱480",
+  "hints": [
+    "Do one change at a time. The 20% off is taken from the new price, not from ₱500.",
+    "First the increase: 20% of ₱500 is ₱100, so the new price is ₱600.",
+    "Now find 20% of ₱600 and subtract it from ₱600."
+  ],
+  "solution": {
+    "methodName": "Two percent changes: do them one at a time",
+    "steps": [
+      {
+        "action": "20% of ₱500: 10% is ₱500 ÷ 10 = ₱50, so 20% is ₱50 × 2 = ₱100."
+      },
+      {
+        "action": "Raised price: ₱500 + ₱100 = ₱600."
+      },
+      {
+        "action": "20% of ₱600: 10% is ₱600 ÷ 10 = ₱60, so 20% is ₱60 × 2 = ₱120.",
+        "why": "The discount is 20% of the new price, ₱600. That is more than the ₱100 that was added."
+      },
+      {
+        "action": "Final price: ₱600 − ₱120 = ₱480."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱500": "This assumes +20% and −20% cancel out. The discount is 20% of ₱600, which is ₱120, more than the ₱100 that was added.",
+    "₱600": "This is the price after the increase only. The 20% discount still has to be taken off.",
+    "₱400": "This takes 20% off the original ₱500 and ignores the increase."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,50 @@
+{
+  "id": "num-avg-0014",
+  "topicId": "num-averages",
+  "skill": "avg-weighted",
+  "difficulty": 2,
+  "stem": "In an office, 30 men have an average weight of 65 kg and 20 women have an average weight of 55 kg. What is the average weight of all 50 employees?",
+  "choices": [
+    "61 kg",
+    "60 kg",
+    "59 kg",
+    "3,050 kg"
+  ],
+  "answer": "61 kg",
+  "hints": [
+    "There are more men than women. Can you just take halfway between 65 and 55?",
+    "Find each group's total: men 30 × 65, women 20 × 55.",
+    "Add the two totals, then divide by the 50 employees."
+  ],
+  "solution": {
+    "methodName": "Weighted average: add group totals, divide by total count",
+    "steps": [
+      {
+        "action": "Men's total: 30 × 65 = 1,950 kg.",
+        "why": "Total = average × count. By hand: 3 × 65 = 195, then × 10 = 1,950."
+      },
+      {
+        "action": "Women's total: 20 × 55 = 1,100 kg.",
+        "why": "2 × 55 = 110, then × 10 = 1,100."
+      },
+      {
+        "action": "Total for everyone: 1,950 + 1,100 = 3,050 kg."
+      },
+      {
+        "action": "Divide by all 50 people: 3,050 ÷ 50 = 61.",
+        "why": "By hand: 3,050 ÷ 50 is the same as 305 ÷ 5 = 61."
+      },
+      {
+        "action": "The average weight is 61 kg."
+      }
+    ]
+  },
+  "trapNotes": {
+    "60 kg": "This is halfway between 65 and 55. That only works when the groups are the same size. There are more men, so the average is closer to 65.",
+    "59 kg": "This mixes up the groups: 30 × 55 + 20 × 65. There are 30 men at 65 kg and 20 women at 55 kg.",
+    "3,050 kg": "This is the total weight of all 50 people. Divide it by 50 to get the average."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

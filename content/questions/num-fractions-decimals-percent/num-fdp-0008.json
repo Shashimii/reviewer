@@ -1,0 +1,48 @@
+{
+  "id": "num-fdp-0008",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-decimals",
+  "difficulty": 1,
+  "stem": "Rina walked 7.5 km on Saturday and 2.36 km on Sunday. How far did she walk in all?",
+  "choices": [
+    "9.41 km",
+    "5.14 km",
+    "3.11 km",
+    "9.86 km"
+  ],
+  "answer": "9.86 km",
+  "hints": [
+    "When adding decimals, line up the decimal points, not the last digits.",
+    "Write 7.5 as 7.50 so both numbers have two digits after the point.",
+    "Stack 7.50 on top of 2.36 with the points lined up, then add each column from the right."
+  ],
+  "solution": {
+    "methodName": "Line up the decimal points",
+    "steps": [
+      {
+        "action": "\"In all\" means add: 7.5 + 2.36."
+      },
+      {
+        "action": "Write 7.5 as 7.50.",
+        "why": "A zero at the end of a decimal does not change its value. It gives both numbers the same number of digits after the point."
+      },
+      {
+        "action": "Line up the points: 7.50 on top of 2.36."
+      },
+      {
+        "action": "Add each column from the right. Hundredths: 0 + 6 = 6. Tenths: 5 + 3 = 8. Ones: 7 + 2 = 9."
+      },
+      {
+        "action": "She walked 9.86 km in all."
+      }
+    ]
+  },
+  "trapNotes": {
+    "9.41 km": "This adds 5 and 36 as if they were whole numbers. 0.5 is 50 hundredths, so 0.50 + 0.36 = 0.86.",
+    "5.14 km": "This is 7.5 − 2.36. \"In all\" means add.",
+    "3.11 km": "This lines up the last digits, so 7.5 slides over and is read as 0.75. Line up the decimal points instead."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

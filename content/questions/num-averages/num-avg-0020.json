@@ -1,0 +1,47 @@
+{
+  "id": "num-avg-0020",
+  "topicId": "num-averages",
+  "skill": "avg-change",
+  "difficulty": 2,
+  "stem": "The average weight of 7 basketball players is 70 kg. When their coach joins them, the average weight of all 8 becomes 71 kg. How much does the coach weigh?",
+  "choices": [
+    "78 kg",
+    "71 kg",
+    "77 kg",
+    "79 kg"
+  ],
+  "answer": "78 kg",
+  "hints": [
+    "Find the total weight before and after the coach joins. The difference is the coach.",
+    "Before: 70 × 7. After: 71 × 8.",
+    "Subtract the old total, 490 kg, from the new total, 568 kg."
+  ],
+  "solution": {
+    "methodName": "Compare totals before and after the change",
+    "steps": [
+      {
+        "action": "Total before: 70 × 7 = 490 kg.",
+        "why": "Total = average × count."
+      },
+      {
+        "action": "Total after: 71 × 8 = 568 kg.",
+        "why": "By hand: 70 × 8 = 560, and 1 × 8 = 8, so 560 + 8 = 568."
+      },
+      {
+        "action": "The coach is the difference: 568 − 490 = 78 kg.",
+        "why": "The only one added to the group is the coach, so all the extra weight is his."
+      },
+      {
+        "action": "The coach weighs 78 kg."
+      }
+    ]
+  },
+  "trapNotes": {
+    "71 kg": "This is the new average. The coach pulled the average up, so he must weigh more than 71 kg.",
+    "77 kg": "This is 70 + 7. The coach lifts the average of all 8 people, himself included, by 1 kg, so he is 8 × 1 = 8 kg above the old average of 70. Safest is to use totals: 568 − 490.",
+    "79 kg": "This is 71 + 8. Above the new average of 71, the coach only has to make up 1 kg for each of the 7 players: 71 + 7 × 1. Safest is to use totals: 568 − 490."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

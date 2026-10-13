@@ -1,0 +1,46 @@
+{
+  "id": "num-avg-0012",
+  "topicId": "num-averages",
+  "skill": "avg-missing",
+  "difficulty": 3,
+  "stem": "Joy's average score on 4 tests is 82. What must she score on the 5th test to raise her average to 85?",
+  "choices": [
+    "88",
+    "94",
+    "425",
+    "97"
+  ],
+  "answer": "97",
+  "hints": [
+    "Work with totals, not averages. What total does she have now, and what total does she need?",
+    "Total now = 82 × 4. Total needed = 85 × 5.",
+    "She has 328 and needs 425. Subtract to find the 5th score."
+  ],
+  "solution": {
+    "methodName": "Use totals: total = average × count",
+    "steps": [
+      {
+        "action": "Total of her 4 tests now: 82 × 4 = 328.",
+        "why": "Total = average × count. We don't know each score, but we know their total."
+      },
+      {
+        "action": "Total needed for an average of 85 on 5 tests: 85 × 5 = 425."
+      },
+      {
+        "action": "Subtract: 425 − 328 = 97.",
+        "why": "The 5th test must make up the difference."
+      },
+      {
+        "action": "Check another way: her average of 82 is 3 below 85, and she has 4 tests, so she is 4 × 3 = 12 points short. The 5th test must be 85 + 12 = 97. She must score 97."
+      }
+    ]
+  },
+  "trapNotes": {
+    "88": "This is 85 + 3. Her first 4 tests average 82, which is 3 points below 85, so together they are 4 × 3 = 12 points short. The 5th test must be 85 + 12.",
+    "94": "This is 82 + 12, starting from the old average. The 5th test must reach the new average, 85, and also cover the 12 missing points: 85 + 12.",
+    "425": "This is the total she needs on all 5 tests. Subtract the total she already has, 82 × 4 = 328."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

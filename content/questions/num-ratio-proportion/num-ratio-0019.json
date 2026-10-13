@@ -1,0 +1,43 @@
+{
+  "id": "num-ratio-0019",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-rates",
+  "difficulty": 1,
+  "stem": "A pack of 6 eggs costs ₱54. What is the price of one egg?",
+  "choices": [
+    "₱48",
+    "₱9",
+    "₱324",
+    "₱60"
+  ],
+  "answer": "₱9",
+  "hints": [
+    "The price of one item is its unit price. Share the total cost equally among the eggs.",
+    "Divide the total price by the number of eggs.",
+    "Work out ₱54 ÷ 6."
+  ],
+  "solution": {
+    "methodName": "Unit rate: divide to get the amount for 1",
+    "steps": [
+      {
+        "action": "Unit price = total price ÷ number of items.",
+        "why": "A unit price is the cost of one item. Sharing ₱54 equally among 6 eggs is division."
+      },
+      {
+        "action": "Divide: ₱54 ÷ 6 = ₱9.",
+        "why": "Think: 6 × 9 = 54."
+      },
+      {
+        "action": "One egg costs ₱9."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱48": "This subtracts (₱54 − 6). To share a price among items, divide.",
+    "₱324": "This multiplies (₱54 × 6), which is the price of 6 packs. Divide to get the price of one egg.",
+    "₱60": "This adds (₱54 + 6). To find the price of one egg, divide the total price by 6."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,48 @@
+{
+  "id": "num-series-0017",
+  "topicId": "num-number-series",
+  "skill": "series-alternating",
+  "difficulty": 2,
+  "stem": "What comes next? 10, 13, 9, 12, 8, 11, ___",
+  "choices": [
+    "14",
+    "10",
+    "7",
+    "15"
+  ],
+  "answer": "7",
+  "hints": [
+    "The numbers go up, then down, then up. Look at every other number.",
+    "Write the 1st, 3rd and 5th numbers as one series: 10, 9, 8.",
+    "The next number is the 7th, so it belongs to the series 10, 9, 8. That series goes down by 1 each time."
+  ],
+  "solution": {
+    "methodName": "Split into two series",
+    "steps": [
+      {
+        "action": "Check the differences: 13 − 10 = 3, then 13 to 9 is a drop of 4, then 12 − 9 = 3, then 12 to 8 is a drop of 4. Up 3, down 4, taking turns.",
+        "why": "When the steps go up and down in turns, split the list into two series."
+      },
+      {
+        "action": "Take the 1st, 3rd and 5th numbers: 10, 9, 8. The rule is −1."
+      },
+      {
+        "action": "Take the 2nd, 4th and 6th numbers: 13, 12, 11. The rule is also −1."
+      },
+      {
+        "action": "The blank is the 7th number, so it belongs to the first series: 8 − 1 = 7."
+      },
+      {
+        "action": "Check another way: the last step (8 to 11) was +3, so the next step is −4. 11 − 4 = 7. Same result. The answer is 7."
+      }
+    ]
+  },
+  "trapNotes": {
+    "10": "This is the next number of the second series (13, 12, 11). The 7th number belongs to the first series: 10, 9, 8.",
+    "14": "This adds 3 again. The steps take turns: +3, −4, +3, −4. The last step was +3, so now take 4 away.",
+    "15": "This adds 4. The step of 4 goes down, not up: 13 − 4 = 9 and 12 − 4 = 8."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

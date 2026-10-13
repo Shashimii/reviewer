@@ -1,0 +1,49 @@
+{
+  "id": "num-ratio-0005",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-simplify",
+  "difficulty": 3,
+  "stem": "A dressmaker has a piece of cloth 2.4 metres long. She cuts off 60 centimetres to make a pillowcase. What is the ratio of the cloth left to the cloth she cut off?",
+  "choices": [
+    "4 : 1",
+    "1 : 3",
+    "3 : 1",
+    "3 : 4"
+  ],
+  "answer": "3 : 1",
+  "hints": [
+    "Watch two things: the units are different, and the question asks about the cloth that is left.",
+    "Change 2.4 metres into centimetres. 1 metre = 100 centimetres.",
+    "2.4 × 100 gives the whole cloth in cm. Subtract 60 to find what is left. Then write left : cut off and simplify."
+  ],
+  "solution": {
+    "methodName": "Convert to the same unit, then simplify",
+    "steps": [
+      {
+        "action": "Change metres to centimetres: 2.4 × 100 = 240 cm.",
+        "why": "Both lengths must be in the same unit before you compare them."
+      },
+      {
+        "action": "Find the cloth left: 240 − 60 = 180 cm.",
+        "why": "The question compares the cloth left, not the whole piece, with the part cut off."
+      },
+      {
+        "action": "Write left : cut off = 180 : 60."
+      },
+      {
+        "action": "Divide both numbers by 60: 180 ÷ 60 = 3 and 60 ÷ 60 = 1."
+      },
+      {
+        "action": "The ratio of cloth left to cloth cut off is 3 : 1."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4 : 1": "This is the whole cloth to the cut piece (240 : 60). The question asks about the cloth left after cutting.",
+    "1 : 3": "This is cut off to left (60 : 180). The question asks for the cloth left first.",
+    "3 : 4": "This is the cloth left to the whole cloth (180 : 240). Compare the cloth left with the piece cut off."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,48 @@
+{
+  "id": "num-series-0015",
+  "topicId": "num-number-series",
+  "skill": "series-growing",
+  "difficulty": 3,
+  "stem": "What is the missing number? 20, 17, 12, ___, −4, −15",
+  "choices": [
+    "7",
+    "4",
+    "5",
+    "3"
+  ],
+  "answer": "5",
+  "hints": [
+    "The numbers go down by more each time. Find the drops you can see.",
+    "Find the first two drops: 20 − 17 and 17 − 12.",
+    "The drops are 3, then 5, so each drop is 2 bigger than the last. Take the next drop away from 12, then check the drops after the blank."
+  ],
+  "solution": {
+    "methodName": "Check differences of differences",
+    "steps": [
+      {
+        "action": "Check the first differences: 20 − 17 = 3 and 17 − 12 = 5. The numbers drop by 3, then by 5."
+      },
+      {
+        "action": "The drops grow by 2, so the next drop is 5 + 2 = 7."
+      },
+      {
+        "action": "Fill the blank: 12 − 7 = 5."
+      },
+      {
+        "action": "Check the next drop. It should be 7 + 2 = 9, and 5 − 9 = −4. That matches.",
+        "why": "Start at 5 and go 9 steps down: 5 steps reach 0, then 4 more steps reach −4."
+      },
+      {
+        "action": "Check the last drop. It should be 9 + 2 = 11, and −4 − 11 = −15. That matches too. The missing number is 5."
+      }
+    ]
+  },
+  "trapNotes": {
+    "3": "This takes away 9, skipping a step. After a drop of 5 comes a drop of 7.",
+    "4": "4 is halfway between 12 and −4. But the drops are not equal, so the halfway number does not work.",
+    "7": "This takes away 5 again. The drops grow by 2 each time: 3, 5, then 7."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

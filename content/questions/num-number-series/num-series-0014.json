@@ -1,0 +1,48 @@
+{
+  "id": "num-series-0014",
+  "topicId": "num-number-series",
+  "skill": "series-growing",
+  "difficulty": 3,
+  "stem": "What comes next? 2, 3, 5, 9, 17, ___",
+  "choices": [
+    "25",
+    "34",
+    "33",
+    "26"
+  ],
+  "answer": "33",
+  "hints": [
+    "Find the differences first. Do they grow by adding the same amount, or by multiplying?",
+    "Find the differences: 3 − 2, 5 − 3, 9 − 5, 17 − 9.",
+    "The differences are 1, 2, 4, 8. Each one is double the last. Double 8 and add the result to 17."
+  ],
+  "solution": {
+    "methodName": "Check differences of differences",
+    "steps": [
+      {
+        "action": "Check the differences: 3 − 2 = 1, 5 − 3 = 2, 9 − 5 = 4, 17 − 9 = 8."
+      },
+      {
+        "action": "Check the differences of the differences: 2 − 1 = 1, 4 − 2 = 2, 8 − 4 = 4. Not the same."
+      },
+      {
+        "action": "Check the ratios of the differences: 2 ÷ 1 = 2, 4 ÷ 2 = 2, 8 ÷ 4 = 2. Each difference is double the last.",
+        "why": "Run the same checklist on the differences: first their differences, then their ratios."
+      },
+      {
+        "action": "The next difference is 8 × 2 = 16."
+      },
+      {
+        "action": "Add it to the last number: 17 + 16 = 33. The answer is 33."
+      }
+    ]
+  },
+  "trapNotes": {
+    "25": "This adds 8 again. The steps double each time (1, 2, 4, 8), so the next step is 16.",
+    "26": "This adds the last two numbers, 9 + 17. Check that rule earlier: 5 + 9 = 14, not 17.",
+    "34": "This doubles 17. Check that rule earlier: 9 × 2 = 18, not 17."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

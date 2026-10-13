@@ -1,0 +1,48 @@
+{
+  "id": "num-ratio-0002",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-simplify",
+  "difficulty": 1,
+  "stem": "Write the ratio 18 : 30 in simplest form.",
+  "choices": [
+    "8 : 20",
+    "3 : 5",
+    "9 : 10",
+    "5 : 3"
+  ],
+  "answer": "3 : 5",
+  "hints": [
+    "A ratio stays the same when you divide both numbers by the same number.",
+    "Find the biggest number that divides both 18 and 30.",
+    "Both 18 and 30 can be divided by 6. Divide each number by 6 and keep the order."
+  ],
+  "solution": {
+    "methodName": "Write in the order asked, then simplify",
+    "steps": [
+      {
+        "action": "List the numbers that divide 18: 1, 2, 3, 6, 9, 18. List the numbers that divide 30: 1, 2, 3, 5, 6, 10, 15, 30."
+      },
+      {
+        "action": "The biggest number in both lists is 6.",
+        "why": "This is the GCF (greatest common factor). Dividing by it gives the simplest form in one step."
+      },
+      {
+        "action": "Divide both numbers by 6: 18 ÷ 6 = 3 and 30 ÷ 6 = 5."
+      },
+      {
+        "action": "Check: 3 and 5 share no factor except 1, so the ratio cannot be simplified further."
+      },
+      {
+        "action": "18 : 30 in simplest form is 3 : 5."
+      }
+    ]
+  },
+  "trapNotes": {
+    "8 : 20": "This subtracts 10 from both numbers (18 − 10 and 30 − 10). Subtracting changes a ratio. Divide both numbers by the same number instead.",
+    "9 : 10": "This divides 18 by 2 but 30 by 3. Both numbers must be divided by the same number.",
+    "5 : 3": "The numbers are swapped. 18 comes first in the question, so its part (3) comes first."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

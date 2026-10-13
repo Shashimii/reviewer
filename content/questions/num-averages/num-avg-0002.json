@@ -1,0 +1,45 @@
+{
+  "id": "num-avg-0002",
+  "topicId": "num-averages",
+  "skill": "avg-mean",
+  "difficulty": 1,
+  "stem": "The noon temperatures in Tuguegarao on four days were 35°C, 39°C, 34°C and 36°C. What was the average noon temperature?",
+  "choices": [
+    "48°C",
+    "36.5°C",
+    "36°C",
+    "144°C"
+  ],
+  "answer": "36°C",
+  "hints": [
+    "Average means total ÷ how many. How many temperatures are there?",
+    "Add the four temperatures first.",
+    "The total is 144°C. Divide it by the number of days."
+  ],
+  "solution": {
+    "methodName": "Average = total ÷ count",
+    "steps": [
+      {
+        "action": "Add the temperatures: 35 + 39 = 74; 74 + 34 = 108; 108 + 36 = 144."
+      },
+      {
+        "action": "Count the days: 4."
+      },
+      {
+        "action": "Divide the total by the count: 144 ÷ 4 = 36.",
+        "why": "By hand, dividing by 4 is halving twice: 144 ÷ 2 = 72, then 72 ÷ 2 = 36."
+      },
+      {
+        "action": "The average noon temperature was 36°C."
+      }
+    ]
+  },
+  "trapNotes": {
+    "48°C": "This is 144 ÷ 3. There are 4 days, so divide by 4.",
+    "36.5°C": "This is halfway between the highest (39°C) and the lowest (34°C) only. Use all four temperatures.",
+    "144°C": "This is the total of the four temperatures. Divide it by 4 to get the average."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

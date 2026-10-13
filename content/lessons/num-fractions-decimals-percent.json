@@ -1,0 +1,69 @@
+{
+  "id": "num-fractions-decimals-percent-lesson",
+  "topicId": "num-fractions-decimals-percent",
+  "workedExampleId": "num-fdp-0018",
+  "sections": [
+    {
+      "heading": "Fractions: parts of a whole",
+      "body": "A *fraction* shows part of a whole. In 3/4, the bottom number (4) tells how many equal parts the whole is cut into. The top number (3) tells how many of those parts you have.\n\n- **Simplify (lowest terms):** divide the top and the bottom by the same number. 6/8 → divide both by 2 → 3/4.\n- **Add or subtract:** first make the bottoms the same, then add or subtract the tops. 1/2 + 1/3 = 3/6 + 2/6 = 5/6. Never add the bottoms.\n- **Multiply:** top × top, bottom × bottom. 2/3 × 1/4 = 2/12 = 1/6.\n- **Divide: keep, change, flip.** Keep the first number, change ÷ to ×, flip the second fraction. 3 ÷ 1/2 = 3 × 2/1 = 6.\n- **Mixed numbers:** a *mixed number* is a whole number plus a fraction, like 2 1/2 (read \"2 and 1/2\"). Change it to an *improper fraction* (top bigger than bottom) before you work: 2 1/2 = (2 × 2 + 1)/2 = 5/2.\n- **\"What fraction of…?\"** Part over whole, then simplify. 6 of 10 workers = 6/10 = 3/5."
+    },
+    {
+      "heading": "Decimals: line up the point",
+      "body": "A *decimal* uses a point to show parts of a whole. 0.5 is 5 tenths. 0.25 is 25 hundredths, like 25 centavos out of ₱1.\n\n- **Add or subtract:** line up the decimal points, not the last digits. Fill gaps with zeros: 4.5 + 1.25 → 4.50 + 1.25 = 5.75.\n- **× or ÷ by 10, 100, 1000:** move the point one place for each zero. Multiply → move right (bigger). Divide → move left (smaller). 2.4 × 100 = 240, and 2.4 ÷ 100 = 0.024.\n- **Multiply by a decimal:** split it into easy parts. ₱60 × 1.5 = (₱60 × 1) + (₱60 × 0.5) = ₱60 + ₱30 = ₱90.\n- **Divide by a decimal:** move the point in both numbers the same number of places, until the number you divide by is whole. 1.2 ÷ 0.3 → 12 ÷ 3 = 4."
+    },
+    {
+      "heading": "Changing between fractions, decimals and percents",
+      "body": "*Percent* means \"out of 100\". So 45% = 45/100 = 0.45. All three are just different ways to write the same amount.\n\n- **Fraction → percent:** make the bottom 100. 3/20 = 15/100 = 15%.\n- **Decimal → percent:** move the point 2 places right. 0.08 = 8%.\n- **Percent → decimal:** move the point 2 places left. 35% = 0.35.\n- **Percent → fraction:** put it over 100, then simplify. 40% = 40/100 = 2/5.\n- **To compare or order:** change everything to decimals with the same number of digits. 0.6 = 0.60, which is bigger than 0.58.\n\nThere is no calculator on exam day, so memorize these:\n\n| Fraction | Decimal | Percent |\n| --- | --- | --- |\n| 1/2 | 0.5 | 50% |\n| 1/4 | 0.25 | 25% |\n| 3/4 | 0.75 | 75% |\n| 1/5 | 0.2 | 20% |\n| 1/8 | 0.125 | 12.5% |\n| 1/10 | 0.1 | 10% |\n| 1/3 | about 0.33 | about 33% |"
+    },
+    {
+      "heading": "Percent problems",
+      "body": "**Percent of a number.** Find 10% by dividing by 10, then build up. 10% of ₱450 = ₱45, so 5% = ₱22.50 and 15% = ₱45 + ₱22.50 = ₱67.50. Or use the table: 25% of ₱80 = ₱80 ÷ 4 = ₱20.\n\n**What percent is one number of another?** Part over whole, then make the bottom 100. 9 out of 20 = 45/100 = 45%.\n\n**Increase or decrease.** Find the change, then add or subtract it. ₱300 with 10% off: 10% = ₱30, so ₱300 − ₱30 = ₱270.\n\n**Percent change.** Change over *original* (the amount before the change), times 100. From ₱20 to ₱25: the change is ₱5, and 5/20 = 1/4 = 25%.\n\n**Find the original.** After 25% off, a shirt costs ₱300. So ₱300 is 75% of the original. 75% = 3/4, so 1/4 is ₱300 ÷ 3 = ₱100, and the original is 4 × ₱100 = ₱400."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Adding the bottoms.** 1/2 + 1/3 is not 2/5. Make the bottoms the same first.\n- **Flipping at the wrong time.** Flip only when dividing, and flip only the second fraction.\n- **Lining up the last digits** instead of the decimal points.\n- **Moving the point the wrong way.** × makes a number bigger (move right). ÷ makes it smaller (move left).\n- **Using the wrong base.** Percent change is always compared with the original amount. From ₱40 to ₱50 is a 25% increase, not 20%.\n- **Thinking +20% and −20% cancel out.** The second percent is taken from the new amount, so they do not.\n- **Answering a different question.** Does it ask for the discount or the sale price? The amount spent or the amount left?"
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Fraction",
+      "definition": "A number that shows part of a whole, written as top/bottom, like 3/4.",
+      "taglish": "Fraction – bahagi ng isang buo, halimbawa ang 3/4 ay 3 sa 4 na pantay na hati"
+    },
+    {
+      "term": "Lowest terms",
+      "definition": "A fraction is in lowest terms when no number except 1 divides both its top and its bottom.",
+      "taglish": "Lowest terms – pinakasimpleng anyo ng fraction; wala nang numerong puwedeng mag-divide sa taas at baba maliban sa 1"
+    },
+    {
+      "term": "Mixed number",
+      "definition": "A whole number and a fraction written together, like 2 1/2, which is read \"2 and 1/2\".",
+      "taglish": "Mixed number – buong numero na may kasamang fraction, gaya ng 2 1/2 na tasa ng bigas"
+    },
+    {
+      "term": "Common denominator",
+      "definition": "The same bottom number for two or more fractions, which you need before adding or subtracting them.",
+      "taglish": "Common denominator – parehong numero sa ibaba ng mga fraction; kailangan ito bago mag-add o mag-subtract"
+    },
+    {
+      "term": "Decimal",
+      "definition": "A number with a decimal point, where the digits after the point are parts of a whole, like 0.75.",
+      "taglish": "Decimal – numerong may tuldok; ang mga digit pagkatapos ng tuldok ay bahagi ng isa, gaya ng ₱0.75"
+    },
+    {
+      "term": "Percent",
+      "definition": "Percent means \"out of 100\", so 30% is 30 out of 100.",
+      "taglish": "Percent – ibig sabihin ay \"sa bawat 100\"; ang 30% ay 30 sa bawat 100"
+    },
+    {
+      "term": "Discount",
+      "definition": "The amount taken off a price.",
+      "taglish": "Discount – ang bawas sa presyo, gaya ng \"20% off\" tuwing sale"
+    },
+    {
+      "term": "Original amount",
+      "definition": "The amount before a change; percent increase and decrease are always measured from it.",
+      "taglish": "Original amount – ang dating halaga bago tumaas o bumaba; dito laging ikinukumpara ang percent change"
+    }
+  ]
+}

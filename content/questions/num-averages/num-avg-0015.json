@@ -1,0 +1,52 @@
+{
+  "id": "num-avg-0015",
+  "topicId": "num-averages",
+  "skill": "avg-weighted",
+  "difficulty": 2,
+  "stem": "A carinderia owner bought 3 kg of pork at ₱320 per kg and 2 kg of chicken at ₱220 per kg. What was the average price per kilogram of the meat she bought?",
+  "choices": [
+    "₱270",
+    "₱280",
+    "₱700",
+    "₱260"
+  ],
+  "answer": "₱280",
+  "hints": [
+    "She bought 3 kg of one meat and 2 kg of the other. Should the two prices count equally?",
+    "Find the cost of each meat: 3 × ₱320 and 2 × ₱220.",
+    "Add the two costs, then divide by the total kilograms, 3 + 2."
+  ],
+  "solution": {
+    "methodName": "Weighted average: add group totals, divide by total count",
+    "steps": [
+      {
+        "action": "Cost of the pork: 3 × ₱320 = ₱960."
+      },
+      {
+        "action": "Cost of the chicken: 2 × ₱220 = ₱440."
+      },
+      {
+        "action": "Total cost: ₱960 + ₱440 = ₱1,400."
+      },
+      {
+        "action": "Total weight: 3 + 2 = 5 kg.",
+        "why": "The average is per kilogram, so divide by kilograms, not by the 2 kinds of meat."
+      },
+      {
+        "action": "Average price: ₱1,400 ÷ 5 = ₱280 per kg.",
+        "why": "By hand, dividing by 5 is the same as doubling and then dividing by 10: ₱1,400 × 2 = ₱2,800, and ₱2,800 ÷ 10 = ₱280."
+      },
+      {
+        "action": "The average price is ₱280 per kilogram."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱270": "This is halfway between ₱320 and ₱220. She bought more pork than chicken, so the average is closer to the pork price.",
+    "₱700": "This is ₱1,400 ÷ 2, dividing by the 2 kinds of meat. Divide by the 5 kilograms instead (3 + 2).",
+    "₱260": "This mixes up the amounts: 3 kg of chicken and 2 kg of pork. She bought 3 kg of pork and 2 kg of chicken."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,51 @@
+{
+  "id": "num-ops-0024",
+  "topicId": "num-basic-operations",
+  "skill": "ops-divisibility",
+  "difficulty": 3,
+  "stem": "A parol has red, green and blue lights. The red lights blink every 4 seconds, the green every 6 seconds and the blue every 10 seconds. All three blink together now. After how many seconds will all three next blink together?",
+  "choices": [
+    "20",
+    "120",
+    "60",
+    "240"
+  ],
+  "answer": "60",
+  "hints": [
+    "The lights repeat, and you want the first time they all meet again. Use the LCM.",
+    "List multiples of the biggest number, 10: 10, 20, 30, 40, …",
+    "Check each multiple of 10: can it also be divided by 4 and by 6? The first one that passes both is your answer."
+  ],
+  "solution": {
+    "methodName": "LCM for things that repeat and meet again",
+    "steps": [
+      {
+        "action": "Things that repeat and meet again call for the LCM of 4, 6 and 10."
+      },
+      {
+        "action": "List multiples of 10: 10, 20, 30, 40, 50, 60, …",
+        "why": "Start with the biggest number, so there are fewer numbers to check."
+      },
+      {
+        "action": "10, 30 and 50 cannot be divided by 4 (they leave remainder 2), so they fail."
+      },
+      {
+        "action": "20 and 40 can be divided by 4, but not by 6, so they fail."
+      },
+      {
+        "action": "60 ÷ 4 = 15 and 60 ÷ 6 = 10. Both are whole numbers, so the LCM is 60."
+      },
+      {
+        "action": "All three lights next blink together after 60 seconds."
+      }
+    ]
+  },
+  "trapNotes": {
+    "20": "This adds 4 + 6 + 10. At 20 seconds the green lights are not blinking, because 20 ÷ 6 is not a whole number.",
+    "120": "All three do blink together at 120 seconds, but they already did at 60 seconds. The question asks for the next time.",
+    "240": "This multiplies 4 × 6 × 10. They do blink together then, but 60 seconds comes much earlier. Use the least common multiple."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

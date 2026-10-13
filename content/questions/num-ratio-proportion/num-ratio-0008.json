@@ -1,0 +1,48 @@
+{
+  "id": "num-ratio-0008",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-proportion",
+  "difficulty": 1,
+  "stem": "On a road map, 2 cm stands for 15 km. Two towns are 8 cm apart on the map. How far apart are the towns in real life?",
+  "choices": [
+    "60 km",
+    "120 km",
+    "21 km",
+    "4 km"
+  ],
+  "answer": "60 km",
+  "hints": [
+    "Map distances and real distances are in proportion. More cm on the map means more km in real life.",
+    "Write map cm : real km = 2 : 15 = 8 : x.",
+    "Cross-multiply: 2 × x = 15 × 8. Then divide by 2."
+  ],
+  "solution": {
+    "methodName": "Cross-multiply, then divide",
+    "steps": [
+      {
+        "action": "Set up the proportion, map cm first on both sides: 2 : 15 = 8 : x."
+      },
+      {
+        "action": "Cross-multiply: 2 × x = 15 × 8."
+      },
+      {
+        "action": "Multiply: 15 × 8 = 120, so 2 × x = 120."
+      },
+      {
+        "action": "Divide by 2: x = 120 ÷ 2 = 60.",
+        "why": "Shortcut: 8 cm is 4 times 2 cm (8 ÷ 2 = 4), so the real distance is 4 × 15 km."
+      },
+      {
+        "action": "The towns are 60 km apart."
+      }
+    ]
+  },
+  "trapNotes": {
+    "120 km": "This is 15 × 8. You forgot to divide by 2, because 15 km matches 2 cm, not 1 cm.",
+    "21 km": "This adds: 8 is 6 more than 2, so 15 + 6 = 21. A map scale works by multiplying, not adding.",
+    "4 km": "This is only 8 ÷ 2 = 4, the number of 2-cm pieces. Each piece stands for 15 km, so multiply by 15."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,42 @@
+{
+  "id": "num-series-0006",
+  "topicId": "num-number-series",
+  "skill": "series-multiply",
+  "difficulty": 1,
+  "stem": "What comes next? 640, 320, 160, 80, ___",
+  "choices": [
+    "20",
+    "0",
+    "160",
+    "40"
+  ],
+  "answer": "40",
+  "hints": [
+    "The numbers get smaller fast. Is the same amount taken away each time, or is each number cut into parts?",
+    "Compare 320 with 640. What do you divide 640 by to get 320?",
+    "640 ÷ 2 = 320 and 320 ÷ 2 = 160. Each number is half the one before. Do the same to 80."
+  ],
+  "solution": {
+    "methodName": "Find the rule: check differences, then ratios",
+    "steps": [
+      {
+        "action": "Check the differences: 640 − 320 = 320, 320 − 160 = 160, 160 − 80 = 80. Not the same, so it is not taking away a fixed number."
+      },
+      {
+        "action": "Check the ratios: 640 ÷ 320 = 2, 320 ÷ 160 = 2, 160 ÷ 80 = 2. Each number is half the one before.",
+        "why": "A ratio tells you how many times bigger one number is than the next. When a series gets smaller by the same ratio, the rule is to divide. Here the rule is ÷2."
+      },
+      {
+        "action": "Apply the rule to the last number: 80 ÷ 2 = 40. The answer is 40."
+      }
+    ]
+  },
+  "trapNotes": {
+    "0": "This takes away 80 again. But the drops get smaller each time (320, 160, 80), so the rule is ÷2.",
+    "20": "This is 80 ÷ 4. Each number is half the one before, so divide by 2, not 4.",
+    "160": "This doubles 80. The numbers are getting smaller, so divide by 2 instead."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

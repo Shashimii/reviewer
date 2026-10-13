@@ -1,0 +1,49 @@
+{
+  "id": "num-fdp-0010",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-decimals",
+  "difficulty": 2,
+  "stem": "Ate Mila buys 2.5 kilograms of pork at ₱320 per kilogram. How much does she pay?",
+  "choices": [
+    "₱640",
+    "₱80",
+    "₱8,000",
+    "₱800"
+  ],
+  "answer": "₱800",
+  "hints": [
+    "Multiply the price per kilogram by the number of kilograms: ₱320 × 2.5.",
+    "Split 2.5 into 2 and 0.5. Find ₱320 × 2 first.",
+    "₱320 × 2 = ₱640. ₱320 × 0.5 is half of ₱320. Add the two parts."
+  ],
+  "solution": {
+    "methodName": "Multiply by a decimal: split it into easy parts",
+    "steps": [
+      {
+        "action": "Cost = price per kilogram × number of kilograms = ₱320 × 2.5."
+      },
+      {
+        "action": "Split 2.5 into 2 + 0.5.",
+        "why": "0.5 is one half, which is easy to work with by hand."
+      },
+      {
+        "action": "₱320 × 2 = ₱640."
+      },
+      {
+        "action": "₱320 × 0.5 = ₱320 ÷ 2 = ₱160.",
+        "why": "Multiplying by 0.5 is the same as taking half."
+      },
+      {
+        "action": "Add the parts: ₱640 + ₱160 = ₱800. She pays ₱800."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱640": "This is the price of only 2 kilograms. Do not forget the extra 0.5 kilogram.",
+    "₱80": "This puts the decimal point one place too far left (₱320 × 0.25). 2.5 kg must cost more than 2 kg, which is ₱640.",
+    "₱8,000": "This is 320 × 25. It drops the decimal point in 2.5."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

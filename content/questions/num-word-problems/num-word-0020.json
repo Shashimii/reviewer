@@ -1,0 +1,49 @@
+{
+  "id": "num-word-0020",
+  "topicId": "num-word-problems",
+  "skill": "word-mixture",
+  "difficulty": 1,
+  "stem": "Aling Nena mixes 4 kg of coffee beans worth ₱300 per kg with 6 kg of beans worth ₱200 per kg. What is the total value of the 10 kg mixture?",
+  "choices": [
+    "₱2,500",
+    "₱500",
+    "₱5,000",
+    "₱2,400"
+  ],
+  "answer": "₱2,400",
+  "hints": [
+    "Value = kilos × price per kilo. Do this for each kind of coffee.",
+    "First kind: 4 × ₱300. Second kind: 6 × ₱200.",
+    "Work out both values, then add them."
+  ],
+  "solution": {
+    "methodName": "Mixture table: amount × price or percent = value",
+    "steps": [
+      {
+        "action": "Let v = the total value of the mixture in pesos."
+      },
+      {
+        "action": "Value of the ₱300 beans: 4 × ₱300 = ₱1,200.",
+        "why": "Value = amount × price."
+      },
+      {
+        "action": "Value of the ₱200 beans: 6 × ₱200 = ₱1,200."
+      },
+      {
+        "action": "Total value: v = ₱1,200 + ₱1,200 = ₱2,400.",
+        "why": "Mixing does not change the total value."
+      },
+      {
+        "action": "Check: ₱2,400 ÷ 10 kg = ₱240 per kg, which is between ₱200 and ₱300. The total value is ₱2,400."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱2,500": "This multiplies 10 kg by ₱250, the average of the two prices. There are more kilos of the cheaper beans, so find each value separately.",
+    "₱500": "This adds the two prices per kg, ₱300 + ₱200. Multiply each price by its number of kilos first.",
+    "₱5,000": "This multiplies 10 kg by ₱500, the sum of the two prices. Each kilo has only one price."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

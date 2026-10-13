@@ -1,0 +1,49 @@
+{
+  "id": "num-ratio-0012",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-proportion",
+  "difficulty": 3,
+  "stem": "An evacuation centre has enough rice to feed 40 evacuees for 15 days. Before any of the rice is used, 10 more evacuees arrive. How many days will the rice last now?",
+  "choices": [
+    "5 days",
+    "20 days",
+    "18.75 days",
+    "12 days"
+  ],
+  "answer": "12 days",
+  "hints": [
+    "More people eat the rice faster, so it lasts fewer days. This is an inverse proportion.",
+    "Find the total rice in person-days: 40 evacuees × 15 days. Then find the new number of evacuees.",
+    "40 × 15 gives the person-days. The new group is 40 + 10 people. Divide the person-days by the new group size."
+  ],
+  "solution": {
+    "methodName": "Inverse proportion: find the total work, then divide",
+    "steps": [
+      {
+        "action": "Decide the type: more people means fewer days. This is an inverse proportion.",
+        "why": "In an inverse proportion, multiply first to find the total, then divide."
+      },
+      {
+        "action": "Find the total rice in person-days: 40 × 15 = 600.",
+        "why": "A person-day is the rice one person eats in one day. The centre has 600 of these, no matter how many people share them."
+      },
+      {
+        "action": "Find the new number of evacuees: 40 + 10 = 50."
+      },
+      {
+        "action": "Divide the person-days by the new number of people: 600 ÷ 50 = 12."
+      },
+      {
+        "action": "The rice will now last 12 days."
+      }
+    ]
+  },
+  "trapNotes": {
+    "5 days": "This subtracts 10 from 15 days. The 10 is extra people, not days. Find the total person-days, then divide.",
+    "20 days": "This divides 600 by 30, as if 10 evacuees left. The question says 10 more arrive, so there are 50 people.",
+    "18.75 days": "This treats it as a direct proportion: 15 × 50 ÷ 40. More people should make the rice last fewer days, not more."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,46 @@
+{
+  "id": "num-avg-0010",
+  "topicId": "num-averages",
+  "skill": "avg-missing",
+  "difficulty": 2,
+  "stem": "Mae scored 80 and 90 on her first two quizzes. What score does she need on the third quiz to have an average of 88?",
+  "choices": [
+    "91",
+    "94",
+    "88",
+    "264"
+  ],
+  "answer": "94",
+  "hints": [
+    "Think in totals. What must all three scores add up to for an average of 88?",
+    "Total needed = 88 × 3.",
+    "She needs 264 in all and already has 80 + 90. Subtract to find the third score."
+  ],
+  "solution": {
+    "methodName": "Use totals: total = average × count",
+    "steps": [
+      {
+        "action": "Find the total she needs for 3 quizzes: 88 × 3 = 264.",
+        "why": "Total = average × count."
+      },
+      {
+        "action": "Add what she already has: 80 + 90 = 170."
+      },
+      {
+        "action": "Subtract: 264 − 170 = 94.",
+        "why": "The third quiz must supply the rest of the total."
+      },
+      {
+        "action": "Check: 80 + 90 + 94 = 264, and 264 ÷ 3 = 88. She needs a score of 94."
+      }
+    ]
+  },
+  "trapNotes": {
+    "88": "Her first two scores average only 85. Scoring 88 would leave her average below 88, so she must score higher to make up the gap.",
+    "91": "This is 88 + 3. Her first two scores average 85, which is 3 below 88. Over two quizzes, she is 2 × 3 = 6 points short in all. She needs 88 + 6.",
+    "264": "This is the total she needs for all three quizzes. Subtract what she already has, 80 + 90."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

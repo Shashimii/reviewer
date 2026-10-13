@@ -1,0 +1,48 @@
+{
+  "id": "num-series-0022",
+  "topicId": "num-number-series",
+  "skill": "series-squares",
+  "difficulty": 1,
+  "stem": "What comes next? 1, 8, 27, 64, ___",
+  "choices": [
+    "101",
+    "81",
+    "91",
+    "125"
+  ],
+  "answer": "125",
+  "hints": [
+    "These numbers grow fast. Think of a number times itself, three times.",
+    "8 = 2 × 2 × 2 and 27 = 3 × 3 × 3. Check 64 the same way.",
+    "The numbers are 1³, 2³, 3³, 4³. The next one is 5³, which means 5 × 5 × 5."
+  ],
+  "solution": {
+    "methodName": "Compare with squares and cubes",
+    "steps": [
+      {
+        "action": "Check the differences: 8 − 1 = 7, 27 − 8 = 19, 64 − 27 = 37. Not the same."
+      },
+      {
+        "action": "Check the ratios: 8 ÷ 1 = 8, but 8 × 8 = 64, not 27. Not the same ratio either."
+      },
+      {
+        "action": "Compare with the cubes: 1 = 1 × 1 × 1, 8 = 2 × 2 × 2, 27 = 3 × 3 × 3, 64 = 4 × 4 × 4.",
+        "why": "A cube is a number times itself three times, written with a small 3: 2³ = 2 × 2 × 2."
+      },
+      {
+        "action": "The next number is 5³. First 5 × 5 = 25."
+      },
+      {
+        "action": "Then 25 × 5 = 125. The answer is 125."
+      }
+    ]
+  },
+  "trapNotes": {
+    "81": "This treats 64 as 8² and takes the next square, 9². But 1, 8, 27 are not squares in order. The series is cubes: 1³, 2³, 3³, 4³, so next is 5³.",
+    "91": "This adds the last two numbers, 27 + 64. Check that rule earlier: 8 + 27 = 35, not 64.",
+    "101": "This adds 37 again. The steps keep growing (7, 19, 37), so the same step will not work."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

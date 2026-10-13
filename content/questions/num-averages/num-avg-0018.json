@@ -1,0 +1,49 @@
+{
+  "id": "num-avg-0018",
+  "topicId": "num-averages",
+  "skill": "avg-change",
+  "difficulty": 1,
+  "stem": "The average age of 4 friends is 20 years. A fifth friend, aged 25, joins them. What is the average age of the 5 friends now?",
+  "choices": [
+    "22.5 years",
+    "21 years",
+    "26.25 years",
+    "105 years"
+  ],
+  "answer": "21 years",
+  "hints": [
+    "Find the total age of the 4 friends first.",
+    "Old total = 20 × 4. Then add the new friend's age.",
+    "The new total is 80 + 25. Divide it by the new number of friends, 5."
+  ],
+  "solution": {
+    "methodName": "Compare totals before and after the change",
+    "steps": [
+      {
+        "action": "Old total: 20 × 4 = 80 years.",
+        "why": "Total = average × count."
+      },
+      {
+        "action": "Add the new friend: 80 + 25 = 105 years."
+      },
+      {
+        "action": "New count: 4 + 1 = 5 friends."
+      },
+      {
+        "action": "New average: 105 ÷ 5 = 21.",
+        "why": "Shortcut: the new friend is 5 years above the old average. Those 5 extra years are shared by 5 people, so the average goes up by 5 ÷ 5 = 1."
+      },
+      {
+        "action": "The new average age is 21 years."
+      }
+    ]
+  },
+  "trapNotes": {
+    "22.5 years": "This is halfway between 20 and 25, as if the new friend counted as much as the other 4 together. The new friend is only 1 of 5 people.",
+    "26.25 years": "This is 105 ÷ 4. With the new friend there are 5 people, so divide by 5.",
+    "105 years": "This is the total of all 5 ages. Divide it by 5 to get the average."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

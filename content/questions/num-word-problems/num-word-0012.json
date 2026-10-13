@@ -1,0 +1,55 @@
+{
+  "id": "num-word-0012",
+  "topicId": "num-word-problems",
+  "skill": "word-work",
+  "difficulty": 3,
+  "stem": "Ben can paint a wall in 6 days. Carlo can paint the same wall in 12 days. They work together for 2 days, then Ben leaves. How many more days will Carlo need to finish the wall?",
+  "choices": [
+    "6",
+    "2",
+    "10",
+    "12"
+  ],
+  "answer": "6",
+  "hints": [
+    "Split the job into two parts: the work done together, then the work Carlo does alone.",
+    "Together they paint 1/6 + 1/12 = 3/12 = 1/4 of the wall per day. How much is done in 2 days?",
+    "Find the part left (1 − the part done). Carlo paints 1/12 of the wall per day, so divide the part left by 1/12."
+  ],
+  "solution": {
+    "methodName": "Work rates: rate = 1 ÷ time, then add the rates",
+    "steps": [
+      {
+        "action": "Let x = the extra days Carlo works alone."
+      },
+      {
+        "action": "Rates: Ben paints 1/6 of the wall per day, and Carlo paints 1/12 per day."
+      },
+      {
+        "action": "Together: 1/6 + 1/12 = 2/12 + 1/12 = 3/12 = 1/4 of the wall per day."
+      },
+      {
+        "action": "In 2 days together: 2 × 1/4 = 2/4 = 1/2 of the wall."
+      },
+      {
+        "action": "Part left: 1 − 1/2 = 1/2 of the wall.",
+        "why": "The whole wall counts as 1."
+      },
+      {
+        "action": "Carlo alone: 1/12 × x = 1/2, so x = 1/2 ÷ 1/12 = 1/2 × 12 = 6 days.",
+        "why": "Dividing by 1/12 is the same as multiplying by 12."
+      },
+      {
+        "action": "Check: in 6 days Carlo paints 6 × 1/12 = 1/2 of the wall. 1/2 + 1/2 = 1 whole wall. Carlo needs 6 more days."
+      }
+    ]
+  },
+  "trapNotes": {
+    "2": "This is the time left if both kept working (4 − 2 days). Ben leaves, so only Carlo's rate counts.",
+    "10": "This is 12 − 2. It takes away the 2 days but ignores the work Ben did during those days.",
+    "12": "This is Carlo's time for the whole wall. Half the wall is already painted after the 2 days together."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

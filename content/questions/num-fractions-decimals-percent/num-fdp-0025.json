@@ -1,0 +1,48 @@
+{
+  "id": "num-fdp-0025",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-percent",
+  "difficulty": 3,
+  "stem": "200 people applied for a job at the municipal hall. 45% of them passed the written test. Of those who passed, 20% were hired. How many people were hired?",
+  "choices": [
+    "40",
+    "72",
+    "18",
+    "50"
+  ],
+  "answer": "18",
+  "hints": [
+    "There are two groups. First find how many passed. The 20% is taken from that smaller group, not from all 200.",
+    "45% of 200: 1% of 200 is 2, so 45% is 45 × 2.",
+    "90 people passed. Find 10% of 90, then double it to get 20%."
+  ],
+  "solution": {
+    "methodName": "Percent of a percent: find the first group, then take the percent of that group",
+    "steps": [
+      {
+        "action": "Find 1% of 200: 200 ÷ 100 = 2."
+      },
+      {
+        "action": "Passed: 45% of 200 = 45 × 2 = 90 people."
+      },
+      {
+        "action": "The 20% is of the 90 who passed.",
+        "why": "\"Of those who passed\" tells you the base is 90, not 200."
+      },
+      {
+        "action": "10% of 90 = 90 ÷ 10 = 9, so 20% of 90 = 9 × 2 = 18."
+      },
+      {
+        "action": "18 people were hired."
+      }
+    ]
+  },
+  "trapNotes": {
+    "40": "This is 20% of all 200 applicants. The 20% is only of the 90 who passed.",
+    "50": "This subtracts the percents (45% − 20% = 25%) and takes 25% of 200. Percents of different groups cannot be subtracted.",
+    "72": "This is the number who passed but were not hired (90 − 18)."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,62 @@
+{
+  "id": "num-word-0006",
+  "topicId": "num-word-problems",
+  "skill": "word-age",
+  "difficulty": 3,
+  "stem": "Mang Andres is 3 times as old as his son Paolo. In 12 years, Mang Andres will be twice as old as Paolo. How old is Mang Andres now?",
+  "choices": [
+    "12",
+    "48",
+    "36",
+    "72"
+  ],
+  "answer": "36",
+  "hints": [
+    "There are two facts: one about now and one about 12 years from now. Put both people in a Now and Future table.",
+    "Let x = Paolo's age now. Then Mang Andres is 3x now. In 12 years: Paolo is x + 12, Mang Andres is 3x + 12.",
+    "In 12 years the father is twice the son: 3x + 12 = 2(x + 12). Multiply out the right side, collect the x's on one side, solve for x, then multiply by 3."
+  ],
+  "solution": {
+    "methodName": "Age table: Now, Past, Future",
+    "steps": [
+      {
+        "action": "Let x = Paolo's age now.",
+        "why": "The father's age is described using the son's age, so the son is the easiest unknown."
+      },
+      {
+        "action": "Mang Andres now: 3x."
+      },
+      {
+        "action": "In 12 years: Paolo = x + 12, and Mang Andres = 3x + 12.",
+        "why": "Both of them get 12 years older."
+      },
+      {
+        "action": "In 12 years the father is twice the son: 3x + 12 = 2(x + 12)."
+      },
+      {
+        "action": "Multiply out: 2(x + 12) = 2x + 24. So 3x + 12 = 2x + 24.",
+        "why": "The 2 multiplies both parts inside the brackets: 2 × x and 2 × 12."
+      },
+      {
+        "action": "Subtract 2x from both sides: x + 12 = 24."
+      },
+      {
+        "action": "Subtract 12 from both sides: x = 24 − 12 = 12. Paolo is 12."
+      },
+      {
+        "action": "Mang Andres = 3 × 12 = 36."
+      },
+      {
+        "action": "Check: in 12 years Mang Andres will be 36 + 12 = 48 and Paolo will be 12 + 12 = 24. 48 is twice 24. Mang Andres is 36 years old now."
+      }
+    ]
+  },
+  "trapNotes": {
+    "12": "This is Paolo's age now (x). The question asks for Mang Andres: 3 × 12.",
+    "48": "This is Mang Andres's age in 12 years (36 + 12). The question asks for his age now.",
+    "72": "This adds 12 years to Paolo but not to Mang Andres (3x = 2(x + 12)). In 12 years both are 12 years older: 3x + 12."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

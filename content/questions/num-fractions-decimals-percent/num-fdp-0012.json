@@ -1,0 +1,50 @@
+{
+  "id": "num-fdp-0012",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-decimals",
+  "difficulty": 3,
+  "stem": "Mrs. Santos buys 3 cans of sardines at ₱24.75 each and a pack of noodles for ₱13.50. She pays with a ₱100 bill. How much change does she get?",
+  "choices": [
+    "₱61.75",
+    "₱13.25",
+    "₱12.25",
+    "₱87.75"
+  ],
+  "answer": "₱12.25",
+  "hints": [
+    "First find the total cost. Then subtract it from ₱100.",
+    "The sardines cost 3 × ₱24.75. Work that out first.",
+    "3 × ₱24.75 = ₱74.25. Add ₱13.50 with the decimal points lined up, then subtract the total from ₱100.00."
+  ],
+  "solution": {
+    "methodName": "Change problems: find the total cost, then subtract",
+    "steps": [
+      {
+        "action": "Sardines: 3 × ₱24.75. Split it: 3 × ₱24 = ₱72 and 3 × ₱0.75 = ₱2.25.",
+        "why": "Splitting pesos and centavos makes the multiplication easy by hand."
+      },
+      {
+        "action": "Add the parts: ₱72 + ₱2.25 = ₱74.25."
+      },
+      {
+        "action": "Total cost: ₱74.25 + ₱13.50 = ₱87.75.",
+        "why": "Line up the decimal points: 25 + 50 = 75 centavos, and 74 + 13 = 87 pesos."
+      },
+      {
+        "action": "Change: ₱100.00 − ₱87.75. Count up from ₱87.75: add ₱0.25 to reach ₱88.00, then add ₱12 to reach ₱100.00.",
+        "why": "Counting up is how cashiers give change. It avoids borrowing mistakes."
+      },
+      {
+        "action": "Add what you counted: ₱0.25 + ₱12 = ₱12.25. Her change is ₱12.25."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱61.75": "This uses only one can of sardines (₱100 − ₱24.75 − ₱13.50). She buys 3 cans.",
+    "₱13.25": "This forgets the peso borrowed for the centavos. ₱100.00 − ₱87.75 is ₱12.25, not ₱13.25.",
+    "₱87.75": "This is the total cost. The question asks for the change."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

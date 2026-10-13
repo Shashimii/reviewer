@@ -1,0 +1,49 @@
+{
+  "id": "num-ratio-0016",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-share",
+  "difficulty": 2,
+  "stem": "Paolo and his younger brother Nico share ₱2,400 in the ratio 5 : 3. How much more does Paolo get than Nico?",
+  "choices": [
+    "₱600",
+    "₱300",
+    "₱900",
+    "₱1,500"
+  ],
+  "answer": "₱600",
+  "hints": [
+    "Paolo has 5 parts and Nico has 3 parts. Paolo gets 5 − 3 more parts.",
+    "Find one part: ₱2,400 ÷ (5 + 3).",
+    "₱2,400 ÷ 8 gives one part. Paolo has 2 more parts than Nico, so multiply one part by 2."
+  ],
+  "solution": {
+    "methodName": "Find one part, then multiply",
+    "steps": [
+      {
+        "action": "Count all the parts: 5 + 3 = 8 parts."
+      },
+      {
+        "action": "Find one part: ₱2,400 ÷ 8 = ₱300."
+      },
+      {
+        "action": "Find the difference in parts: 5 − 3 = 2 parts.",
+        "why": "Paolo's extra money is the parts he has that Nico does not."
+      },
+      {
+        "action": "Find the difference in pesos: 2 × ₱300 = ₱600.",
+        "why": "Check: Paolo gets 5 × ₱300 = ₱1,500 and Nico gets 3 × ₱300 = ₱900. ₱1,500 − ₱900 = ₱600."
+      },
+      {
+        "action": "Paolo gets ₱600 more than Nico."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱300": "This is one part. Paolo has 2 more parts than Nico (5 − 3 = 2), so multiply ₱300 by 2.",
+    "₱900": "This is Nico's share (3 × ₱300). The question asks for the difference between the two shares.",
+    "₱1,500": "This is Paolo's share (5 × ₱300). Subtract Nico's share to find how much more Paolo gets."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

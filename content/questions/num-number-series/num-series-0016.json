@@ -1,0 +1,49 @@
+{
+  "id": "num-series-0016",
+  "topicId": "num-number-series",
+  "skill": "series-alternating",
+  "difficulty": 1,
+  "stem": "What comes next? 2, 10, 4, 20, 6, 30, ___",
+  "choices": [
+    "40",
+    "8",
+    "32",
+    "12"
+  ],
+  "answer": "8",
+  "hints": [
+    "The numbers jump up and down. Look at every other number.",
+    "Write the 1st, 3rd and 5th numbers as one series: 2, 4, 6. Write the 2nd, 4th and 6th as another: 10, 20, 30.",
+    "The next number is the 7th, so it belongs to the series 2, 4, 6. That series adds 2 each time."
+  ],
+  "solution": {
+    "methodName": "Split into two series",
+    "steps": [
+      {
+        "action": "Check the differences: 10 − 2 = 8, then 10 to 4 is a drop of 6. Up, then down.",
+        "why": "When the numbers go up, down, up, down, the list is often two series mixed together."
+      },
+      {
+        "action": "Take the 1st, 3rd and 5th numbers: 2, 4, 6. The rule is +2."
+      },
+      {
+        "action": "Take the 2nd, 4th and 6th numbers: 10, 20, 30. The rule is +10."
+      },
+      {
+        "action": "The blank is the 7th number, so it belongs to the first series (2, 4, 6).",
+        "why": "The odd places (1st, 3rd, 5th, 7th) belong to the first series."
+      },
+      {
+        "action": "Apply its rule: 6 + 2 = 8. The answer is 8."
+      }
+    ]
+  },
+  "trapNotes": {
+    "12": "This doubles 6. The first series adds 2 each time: 2, 4, 6.",
+    "32": "This adds 2 to 30. The +2 rule belongs to the first series, so add 2 to 6, not to 30.",
+    "40": "This continues the second series (10, 20, 30). But the 7th number belongs to the first series: 2, 4, 6."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

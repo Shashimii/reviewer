@@ -1,0 +1,43 @@
+{
+  "id": "num-fdp-0014",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-convert",
+  "difficulty": 1,
+  "stem": "Write 0.07 as a percent.",
+  "choices": [
+    "70%",
+    "7%",
+    "0.07%",
+    "0.7%"
+  ],
+  "answer": "7%",
+  "hints": [
+    "To change a decimal to a percent, multiply by 100.",
+    "Multiplying by 100 moves the decimal point two places to the right.",
+    "Move the point in 0.07 two places right, then add the % sign."
+  ],
+  "solution": {
+    "methodName": "Decimal to percent: move the point two places right",
+    "steps": [
+      {
+        "action": "Multiply by 100 by moving the point two places right.",
+        "why": "Percent means out of 100, so the percent is 100 times the decimal."
+      },
+      {
+        "action": "Move it one place: 0.07 → 0.7. Move it again: 0.7 → 7."
+      },
+      {
+        "action": "Add the % sign: 0.07 = 7%.",
+        "why": "Check: 7% = 7/100 = 0.07."
+      }
+    ]
+  },
+  "trapNotes": {
+    "70%": "70% = 0.70. The 7 in 0.07 is in the hundredths place, so it is 7 out of 100.",
+    "0.07%": "This adds the % sign without multiplying by 100. 0.07% is 100 times smaller than 0.07.",
+    "0.7%": "This moves the point only one place. To change a decimal to a percent, move it two places."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

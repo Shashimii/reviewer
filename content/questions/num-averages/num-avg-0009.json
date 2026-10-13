@@ -1,0 +1,46 @@
+{
+  "id": "num-avg-0009",
+  "topicId": "num-averages",
+  "skill": "avg-missing",
+  "difficulty": 2,
+  "stem": "The average of five numbers is 18. Four of the numbers are 15, 20, 12 and 22. What is the fifth number?",
+  "choices": [
+    "3",
+    "18",
+    "21",
+    "90"
+  ],
+  "answer": "21",
+  "hints": [
+    "Use the average to find what all five numbers add up to.",
+    "Total of all five = 18 × 5.",
+    "The total is 90. Add the four known numbers, then subtract their sum from 90."
+  ],
+  "solution": {
+    "methodName": "Use totals: total = average × count",
+    "steps": [
+      {
+        "action": "Find the total of all five numbers: 18 × 5 = 90.",
+        "why": "Total = average × count."
+      },
+      {
+        "action": "Add the four known numbers: 15 + 20 = 35; 35 + 12 = 47; 47 + 22 = 69."
+      },
+      {
+        "action": "Subtract: 90 − 69 = 21.",
+        "why": "Whatever is left of the total must be the fifth number."
+      },
+      {
+        "action": "Check: 69 + 21 = 90, and 90 ÷ 5 = 18. The fifth number is 21."
+      }
+    ]
+  },
+  "trapNotes": {
+    "3": "This uses 18 × 4 = 72, then 72 − 69. There are five numbers, so the total is 18 × 5 = 90.",
+    "18": "This just repeats the average. The fifth number is whatever makes the total of all five come out right.",
+    "90": "This is the total of all five numbers. Subtract the four you know to find the fifth."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,46 @@
+{
+  "id": "num-ops-0001",
+  "topicId": "num-basic-operations",
+  "skill": "ops-integers",
+  "difficulty": 1,
+  "stem": "A freezer is at −18°C. During a brownout, its temperature rises by 7°C. What is the temperature now?",
+  "choices": [
+    "−25°C",
+    "11°C",
+    "−11°C",
+    "25°C"
+  ],
+  "answer": "−11°C",
+  "hints": [
+    "Rising means going up, so you add 7. Picture a thermometer: going up from −18 brings you closer to 0.",
+    "Write it as −18 + 7. The signs are different, so subtract the sizes: 18 − 7.",
+    "18 − 7 gives the size of the answer. Then give it the sign of the number with the bigger size, −18."
+  ],
+  "solution": {
+    "methodName": "Sign rules for adding and subtracting",
+    "steps": [
+      {
+        "action": "Write the change as an addition: −18 + 7.",
+        "why": "The temperature rises, so we add. A temperature below zero is negative."
+      },
+      {
+        "action": "The signs are different (one −, one +), so subtract the sizes: 18 − 7 = 11.",
+        "why": "When the signs are different, the two numbers partly cancel each other out."
+      },
+      {
+        "action": "Keep the sign of the number with the bigger size. 18 is bigger than 7, and it is negative, so the answer is negative."
+      },
+      {
+        "action": "The temperature now is −11°C."
+      }
+    ]
+  },
+  "trapNotes": {
+    "−25°C": "This is −18 − 7. The temperature rises, so add 7. Going up from −18 brings you closer to 0, not farther from it.",
+    "11°C": "The size, 11, is right but the sign is wrong. Starting at −18 and going up only 7 degrees, you are still below 0.",
+    "25°C": "This adds 18 + 7 and ignores the minus sign. The freezer starts below zero, so rising 7 degrees cannot reach 25°C."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

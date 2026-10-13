@@ -1,0 +1,48 @@
+{
+  "id": "num-word-0013",
+  "topicId": "num-word-problems",
+  "skill": "word-motion",
+  "difficulty": 1,
+  "stem": "A bus travels at 60 km/h. How far does it go in 2 hours and 30 minutes?",
+  "choices": [
+    "138 km",
+    "150 km",
+    "120 km",
+    "24 km"
+  ],
+  "answer": "150 km",
+  "hints": [
+    "First write the time in hours. How many hours is 30 minutes?",
+    "30 minutes = 1/2 hour, so the time is 2 1/2 hours.",
+    "Distance = rate × time. Work out 60 × 2, then add 60 × 1/2."
+  ],
+  "solution": {
+    "methodName": "D = R × T (distance = rate × time)",
+    "steps": [
+      {
+        "action": "Let d = the distance in km."
+      },
+      {
+        "action": "Change the time to hours: 30 minutes = 30 ÷ 60 = 1/2 hour. The time is 2 1/2 hours.",
+        "why": "The speed is in km per hour, so the time must be in hours."
+      },
+      {
+        "action": "Distance = rate × time: d = 60 × 2 1/2."
+      },
+      {
+        "action": "60 × 2 = 120 and 60 × 1/2 = 30. So d = 120 + 30 = 150 km."
+      },
+      {
+        "action": "Check: 150 ÷ 60 = 2 1/2 hours, which is 2 hours 30 minutes. The bus goes 150 km."
+      }
+    ]
+  },
+  "trapNotes": {
+    "138 km": "This uses 2.30 hours for 2 hours 30 minutes. But 30 minutes is half an hour, so the time is 2.5 hours.",
+    "120 km": "This uses only the 2 hours and leaves out the 30 minutes.",
+    "24 km": "This divides 60 ÷ 2.5. Distance = rate × time, so multiply."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

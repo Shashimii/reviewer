@@ -1,0 +1,55 @@
+{
+  "id": "num-word-0001",
+  "topicId": "num-word-problems",
+  "skill": "word-age",
+  "difficulty": 1,
+  "stem": "In 6 years, Ramon will be 31 years old. How old was Ramon 4 years ago?",
+  "choices": [
+    "25",
+    "21",
+    "27",
+    "41"
+  ],
+  "answer": "21",
+  "hints": [
+    "Make a small table: Past (4 years ago), Now, Future (in 6 years). You already know the Future age.",
+    "Let x = Ramon's age now. In 6 years he will be x + 6, so x + 6 = 31.",
+    "Find x by taking 6 from 31. Then go back 4 more years from his age now."
+  ],
+  "solution": {
+    "methodName": "Age table: Now, Past, Future",
+    "steps": [
+      {
+        "action": "Let x = Ramon's age now.",
+        "why": "Always name the unknown first. Ages now are the easiest to build the other ages from."
+      },
+      {
+        "action": "Make the table. Now: x. In 6 years: x + 6. 4 years ago: x − 4.",
+        "why": "Future ages add years. Past ages take years away."
+      },
+      {
+        "action": "In 6 years he will be 31, so x + 6 = 31.",
+        "why": "The Future box must equal the age the problem gives."
+      },
+      {
+        "action": "Take 6 from both sides: x = 31 − 6 = 25. Ramon is 25 now.",
+        "why": "Subtracting 6 undoes the + 6."
+      },
+      {
+        "action": "4 years ago: 25 − 4 = 21."
+      },
+      {
+        "action": "Check: 21 + 4 = 25 (now), and 25 + 6 = 31 (in 6 years). It matches. Ramon was 21 years old 4 years ago.",
+        "why": "Putting the answer back into the story catches mistakes before you choose."
+      }
+    ]
+  },
+  "trapNotes": {
+    "25": "This is Ramon's age now (31 − 6). The question asks for his age 4 years ago, so take away 4 more.",
+    "27": "This is 31 − 4. It goes back 4 years from his future age. First go back 6 years to get his age now.",
+    "41": "This adds the years: 31 + 6 + 4. Going back in time means subtracting."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

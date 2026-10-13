@@ -1,0 +1,45 @@
+{
+  "id": "num-series-0012",
+  "topicId": "num-number-series",
+  "skill": "series-growing",
+  "difficulty": 2,
+  "stem": "What comes next? 5, 7, 11, 17, 25, ___",
+  "choices": [
+    "33",
+    "35",
+    "42",
+    "37"
+  ],
+  "answer": "35",
+  "hints": [
+    "The jumps between the numbers get bigger. Find each jump.",
+    "Find the differences: 7 − 5, 11 − 7, 17 − 11, 25 − 17.",
+    "The differences are 2, 4, 6, 8. They grow by 2 each time. Find the next difference and add it to 25."
+  ],
+  "solution": {
+    "methodName": "Check differences of differences",
+    "steps": [
+      {
+        "action": "Check the differences: 7 − 5 = 2, 11 − 7 = 4, 17 − 11 = 6, 25 − 17 = 8."
+      },
+      {
+        "action": "Check the differences of the differences: 4 − 2 = 2, 6 − 4 = 2, 8 − 6 = 2. Each step is 2 bigger than the last.",
+        "why": "The checklist works on the differences too. Their own differences are all 2, so the steps grow by 2."
+      },
+      {
+        "action": "The next difference is 8 + 2 = 10."
+      },
+      {
+        "action": "Add it to the last number: 25 + 10 = 35. The answer is 35."
+      }
+    ]
+  },
+  "trapNotes": {
+    "33": "This adds 8 again. The steps grow by 2 each time, so the next step is 10.",
+    "37": "This adds 12, skipping a step. After +8 comes +10.",
+    "42": "This adds the last two numbers, 17 + 25. Check that rule earlier: 11 + 17 = 28, not 25."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

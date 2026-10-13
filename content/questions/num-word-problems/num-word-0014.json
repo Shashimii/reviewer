@@ -1,0 +1,49 @@
+{
+  "id": "num-word-0014",
+  "topicId": "num-word-problems",
+  "skill": "word-motion",
+  "difficulty": 1,
+  "stem": "A van travels 150 km in 2 1/2 hours. What is its average speed?",
+  "choices": [
+    "75 km/h",
+    "375 km/h",
+    "50 km/h",
+    "60 km/h"
+  ],
+  "answer": "60 km/h",
+  "hints": [
+    "Speed tells you how many km are covered in 1 hour.",
+    "Rate = distance ÷ time = 150 ÷ 2 1/2.",
+    "To divide by 2 1/2 easily, double both numbers first: 150 ÷ 2.5 is the same as 300 ÷ 5."
+  ],
+  "solution": {
+    "methodName": "D = R × T (distance = rate × time)",
+    "steps": [
+      {
+        "action": "Let r = the speed in km/h."
+      },
+      {
+        "action": "From D = R × T, rate = distance ÷ time: r = 150 ÷ 2 1/2.",
+        "why": "Cover the R in D = R × T. What is left is D ÷ T."
+      },
+      {
+        "action": "Double both numbers to remove the half: 150 × 2 = 300 and 2 1/2 × 2 = 5.",
+        "why": "Multiplying both numbers in a division by the same amount does not change the answer."
+      },
+      {
+        "action": "r = 300 ÷ 5 = 60 km/h."
+      },
+      {
+        "action": "Check: 60 × 2 1/2 = 120 + 30 = 150 km. Its average speed is 60 km/h."
+      }
+    ]
+  },
+  "trapNotes": {
+    "75 km/h": "This divides by 2 and leaves out the half hour: 150 ÷ 2.",
+    "375 km/h": "This multiplies 150 × 2.5. Speed = distance ÷ time, so divide.",
+    "50 km/h": "This divides by 3, rounding 2 1/2 hours up to 3. Use the exact time."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

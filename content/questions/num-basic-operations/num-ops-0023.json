@@ -1,0 +1,54 @@
+{
+  "id": "num-ops-0023",
+  "topicId": "num-basic-operations",
+  "skill": "ops-divisibility",
+  "difficulty": 3,
+  "stem": "Teacher Joy has 36 pencils and 54 notebooks. She packs them into gift bags so that every bag has the same items and nothing is left over. She wants as many bags as possible. How many notebooks go in each bag?",
+  "choices": [
+    "18",
+    "2",
+    "6",
+    "3"
+  ],
+  "answer": "3",
+  "hints": [
+    "Sharing into equal groups with nothing left over calls for the GCF. The GCF gives the number of bags.",
+    "Find the GCF of 36 and 54.",
+    "The GCF is the number of bags. Divide the 54 notebooks by the number of bags."
+  ],
+  "solution": {
+    "methodName": "GCF for cutting or sharing into equal parts",
+    "steps": [
+      {
+        "action": "Equal groups, nothing left over, as many as possible: use the GCF of 36 and 54.",
+        "why": "The number of bags must divide both 36 and 54 exactly. \"As many as possible\" means we want the greatest such number."
+      },
+      {
+        "action": "Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36."
+      },
+      {
+        "action": "Factors of 54: 1, 2, 3, 6, 9, 18, 27, 54."
+      },
+      {
+        "action": "The biggest number in both lists is 18. So she makes 18 bags."
+      },
+      {
+        "action": "Notebooks in each bag: 54 ÷ 18 = 3."
+      },
+      {
+        "action": "Check the pencils: 36 ÷ 18 = 2 in each bag, with nothing left over."
+      },
+      {
+        "action": "Each bag has 3 notebooks."
+      }
+    ]
+  },
+  "trapNotes": {
+    "2": "2 is the number of pencils in each bag (36 ÷ 18). The question asks about notebooks.",
+    "6": "This uses 9 bags: 54 ÷ 9 = 6. 9 is a common factor, but not the greatest. She can make 18 bags.",
+    "18": "18 is the number of bags (the GCF). The question asks how many notebooks go in each bag, so divide: 54 ÷ 18."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

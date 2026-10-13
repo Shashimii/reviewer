@@ -1,0 +1,45 @@
+{
+  "id": "num-series-0024",
+  "topicId": "num-number-series",
+  "skill": "series-squares",
+  "difficulty": 2,
+  "stem": "What is the missing number? 121, 100, ___, 64, 49",
+  "choices": [
+    "82",
+    "79",
+    "81",
+    "90"
+  ],
+  "answer": "81",
+  "hints": [
+    "Do you know these numbers? Each one is a number times itself.",
+    "121 = 11 × 11 and 100 = 10 × 10. Check 64 and 49 the same way.",
+    "The series is 11², 10², ___, 8², 7². The blank is the square that comes between 10² and 8²."
+  ],
+  "solution": {
+    "methodName": "Compare with squares and cubes",
+    "steps": [
+      {
+        "action": "Check the differences you can see: 121 − 100 = 21 and 64 − 49 = 15. Not the same, so it is not taking away a fixed number."
+      },
+      {
+        "action": "Compare with the squares: 121 = 11², 100 = 10², 64 = 8², 49 = 7².",
+        "why": "The numbers being squared go down by 1: 11, 10, then 8, 7. So 9 is missing."
+      },
+      {
+        "action": "Fill the blank: 9² = 9 × 9 = 81."
+      },
+      {
+        "action": "Check: 100 − 81 = 19 and 81 − 64 = 17. The drops are 21, 19, 17, 15, each 2 less than the last, so 81 fits. The missing number is 81."
+      }
+    ]
+  },
+  "trapNotes": {
+    "79": "This takes away 21 again. The drops get 2 smaller each time: 21, then 19.",
+    "82": "82 is halfway between 100 and 64. But the drops are not equal (21 at the start, 15 at the end), so the halfway number does not work.",
+    "90": "This takes 10 away from 100. Check the first drop: 121 − 100 = 21, so the step is not 10."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

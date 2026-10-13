@@ -1,0 +1,52 @@
+{
+  "id": "num-ops-0009",
+  "topicId": "num-basic-operations",
+  "skill": "ops-order",
+  "difficulty": 2,
+  "stem": "What is 20 − 12 ÷ 4 + 3 × 2?",
+  "choices": [
+    "23",
+    "10",
+    "29",
+    "11"
+  ],
+  "answer": "23",
+  "hints": [
+    "There are four operations. Find the ÷ and the × first.",
+    "Work out 12 ÷ 4 and 3 × 2. Write the problem again with those answers.",
+    "Now only − and + are left. Work from left to right: subtract first, then add."
+  ],
+  "solution": {
+    "methodName": "PEMDAS: brackets, powers, × ÷ left to right, + − left to right",
+    "steps": [
+      {
+        "action": "Do the division: 12 ÷ 4 = 3.",
+        "why": "÷ and × come before + and −."
+      },
+      {
+        "action": "Do the multiplication: 3 × 2 = 6."
+      },
+      {
+        "action": "Rewrite the problem: 20 − 3 + 6."
+      },
+      {
+        "action": "Work from left to right. Subtract first: 20 − 3 = 17.",
+        "why": "+ and − are equal partners, so the one on the left goes first."
+      },
+      {
+        "action": "Then add: 17 + 6 = 23."
+      },
+      {
+        "action": "The answer is 23."
+      }
+    ]
+  },
+  "trapNotes": {
+    "10": "This works straight from left to right: 20 − 12 = 8, 8 ÷ 4 = 2, 2 + 3 = 5, 5 × 2 = 10. Do ÷ and × before − and +.",
+    "11": "This adds before subtracting: 20 − (3 + 6) = 11. With only + and − left, go from left to right, so 20 − 3 comes first.",
+    "29": "This is 20 + 3 + 6. The 3 (from 12 ÷ 4) has a minus sign in front of it, so subtract it."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

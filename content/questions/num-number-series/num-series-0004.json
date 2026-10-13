@@ -1,0 +1,49 @@
+{
+  "id": "num-series-0004",
+  "topicId": "num-number-series",
+  "skill": "series-add",
+  "difficulty": 2,
+  "stem": "What is the missing number? −11, −6, ___, 4, 9",
+  "choices": [
+    "1",
+    "−11",
+    "−1",
+    "0"
+  ],
+  "answer": "−1",
+  "hints": [
+    "Use the numbers you can see. How much do you add to get from 4 to 9?",
+    "Count the steps from −11 up to −6 on a number line.",
+    "The numbers go up by 5 each time. Add 5 to −6, then check that adding 5 again gives 4."
+  ],
+  "solution": {
+    "methodName": "Find the rule: check differences, then ratios",
+    "steps": [
+      {
+        "action": "Check the difference at the end: 9 − 4 = 5."
+      },
+      {
+        "action": "Check the difference at the start: from −11 up to −6 is 5 steps.",
+        "why": "On a number line, count up from −11: −10, −9, −8, −7, −6. That is 5 steps."
+      },
+      {
+        "action": "Both differences are 5, so the rule is +5."
+      },
+      {
+        "action": "Fill the blank: −6 + 5 = −1.",
+        "why": "Start at −6 and go 5 steps up: −5, −4, −3, −2, −1. You are still below zero."
+      },
+      {
+        "action": "Check: −1 + 5 = 4, which matches the number after the blank. The missing number is −1."
+      }
+    ]
+  },
+  "trapNotes": {
+    "0": "0 sits between −6 and 4, but the steps would not be equal: −6 to 0 is 6 steps, and 0 to 4 is 4 steps.",
+    "1": "This works out 6 − 5 = 1 and drops the sign. Going 5 steps up from −6 only reaches −1, still below zero.",
+    "−11": "This takes 5 away from −6. The numbers go up (−11, −6, then 4, 9), so add 5."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

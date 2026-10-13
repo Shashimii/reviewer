@@ -1,0 +1,46 @@
+{
+  "id": "num-word-0007",
+  "topicId": "num-word-problems",
+  "skill": "word-work",
+  "difficulty": 1,
+  "stem": "Rina can encode one batch of forms in 4 hours. What part of the batch can she encode in 3 hours?",
+  "choices": [
+    "1/4",
+    "4/3",
+    "1/12",
+    "3/4"
+  ],
+  "answer": "3/4",
+  "hints": [
+    "If a job takes 4 hours, how much of it is done in 1 hour?",
+    "Her rate is 1/4 of the batch per hour.",
+    "Work done = rate × time. Multiply 1/4 by 3 hours."
+  ],
+  "solution": {
+    "methodName": "Work rates: rate = 1 ÷ time, then add the rates",
+    "steps": [
+      {
+        "action": "Let x = the part of the batch Rina encodes in 3 hours."
+      },
+      {
+        "action": "Her rate: 1 batch ÷ 4 hours = 1/4 of the batch per hour.",
+        "why": "A rate is how much of the job gets done in one hour."
+      },
+      {
+        "action": "Work done = rate × time: x = 1/4 × 3 = 3/4.",
+        "why": "Multiply the top number: 1 × 3 = 3. The bottom stays 4."
+      },
+      {
+        "action": "Check: 3/4 is less than one whole batch, which makes sense because 3 hours is less than 4 hours. She encodes 3/4 of the batch."
+      }
+    ]
+  },
+  "trapNotes": {
+    "1/4": "This is what she does in 1 hour. Multiply by 3 for 3 hours.",
+    "4/3": "This is the fraction upside down (4 ÷ 3). She cannot finish more than the whole batch in less than 4 hours.",
+    "1/12": "This is 1 ÷ (4 × 3). Work done = rate × time, so multiply 1/4 by 3."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

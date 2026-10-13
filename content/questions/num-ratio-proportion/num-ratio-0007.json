@@ -1,0 +1,49 @@
+{
+  "id": "num-ratio-0007",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-proportion",
+  "difficulty": 1,
+  "stem": "A leche flan recipe uses 10 egg yolks to make 2 llaneras. How many egg yolks are needed to make 5 llaneras?",
+  "choices": [
+    "13",
+    "50",
+    "25",
+    "4"
+  ],
+  "answer": "25",
+  "hints": [
+    "More llaneras need more yolks, at the same rate. Set up a proportion.",
+    "Keep the same order on both sides: yolks : llaneras = 10 : 2 = x : 5.",
+    "Cross-multiply: 2 × x = 10 × 5. Then divide by 2."
+  ],
+  "solution": {
+    "methodName": "Cross-multiply, then divide",
+    "steps": [
+      {
+        "action": "Set up the proportion with the same order on both sides: 10 : 2 = x : 5.",
+        "why": "Yolks first, then llaneras, on both sides. Mixing up the order gives a wrong answer."
+      },
+      {
+        "action": "Cross-multiply: 2 × x = 10 × 5."
+      },
+      {
+        "action": "Multiply: 10 × 5 = 50, so 2 × x = 50."
+      },
+      {
+        "action": "Divide by 2: x = 50 ÷ 2 = 25.",
+        "why": "Shortcut check: one llanera needs 10 ÷ 2 = 5 yolks, and 5 llaneras need 5 × 5 = 25."
+      },
+      {
+        "action": "25 egg yolks are needed for 5 llaneras."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4": "This pairs the numbers the wrong way (10 : x = 5 : 2) and works out 10 × 2 ÷ 5. More llaneras should need more yolks, not fewer.",
+    "13": "This adds: 5 is 3 more than 2, so 10 + 3 = 13. In a proportion the amounts are multiplied, not added.",
+    "50": "This is 10 × 5. You still need to divide by 2, because 10 yolks make 2 llaneras, not 1."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

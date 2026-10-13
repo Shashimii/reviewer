@@ -1,0 +1,43 @@
+{
+  "id": "num-series-0003",
+  "topicId": "num-number-series",
+  "skill": "series-add",
+  "difficulty": 1,
+  "stem": "What comes next? 9, 5, 1, −3, ___",
+  "choices": [
+    "−7",
+    "−1",
+    "7",
+    "1"
+  ],
+  "answer": "−7",
+  "hints": [
+    "The numbers go down by the same amount each time, even below zero.",
+    "Find the first difference: 9 − 5.",
+    "Each number is 4 less than the one before. Start at −3 and count 4 more steps down."
+  ],
+  "solution": {
+    "methodName": "Find the rule: check differences, then ratios",
+    "steps": [
+      {
+        "action": "Check the differences: 9 − 5 = 4, 5 − 1 = 4. From 1 down to −3 is also 4 steps.",
+        "why": "On a number line, go from 1 down to 0 (1 step), then down to −3 (3 more steps). That is 4 steps in all."
+      },
+      {
+        "action": "The numbers go down by 4 each time, so the rule is −4."
+      },
+      {
+        "action": "Apply the rule to the last number: −3 − 4 = −7. The answer is −7.",
+        "why": "Below zero, taking away makes the number more negative. Count 4 steps down from −3: −4, −5, −6, −7."
+      }
+    ]
+  },
+  "trapNotes": {
+    "1": "This adds 4 to −3. The numbers go down, so take 4 away.",
+    "7": "This drops the minus sign. The series goes down past zero, so the answer is negative: −7.",
+    "−1": "This works out 4 − 3 = 1 and adds a minus sign. But −3 − 4 means going 4 more steps down from −3, which gives −7."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

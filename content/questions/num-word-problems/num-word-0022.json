@@ -1,0 +1,51 @@
+{
+  "id": "num-word-0022",
+  "topicId": "num-word-problems",
+  "skill": "word-mixture",
+  "difficulty": 2,
+  "stem": "A nurse mixes 3 liters of a 20% alcohol solution with 2 liters of a 45% alcohol solution. What percent of the mixture is alcohol?",
+  "choices": [
+    "30%",
+    "32.5%",
+    "65%",
+    "35%"
+  ],
+  "answer": "30%",
+  "hints": [
+    "Find how many liters of pure alcohol are in each solution.",
+    "Alcohol: 20% of 3 liters, and 45% of 2 liters.",
+    "Add the two amounts of alcohol, divide by the total 5 liters, and change the result to a percent."
+  ],
+  "solution": {
+    "methodName": "Mixture table: amount × price or percent = value",
+    "steps": [
+      {
+        "action": "Let p = the percent of alcohol in the mixture."
+      },
+      {
+        "action": "Alcohol in the first solution: 20% × 3 = 0.2 × 3 = 0.6 liter."
+      },
+      {
+        "action": "Alcohol in the second solution: 45% × 2 = 0.45 × 2 = 0.9 liter."
+      },
+      {
+        "action": "Total alcohol: 0.6 + 0.9 = 1.5 liters. Total mixture: 3 + 2 = 5 liters."
+      },
+      {
+        "action": "p = 1.5 ÷ 5 = 0.3 = 30%.",
+        "why": "Percent = part ÷ whole × 100%. 0.3 × 100% = 30%."
+      },
+      {
+        "action": "Check: 30% is between 20% and 45%, and closer to 20% because there is more of the 20% solution. The mixture is 30% alcohol."
+      }
+    ]
+  },
+  "trapNotes": {
+    "32.5%": "This averages 20% and 45%. The amounts are not equal (3 liters and 2 liters), so find the alcohol in each part.",
+    "65%": "This adds the two percents. Percents of different amounts cannot simply be added.",
+    "35%": "This swaps the amounts: 45% of 3 liters and 20% of 2 liters. Match each amount with its own percent."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

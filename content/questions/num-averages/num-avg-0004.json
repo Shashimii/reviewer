@@ -1,0 +1,50 @@
+{
+  "id": "num-avg-0004",
+  "topicId": "num-averages",
+  "skill": "avg-mean",
+  "difficulty": 2,
+  "stem": "What is the average of all the even numbers from 2 to 20?",
+  "choices": [
+    "10",
+    "110",
+    "12",
+    "11"
+  ],
+  "answer": "11",
+  "hints": [
+    "The numbers 2, 4, 6, … 20 are evenly spaced, so the average is in the middle.",
+    "Count how many even numbers there are. If there is no single middle number, use (first + last) ÷ 2.",
+    "Add the first and last numbers, 2 + 20, then divide by 2."
+  ],
+  "solution": {
+    "methodName": "Evenly spaced numbers: average = middle number",
+    "steps": [
+      {
+        "action": "List the even numbers: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20. They go up by 2 each time.",
+        "why": "They are evenly spaced, so the average is the middle of the list."
+      },
+      {
+        "action": "There are 10 numbers, so there is no single middle number. The two middle numbers are the 5th and 6th: 10 and 12.",
+        "why": "When the count is even, the middle falls between two numbers."
+      },
+      {
+        "action": "Find halfway between them: (10 + 12) ÷ 2 = 22 ÷ 2 = 11.",
+        "why": "Shortcut: (first + last) ÷ 2 = (2 + 20) ÷ 2 = 22 ÷ 2 = 11 gives the same answer."
+      },
+      {
+        "action": "Check the long way. Pair them up: 2 + 20, 4 + 18, 6 + 16, 8 + 14, 10 + 12. Each pair makes 22, and there are 5 pairs: 5 × 22 = 110. Then 110 ÷ 10 = 11."
+      },
+      {
+        "action": "The average is 11."
+      }
+    ]
+  },
+  "trapNotes": {
+    "10": "This is the 5th number, only one of the two middle numbers (10 and 12). The average is halfway between them.",
+    "12": "This is the 6th number, only one of the two middle numbers (10 and 12). The average is halfway between them.",
+    "110": "This is the total of the ten even numbers. Divide it by 10 to get the average."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

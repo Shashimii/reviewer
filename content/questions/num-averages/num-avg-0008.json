@@ -1,0 +1,47 @@
+{
+  "id": "num-avg-0008",
+  "topicId": "num-averages",
+  "skill": "avg-missing",
+  "difficulty": 1,
+  "stem": "The average of two numbers is 30. One of the numbers is 26. What is the other number?",
+  "choices": [
+    "34",
+    "4",
+    "28",
+    "56"
+  ],
+  "answer": "34",
+  "hints": [
+    "If the average of two numbers is 30, what must the two numbers add up to?",
+    "Total = average × count: 30 × 2.",
+    "The two numbers add up to 60. Subtract the number you know, 26, from 60."
+  ],
+  "solution": {
+    "methodName": "Use totals: total = average × count",
+    "steps": [
+      {
+        "action": "Find the total of both numbers: 30 × 2 = 60.",
+        "why": "Total = average × count."
+      },
+      {
+        "action": "Subtract the number you know: 60 − 26 = 34.",
+        "why": "The two numbers together make 60, so the other number is what is left after 26."
+      },
+      {
+        "action": "Check: 26 + 34 = 60, and 60 ÷ 2 = 30, the given average.",
+        "why": "26 is 4 below 30 and 34 is 4 above 30, so they balance."
+      },
+      {
+        "action": "The other number is 34."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4": "This is 30 − 26. Subtract 26 from the total of both numbers (60), not from the average.",
+    "28": "This is halfway between 26 and 30. The average must be 30, so the other number must be as far above 30 as 26 is below it.",
+    "56": "This is 30 + 26. First find the total of both numbers, 30 × 2 = 60, then subtract 26."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

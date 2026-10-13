@@ -1,0 +1,48 @@
+{
+  "id": "num-avg-0001",
+  "topicId": "num-averages",
+  "skill": "avg-mean",
+  "difficulty": 1,
+  "stem": "Ana saved ₱100, ₱160, ₱90, ₱130 and ₱120 in five weeks. What is her average saving per week?",
+  "choices": [
+    "₱150",
+    "₱120",
+    "₱600",
+    "₱125"
+  ],
+  "answer": "₱120",
+  "hints": [
+    "An average shares the total equally. You need two things: the total, and how many weeks.",
+    "Add all five amounts to get her total savings.",
+    "The total is ₱600 and there are 5 weeks. Divide the total by the number of weeks."
+  ],
+  "solution": {
+    "methodName": "Average = total ÷ count",
+    "steps": [
+      {
+        "action": "Add all the savings: ₱100 + ₱160 = ₱260; ₱260 + ₱90 = ₱350; ₱350 + ₱130 = ₱480; ₱480 + ₱120 = ₱600.",
+        "why": "The average shares the total equally among the weeks, so first find the total."
+      },
+      {
+        "action": "Count the amounts: there are 5 weeks.",
+        "why": "The count is how many amounts you added, not the biggest amount."
+      },
+      {
+        "action": "Divide the total by the count: ₱600 ÷ 5 = ₱120.",
+        "why": "If Ana had saved the same amount every week, she would have saved ₱120 each week. That equal amount is the average."
+      },
+      {
+        "action": "Check: ₱120 × 5 = ₱600, the same total. Ana's average saving is ₱120 per week.",
+        "why": "Total = average × count, so multiplying back should give the total again."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱600": "This is the total of the five savings. You still have to divide by 5, the number of weeks.",
+    "₱150": "This is ₱600 ÷ 4. There are 5 weeks, so divide by 5. Count the amounts carefully.",
+    "₱125": "This is halfway between the highest (₱160) and the lowest (₱90) only. The average uses all five amounts."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

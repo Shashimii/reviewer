@@ -1,0 +1,48 @@
+{
+  "id": "num-ops-0010",
+  "topicId": "num-basic-operations",
+  "skill": "ops-order",
+  "difficulty": 2,
+  "stem": "What is 3 × (7 − 4)² − 5?",
+  "choices": [
+    "76",
+    "22",
+    "13",
+    "94"
+  ],
+  "answer": "22",
+  "hints": [
+    "Start inside the brackets. The power comes next, before the ×.",
+    "Work out 7 − 4 first, then square the result.",
+    "Multiply your squared number by 3, then subtract 5."
+  ],
+  "solution": {
+    "methodName": "PEMDAS: brackets, powers, × ÷ left to right, + − left to right",
+    "steps": [
+      {
+        "action": "Brackets first: 7 − 4 = 3."
+      },
+      {
+        "action": "Power next: 3² = 3 × 3 = 9.",
+        "why": "The small ² means multiply the number by itself. It does not mean × 2."
+      },
+      {
+        "action": "Multiply: 3 × 9 = 27."
+      },
+      {
+        "action": "Subtract: 27 − 5 = 22."
+      },
+      {
+        "action": "The answer is 22."
+      }
+    ]
+  },
+  "trapNotes": {
+    "13": "This reads ² as × 2: 3 × 3 × 2 = 18, then 18 − 5 = 13. 3² means 3 × 3 = 9.",
+    "76": "This multiplies before squaring: 3 × 3 = 9, then 9² = 81, and 81 − 5 = 76. The power belongs only to the bracket, so square first, then multiply.",
+    "94": "This squares each number in the bracket: 7² − 4² = 49 − 16 = 33, then 3 × 33 − 5 = 94. Work out the bracket first: 7 − 4 = 3, then square it."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

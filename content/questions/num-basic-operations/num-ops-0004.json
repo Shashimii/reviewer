@@ -1,0 +1,46 @@
+{
+  "id": "num-ops-0004",
+  "topicId": "num-basic-operations",
+  "skill": "ops-integers",
+  "difficulty": 1,
+  "stem": "A diver in Anilao is at −14 m, which means 14 m below sea level. A seagull is flying 23 m above sea level. How many meters higher is the seagull than the diver?",
+  "choices": [
+    "9 m",
+    "37 m",
+    "−37 m",
+    "23 m"
+  ],
+  "answer": "37 m",
+  "hints": [
+    "To find how much higher one thing is than another, subtract: higher minus lower.",
+    "Write it as 23 − (−14).",
+    "Subtracting a negative is the same as adding a positive. Change 23 − (−14) into an addition and work it out."
+  ],
+  "solution": {
+    "methodName": "Sign rules for adding and subtracting",
+    "steps": [
+      {
+        "action": "Write higher minus lower: 23 − (−14).",
+        "why": "The gap between two heights is always the higher one minus the lower one."
+      },
+      {
+        "action": "Change subtracting a negative into adding: 23 − (−14) = 23 + 14.",
+        "why": "Picture it: from the diver you go up 14 m to reach the sea, then 23 m more to reach the seagull."
+      },
+      {
+        "action": "Add: 23 + 14 = 37."
+      },
+      {
+        "action": "The seagull is 37 m higher than the diver."
+      }
+    ]
+  },
+  "trapNotes": {
+    "9 m": "This is 23 − 14. The diver is below sea level, so the gap is the 14 m up to the sea plus the 23 m above it.",
+    "−37 m": "This is −14 − 23, lower minus higher. A height difference is higher minus lower, so it is positive.",
+    "23 m": "This is only the seagull's height above the sea. You also need the 14 m from the diver up to the sea."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

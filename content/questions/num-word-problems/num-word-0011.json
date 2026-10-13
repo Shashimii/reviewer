@@ -1,0 +1,55 @@
+{
+  "id": "num-word-0011",
+  "topicId": "num-word-problems",
+  "skill": "word-work",
+  "difficulty": 3,
+  "stem": "Liza and Grace can clean a house together in 4 hours. Liza alone can clean it in 6 hours. How many hours would Grace take to clean it alone?",
+  "choices": [
+    "2",
+    "10",
+    "12",
+    "1/12"
+  ],
+  "answer": "12",
+  "hints": [
+    "Together rate = Liza's rate + Grace's rate. You know two of these three.",
+    "Together they clean 1/4 of the house per hour. Liza alone cleans 1/6 of it per hour.",
+    "Grace's rate = 1/4 − 1/6. Use 12 as the bottom number, subtract, then flip the result to get her hours."
+  ],
+  "solution": {
+    "methodName": "Work rates: rate = 1 ÷ time, then add the rates",
+    "steps": [
+      {
+        "action": "Let x = the hours Grace needs alone. Her rate is 1/x of the house per hour."
+      },
+      {
+        "action": "Together rate: 1/4 of the house per hour. Liza's rate: 1/6 per hour."
+      },
+      {
+        "action": "Liza's rate + Grace's rate = together rate: 1/6 + 1/x = 1/4.",
+        "why": "When people work together, their rates add."
+      },
+      {
+        "action": "So Grace's rate is 1/x = 1/4 − 1/6."
+      },
+      {
+        "action": "Use 12 as the bottom number: 1/4 = 3/12 and 1/6 = 2/12. So 1/x = 3/12 − 2/12 = 1/12."
+      },
+      {
+        "action": "Flip both sides: x = 12 hours.",
+        "why": "If Grace cleans 1/12 of the house each hour, she needs 12 hours for all of it."
+      },
+      {
+        "action": "Check: 1/6 + 1/12 = 2/12 + 1/12 = 3/12 = 1/4, the together rate. Grace takes 12 hours alone."
+      }
+    ]
+  },
+  "trapNotes": {
+    "2": "This is 6 − 4, subtracting the hours. Subtract the rates instead: 1/4 − 1/6.",
+    "10": "This adds the hours, 4 + 6. Work with rates: Grace's rate = together rate − Liza's rate.",
+    "1/12": "This is Grace's rate, 1/12 of the house per hour. Flip it to get the hours: 1 ÷ 1/12 = 12."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

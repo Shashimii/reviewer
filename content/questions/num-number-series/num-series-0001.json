@@ -1,0 +1,44 @@
+{
+  "id": "num-series-0001",
+  "topicId": "num-number-series",
+  "skill": "series-add",
+  "difficulty": 1,
+  "stem": "What comes next? 4, 11, 18, 25, ___",
+  "choices": [
+    "39",
+    "32",
+    "50",
+    "33"
+  ],
+  "answer": "32",
+  "hints": [
+    "Look at how much the numbers go up each time.",
+    "Subtract each number from the one after it. Start with 11 − 4.",
+    "11 − 4 = 7 and 18 − 11 = 7. The numbers go up by the same amount each time. Add that amount to 25."
+  ],
+  "solution": {
+    "methodName": "Find the rule: check differences, then ratios",
+    "steps": [
+      {
+        "action": "Check the differences: 11 − 4 = 7, 18 − 11 = 7, 25 − 18 = 7.",
+        "why": "A difference is how much you add to get from one number to the next. To find it, subtract each number from the one after it."
+      },
+      {
+        "action": "The difference is 7 every time, so the rule is +7.",
+        "why": "When all the differences are the same, you have found the rule. You do not need to check ratios."
+      },
+      {
+        "action": "Apply the rule to the last number: 25 + 7 = 32. The answer is 32.",
+        "why": "The next number always comes from the last number in the list."
+      }
+    ]
+  },
+  "trapNotes": {
+    "33": "This is 25 + 8. Check the step again: 11 − 4 = 7, not 8.",
+    "39": "This is 25 + 7 + 7, two steps ahead. The question asks only for the very next number.",
+    "50": "This doubles 25. The numbers go up by adding 7, not by multiplying by 2."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

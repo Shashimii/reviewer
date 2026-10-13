@@ -1,0 +1,49 @@
+{
+  "id": "num-ops-0003",
+  "topicId": "num-basic-operations",
+  "skill": "ops-integers",
+  "difficulty": 2,
+  "stem": "Aling Rosa owes her supplier ₱850, so her balance is −₱850. She pays ₱500. Then she gets another ₱1,200 worth of goods on credit (utang). What is her balance now?",
+  "choices": [
+    "−₱2,550",
+    "−₱150",
+    "₱1,550",
+    "−₱1,550"
+  ],
+  "answer": "−₱1,550",
+  "hints": [
+    "Paying makes her debt smaller, so it moves her balance up (+). New credit makes her debt bigger, so it moves her balance down (−).",
+    "Start with the payment: −850 + 500.",
+    "Work out −850 + 500. Then subtract 1,200 from that result. Watch the sign at each step."
+  ],
+  "solution": {
+    "methodName": "Sign rules for adding and subtracting",
+    "steps": [
+      {
+        "action": "Write the whole story as one line: −850 + 500 − 1,200.",
+        "why": "Paying ₱500 makes her debt smaller, so we add 500. New credit makes her debt bigger, so we subtract 1,200."
+      },
+      {
+        "action": "First part: −850 + 500. The signs are different, so subtract the sizes: 850 − 500 = 350."
+      },
+      {
+        "action": "850 is the bigger size and it is negative, so −850 + 500 = −350."
+      },
+      {
+        "action": "Now −350 − 1,200. Subtracting takes you further below zero, so add the sizes: 350 + 1,200 = 1,550, and keep the minus sign: −1,550.",
+        "why": "A debt of ₱350 plus a new debt of ₱1,200 is a debt of ₱1,550."
+      },
+      {
+        "action": "Her balance is −₱1,550. She still owes ₱1,550."
+      }
+    ]
+  },
+  "trapNotes": {
+    "−₱2,550": "This is −850 − 500 − 1,200. Paying ₱500 makes her debt smaller, so the 500 should be added, not subtracted.",
+    "−₱150": "This is −850 − 500 + 1,200. The signs are swapped: the payment should be added and the new credit subtracted.",
+    "₱1,550": "The size is right but the sign is wrong. She still owes money, so her balance is negative."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

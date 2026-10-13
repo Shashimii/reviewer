@@ -1,0 +1,51 @@
+{
+  "id": "num-ratio-0024",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-rates",
+  "difficulty": 3,
+  "stem": "A sari-sari store sells ground coffee in four pack sizes. Which pack is the best buy, giving the lowest price for the same amount of coffee?",
+  "choices": [
+    "200 g for ₱38",
+    "250 g for ₱45",
+    "500 g for ₱85",
+    "1 kg for ₱180"
+  ],
+  "answer": "500 g for ₱85",
+  "hints": [
+    "The cheapest price tag is not always the best buy. Compare the price for the same amount of coffee.",
+    "Work out what 1 kg (1,000 g) would cost at each pack price. For the 200 g pack, multiply by 5, because 5 × 200 g = 1,000 g.",
+    "Find ₱38 × 5, ₱45 × 4 and ₱85 × 2, and compare them with ₱180. The lowest price per kilo is the best buy."
+  ],
+  "solution": {
+    "methodName": "Best buy: compare prices for the same amount",
+    "steps": [
+      {
+        "action": "Choose a common amount: 1 kg = 1,000 g.",
+        "why": "Each pack size fits evenly into 1,000 g, so you only need to multiply, not divide."
+      },
+      {
+        "action": "200 g pack: 1,000 ÷ 200 = 5, so 1 kg costs ₱38 × 5 = ₱190."
+      },
+      {
+        "action": "250 g pack: 1,000 ÷ 250 = 4, so 1 kg costs ₱45 × 4 = ₱180."
+      },
+      {
+        "action": "500 g pack: 1,000 ÷ 500 = 2, so 1 kg costs ₱85 × 2 = ₱170."
+      },
+      {
+        "action": "1 kg pack: 1 kg costs ₱180."
+      },
+      {
+        "action": "The lowest price per kilo is ₱170. The best buy is 500 g for ₱85."
+      }
+    ]
+  },
+  "trapNotes": {
+    "200 g for ₱38": "This has the lowest price tag, but it is the smallest pack. It works out to ₱38 × 5 = ₱190 per kilo, the most expensive.",
+    "250 g for ₱45": "This works out to ₱45 × 4 = ₱180 per kilo, which is more than ₱170.",
+    "1 kg for ₱180": "The biggest pack is not always the cheapest. ₱180 per kilo is more than the ₱170 that two 500 g packs cost."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

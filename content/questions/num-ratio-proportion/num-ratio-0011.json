@@ -1,0 +1,51 @@
+{
+  "id": "num-ratio-0011",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-proportion",
+  "difficulty": 3,
+  "stem": "A map has a scale of 1 : 50,000. Two landmarks are 6 cm apart on the map. How far apart are they in real life?",
+  "choices": [
+    "30 km",
+    "0.3 km",
+    "3 km",
+    "300 km"
+  ],
+  "answer": "3 km",
+  "hints": [
+    "A scale of 1 : 50,000 means 1 cm on the map is 50,000 cm in real life. Both sides use the same unit.",
+    "Multiply the map distance by 50,000 to get the real distance in cm.",
+    "Find 6 × 50,000 cm. Then change cm to km: 100 cm = 1 m and 1,000 m = 1 km, so divide by 100,000."
+  ],
+  "solution": {
+    "methodName": "Map scale: multiply, then change units",
+    "steps": [
+      {
+        "action": "Read the scale: 1 cm on the map stands for 50,000 cm in real life.",
+        "why": "A scale with no units uses the same unit on both sides."
+      },
+      {
+        "action": "Find the real distance in cm: 6 × 50,000 = 300,000 cm.",
+        "why": "This is the proportion 1 : 50,000 = 6 : x. Cross-multiplying gives x = 6 × 50,000."
+      },
+      {
+        "action": "Change cm to m: 300,000 ÷ 100 = 3,000 m.",
+        "why": "There are 100 cm in 1 metre."
+      },
+      {
+        "action": "Change m to km: 3,000 ÷ 1,000 = 3 km.",
+        "why": "There are 1,000 m in 1 kilometre."
+      },
+      {
+        "action": "The landmarks are 3 km apart."
+      }
+    ]
+  },
+  "trapNotes": {
+    "30 km": "This divides 300,000 by 10,000. To go from cm to km, divide by 100,000 (100 cm in a metre, 1,000 m in a kilometre).",
+    "0.3 km": "This divides 300,000 by 1,000,000, one zero too many. 1 km = 100,000 cm.",
+    "300 km": "This treats 300,000 as metres and divides by 1,000. The scale gives cm, so divide by 100 first to get metres."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

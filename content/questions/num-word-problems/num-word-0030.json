@@ -1,0 +1,52 @@
+{
+  "id": "num-word-0030",
+  "topicId": "num-word-problems",
+  "skill": "word-money",
+  "difficulty": 3,
+  "stem": "Aling Cora lends ₱8,000 to a neighbor at 6% simple interest per year. How much will the neighbor pay back in all after 9 months?",
+  "choices": [
+    "₱360",
+    "₱8,480",
+    "₱12,320",
+    "₱8,360"
+  ],
+  "answer": "₱8,360",
+  "hints": [
+    "In I = P × r × t, the time must be in years. How many years is 9 months?",
+    "9 months = 9/12 = 3/4 of a year. One year of interest is 6% of ₱8,000.",
+    "Multiply one year's interest by 3/4, then add it to the ₱8,000 borrowed."
+  ],
+  "solution": {
+    "methodName": "Simple interest: I = P × r × t",
+    "steps": [
+      {
+        "action": "Let A = the total amount paid back."
+      },
+      {
+        "action": "Change the time to years: 9 months = 9/12 = 3/4 year.",
+        "why": "The rate is per year, so the time must be in years."
+      },
+      {
+        "action": "Interest for 1 year: 6% of ₱8,000 = 8,000 ÷ 100 × 6 = 80 × 6 = ₱480."
+      },
+      {
+        "action": "Interest for 3/4 year: I = ₱480 × 3/4 = 480 ÷ 4 × 3 = 120 × 3 = ₱360."
+      },
+      {
+        "action": "Amount paid back: A = P + I = ₱8,000 + ₱360 = ₱8,360.",
+        "why": "\"In all\" means the money borrowed plus the interest."
+      },
+      {
+        "action": "Check: ₱360 is less than one year's interest of ₱480, which fits a loan shorter than a year. The neighbor pays back ₱8,360."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱360": "This is the interest only. \"Pay back in all\" means the money borrowed plus the interest.",
+    "₱8,480": "This uses 1 full year of interest (₱480). The loan is for 9 months, which is 9/12 = 3/4 of a year.",
+    "₱12,320": "This uses t = 9, as if 9 months were 9 years. Time must be in years: 9/12 = 3/4."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

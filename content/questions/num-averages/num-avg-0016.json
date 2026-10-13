@@ -1,0 +1,52 @@
+{
+  "id": "num-avg-0016",
+  "topicId": "num-averages",
+  "skill": "avg-weighted",
+  "difficulty": 2,
+  "stem": "In a small office, 5 employees earn ₱18,000 a month, 3 earn ₱21,000 and 2 earn ₱27,000. What is the average monthly salary of the 10 employees?",
+  "choices": [
+    "₱22,000",
+    "₱69,000",
+    "₱207,000",
+    "₱20,700"
+  ],
+  "answer": "₱20,700",
+  "hints": [
+    "Five people earn the lowest salary. Each person counts once, so each salary counts as many times as there are people earning it.",
+    "Find each group's total: 5 × ₱18,000, 3 × ₱21,000 and 2 × ₱27,000.",
+    "Add the three totals, then divide by the 10 employees."
+  ],
+  "solution": {
+    "methodName": "Weighted average: add group totals, divide by total count",
+    "steps": [
+      {
+        "action": "First group: 5 × ₱18,000 = ₱90,000.",
+        "why": "By hand, work in thousands: 5 × 18 = 90, so ₱90,000."
+      },
+      {
+        "action": "Second group: 3 × ₱21,000 = ₱63,000."
+      },
+      {
+        "action": "Third group: 2 × ₱27,000 = ₱54,000."
+      },
+      {
+        "action": "Total payroll: ₱90,000 + ₱63,000 = ₱153,000; ₱153,000 + ₱54,000 = ₱207,000."
+      },
+      {
+        "action": "Divide by the 10 employees: ₱207,000 ÷ 10 = ₱20,700.",
+        "why": "Dividing by 10 drops one zero from the end: 207,000 becomes 20,700."
+      },
+      {
+        "action": "The average monthly salary is ₱20,700."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱22,000": "This is the average of the three salary levels: (₱18,000 + ₱21,000 + ₱27,000) ÷ 3. More people earn ₱18,000, so that salary must count more.",
+    "₱69,000": "This is ₱207,000 ÷ 3, dividing by the 3 salary levels. Divide by the 10 employees instead.",
+    "₱207,000": "This is the total payroll for the month. Divide it by the 10 employees to get the average."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

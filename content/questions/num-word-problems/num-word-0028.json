@@ -1,0 +1,49 @@
+{
+  "id": "num-word-0028",
+  "topicId": "num-word-problems",
+  "skill": "word-money",
+  "difficulty": 2,
+  "stem": "Ben bought a used phone for ₱6,000. Later he sold it for ₱4,500. What was his loss percent?",
+  "choices": [
+    "25%",
+    "75%",
+    "33 1/3%",
+    "15%"
+  ],
+  "answer": "25%",
+  "hints": [
+    "Loss percent compares the loss with the cost (what he paid).",
+    "Loss = ₱6,000 − ₱4,500.",
+    "Divide the loss by ₱6,000, simplify the fraction, then change it to a percent."
+  ],
+  "solution": {
+    "methodName": "Profit or loss percent: divide by the cost",
+    "steps": [
+      {
+        "action": "Let L = the loss percent."
+      },
+      {
+        "action": "Loss = cost − selling price = ₱6,000 − ₱4,500 = ₱1,500."
+      },
+      {
+        "action": "L = loss ÷ cost × 100% = 1,500 ÷ 6,000 × 100%.",
+        "why": "Profit and loss percents always use the cost as the base."
+      },
+      {
+        "action": "1,500/6,000 = 15/60 = 1/4 = 25%.",
+        "why": "Divide the top and bottom by 100, then by 15."
+      },
+      {
+        "action": "Check: 25% of ₱6,000 = ₱1,500, and ₱6,000 − ₱1,500 = ₱4,500. His loss was 25%."
+      }
+    ]
+  },
+  "trapNotes": {
+    "75%": "This is 4,500 ÷ 6,000, the part of his money he got back. The loss is the other part: 100% − 75%.",
+    "33 1/3%": "This divides the loss by the selling price (1,500 ÷ 4,500). Loss percent uses the cost, ₱6,000, as the base.",
+    "15%": "This writes the ₱1,500 loss as 15%. Divide the loss by the cost to get a percent."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

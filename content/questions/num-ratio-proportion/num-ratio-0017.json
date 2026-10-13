@@ -1,0 +1,49 @@
+{
+  "id": "num-ratio-0017",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-share",
+  "difficulty": 3,
+  "stem": "Ana and Bea share some money in the ratio 4 : 7. Bea gets ₱900 more than Ana. How much money do they share in all?",
+  "choices": [
+    "₱3,300",
+    "₱9,900",
+    "₱2,100",
+    "₱1,200"
+  ],
+  "answer": "₱3,300",
+  "hints": [
+    "The ₱900 difference matches the difference in parts: 7 − 4.",
+    "Find one part: ₱900 ÷ (7 − 4).",
+    "₱900 ÷ 3 gives one part. The total is 4 + 7 parts, so multiply one part by that number."
+  ],
+  "solution": {
+    "methodName": "Find one part, then multiply",
+    "steps": [
+      {
+        "action": "Find the difference in parts: 7 − 4 = 3 parts.",
+        "why": "Bea has 3 more parts than Ana, and those 3 parts are the extra ₱900."
+      },
+      {
+        "action": "Find one part: ₱900 ÷ 3 = ₱300."
+      },
+      {
+        "action": "Count all the parts: 4 + 7 = 11 parts."
+      },
+      {
+        "action": "Find the total: 11 × ₱300 = ₱3,300.",
+        "why": "Check: Ana gets 4 × ₱300 = ₱1,200 and Bea gets 7 × ₱300 = ₱2,100. ₱2,100 − ₱1,200 = ₱900, which matches."
+      },
+      {
+        "action": "They share ₱3,300 in all."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱9,900": "This is ₱900 × 11. But ₱900 is 3 parts, not 1 part. Divide ₱900 by 3 first.",
+    "₱2,100": "This is Bea's share only (7 × ₱300). The question asks for all the money they share.",
+    "₱1,200": "This is Ana's share only (4 × ₱300). Add both shares to get the total."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

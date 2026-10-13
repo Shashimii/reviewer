@@ -1,0 +1,52 @@
+{
+  "id": "num-fdp-0018",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-percent",
+  "difficulty": 1,
+  "stem": "A bag priced at ₱840 is on sale at 25% off. How much is the discount?",
+  "choices": [
+    "₱630",
+    "₱210",
+    "₱168",
+    "₱2,100"
+  ],
+  "answer": "₱210",
+  "hints": [
+    "The discount is 25% of ₱840. 25% is an easy fraction.",
+    "25% = 25/100 = 1/4. So find 1/4 of ₱840.",
+    "To find 1/4 of an amount, divide it by 4. Work out ₱840 ÷ 4."
+  ],
+  "solution": {
+    "methodName": "Percent of a number: use 10% or an easy fraction",
+    "steps": [
+      {
+        "action": "The discount is 25% of the price, ₱840.",
+        "why": "\"25% off\" means the price goes down by 25% of the original price. That amount taken off is the discount."
+      },
+      {
+        "action": "Change 25% to a fraction: 25% = 25/100 = 1/4.",
+        "why": "Percent means \"out of 100\". 25 out of 100 is the same as 1 out of 4, because 25 × 4 = 100."
+      },
+      {
+        "action": "1/4 of ₱840 means ₱840 ÷ 4.",
+        "why": "Taking 1/4 of something means splitting it into 4 equal parts and taking one part."
+      },
+      {
+        "action": "Split ₱840 into ₱800 + ₱40. ₱800 ÷ 4 = ₱200 and ₱40 ÷ 4 = ₱10.",
+        "why": "Splitting a number into easy parts lets you divide in your head. No calculator on exam day."
+      },
+      {
+        "action": "Add the parts: ₱200 + ₱10 = ₱210. The discount is ₱210.",
+        "why": "Check: 4 × ₱210 = ₱840."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱630": "This is the sale price, ₱840 − ₱210. The question asks for the discount itself.",
+    "₱168": "This is ₱840 ÷ 5, which is 20%. 25% is 1/4, so divide by 4, not 5.",
+    "₱2,100": "This is ₱840 × 2.5. It puts the decimal point in the wrong place: 25% is 0.25, not 2.5."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

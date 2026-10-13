@@ -1,0 +1,49 @@
+{
+  "id": "num-avg-0021",
+  "topicId": "num-averages",
+  "skill": "avg-change",
+  "difficulty": 2,
+  "stem": "The average age of 6 workers in a shop is 30 years. A worker aged 42 retires and is replaced by a new worker aged 24. What is the new average age of the 6 workers?",
+  "choices": [
+    "33 years",
+    "12 years",
+    "27 years",
+    "32.4 years"
+  ],
+  "answer": "27 years",
+  "hints": [
+    "The number of workers stays at 6. What happens to their total age?",
+    "Old total = 30 × 6. Take away 42 and add 24.",
+    "The new total is 180 − 42 + 24. Divide it by 6."
+  ],
+  "solution": {
+    "methodName": "Compare totals before and after the change",
+    "steps": [
+      {
+        "action": "Old total: 30 × 6 = 180 years.",
+        "why": "Total = average × count."
+      },
+      {
+        "action": "Remove the worker who retired: 180 − 42 = 138."
+      },
+      {
+        "action": "Add the new worker: 138 + 24 = 162."
+      },
+      {
+        "action": "New average: 162 ÷ 6 = 27.",
+        "why": "The count stays 6, because one worker replaced another. Check: 6 × 27 = 162."
+      },
+      {
+        "action": "Shortcut check: the new worker is 42 − 24 = 18 years younger. Shared by 6 workers, that is 18 ÷ 6 = 3 years less, and 30 − 3 = 27. The new average age is 27 years."
+      }
+    ]
+  },
+  "trapNotes": {
+    "33 years": "This adds 3 instead of subtracting it. The new worker is younger, so the average goes down: 30 − 3.",
+    "12 years": "This takes the whole 18-year difference (42 − 24) off the average. That difference is shared by 6 workers, so the average drops by only 18 ÷ 6 = 3.",
+    "32.4 years": "This is 162 ÷ 5, as if the shop now had only 5 workers. The new worker replaces the old one, so there are still 6."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

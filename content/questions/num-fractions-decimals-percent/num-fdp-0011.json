@@ -1,0 +1,52 @@
+{
+  "id": "num-fdp-0011",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-decimals",
+  "difficulty": 2,
+  "stem": "A 4.8-meter ribbon is cut into pieces that are each 0.15 meter long. How many pieces are there?",
+  "choices": [
+    "32",
+    "3.2",
+    "320",
+    "0.72"
+  ],
+  "answer": "32",
+  "hints": [
+    "You want to know how many 0.15s fit into 4.8. That is 4.8 ÷ 0.15.",
+    "Make the number you divide by a whole number. Moving the point in 0.15 two places right gives 15. Move the point in 4.8 two places right too.",
+    "4.8 becomes 480. Now work out 480 ÷ 15."
+  ],
+  "solution": {
+    "methodName": "Divide by a decimal: move both points until the divisor is whole",
+    "steps": [
+      {
+        "action": "\"How many pieces\" means divide: 4.8 ÷ 0.15."
+      },
+      {
+        "action": "Move the point in 0.15 two places right: 0.15 → 15.",
+        "why": "Dividing by a whole number is much easier than dividing by a decimal."
+      },
+      {
+        "action": "Move the point in 4.8 the same two places right: 4.8 → 48 → 480.",
+        "why": "Moving both points the same way multiplies both numbers by 100, so the answer does not change. Add a zero when you run out of digits."
+      },
+      {
+        "action": "Divide 480 ÷ 15. Start with 15 × 30 = 450."
+      },
+      {
+        "action": "480 − 450 = 30, and 30 ÷ 15 = 2. So 480 ÷ 15 = 30 + 2 = 32."
+      },
+      {
+        "action": "There are 32 pieces."
+      }
+    ]
+  },
+  "trapNotes": {
+    "320": "This moves the point in 4.8 three places (4,800 ÷ 15). Both points must move the same number of places, here two.",
+    "3.2": "This moves the point in 4.8 only one place (48 ÷ 15). Both points must move the same number of places.",
+    "0.72": "This is 4.8 × 0.15, multiplying instead of dividing."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

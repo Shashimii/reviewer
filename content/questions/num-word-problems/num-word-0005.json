@@ -1,0 +1,58 @@
+{
+  "id": "num-word-0005",
+  "topicId": "num-word-problems",
+  "skill": "word-age",
+  "difficulty": 2,
+  "stem": "Jun is 8 years older than Mae. In 4 years, the sum of their ages will be 48. How old is Mae now?",
+  "choices": [
+    "18",
+    "16",
+    "20",
+    "24"
+  ],
+  "answer": "16",
+  "hints": [
+    "Both Jun and Mae get 4 years older. Use the Future column for both of them.",
+    "Let x = Mae's age now. In 4 years: Mae is x + 4, and Jun is x + 8 + 4 = x + 12.",
+    "Write (x + 4) + (x + 12) = 48. Combine to 2x + 16 = 48, then solve for x."
+  ],
+  "solution": {
+    "methodName": "Age table: Now, Past, Future",
+    "steps": [
+      {
+        "action": "Let x = Mae's age now."
+      },
+      {
+        "action": "Jun is 8 years older: Jun's age now = x + 8."
+      },
+      {
+        "action": "In 4 years: Mae = x + 4, and Jun = x + 8 + 4 = x + 12.",
+        "why": "Each person gets 4 years older, so add 4 to each age."
+      },
+      {
+        "action": "Their ages in 4 years add up to 48: (x + 4) + (x + 12) = 48."
+      },
+      {
+        "action": "Combine: 2x + 16 = 48.",
+        "why": "x + x = 2x, and 4 + 12 = 16."
+      },
+      {
+        "action": "Subtract 16 from both sides: 2x = 48 − 16 = 32."
+      },
+      {
+        "action": "Divide both sides by 2: x = 32 ÷ 2 = 16."
+      },
+      {
+        "action": "Check: now Mae is 16 and Jun is 24. In 4 years: 20 + 28 = 48. Mae is 16 years old now."
+      }
+    ]
+  },
+  "trapNotes": {
+    "18": "This adds the 4 years only once: x + (x + 8) + 4 = 48. In 4 years both people are 4 years older, so add 4 to each age.",
+    "20": "This is Mae's age in 4 years (16 + 4). The question asks for her age now.",
+    "24": "This is Jun's age now (16 + 8). The question asks for Mae."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

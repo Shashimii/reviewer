@@ -1,0 +1,48 @@
+{
+  "id": "num-avg-0011",
+  "topicId": "num-averages",
+  "skill": "avg-mean",
+  "difficulty": 3,
+  "stem": "The average of five consecutive odd numbers (odd numbers in a row, like 5, 7, 9, 11, 13) is 27. What is the largest of the five numbers?",
+  "choices": [
+    "31",
+    "29",
+    "35",
+    "135"
+  ],
+  "answer": "31",
+  "hints": [
+    "Odd numbers in a row are evenly spaced, so their average is the middle number.",
+    "27 is the middle (3rd) number. Two numbers come after it.",
+    "Odd numbers go up by 2. Count up two steps of 2 from 27."
+  ],
+  "solution": {
+    "methodName": "Evenly spaced numbers: average = middle number",
+    "steps": [
+      {
+        "action": "The five numbers go up by 2 each time, so they are evenly spaced. The average is the middle (3rd) number: 27.",
+        "why": "In an evenly spaced list, the numbers above the middle balance the numbers below it."
+      },
+      {
+        "action": "Count down from the middle: 27 − 2 = 25, then 25 − 2 = 23."
+      },
+      {
+        "action": "Count up from the middle: 27 + 2 = 29, then 29 + 2 = 31."
+      },
+      {
+        "action": "Check: the numbers are 23, 25, 27, 29, 31. Their total is 23 + 25 = 48; 48 + 27 = 75; 75 + 29 = 104; 104 + 31 = 135. And 135 ÷ 5 = 27."
+      },
+      {
+        "action": "The largest number is 31."
+      }
+    ]
+  },
+  "trapNotes": {
+    "29": "This counts up by 1: 25, 26, 27, 28, 29. Odd numbers in a row go up by 2, so the numbers are 23, 25, 27, 29, 31.",
+    "35": "This treats 27 as the smallest number: 27, 29, 31, 33, 35. For evenly spaced numbers the average is the middle one, so 27 is the 3rd number.",
+    "135": "This is the total, 27 × 5. The question asks for the largest number, not the sum."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

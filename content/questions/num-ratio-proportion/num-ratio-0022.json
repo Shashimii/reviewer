@@ -1,0 +1,45 @@
+{
+  "id": "num-ratio-0022",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-rates",
+  "difficulty": 2,
+  "stem": "A jeepney travels 24 km in 40 minutes. What is its average speed in kilometres per hour?",
+  "choices": [
+    "60 km/h",
+    "0.6 km/h",
+    "16 km/h",
+    "36 km/h"
+  ],
+  "answer": "36 km/h",
+  "hints": [
+    "Speed in km per hour needs the distance for a full hour (60 minutes), not 40 minutes.",
+    "Find the distance in 20 minutes first: 40 minutes is 2 lots of 20 minutes.",
+    "24 ÷ 2 gives the km in 20 minutes. One hour is 3 lots of 20 minutes, so multiply that distance by 3."
+  ],
+  "solution": {
+    "methodName": "Unit rate: divide to get the amount for 1",
+    "steps": [
+      {
+        "action": "Split 40 minutes into 2 lots of 20 minutes: 24 ÷ 2 = 12 km every 20 minutes.",
+        "why": "20 minutes fits evenly into both 40 minutes and 60 minutes, so it is an easy stepping stone."
+      },
+      {
+        "action": "One hour = 60 minutes = 3 lots of 20 minutes, because 60 ÷ 20 = 3."
+      },
+      {
+        "action": "Distance in 1 hour: 12 × 3 = 36 km."
+      },
+      {
+        "action": "The jeepney's average speed is 36 km/h."
+      }
+    ]
+  },
+  "trapNotes": {
+    "60 km/h": "This writes 40 minutes as 0.4 hour (24 ÷ 0.4). An hour has 60 minutes, so 40 minutes is 40/60 = 2/3 of an hour, not 0.4.",
+    "0.6 km/h": "This is 24 ÷ 40, which is km per minute, not km per hour. Scale the time up to a full hour.",
+    "16 km/h": "This multiplies by 2/3 (24 × 2/3) instead of dividing by it. In a full hour the jeepney goes farther than in 40 minutes."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

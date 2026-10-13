@@ -1,0 +1,42 @@
+{
+  "id": "num-series-0002",
+  "topicId": "num-number-series",
+  "skill": "series-add",
+  "difficulty": 1,
+  "stem": "What comes next? 50, 44, 38, 32, ___",
+  "choices": [
+    "24",
+    "38",
+    "27",
+    "26"
+  ],
+  "answer": "26",
+  "hints": [
+    "The numbers are getting smaller. By how much each time?",
+    "Find the first difference: 50 − 44.",
+    "50 − 44 = 6 and 44 − 38 = 6. Each number is 6 less than the one before. Do the same to 32."
+  ],
+  "solution": {
+    "methodName": "Find the rule: check differences, then ratios",
+    "steps": [
+      {
+        "action": "Check the differences: 50 − 44 = 6, 44 − 38 = 6, 38 − 32 = 6."
+      },
+      {
+        "action": "The numbers go down by 6 each time, so the rule is −6.",
+        "why": "When a series gets smaller, the rule takes away instead of adding."
+      },
+      {
+        "action": "Apply the rule to the last number: 32 − 6 = 26. The answer is 26."
+      }
+    ]
+  },
+  "trapNotes": {
+    "24": "This is 32 − 8. The numbers go down by 6, not 8.",
+    "27": "This is 32 − 5. Check the step again: 50 − 44 = 6, not 5.",
+    "38": "This adds 6. The numbers are going down, so take 6 away instead."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

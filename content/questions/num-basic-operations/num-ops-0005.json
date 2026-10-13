@@ -1,0 +1,46 @@
+{
+  "id": "num-ops-0005",
+  "topicId": "num-basic-operations",
+  "skill": "ops-integers",
+  "difficulty": 2,
+  "stem": "What is (−72) ÷ (−8) − 5?",
+  "choices": [
+    "9",
+    "−14",
+    "14",
+    "4"
+  ],
+  "answer": "4",
+  "hints": [
+    "Divide first, then subtract. Watch the sign of the division answer.",
+    "Work out (−72) ÷ (−8). Both numbers are negative, so what sign does the answer have?",
+    "72 ÷ 8 gives the size, and same signs give a positive answer. Then subtract 5 from that answer."
+  ],
+  "solution": {
+    "methodName": "Sign rules for multiplying and dividing",
+    "steps": [
+      {
+        "action": "Divide first: 72 ÷ 8 = 9.",
+        "why": "Division comes before subtraction in the order of operations."
+      },
+      {
+        "action": "Fix the sign. −72 and −8 are both negative, so the answer is positive: (−72) ÷ (−8) = 9.",
+        "why": "Same signs give +."
+      },
+      {
+        "action": "Subtract: 9 − 5 = 4."
+      },
+      {
+        "action": "The answer is 4."
+      }
+    ]
+  },
+  "trapNotes": {
+    "9": "This is only (−72) ÷ (−8). You still need to subtract 5.",
+    "14": "This is 9 + 5. The sign in front of 5 is minus, so subtract it.",
+    "−14": "This uses −9 − 5. But (−72) ÷ (−8) is +9, because a negative divided by a negative is positive."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

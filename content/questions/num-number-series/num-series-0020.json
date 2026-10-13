@@ -1,0 +1,48 @@
+{
+  "id": "num-series-0020",
+  "topicId": "num-number-series",
+  "skill": "series-alternating",
+  "difficulty": 3,
+  "stem": "What comes next? 2, 5, 10, 13, 26, 29, ___",
+  "choices": [
+    "32",
+    "87",
+    "58",
+    "55"
+  ],
+  "answer": "58",
+  "hints": [
+    "The steps are not all the same kind. Look at each step on its own.",
+    "Find the first two steps: 2 to 5, then 5 to 10.",
+    "The steps take turns: +3, then ×2, then +3, then ×2. Decide which step comes after 26 to 29, then apply it to 29."
+  ],
+  "solution": {
+    "methodName": "Two steps taking turns",
+    "steps": [
+      {
+        "action": "Check the differences: 5 − 2 = 3, 10 − 5 = 5, 13 − 10 = 3, 26 − 13 = 13. They do not follow one pattern."
+      },
+      {
+        "action": "Look at each step on its own: 2 + 3 = 5, then 5 × 2 = 10.",
+        "why": "If one rule does not fit every step, try two rules that take turns."
+      },
+      {
+        "action": "Check the rest: 10 + 3 = 13, 13 × 2 = 26, 26 + 3 = 29. The steps take turns: +3, ×2, +3, ×2, +3."
+      },
+      {
+        "action": "The last step (26 to 29) was +3, so the next step is ×2."
+      },
+      {
+        "action": "Apply it to the last number: 29 × 2 = 58. The answer is 58."
+      }
+    ]
+  },
+  "trapNotes": {
+    "32": "This adds 3 again. The steps take turns: +3, ×2, +3, ×2. The last step was +3, so now multiply by 2.",
+    "55": "This adds the last two numbers, 26 + 29. Check that rule earlier: 13 + 26 = 39, not 29.",
+    "87": "This multiplies by 3. The multiply step is ×2: 5 × 2 = 10 and 13 × 2 = 26."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

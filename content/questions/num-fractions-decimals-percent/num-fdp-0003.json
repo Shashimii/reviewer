@@ -1,0 +1,45 @@
+{
+  "id": "num-fdp-0003",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-fractions",
+  "difficulty": 1,
+  "stem": "A class has 40 students. 15 of them are boys. What fraction of the class are boys?",
+  "choices": [
+    "5/8",
+    "8/3",
+    "3/5",
+    "3/8"
+  ],
+  "answer": "3/8",
+  "hints": [
+    "A fraction of a group is the part over the whole.",
+    "The part is the 15 boys. The whole is all 40 students. Write 15/40.",
+    "Simplify 15/40 by dividing the top and the bottom by 5."
+  ],
+  "solution": {
+    "methodName": "Fraction of a whole: part over whole, then simplify",
+    "steps": [
+      {
+        "action": "The part is the boys: 15."
+      },
+      {
+        "action": "The whole is the whole class: 40. So the fraction is 15/40.",
+        "why": "The bottom of the fraction is always the whole group, not the other part."
+      },
+      {
+        "action": "Simplify: 15 ÷ 5 = 3 and 40 ÷ 5 = 8."
+      },
+      {
+        "action": "So 3/8 of the class are boys."
+      }
+    ]
+  },
+  "trapNotes": {
+    "5/8": "This is the fraction of girls: 40 − 15 = 25 girls, and 25/40 = 5/8. The question asks about boys.",
+    "8/3": "This is upside down. The part (15) goes on top and the whole (40) goes on the bottom.",
+    "3/5": "This is boys over girls, 15/25. The bottom must be the whole class, 40."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

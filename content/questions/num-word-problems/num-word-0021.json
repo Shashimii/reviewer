@@ -1,0 +1,51 @@
+{
+  "id": "num-word-0021",
+  "topicId": "num-word-problems",
+  "skill": "word-mixture",
+  "difficulty": 2,
+  "stem": "A rice dealer mixes 6 kg of rice that costs ₱45 per kg with 4 kg of rice that costs ₱55 per kg. What is the cost per kg of the mixture?",
+  "choices": [
+    "₱50",
+    "₱490",
+    "₱49",
+    "₱51"
+  ],
+  "answer": "₱49",
+  "hints": [
+    "Find the total cost of all the rice, then share it over all the kilos.",
+    "Total cost = 6 × ₱45 + 4 × ₱55.",
+    "Add the two costs, then divide by the total weight, 6 + 4 = 10 kg."
+  ],
+  "solution": {
+    "methodName": "Mixture table: amount × price or percent = value",
+    "steps": [
+      {
+        "action": "Let p = the cost per kg of the mixture."
+      },
+      {
+        "action": "Cost of the ₱45 rice: 6 × ₱45 = ₱270."
+      },
+      {
+        "action": "Cost of the ₱55 rice: 4 × ₱55 = ₱220."
+      },
+      {
+        "action": "Total cost: ₱270 + ₱220 = ₱490. Total weight: 6 + 4 = 10 kg."
+      },
+      {
+        "action": "Cost per kg: p = ₱490 ÷ 10 = ₱49.",
+        "why": "Price per kg = total cost ÷ total kilos."
+      },
+      {
+        "action": "Check: ₱49 is between ₱45 and ₱55, and closer to ₱45 because there is more of the cheaper rice. The mixture costs ₱49 per kg."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱50": "This is the average of ₱45 and ₱55. That only works for equal amounts. There are more kilos of the cheaper rice.",
+    "₱490": "This is the total cost of all 10 kg. Divide by 10 to get the cost per kg.",
+    "₱51": "This swaps the amounts: 6 kg at ₱55 and 4 kg at ₱45. Match each amount with its own price."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,53 @@
+{
+  "id": "num-fdp-0004",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-fractions",
+  "difficulty": 2,
+  "stem": "Mang Ramon used 3/4 of a sack of rice in the first week and 1/6 of a sack in the second week. What fraction of a sack did he use in all?",
+  "choices": [
+    "11/12",
+    "4/10",
+    "7/12",
+    "4/12"
+  ],
+  "answer": "11/12",
+  "hints": [
+    "\"In all\" means add. Before adding fractions, the bottom numbers must be the same.",
+    "Find a number that both 4 and 6 go into. 12 works: 4 × 3 = 12 and 6 × 2 = 12.",
+    "Change 3/4 to twelfths (multiply the top and the bottom by 3) and 1/6 to twelfths (multiply the top and the bottom by 2). Then add the tops and keep 12 on the bottom."
+  ],
+  "solution": {
+    "methodName": "Add or subtract fractions: make the bottoms the same first",
+    "steps": [
+      {
+        "action": "\"In all\" means add: 3/4 + 1/6."
+      },
+      {
+        "action": "Find a common bottom. The smallest number that both 4 and 6 go into is 12.",
+        "why": "This is the least common multiple (LCM) of 4 and 6. Count by 4s: 4, 8, 12. Count by 6s: 6, 12."
+      },
+      {
+        "action": "Change 3/4: 3 × 3 = 9 and 4 × 3 = 12, so 3/4 = 9/12.",
+        "why": "Multiply the top by the same number as the bottom, so the value does not change."
+      },
+      {
+        "action": "Change 1/6: 1 × 2 = 2 and 6 × 2 = 12, so 1/6 = 2/12."
+      },
+      {
+        "action": "Add the tops: 9 + 2 = 11. Keep the bottom: 12.",
+        "why": "The bottom only names the size of the pieces (twelfths). You add how many pieces you have, not their size."
+      },
+      {
+        "action": "He used 11/12 of a sack in all."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4/10": "This adds the tops (3 + 1) and the bottoms (4 + 6). Never add the bottoms; make them the same first.",
+    "7/12": "This is 9/12 − 2/12. \"In all\" means add, not subtract.",
+    "4/12": "This changes the bottoms to 12 but not the tops. 3/4 becomes 9/12 (not 3/12), and 1/6 becomes 2/12 (not 1/12)."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

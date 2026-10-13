@@ -1,0 +1,47 @@
+{
+  "id": "num-ops-0007",
+  "topicId": "num-basic-operations",
+  "skill": "ops-order",
+  "difficulty": 1,
+  "stem": "What is 8 + 4 × 5?",
+  "choices": [
+    "60",
+    "28",
+    "17",
+    "160"
+  ],
+  "answer": "28",
+  "hints": [
+    "There is a + and a ×. Which one does the order of operations do first?",
+    "Do the multiplication first: 4 × 5.",
+    "After you find 4 × 5, add 8 to the result."
+  ],
+  "solution": {
+    "methodName": "PEMDAS: brackets, powers, × ÷ left to right, + − left to right",
+    "steps": [
+      {
+        "action": "Look at the operations: there is a + and a ×.",
+        "why": "Before calculating, check which operations are in the problem. The order of operations (PEMDAS) decides which one goes first."
+      },
+      {
+        "action": "Multiplication comes before addition, so do 4 × 5 first: 4 × 5 = 20.",
+        "why": "In PEMDAS, M (multiply) comes before A (add). The + being on the left does not make it go first."
+      },
+      {
+        "action": "Now add: 8 + 20 = 28.",
+        "why": "Only the addition is left, so it is done last."
+      },
+      {
+        "action": "The answer is 28."
+      }
+    ]
+  },
+  "trapNotes": {
+    "17": "This adds all three numbers: 8 + 4 + 5. The sign between 4 and 5 is ×, not +.",
+    "60": "This adds first: 8 + 4 = 12, then 12 × 5 = 60. Multiplication must come before addition.",
+    "160": "This multiplies all three numbers: 8 × 4 × 5. The sign between 8 and 4 is +, not ×."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

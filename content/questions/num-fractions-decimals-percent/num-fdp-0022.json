@@ -1,0 +1,46 @@
+{
+  "id": "num-fdp-0022",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-percent",
+  "difficulty": 2,
+  "stem": "The price of a kilo of rice went up from ₱40 to ₱50. By what percent did the price increase?",
+  "choices": [
+    "20%",
+    "10%",
+    "125%",
+    "25%"
+  ],
+  "answer": "25%",
+  "hints": [
+    "Percent increase compares the change with the original price, not with the new price.",
+    "The change is ₱50 − ₱40 = ₱10. The original price is ₱40.",
+    "Write the change over the original, 10/40. Simplify it, then change it to a percent."
+  ],
+  "solution": {
+    "methodName": "Percent change: change over original, times 100",
+    "steps": [
+      {
+        "action": "Find the change: ₱50 − ₱40 = ₱10."
+      },
+      {
+        "action": "Write the change over the original: 10/40.",
+        "why": "The original (old) price is the starting point, so it always goes on the bottom."
+      },
+      {
+        "action": "Simplify: 10 ÷ 10 = 1 and 40 ÷ 10 = 4. So 10/40 = 1/4."
+      },
+      {
+        "action": "Change to a percent: 1/4 = 25/100 = 25%. The price increased by 25%.",
+        "why": "Multiply the top and the bottom of 1/4 by 25 to make the bottom 100."
+      }
+    ]
+  },
+  "trapNotes": {
+    "20%": "This is 10/50, using the new price as the base. Percent change is always compared with the original price, ₱40.",
+    "10%": "This is the change in pesos (₱10), not a percent. ₱10 out of ₱40 is 1/4.",
+    "125%": "This is the new price as a percent of the old one (50/40). The increase is 125% − 100%."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,54 @@
+{
+  "id": "num-ratio-0018",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-share",
+  "difficulty": 3,
+  "stem": "Ella, Faye and Gino share ₱36,000 in the ratio 1 : 2 : 7. How much more does Gino get than Ella and Faye together?",
+  "choices": [
+    "₱25,200",
+    "₱3,600",
+    "₱14,400",
+    "₱18,000"
+  ],
+  "answer": "₱14,400",
+  "hints": [
+    "There are three people, so add all three numbers to get the total parts.",
+    "One part = ₱36,000 ÷ (1 + 2 + 7).",
+    "Gino has 7 parts. Ella and Faye together have 1 + 2 parts. Find the difference in parts, then multiply by the value of one part."
+  ],
+  "solution": {
+    "methodName": "Find one part, then multiply",
+    "steps": [
+      {
+        "action": "Count all the parts: 1 + 2 + 7 = 10 parts."
+      },
+      {
+        "action": "Find one part: ₱36,000 ÷ 10 = ₱3,600.",
+        "why": "Dividing by 10 just takes one zero off the end."
+      },
+      {
+        "action": "Ella and Faye together have 1 + 2 = 3 parts. Gino has 7 parts."
+      },
+      {
+        "action": "Find the difference in parts: 7 − 3 = 4 parts.",
+        "why": "Working in parts saves time. You do not need every share in pesos."
+      },
+      {
+        "action": "Multiply by one part: 4 × ₱3,600 = ₱14,400.",
+        "why": "4 × 36 = 144, then put back the two zeros."
+      },
+      {
+        "action": "So Gino gets ₱14,400 more than Ella and Faye together.",
+        "why": "Check: Gino gets 7 × ₱3,600 = ₱25,200. Ella and Faye get 3 × ₱3,600 = ₱10,800. ₱25,200 − ₱10,800 = ₱14,400."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱25,200": "This is Gino's whole share (7 × ₱3,600). The question asks how much more he gets than the other two together.",
+    "₱3,600": "This is the value of one part. Gino has 4 more parts than Ella and Faye together, so multiply it by 4.",
+    "₱18,000": "This compares Gino with Faye only (7 − 2 = 5 parts). Ella and Faye together have 1 + 2 = 3 parts."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

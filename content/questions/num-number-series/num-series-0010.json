@@ -1,0 +1,51 @@
+{
+  "id": "num-series-0010",
+  "topicId": "num-number-series",
+  "skill": "series-multiply",
+  "difficulty": 3,
+  "stem": "What comes next? 32, 48, 72, 108, 162, ___",
+  "choices": [
+    "243",
+    "216",
+    "324",
+    "270"
+  ],
+  "answer": "243",
+  "hints": [
+    "The differences keep growing (16, 24, 36), so try ratios.",
+    "Compare 48 with 32. 48 = 32 + 16, and 16 is half of 32.",
+    "Each number is the one before plus half of it. Find half of 162 and add it to 162."
+  ],
+  "solution": {
+    "methodName": "Find the rule: check differences, then ratios",
+    "steps": [
+      {
+        "action": "Check the differences: 48 − 32 = 16, 72 − 48 = 24, 108 − 72 = 36. Not the same, so it is not adding a fixed number."
+      },
+      {
+        "action": "Check the first ratio: 48 ÷ 32 = 1.5. So 48 is 32 plus half of 32: 32 + 16 = 48.",
+        "why": "×1.5 means \"add half of the number\". That is easier by hand than multiplying by 1.5."
+      },
+      {
+        "action": "Check the rule on the next pairs: half of 48 is 24, and 48 + 24 = 72. Half of 72 is 36, and 72 + 36 = 108."
+      },
+      {
+        "action": "Check once more: half of 108 is 54, and 108 + 54 = 162. The rule ×1.5 fits every step."
+      },
+      {
+        "action": "Find half of the last number: 162 ÷ 2 = 81."
+      },
+      {
+        "action": "Add it on: 162 + 81 = 243. The answer is 243."
+      }
+    ]
+  },
+  "trapNotes": {
+    "216": "This adds 54 (the step from 108 to 162) again. The steps keep growing: each step is half of the number before it.",
+    "270": "This adds the last two numbers, 108 + 162. Check that rule earlier: 72 + 108 = 180, not 162.",
+    "324": "This doubles 162. Each number is 1.5 times the one before, not 2 times: 32 × 2 = 64, not 48."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,58 @@
+{
+  "id": "num-fdp-0005",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-fractions",
+  "difficulty": 3,
+  "stem": "A ribbon is 5 1/4 meters long. Nena cuts off 2 2/3 meters. How many meters of ribbon are left?",
+  "choices": [
+    "3 5/12",
+    "2 7/12",
+    "7 11/12",
+    "3 7/12"
+  ],
+  "answer": "2 7/12",
+  "hints": [
+    "\"Left\" means subtract: 5 1/4 − 2 2/3. Notice that 2/3 is bigger than 1/4, so you cannot just subtract the fractions.",
+    "Change both to improper fractions. 5 1/4 = (5 × 4 + 1)/4 = 21/4. Do the same for 2 2/3.",
+    "2 2/3 = 8/3. Change 21/4 and 8/3 to twelfths (multiply by 3 and by 4), subtract the tops, then change the result back to a mixed number."
+  ],
+  "solution": {
+    "methodName": "Mixed numbers: change to improper fractions first",
+    "steps": [
+      {
+        "action": "\"Left\" means subtract: 5 1/4 − 2 2/3."
+      },
+      {
+        "action": "Change 5 1/4 to an improper fraction: 5 × 4 = 20, and 20 + 1 = 21. So 5 1/4 = 21/4.",
+        "why": "An improper fraction has a top bigger than its bottom. Using it avoids borrowing between the whole number and the fraction."
+      },
+      {
+        "action": "Change 2 2/3: 2 × 3 = 6, and 6 + 2 = 8. So 2 2/3 = 8/3."
+      },
+      {
+        "action": "Make the bottoms the same. 4 and 3 both go into 12. 21/4 = (21 × 3)/(4 × 3) = 63/12."
+      },
+      {
+        "action": "8/3 = (8 × 4)/(3 × 4) = 32/12."
+      },
+      {
+        "action": "Subtract the tops: 63 − 32 = 31. So the difference is 31/12."
+      },
+      {
+        "action": "Change back to a mixed number: 31 ÷ 12 = 2 remainder 7, so 31/12 = 2 7/12.",
+        "why": "12 goes into 31 two times (2 × 12 = 24), with 31 − 24 = 7 left over. The 7 left over stays as 7/12."
+      },
+      {
+        "action": "There are 2 7/12 meters of ribbon left."
+      }
+    ]
+  },
+  "trapNotes": {
+    "3 5/12": "This does 5 − 2 = 3, then flips the fractions and does 2/3 − 1/4 = 5/12. The question takes 2/3 away from 1/4, and 1/4 is smaller, so that needs borrowing. Improper fractions avoid this mistake.",
+    "7 11/12": "This adds the two lengths. \"Left\" means subtract.",
+    "3 7/12": "This writes 5 1/4 as 5 3/12 and borrows 1 to make 15/12, but forgets to lower the 5 to 4. After borrowing, it is 4 15/12 − 2 8/12."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,45 @@
+{
+  "id": "num-avg-0005",
+  "topicId": "num-averages",
+  "skill": "avg-mean",
+  "difficulty": 2,
+  "stem": "Rhea's scores on six quizzes were 9, 0, 7, 10, 8 and 8. What is her average score?",
+  "choices": [
+    "8.4",
+    "7",
+    "42",
+    "5"
+  ],
+  "answer": "7",
+  "hints": [
+    "Does a score of 0 count as a quiz? Think about how many scores there are.",
+    "Add all six scores. Adding 0 changes nothing, but the 0 still counts as a quiz.",
+    "The total is 42. Divide it by the number of quizzes, including the one with 0."
+  ],
+  "solution": {
+    "methodName": "Average = total ÷ count",
+    "steps": [
+      {
+        "action": "Add the scores: 9 + 0 = 9; 9 + 7 = 16; 16 + 10 = 26; 26 + 8 = 34; 34 + 8 = 42."
+      },
+      {
+        "action": "Count the quizzes: 6.",
+        "why": "The 0 is a real score. Rhea has 6 quiz scores, so the count is 6, not 5."
+      },
+      {
+        "action": "Divide the total by the count: 42 ÷ 6 = 7."
+      },
+      {
+        "action": "Her average score is 7."
+      }
+    ]
+  },
+  "trapNotes": {
+    "5": "This is halfway between the highest (10) and the lowest (0) only. Use all six scores.",
+    "42": "This is the total of the scores. Divide it by 6, the number of quizzes.",
+    "8.4": "This is 42 ÷ 5, which leaves out the 0. A score of 0 still counts as one of the 6 quizzes."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

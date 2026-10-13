@@ -1,0 +1,48 @@
+{
+  "id": "num-word-0025",
+  "topicId": "num-word-problems",
+  "skill": "word-money",
+  "difficulty": 1,
+  "stem": "Mang Tomas borrowed ₱20,000 at 5% simple interest per year. How much interest will he pay after 3 years?",
+  "choices": [
+    "₱1,000",
+    "₱23,000",
+    "₱300",
+    "₱3,000"
+  ],
+  "answer": "₱3,000",
+  "hints": [
+    "Simple interest: I = P × r × t (principal × rate × time).",
+    "P = ₱20,000, r = 5% = 5/100, and t = 3 years.",
+    "Find 5% of ₱20,000 for one year, then multiply by 3."
+  ],
+  "solution": {
+    "methodName": "Simple interest: I = P × r × t",
+    "steps": [
+      {
+        "action": "Let I = the interest in pesos."
+      },
+      {
+        "action": "Use I = P × r × t with P = ₱20,000, r = 5% per year and t = 3 years.",
+        "why": "P (the principal) is the money borrowed. r is the rate per year. t is the time in years."
+      },
+      {
+        "action": "Interest for 1 year: 5% of ₱20,000 = 20,000 ÷ 100 × 5 = 200 × 5 = ₱1,000."
+      },
+      {
+        "action": "Interest for 3 years: I = ₱1,000 × 3 = ₱3,000."
+      },
+      {
+        "action": "Check: ₱3,000 ÷ 3 years = ₱1,000 per year, and ₱1,000 is 5% of ₱20,000. He pays ₱3,000 in interest."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱1,000": "This is the interest for 1 year only. Multiply by 3 years.",
+    "₱23,000": "This is the total he pays back (₱20,000 + ₱3,000). The question asks for the interest only.",
+    "₱300": "This uses 0.005 for 5%. 5% = 5/100 = 0.05."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

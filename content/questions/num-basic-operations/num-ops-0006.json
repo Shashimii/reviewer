@@ -1,0 +1,49 @@
+{
+  "id": "num-ops-0006",
+  "topicId": "num-basic-operations",
+  "skill": "ops-integers",
+  "difficulty": 3,
+  "stem": "A small cooperative lost ₱1,250 each month for 4 months. Then it made a profit of ₱900 each month for the next 3 months. What is its total result for the 7 months?",
+  "choices": [
+    "−₱2,300",
+    "₱2,300",
+    "−₱7,700",
+    "−₱350"
+  ],
+  "answer": "−₱2,300",
+  "hints": [
+    "A loss is a negative number and a profit is a positive number. Each one happens for several months.",
+    "Find the total loss first: 4 × (−1,250).",
+    "Find the total profit, 3 × 900. Then add the total loss and the total profit, watching the signs."
+  ],
+  "solution": {
+    "methodName": "Sign rules for adding and subtracting",
+    "steps": [
+      {
+        "action": "Find the total loss: 4 × 1,250 = 5,000. A loss is negative, so the 4 months give −5,000.",
+        "why": "4 × 1,000 = 4,000 and 4 × 250 = 1,000, so 4 × 1,250 = 4,000 + 1,000 = 5,000."
+      },
+      {
+        "action": "Find the total profit: 3 × 900 = 2,700."
+      },
+      {
+        "action": "Add them: −5,000 + 2,700. The signs are different, so subtract the sizes: 5,000 − 2,700 = 2,300."
+      },
+      {
+        "action": "5,000 is the bigger size and it is negative, so the result is negative: −2,300.",
+        "why": "The losses are bigger than the profits, so overall the cooperative lost money."
+      },
+      {
+        "action": "The total result is −₱2,300, a loss of ₱2,300."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱2,300": "The size is right but the sign is wrong. The losses (₱5,000) are bigger than the profits (₱2,700), so the total is a loss.",
+    "−₱7,700": "This is −5,000 − 2,700. A profit is positive, so add the ₱2,700. Don't subtract it.",
+    "−₱350": "This is −1,250 + 900, just one month of each. First multiply by the number of months: 4 months of loss and 3 months of profit."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,50 @@
+{
+  "id": "num-word-0008",
+  "topicId": "num-word-problems",
+  "skill": "word-work",
+  "difficulty": 1,
+  "stem": "One carpenter can build a cabinet in 12 days. How many days will 3 carpenters take to build it if they all work at the same rate?",
+  "choices": [
+    "4",
+    "9",
+    "15",
+    "36"
+  ],
+  "answer": "4",
+  "hints": [
+    "More workers means fewer days. Should the answer be bigger or smaller than 12?",
+    "One carpenter builds 1/12 of the cabinet per day. Three carpenters build 3 times as much per day.",
+    "Find what 3 carpenters build per day (3 × 1/12), simplify, then flip the fraction to get the days."
+  ],
+  "solution": {
+    "methodName": "Work rates: rate = 1 ÷ time, then add the rates",
+    "steps": [
+      {
+        "action": "Let x = the number of days 3 carpenters need."
+      },
+      {
+        "action": "One carpenter's rate: 1/12 of the cabinet per day.",
+        "why": "A whole job done in 12 days means 1/12 of it each day."
+      },
+      {
+        "action": "Three carpenters: 3 × 1/12 = 3/12 = 1/4 of the cabinet per day.",
+        "why": "Rates add up: 1/12 + 1/12 + 1/12 = 3/12."
+      },
+      {
+        "action": "Time = 1 ÷ rate: x = 1 ÷ 1/4 = 4 days.",
+        "why": "If they build 1/4 of the cabinet each day, they need 4 days for the whole cabinet."
+      },
+      {
+        "action": "Check: 3 carpenters × 4 days = 12 days of work, the same as 1 carpenter × 12 days. They need 4 days."
+      }
+    ]
+  },
+  "trapNotes": {
+    "9": "This is 12 − 3. Three workers do 3 times as much each day, so divide by 3.",
+    "15": "This is 12 + 3. More workers means fewer days, not more.",
+    "36": "This multiplies 12 × 3. More workers finish faster, so the number of days must go down."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

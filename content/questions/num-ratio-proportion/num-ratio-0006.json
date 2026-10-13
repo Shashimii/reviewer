@@ -1,0 +1,49 @@
+{
+  "id": "num-ratio-0006",
+  "topicId": "num-ratio-proportion",
+  "skill": "ratio-proportion",
+  "difficulty": 1,
+  "stem": "Find the value of x in the proportion 3 : 5 = 12 : x.",
+  "choices": [
+    "14",
+    "20",
+    "7.2",
+    "60"
+  ],
+  "answer": "20",
+  "hints": [
+    "In a proportion the two ratios are equal. Cross-multiplying turns it into a simple equation.",
+    "Cross-multiply: 3 × x = 5 × 12.",
+    "Work out 5 × 12, then divide the result by 3 to get x."
+  ],
+  "solution": {
+    "methodName": "Cross-multiply, then divide",
+    "steps": [
+      {
+        "action": "Write the proportion as fractions: 3/5 = 12/x.",
+        "why": "A ratio a : b can be written as the fraction a/b."
+      },
+      {
+        "action": "Cross-multiply: 3 × x = 5 × 12.",
+        "why": "When two fractions are equal, the top of each times the bottom of the other gives the same answer."
+      },
+      {
+        "action": "Multiply: 5 × 12 = 60, so 3 × x = 60."
+      },
+      {
+        "action": "Divide both sides by 3: x = 60 ÷ 3 = 20."
+      },
+      {
+        "action": "Check: 12 ÷ 3 = 4, so the second ratio is the first one times 4, and 5 × 4 = 20. So x = 20."
+      }
+    ]
+  },
+  "trapNotes": {
+    "14": "This adds instead of multiplying: 12 is 9 more than 3, so 5 + 9 = 14. Ratios grow by multiplying, not adding.",
+    "60": "This is 5 × 12, but the last step is missing. Divide 60 by 3.",
+    "7.2": "This works out 3 × 12 ÷ 5, which pairs the wrong numbers. Cross-multiply as 3 × x = 5 × 12."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

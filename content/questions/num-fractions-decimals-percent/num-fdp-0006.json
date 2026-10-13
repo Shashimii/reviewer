@@ -1,0 +1,49 @@
+{
+  "id": "num-fdp-0006",
+  "topicId": "num-fractions-decimals-percent",
+  "skill": "fdp-fractions",
+  "difficulty": 2,
+  "stem": "Aling Rosa has 12 kilograms of rice. She packs it in bags that hold 3/4 kilogram each. How many bags can she fill?",
+  "choices": [
+    "9",
+    "4",
+    "16",
+    "48"
+  ],
+  "answer": "16",
+  "hints": [
+    "You want to know how many 3/4s fit into 12. That is division: 12 ÷ 3/4.",
+    "To divide by a fraction: keep the first number, change ÷ to ×, and flip the fraction. So 12 ÷ 3/4 = 12 × 4/3.",
+    "Multiply 12 by 4, then divide the result by 3."
+  ],
+  "solution": {
+    "methodName": "Divide fractions: keep, change, flip",
+    "steps": [
+      {
+        "action": "\"How many 3/4-kilogram bags fit in 12 kilograms\" means 12 ÷ 3/4."
+      },
+      {
+        "action": "Keep 12, change ÷ to ×, flip 3/4 to 4/3: 12 × 4/3.",
+        "why": "Dividing by a fraction is the same as multiplying by its flip. The flipped fraction is called the reciprocal."
+      },
+      {
+        "action": "Multiply: 12 × 4 = 48."
+      },
+      {
+        "action": "Divide by 3: 48 ÷ 3 = 16."
+      },
+      {
+        "action": "She can fill 16 bags.",
+        "why": "Check: 16 × 3/4 = 48/4 = 12 kilograms."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4": "This is 12 ÷ 3. It ignores the 4 in 3/4.",
+    "9": "This is 12 × 3/4, multiplying instead of dividing. Each bag holds less than 1 kilogram, so there must be more than 12 bags.",
+    "48": "This is 12 × 4, but it forgets to divide by 3."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

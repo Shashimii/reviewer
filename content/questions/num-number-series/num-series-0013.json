@@ -1,0 +1,42 @@
+{
+  "id": "num-series-0013",
+  "topicId": "num-number-series",
+  "skill": "series-growing",
+  "difficulty": 2,
+  "stem": "What comes next? 40, 39, 37, 34, 30, ___",
+  "choices": [
+    "25",
+    "26",
+    "24",
+    "35"
+  ],
+  "answer": "25",
+  "hints": [
+    "The numbers go down, but by a different amount each time.",
+    "Find how much each number drops: 40 − 39, 39 − 37, 37 − 34, 34 − 30.",
+    "The drops are 1, 2, 3, 4. Each drop is 1 bigger than the last. Find the next drop and take it away from 30."
+  ],
+  "solution": {
+    "methodName": "Check differences of differences",
+    "steps": [
+      {
+        "action": "Check the differences: 40 − 39 = 1, 39 − 37 = 2, 37 − 34 = 3, 34 − 30 = 4. The numbers drop by 1, then 2, then 3, then 4."
+      },
+      {
+        "action": "The drops grow by 1 each time, so the next drop is 4 + 1 = 5.",
+        "why": "The differences make their own simple series: 1, 2, 3, 4, then 5."
+      },
+      {
+        "action": "Take it away from the last number: 30 − 5 = 25. The answer is 25."
+      }
+    ]
+  },
+  "trapNotes": {
+    "24": "This takes away 6, skipping a step. After a drop of 4 comes a drop of 5.",
+    "26": "This takes away 4 again. The drops grow by 1 each time, so the next drop is 5.",
+    "35": "This adds 5. The numbers are going down, so take 5 away."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

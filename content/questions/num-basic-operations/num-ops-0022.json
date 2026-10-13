@@ -1,0 +1,51 @@
+{
+  "id": "num-ops-0022",
+  "topicId": "num-basic-operations",
+  "skill": "ops-divisibility",
+  "difficulty": 2,
+  "stem": "Liza has two ribbons, 48 cm and 60 cm long. She wants to cut both into pieces that are all the same length, with nothing left over. What is the longest each piece can be?",
+  "choices": [
+    "6 cm",
+    "24 cm",
+    "240 cm",
+    "12 cm"
+  ],
+  "answer": "12 cm",
+  "hints": [
+    "The piece length must divide both 48 and 60 exactly. Cutting into equal parts calls for the GCF or the LCM?",
+    "List the factors of 48 and the factors of 60.",
+    "Find the biggest number that is in both lists."
+  ],
+  "solution": {
+    "methodName": "GCF for cutting or sharing into equal parts",
+    "steps": [
+      {
+        "action": "Cutting into equal pieces with nothing left over calls for the GCF (greatest common factor) of 48 and 60.",
+        "why": "A factor divides a number exactly. The piece length must divide both 48 and 60 exactly, and we want the biggest such length."
+      },
+      {
+        "action": "Factors of 48: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48."
+      },
+      {
+        "action": "Factors of 60: 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60."
+      },
+      {
+        "action": "The numbers in both lists are 1, 2, 3, 4, 6 and 12. The biggest is 12."
+      },
+      {
+        "action": "Check: 48 ÷ 12 = 4 pieces and 60 ÷ 12 = 5 pieces, with nothing left over."
+      },
+      {
+        "action": "The longest each piece can be is 12 cm."
+      }
+    ]
+  },
+  "trapNotes": {
+    "6 cm": "6 cm pieces work, but they are not the longest. 12 cm also divides both ribbons exactly.",
+    "24 cm": "24 divides 48, but 60 ÷ 24 = 2 remainder 12. The second ribbon would have 12 cm left over.",
+    "240 cm": "This is the LCM of 48 and 60. A piece cannot be longer than the ribbon. Cutting into equal pieces calls for the GCF."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

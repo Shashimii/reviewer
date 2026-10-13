@@ -1,0 +1,63 @@
+{
+  "id": "num-word-0023",
+  "topicId": "num-word-problems",
+  "skill": "word-mixture",
+  "difficulty": 3,
+  "stem": "How many kg of rice worth ₱40 per kg must be mixed with 10 kg of rice worth ₱55 per kg to get a mixture worth ₱45 per kg?",
+  "choices": [
+    "5 kg",
+    "30 kg",
+    "20 kg",
+    "10 kg"
+  ],
+  "answer": "20 kg",
+  "hints": [
+    "Total value before mixing = total value after mixing.",
+    "Let x = the kg of ₱40 rice. Values: 40x and 10 × 55 = 550. The mixture has x + 10 kg at ₱45 per kg.",
+    "Write 40x + 550 = 45(x + 10). Multiply out, move the x's to one side, and solve for x."
+  ],
+  "solution": {
+    "methodName": "Mixture table: amount × price or percent = value",
+    "steps": [
+      {
+        "action": "Let x = the kg of ₱40 rice."
+      },
+      {
+        "action": "Value of the ₱40 rice: 40 × x = 40x pesos."
+      },
+      {
+        "action": "Value of the ₱55 rice: 10 × 55 = 550 pesos."
+      },
+      {
+        "action": "The mixture weighs x + 10 kg at ₱45 per kg, so its value is 45(x + 10) pesos."
+      },
+      {
+        "action": "Value before = value after: 40x + 550 = 45(x + 10).",
+        "why": "Mixing does not add or remove any value. It only changes the price per kg."
+      },
+      {
+        "action": "Multiply out: 45(x + 10) = 45x + 450. So 40x + 550 = 45x + 450."
+      },
+      {
+        "action": "Subtract 40x from both sides: 550 = 5x + 450."
+      },
+      {
+        "action": "Subtract 450 from both sides: 5x = 550 − 450 = 100."
+      },
+      {
+        "action": "Divide both sides by 5: x = 100 ÷ 5 = 20 kg."
+      },
+      {
+        "action": "Check: 20 × ₱40 = ₱800 and 10 × ₱55 = ₱550. ₱800 + ₱550 = ₱1,350 for 30 kg, and ₱1,350 ÷ 30 = ₱45. Mix in 20 kg."
+      }
+    ]
+  },
+  "trapNotes": {
+    "5 kg": "This is ₱45 − ₱40 = 5, a price gap, not a weight. ₱45 is closer to ₱40, so you need more of the cheap rice, not less.",
+    "30 kg": "This is the weight of the whole mixture (20 + 10). The question asks only for the ₱40 rice.",
+    "10 kg": "This uses equal amounts. Equal amounts give the average price, (₱40 + ₱55) ÷ 2 = ₱47.50, not ₱45."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

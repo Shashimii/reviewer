@@ -1,0 +1,49 @@
+{
+  "id": "num-word-0004",
+  "topicId": "num-word-problems",
+  "skill": "word-age",
+  "difficulty": 2,
+  "stem": "Five years ago, Tess was twice as old as her cousin Joy. Joy is 15 years old now. How old is Tess now?",
+  "choices": [
+    "20",
+    "30",
+    "35",
+    "25"
+  ],
+  "answer": "25",
+  "hints": [
+    "The \"twice as old\" fact belongs in the Past column (5 years ago), not in Now.",
+    "Joy 5 years ago: 15 − 5 = 10. Tess 5 years ago was twice that.",
+    "Find Tess's age 5 years ago (2 × 10), then add 5 to bring it up to now."
+  ],
+  "solution": {
+    "methodName": "Age table: Now, Past, Future",
+    "steps": [
+      {
+        "action": "Let x = Tess's age now."
+      },
+      {
+        "action": "Table. Joy: Now 15, 5 years ago 15 − 5 = 10. Tess: Now x, 5 years ago x − 5.",
+        "why": "In the Past column, everyone is 5 years younger."
+      },
+      {
+        "action": "Five years ago Tess was twice Joy's age: x − 5 = 2 × 10 = 20."
+      },
+      {
+        "action": "Add 5 to both sides: x = 20 + 5 = 25.",
+        "why": "Adding 5 undoes the − 5."
+      },
+      {
+        "action": "Check: 5 years ago Tess was 20 and Joy was 10, and 20 is twice 10. Tess is 25 years old now."
+      }
+    ]
+  },
+  "trapNotes": {
+    "20": "This is Tess's age 5 years ago. Add 5 to get her age now.",
+    "30": "This is 2 × 15, using Joy's age now. \"Twice as old\" was true 5 years ago, so double Joy's age back then (10).",
+    "35": "This doubles Joy's age now and adds 5 (2 × 15 + 5). Double Joy's past age instead: 2 × 10, then add 5."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

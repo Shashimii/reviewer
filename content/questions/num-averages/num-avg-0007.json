@@ -1,0 +1,43 @@
+{
+  "id": "num-avg-0007",
+  "topicId": "num-averages",
+  "skill": "avg-missing",
+  "difficulty": 1,
+  "stem": "Four sari-sari stores sold an average of 25 kg of rice each yesterday. How many kilograms of rice did the four stores sell in all?",
+  "choices": [
+    "6.25 kg",
+    "29 kg",
+    "25 kg",
+    "100 kg"
+  ],
+  "answer": "100 kg",
+  "hints": [
+    "The average is what each store sold if they all sold the same amount.",
+    "If each of the 4 stores sold 25 kg, the total is 25 kg four times.",
+    "Use total = average × count. Multiply 25 by 4."
+  ],
+  "solution": {
+    "methodName": "Use totals: total = average × count",
+    "steps": [
+      {
+        "action": "Think of the average as each store selling the same amount: 25 kg each.",
+        "why": "The average is the equal share. If the total were shared equally, each store would get 25 kg."
+      },
+      {
+        "action": "Total = average × count = 25 × 4 = 100.",
+        "why": "Four equal shares of 25 kg: 25 + 25 + 25 + 25 = 100."
+      },
+      {
+        "action": "The four stores sold 100 kg of rice in all."
+      }
+    ]
+  },
+  "trapNotes": {
+    "6.25 kg": "This is 25 ÷ 4. You already have the average. To get the total, multiply by the count; don't divide.",
+    "29 kg": "This is 25 + 4. The total is average × count, so multiply: 25 × 4.",
+    "25 kg": "This is the average, the amount for one store. The question asks for all four stores together."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

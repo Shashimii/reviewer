@@ -1,0 +1,52 @@
+{
+  "id": "num-ops-0021",
+  "topicId": "num-basic-operations",
+  "skill": "ops-divisibility",
+  "difficulty": 2,
+  "stem": "At a terminal, Route A jeepneys leave every 12 minutes and Route B jeepneys leave every 18 minutes. One of each leaves together at 6:00 a.m. At what time will both routes next leave together?",
+  "choices": [
+    "6:36 a.m.",
+    "6:06 a.m.",
+    "6:30 a.m.",
+    "9:36 a.m."
+  ],
+  "answer": "6:36 a.m.",
+  "hints": [
+    "The departures repeat, and you want the first time they happen together again. Is that the GCF or the LCM?",
+    "List the departure times in minutes after 6:00. Route A: 12, 24, … Route B: 18, … Keep going until a number shows up in both lists.",
+    "Find the smallest number on both lists. Add that many minutes to 6:00 a.m."
+  ],
+  "solution": {
+    "methodName": "LCM for things that repeat and meet again",
+    "steps": [
+      {
+        "action": "Things that repeat and meet again call for the LCM (least common multiple) of 12 and 18.",
+        "why": "Route A leaves at multiples of 12 minutes and Route B at multiples of 18. We want the first time that is a multiple of both."
+      },
+      {
+        "action": "List multiples of the bigger number, 18: 18, 36, 54, …",
+        "why": "Listing the bigger number's multiples is faster. Then check each one against 12."
+      },
+      {
+        "action": "18 ÷ 12 is not a whole number, so 18 does not work."
+      },
+      {
+        "action": "36 ÷ 12 = 3, a whole number. So the LCM is 36 minutes."
+      },
+      {
+        "action": "Add 36 minutes to 6:00 a.m.: 6:36 a.m."
+      },
+      {
+        "action": "Both routes next leave together at 6:36 a.m."
+      }
+    ]
+  },
+  "trapNotes": {
+    "6:06 a.m.": "This adds 6 minutes, the GCF of 12 and 18. The GCF is for splitting into equal parts. For things that meet again, use the LCM.",
+    "6:30 a.m.": "This adds 12 + 18 = 30 minutes. But 30 is not a multiple of 12 or of 18, so neither route leaves at 6:30.",
+    "9:36 a.m.": "This adds 12 × 18 = 216 minutes (3 hours 36 minutes). They do leave together then, but they already did at 6:36."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}
