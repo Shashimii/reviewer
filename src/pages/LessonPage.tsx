@@ -1,7 +1,7 @@
 import { ArrowLeft, ArrowRight } from 'lucide-react'
-import { marked } from 'marked'
 import { Link, useNavigate, useParams } from 'react-router'
 
+import { Markdown } from '@/components/markdown'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { getLesson, getTopic } from '@/content'
@@ -56,11 +56,7 @@ export function LessonPage() {
       {lesson.sections.map((section) => (
         <section key={section.heading} className="flex flex-col gap-3">
           <h2 className="font-heading text-xl font-semibold">{section.heading}</h2>
-          <div
-            className="prose prose-neutral max-w-none text-base dark:prose-invert prose-p:leading-relaxed prose-table:text-base"
-            // Lesson Markdown is our own content, checked at build time.
-            dangerouslySetInnerHTML={{ __html: marked.parse(section.body, { async: false }) }}
-          />
+          <Markdown source={section.body} />
         </section>
       ))}
 

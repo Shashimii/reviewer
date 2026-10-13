@@ -133,5 +133,7 @@
     }
   html {
     @apply font-sans;
+    /* Figure items use arrows like ↗; draw them as text, never as emoji. */
+    font-variant-emoji: text;
     }
 }

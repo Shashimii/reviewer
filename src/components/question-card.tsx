@@ -9,6 +9,7 @@ import {
 } from '@/components/learning/answer-choice'
 import { HintLadder } from '@/components/learning/hint-ladder'
 import { SolutionStepper } from '@/components/learning/solution-stepper'
+import { Markdown } from '@/components/markdown'
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import { Badge } from '@/components/ui/badge'
 import { Button, buttonVariants } from '@/components/ui/button'
@@ -35,6 +36,7 @@ export function QuestionCard({
   onAnswered,
   onNext,
   nextLabel = 'Next question',
+  review,
 }: {
   question: Question
   mode: QuestionMode
@@ -42,9 +44,11 @@ export function QuestionCard({
   // Without onNext the card offers "Try again" instead.
   onNext?: () => void
   nextLabel?: string
+  // Shows an earlier answer (null = left blank) with the full solution, e.g. in mock exam review.
+  review?: { choice: string | null }
 }) {
-  const [selected, setSelected] = useState<string | null>(null)
-  const [checked, setChecked] = useState(false)
+  const [selected, setSelected] = useState<string | null>(review ? review.choice : null)
+  const [checked, setChecked] = useState(Boolean(review))
   const [hintsRevealed, setHintsRevealed] = useState(0)
   const [startedAt, setStartedAt] = useState(() => Date.now())
 
@@ -86,7 +90,9 @@ export function QuestionCard({
         {question.status !== 'live' && <Badge variant="outline">Not yet reviewed</Badge>}
       </div>
 
-      <h2 className="font-heading text-xl leading-snug font-semibold">{question.stem}</h2>
+      {question.passage && <Markdown source={question.passage} className="rounded-lg border bg-muted/30 p-4" />}
+
+      <h2 className="font-heading text-xl leading-snug font-semibold whitespace-pre-line">{question.stem}</h2>
 
       <AnswerChoiceGroup legend="Choose an answer">
         {question.choices.map((choice, i) => (
@@ -148,8 +154,8 @@ export function QuestionCard({
               <CircleX className="text-destructive" />
               <AlertTitle className="text-base">Incorrect</AlertTitle>
               <AlertDescription>
-                You chose {letterOf(selected!)}. The answer is {letterOf(question.answer)},{' '}
-                {question.answer}.
+                {selected === null ? 'You left this blank.' : `You chose ${letterOf(selected)}.`} The answer is{' '}
+                {letterOf(question.answer)}, {question.answer}.
               </AlertDescription>
             </Alert>
           )}
@@ -164,7 +170,7 @@ export function QuestionCard({
 
           <section className="flex flex-col gap-4">
             <h3 className="font-heading text-lg font-semibold">Step-by-step solution</h3>
-            <SolutionStepper solution={question.solution} revealAll={mode === 'practice'} />
+            <SolutionStepper solution={question.solution} revealAll={mode === 'practice' || Boolean(review)} />
           </section>
 
           {otherTraps.length > 0 && (
@@ -183,7 +189,7 @@ export function QuestionCard({
             </section>
           )}
 
-          {onNext ? (
+          {review ? null : onNext ? (
             <Button className="h-11 text-base" onClick={onNext}>
               {nextLabel}
             </Button>

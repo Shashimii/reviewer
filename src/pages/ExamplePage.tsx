@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router'
 
 import { SolutionStepper } from '@/components/learning/solution-stepper'
+import { Markdown } from '@/components/markdown'
 import { Button } from '@/components/ui/button'
 import { getLesson, getQuestion, getTopic, type Question } from '@/content'
 import { cn } from '@/lib/utils'
@@ -54,7 +55,8 @@ function WorkedExample({
           {topicName}
         </Link>
         <p className="text-sm font-medium text-muted-foreground">Worked example</p>
-        <h1 className="font-heading text-xl leading-snug font-semibold">{question.stem}</h1>
+        {question.passage && <Markdown source={question.passage} className="rounded-lg border bg-muted/30 p-4" />}
+        <h1 className="font-heading text-xl leading-snug font-semibold whitespace-pre-line">{question.stem}</h1>
         <p className="text-base text-muted-foreground">
           Watch how this one is solved. Tap "Next step" to see each step and why it is done.
         </p>
