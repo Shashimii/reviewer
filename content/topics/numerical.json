@@ -4,42 +4,80 @@
     "subjectId": "numerical",
     "name": "Basic operations and order of operations",
     "order": 1,
-    "prerequisites": []
+    "prerequisites": [],
+    "skills": [
+      { "id": "ops-integers", "name": "Positive and negative numbers" },
+      { "id": "ops-order", "name": "Order of operations (PEMDAS)" },
+      { "id": "ops-powers", "name": "Powers and square roots" },
+      { "id": "ops-divisibility", "name": "Factors, multiples, GCF and LCM" }
+    ]
   },
   {
     "id": "num-fractions-decimals-percent",
     "subjectId": "numerical",
     "name": "Fractions, decimals, percent",
     "order": 2,
-    "prerequisites": []
+    "prerequisites": ["num-basic-operations"],
+    "skills": [
+      { "id": "fdp-fractions", "name": "Working with fractions" },
+      { "id": "fdp-decimals", "name": "Working with decimals" },
+      { "id": "fdp-convert", "name": "Converting fractions, decimals and percents" },
+      { "id": "fdp-percent", "name": "Percent of a number and percent change" }
+    ]
   },
   {
     "id": "num-ratio-proportion",
     "subjectId": "numerical",
     "name": "Ratio and proportion",
     "order": 3,
-    "prerequisites": []
+    "prerequisites": ["num-fractions-decimals-percent"],
+    "skills": [
+      { "id": "ratio-simplify", "name": "Writing and simplifying ratios" },
+      { "id": "ratio-proportion", "name": "Solving proportions" },
+      { "id": "ratio-share", "name": "Sharing an amount in a ratio" },
+      { "id": "ratio-rates", "name": "Rates and unit prices" }
+    ]
   },
   {
     "id": "num-number-series",
     "subjectId": "numerical",
     "name": "Number series",
     "order": 4,
-    "prerequisites": [],
-    "methodName": "Find the rule: check differences, then ratios"
+    "prerequisites": ["num-basic-operations"],
+    "methodName": "Find the rule: check differences, then ratios",
+    "skills": [
+      { "id": "series-add", "name": "Adding the same number" },
+      { "id": "series-multiply", "name": "Multiplying by the same number" },
+      { "id": "series-growing", "name": "Differences that change" },
+      { "id": "series-alternating", "name": "Two patterns taking turns" },
+      { "id": "series-squares", "name": "Squares and cubes" }
+    ]
   },
   {
     "id": "num-averages",
     "subjectId": "numerical",
     "name": "Averages",
     "order": 5,
-    "prerequisites": []
+    "prerequisites": ["num-basic-operations"],
+    "skills": [
+      { "id": "avg-mean", "name": "Finding the average" },
+      { "id": "avg-missing", "name": "Finding a missing value from the average" },
+      { "id": "avg-weighted", "name": "Averages of groups (weighted average)" },
+      { "id": "avg-change", "name": "How a new value changes the average" }
+    ]
   },
   {
     "id": "num-word-problems",
     "subjectId": "numerical",
     "name": "Word problems: age, work, distance–rate–time, mixture, profit and discount",
     "order": 6,
-    "prerequisites": []
+    "prerequisites": ["num-fractions-decimals-percent", "num-ratio-proportion"],
+    "skills": [
+      { "id": "word-age", "name": "Age problems" },
+      { "id": "word-work", "name": "Work problems" },
+      { "id": "word-motion", "name": "Distance, rate and time" },
+      { "id": "word-mixture", "name": "Mixture problems" },
+      { "id": "word-money", "name": "Profit, discount and simple interest" }
+    ]
   }
 ]

@@ -1,9 +1,15 @@
 {
   "id": "num-series-0007",
   "topicId": "num-number-series",
+  "skill": "series-multiply",
   "difficulty": 1,
   "stem": "What comes next? 2, 6, 18, 54, ___",
-  "choices": ["108", "162", "72", "216"],
+  "choices": [
+    "108",
+    "162",
+    "72",
+    "216"
+  ],
   "answer": "162",
   "hints": [
     "The numbers grow fast. Is something being added, or multiplied?",
@@ -13,14 +19,22 @@
   "solution": {
     "methodName": "Find the rule: check differences, then ratios",
     "steps": [
-      { "action": "Check differences: 6−2=4, 18−6=12, 54−18=36. Not the same, so it is not adding a fixed number." },
-      { "action": "Check ratios: 6÷2=3, 18÷6=3, 54÷18=3. Same every time.", "why": "A ratio tells you what each number is multiplied by to get the next." },
-      { "action": "The rule is ×3. So 54 × 3 = 162." }
+      {
+        "action": "Check differences: 6 − 2 = 4, 18 − 6 = 12, 54 − 18 = 36. Not the same, so it is not adding a fixed number."
+      },
+      {
+        "action": "Check ratios: 6 ÷ 2 = 3, 18 ÷ 6 = 3, 54 ÷ 18 = 3. Same every time.",
+        "why": "A ratio tells you what each number is multiplied by to get the next."
+      },
+      {
+        "action": "The rule is ×3. So 54 × 3 = 162."
+      }
     ]
   },
   "trapNotes": {
+    "72": "This is 54 + 18: it adds the number before 54. The rule multiplies, it doesn't add.",
     "108": "This is 54 × 2. The rule is ×3, not ×2.",
-    "72": "This adds 18, the last number. The rule multiplies, it doesn't add."
+    "216": "This is 54 × 4. Each number is 3 times the one before, not 4 times."
   },
   "status": "draft",
   "authorId": "shashimii",

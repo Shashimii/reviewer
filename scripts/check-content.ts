@@ -132,12 +132,17 @@ for (const { file, record: topic } of topics.values()) {
   }
 }
 
-// Lessons: topic exists, one lesson per topic.
+// Lessons: topic exists, one lesson per topic, worked example is a question in the same topic.
 const lessonTopics = new Set<string>()
 for (const { file, record: lesson } of lessons.values()) {
   if (!topics.has(lesson.topicId)) report(file, `unknown topicId "${lesson.topicId}"`)
   if (lessonTopics.has(lesson.topicId)) report(file, `topic "${lesson.topicId}" already has a lesson`)
   lessonTopics.add(lesson.topicId)
+  const example = questions.get(lesson.workedExampleId)?.record
+  if (!example) report(file, `workedExampleId: unknown question "${lesson.workedExampleId}"`)
+  else if (example.topicId !== lesson.topicId) {
+    report(file, `workedExampleId: "${example.id}" belongs to topic "${example.topicId}"`)
+  }
 }
 
 // Questions: file named after the id, topic exists, sourced where the subject requires it.
@@ -149,6 +154,9 @@ for (const { file, record: question } of questions.values()) {
   if (!topic) {
     report(file, `unknown topicId "${question.topicId}"`)
     continue
+  }
+  if (!topic.skills.some((skill) => skill.id === question.skill)) {
+    report(file, `skill: "${question.skill}" is not one of the skills of topic "${topic.id}"`)
   }
   if (subjects.get(topic.subjectId)?.record.requiresSource && !question.sourceRef) {
     report(file, `sourceRef: required for subject "${topic.subjectId}"`)

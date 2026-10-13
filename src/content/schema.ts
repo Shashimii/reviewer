@@ -23,11 +23,15 @@ export const TopicSchema = z.object({
   order: z.number().int().positive(),
   prerequisites: z.array(id),
   methodName: text.optional(),
+  // The kinds of question in this topic. A failed mastery check sends the learner back to the missed skills.
+  skills: z.array(z.object({ id, name: text })).min(1),
 })
 
 export const LessonSchema = z.object({
   id,
   topicId: id,
+  // A question in the same topic, solved step by step after the lesson.
+  workedExampleId: id,
   sections: z
     .array(
       z.object({
@@ -62,6 +66,7 @@ export const QuestionSchema = z
   .object({
     id,
     topicId: id,
+    skill: id,
     difficulty: z.union([z.literal(1), z.literal(2), z.literal(3)]),
     stem: text,
     choices: z.array(text).min(2).max(5),
@@ -86,6 +91,12 @@ export const QuestionSchema = z
     }
     if (!q.choices.includes(q.answer)) {
       ctx.addIssue({ code: 'custom', path: ['answer'], message: 'Answer must be one of the choices' })
+    }
+    // Learners see why every wrong choice is wrong, so each one needs a note.
+    for (const choice of q.choices) {
+      if (choice !== q.answer && !q.trapNotes?.[choice]) {
+        ctx.addIssue({ code: 'custom', path: ['trapNotes'], message: `Missing a trap note for wrong choice "${choice}"` })
+      }
     }
     for (const choice of Object.keys(q.trapNotes ?? {})) {
       if (!q.choices.includes(choice)) {
