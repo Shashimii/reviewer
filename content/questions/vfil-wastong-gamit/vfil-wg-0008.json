@@ -1,0 +1,50 @@
+{
+  "id": "vfil-wg-0008",
+  "topicId": "vfil-wastong-gamit",
+  "skill": "vfil-wg-may-mayroon",
+  "difficulty": 1,
+  "stem": "Punan ang mga patlang.\n\n___ siyang sasakyan, at ___ ding motorsiklo ang kapatid niya.",
+  "choices": [
+    "May … may",
+    "May … mayroon",
+    "Mayroon … may",
+    "Mayroon … mayroon"
+  ],
+  "answer": "Mayroon … mayroon",
+  "hints": [
+    "Tingnan ang salitang kasunod mismo ng bawat patlang.",
+    "Ang kasunod ng unang patlang ay 'siyang', mula sa panghalip panao na 'siya'. Ang kasunod ng ikalawa ay 'ding', mula sa katagang 'din'.",
+    "Ang 'may' ay sinusundan ng pangngalan, salitang kilos, salitang naglalarawan, o 'mga'. Ang 'mayroon' ay sinusundan ng panghalip panao o kataga. Ilapat ito sa dalawang patlang."
+  ],
+  "solution": {
+    "methodName": "Tingnan ang salitang kasunod mismo ng may o mayroon",
+    "steps": [
+      {
+        "action": "Unang patlang: ang kasunod ay 'siyang' (siya + -ng). Panghalip panao ang 'siya'.",
+        "why": "Ang panghalip panao ay salitang pamalit sa pangalan ng tao: ako, ka, ikaw, siya, kami, tayo, kayo, sila."
+      },
+      {
+        "action": "Bago ang panghalip panao, 'mayroon' ang gamitin: 'Mayroon siyang sasakyan'.",
+        "why": "Hindi puwedeng sundan agad ng panghalip ang 'may'. Kung 'may' ang gagamitin, ililipat ang 'siya' sa likod: 'May sasakyan siya'."
+      },
+      {
+        "action": "Ikalawang patlang: ang kasunod ay 'ding' (din + -ng). Kataga ang 'din'.",
+        "why": "Ang kataga ay maikling salitang idinadagdag sa pangungusap, gaya ng ba, pa, din, nga at naman."
+      },
+      {
+        "action": "Bago ang kataga, 'mayroon' din ang gamitin: 'mayroon ding motorsiklo'."
+      },
+      {
+        "action": "Ang sagot ay 'Mayroon … mayroon': Mayroon siyang sasakyan, at mayroon ding motorsiklo ang kapatid niya."
+      }
+    ]
+  },
+  "trapNotes": {
+    "May … may": "Parehong mali. Hindi sinusundan ang 'may' ng panghalip panao ('siyang') o ng kataga ('ding'). Sa dalawang ito, 'mayroon' ang tama.",
+    "May … mayroon": "Tama ang ikalawa, pero mali ang una. Panghalip panao ang 'siya', kaya 'Mayroon siyang sasakyan' ang tama.",
+    "Mayroon … may": "Tama ang una, pero mali ang ikalawa. Kataga ang 'din', kaya 'mayroon ding motorsiklo' ang tama."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

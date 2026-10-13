@@ -1,0 +1,48 @@
+{
+  "id": "vfil-pb-0012",
+  "topicId": "vfil-pangungusap",
+  "skill": "vfil-pb-anyo",
+  "difficulty": 2,
+  "stem": "Sa susunod na buwan, ___ kami sa bagong gusali ng munisipyo.\n\nAling anyo ng pandiwa ang angkop sa patlang?",
+  "choices": [
+    "lumipat",
+    "lumilipat",
+    "lilipat",
+    "kalilipat"
+  ],
+  "answer": "lilipat",
+  "hints": [
+    "Hanapin ang hudyat ng panahon sa simula ng pangungusap.",
+    "Ang \"Sa susunod na buwan\" ay tumutukoy sa hinaharap. Gagawin pa lamang ang kilos.",
+    "Para sa kilos na gagawin pa lamang, gamitin ang kontemplatibo. Sa pandiwang may \"-um-\", inaalis ang \"-um-\" at inuulit ang unang pantig ng salitang-ugat."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang hudyat ng panahon, saka itugma ang aspekto",
+    "steps": [
+      {
+        "action": "Hanapin ang hudyat ng panahon: \"Sa susunod na buwan\"."
+      },
+      {
+        "action": "Tukuyin ang panahon: hinaharap, kaya hindi pa nangyayari ang paglipat."
+      },
+      {
+        "action": "Piliin ang aspektong kontemplatibo, ang anyo para sa kilos na gagawin pa lamang."
+      },
+      {
+        "action": "Buuin ang kontemplatibo ng \"lumipat\": alisin ang \"-um-\" at ulitin ang unang pantig ng \"lipat\": li + lipat = \"lilipat\".",
+        "why": "Iba ang pandiwang may \"-um-\": nawawala ang \"-um-\" sa kontemplatibo, gaya ng kumain → kakain at sumulat → susulat."
+      },
+      {
+        "action": "Ang angkop na anyo ay \"lilipat\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "lumipat": "Perpektibo ito, para sa kilos na tapos na. Hindi pa nangyayari ang paglipat sa susunod na buwan.",
+    "lumilipat": "Imperpektibo ito, para sa kilos na nasimulan na o ginagawa pa. Hindi pa nagsisimula ang paglipat. Mag-ingat: may \"-um-\" pa ito, kaya hindi ito kontemplatibo.",
+    "kalilipat": "Ito ang anyong katatapos, para sa kilos na kagagawa lamang. Hindi ito tugma sa \"Sa susunod na buwan\", na hinaharap."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

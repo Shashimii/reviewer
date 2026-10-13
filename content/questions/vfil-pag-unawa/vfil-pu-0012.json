@@ -1,0 +1,51 @@
+{
+  "id": "vfil-pu-0012",
+  "topicId": "vfil-pag-unawa",
+  "skill": "vfil-pu-detalye",
+  "difficulty": 3,
+  "passage": "Tuwing tag-araw, bumababa ang tubig sa mga dam, at may rasyon ng tubig sa ilang lungsod. Madalas, ang init ng panahon ang sinisisi natin dito. Ngunit may bahagi rin tayo sa problemang ito. Ang isang gripong tumutulo nang tuloy-tuloy ay maaaring makasayang ng ilang balde ng tubig sa isang araw. Malaki rin ang nasasayang kapag naghuhugas tayo ng sasakyan gamit ang hose na hinahayaang nakabukas. Kung isasara natin ang gripo habang nagsisipilyo, gagamit ng timba sa halip na hose, at aayusin agad ang mga tagas, makatitipid ng tubig ang bawat pamilya. Kapag ginawa ito ng maraming pamilya, malaki ang maitutulong nito upang tumagal ang suplay ng tubig sa buong tag-araw.",
+  "stem": "Ayon sa talata, alin sa sumusunod ang TOTOO?",
+  "choices": [
+    "May rasyon ng tubig sa lahat ng lungsod tuwing tag-araw.",
+    "May rasyon ng tubig sa ilang lungsod tuwing tag-araw.",
+    "Init lamang ang dahilan ng pagbaba ng tubig sa mga dam.",
+    "Ang hose ang pinakamalaking sanhi ng nasasayang na tubig."
+  ],
+  "answer": "May rasyon ng tubig sa ilang lungsod tuwing tag-araw.",
+  "hints": [
+    "Mag-ingat sa maliliit na salitang nagbabago ng kahulugan, gaya ng \"lahat,\" \"ilan,\" \"lamang\" at \"pinaka.\"",
+    "Ihambing ang bawat pagpipilian sa eksaktong pangungusap sa talata na pinagmulan nito.",
+    "Para sa bawat pagpipilian, hanapin ang katapat na pangungusap sa talata. Tingnan kung pareho ang saklaw: ilan ba o lahat, iisa lamang ba o isa sa marami? Ang tamang sagot ay eksaktong tugma sa sinabi ng talata."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang susing salita, saka balikan ang talata",
+    "steps": [
+      {
+        "action": "Hanapin ang pangungusap tungkol sa rasyon: \"may rasyon ng tubig sa ilang lungsod.\"",
+        "why": "\"Ilang\" ang ginamit, hindi \"lahat.\" Ang \"ilan\" ay nangangahulugang may ilang lungsod lamang, hindi lahat."
+      },
+      {
+        "action": "Ihambing: tugma ang \"May rasyon ng tubig sa ilang lungsod tuwing tag-araw.\" Mali ang may \"lahat ng lungsod.\""
+      },
+      {
+        "action": "Suriin ang \"Init lamang ang dahilan...\"",
+        "why": "Sinalungat ito ng talata: \"Ngunit may bahagi rin tayo sa problemang ito.\" Hindi init lamang ang dahilan."
+      },
+      {
+        "action": "Suriin ang \"Ang hose ang pinakamalaking sanhi...\"",
+        "why": "Ang sinabi lamang ng talata ay \"Malaki rin ang nasasayang\" sa hose. Ang \"rin\" ay nagpapakitang isa lamang ito sa mga sanhi. Walang sinabing ito ang pinakamalaki."
+      },
+      {
+        "action": "Ang totoo ayon sa talata ay \"May rasyon ng tubig sa ilang lungsod tuwing tag-araw.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "May rasyon ng tubig sa lahat ng lungsod tuwing tag-araw.": "Halos kapareho ito ng nasa talata, kaya madaling mapili. Pero \"ilang lungsod\" ang sinabi ng talata, hindi \"lahat.\" Binabago ng iisang salita ang buong kahulugan.",
+    "Init lamang ang dahilan ng pagbaba ng tubig sa mga dam.": "Binanggit nga ang init bilang madalas nating sinisisi, pero hindi ito ang tanging dahilan. Sinabi ng talata na \"may bahagi rin tayo sa problemang ito,\" kaya hindi init lamang.",
+    "Ang hose ang pinakamalaking sanhi ng nasasayang na tubig.": "Binanggit ang hose, pero ang sinabi lamang ay \"Malaki rin ang nasasayang.\" Walang paghahambing na nagsasabing ito ang pinakamalaki."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

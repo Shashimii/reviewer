@@ -1,0 +1,49 @@
+{
+  "id": "vfil-wg-0011",
+  "topicId": "vfil-wastong-gamit",
+  "skill": "vfil-wg-iba",
+  "difficulty": 1,
+  "stem": "Punan ang mga patlang.\n\nGusto ___ malaman ___ may pasok sa Lunes.",
+  "choices": [
+    "kung … kong",
+    "kong … kung",
+    "kong … kong",
+    "kung … kung"
+  ],
+  "answer": "kong … kung",
+  "hints": [
+    "Magkatunog ang 'kung' at 'kong', pero magkaiba ang kahulugan.",
+    "Ang unang patlang ay kasunod ng 'Gusto'. Sino ang may gusto? Ilagay ang 'ko' sa patlang at basahin.",
+    "Ang 'kong' ay 'ko' na may '-ng'. Ang 'kung' ay nag-uugnay ng tanong o kondisyon, gaya ng 'Tatawag ako kung may balita'. Alamin kung alin ang angkop sa bawat patlang."
+  ],
+  "solution": {
+    "methodName": "Tingnan kung 'ko' ang ibig sabihin, o tanong at kondisyon",
+    "steps": [
+      {
+        "action": "Unang patlang: 'Gusto ___ malaman'. Ang ibig sabihin ay 'gusto ko', ako ang may gusto."
+      },
+      {
+        "action": "Ang 'ko' + '-ng' ay 'kong', kaya 'Gusto kong malaman'.",
+        "why": "Ang '-ng' ay idinudugtong para pagdugtungin ang 'ko' at ang 'malaman'."
+      },
+      {
+        "action": "Ikalawang patlang: '___ may pasok sa Lunes'. Hindi ito tungkol sa 'ko'. Ipinakikilala nito ang tanong: may pasok ba sa Lunes?",
+        "why": "Ang 'kung' ang nag-uugnay ng tanong o kondisyon sa pangungusap."
+      },
+      {
+        "action": "Kaya 'kung' ang nasa ikalawang patlang."
+      },
+      {
+        "action": "Ang sagot ay 'kong … kung': Gusto kong malaman kung may pasok sa Lunes."
+      }
+    ]
+  },
+  "trapNotes": {
+    "kung … kong": "Baligtad ang dalawa. Ang una ay 'ko' (ako ang may gusto), kaya 'kong'. Ang ikalawa ay nag-uugnay ng tanong, kaya 'kung'.",
+    "kong … kong": "Tama ang una, pero hindi tungkol sa 'ko' ang ikalawa. Nag-uugnay ito ng tanong kung may pasok, kaya 'kung'.",
+    "kung … kung": "Tama ang ikalawa, pero 'gusto ko' ang ibig sabihin ng una. Ang 'ko' na may '-ng' ay 'kong', hindi 'kung'."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

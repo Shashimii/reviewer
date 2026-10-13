@@ -1,0 +1,48 @@
+{
+  "id": "vfil-pb-0009",
+  "topicId": "vfil-pangungusap",
+  "skill": "vfil-pb-anyo",
+  "difficulty": 1,
+  "stem": "Bukas, ___ ang mga kawani ng buong tanggapan.\n\nAling anyo ng pandiwa ang angkop sa patlang?",
+  "choices": [
+    "naglinis",
+    "naglilinis",
+    "kalilinis",
+    "maglilinis"
+  ],
+  "answer": "maglilinis",
+  "hints": [
+    "Hanapin ang salitang nagsasabi kung kailan gagawin ang kilos.",
+    "Ang \"Bukas\" ay tumutukoy sa hinaharap. Nagsimula na ba ang kilos?",
+    "Para sa kilos na gagawin pa lamang, gamitin ang aspektong kontemplatibo: panatilihin ang \"mag-\" at ulitin ang unang pantig ng salitang-ugat."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang hudyat ng panahon, saka itugma ang aspekto",
+    "steps": [
+      {
+        "action": "Hanapin ang hudyat ng panahon: \"Bukas\"."
+      },
+      {
+        "action": "Tukuyin ang panahon: ang \"Bukas\" ay hinaharap, kaya hindi pa nagsisimula ang kilos."
+      },
+      {
+        "action": "Piliin ang aspektong kontemplatibo, ang anyo para sa kilos na gagawin pa lamang."
+      },
+      {
+        "action": "Buuin ang kontemplatibo ng \"maglinis\": \"mag-\" + li + linis = \"maglilinis\".",
+        "why": "Nananatili ang \"mag-\" dahil hindi pa nagsisimula ang kilos. Nagiging \"nag-\" lamang ito kapag nasimulan na."
+      },
+      {
+        "action": "Ang angkop na anyo ay \"maglilinis\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "naglinis": "Perpektibo ito, para sa kilos na tapos na. Hindi pa tapos ang kilos na gagawin pa bukas.",
+    "naglilinis": "Imperpektibo ito, para sa kilos na nasimulan na o ginagawa pa. Hindi pa nagsisimula ang kilos na gagawin bukas.",
+    "kalilinis": "Ito ang anyong katatapos, para sa kilos na kagagawa lamang, gaya ng \"Kalilinis lang namin ng sahig.\" Hindi pa nagagawa ang kilos na mangyayari bukas."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

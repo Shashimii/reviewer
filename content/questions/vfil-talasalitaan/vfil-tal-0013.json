@@ -1,0 +1,46 @@
+{
+  "id": "vfil-tal-0013",
+  "topicId": "vfil-talasalitaan",
+  "skill": "vfil-tal-sawikain",
+  "difficulty": 2,
+  "stem": "\"Itaga mo sa bato, tatapusin ko ang aking pag-aaral,\" sabi ni Rosa sa kanyang ina.\n\nAno ang ibig sabihin ng sawikaing \"itaga mo sa bato\"?",
+  "choices": [
+    "tandaan mo, tiyak kong tutuparin",
+    "iukit mo ang pangako sa isang bato",
+    "baka hindi ko kayang tuparin ito",
+    "kalimutan mo na ang aking sinabi"
+  ],
+  "answer": "tandaan mo, tiyak kong tutuparin",
+  "hints": [
+    "Hindi literal ang sawikain. Walang talagang uukit ng anuman sa bato.",
+    "Isipin ang bato: matigas ito, at hindi madaling mabura ang anumang nakaukit dito.",
+    "Ang nakaukit sa bato ay nananatili at hindi nakakalimutan. Piliin ang sagot na nagpapakita ng pangakong sigurado."
+  ],
+  "solution": {
+    "methodName": "Unawain ang buong sawikain, hindi ang bawat salita",
+    "steps": [
+      {
+        "action": "Tandaan na hindi literal ang sawikain.",
+        "why": "Hindi talaga hinihiling ni Rosa na may umukit ng kahit ano sa bato."
+      },
+      {
+        "action": "Isipin ang larawan: ang nakaukit sa bato ay hindi nabubura.",
+        "why": "Kaya ginagamit ang sawikaing ito para sa pangako o hula na tiyak na mangyayari."
+      },
+      {
+        "action": "Sa pangungusap, nangangako si Rosa sa kanyang ina na tatapusin niya ang pag-aaral. Sinasabi niyang tandaan ito ng ina dahil tiyak itong mangyayari."
+      },
+      {
+        "action": "Ang ibig sabihin ng sawikain ay \"tandaan mo, tiyak kong tutuparin\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "iukit mo ang pangako sa isang bato": "Ito ang literal na pagbasa. Hindi talaga hinihiling ni Rosa na umukit ang kanyang ina sa bato.",
+    "baka hindi ko kayang tuparin ito": "Kabaligtaran ito ng kahulugan. Ang \"itaga sa bato\" ay pagpapakita ng katiyakan, hindi ng pagdududa.",
+    "kalimutan mo na ang aking sinabi": "Kabaligtaran din ito. Ang nakaukit sa bato ay hindi nabubura, kaya ang ibig sabihin ng sawikain ay tandaan, hindi kalimutan."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

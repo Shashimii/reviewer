@@ -1,0 +1,50 @@
+{
+  "id": "vfil-pu-0013",
+  "topicId": "vfil-pag-unawa",
+  "skill": "vfil-pu-hinuha",
+  "difficulty": 1,
+  "passage": "Animnapung taong gulang na si Mang Ben, at mahilig siya sa maaalat na pagkain gaya ng tuyo at bagoong. Isang Biyernes, sinamahan niya ang asawa niya sa health center para sa libreng pagkuha ng presyon ng dugo. Nagpakuha na rin siya, at nagulat siya nang malaman niyang mataas ang presyon niya. Pinayuhan siya ng nars na bawasan ang asin sa pagkain, maglakad tuwing umaga, at bumalik pagkalipas ng isang buwan. Mula noon, prutas at gulay na ang madalas niyang kainin, at sinasamahan na siya ng apo niya sa paglalakad. Pagbalik niya sa health center makalipas ang isang buwan, mas mababa na ang presyon niya.",
+  "stem": "Batay sa talata, ano ang mahihinuha tungkol kay Mang Ben?",
+  "choices": [
+    "Hindi siya naniwala sa resulta ng pagsusuri.",
+    "Mas gusto niyang maglakad nang mag-isa.",
+    "Sinunod niya ang mga payo ng nars.",
+    "Ayaw na niyang bumalik sa health center."
+  ],
+  "answer": "Sinunod niya ang mga payo ng nars.",
+  "hints": [
+    "Hindi sinabi nang tuwiran ang sagot. Tingnan ang mga ginawa ni Mang Ben pagkatapos ng pagsusuri.",
+    "Ilista ang mga payo ng nars. Pagkatapos, ilista ang mga nagbago sa gawi ni Mang Ben.",
+    "Ihambing ang dalawang listahan at ang resulta sa huling pangungusap. Itapon ang mga pagpipiliang salungat sa mga ginawa ni Mang Ben."
+  ],
+  "solution": {
+    "methodName": "Pagdugtungin ang mga palatandaan sa talata",
+    "steps": [
+      {
+        "action": "Ilista ang mga payo ng nars: bawasan ang asin, maglakad tuwing umaga, at bumalik pagkalipas ng isang buwan."
+      },
+      {
+        "action": "Ilista ang mga ginawa ni Mang Ben: kumain ng prutas at gulay, naglakad kasama ang apo, at bumalik sa health center makalipas ang isang buwan.",
+        "why": "Ang prutas at gulay ay kapalit ng maaalat na tuyo at bagoong, kaya nabawasan ang asin sa kinakain niya."
+      },
+      {
+        "action": "Pagdugtungin: tugma ang bawat ginawa niya sa bawat payo, at bumaba pa ang presyon niya.",
+        "why": "Ang \"hinuha\" ay konklusyong hindi sinabi nang tuwiran pero sinusuportahan ng mga palatandaan. Dito, ang mga palatandaan ay ang mga pagbabago at ang bumabang presyon."
+      },
+      {
+        "action": "Suriin ang iba: naniwala siya sa resulta dahil nagbago siya ng gawi; may kasama siyang apo sa paglalakad; at bumalik siya sa health center."
+      },
+      {
+        "action": "Ang sagot ay \"Sinunod niya ang mga payo ng nars.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Hindi siya naniwala sa resulta ng pagsusuri.": "Nagulat siya sa resulta, pero hindi ibig sabihin noon na hindi siya naniwala. Binago niya ang pagkain at gawi niya, kaya malinaw na pinaniwalaan niya ito.",
+    "Mas gusto niyang maglakad nang mag-isa.": "Salungat ito sa talata. Sinasamahan siya ng apo niya sa paglalakad.",
+    "Ayaw na niyang bumalik sa health center.": "Salungat ito sa talata. Bumalik siya sa health center makalipas ang isang buwan, gaya ng payo ng nars."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

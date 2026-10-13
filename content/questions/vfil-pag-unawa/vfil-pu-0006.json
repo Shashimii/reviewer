@@ -1,0 +1,50 @@
+{
+  "id": "vfil-pu-0006",
+  "topicId": "vfil-pag-unawa",
+  "skill": "vfil-pu-hinuha",
+  "difficulty": 3,
+  "passage": "Taon-taon, tone-toneladang plastik ang napupunta sa ating mga dagat. Malaking bahagi nito ay galing sa mga bayan at lungsod: mga sachet, bote at supot na itinapon sa kalye at tinangay ng ulan papunta sa mga ilog. Hindi madaling mabulok ang plastik. Sa halip, nadudurog lamang ito sa napakaliliit na piraso na maaaring makain ng mga isda. Kapag kinain natin ang mga isdang ito, maaaring mapunta rin sa ating katawan ang plastik. Kaya hindi lamang ang mga mangingisda ang dapat mabahala. Bawat isa sa atin ay may magagawa: magdala ng sariling bayong, tumanggi sa straw, at itapon nang tama ang basura.",
+  "stem": "Batay sa talata, alin ang makatwirang hinuha?",
+  "choices": [
+    "Maaaring makadagdag sa plastik sa dagat kahit ang mga bayang malayo rito.",
+    "Ang mga mangingisda ang pangunahing nagtatapon ng plastik sa dagat.",
+    "Kusang mawawala ang plastik sa dagat pagkalipas ng ilang taon.",
+    "Ligtas kainin ang isdang nahuli sa malalim na bahagi ng dagat."
+  ],
+  "answer": "Maaaring makadagdag sa plastik sa dagat kahit ang mga bayang malayo rito.",
+  "hints": [
+    "Hindi nakasulat nang tuwiran ang hinuha. Pagdugtungin ang dalawa o higit pang pahayag sa talata.",
+    "Balikan kung saan nanggagaling ang plastik at kung paano ito nakararating sa dagat.",
+    "Sundan ang dinaraanan ng plastik ayon sa talata: kalye, ulan, ilog, dagat. Itanong kung ano ang ibig sabihin nito para sa mga lugar na wala sa tabing-dagat. Itapon ang mga pagpipiliang salungat sa talata o walang batayan."
+  ],
+  "solution": {
+    "methodName": "Pagdugtungin ang mga palatandaan sa talata",
+    "steps": [
+      {
+        "action": "Hanapin ang pinanggagalingan ng plastik: \"mga sachet, bote at supot na itinapon sa kalye at tinangay ng ulan papunta sa mga ilog.\""
+      },
+      {
+        "action": "Pagdugtungin: dinadala ng ulan ang plastik mula sa kalye papunta sa ilog, at mula sa ilog papunta sa dagat.",
+        "why": "Hindi sinabi ng talata na sa tabing-dagat lamang itinatapon ang plastik. Sa kalye ito nagsisimula."
+      },
+      {
+        "action": "Hinuha: kahit malayo sa dagat ang isang bayan, maaaring umabot sa dagat ang plastik na itinapon doon.",
+        "why": "Hindi ito nakasulat nang tuwiran, pero ito ang lohikal na bunga ng daloy na kalye, ilog, dagat."
+      },
+      {
+        "action": "Suriin ang iba: salungat sa talata ang tungkol sa mangingisda at sa kusang pagkawala ng plastik, at walang batayan ang tungkol sa malalim na bahagi ng dagat."
+      },
+      {
+        "action": "Ang sagot ay \"Maaaring makadagdag sa plastik sa dagat kahit ang mga bayang malayo rito.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Ang mga mangingisda ang pangunahing nagtatapon ng plastik sa dagat.": "Nabanggit ang mga mangingisda, kaya maaaring akalaing sila ang may sala. Pero ayon sa talata, galing sa mga bayan at lungsod ang malaking bahagi ng plastik, sa pamamagitan ng kalye at ilog.",
+    "Kusang mawawala ang plastik sa dagat pagkalipas ng ilang taon.": "Salungat ito sa talata. Hindi madaling mabulok ang plastik. Nadudurog lamang ito sa maliliit na piraso, pero nananatili pa rin.",
+    "Ligtas kainin ang isdang nahuli sa malalim na bahagi ng dagat.": "Walang sinabi ang talata tungkol sa lalim ng dagat. Sinabi pa nga nito na maaaring umabot sa tao ang plastik sa pamamagitan ng isdang kinakain natin."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

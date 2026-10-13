@@ -1,0 +1,51 @@
+{
+  "id": "vfil-tl-0009",
+  "topicId": "vfil-talata",
+  "skill": "vfil-tl-paksa",
+  "difficulty": 1,
+  "passage": "Maraming pakinabang ang regular na paglalakad. Una, pinalalakas nito ang ating puso at baga. Tumutulong din ito na mapanatili ang tamang timbang. Bukod dito, nakapagpapagaan ito ng isip dahil nakalalanghap tayo ng sariwang hangin sa labas. Hindi rin ito nangangailangan ng mamahaling gamit o bayad sa gym. Kahit tatlumpung minuto lamang bawat araw ay sapat na upang maramdaman ang mga pakinabang na ito.",
+  "stem": "Alin ang paksang pangungusap ng talata?",
+  "choices": [
+    "Una, pinalalakas nito ang ating puso at baga.",
+    "Tumutulong din ito na mapanatili ang tamang timbang.",
+    "Maraming pakinabang ang regular na paglalakad.",
+    "Hindi rin ito nangangailangan ng mamahaling gamit o bayad sa gym."
+  ],
+  "answer": "Maraming pakinabang ang regular na paglalakad.",
+  "hints": [
+    "Ang paksang pangungusap ang nagsasabi ng pangunahing ideya ng buong talata. Ang ibang pangungusap ay sumusuporta lamang dito.",
+    "Basahin ang bawat pagpipilian at itanong: \"Ipinaliliwanag ba ito ng ibang pangungusap sa talata?\"",
+    "Pansinin kung alin ang mga pangungusap na nagbibigay ng iisang tiyak na pakinabang lamang. Ang paksang pangungusap ang sumasaklaw sa lahat ng pakinabang na iyon. Pansinin din ang \"nito\" at \"ito\": tumutukoy sila sa bagay na binanggit sa paksang pangungusap."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang pangungusap na sumasaklaw sa lahat",
+    "steps": [
+      {
+        "action": "Alamin ang paksa ng talata: ang paglalakad at ang mabubuting dulot nito."
+      },
+      {
+        "action": "Suriin ang \"Una, pinalalakas nito ang ating puso at baga.\" Iisang pakinabang lamang ito, kaya detalye ito.",
+        "why": "Ang \"Una\" ay nagpapakitang ito ang unang halimbawa sa isang listahan. Bahagi ito ng paliwanag, hindi ang buod."
+      },
+      {
+        "action": "Suriin ang \"Tumutulong din ito...\" at ang \"Hindi rin ito nangangailangan...\" Iisang pakinabang lamang din ang bawat isa.",
+        "why": "Ang \"din\" at \"rin\" ay nagpapakitang dagdag ang mga ito sa naunang pakinabang."
+      },
+      {
+        "action": "Suriin ang \"Maraming pakinabang ang regular na paglalakad.\" Ito ang sumasaklaw sa lahat ng pakinabang na binanggit.",
+        "why": "Ang bawat ibang pangungusap ay nagbibigay ng isa sa \"maraming pakinabang\" na ito. Dito rin tumutukoy ang \"nito\" at \"ito\" sa mga sumunod na pangungusap."
+      },
+      {
+        "action": "Ang paksang pangungusap ay \"Maraming pakinabang ang regular na paglalakad.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Una, pinalalakas nito ang ating puso at baga.": "Pinili ito dahil sa salitang \"Una.\" Pero ang \"Una\" ay simula lamang ng listahan ng mga pakinabang. Iisang pakinabang lamang ang sinasabi nito, kaya isa itong detalye.",
+    "Tumutulong din ito na mapanatili ang tamang timbang.": "Mahalaga ang timbang, pero isa lamang ito sa mga pakinabang. Ang \"din\" ay nagpapakitang dagdag ito sa naunang punto, kaya detalye ito.",
+    "Hindi rin ito nangangailangan ng mamahaling gamit o bayad sa gym.": "Ito ang pinakamahabang pagpipilian, pero hindi tanda ng paksang pangungusap ang haba. Isa lamang itong dagdag na pakinabang, gaya ng ipinakikita ng \"rin.\""
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

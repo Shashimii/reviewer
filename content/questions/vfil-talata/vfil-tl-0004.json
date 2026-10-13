@@ -1,0 +1,55 @@
+{
+  "id": "vfil-tl-0004",
+  "topicId": "vfil-talata",
+  "skill": "vfil-tl-ayos",
+  "difficulty": 2,
+  "stem": "Ayusin ang mga pangungusap upang makabuo ng isang maayos na talata. Alin ang tamang pagkakasunod-sunod?\n\n1. Gayunman, hindi lahat ng negosyante ay may kompiyuter o maayos na koneksiyon sa internet.\n2. Dahil dito, nagbukas din ang munisipyo ng isang help desk sa unang palapag ng gusali.\n3. Ngayong taon, sinimulan ng munisipyo ang online na pag-aaplay para sa business permit.\n4. Sa help desk na ito, tutulungan ng mga kawani ang aplikante na punan ang form gamit ang kompiyuter ng opisina.\n5. Sa paraang ito, hindi na kailangang pumunta at pumila sa munisipyo ang mga negosyante.",
+  "choices": [
+    "3, 1, 2, 4, 5",
+    "5, 3, 1, 2, 4",
+    "3, 5, 1, 2, 4",
+    "3, 5, 2, 4, 1"
+  ],
+  "answer": "3, 5, 1, 2, 4",
+  "hints": [
+    "May dalawang panandang dapat bantayan: \"Gayunman\" (nagpapakita ng salungat) at \"Dahil dito\" (nagpapakita ng bunga).",
+    "Hanapin ang pangungusap na nagpapakilala sa bagong programa ng munisipyo. Sunod, alamin kung ano ang tinutukoy ng \"Sa paraang ito.\"",
+    "Ayusin sa ganitong daloy: ano ang sinimulan, ano ang mabuting dulot nito, ano ang problema (\"Gayunman\"), ano ang ginawang lunas (\"Dahil dito\"), at paliwanag tungkol sa lunas. Itugma ang daloy na ito sa mga pagpipilian."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang simula, saka sundan ang mga pananda",
+    "steps": [
+      {
+        "action": "Simulan sa pangungusap 3, na nagpapakilala ng paksa: ang online na pag-aaplay para sa business permit.",
+        "why": "Wala itong salitang tumuturo pabalik, at ipinakikilala nito kung ano ang pag-uusapan."
+      },
+      {
+        "action": "Kasunod ang pangungusap 5, \"Sa paraang ito, hindi na kailangang pumunta at pumila...\"",
+        "why": "Ang \"Sa paraang ito\" ay tumutukoy sa online na pag-aaplay. Ipinakikita nito ang mabuting dulot ng programa."
+      },
+      {
+        "action": "Sumunod ang pangungusap 1, na nagsisimula sa \"Gayunman.\"",
+        "why": "Ang \"Gayunman\" ay nangangahulugang \"pero\" o \"subalit.\" Sinasalungat nito ang naunang pangungusap: hindi na kailangang pumunta, pero hindi lahat ay may kompiyuter."
+      },
+      {
+        "action": "Kasunod ang pangungusap 2, \"Dahil dito, nagbukas din ang munisipyo ng isang help desk...\"",
+        "why": "Ang \"Dahil dito\" ay nagpapakilala ng bunga. Dahil hindi lahat ay may kompiyuter, nagbukas ng help desk."
+      },
+      {
+        "action": "Sa dulo ang pangungusap 4, \"Sa help desk na ito...\"",
+        "why": "Ipinaliliwanag nito ang help desk, kaya dapat itong sumunod sa pangungusap na unang bumanggit nito."
+      },
+      {
+        "action": "Ang tamang pagkakasunod-sunod ay 3, 5, 1, 2, 4."
+      }
+    ]
+  },
+  "trapNotes": {
+    "3, 1, 2, 4, 5": "Nailagay sa dulo ang \"Sa paraang ito, hindi na kailangang pumunta at pumila sa munisipyo.\" Pero ang huling binanggit bago nito ay ang help desk sa munisipyo, kung saan kailangang pumunta. Magkasalungat ang dalawa, kaya ang pangungusap 5 ay dapat sumunod sa online na pag-aaplay.",
+    "5, 3, 1, 2, 4": "Nagsimula sa \"Sa paraang ito,\" pero wala pang paraang nabanggit. Kailangang mauna ang pangungusap na nagpapakilala sa online na pag-aaplay.",
+    "3, 5, 2, 4, 1": "Nauna ang \"Dahil dito\" bago ang problema. Walang dahilan para magbukas ng help desk kung hindi pa nasasabing walang kompiyuter ang ilang negosyante. Nasa dulo rin ang \"Gayunman,\" pero wala na itong sinasalungat."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

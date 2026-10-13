@@ -1,0 +1,64 @@
+{
+  "id": "vfil-talasalitaan-lesson",
+  "topicId": "vfil-talasalitaan",
+  "workedExampleId": "vfil-tal-0001",
+  "sections": [
+    {
+      "heading": "Ano ang talasalitaan",
+      "body": "Ang **talasalitaan** ay ang kaalaman sa mga salita at sa kahulugan ng mga ito. Apat na uri ng tanong ang lalabas sa pagsusulit:\n\n- **Kasingkahulugan:** salitang may parehong kahulugan.\n- **Kasalungat:** salitang may kabaligtarang kahulugan.\n- **Kahulugan mula sa konteksto:** pag-alam sa kahulugan ng bagong salita gamit ang ibang salita sa pangungusap.\n- **Sawikain:** pahayag na iba ang kahulugan sa literal na sinasabi ng mga salita.\n\nBasahing mabuti ang tanong. Maraming nagkakamali dahil kasingkahulugan ang hinanap nila gayong kasalungat ang hinihingi."
+    },
+    {
+      "heading": "Kasingkahulugan at kasalungat",
+      "body": "**Paraan para sa kasingkahulugan: Palitan ang salita, saka basahin muli ang pangungusap.**\n\n1. Alamin ang kahulugan ng salita.\n2. Ipalit ang bawat pagpipilian sa pangungusap.\n3. Piliin ang sagot na hindi bumabago sa kahulugan ng pangungusap.\n\nHalimbawa: \"Matulin tumakbo ang kabayo.\" Ipalit ang *mabilis*: \"Mabilis tumakbo ang kabayo.\" Pareho ang kahulugan, kaya **mabilis** ang kasingkahulugan ng **matulin**.\n\n**Paraan para sa kasalungat: Alamin ang kahulugan, saka hanapin ang kabaligtaran.**\n\n1. Alamin ang kahulugan ng salita.\n2. Tanggalin ang mga pagpipiliang kasingkahulugan nito.\n3. Piliin ang tunay na kabaligtaran.\n\nHalimbawa: Ang kasalungat ng **malawak** ay **makitid**, hindi *maluwag*, dahil kasingkahulugan iyon."
+    },
+    {
+      "heading": "Kahulugan mula sa konteksto",
+      "body": "Ang **konteksto** ay ang mga salita at pangungusap sa paligid ng isang salita. Kahit hindi mo kilala ang salita, matutuklasan mo ang kahulugan nito sa mga **palatandaan**.\n\n**Paraan: Hanapin ang palatandaan, saka subukan ang bawat sagot.**\n\n| Palatandaan | Halimbawa |\n| --- | --- |\n| Paliwanag pagkatapos ng tuldok-kuwit (;) | \"Masagana ang ani ngayong taon; puno ang mga bodega ng palay.\" |\n| Salungat na hudyat: *sa halip na, ngunit* | \"Sa halip na magalit, naging mahinahon siya.\" |\n| Sanhi at bunga: *kaya, dahil* | \"Marupok ang lumang upuan kaya agad itong nasira.\" |\n\nSa unang halimbawa, ipinaliliwanag ng \"puno ang mga bodega\" na ang **masagana** ay marami o higit pa sa sapat. Sa ikalawa, ang **mahinahon** ay kabaligtaran ng galit, kaya kalmado ang kahulugan nito. Sa ikatlo, ang **marupok** ay madaling masira."
+    },
+    {
+      "heading": "Sawikain",
+      "body": "Ang **sawikain** (idyoma) ay grupo ng mga salita na may kahulugang iba sa **literal** na kahulugan, o sa mismong sinasabi ng bawat salita.\n\n**Paraan: Unawain ang buong sawikain, hindi ang bawat salita.** Isipin ang larawang ipinapakita nito, saka iugnay sa pangungusap.\n\n| Sawikain | Kahulugan |\n| --- | --- |\n| balat-sibuyas | maramdamin, madaling masaktan |\n| bukas-palad | matulungin, mapagbigay |\n| butas ang bulsa | walang pera |\n| kabiyak ng dibdib | asawa |\n| nagbibilang ng poste | walang trabaho |\n\nHalimbawa: \"Bukas-palad ang mag-asawa sa mga nasalanta ng bagyo.\" Ang bukas na palad ay handang magbigay, kaya ang ibig sabihin ay **matulungin**."
+    },
+    {
+      "heading": "Mga karaniwang patibong",
+      "body": "- **Kasingkahulugan sa halip na kasalungat.** Sa tanong na kasalungat ang hinihingi, halos laging may kasingkahulugan sa mga pagpipilian bilang patibong.\n- **Magkatunog na salita.** Huwag pumili dahil lamang magkatunog o magkamukha ang dalawang salita. Kahulugan ang tingnan.\n- **Literal na pagbasa sa sawikain.** Ang \"butas ang bulsa\" ay hindi tungkol sa sirang pantalon.\n- **Isang salita lamang ang binasa.** Basahin ang buong pangungusap. Ang \"sa halip na\" o \"hindi\" ay maaaring bumaligtad sa kahulugan.\n- **Totoo pero hindi tugma.** Maaaring totoo ang isang sagot sa ibang sitwasyon, ngunit hindi ito ang kahulugan ng salita sa pangungusap."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Talasalitaan",
+      "definition": "Ang kaalaman sa mga salita at sa kahulugan ng mga ito.",
+      "taglish": "Talasalitaan – vocabulary; ang mga salitang alam mo at ang meaning nila"
+    },
+    {
+      "term": "Kasingkahulugan",
+      "definition": "Salitang may parehong kahulugan ng ibang salita, gaya ng matulin at mabilis.",
+      "taglish": "Kasingkahulugan – synonym; pareho ang meaning"
+    },
+    {
+      "term": "Kasalungat",
+      "definition": "Salitang may kabaligtarang kahulugan, gaya ng malawak at makitid.",
+      "taglish": "Kasalungat – antonym; opposite ang meaning"
+    },
+    {
+      "term": "Konteksto",
+      "definition": "Ang mga salita at pangungusap sa paligid ng isang salita na tumutulong upang maunawaan ito.",
+      "taglish": "Konteksto – context; yung mga katabing salita na nagbibigay ng clue"
+    },
+    {
+      "term": "Palatandaan",
+      "definition": "Bahagi ng pangungusap na nagbibigay ng pahiwatig sa kahulugan ng isang salita.",
+      "taglish": "Palatandaan – clue o hint sa loob ng sentence"
+    },
+    {
+      "term": "Sawikain",
+      "definition": "Grupo ng mga salita na iba ang kahulugan sa literal na sinasabi, gaya ng \"butas ang bulsa\" na ang ibig sabihin ay walang pera.",
+      "taglish": "Sawikain – idiom; hindi literal ang meaning"
+    },
+    {
+      "term": "Literal",
+      "definition": "Ang mismong kahulugan ng bawat salita, walang ibang ibig sabihin.",
+      "taglish": "Literal – word-for-word ang meaning, walang ibang ibig sabihin"
+    }
+  ]
+}

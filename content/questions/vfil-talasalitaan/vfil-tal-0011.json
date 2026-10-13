@@ -1,0 +1,46 @@
+{
+  "id": "vfil-tal-0011",
+  "topicId": "vfil-talasalitaan",
+  "skill": "vfil-tal-sawikain",
+  "difficulty": 1,
+  "stem": "Gabi-gabing nagsusunog ng kilay si Carlo dahil malapit na ang kanyang pagsusulit.\n\nAno ang ibig sabihin ng sawikaing \"nagsusunog ng kilay\"?",
+  "choices": [
+    "nagpupuyat sa paglalaro",
+    "nagluluto ng hapunan",
+    "nag-aaral nang mabuti",
+    "nagpapaganda ng mukha"
+  ],
+  "answer": "nag-aaral nang mabuti",
+  "hints": [
+    "Ang sawikain ay hindi binabasa nang literal o salita por salita. Walang talagang nasusunog na kilay.",
+    "Pansinin ang palatandaan: \"dahil malapit na ang kanyang pagsusulit.\" Ano ang karaniwang ginagawa bago ang pagsusulit?",
+    "Noong wala pang kuryente, nagbabasa ang mga tao sa tabi ng kandila o gasera hanggang hatinggabi, kaya halos masunog ang kanilang kilay. Piliin ang sagot na tugma sa ginagawa ng taong may pagsusulit."
+  ],
+  "solution": {
+    "methodName": "Unawain ang buong sawikain, hindi ang bawat salita",
+    "steps": [
+      {
+        "action": "Tandaan na ang sawikain ay may kahulugang iba sa literal na kahulugan ng mga salita.",
+        "why": "Hindi talaga sinusunog ni Carlo ang kanyang kilay."
+      },
+      {
+        "action": "Hanapin ang palatandaan sa pangungusap: gabi-gabi niya itong ginagawa dahil malapit na ang pagsusulit."
+      },
+      {
+        "action": "Ang \"nagsusunog ng kilay\" ay nangangahulugang masipag mag-aral, kahit hanggang gabi.",
+        "why": "Galing ito sa larawan ng taong nagbabasa nang malapit sa kandila o gasera."
+      },
+      {
+        "action": "Ang ibig sabihin ng sawikain ay \"nag-aaral nang mabuti\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "nagpupuyat sa paglalaro": "Totoong sa gabi ginagawa ang kilos, ngunit ang palatandaan ay ang pagsusulit. Pag-aaral ang ginagawa bago ang pagsusulit, hindi paglalaro.",
+    "nagluluto ng hapunan": "Baka mapili ito dahil sa salitang \"nagsusunog\", na may kinalaman sa apoy. Ngunit hindi literal ang sawikain.",
+    "nagpapaganda ng mukha": "Baka mapili ito dahil nasa mukha ang kilay. Ngunit hindi literal ang sawikain, at walang kinalaman sa pagpapaganda ang pagsusulit."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

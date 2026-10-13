@@ -1,0 +1,46 @@
+{
+  "id": "vfil-pu-0003",
+  "topicId": "vfil-pag-unawa",
+  "skill": "vfil-pu-detalye",
+  "difficulty": 1,
+  "passage": "Maraming nakatatanda sa malalayong sitio ng bayan ng Pinagpala ang wala pang senior citizen ID. Mahigit isang oras kasi ang biyahe nila papunta sa munisipyo, at mahal pa ang pamasahe. Kaya noong Marso, sinimulan ng tanggapan para sa mga nakatatanda ang programang \"Serbisyo sa Sitio.\" Tuwing ikalawang Sabado ng buwan, pumupunta ang mga kawani sa isang sitio dala ang laptop, kamera at mga form. Doon na mismo kinukunan ng larawan ang mga nakatatanda at pinupunan ang kanilang aplikasyon. Pagkalipas ng dalawang linggo, ihahatid na lamang ng barangay ang natapos na ID sa bahay ng may-ari. Sa unang tatlong buwan ng programa, mahigit apat na raang nakatatanda ang napagsilbihan.",
+  "stem": "Ayon sa talata, kailan ihahatid ng barangay ang natapos na ID?",
+  "choices": [
+    "Pagkalipas ng dalawang linggo",
+    "Pagkalipas ng isang buwan",
+    "Pagkalipas ng tatlong buwan",
+    "Pagkalipas ng isang oras"
+  ],
+  "answer": "Pagkalipas ng dalawang linggo",
+  "hints": [
+    "Ang tanong ay tungkol sa panahon. Hanapin sa talata ang bahaging tungkol sa paghahatid ng ID.",
+    "Hanapin ang susing salitang \"ihahatid.\"",
+    "Basahin muli ang pangungusap na may \"ihahatid.\" Mag-ingat: may iba pang bilang ng panahon sa talata (oras, buwan), pero iba ang tinutukoy ng mga iyon."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang susing salita, saka balikan ang talata",
+    "steps": [
+      {
+        "action": "Tukuyin ang susing salita sa tanong: \"ihahatid\" at \"natapos na ID.\""
+      },
+      {
+        "action": "Hanapin ito sa talata: \"Pagkalipas ng dalawang linggo, ihahatid na lamang ng barangay ang natapos na ID sa bahay ng may-ari.\""
+      },
+      {
+        "action": "Suriin ang ibang bilang ng panahon sa talata para hindi malito.",
+        "why": "Ang \"isang oras\" ay ang haba ng biyahe. Ang \"buwan\" ay kung gaano kadalas dumadalaw ang mga kawani. Ang \"tatlong buwan\" ay ang unang yugto ng programa. Wala sa mga ito ang tungkol sa paghahatid ng ID."
+      },
+      {
+        "action": "Ang sagot ay \"Pagkalipas ng dalawang linggo.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Pagkalipas ng isang buwan": "Isang beses sa isang buwan dumadalaw ang mga kawani sa sitio (tuwing ikalawang Sabado). Hindi ito ang panahon ng paghahatid ng ID.",
+    "Pagkalipas ng tatlong buwan": "Ang \"tatlong buwan\" ay ang unang yugto ng programa, kung kailan mahigit apat na raan ang napagsilbihan. Hindi ito tungkol sa paghahatid ng ID.",
+    "Pagkalipas ng isang oras": "Ang \"isang oras\" ay ang haba ng biyahe papunta sa munisipyo. Walang kinalaman ito sa paghahatid ng ID."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

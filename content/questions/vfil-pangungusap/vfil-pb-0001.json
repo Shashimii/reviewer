@@ -1,0 +1,46 @@
+{
+  "id": "vfil-pb-0001",
+  "topicId": "vfil-pangungusap",
+  "skill": "vfil-pb-salita",
+  "difficulty": 1,
+  "stem": "Maaga akong umalis sa bahay ___ hindi ako nahuli sa trabaho.\n\nAling salita ang angkop sa patlang?",
+  "choices": [
+    "ngunit",
+    "habang",
+    "kaya",
+    "kung"
+  ],
+  "answer": "kaya",
+  "hints": [
+    "Tingnan ang ugnayan ng dalawang bahagi ng pangungusap: ang maagang pag-alis at ang hindi pagkahuli.",
+    "Alin ang sanhi (dahilan) at alin ang bunga (resulta)? Ang maagang pag-alis ba ang nagdulot ng hindi pagkahuli?",
+    "Kapag nauna ang sanhi at kasunod ang bunga, gumamit ng pang-ugnay na nagpapakilala ng bunga. Isingit ang bawat sagot sa patlang."
+  ],
+  "solution": {
+    "methodName": "Unawain ang buong pangungusap, saka isingit ang bawat sagot",
+    "steps": [
+      {
+        "action": "Basahin ang buong pangungusap at alamin ang ugnayan ng dalawang bahagi."
+      },
+      {
+        "action": "Ang unang bahagi (maagang pag-alis) ang sanhi; ang ikalawang bahagi (hindi pagkahuli) ang bunga.",
+        "why": "Dahil maaga siyang umalis, hindi siya nahuli. Sanhi at bunga ang dalawa."
+      },
+      {
+        "action": "Ang \"kaya\" ang pang-ugnay na nagpapakilala ng bunga.",
+        "why": "Ginagamit ang \"kaya\" kapag ang kasunod nito ay resulta ng naunang pangyayari."
+      },
+      {
+        "action": "Ang angkop na salita ay \"kaya\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "ngunit": "Ginagamit ang \"ngunit\" sa pagsalungat, gaya ng resultang hindi inaasahan. Inaasahan namang hindi mahuhuli ang taong maagang umalis, kaya walang pagsalungat dito.",
+    "habang": "Ang \"habang\" ay para sa dalawang pangyayaring sabay na nagaganap. Hindi sabay ang pag-alis sa bahay at ang pagdating sa trabaho; sanhi at bunga ang mga ito.",
+    "kung": "Ang \"kung\" ay nagpapakilala ng kondisyon na maaaring mangyari o hindi. Tapos na ang mga pangyayari sa pangungusap, kaya walang kondisyon dito."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

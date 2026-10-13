@@ -1,0 +1,46 @@
+{
+  "id": "vfil-tal-0002",
+  "topicId": "vfil-talasalitaan",
+  "skill": "vfil-tal-kasingkahulugan",
+  "difficulty": 2,
+  "stem": "Salat sa mga aklat at upuan ang maliit na paaralan sa bundok.\n\nAno ang kasingkahulugan ng salitang \"salat\"?",
+  "choices": [
+    "sagana",
+    "malayo",
+    "sanay",
+    "kapos"
+  ],
+  "answer": "kapos",
+  "hints": [
+    "Isipin ang kalagayan ng isang maliit na paaralan sa bundok. Marami ba o kaunti ang kanilang gamit?",
+    "Palitan ang \"salat\" ng bawat pagpipilian, saka tingnan kung pareho pa rin ang kahulugan ng pangungusap.",
+    "Ang \"salat\" ay naglalarawan sa dami ng gamit. Piliin ang salitang nangangahulugang hindi sapat, at iwasan ang salitang kabaligtaran nito."
+  ],
+  "solution": {
+    "methodName": "Palitan ang salita, saka basahin muli ang pangungusap",
+    "steps": [
+      {
+        "action": "Alamin ang kahulugan ng \"salat\": hindi sapat o kulang.",
+        "why": "Kapag sinabing \"salat sa aklat\", kulang ang mga aklat."
+      },
+      {
+        "action": "Ipalit ang bawat pagpipilian: \"___ sa mga aklat at upuan ang maliit na paaralan sa bundok.\""
+      },
+      {
+        "action": "Ang \"kapos\" ay nangangahulugan ding kulang o hindi sapat.",
+        "why": "Kapag ipinalit ang \"kapos\", hindi nagbabago ang mensahe ng pangungusap."
+      },
+      {
+        "action": "Ang kasingkahulugan ng \"salat\" ay \"kapos\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "sagana": "Ito ang kabaligtaran ng \"salat\". Ang sagana ay marami o higit pa sa sapat. Kasingkahulugan ang hinahanap, hindi kasalungat.",
+    "malayo": "Baka mapili ito dahil nasa bundok ang paaralan. Ngunit ang \"salat\" ay tungkol sa dami ng gamit, hindi sa layo ng lugar.",
+    "sanay": "Magkatunog ang \"salat\" at \"sanay\" kaya maaaring malito. Ang sanay ay bihasa o may kasanayan, na ibang-iba ang kahulugan."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

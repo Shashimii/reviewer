@@ -1,0 +1,48 @@
+{
+  "id": "vfil-wg-0007",
+  "topicId": "vfil-wastong-gamit",
+  "skill": "vfil-wg-din-rin",
+  "difficulty": 3,
+  "stem": "Alin ang may mali sa pangungusap? Kung wala, piliin ang 'Walang mali'.\n\nMasarap raw ang luto ni Aling Nena, kaya bibili rin ako mamaya.",
+  "choices": [
+    "Masarap raw",
+    "ni Aling Nena",
+    "bibili rin",
+    "Walang mali"
+  ],
+  "answer": "Masarap raw",
+  "hints": [
+    "May dalawang salita rito na anyo ng 'daw' o 'din'. Suriin ang dalawa.",
+    "Tingnan ang huling titik ng 'Masarap' at ng 'bibili'.",
+    "Pagkatapos ng patinig (a, e, i, o, u), w o y: 'rin' o 'raw'. Pagkatapos ng katinig: 'din' o 'daw'. Hanapin ang hindi sumusunod dito."
+  ],
+  "solution": {
+    "methodName": "Tingnan ang huling titik ng salitang nauuna",
+    "steps": [
+      {
+        "action": "'Masarap raw': nagtatapos sa 'p' ang 'masarap', isang katinig."
+      },
+      {
+        "action": "Pagkatapos ng katinig, 'daw' ang tama, hindi 'raw'. Mali ito.",
+        "why": "Ang 'r' ay ginagamit lang kapag patinig, w o y ang huling titik ng salitang nauuna."
+      },
+      {
+        "action": "'ni Aling Nena': ang 'ni' ay ginagamit bago ang pangalan ng tao para sabihin kung kanino ang isang bagay. Tama ito."
+      },
+      {
+        "action": "'bibili rin': nagtatapos sa 'i' ang 'bibili', isang patinig. Tama ang 'rin'."
+      },
+      {
+        "action": "Ang mali ay 'Masarap raw'. Ang wasto: 'Masarap daw ang luto ni Aling Nena'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "ni Aling Nena": "Tama ito. Ginagamit ang 'ni' bago ang pangalan ng tao para sabihin kung kanino ang isang bagay: 'luto ni Aling Nena'.",
+    "bibili rin": "Maaaring isiping mali dahil may isa pang anyo ng 'din' sa pangungusap. Pero nagtatapos sa 'i' ang 'bibili', isang patinig, kaya tama ang 'rin'.",
+    "Walang mali": "May isang mali. Nagtatapos sa 'p' ang 'masarap', isang katinig, kaya 'daw' ang tama, hindi 'raw'."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

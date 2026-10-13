@@ -1,0 +1,51 @@
+{
+  "id": "vfil-tl-0001",
+  "topicId": "vfil-talata",
+  "skill": "vfil-tl-ayos",
+  "difficulty": 1,
+  "stem": "Ayusin ang mga pangungusap upang makabuo ng isang maayos na talata. Alin ang tamang pagkakasunod-sunod?\n\n1. Pagkatapos, magbayad sa ingat-yaman ng barangay at itago ang resibo.\n2. Narito ang tatlong hakbang sa pagkuha ng barangay clearance.\n3. Sa huli, ipakita ang resibo sa kalihim ng barangay upang makuha ang clearance.\n4. Una, pumunta sa barangay hall at punan ang form na ibibigay sa iyo.",
+  "choices": [
+    "4, 1, 3, 2",
+    "2, 4, 1, 3",
+    "2, 1, 4, 3",
+    "4, 2, 1, 3"
+  ],
+  "answer": "2, 4, 1, 3",
+  "hints": [
+    "May isang pangungusap na nagpapakilala sa paksa, at may mga salitang nagsasabi ng pagkakasunod-sunod: \"Una,\" \"Pagkatapos\" at \"Sa huli.\"",
+    "Hanapin muna ang pangungusap na nagsasabi kung tungkol saan ang talata. Ito ang ilalagay sa simula.",
+    "Ilagay sa simula ang pangungusap na nagpapakilala sa paksa. Pagkatapos, sundan ang mga pananda ayon sa tamang ayos: una ang \"Una,\" kasunod ang \"Pagkatapos,\" at huli ang \"Sa huli.\" Hanapin ang pagpipiliang ganito ang ayos."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang simula, saka sundan ang mga pananda",
+    "steps": [
+      {
+        "action": "Hanapin ang pangungusap na nagpapakilala sa paksa. Ito ang pangungusap 2: \"Narito ang tatlong hakbang sa pagkuha ng barangay clearance.\"",
+        "why": "Ang salitang \"Narito\" ay tumuturo sa mga susunod na pangungusap. Sinasabi nito sa mambabasa na may darating na tatlong hakbang, kaya dapat itong mauna."
+      },
+      {
+        "action": "Hanapin ang unang hakbang. Ang pangungusap 4 ay nagsisimula sa \"Una,\" kaya ito ang kasunod ng 2.",
+        "why": "Ang \"Una\" ay isang pananda. Ang pananda ay salitang nagsasabi kung saan nakalagay ang pangungusap sa pagkakasunod-sunod."
+      },
+      {
+        "action": "Kasunod ang pangungusap 1, na nagsisimula sa \"Pagkatapos.\"",
+        "why": "Ang \"Pagkatapos\" ay nangangahulugang may naunang hakbang na. Kaya hindi ito maaaring mauna sa \"Una.\""
+      },
+      {
+        "action": "Ang huli ay ang pangungusap 3, na nagsisimula sa \"Sa huli.\"",
+        "why": "Makatwiran din ito: kailangan munang magbayad at magkaroon ng resibo bago ito maipakita sa kalihim."
+      },
+      {
+        "action": "Basahin muli nang buo ang 2, 4, 1, 3. Malinaw ang daloy, kaya ang sagot ay 2, 4, 1, 3."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4, 1, 3, 2": "Inuna ang pangungusap na may \"Una\" dahil inakalang ito ang dapat mauna sa lahat. Pero ang pangungusap 2 ang nagpapakilala sa mga hakbang (\"Narito ang tatlong hakbang\"), kaya ito ang dapat mauna. Kakaiba kung sa dulo pa sasabihing \"narito\" ang mga hakbang na naibigay na.",
+    "2, 1, 4, 3": "Sa ayos na ito, nauna ang \"Pagkatapos\" sa \"Una.\" Hindi maaaring may \"pagkatapos\" kung wala pang unang hakbang.",
+    "4, 2, 1, 3": "Napasingit ang panimula sa pagitan ng unang hakbang at ng kasunod nito. Ang pangungusap na nagpapakilala sa paksa ay dapat nasa simula, bago ang lahat ng hakbang."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

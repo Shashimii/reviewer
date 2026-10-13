@@ -1,0 +1,49 @@
+{
+  "id": "vfil-wg-0012",
+  "topicId": "vfil-wastong-gamit",
+  "skill": "vfil-wg-iba",
+  "difficulty": 2,
+  "stem": "Alin ang wastong pangungusap?",
+  "choices": [
+    "Magsisimula ang pagpaparehistro sa ika-15 ng Hulyo.",
+    "Magsisimula ang pagpaparehistro sa ika15 ng Hulyo.",
+    "Magsisimula ang pagpaparehistro sa ika-labinlima ng Hulyo.",
+    "Magsisimula ang pagpaparehistro sa ika 15 ng Hulyo."
+  ],
+  "answer": "Magsisimula ang pagpaparehistro sa ika-15 ng Hulyo.",
+  "hints": [
+    "Iisa ang petsang tinutukoy ng apat. Ang pagsulat lang ng 'ika' at ng bilang ang magkakaiba.",
+    "Tingnan ang kasunod ng 'ika' sa bawat isa. Numero ba (gaya ng 15) o salita (gaya ng labinlima)?",
+    "Kapag numero ang kasunod ng 'ika', kailangan ng gitling sa pagitan nila. Kapag salita ang kasunod, idinidikit ito nang walang gitling. Hanapin ang sumusunod dito."
+  ],
+  "solution": {
+    "methodName": "Tingnan kung numero o salita ang kasunod ng ika-",
+    "steps": [
+      {
+        "action": "'ika-15': numero ang kasunod ng 'ika', at may gitling sa pagitan nila. Tama ito.",
+        "why": "Ayon sa Komisyon sa Wikang Filipino (KWF), nilalagyan ng gitling ang 'ika-' kapag numero ang kasunod, gaya ng 'ika-12 ng Hunyo'."
+      },
+      {
+        "action": "'ika15': numero ang kasunod, pero walang gitling. Mali ito."
+      },
+      {
+        "action": "'ika-labinlima': salita ang kasunod, kaya hindi dapat lagyan ng gitling. Dapat 'ikalabinlima', magkadikit. Mali ito.",
+        "why": "Kapag isinulat bilang salita ang bilang, idinidikit ito sa 'ika' nang walang gitling, gaya ng 'ikalima' at 'ikasampu'."
+      },
+      {
+        "action": "'ika 15': may puwang sa pagitan ng 'ika' at ng numero, at walang gitling. Mali ito."
+      },
+      {
+        "action": "Ang wastong pangungusap ay 'Magsisimula ang pagpaparehistro sa ika-15 ng Hulyo.'"
+      }
+    ]
+  },
+  "trapNotes": {
+    "Magsisimula ang pagpaparehistro sa ika15 ng Hulyo.": "Maaaring piliin dahil magkadikit ang 'ika' at ang numero. Pero kapag numero ang kasunod, kailangan ng gitling: 'ika-15'.",
+    "Magsisimula ang pagpaparehistro sa ika-labinlima ng Hulyo.": "Maaaring piliin dahil may gitling, gaya ng sa numero. Pero kapag salita ang kasunod ng 'ika', idinidikit ito nang walang gitling: 'ikalabinlima'.",
+    "Magsisimula ang pagpaparehistro sa ika 15 ng Hulyo.": "Hindi pinaghihiwalay ng puwang ang 'ika' at ang numero. Kailangan ng gitling: 'ika-15'."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

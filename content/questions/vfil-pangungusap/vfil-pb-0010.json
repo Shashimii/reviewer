@@ -1,0 +1,49 @@
+{
+  "id": "vfil-pb-0010",
+  "topicId": "vfil-pangungusap",
+  "skill": "vfil-pb-anyo",
+  "difficulty": 2,
+  "stem": "Araw-araw, ___ si Mang Tonyo ng mga halaman sa harap ng munisipyo, kaya laging sariwa ang mga ito.\n\nAling anyo ng pandiwa ang angkop sa patlang?",
+  "choices": [
+    "nagdilig",
+    "magdidilig",
+    "nagdidilig",
+    "kadidilig"
+  ],
+  "answer": "nagdidilig",
+  "hints": [
+    "Hanapin ang salitang nagsasabi kung gaano kadalas ginagawa ang kilos.",
+    "Ang \"Araw-araw\" ay nangangahulugang paulit-ulit na ginagawa ang kilos, at ginagawa pa rin hanggang ngayon.",
+    "Ang kilos na paulit-ulit at nagpapatuloy ay nasa aspektong imperpektibo: \"nag-\" at inuulit na unang pantig ng salitang-ugat."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang hudyat ng panahon, saka itugma ang aspekto",
+    "steps": [
+      {
+        "action": "Hanapin ang hudyat ng panahon: \"Araw-araw\"."
+      },
+      {
+        "action": "Tukuyin ang uri ng kilos: ginagawa ito tuwing araw, kaya paulit-ulit at nagpapatuloy.",
+        "why": "Kahit ginawa na ito kahapon, gagawin ulit ngayon at bukas. Hindi ito iisang kilos na tapos na. Sinusuportahan din ito ng \"laging sariwa\"."
+      },
+      {
+        "action": "Piliin ang aspektong imperpektibo, ang anyo para sa kilos na nagaganap o paulit-ulit na ginagawa."
+      },
+      {
+        "action": "Buuin ang imperpektibo ng \"magdilig\": \"nag-\" + di + dilig = \"nagdidilig\".",
+        "why": "Ang \"nag-\" ay nagsasabing nasimulan na ang kilos; ang inulit na \"di\" ay nagsasabing nagpapatuloy ito."
+      },
+      {
+        "action": "Ang angkop na anyo ay \"nagdidilig\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "nagdilig": "Perpektibo ito: isang kilos na tapos na. Ang \"Araw-araw\" ay nagsasabing paulit-ulit at nagpapatuloy ang kilos, hindi iisang beses na natapos.",
+    "magdidilig": "Kontemplatibo ito: gagawin pa lamang. Ngunit ginagawa na ito araw-araw, hindi pa lamang sisimulan.",
+    "kadidilig": "Ito ang anyong katatapos, para sa kilos na kagagawa lamang. Hindi ito ginagamit sa kilos na ginagawa araw-araw."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

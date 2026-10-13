@@ -1,0 +1,51 @@
+{
+  "id": "vfil-tl-0010",
+  "topicId": "vfil-talata",
+  "skill": "vfil-tl-paksa",
+  "difficulty": 2,
+  "passage": "__________. Sa ilang barangay, nagsasalitan ang mga ama ng tahanan sa pagbabantay sa mga kalye tuwing gabi. Sa iba naman, may grupo ng mga kabataang naglilinis ng kanal tuwing Sabado. Mayroon ding mga nanay na nagluluto ng lugaw para sa mga batang kulang sa timbang. Lahat sila ay walang hinihinging bayad, at ang tanging gantimpala nila ay ang kaayusan at kalusugan ng kanilang pamayanan.",
+  "stem": "Alin ang pinakaangkop na paksang pangungusap para sa patlang sa simula ng talata?",
+  "choices": [
+    "Mahalaga ang pagbabantay sa mga kalye tuwing gabi.",
+    "Maraming bata sa ating bansa ang kulang sa timbang.",
+    "Dapat bigyan ng sahod ang lahat ng boluntaryo sa barangay.",
+    "Buhay pa rin ang bayanihan sa maraming barangay."
+  ],
+  "answer": "Buhay pa rin ang bayanihan sa maraming barangay.",
+  "hints": [
+    "Ang nawawalang pangungusap ay dapat sumaklaw sa lahat ng halimbawang nasa talata, hindi lamang sa isa.",
+    "Ilista ang mga halimbawa: ang mga amang nagbabantay, ang mga kabataang naglilinis, at ang mga nanay na nagluluto. Ano ang pagkakatulad nila?",
+    "Pansinin ang huling pangungusap: walang bayad ang lahat ng tumutulong. Piliin ang pangungusap na naglalarawan sa iisang ideyang nagbubuklod sa lahat ng halimbawa, at itapon ang mga pagpipiliang tungkol sa iisang halimbawa lamang o salungat sa talata."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang pangungusap na sumasaklaw sa lahat",
+    "steps": [
+      {
+        "action": "Tukuyin ang mga detalye ng talata: nagbabantay ang mga ama, naglilinis ang mga kabataan, at nagluluto ang mga nanay."
+      },
+      {
+        "action": "Hanapin ang pagkakatulad nila: lahat ay kusang tumutulong sa pamayanan nang walang bayad.",
+        "why": "Sinasabi ito mismo ng huling pangungusap: \"Lahat sila ay walang hinihinging bayad.\" Ito ang ideyang nagbubuklod sa mga halimbawa."
+      },
+      {
+        "action": "Itapon ang mga pagpipiliang tungkol sa iisang halimbawa lamang: ang pagbabantay sa gabi at ang mga batang kulang sa timbang.",
+        "why": "Dapat saklawin ng paksang pangungusap ang lahat ng detalye. Kung isa lamang ang saklaw nito, naiiwan ang iba."
+      },
+      {
+        "action": "Itapon ang pangungusap tungkol sa sahod ng mga boluntaryo.",
+        "why": "Hindi ito sinusuportahan ng talata. Ipinagmamalaki pa nga ng talata na walang hinihinging bayad ang mga tumutulong."
+      },
+      {
+        "action": "Ang \"bayanihan\" ay ang pagtutulungan ng magkakapitbahay nang walang hinihintay na kapalit. Ito mismo ang ipinakikita ng lahat ng halimbawa, kaya ang sagot ay \"Buhay pa rin ang bayanihan sa maraming barangay.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Mahalaga ang pagbabantay sa mga kalye tuwing gabi.": "Galing ito sa unang halimbawa, kaya mukhang tugma. Pero hindi nito saklaw ang paglilinis ng kanal at ang pagluluto ng lugaw. Masyadong makitid ang paksang ito.",
+    "Maraming bata sa ating bansa ang kulang sa timbang.": "Nabanggit ang mga batang kulang sa timbang, pero bahagi lamang ito ng isang halimbawa. Hindi tungkol sa kalusugan ng mga bata ang buong talata.",
+    "Dapat bigyan ng sahod ang lahat ng boluntaryo sa barangay.": "Nabanggit ang bayad sa huling pangungusap, kaya maaaring akalaing ito ang paksa. Pero ipinagmamalaki ng talata na walang hinihinging bayad ang mga tumutulong. Salungat ito sa diwa ng talata."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

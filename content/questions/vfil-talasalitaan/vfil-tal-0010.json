@@ -1,0 +1,46 @@
+{
+  "id": "vfil-tal-0010",
+  "topicId": "vfil-talasalitaan",
+  "skill": "vfil-tal-konteksto",
+  "difficulty": 3,
+  "stem": "Sa halip na sumagot nang tuwiran, naging maligoy ang tagapagsalita kaya nainip ang mga mamamahayag.\n\nAno ang kahulugan ng \"maligoy\" batay sa pangungusap?",
+  "choices": [
+    "paikot-ikot",
+    "mabagal",
+    "mahinahon",
+    "maingay"
+  ],
+  "answer": "paikot-ikot",
+  "hints": [
+    "Pansinin ang \"Sa halip na\". Hudyat ito na ang kasunod na salita ay kabaligtaran ng naunang ideya.",
+    "Ang naunang ideya ay \"sumagot nang tuwiran\". Ano ang kabaligtaran ng sagot na tuwiran o diretso sa punto?",
+    "Ang maligoy ay kabaligtaran ng tuwiran. Piliin ang salitang naglalarawan sa sagot na hindi diretso sa punto, at huwag magpadala sa salitang \"nainip\" lamang."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang palatandaan, saka subukan ang bawat sagot",
+    "steps": [
+      {
+        "action": "Hanapin ang hudyat: \"Sa halip na\".",
+        "why": "Ang \"sa halip na\" ay nagpapakita ng pagsalungat. Ang salitang kasunod nito ay kabaligtaran ng naunang ideya."
+      },
+      {
+        "action": "Tukuyin ang naunang ideya: \"sumagot nang tuwiran\", ibig sabihin ay diretso sa punto."
+      },
+      {
+        "action": "Kaya ang \"maligoy\" ay kabaligtaran ng diretso: hindi tuwiran at paikot-ikot ang sagot.",
+        "why": "Kaya rin nainip ang mga mamamahayag: matagal bago marating ang punto."
+      },
+      {
+        "action": "Ang \"maligoy\" ay nangangahulugang \"paikot-ikot\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "mabagal": "Maaaring mapili ito dahil sa \"nainip\". Ngunit ang hudyat na \"Sa halip na sumagot nang tuwiran\" ay nagsasabing kabaligtaran ng tuwiran ang hinahanap, hindi ang bilis ng pagsasalita.",
+    "mahinahon": "Ang mahinahon ay kalmado. Hindi ito kabaligtaran ng tuwiran, at hindi rin ito dahilan para mainip ang mga tao.",
+    "maingay": "Walang palatandaan sa pangungusap na malakas ang boses ng tagapagsalita. Ang inilalarawan ay ang paraan ng pagsagot, hindi ang lakas nito."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

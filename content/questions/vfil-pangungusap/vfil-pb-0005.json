@@ -1,0 +1,46 @@
+{
+  "id": "vfil-pb-0005",
+  "topicId": "vfil-pangungusap",
+  "skill": "vfil-pb-salita",
+  "difficulty": 2,
+  "stem": "___ ang tubig sa ilog kaya kitang-kita ang maliliit na bato sa ilalim nito.\n\nAling salita ang angkop sa patlang?",
+  "choices": [
+    "Malinaw",
+    "Malalim",
+    "Malamig",
+    "Malakas"
+  ],
+  "answer": "Malinaw",
+  "hints": [
+    "Pansinin ang \"kaya\". Ang kasunod nito, \"kitang-kita ang maliliit na bato\", ay bunga ng katangian ng tubig.",
+    "Anong katangian ng tubig ang nagpapahintulot sa atin na makita ang ilalim nito?",
+    "Isingit ang bawat pagpipilian. Piliin ang katangiang talagang nagdudulot na makita ang mga bato sa ilalim."
+  ],
+  "solution": {
+    "methodName": "Unawain ang buong pangungusap, saka isingit ang bawat sagot",
+    "steps": [
+      {
+        "action": "Basahin ang buong pangungusap at hanapin ang hudyat: \"kaya\".",
+        "why": "Ang \"kaya\" ay nagsasabing bunga ng unang bahagi ang ikalawang bahagi."
+      },
+      {
+        "action": "Tukuyin ang bunga: kitang-kita ang maliliit na bato sa ilalim."
+      },
+      {
+        "action": "Makikita lamang ang ilalim kung hindi malabo ang tubig. Ito ang malinaw na tubig.",
+        "why": "Ang malinaw na tubig ay walang dumi o putik na humaharang sa paningin."
+      },
+      {
+        "action": "Ang angkop na salita ay \"Malinaw\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Malalim": "Kabaligtaran ang epekto nito. Kapag malalim ang tubig, mas mahirap makita ang ilalim.",
+    "Malamig": "Maaaring malamig nga ang tubig sa ilog, ngunit hindi ang lamig ang dahilan kung bakit nakikita ang mga bato.",
+    "Malakas": "Ang malakas na agos ay nagpapalabo pa ng tubig dahil hinahalo nito ang putik. Hindi ito ang dahilan kung bakit kita ang ilalim."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

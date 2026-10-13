@@ -1,0 +1,46 @@
+{
+  "id": "vfil-tal-0006",
+  "topicId": "vfil-talasalitaan",
+  "skill": "vfil-tal-kasalungat",
+  "difficulty": 2,
+  "stem": "Pansamantala ang posisyon ni Ana sa munisipyo habang nakabakasyon si G. Cruz.\n\nAno ang kasalungat ng salitang \"pansamantala\"?",
+  "choices": [
+    "panandalian",
+    "pang-araw-araw",
+    "permanente",
+    "pangkalahatan"
+  ],
+  "answer": "permanente",
+  "hints": [
+    "Kasalungat ang hinahanap. Mag-ingat sa salitang may parehong kahulugan ng \"pansamantala\".",
+    "Alamin ang kahulugan ng \"pansamantala\": para lamang sa maikling panahon. Pansinin ang \"habang nakabakasyon\" sa pangungusap.",
+    "Hanapin ang salitang tumutukoy sa posisyong mananatili at hindi matatapos kahit bumalik ang ibang tao."
+  ],
+  "solution": {
+    "methodName": "Alamin ang kahulugan, saka hanapin ang kabaligtaran",
+    "steps": [
+      {
+        "action": "Alamin ang kahulugan ng \"pansamantala\": para lamang sa maikling panahon.",
+        "why": "Hawak lamang ni Ana ang posisyon habang wala si G. Cruz. Kapag bumalik siya, tapos na rin ang trabaho ni Ana."
+      },
+      {
+        "action": "Tanggalin ang \"panandalian\" dahil kapareho ito ng kahulugan ng \"pansamantala\"."
+      },
+      {
+        "action": "Hanapin ang kabaligtaran: posisyong pangmatagalan at hindi natatapos.",
+        "why": "Ang \"pang-araw-araw\" at \"pangkalahatan\" ay hindi tungkol sa haba ng panahon ng isang posisyon."
+      },
+      {
+        "action": "Ang kasalungat ng \"pansamantala\" ay \"permanente\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "panandalian": "Kasingkahulugan ito ng \"pansamantala\" dahil pareho silang tumutukoy sa maikling panahon. Kasalungat ang hinihingi.",
+    "pang-araw-araw": "Tumutukoy ito sa ginagawa tuwing araw, gaya ng gawain sa opisina. Hindi nito sinasabi kung maikli o pangmatagalan ang isang posisyon.",
+    "pangkalahatan": "Ang pangkalahatan ay para sa lahat o sumasaklaw sa lahat. Walang kinalaman ito sa haba ng panahon."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

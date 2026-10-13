@@ -1,0 +1,48 @@
+{
+  "id": "vfil-wg-0006",
+  "topicId": "vfil-wastong-gamit",
+  "skill": "vfil-wg-din-rin",
+  "difficulty": 1,
+  "stem": "Alin ang wastong pangungusap?",
+  "choices": [
+    "Masaya rin ang mga bata sa bagong parke.",
+    "Pagod rin ang mga kawani pagkatapos ng pulong.",
+    "Aalis raw ang bus mamayang hapon.",
+    "Mabait rin ang bagong guwardiya sa munisipyo."
+  ],
+  "answer": "Masaya rin ang mga bata sa bagong parke.",
+  "hints": [
+    "Lahat ay may 'rin' o 'raw'. Tingnan ang salitang nauuna sa bawat isa.",
+    "Alamin ang huling titik ng 'Masaya', 'Pagod', 'Aalis' at 'Mabait'.",
+    "Tama lang ang 'rin' at 'raw' kung patinig (a, e, i, o, u), w o y ang huling titik ng salitang nauuna. Hanapin ang nag-iisang ganito."
+  ],
+  "solution": {
+    "methodName": "Tingnan ang huling titik ng salitang nauuna",
+    "steps": [
+      {
+        "action": "'Masaya rin': nagtatapos sa 'a' ang 'masaya', isang patinig. Tama ang 'rin'.",
+        "why": "Pagkatapos ng patinig, nagiging 'r' ang 'd' para mas madulas ang bigkas."
+      },
+      {
+        "action": "'Pagod rin': nagtatapos sa 'd' ang 'pagod', isang katinig. Dapat 'din'. Mali ito."
+      },
+      {
+        "action": "'Aalis raw': nagtatapos sa 's' ang 'aalis', isang katinig. Dapat 'daw'. Mali ito."
+      },
+      {
+        "action": "'Mabait rin': nagtatapos sa 't' ang 'mabait', isang katinig. Dapat 'din'. Mali ito."
+      },
+      {
+        "action": "Ang wastong pangungusap ay 'Masaya rin ang mga bata sa bagong parke.'"
+      }
+    ]
+  },
+  "trapNotes": {
+    "Pagod rin ang mga kawani pagkatapos ng pulong.": "Nagtatapos sa 'd' ang 'pagod', isang katinig. Pagkatapos ng katinig, 'din' ang tama: 'Pagod din'.",
+    "Aalis raw ang bus mamayang hapon.": "Nagtatapos sa 's' ang 'aalis', isang katinig. Pagkatapos ng katinig, 'daw' ang tama: 'Aalis daw'.",
+    "Mabait rin ang bagong guwardiya sa munisipyo.": "Nagtatapos sa 't' ang 'mabait', isang katinig. Pagkatapos ng katinig, 'din' ang tama: 'Mabait din'."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

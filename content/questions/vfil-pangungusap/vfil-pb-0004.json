@@ -1,0 +1,45 @@
+{
+  "id": "vfil-pb-0004",
+  "topicId": "vfil-pangungusap",
+  "skill": "vfil-pb-salita",
+  "difficulty": 1,
+  "stem": "Laging nauuna sa opisina at huling umuuwi si Gng. Reyes. Tunay siyang ___ na kawani.\n\nAling salita ang angkop sa patlang?",
+  "choices": [
+    "tamad",
+    "masipag",
+    "mayabang",
+    "maramot"
+  ],
+  "answer": "masipag",
+  "hints": [
+    "Basahin ang unang pangungusap. Ano ang ipinapakita ng laging pagdating nang maaga at pag-uwi nang huli?",
+    "Ang ikalawang pangungusap ay naglalarawan kay Gng. Reyes batay sa kanyang ginagawa.",
+    "Isingit ang bawat pagpipilian sa patlang. Piliin ang ugaling tugma sa taong mahaba ang oras ng pagtatrabaho."
+  ],
+  "solution": {
+    "methodName": "Unawain ang buong pangungusap, saka isingit ang bawat sagot",
+    "steps": [
+      {
+        "action": "Basahin ang buong pangungusap at hanapin ang palatandaan: \"Laging nauuna sa opisina at huling umuuwi.\""
+      },
+      {
+        "action": "Ang ganitong kawani ay mahabang oras na nagtatrabaho araw-araw.",
+        "why": "Siya ang unang dumarating at huling umaalis, kaya mahaba ang oras na inilalaan niya sa trabaho."
+      },
+      {
+        "action": "Isingit ang \"masipag\": \"Tunay siyang masipag na kawani.\" Tugma ito sa palatandaan."
+      },
+      {
+        "action": "Ang angkop na salita ay \"masipag\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "tamad": "Kabaligtaran ito ng inilalarawan. Ang tamad ay umiiwas sa trabaho, hindi nauuna sa opisina at huling umuuwi.",
+    "mayabang": "Ugali rin ito, ngunit walang palatandaan sa pangungusap na nagmamalaki si Gng. Reyes.",
+    "maramot": "Ang maramot ay ayaw magbahagi. Walang binanggit na pagbabahagi sa pangungusap."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

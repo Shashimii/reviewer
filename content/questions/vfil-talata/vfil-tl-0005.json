@@ -1,0 +1,55 @@
+{
+  "id": "vfil-tl-0005",
+  "topicId": "vfil-talata",
+  "skill": "vfil-tl-ayos",
+  "difficulty": 2,
+  "stem": "Ayusin ang mga pangungusap upang makabuo ng isang maayos na talata. Alin ang tamang pagkakasunod-sunod?\n\n1. Halimbawa nito ang balat ng prutas, tirang pagkain at tuyong dahon.\n2. Samantala, ang di-nabubulok ay mga basurang matagal bago masira, gaya ng plastik, bote at lata.\n3. Sa ating tahanan, dapat paghiwalayin ang basurang nabubulok at di-nabubulok.\n4. Ang nabubulok ay mga basurang galing sa halaman o hayop at maaaring gawing pataba sa lupa.\n5. Sa ganitong paraan, nagiging pataba ang nabubulok at muling nagagamit ang ilang plastik, bote at lata.",
+  "choices": [
+    "3, 4, 1, 2, 5",
+    "3, 2, 4, 1, 5",
+    "3, 4, 2, 1, 5",
+    "4, 1, 3, 2, 5"
+  ],
+  "answer": "3, 4, 1, 2, 5",
+  "hints": [
+    "May pangungusap na nagbibigay ng pangkalahatang ideya, at may mga pangungusap na nagpapaliwanag ng bawat uri ng basura.",
+    "Simulan sa pangungusap na bumabanggit sa dalawang uri ng basura nang sabay. Pagkatapos, alamin kung aling uri ang unang ipaliliwanag.",
+    "Ipaliwanag muna nang buo ang isang uri (kahulugan, saka halimbawa), bago lumipat sa kabila gamit ang \"Samantala.\" Ang \"Halimbawa nito\" ay dapat sumunod sa uring tugma sa mga halimbawa. Ang \"Sa ganitong paraan\" ang pangwakas."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang simula, saka sundan ang mga pananda",
+    "steps": [
+      {
+        "action": "Simulan sa pangungusap 3: \"Sa ating tahanan, dapat paghiwalayin ang basurang nabubulok at di-nabubulok.\"",
+        "why": "Ito ang pangkalahatang pahayag. Binabanggit nito ang dalawang uri na ipaliliwanag ng mga susunod na pangungusap."
+      },
+      {
+        "action": "Kasunod ang pangungusap 4, na nagpapaliwanag ng nabubulok.",
+        "why": "Unang binanggit ang \"nabubulok\" sa pangungusap 3, kaya ito rin ang unang ipaliliwanag."
+      },
+      {
+        "action": "Sumunod ang pangungusap 1, \"Halimbawa nito ang balat ng prutas, tirang pagkain at tuyong dahon.\"",
+        "why": "Nabubulok ang lahat ng halimbawang ito, kaya dapat itong sumunod mismo sa pangungusap tungkol sa nabubulok."
+      },
+      {
+        "action": "Kasunod ang pangungusap 2, na nagsisimula sa \"Samantala.\"",
+        "why": "Ang \"Samantala\" ay ginagamit sa paglipat sa kabilang panig. Dito, lumilipat ang talata mula sa nabubulok patungo sa di-nabubulok."
+      },
+      {
+        "action": "Sa dulo ang pangungusap 5, \"Sa ganitong paraan...\"",
+        "why": "Binabanggit nito ang plastik, bote at lata, kaya dapat nasabi na ang pangungusap 2. Sinasabi rin nito ang mabuting bunga ng paghihiwalay, kaya ito ang pangwakas."
+      },
+      {
+        "action": "Ang tamang pagkakasunod-sunod ay 3, 4, 1, 2, 5."
+      }
+    ]
+  },
+  "trapNotes": {
+    "3, 2, 4, 1, 5": "Nauna ang \"Samantala\" bago pa naipaliwanag ang unang uri. Ginagamit lamang ang \"Samantala\" kapag may naunang panig na. Unang binanggit ang nabubulok sa pangungusap 3, kaya ito rin ang dapat unang ipaliwanag.",
+    "3, 4, 2, 1, 5": "Napunta ang \"Halimbawa nito\" pagkatapos ng pangungusap tungkol sa di-nabubulok. Lalabas na halimbawa ng di-nabubulok ang balat ng prutas at tirang pagkain, na mali.",
+    "4, 1, 3, 2, 5": "Nagsimula sa paliwanag ng nabubulok bago pa ipinakilala ang paksa. Ang pangkalahatang pahayag (pangungusap 3) ang dapat mauna. Nahiwalay rin ang \"Samantala\" sa paliwanag ng nabubulok, na siyang kabilang panig nito."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

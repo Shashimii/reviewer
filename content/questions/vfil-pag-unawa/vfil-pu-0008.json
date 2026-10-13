@@ -1,0 +1,51 @@
+{
+  "id": "vfil-pu-0008",
+  "topicId": "vfil-pag-unawa",
+  "skill": "vfil-pu-pangunahin",
+  "difficulty": 1,
+  "passage": "Marami sa atin ang nagpupuyat dahil sa trabaho, panonood o paggamit ng cellphone. Ngunit may masamang epekto sa katawan at isip ang kakulangan sa tulog. Kapag kulang ang tulog, humihina ang ating resistensiya kaya mas madali tayong dapuan ng sakit. Nahihirapan din tayong magpokus at mas madali tayong magkamali sa trabaho. Ayon sa mga eksperto, kailangan ng isang nasa hustong gulang ang pito hanggang siyam na oras na tulog gabi-gabi. Makatutulong ang pagtulog at paggising sa parehong oras araw-araw. Makabubuti rin ang pag-iwas sa paggamit ng cellphone isang oras bago matulog.",
+  "stem": "Ano ang pangunahing ideya ng talata?",
+  "choices": [
+    "Masama sa mata ang labis na paggamit ng cellphone.",
+    "Mahalaga ang sapat na tulog sa kalusugan ng katawan at isip.",
+    "Pito hanggang siyam na oras ang kailangang tulog ng nasa hustong gulang.",
+    "Maraming manggagawa ang madalas magkamali sa kanilang trabaho."
+  ],
+  "answer": "Mahalaga ang sapat na tulog sa kalusugan ng katawan at isip.",
+  "hints": [
+    "Ang pangunahing ideya ang sumasaklaw sa buong talata. Hindi ito isang bilang o isang halimbawa lamang.",
+    "Itanong: ano ang paulit-ulit na paksa ng mga pangungusap?",
+    "Pansinin na pinag-uusapan ng talata ang masamang epekto ng kulang na tulog at ang mga paraan para makatulog nang sapat. Piliin ang pahayag na sumasaklaw sa dalawang ito."
+  ],
+  "solution": {
+    "methodName": "Itanong: tungkol saan ang buong talata?",
+    "steps": [
+      {
+        "action": "Itanong kung ano ang paulit-ulit na paksa: ang tulog."
+      },
+      {
+        "action": "Tingnan ang sinasabi ng talata tungkol dito: nakasasama ang kulang na tulog, at may mga paraan para makatulog nang sapat.",
+        "why": "Ipinakikita ng buong talata kung bakit kailangan ang sapat na tulog at kung paano ito makakamit."
+      },
+      {
+        "action": "Itapon ang \"Pito hanggang siyam na oras...\"",
+        "why": "Totoo ito ayon sa talata, pero isang detalye lamang na sumusuporta sa pangunahing ideya."
+      },
+      {
+        "action": "Itapon ang tungkol sa mata at sa mga manggagawang nagkakamali.",
+        "why": "Walang sinabi ang talata tungkol sa mata. Ang pagkakamali sa trabaho ay isa lamang sa mga epekto, at walang sinabing maraming manggagawa ang ganito."
+      },
+      {
+        "action": "Ang pangunahing ideya ay \"Mahalaga ang sapat na tulog sa kalusugan ng katawan at isip.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Masama sa mata ang labis na paggamit ng cellphone.": "Nabanggit ang cellphone, pero bilang dahilan lamang ng pagpupuyat. Walang sinabi ang talata tungkol sa mata.",
+    "Pito hanggang siyam na oras ang kailangang tulog ng nasa hustong gulang.": "Totoo ito ayon sa talata, at madaling tandaan dahil may bilang. Pero isang detalye lamang ito na sumusuporta sa mas malaking ideya.",
+    "Maraming manggagawa ang madalas magkamali sa kanilang trabaho.": "Binanggit ang pagkakamali sa trabaho bilang epekto ng kulang na tulog. Pero isang detalye lamang ito, at walang sinabing maraming manggagawa ang ganito."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

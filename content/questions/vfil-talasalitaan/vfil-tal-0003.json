@@ -1,0 +1,46 @@
+{
+  "id": "vfil-tal-0003",
+  "topicId": "vfil-talasalitaan",
+  "skill": "vfil-tal-kasingkahulugan",
+  "difficulty": 2,
+  "stem": "Ipinagpaliban ang pulong ng mga kawani dahil sa malakas na bagyo.\n\nAno ang kasingkahulugan ng salitang \"ipinagpaliban\"?",
+  "choices": [
+    "inilipat sa ibang araw",
+    "kinansela nang tuluyan",
+    "sinimulan nang maaga",
+    "tinapos nang mabilis"
+  ],
+  "answer": "inilipat sa ibang araw",
+  "hints": [
+    "Ang bagyo ang dahilan. Isipin kung ano ang nangyayari sa isang pulong kapag may bagyo.",
+    "Palitan ang \"ipinagpaliban\" ng bawat pagpipilian, saka basahin muli ang pangungusap.",
+    "Ang ipinagpaliban ay hindi itinuloy sa takdang araw ngunit gagawin pa rin sa ibang panahon. Piliin ang sagot na may ganitong kahulugan, at mag-ingat sa sagot na nagsasabing hindi na ito gagawin kailanman."
+  ],
+  "solution": {
+    "methodName": "Palitan ang salita, saka basahin muli ang pangungusap",
+    "steps": [
+      {
+        "action": "Alamin ang kahulugan ng \"ipinagpaliban\": hindi itinuloy sa takdang araw, ngunit gagawin pa sa ibang araw.",
+        "why": "Ganito ang madalas mangyari sa mga pulong kapag may bagyo: hinihintay munang gumanda ang panahon."
+      },
+      {
+        "action": "Ipalit ang bawat pagpipilian sa pangungusap."
+      },
+      {
+        "action": "Ang \"inilipat sa ibang araw\" ay may parehong kahulugan.",
+        "why": "Gagawin pa rin ang pulong, sa ibang araw lamang."
+      },
+      {
+        "action": "Ang kasingkahulugan ng \"ipinagpaliban\" ay \"inilipat sa ibang araw\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "kinansela nang tuluyan": "Ito ang pinakakaraniwang patibong. Ang kinansela nang tuluyan ay hindi na itutuloy kailanman. Ang ipinagpaliban ay itutuloy pa, sa ibang araw lamang.",
+    "sinimulan nang maaga": "Hindi maagang sinisimulan ang pulong kapag may bagyo. Ang bagyo ay dahilan para hindi muna ituloy ang pulong.",
+    "tinapos nang mabilis": "Hindi tinapos ang pulong dahil hindi pa nga ito naidaraos. Walang kinalaman sa pagtatapos ang \"ipinagpaliban\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

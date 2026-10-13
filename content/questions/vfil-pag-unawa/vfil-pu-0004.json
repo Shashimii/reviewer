@@ -1,0 +1,50 @@
+{
+  "id": "vfil-pu-0004",
+  "topicId": "vfil-pag-unawa",
+  "skill": "vfil-pu-hinuha",
+  "difficulty": 2,
+  "passage": "Maraming nakatatanda sa malalayong sitio ng bayan ng Pinagpala ang wala pang senior citizen ID. Mahigit isang oras kasi ang biyahe nila papunta sa munisipyo, at mahal pa ang pamasahe. Kaya noong Marso, sinimulan ng tanggapan para sa mga nakatatanda ang programang \"Serbisyo sa Sitio.\" Tuwing ikalawang Sabado ng buwan, pumupunta ang mga kawani sa isang sitio dala ang laptop, kamera at mga form. Doon na mismo kinukunan ng larawan ang mga nakatatanda at pinupunan ang kanilang aplikasyon. Pagkalipas ng dalawang linggo, ihahatid na lamang ng barangay ang natapos na ID sa bahay ng may-ari. Sa unang tatlong buwan ng programa, mahigit apat na raang nakatatanda ang napagsilbihan.",
+  "stem": "Batay sa talata, ano ang mahihinuha tungkol sa programang \"Serbisyo sa Sitio\"?",
+  "choices": [
+    "Papalitan na nito ang pagkuha ng ID sa munisipyo.",
+    "Para lamang ito sa mga nakatatandang walang pamasahe.",
+    "Hindi ito nagtagumpay dahil kaunti lamang ang napagsilbihan nito.",
+    "Inilalapit nito ang serbisyo sa mga taong malayo sa munisipyo."
+  ],
+  "answer": "Inilalapit nito ang serbisyo sa mga taong malayo sa munisipyo.",
+  "hints": [
+    "Ang hinuha ay konklusyong hindi tuwirang sinabi, pero sinusuportahan ng mga palatandaan sa talata.",
+    "Balikan kung bakit sinimulan ang programa at kung ano ang ginagawa ng mga kawani.",
+    "Ihambing ang problema (malayo at mahal ang biyahe) at ang ginagawa ng programa (pumupunta ang mga kawani sa sitio). Piliin ang hinuhang tugma sa dalawang ito, at itapon ang hinuhang salungat sa talata o walang batayan."
+  ],
+  "solution": {
+    "methodName": "Pagdugtungin ang mga palatandaan sa talata",
+    "steps": [
+      {
+        "action": "Alamin ang problema: malayo ang munisipyo sa mga sitio at mahal ang pamasahe, kaya wala pang ID ang maraming nakatatanda."
+      },
+      {
+        "action": "Alamin ang ginagawa ng programa: ang mga kawani na mismo ang pumupunta sa sitio, at ihahatid pa ang ID sa bahay.",
+        "why": "Pansinin ang direksiyon: dati, ang tao ang pumupunta sa serbisyo. Ngayon, ang serbisyo ang pumupunta sa tao."
+      },
+      {
+        "action": "Pagdugtungin ang dalawa: inilalapit ng programa ang serbisyo sa mga taong malayo sa munisipyo.",
+        "why": "Hindi ito sinabi nang tuwiran, pero ito ang makatwirang konklusyon mula sa problema at sa solusyon."
+      },
+      {
+        "action": "Suriin ang iba: walang sinabing papalitan nito ang munisipyo; parehong problema ang layo at ang pamasahe; at mahigit apat na raan ang napagsilbihan, kaya hindi ito nabigo."
+      },
+      {
+        "action": "Ang sagot ay \"Inilalapit nito ang serbisyo sa mga taong malayo sa munisipyo.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Papalitan na nito ang pagkuha ng ID sa munisipyo.": "Labis na ang hinuhang ito. Ang sinabi lamang ay may dagdag na paraan para sa mga nasa malalayong sitio. Walang sinabing hindi na maaaring kumuha ng ID sa munisipyo.",
+    "Para lamang ito sa mga nakatatandang walang pamasahe.": "Nabanggit ang mahal na pamasahe, pero isa lamang ito sa mga dahilan. Ang layo ng biyahe ang isa pa. Para ito sa mga nakatatanda sa malalayong sitio, hindi lamang sa mga walang pamasahe.",
+    "Hindi ito nagtagumpay dahil kaunti lamang ang napagsilbihan nito.": "Salungat ito sa talata. Mahigit apat na raang nakatatanda ang napagsilbihan sa unang tatlong buwan pa lamang."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

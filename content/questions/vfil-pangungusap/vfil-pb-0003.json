@@ -1,0 +1,46 @@
+{
+  "id": "vfil-pb-0003",
+  "topicId": "vfil-pangungusap",
+  "skill": "vfil-pb-salita",
+  "difficulty": 2,
+  "stem": "Nag-aral nang mabuti si Nena para sa pagsusulit, ___ bumagsak pa rin siya.\n\nAling salita ang angkop sa patlang?",
+  "choices": [
+    "kaya",
+    "dahil",
+    "upang",
+    "ngunit"
+  ],
+  "answer": "ngunit",
+  "hints": [
+    "Ano ang inaasahang mangyayari sa taong nag-aral nang mabuti? Ano ang talagang nangyari kay Nena?",
+    "Pansinin ang \"pa rin\" sa dulo. Ipinapakita nito na may nangyari kahit hindi ito inaasahan.",
+    "Magkasalungat ang inaasahan at ang nangyari. Piliin ang pang-ugnay na nagpapakita ng pagsalungat."
+  ],
+  "solution": {
+    "methodName": "Unawain ang buong pangungusap, saka isingit ang bawat sagot",
+    "steps": [
+      {
+        "action": "Basahin ang buong pangungusap at alamin ang ugnayan ng dalawang bahagi."
+      },
+      {
+        "action": "Inaasahang papasa ang nag-aral nang mabuti, pero bumagsak si Nena.",
+        "why": "Hindi tugma ang nangyari sa inaasahan. Pagsalungat ito, hindi sanhi at bunga."
+      },
+      {
+        "action": "Ang \"ngunit\" ang pang-ugnay na nagpapakita ng pagsalungat.",
+        "why": "Ang \"pa rin\" sa dulo ay isa pang palatandaan ng pagsalungat: bumagsak siya kahit nag-aral."
+      },
+      {
+        "action": "Ang angkop na salita ay \"ngunit\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "kaya": "Nagpapakilala ng bunga ang \"kaya\". Hindi bunga ng mabuting pag-aaral ang pagbagsak; kabaligtaran pa nga ito ng inaasahan.",
+    "dahil": "Nagpapakilala ng sanhi ang \"dahil\". Hindi puwedeng ang pagbagsak ang dahilan ng pag-aaral, sapagkat nag-aral muna si Nena bago siya bumagsak.",
+    "upang": "Nagpapakilala ng layunin ang \"upang\". Walang taong nag-aaral para lamang bumagsak."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

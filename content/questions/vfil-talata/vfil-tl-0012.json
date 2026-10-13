@@ -1,0 +1,50 @@
+{
+  "id": "vfil-tl-0012",
+  "topicId": "vfil-talata",
+  "skill": "vfil-tl-paksa",
+  "difficulty": 1,
+  "passage": "__________. Una, dumarating siya sa opisina sa tamang oras at handang magtrabaho. Ikalawa, magalang siya sa lahat ng humihingi ng tulong, mayaman man o mahirap, bata man o matanda. Ikatlo, sinasagot niya nang malinaw ang mga tanong at ipinaliliwanag ang mga dokumentong kailangan. Ikaapat, hindi siya tumatanggap ng regalo o pera kapalit ng mabilis na serbisyo. Higit sa lahat, inuuna niya ang kapakanan ng publiko kaysa sa sariling interes.",
+  "stem": "Alin ang pinakaangkop na paksang pangungusap para sa patlang sa simula ng talata?",
+  "choices": [
+    "May ilang katangian ang isang huwarang kawani ng pamahalaan.",
+    "Maraming kawani ang nahuhuli sa pagpasok sa opisina.",
+    "Hindi dapat tumanggap ng regalo ang mga kawani kapalit ng serbisyo.",
+    "Mahaba ang pila sa maraming tanggapan ng pamahalaan."
+  ],
+  "answer": "May ilang katangian ang isang huwarang kawani ng pamahalaan.",
+  "hints": [
+    "Pansinin ang mga salitang Una, Ikalawa, Ikatlo at Ikaapat. Isang listahan ang talata. Listahan ng ano?",
+    "Tingnan kung sino ang tinutukoy ng \"siya\" sa bawat pangungusap at kung ano ang inilalarawan tungkol dito.",
+    "Dapat ipakilala ng paksang pangungusap ang \"siya\" at sabihin kung ano ang ililista. Itapon ang mga pagpipiliang tungkol sa iisang punto lamang o hindi tugma sa talata."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang pangungusap na sumasaklaw sa lahat",
+    "steps": [
+      {
+        "action": "Pansinin ang mga pananda: Una, Ikalawa, Ikatlo, Ikaapat at Higit sa lahat. Isang listahan ang talata.",
+        "why": "Kapag may listahan, ang paksang pangungusap ang nagsasabi kung ano ang inililista."
+      },
+      {
+        "action": "Tukuyin kung ano ang inililista: mabubuting gawi ng isang kawani, gaya ng pagiging maagap, magalang at tapat."
+      },
+      {
+        "action": "Hanapin ang pagpipiliang sumasaklaw sa lahat ng ito: \"May ilang katangian ang isang huwarang kawani ng pamahalaan.\"",
+        "why": "Ang \"huwaran\" ay nangangahulugang dapat tularan. Ang bawat \"Una,\" \"Ikalawa\" at iba pa ay isa sa mga katangiang ito. Ang \"isang huwarang kawani\" rin ang tinutukoy ng \"siya.\""
+      },
+      {
+        "action": "Itapon ang iba: ang pagpasok nang huli at ang mahabang pila ay hindi paksa ng talata, at ang tungkol sa regalo ay iisang punto lamang."
+      },
+      {
+        "action": "Ang sagot ay \"May ilang katangian ang isang huwarang kawani ng pamahalaan.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Maraming kawani ang nahuhuli sa pagpasok sa opisina.": "Nabanggit ang tamang oras ng pagdating, kaya mukhang kaugnay. Pero tungkol sa mabubuting katangian ang talata, hindi sa pagkahuli. Hindi rin tugma ang \"maraming kawani\" sa \"siya\" ng mga sumunod na pangungusap.",
+    "Hindi dapat tumanggap ng regalo ang mga kawani kapalit ng serbisyo.": "Tama ang sinasabi nito, pero isa lamang ito sa mga katangiang inilista (ang Ikaapat). Hindi nito saklaw ang pagiging maagap, magalang at malinaw magpaliwanag.",
+    "Mahaba ang pila sa maraming tanggapan ng pamahalaan.": "Tungkol ito sa tanggapan ng pamahalaan, kaya mukhang kaugnay. Pero walang binanggit na pila ang talata. Ang paksa ay ang mga katangian ng isang kawani."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

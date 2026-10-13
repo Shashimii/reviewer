@@ -1,0 +1,49 @@
+{
+  "id": "vfil-tal-0007",
+  "topicId": "vfil-talasalitaan",
+  "skill": "vfil-tal-kasalungat",
+  "difficulty": 3,
+  "stem": "Pinawalang-bisa ng korte ang kontratang pinirmahan ng dalawang kompanya.\n\nAno ang kasalungat ng salitang \"pinawalang-bisa\"?",
+  "choices": [
+    "binawi",
+    "pinawalan",
+    "pinabayaan",
+    "pinagtibay"
+  ],
+  "answer": "pinagtibay",
+  "hints": [
+    "Tingnan ang dalawang bahagi ng salita: \"walang\" at \"bisa\". Ano ang nangyayari sa kontrata kapag nawalan ito ng bisa?",
+    "Ang kontratang pinawalang-bisa ay hindi na kailangang sundin. Ang kabaligtaran nito ay kontratang may bisa at dapat sundin.",
+    "Huwag magpalinlang sa salitang kahawig ng tunog. Hanapin ang salitang nangangahulugang kinilala at binigyan ng bisa ang isang kasunduan."
+  ],
+  "solution": {
+    "methodName": "Alamin ang kahulugan, saka hanapin ang kabaligtaran",
+    "steps": [
+      {
+        "action": "Hatiin ang salita: ang \"pinawalang-bisa\" ay ginawang walang bisa.",
+        "why": "Ang \"bisa\" ay lakas o pagiging epektibo, lalo na ng batas o kasunduan."
+      },
+      {
+        "action": "Kaya ang kontrata ay hindi na kinikilala at hindi na kailangang sundin."
+      },
+      {
+        "action": "Tanggalin ang \"binawi\" dahil halos kapareho ito ng kahulugan: wala na ring bisa ang binawing kasunduan."
+      },
+      {
+        "action": "Hanapin ang kabaligtaran: ang kasunduan ay kinilala at ginawang may bisa. Ito ang kahulugan ng \"pinagtibay\".",
+        "why": "Ginagamit ang \"pinagtibay\" sa mga batas, ordinansa at kasunduang inaprubahan at may bisa na."
+      },
+      {
+        "action": "Ang kasalungat ng \"pinawalang-bisa\" ay \"pinagtibay\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "binawi": "Halos kapareho ito ng kahulugan: ang binawing kasunduan ay wala na ring bisa. Kasingkahulugan ito, hindi kasalungat.",
+    "pinawalan": "Kahawig ito sa tunog ng \"pinawalang-bisa\", ngunit ang pinawalan ay pinalaya, gaya ng ibong pinawalan mula sa hawla. Walang kinalaman ito sa kontrata.",
+    "pinabayaan": "Ang pinabayaan ay hindi inasikaso. Hindi ito kabaligtaran ng pagpapawalang-bisa. Ang kontratang pinabayaan lamang ay may bisa pa rin."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

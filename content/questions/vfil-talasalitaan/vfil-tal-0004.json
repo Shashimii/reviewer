@@ -1,0 +1,50 @@
+{
+  "id": "vfil-tal-0004",
+  "topicId": "vfil-talasalitaan",
+  "skill": "vfil-tal-kasingkahulugan",
+  "difficulty": 3,
+  "stem": "Kahit mataas na ang kanyang posisyon, nanatiling mapagkumbaba ang direktor.\n\nAno ang kasingkahulugan ng salitang \"mapagkumbaba\"?",
+  "choices": [
+    "mahiyain",
+    "mapagbigay",
+    "mababang-loob",
+    "mahinahon"
+  ],
+  "answer": "mababang-loob",
+  "hints": [
+    "Pansinin ang salitang \"Kahit\". Ipinapakita nito na hindi nagbago ang ugali ng direktor kahit tumaas ang kanyang posisyon.",
+    "Ang mapagkumbaba ay hindi nagmamataas o hindi nagmamalaki. Palitan ito ng bawat pagpipilian.",
+    "Piliin ang ugaling kabaligtaran ng pagmamataas. Mag-ingat sa mga sagot na magandang ugali rin ngunit iba ang kahulugan."
+  ],
+  "solution": {
+    "methodName": "Palitan ang salita, saka basahin muli ang pangungusap",
+    "steps": [
+      {
+        "action": "Alamin ang kahulugan ng \"mapagkumbaba\": hindi nagmamataas at hindi ipinagmamalaki ang sarili.",
+        "why": "Ang \"Kahit mataas na ang kanyang posisyon\" ay nagpapakita na hindi nagmalaki ang direktor sa kabila ng kanyang tungkulin."
+      },
+      {
+        "action": "Ipalit ang bawat pagpipilian sa pangungusap at tingnan kung pareho pa rin ang kahulugan."
+      },
+      {
+        "action": "Ang \"mababang-loob\" ay tumutukoy rin sa taong hindi nagmamataas.",
+        "why": "Tambalang salita ang \"mababang-loob\". Ang ibig sabihin nito ay mapagpakumbaba, hindi malungkot."
+      },
+      {
+        "action": "Tanggalin ang ibang pagpipilian: ugali rin ng tao ang mga ito, ngunit iba ang kahulugan nila.",
+        "why": "Sa ganitong tanong, ilang sagot ang mukhang tama. Piliin ang may eksaktong parehong kahulugan."
+      },
+      {
+        "action": "Ang kasingkahulugan ng \"mapagkumbaba\" ay \"mababang-loob\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "mahiyain": "Madalas itong mapagkamalan dahil tahimik din ang maraming taong mapagkumbaba. Ngunit ang mahiyain ay madaling mahiya o matakot humarap sa tao. Ang mapagkumbaba ay hindi nagmamataas, mahiyain man o hindi.",
+    "mapagbigay": "Magandang ugali rin ito, kaya maaaring mapili. Ngunit ang mapagbigay ay mahilig magbahagi ng gamit o pera. Iba ito sa hindi pagmamataas.",
+    "mahinahon": "Magandang ugali rin ito. Ngunit ang mahinahon ay kalmado at hindi madaling magalit. Iba ito sa hindi pagmamataas."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

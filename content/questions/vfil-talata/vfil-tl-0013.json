@@ -1,0 +1,55 @@
+{
+  "id": "vfil-tl-0013",
+  "topicId": "vfil-talata",
+  "skill": "vfil-tl-paksa",
+  "difficulty": 3,
+  "passage": "__________. Ang matitibay at sala-salabat na ugat nito ay humaharang sa malalakas na alon tuwing may bagyo. Nagsisilbi rin itong tirahan at pinangingitlugan ng maraming isda, alimango at hipon. Bukod dito, sinasala ng mga ugat ang putik at dumi mula sa ilog bago umabot ang tubig sa laot. Dahil sa lahat ng ito, umaasa sa bakawan ang kabuhayan at kaligtasan ng maraming pamayanang nasa baybayin.",
+  "stem": "Alin ang pinakaangkop na paksang pangungusap para sa patlang sa simula ng talata?",
+  "choices": [
+    "Mahalaga ang pangangalaga sa kalikasan sa buong mundo.",
+    "Nagsisilbing tirahan ng maraming isda ang bakawan.",
+    "Malaki ang naitutulong ng bakawan sa tao at sa kalikasan.",
+    "Unti-unting nauubos ang bakawan dahil sa pagputol nito."
+  ],
+  "answer": "Malaki ang naitutulong ng bakawan sa tao at sa kalikasan.",
+  "hints": [
+    "Ang tamang paksang pangungusap ay hindi masyadong malawak at hindi rin masyadong makitid. Dapat eksakto nitong saklawin ang sinasabi ng talata.",
+    "Ilista ang mga naitutulong ng bakawan na binanggit: proteksiyon sa alon, tirahan ng isda, at paglilinis ng tubig. Kanino o saan nakabubuti ang mga ito?",
+    "Itapon ang pagpipiliang lampas sa paksa (tungkol sa buong mundo), ang pagpipiliang isang detalye lamang, at ang pagpipiliang may bagong ideyang hindi binanggit sa talata. Tingnan din kung ano ang tinutukoy ng \"nito\" sa ikalawang pangungusap."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang pangungusap na sumasaklaw sa lahat",
+    "steps": [
+      {
+        "action": "Ilista ang mga detalye: (a) hinaharang ng ugat ang alon, (b) tirahan at pinangingitlugan ito ng isda, alimango at hipon, (c) sinasala nito ang putik at dumi, at (d) umaasa rito ang mga pamayanan sa baybayin."
+      },
+      {
+        "action": "Hanapin ang ideyang sumasaklaw sa lahat: nakabubuti ang bakawan sa tao (proteksiyon at kabuhayan) at sa kalikasan (tirahan ng hayop at malinis na tubig).",
+        "why": "Ang \"bakawan\" ay mga punong tumutubo sa maputik na baybayin, kung saan nagtatagpo ang tubig-alat at tubig-tabang."
+      },
+      {
+        "action": "Itapon ang \"Mahalaga ang pangangalaga sa kalikasan sa buong mundo.\" Masyado itong malawak.",
+        "why": "Hindi nito binabanggit ang bakawan, kaya walang matutukoy ang \"nito\" sa sumunod na pangungusap."
+      },
+      {
+        "action": "Itapon ang \"Nagsisilbing tirahan ng maraming isda ang bakawan.\" Masyado itong makitid.",
+        "why": "Isa lamang ito sa mga naitutulong. Hindi nito saklaw ang alon, ang paglilinis ng tubig at ang kabuhayan."
+      },
+      {
+        "action": "Itapon ang \"Unti-unting nauubos ang bakawan dahil sa pagputol nito.\"",
+        "why": "Maaaring totoo ito sa ibang lugar, pero walang sinasabi ang talata tungkol sa pagkaubos o pagputol ng bakawan. Dapat suportado ng mga detalye ang paksang pangungusap."
+      },
+      {
+        "action": "Ang sagot ay \"Malaki ang naitutulong ng bakawan sa tao at sa kalikasan.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Mahalaga ang pangangalaga sa kalikasan sa buong mundo.": "Totoo ito at may kinalaman sa kalikasan, pero masyadong malawak. Tungkol lamang sa bakawan ang talata, at hindi man lang ito binanggit ng pangungusap na ito.",
+    "Nagsisilbing tirahan ng maraming isda ang bakawan.": "Tugma ito sa isang pangungusap sa talata, kaya mukhang tama. Pero isa lamang itong detalye. Hindi nito saklaw ang proteksiyon sa alon at ang paglilinis ng tubig.",
+    "Unti-unting nauubos ang bakawan dahil sa pagputol nito.": "Tungkol ito sa bakawan, kaya mukhang angkop. Pero walang detalye sa talata tungkol sa pagputol o pagkaubos. Ang lahat ng pangungusap ay tungkol sa naitutulong ng bakawan."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "vfil-pu-0005",
+  "topicId": "vfil-pag-unawa",
+  "skill": "vfil-pu-pangunahin",
+  "difficulty": 2,
+  "passage": "Taon-taon, tone-toneladang plastik ang napupunta sa ating mga dagat. Malaking bahagi nito ay galing sa mga bayan at lungsod: mga sachet, bote at supot na itinapon sa kalye at tinangay ng ulan papunta sa mga ilog. Hindi madaling mabulok ang plastik. Sa halip, nadudurog lamang ito sa napakaliliit na piraso na maaaring makain ng mga isda. Kapag kinain natin ang mga isdang ito, maaaring mapunta rin sa ating katawan ang plastik. Kaya hindi lamang ang mga mangingisda ang dapat mabahala. Bawat isa sa atin ay may magagawa: magdala ng sariling bayong, tumanggi sa straw, at itapon nang tama ang basura.",
+  "stem": "Alin ang pinakaangkop na pamagat ng talata?",
+  "choices": [
+    "Kung Paano Nadudurog ang Plastik",
+    "Ang Wastong Paggamit ng Bayong",
+    "Plastik sa Dagat, Problema ng Lahat",
+    "Ang mga Isda sa Ating Dagat"
+  ],
+  "answer": "Plastik sa Dagat, Problema ng Lahat",
+  "hints": [
+    "Ang mahusay na pamagat ay maikling anyo ng pangunahing ideya. Dapat nitong saklawin ang buong talata.",
+    "Itanong: ano ang paksa ng simula, gitna at dulo ng talata?",
+    "Ang simula ay tungkol sa plastik na napupunta sa dagat, ang gitna ay tungkol sa epekto nito sa isda at sa tao, at ang dulo ay tungkol sa magagawa ng bawat isa. Piliin ang pamagat na sumasaklaw sa tatlong bahaging ito."
+  ],
+  "solution": {
+    "methodName": "Itanong: tungkol saan ang buong talata?",
+    "steps": [
+      {
+        "action": "Hatiin ang talata: (a) maraming plastik ang napupunta sa dagat, (b) nakakain ito ng isda at maaaring umabot sa tao, (c) may magagawa ang bawat isa.",
+        "why": "Sa paghahati, makikita kung ano ang inuulit-ulit sa buong talata."
+      },
+      {
+        "action": "Hanapin ang ideyang nagbubuklod: ang plastik sa dagat ay problemang may kinalaman sa ating lahat.",
+        "why": "Ang \"hindi lamang ang mga mangingisda\" at \"Bawat isa sa atin\" ay nagpapakitang para sa lahat ang problema."
+      },
+      {
+        "action": "Itapon ang \"Kung Paano Nadudurog ang Plastik\" at \"Ang Wastong Paggamit ng Bayong.\"",
+        "why": "Iisang pangungusap o bahagi lamang ang tinutukoy ng mga ito."
+      },
+      {
+        "action": "Itapon ang \"Ang mga Isda sa Ating Dagat.\"",
+        "why": "Nabanggit ang isda, pero ang tunay na paksa ay ang plastik, hindi ang mga isda."
+      },
+      {
+        "action": "Ang pinakaangkop na pamagat ay \"Plastik sa Dagat, Problema ng Lahat.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Kung Paano Nadudurog ang Plastik": "Tugma ito sa isang pangungusap, kaya mukhang tama. Pero isang detalye lamang ang pagkadurog ng plastik. Hindi nito saklaw ang pinagmulan ng plastik at ang magagawa natin.",
+    "Ang Wastong Paggamit ng Bayong": "Isa lamang ang bayong sa mga mungkahi sa dulo ng talata. Walang paliwanag sa talata kung paano ito gamitin.",
+    "Ang mga Isda sa Ating Dagat": "Nabanggit ang mga isda, kaya maaaring akalaing sila ang paksa. Pero binanggit lamang sila para ipakita kung paano umaabot sa tao ang plastik."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

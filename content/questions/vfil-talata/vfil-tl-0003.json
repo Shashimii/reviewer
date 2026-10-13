@@ -1,0 +1,51 @@
+{
+  "id": "vfil-tl-0003",
+  "topicId": "vfil-talata",
+  "skill": "vfil-tl-ayos",
+  "difficulty": 1,
+  "stem": "Ayusin ang mga pangungusap upang makabuo ng isang maayos na talata. Alin ang tamang pagkakasunod-sunod?\n\n1. Kaya ugaliin nating maghugas ng kamay gamit ang sabon at malinis na tubig.\n2. Ang paghuhugas ng kamay ay isa sa pinakamadaling paraan upang makaiwas sa sakit.\n3. Ang mga mikrobyong ito ay pumapasok sa katawan kapag hinawakan natin ang ating bibig, ilong o mata.\n4. Ito ay dahil kumakapit sa ating mga kamay ang mga mikrobyo mula sa mga bagay na hinahawakan natin.",
+  "choices": [
+    "4, 3, 2, 1",
+    "2, 3, 4, 1",
+    "1, 2, 4, 3",
+    "2, 4, 3, 1"
+  ],
+  "answer": "2, 4, 3, 1",
+  "hints": [
+    "Pansinin ang mga salitang tumuturo pabalik: \"Ito ay dahil,\" \"Ang mga mikrobyong ito\" at \"Kaya.\" Hindi maaaring mauna ang mga pangungusap na may ganitong salita.",
+    "Hanapin ang pangungusap na kayang tumayo nang mag-isa at nagsasabi ng paksa. Iyon ang simula.",
+    "Matapos ang simula, itanong sa bawat pangungusap: \"Ano ang tinutukoy ng 'ito'?\" Ilagay ang bawat pangungusap kasunod ng pangungusap na tinutukoy nito. Ang pangungusap na may \"Kaya\" ang pangwakas."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang simula, saka sundan ang mga pananda",
+    "steps": [
+      {
+        "action": "Hanapin ang paksang pangungusap: pangungusap 2, \"Ang paghuhugas ng kamay ay isa sa pinakamadaling paraan upang makaiwas sa sakit.\"",
+        "why": "Ito lamang ang pangungusap na walang salitang tumuturo pabalik. Sinasabi rin nito ang pangunahing ideya."
+      },
+      {
+        "action": "Kasunod ang pangungusap 4, \"Ito ay dahil kumakapit sa ating mga kamay ang mga mikrobyo...\"",
+        "why": "Ang \"Ito ay dahil\" ay nagbibigay ng dahilan ng naunang pahayag. Ipinaliliwanag nito kung bakit nakaiiwas sa sakit ang paghuhugas ng kamay."
+      },
+      {
+        "action": "Sumunod ang pangungusap 3, \"Ang mga mikrobyong ito ay pumapasok sa katawan...\"",
+        "why": "Ang \"mga mikrobyong ito\" ay tumutukoy sa mga mikrobyong unang nabanggit sa pangungusap 4."
+      },
+      {
+        "action": "Sa dulo ang pangungusap 1, na nagsisimula sa \"Kaya.\"",
+        "why": "Ang \"Kaya\" ay nagpapakilala ng konklusyon o payo matapos maipaliwanag ang mga dahilan."
+      },
+      {
+        "action": "Ang tamang pagkakasunod-sunod ay 2, 4, 3, 1."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4, 3, 2, 1": "Nagsimula sa \"Ito ay dahil,\" pero wala pang \"ito\" na maipaliliwanag. Ang pangungusap na nagbibigay ng dahilan ay laging kasunod ng pahayag na ipinaliliwanag nito.",
+    "2, 3, 4, 1": "Nauna ang \"Ang mga mikrobyong ito\" bago pa nabanggit ang mga mikrobyo. Dapat mauna ang pangungusap 4, kung saan unang lumabas ang mga mikrobyo.",
+    "1, 2, 4, 3": "Nagsimula sa \"Kaya,\" na laging nagpapakilala ng bunga o konklusyon. Wala pang dahilan bago ito, kaya hindi ito maaaring mauna."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

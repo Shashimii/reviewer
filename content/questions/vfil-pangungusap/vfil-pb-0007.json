@@ -1,0 +1,46 @@
+{
+  "id": "vfil-pb-0007",
+  "topicId": "vfil-pangungusap",
+  "skill": "vfil-pb-salita",
+  "difficulty": 3,
+  "stem": "Hindi ___ ang salaysay ng saksi dahil iba-iba ang kuwento niya sa bawat pagtatanong.\n\nAling salita ang angkop sa patlang?",
+  "choices": [
+    "kahina-hinala",
+    "katawa-tawa",
+    "kaawa-awa",
+    "kapani-paniwala"
+  ],
+  "answer": "kapani-paniwala",
+  "hints": [
+    "Pansinin ang \"Hindi\" sa simula. Ang sagot ay katangiang wala sa salaysay ng saksi.",
+    "Ano ang epekto kapag iba-iba ang kuwento ng saksi tuwing tinatanong? Maniniwala ba ang mga tao sa kanya?",
+    "Isingit ang bawat sagot kasama ang \"Hindi\", saka basahin ang buong pangungusap. Piliin ang katangiang nawawala sa salaysay na pabago-bago."
+  ],
+  "solution": {
+    "methodName": "Unawain ang buong pangungusap, saka isingit ang bawat sagot",
+    "steps": [
+      {
+        "action": "Basahin ang buong pangungusap, kasama ang \"Hindi\" sa simula.",
+        "why": "Binabaligtad ng \"Hindi\" ang kahulugan ng salita sa patlang. Madaling makaligtaan ito."
+      },
+      {
+        "action": "Alamin ang epekto ng dahilan: kapag iba-iba ang kuwento, nawawala ang tiwala ng nakikinig."
+      },
+      {
+        "action": "Isingit ang \"kapani-paniwala\": ang \"Hindi kapani-paniwala ang salaysay\" ay nangangahulugang hindi ito mapagkakatiwalaan.",
+        "why": "Tugma ito sa dahilan: hindi mapaniniwalaan ang kuwentong pabago-bago."
+      },
+      {
+        "action": "Ang angkop na salita ay \"kapani-paniwala\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "kahina-hinala": "Ito ang pinakakaraniwang patibong. Kahina-hinala nga ang pabago-bagong kuwento, ngunit may \"Hindi\" sa simula. Ang \"Hindi kahina-hinala\" ay salungat sa dahilang ibinigay.",
+    "katawa-tawa": "Ang katawa-tawa ay nakapagpapatawa. Walang kinalaman ang pagtawa sa pagbabago-bago ng kuwento ng saksi.",
+    "kaawa-awa": "Ang kaawa-awa ay nakapupukaw ng awa. Walang kinalaman ang awa sa pagbabago-bago ng kuwento ng saksi."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,46 @@
+{
+  "id": "vfil-wg-0004",
+  "topicId": "vfil-wastong-gamit",
+  "skill": "vfil-wg-ng-nang",
+  "difficulty": 3,
+  "stem": "Alin ang may mali sa pangungusap? Kung wala, piliin ang 'Walang mali'.\n\nNag-ipon ng pera si Mang Jose nang makabili siya ng sariling bahay.",
+  "choices": [
+    "ng pera",
+    "nang makabili",
+    "ng sariling bahay",
+    "Walang mali"
+  ],
+  "answer": "Walang mali",
+  "hints": [
+    "Huwag agad maghanap ng mali. Suriin muna ang bawat bahagi, isa-isa.",
+    "Sa 'nang makabili', palitan ang 'nang' ng 'upang'. May diwa pa rin ba?",
+    "Bago ang bagay na tumatanggap ng kilos, 'ng'. Kung napapalitan ng 'upang' o 'noong', 'nang'. Kung sumusunod ang bawat bahagi sa tuntunin, wala kang kailangang itama."
+  ],
+  "solution": {
+    "methodName": "Palitan ng 'noong' o 'upang', saka tingnan ang kasunod",
+    "steps": [
+      {
+        "action": "'ng pera': ang 'pera' ay pangngalan, ang bagay na inipon. Tama ang 'ng'."
+      },
+      {
+        "action": "'nang makabili': palitan ng 'upang': 'upang makabili siya ng sariling bahay'. May diwa pa rin, kaya tama ang 'nang'.",
+        "why": "Sinasabi nito ang layunin ng pag-iipon. Kapag napapalitan ng 'upang' o 'para', 'nang' ang isinusulat."
+      },
+      {
+        "action": "'ng sariling bahay': ang tinutukoy ay ang 'bahay', isang bagay. Tama ang 'ng'.",
+        "why": "Ang 'sariling' ay naglalarawan lang sa bahay. Bagay pa rin ang tinutukoy, kaya 'ng'."
+      },
+      {
+        "action": "Tama ang tatlong bahagi, kaya ang sagot ay 'Walang mali'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "ng pera": "Tama ang 'ng' dito dahil ang 'pera' ay bagay na inipon. Pangngalan ang kasunod, kaya 'ng'.",
+    "nang makabili": "Ito ang madalas pagdudahan. Pero ang 'nang' dito ay nangangahulugang 'upang': nag-ipon upang makabili. Kaya tama ang 'nang'.",
+    "ng sariling bahay": "Tama ang 'ng' dahil ang tinutukoy ay ang bahay, isang bagay. Ang 'sariling' ay naglalarawan lang dito."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

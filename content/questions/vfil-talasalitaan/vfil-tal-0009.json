@@ -1,0 +1,45 @@
+{
+  "id": "vfil-tal-0009",
+  "topicId": "vfil-talasalitaan",
+  "skill": "vfil-tal-konteksto",
+  "difficulty": 2,
+  "stem": "Tumalima ang mga kawani sa bagong patakaran; lahat sila ay pumapasok na sa tamang oras gaya ng iniutos ng hepe.\n\nAno ang kahulugan ng \"tumalima\" batay sa pangungusap?",
+  "choices": [
+    "tumutol",
+    "nakalimot",
+    "nagreklamo",
+    "sumunod"
+  ],
+  "answer": "sumunod",
+  "hints": [
+    "Basahin ang bahaging kasunod ng tuldok-kuwit (;). Ano ang ginagawa ngayon ng mga kawani?",
+    "Pansinin ang \"gaya ng iniutos ng hepe\". Ginagawa ba nila o hindi ang utos?",
+    "Ipalit ang bawat pagpipilian sa \"tumalima\". Piliin ang salitang tugma sa mga kawaning gumagawa ng iniutos sa kanila."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang palatandaan, saka subukan ang bawat sagot",
+    "steps": [
+      {
+        "action": "Hanapin ang palatandaan: \"lahat sila ay pumapasok na sa tamang oras gaya ng iniutos ng hepe.\"",
+        "why": "Ang bahaging kasunod ng tuldok-kuwit ay nagbibigay ng halimbawa ng ginawa ng mga kawani."
+      },
+      {
+        "action": "Ang paggawa ng iniutos ay pagsunod sa patakaran."
+      },
+      {
+        "action": "Ipalit ang \"sumunod\": \"Sumunod ang mga kawani sa bagong patakaran.\" Tugma ito sa palatandaan."
+      },
+      {
+        "action": "Ang \"tumalima\" ay nangangahulugang \"sumunod\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "tumutol": "Kabaligtaran ito ng nangyari. Ang tumutol ay hindi sumang-ayon, ngunit ginagawa ng mga kawani ang iniutos.",
+    "nakalimot": "Kung nakalimot sila, hindi sana sila pumapasok sa tamang oras. Ipinakikita ng palatandaan na naaalala at ginagawa nila ang patakaran.",
+    "nagreklamo": "Walang binanggit na reklamo sa pangungusap. Ang sinabi lamang ay ginagawa nila ang iniutos."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

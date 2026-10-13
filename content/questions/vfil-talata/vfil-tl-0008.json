@@ -1,0 +1,55 @@
+{
+  "id": "vfil-tl-0008",
+  "topicId": "vfil-talata",
+  "skill": "vfil-tl-ayos",
+  "difficulty": 3,
+  "stem": "Ayusin ang mga pangungusap upang makabuo ng isang maayos na talata. Alin ang tamang pagkakasunod-sunod?\n\n1. Kaya humingi siya ng tulong sa mga residente at sa isang samahan ng mga guro.\n2. Dahil sa mga nalikom na aklat at upuan, halos hindi na magkasya ngayon sa aklatan ang mga batang nagbabasa tuwing hapon.\n3. Noong una, kakaunti ang pumupunta sa aklatang bayan ng San Isidro.\n4. Sa loob ng anim na buwan, nakalikom sila ng mahigit dalawang libong aklat at ilang mesa at upuan.\n5. Napansin ng bagong namamahala rito na luma na ang karamihan sa mga aklat at kulang ang mauupuan.",
+  "choices": [
+    "3, 1, 5, 4, 2",
+    "3, 5, 4, 1, 2",
+    "3, 5, 1, 4, 2",
+    "5, 3, 1, 4, 2"
+  ],
+  "answer": "3, 5, 1, 4, 2",
+  "hints": [
+    "Pansinin ang mga panghalip na \"siya\" at \"sila,\" at ang salitang \"rito.\" Lahat sila ay tumutukoy sa nabanggit na.",
+    "Ang \"Noong una\" ay karaniwang ginagamit sa simula ng kuwento ng pagbabago. Pagkatapos, hanapin kung sino ang tinutukoy ng \"siya\" sa pangungusap 1.",
+    "Simulan sa kalagayan noong una. Sunod, ipakilala ang taong kumilos, saka ang ginawa niya, ang nalikom nila, at ang kinalabasan ngayon. Tiyaking nauuna ang bawat pangalan bago ang panghalip na tumutukoy rito."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang simula, saka sundan ang mga pananda",
+    "steps": [
+      {
+        "action": "Simulan sa pangungusap 3, \"Noong una, kakaunti ang pumupunta sa aklatang bayan ng San Isidro.\"",
+        "why": "Ang \"Noong una\" ay naglalarawan ng dating kalagayan bago ang pagbabago. Ipinakikilala rin nito ang aklatan, na tinutukoy ng \"rito\" sa pangungusap 5."
+      },
+      {
+        "action": "Kasunod ang pangungusap 5, \"Napansin ng bagong namamahala rito...\"",
+        "why": "Ang \"rito\" ay ang aklatan. Ipinakikilala ng pangungusap na ito ang bagong namamahala, ang taong tinutukoy ng \"siya\" sa pangungusap 1."
+      },
+      {
+        "action": "Sumunod ang pangungusap 1, \"Kaya humingi siya ng tulong...\"",
+        "why": "Humingi siya ng tulong dahil luma na ang mga aklat at kulang ang upuan. Ang \"Kaya\" ang nag-uugnay sa problemang ito at sa ginawang solusyon."
+      },
+      {
+        "action": "Kasunod ang pangungusap 4, \"Sa loob ng anim na buwan, nakalikom sila...\"",
+        "why": "Ang \"sila\" ay ang namamahala, ang mga residente at ang samahan ng mga guro. Nakalikom sila pagkatapos humingi ng tulong."
+      },
+      {
+        "action": "Sa dulo ang pangungusap 2, \"Dahil sa mga nalikom na aklat at upuan...\"",
+        "why": "Binabanggit nito ang \"nalikom,\" kaya dapat nasabi na ang pangungusap 4. Ang \"ngayon\" ay katapat ng \"Noong una,\" kaya ito ang pangwakas."
+      },
+      {
+        "action": "Ang tamang pagkakasunod-sunod ay 3, 5, 1, 4, 2."
+      }
+    ]
+  },
+  "trapNotes": {
+    "3, 1, 5, 4, 2": "Nauna ang \"Kaya humingi siya ng tulong\" bago pa nakilala kung sino ang \"siya.\" Unang lumabas ang bagong namamahala sa pangungusap 5, kaya dapat itong mauna sa 1.",
+    "3, 5, 4, 1, 2": "Nakalikom na ng aklat bago pa humingi ng tulong. Wala ring malinaw na tinutukoy ang \"sila\" dahil iisang tao pa lamang ang nabanggit: ang namamahala.",
+    "5, 3, 1, 4, 2": "Nagsimula sa \"Napansin ng bagong namamahala rito,\" pero hindi pa alam kung saan ang \"rito.\" Kailangang mauna ang pangungusap 3, na nagpapakilala sa aklatan."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,55 @@
+{
+  "id": "vfil-tl-0006",
+  "topicId": "vfil-talata",
+  "skill": "vfil-tl-ayos",
+  "difficulty": 2,
+  "stem": "Ayusin ang mga pangungusap upang makabuo ng isang maayos na talata. Alin ang tamang pagkakasunod-sunod?\n\n1. Pinasan nila ito at dahan-dahang inilipat sa bagong lote sa kabilang kalye.\n2. Nang malaman ito ng mga kapitbahay niya, nagboluntaryo silang tumulong.\n3. Kailangang ilipat ni Mang Tonyo ang maliit niyang bahay na kawayan.\n4. Pagsapit ng Sabado ng umaga, mga dalawampung lalaki ang dumating at pumuwesto sa ilalim ng bahay.\n5. Bilang pasasalamat, naghanda si Mang Tonyo ng pananghalian para sa lahat.",
+  "choices": [
+    "3, 4, 1, 2, 5",
+    "2, 3, 4, 1, 5",
+    "3, 2, 1, 4, 5",
+    "3, 2, 4, 1, 5"
+  ],
+  "answer": "3, 2, 4, 1, 5",
+  "hints": [
+    "Kuwento ito, kaya ayusin ang mga pangyayari ayon sa kung alin ang unang nangyari.",
+    "Hanapin ang pangungusap na nagpapakilala sa tauhan at sa problema niya.",
+    "Sundan ang mga panghalip: kanino tumutukoy ang \"niya,\" \"sila\" at \"nila\"? Ano ang tinutukoy ng \"ito\"? Ilagay ang bawat pangungusap pagkatapos ng pangungusap na nagpakilala sa tinutukoy nito. Ang pasasalamat ang pangwakas."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang simula, saka sundan ang mga pananda",
+    "steps": [
+      {
+        "action": "Simulan sa pangungusap 3, na nagpapakilala kay Mang Tonyo at sa problema niya: kailangang ilipat ang bahay.",
+        "why": "Sa isang kuwento, dapat makilala muna ang tauhan at ang problema bago ang mga pangyayari."
+      },
+      {
+        "action": "Kasunod ang pangungusap 2, \"Nang malaman ito ng mga kapitbahay niya...\"",
+        "why": "Ang \"ito\" ay tumutukoy sa pangangailangang ilipat ang bahay, at ang \"niya\" ay si Mang Tonyo. Kaya dapat itong sumunod sa pangungusap 3."
+      },
+      {
+        "action": "Sumunod ang pangungusap 4, \"Pagsapit ng Sabado ng umaga, mga dalawampung lalaki ang dumating...\"",
+        "why": "Pagkatapos magboluntaryo, saka sila dumating sa takdang araw."
+      },
+      {
+        "action": "Kasunod ang pangungusap 1, \"Pinasan nila ito...\"",
+        "why": "Ang \"nila\" ay ang mga lalaking dumating, at ang \"ito\" ay ang bahay. Kailangang nandoon na sila bago nila mapasan ang bahay."
+      },
+      {
+        "action": "Sa dulo ang pangungusap 5, ang pasasalamat ni Mang Tonyo.",
+        "why": "Nagpapasalamat ang tao pagkatapos siyang matulungan, kaya ito ang huling pangyayari."
+      },
+      {
+        "action": "Ang tamang pagkakasunod-sunod ay 3, 2, 4, 1, 5."
+      }
+    ]
+  },
+  "trapNotes": {
+    "3, 4, 1, 2, 5": "Nailipat na ang bahay bago pa nalaman ng mga kapitbahay ang problema. Ang pagboboluntaryo ay dapat mauna sa pagdating at pagbubuhat.",
+    "2, 3, 4, 1, 5": "Nagsimula sa \"Nang malaman ito ng mga kapitbahay niya,\" pero hindi pa kilala kung sino ang \"niya\" at kung ano ang \"ito.\" Dapat mauna ang pangungusap na nagpapakilala kay Mang Tonyo.",
+    "3, 2, 1, 4, 5": "Napasan na ang bahay bago pa dumating ang mga lalaki. Ang \"nila\" sa pangungusap 1 ay tumutukoy sa mga lalaking dumating, kaya dapat mauna ang pangungusap 4."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,59 @@
+{
+  "id": "vfil-talata-lesson",
+  "topicId": "vfil-talata",
+  "workedExampleId": "vfil-tl-0001",
+  "sections": [
+    {
+      "heading": "Ano ang talata at ang paksang pangungusap",
+      "body": "Ang **talata** ay grupo ng mga pangungusap na tungkol sa iisang ideya. Dalawang uri ng tanong ang lumalabas tungkol dito:\n\n- **Pagsusunod-sunod:** ayusin ang mga pangungusap para mabuo ang talata.\n- **Paksang pangungusap:** hanapin ang pangungusap na nagsasabi ng pangunahing ideya.\n\nAng **paksang pangungusap** ang nagsasabi kung tungkol saan ang buong talata. Ang ibang pangungusap ay **pansuportang detalye**: nagpapaliwanag o nagbibigay ng halimbawa."
+    },
+    {
+      "heading": "Ang mga palatandaan: pananda at panghalip",
+      "body": "Ang **pananda** ay salitang nagsasabi kung paano nakaugnay ang isang pangungusap sa iba. Ang **panghalip** ay salitang pamalit sa pangalan, gaya ng *ito, siya, sila, nila* at *rito*.\n\n| Pananda | Ipinakikita |\n| --- | --- |\n| Una, Pagkatapos, Sa huli | hakbang |\n| Noong una, Kinabukasan, Ngayon | panahon |\n| Halimbawa, Bukod dito | dagdag o halimbawa |\n| Gayunman, Ngunit, Samantala | salungat o paglipat |\n| Kaya, Dahil dito, Sa ganitong paraan | bunga, kadalasang malapit sa dulo |\n\n**Tuntunin:** hindi maaaring mauna ang pangungusap na may salitang tumuturo pabalik, gaya ng \"ito,\" \"Kaya\" o \"Pagkatapos.\" Dapat may nauna itong tinutukoy."
+    },
+    {
+      "heading": "Paraan 1: Ayusin ang mga pangungusap",
+      "body": "Gamitin ang paraang **\"Hanapin ang simula, saka sundan ang mga pananda.\"**\n\n1. **Hanapin ang simula:** ang pangungusap na kayang tumayo nang mag-isa.\n2. **Sundan ang kadena.** Sa bawat pangungusap, itanong: \"Ano ang tinutukoy nito?\" Ilagay ito kasunod ng pangungusap na unang bumanggit sa tinutukoy.\n3. **Hanapin ang pangwakas.** Kadalasang may \"Kaya,\" \"Sa huli\" o \"Ngayon.\"\n4. **Basahin muli nang buo.** Dapat malinaw ang daloy.\n\n**Halimbawa:** (1) Pagkatapos, magbayad sa ingat-yaman. (2) Narito ang tatlong hakbang sa pagkuha ng clearance. (3) Sa huli, ipakita ang resibo. (4) Una, punan ang form.\n\nNauuna ang (2) dahil ipinakikilala nito ang mga hakbang. Kasunod ang Una (4), Pagkatapos (1) at Sa huli (3). Sagot: **2, 4, 1, 3**.\n\n**Mabilis na paraan:** kapag alam mo na ang simula, itapon ang mga pagpipiliang hindi roon nagsisimula."
+    },
+    {
+      "heading": "Paraan 2: Hanapin ang paksang pangungusap",
+      "body": "Gamitin ang paraang **\"Hanapin ang pangungusap na sumasaklaw sa lahat.\"**\n\n1. Ilista nang maikli ang sinasabi ng bawat pangungusap.\n2. Itanong: anong mas malawak na ideya ang nagbubuklod sa mga ito?\n3. Piliin ang pangungusap na eksaktong sumasaklaw rito. Hindi ito **masyadong makitid** (iisang detalye lamang) at hindi rin **masyadong malawak** (lampas na sa talata).\n\n**Halimbawa:** \"(patlang) Pinalalakas nito ang puso. Nakatutulong ito sa tamang timbang. Nakapagpapagaan ito ng isip.\"\n\n- \"Pinalalakas ng paglalakad ang puso\": masyadong makitid.\n- \"Mahalaga ang kalusugan ng lahat ng tao\": masyadong malawak.\n- \"**Maraming pakinabang ang paglalakad**\": tama, saklaw ang tatlong detalye.\n\nTandaan: maaaring nasa **simula, gitna o dulo** ang paksang pangungusap. Huwag itong piliin dahil lamang sa puwesto nito."
+    },
+    {
+      "heading": "Mga karaniwang patibong",
+      "body": "- **Pag-una sa \"Una.\"** Unang hakbang ang \"Una,\" pero maaaring may panimulang pangungusap pa bago ito.\n- **Panghalip na walang tinutukoy.** Mali ang ayos na nagsisimula sa \"Ito,\" \"Siya\" o \"Ang mga ... na ito.\"\n- **\"Kaya\" o \"Dahil dito\" sa simula.** Hindi mauuna ang bunga sa dahilan.\n- **Detalyeng napagkamalang paksa.** Kadalasang detalye lamang ang may tiyak na bilang o halimbawa.\n- **Masyadong malawak.** Kadalasang lampas sa talata ang \"buong mundo\" o \"lahat ng tao.\"\n- **Bagong ideya.** Kahit totoo, hindi paksang pangungusap ang ideyang hindi sinusuportahan ng mga detalye.\n- **Puwesto lamang ang batayan.** Hindi laging una ang paksang pangungusap, at hindi laging buod ang may \"Kaya\" sa dulo."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Talata",
+      "definition": "Grupo ng mga pangungusap na tungkol sa iisang ideya.",
+      "taglish": "Talata – paragraph; mga sentence na iisa ang topic"
+    },
+    {
+      "term": "Paksang pangungusap",
+      "definition": "Ang pangungusap na nagsasabi ng pangunahing ideya ng talata.",
+      "taglish": "Paksang pangungusap – topic sentence; sinasabi nito kung tungkol saan ang buong paragraph"
+    },
+    {
+      "term": "Pansuportang detalye",
+      "definition": "Pangungusap na nagpapaliwanag, nagbibigay ng halimbawa o nagdadagdag tungkol sa paksa.",
+      "taglish": "Pansuportang detalye – supporting detail; mga sentence na nagpapaliwanag sa topic"
+    },
+    {
+      "term": "Pananda",
+      "definition": "Salitang nag-uugnay sa mga pangungusap, gaya ng Una, Kaya at Gayunman.",
+      "taglish": "Pananda – transition o signal word, gaya ng \"first,\" \"so,\" \"however\""
+    },
+    {
+      "term": "Panghalip",
+      "definition": "Salitang pamalit sa pangalan, gaya ng ito, siya at sila.",
+      "taglish": "Panghalip – pronoun; pamalit sa noun para hindi paulit-ulit"
+    },
+    {
+      "term": "Pagkakasunod-sunod",
+      "definition": "Ang tamang ayos ng mga pangungusap o pangyayari.",
+      "taglish": "Pagkakasunod-sunod – sequence o order; alin ang una, alin ang kasunod"
+    }
+  ]
+}

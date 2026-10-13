@@ -1,0 +1,55 @@
+{
+  "id": "vfil-tl-0007",
+  "topicId": "vfil-talata",
+  "skill": "vfil-tl-ayos",
+  "difficulty": 3,
+  "stem": "Ayusin ang mga pangungusap upang makabuo ng isang maayos na talata. Alin ang tamang pagkakasunod-sunod?\n\n1. Kaya linggo-linggo, suriin at linisin ang mga bagay na ito sa paligid ng bahay.\n2. Nangingitlog ang lamok na ito sa malinis na tubig na hindi gumagalaw.\n3. Sa ganitong paraan, mawawalan ng mapangingitlugan ang lamok at bababa ang panganib ng dengue.\n4. Ang dengue ay sakit na naisasalin sa tao sa pamamagitan ng kagat ng lamok na Aedes.\n5. Madalas maipon ang ganitong tubig sa mga bagay na hindi natin napapansin, gaya ng lumang gulong at baradong alulod.",
+  "choices": [
+    "4, 5, 2, 1, 3",
+    "4, 2, 5, 1, 3",
+    "4, 2, 1, 5, 3",
+    "2, 4, 5, 1, 3"
+  ],
+  "answer": "4, 2, 5, 1, 3",
+  "hints": [
+    "Walang \"Una\" o \"Pagkatapos\" dito. Ang mga palatandaan ay ang mga salitang tumuturo pabalik: \"na ito,\" \"ganitong\" at \"Sa ganitong paraan.\"",
+    "Hanapin ang tanging pangungusap na walang tinutukoy na nauna. Iyon ang simula.",
+    "Pagkatapos ng simula, itanong sa bawat pangungusap kung ano ang tinutukoy nito: aling lamok, anong tubig, aling mga bagay, anong paraan. Ilagay ito kasunod ng pangungusap na unang bumanggit sa tinutukoy. Gawin ito hanggang mabuo ang kadena."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang simula, saka sundan ang mga pananda",
+    "steps": [
+      {
+        "action": "Simulan sa pangungusap 4, \"Ang dengue ay sakit na naisasalin sa tao sa pamamagitan ng kagat ng lamok na Aedes.\"",
+        "why": "Ito lamang ang pangungusap na walang salitang tumuturo pabalik. Ipinakikilala rin nito ang paksa: ang dengue at ang lamok na nagdadala nito."
+      },
+      {
+        "action": "Kasunod ang pangungusap 2, \"Nangingitlog ang lamok na ito...\"",
+        "why": "Ang \"lamok na ito\" ay ang lamok na Aedes na unang binanggit sa pangungusap 4."
+      },
+      {
+        "action": "Sumunod ang pangungusap 5, \"Madalas maipon ang ganitong tubig...\"",
+        "why": "Ang \"ganitong tubig\" ay ang malinis na tubig na hindi gumagalaw, na unang inilarawan sa pangungusap 2. Dito rin unang binanggit ang lumang gulong at baradong alulod."
+      },
+      {
+        "action": "Kasunod ang pangungusap 1, \"Kaya linggo-linggo, suriin at linisin ang mga bagay na ito...\"",
+        "why": "Ang \"mga bagay na ito\" ay ang lumang gulong at baradong alulod sa pangungusap 5. Ang \"Kaya\" ay nagpapakilala ng payo batay sa naunang paliwanag."
+      },
+      {
+        "action": "Sa dulo ang pangungusap 3, \"Sa ganitong paraan...\"",
+        "why": "Ang \"ganitong paraan\" ay ang paglilinis na iminungkahi sa pangungusap 1. Sinasabi nito ang mabuting bunga, kaya ito ang pangwakas."
+      },
+      {
+        "action": "Ang tamang pagkakasunod-sunod ay 4, 2, 5, 1, 3."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4, 5, 2, 1, 3": "Nauna ang \"ganitong tubig\" bago pa nailarawan kung anong tubig ito. Sa pangungusap 2 unang sinabing malinis at hindi gumagalaw ang tubig, kaya dapat itong mauna sa 5. Wala ring tutukuyin ang \"mga bagay na ito\" sa pangungusap 1, dahil lamok at tubig ang huling binanggit bago nito.",
+    "4, 2, 1, 5, 3": "Nauna ang \"linisin ang mga bagay na ito\" bago pa nabanggit kung anong mga bagay. Unang lumabas ang lumang gulong at baradong alulod sa pangungusap 5, kaya dapat itong mauna sa 1.",
+    "2, 4, 5, 1, 3": "Nagsimula sa \"Nangingitlog ang lamok na ito,\" pero wala pang lamok na nabanggit. Kailangang mauna ang pangungusap 4, na nagpapakilala sa lamok na Aedes."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

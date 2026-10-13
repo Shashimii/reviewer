@@ -1,0 +1,49 @@
+{
+  "id": "vfil-pb-0011",
+  "topicId": "vfil-pangungusap",
+  "skill": "vfil-pb-anyo",
+  "difficulty": 2,
+  "stem": "Noong isang linggo, ___ ng pamahalaang bayan ang sirang tulay sa Barangay San Roque.\n\nAling anyo ng pandiwa ang angkop sa patlang?",
+  "choices": [
+    "inayos",
+    "inaayos",
+    "aayusin",
+    "ayusin"
+  ],
+  "answer": "inayos",
+  "hints": [
+    "Hanapin ang hudyat ng panahon sa simula ng pangungusap.",
+    "Ang \"Noong isang linggo\" ay tumutukoy sa nakaraan. Tapos na ba ang kilos?",
+    "Para sa kilos na tapos na, gamitin ang aspektong perpektibo. Hanapin ang anyong may \"in\" sa unahan ngunit walang inuulit na pantig."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang hudyat ng panahon, saka itugma ang aspekto",
+    "steps": [
+      {
+        "action": "Hanapin ang hudyat ng panahon: \"Noong isang linggo\".",
+        "why": "Ang \"noong\" ay laging tumutukoy sa nakaraan, gaya ng \"noong Lunes\" o \"noong isang taon\"."
+      },
+      {
+        "action": "Tukuyin ang panahon: nakaraan, kaya tapos na ang kilos."
+      },
+      {
+        "action": "Piliin ang aspektong perpektibo, ang anyo para sa kilos na tapos na."
+      },
+      {
+        "action": "Ang perpektibo ng \"ayusin\" ay \"inayos\": may \"in\" sa unahan at walang inuulit na pantig.",
+        "why": "Ang \"inaayos\" ay may inulit na \"a\", kaya imperpektibo ito. Ang \"aayusin\" ay may inulit na \"a\" at \"-in\" sa hulihan, kaya kontemplatibo ito."
+      },
+      {
+        "action": "Ang angkop na anyo ay \"inayos\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "inaayos": "Imperpektibo ito, para sa kilos na ginagawa pa. Ang ginawa noong isang linggo ay tapos na.",
+    "aayusin": "Kontemplatibo ito, para sa kilos na gagawin pa lamang. Hindi ito tugma sa \"Noong isang linggo\", na nakaraan.",
+    "ayusin": "Ito ang pawatas, ang anyong walang aspekto. Ginagamit ito sa utos, gaya ng \"Ayusin mo ito\", hindi sa pagsasalaysay ng nangyari na."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

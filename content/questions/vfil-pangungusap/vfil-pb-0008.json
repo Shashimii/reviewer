@@ -1,0 +1,51 @@
+{
+  "id": "vfil-pb-0008",
+  "topicId": "vfil-pangungusap",
+  "skill": "vfil-pb-anyo",
+  "difficulty": 1,
+  "stem": "Kahapon, ___ si Ana ng liham sa alkalde.\n\nAling anyo ng pandiwa ang angkop sa patlang?",
+  "choices": [
+    "magsulat",
+    "nagsulat",
+    "nagsusulat",
+    "magsusulat"
+  ],
+  "answer": "nagsulat",
+  "hints": [
+    "Hanapin ang salitang nagsasabi kung kailan nangyari ang kilos.",
+    "Ang \"Kahapon\" ay tumutukoy sa nakaraan. Tapos na ba o hindi pa ang kilos?",
+    "Kapag tapos na ang kilos, gamitin ang aspektong perpektibo. Sa pandiwang may \"mag-\", nagiging \"nag-\" ang unlapi at hindi inuulit ang unang pantig ng salitang-ugat."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang hudyat ng panahon, saka itugma ang aspekto",
+    "steps": [
+      {
+        "action": "Hanapin ang hudyat ng panahon sa pangungusap: \"Kahapon\".",
+        "why": "Ang hudyat ng panahon ay salitang nagsasabi kung kailan nangyari ang kilos. Ito ang susi sa tamang anyo ng pandiwa."
+      },
+      {
+        "action": "Tukuyin ang panahon: ang \"Kahapon\" ay nakaraan, kaya tapos na ang kilos.",
+        "why": "Ang nangyari kahapon ay hindi na nangyayari ngayon at hindi pa mangyayari sa hinaharap."
+      },
+      {
+        "action": "Piliin ang aspektong perpektibo, ang anyo para sa kilos na tapos na.",
+        "why": "May tatlong aspekto: perpektibo (tapos na), imperpektibo (ginagawa pa o paulit-ulit), at kontemplatibo (gagawin pa lamang)."
+      },
+      {
+        "action": "Buuin ang perpektibo ng \"magsulat\": palitan ang \"mag-\" ng \"nag-\" at huwag ulitin ang unang pantig ng salitang-ugat. Ito ay \"nagsulat\".",
+        "why": "Ang \"nagsusulat\" ay may inulit na pantig (su-su), kaya imperpektibo ito. Ang \"magsusulat\" ay may \"mag-\" at inulit na pantig, kaya kontemplatibo ito."
+      },
+      {
+        "action": "Ang angkop na anyo ay \"nagsulat\": \"Kahapon, nagsulat si Ana ng liham sa alkalde.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "magsulat": "Ito ang pawatas, ang batayang anyo ng pandiwa na walang aspekto. Hindi nito sinasabi kung kailan nangyari ang kilos, kaya hindi ito bagay sa \"Kahapon\".",
+    "nagsusulat": "Imperpektibo ito: ginagawa pa o paulit-ulit na ginagawa. Tapos na ang kilos na nangyari kahapon.",
+    "magsusulat": "Kontemplatibo ito: gagawin pa lamang. Hindi puwedeng gagawin pa lamang ang kilos na nangyari na kahapon."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

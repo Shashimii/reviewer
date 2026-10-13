@@ -1,0 +1,51 @@
+{
+  "id": "vfil-tl-0002",
+  "topicId": "vfil-talata",
+  "skill": "vfil-tl-ayos",
+  "difficulty": 1,
+  "stem": "Ayusin ang mga pangungusap upang makabuo ng isang maayos na talata. Alin ang tamang pagkakasunod-sunod?\n\n1. Agad nilang ipinaalam ang balita sa mga residente sa pamamagitan ng mga paskil.\n2. Dahil sa kanilang pagtutulungan, mahigit sandaang punla na ngayon ang nakatanim sa pampang ng ilog.\n3. Noong isang linggo, nagpasya ang konseho ng barangay na magtanim ng mga puno sa tabi ng ilog.\n4. Kinabukasan, nagtipon sa plaza ang mga residente na may dalang mga pala at punla.",
+  "choices": [
+    "3, 1, 4, 2",
+    "3, 4, 1, 2",
+    "1, 3, 4, 2",
+    "4, 3, 1, 2"
+  ],
+  "answer": "3, 1, 4, 2",
+  "hints": [
+    "Pansinin ang mga salitang nagsasabi ng panahon: \"Noong isang linggo,\" \"Agad,\" \"Kinabukasan\" at \"ngayon.\"",
+    "Hanapin ang pangungusap na pinakamaagang nangyari. Ito ang unang pangungusap.",
+    "Ayusin ang mga pangyayari ayon sa oras. Tingnan din kung kanino tumutukoy ang \"nilang\" sa pangungusap 1: dapat nabanggit na ang mga taong iyon bago ito. Ang resulta ng lahat ng ginawa ang dapat nasa dulo."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang simula, saka sundan ang mga pananda",
+    "steps": [
+      {
+        "action": "Hanapin ang pinakamaagang pangyayari: pangungusap 3, \"Noong isang linggo, nagpasya ang konseho ng barangay...\"",
+        "why": "Ang \"Noong isang linggo\" ang pinakamalayong panahon sa nakaraan. Ipinakikilala rin nito kung sino ang kumilos: ang konseho ng barangay."
+      },
+      {
+        "action": "Kasunod ang pangungusap 1, \"Agad nilang ipinaalam ang balita...\"",
+        "why": "Ang \"nilang\" ay panghalip na tumutukoy sa konseho. Ang panghalip ay salitang pamalit sa pangalan, kaya dapat nabanggit muna ang konseho. Ang \"Agad\" ay nagsasabing ginawa ito kasunod mismo ng pagpapasya."
+      },
+      {
+        "action": "Sumunod ang pangungusap 4, \"Kinabukasan, nagtipon sa plaza ang mga residente...\"",
+        "why": "Kailangang malaman muna ng mga residente ang balita bago sila magtipon. Ang \"Kinabukasan\" ay nangangahulugang \"sa sumunod na araw\" matapos ang pagpapaalam."
+      },
+      {
+        "action": "Sa dulo ang pangungusap 2, na nagsasabi ng resulta: mahigit sandaang punla na ngayon ang nakatanim.",
+        "why": "Ang \"ngayon\" at \"Dahil sa kanilang pagtutulungan\" ay nagpapakitang ito ang kinalabasan ng lahat ng ginawa."
+      },
+      {
+        "action": "Ang tamang pagkakasunod-sunod ay 3, 1, 4, 2."
+      }
+    ]
+  },
+  "trapNotes": {
+    "3, 4, 1, 2": "Tama ang simula at dulo, pero nauna ang pagtitipon ng mga residente bago pa sila nasabihan. Hindi sila magtitipon para magtanim kung hindi pa nila alam ang balita.",
+    "1, 3, 4, 2": "Nagsimula sa \"Agad nilang ipinaalam,\" pero hindi pa alam kung sino ang \"nila\" at kung anong balita ang tinutukoy. Kailangang mauna ang pangungusap na nagpapakilala sa konseho at sa pasya nito.",
+    "4, 3, 1, 2": "Nagsimula sa \"Kinabukasan,\" pero kinabukasan ng ano? Laging tumutukoy ang salitang ito sa isang naunang araw, kaya hindi ito maaaring mauna."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,50 @@
+{
+  "id": "vfil-pu-0010",
+  "topicId": "vfil-pag-unawa",
+  "skill": "vfil-pu-detalye",
+  "difficulty": 2,
+  "passage": "Si Ana ay kawani sa tanggapan ng mga permit sa munisipyo. Isang hapon, may lalaking lumapit sa mesa niya para mag-aplay ng permit para sa isang bagong tindahan. Kulang pa ang mga dokumentong dala ng lalaki, kaya ipinaliwanag ni Ana kung ano pa ang kailangan. Bago umalis, palihim na iniabot ng lalaki ang isang sobre at bumulong, \"Para mapabilis lang po.\" Ngumiti si Ana at magalang na ibinalik ang sobre. \"Pare-pareho po ang proseso para sa lahat,\" sabi niya. \"Bumalik po kayo bukas dala ang kulang na papeles, at aasikasuhin ko agad.\" Kinabukasan, bumalik ang lalaki na kumpleto na ang mga dokumento. Sa loob ng isang oras, hawak na niya ang permit.",
+  "stem": "Ayon sa talata, bakit kinailangang bumalik ng lalaki kinabukasan?",
+  "choices": [
+    "Tinanggihan ni Ana ang iniabot niyang sobre.",
+    "Sarado na ang tanggapan noong hapong iyon.",
+    "Kulang pa ang mga dokumentong dala niya.",
+    "Kailangan pang pirmahan ng alkalde ang permit."
+  ],
+  "answer": "Kulang pa ang mga dokumentong dala niya.",
+  "hints": [
+    "Ang tanong ay tungkol sa dahilan. Hanapin sa talata ang bahaging nagsasabi kung bakit kailangang bumalik.",
+    "Hanapin ang salitang \"Bumalik\" sa sinabi ni Ana.",
+    "Basahin muli ang buong pangungusap ni Ana na may \"Bumalik po kayo bukas.\" Tingnan kung ano ang ipinadadala niya. Ihambing din ito sa ikatlong pangungusap ng talata."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang susing salita, saka balikan ang talata",
+    "steps": [
+      {
+        "action": "Tukuyin ang susing salita: \"bumalik\" at \"kinabukasan.\""
+      },
+      {
+        "action": "Hanapin ang sinabi ni Ana: \"Bumalik po kayo bukas dala ang kulang na papeles.\"",
+        "why": "Sinasabi mismo nito ang dahilan: may kulang pang papeles na kailangang dalhin."
+      },
+      {
+        "action": "Tiyakin sa simula ng talata: \"Kulang pa ang mga dokumentong dala ng lalaki.\" Magkatugma ang dalawa."
+      },
+      {
+        "action": "Suriin ang sobre: tinanggihan nga ito ni Ana, pero hindi ito ang dahilan ng pagbalik.",
+        "why": "Kahit walang sobre, babalik pa rin ang lalaki dahil kulang ang dokumento niya."
+      },
+      {
+        "action": "Ang sagot ay \"Kulang pa ang mga dokumentong dala niya.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Tinanggihan ni Ana ang iniabot niyang sobre.": "Nangyari ito bago siya pinabalik, kaya mukhang ito ang dahilan. Pero ang sinabi ni Ana ay bumalik dala ang kulang na papeles. Ang dokumento ang dahilan, hindi ang sobre.",
+    "Sarado na ang tanggapan noong hapong iyon.": "Hapon nga nangyari ang kuwento, pero walang sinabing sarado na ang tanggapan. Ang dahilan ay ang kulang na dokumento.",
+    "Kailangan pang pirmahan ng alkalde ang permit.": "Walang binanggit na alkalde sa talata. Hindi maaaring hulaan ang sagot sa tanong na \"Ayon sa talata.\""
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

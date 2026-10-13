@@ -1,0 +1,49 @@
+{
+  "id": "vfil-wg-0005",
+  "topicId": "vfil-wastong-gamit",
+  "skill": "vfil-wg-din-rin",
+  "difficulty": 1,
+  "stem": "Punan ang mga patlang.\n\nSabi ni Ben, malinis ___ ang bagong opisina, at maluwag ___ ang paradahan nito.",
+  "choices": [
+    "raw … rin",
+    "daw … din",
+    "daw … rin",
+    "raw … din"
+  ],
+  "answer": "daw … din",
+  "hints": [
+    "Pareho ang ibig sabihin ng 'daw' at 'raw', at ng 'din' at 'rin'. Ang huling titik ng salitang nauuna ang magsasabi kung alin ang isusulat.",
+    "Tingnan ang huling titik ng 'malinis' at ng 'maluwag'. Patinig ba o katinig?",
+    "Kung patinig (a, e, i, o, u), w o y ang huling titik, 'rin' o 'raw'. Kung katinig, 'din' o 'daw'. Ilapat ito sa dalawang patlang."
+  ],
+  "solution": {
+    "methodName": "Tingnan ang huling titik ng salitang nauuna",
+    "steps": [
+      {
+        "action": "Ang unang patlang ay kasunod ng 'malinis'. Ang huling titik nito ay 's', isang katinig.",
+        "why": "Ang katinig ay ang mga titik na hindi a, e, i, o, u."
+      },
+      {
+        "action": "Pagkatapos ng katinig, 'daw' ang gamitin: 'malinis daw'."
+      },
+      {
+        "action": "Ang ikalawang patlang ay kasunod ng 'maluwag'. Ang huling titik ay 'g', isang katinig."
+      },
+      {
+        "action": "Pagkatapos ng katinig, 'din' ang gamitin: 'maluwag din'.",
+        "why": "Ang 'r' ay ginagamit lang kapag patinig, w o y ang huling titik ng salitang nauuna. Dito, katinig, kaya 'd'."
+      },
+      {
+        "action": "Ang sagot ay 'daw … din'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "raw … rin": "Parehong mali. Nagtatapos sa katinig ang 'malinis' (s) at 'maluwag' (g), kaya 'daw' at 'din' ang tama. Ang 'raw' at 'rin' ay para sa salitang nagtatapos sa patinig, w o y.",
+    "daw … rin": "Tama ang una, pero nagtatapos sa 'g' ang 'maluwag', isang katinig. Kaya 'din' ang tama, hindi 'rin'.",
+    "raw … din": "Tama ang ikalawa, pero nagtatapos sa 's' ang 'malinis', isang katinig. Kaya 'daw' ang tama, hindi 'raw'."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

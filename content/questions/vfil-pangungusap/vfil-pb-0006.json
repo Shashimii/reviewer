@@ -1,0 +1,46 @@
+{
+  "id": "vfil-pb-0006",
+  "topicId": "vfil-pangungusap",
+  "skill": "vfil-pb-salita",
+  "difficulty": 3,
+  "stem": "Sa kabila ng ___ ng mga kawani, natapos pa rin nila ang ulat bago ang takdang araw.\n\nAling salita ang angkop sa patlang?",
+  "choices": [
+    "sipag",
+    "tulong",
+    "pagod",
+    "saya"
+  ],
+  "answer": "pagod",
+  "hints": [
+    "Pansinin ang \"Sa kabila ng\" at \"pa rin\". Ano ang ipinapakita ng mga salitang ito?",
+    "Ang \"sa kabila ng\" ay sinusundan ng hadlang: bagay na maaaring makapigil sa magandang resulta.",
+    "Natapos pa rin nila ang ulat. Piliin ang salitang tumutukoy sa bagay na nagpapahirap sa trabaho, hindi sa bagay na nakatutulong dito."
+  ],
+  "solution": {
+    "methodName": "Unawain ang buong pangungusap, saka isingit ang bawat sagot",
+    "steps": [
+      {
+        "action": "Basahin ang buong pangungusap at hanapin ang mga hudyat: \"Sa kabila ng\" at \"pa rin\".",
+        "why": "Magkasama ang dalawang ito kapag may nangyaring maganda kahit may hadlang."
+      },
+      {
+        "action": "Kaya ang salita sa patlang ay dapat na hadlang sa pagtatapos ng ulat."
+      },
+      {
+        "action": "Sa apat na pagpipilian, ang \"pagod\" lamang ang hadlang.",
+        "why": "Ang pagod na tao ay mas nahihirapang magtrabaho. Ang sipag, tulong at saya ay hindi hadlang."
+      },
+      {
+        "action": "Ang angkop na salita ay \"pagod\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "sipag": "Nakatutulong ang sipag sa pagtatapos ng trabaho, kaya hindi ito hadlang. Ang \"sa kabila ng\" ay ginagamit sa hadlang, hindi sa nakatutulong.",
+    "tulong": "Kapag may tulong, inaasahang matatapos ang trabaho. Walang pagsalungat, kaya hindi bagay ang \"sa kabila ng\" at \"pa rin\".",
+    "saya": "Hindi hadlang ang saya sa pagtatrabaho. Kailangan ng salitang nagpapahirap sa gawain."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

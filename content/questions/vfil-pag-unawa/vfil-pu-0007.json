@@ -1,0 +1,50 @@
+{
+  "id": "vfil-pu-0007",
+  "topicId": "vfil-pag-unawa",
+  "skill": "vfil-pu-detalye",
+  "difficulty": 2,
+  "passage": "Marami sa atin ang nagpupuyat dahil sa trabaho, panonood o paggamit ng cellphone. Ngunit may masamang epekto sa katawan at isip ang kakulangan sa tulog. Kapag kulang ang tulog, humihina ang ating resistensiya kaya mas madali tayong dapuan ng sakit. Nahihirapan din tayong magpokus at mas madali tayong magkamali sa trabaho. Ayon sa mga eksperto, kailangan ng isang nasa hustong gulang ang pito hanggang siyam na oras na tulog gabi-gabi. Makatutulong ang pagtulog at paggising sa parehong oras araw-araw. Makabubuti rin ang pag-iwas sa paggamit ng cellphone isang oras bago matulog.",
+  "stem": "Alin ang HINDI binanggit sa talata bilang epekto ng kakulangan sa tulog?",
+  "choices": [
+    "Paghina ng resistensiya",
+    "Hirap sa pagpopokus",
+    "Pagkakamali sa trabaho",
+    "Pagtaas ng timbang"
+  ],
+  "answer": "Pagtaas ng timbang",
+  "hints": [
+    "Pansinin ang salitang \"HINDI.\" Ang hinahanap ay ang epektong wala sa talata.",
+    "Hanapin sa talata ang mga pangungusap na nagsasabi ng epekto ng kulang na tulog. Ilista ang mga ito.",
+    "Ihambing ang bawat pagpipilian sa listahan mo. Ang pagpipiliang hindi mo makita sa talata ang sagot, kahit totoo pa ito sa labas ng talata."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang susing salita, saka balikan ang talata",
+    "steps": [
+      {
+        "action": "Pansinin ang \"HINDI\" sa tanong.",
+        "why": "Sa ganitong tanong, tatlong pagpipilian ang nasa talata at isa ang wala. Ang wala ang sagot."
+      },
+      {
+        "action": "Ilista ang mga epektong binanggit: humihina ang resistensiya, nahihirapang magpokus, at mas madaling magkamali sa trabaho."
+      },
+      {
+        "action": "Ihambing ang bawat pagpipilian: nasa listahan ang paghina ng resistensiya, ang hirap sa pagpopokus at ang pagkakamali sa trabaho."
+      },
+      {
+        "action": "Wala sa talata ang pagtaas ng timbang.",
+        "why": "Maaaring narinig mo na ito sa ibang lugar, pero ang tanong ay tungkol lamang sa binanggit ng talata. Huwag gumamit ng kaalamang wala sa binasa."
+      },
+      {
+        "action": "Ang sagot ay \"Pagtaas ng timbang.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Paghina ng resistensiya": "Binanggit ito: \"humihina ang ating resistensiya.\" Marahil napili ito dahil nakaligtaan ang salitang HINDI sa tanong.",
+    "Hirap sa pagpopokus": "Binanggit ito: \"Nahihirapan din tayong magpokus.\" Kaya hindi ito ang hinahanap ng tanong na may HINDI.",
+    "Pagkakamali sa trabaho": "Binanggit ito: \"mas madali tayong magkamali sa trabaho.\" Kaya hindi ito ang sagot."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

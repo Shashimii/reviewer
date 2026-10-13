@@ -1,0 +1,65 @@
+{
+  "id": "vfil-pangungusap-lesson",
+  "topicId": "vfil-pangungusap",
+  "workedExampleId": "vfil-pb-0008",
+  "sections": [
+    {
+      "heading": "Ano ang pagbuo ng pangungusap",
+      "body": "Sa ganitong tanong, may pangungusap na may **patlang** (___), isang puwang na kailangang punan. Pipili ka ng salitang bubuo sa pangungusap upang maging tama at malinaw ito.\n\nDalawang uri ng tanong ang lalabas:\n\n- **Angkop na salita:** aling salita ang tugma sa kahulugan ng buong pangungusap.\n- **Angkop na anyo ng pandiwa:** aling anyo ng **pandiwa** (salitang nagsasaad ng kilos, gaya ng *sumulat* at *maglinis*) ang tugma sa panahon ng kilos."
+    },
+    {
+      "heading": "Angkop na salita",
+      "body": "**Paraan: Unawain ang buong pangungusap, saka isingit ang bawat sagot.**\n\n1. Basahin ang buong pangungusap, hindi lamang ang bahaging malapit sa patlang.\n2. Hanapin ang palatandaan: ano ang ugnayan ng mga bahagi?\n3. Isingit ang bawat pagpipilian at basahin muli.\n4. Piliin ang sagot na lohikal at tugma sa buong pangungusap.\n\nMadalas, **pang-ugnay** ang hinihingi: salitang nag-uugnay sa dalawang bahagi ng pangungusap.\n\n| Pang-ugnay | Ugnayan | Halimbawa |\n| --- | --- | --- |\n| dahil, sapagkat | sanhi (dahilan) | Hindi siya pumasok dahil maysakit siya. |\n| kaya | bunga (resulta) | Maysakit siya kaya hindi siya pumasok. |\n| ngunit, pero | pagsalungat | Maysakit siya ngunit pumasok pa rin. |\n| upang, para | layunin | Nag-ipon siya upang makabili ng bahay. |\n| habang | sabay na kilos | Nakikinig siya habang nagsusulat. |\n\nAng **sa kabila ng** ay sinusundan ng hadlang: \"Sa kabila ng ulan, natuloy ang palaro.\""
+    },
+    {
+      "heading": "Ang tatlong aspekto ng pandiwa",
+      "body": "Ang **aspekto** ay nagsasabi kung ang kilos ay tapos na, ginagawa pa, o gagawin pa lamang. Ang **hudyat ng panahon** ay salitang nagsasabi kung kailan nangyari ang kilos.\n\n| Aspekto | Kahulugan | Hudyat | mag- | -um- |\n| --- | --- | --- | --- | --- |\n| **Perpektibo** | tapos na | kahapon, noong Lunes | naglinis | sumulat |\n| **Imperpektibo** | ginagawa pa o paulit-ulit | araw-araw, tuwing umaga | naglilinis | sumusulat |\n| **Kontemplatibo** | gagawin pa lamang | bukas, sa susunod na buwan | maglilinis | susulat |\n\nPaano binubuo:\n\n- **Perpektibo:** ang *mag-* ay nagiging *nag-*; nananatili ang *-um-*. Walang inuulit na pantig.\n- **Imperpektibo:** may *nag-* o *-um-*, at inuulit ang unang pantig ng salitang-ugat (nag-li-linis, su-mu-sulat).\n- **Kontemplatibo:** nananatili ang *mag-*, nawawala ang *-um-*, at inuulit ang unang pantig (mag-li-linis, su-sulat).\n\nAng *maglinis* ay **pawatas**, ang batayang anyo na walang aspekto. Ang *kalilinis* naman ay anyong katatapos, para sa kilos na kagagawa lamang.\n\n**Paraan: Hanapin ang hudyat ng panahon, saka itugma ang aspekto.**"
+    },
+    {
+      "heading": "Mga karaniwang patibong",
+      "body": "- **Hindi binasa hanggang dulo.** Ang \"pa rin\" o \"hindi\" ay maaaring magbago ng sagot.\n- **Nabaligtad ang sanhi at bunga.** Ang *dahil* ay nagpapakilala ng sanhi; ang *kaya* ay nagpapakilala ng bunga.\n- **Nakaligtaan ang \"Hindi\".** Binabaligtad nito ang kahulugan ng salita sa patlang.\n- **\"Kanina pa\" at \"hanggang ngayon\".** Nagsimula na ngunit hindi pa tapos ang kilos, kaya imperpektibo ang angkop, hindi perpektibo.\n- **Ang \"araw-araw\" ay hindi nangangahulugang tapos na.** Paulit-ulit na kilos ito, kaya imperpektibo.\n- **Pawatas sa halip na kontemplatibo.** Walang aspekto ang *maglinis*; ang *maglilinis* ang para sa kilos na gagawin pa lamang."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Patlang",
+      "definition": "Ang puwang (___) sa pangungusap na kailangang punan ng tamang salita.",
+      "taglish": "Patlang – blank; yung space na pupunan mo"
+    },
+    {
+      "term": "Pang-ugnay",
+      "definition": "Salitang nag-uugnay sa dalawang bahagi ng pangungusap, gaya ng kaya, dahil at ngunit.",
+      "taglish": "Pang-ugnay – connector o conjunction, like kaya (so) at ngunit (but)"
+    },
+    {
+      "term": "Pandiwa",
+      "definition": "Salitang nagsasaad ng kilos o galaw, gaya ng sumulat at maglinis.",
+      "taglish": "Pandiwa – verb; action word"
+    },
+    {
+      "term": "Aspekto",
+      "definition": "Anyo ng pandiwa na nagsasabi kung tapos na, ginagawa pa, o gagawin pa lamang ang kilos.",
+      "taglish": "Aspekto – parang tense sa English; kung tapos na, ongoing, o gagawin pa lang"
+    },
+    {
+      "term": "Perpektibo",
+      "definition": "Aspekto ng pandiwa para sa kilos na tapos na, gaya ng naglinis.",
+      "taglish": "Perpektibo – tapos na, e.g. naglinis (cleaned)"
+    },
+    {
+      "term": "Imperpektibo",
+      "definition": "Aspekto ng pandiwa para sa kilos na ginagawa pa o paulit-ulit na ginagawa, gaya ng naglilinis.",
+      "taglish": "Imperpektibo – ongoing o habitual, e.g. naglilinis (is cleaning / cleans)"
+    },
+    {
+      "term": "Kontemplatibo",
+      "definition": "Aspekto ng pandiwa para sa kilos na gagawin pa lamang, gaya ng maglilinis.",
+      "taglish": "Kontemplatibo – gagawin pa lang, e.g. maglilinis (will clean)"
+    },
+    {
+      "term": "Pawatas",
+      "definition": "Ang batayang anyo ng pandiwa na walang aspekto, gaya ng maglinis.",
+      "taglish": "Pawatas – base form o infinitive; walang sinasabing oras"
+    }
+  ]
+}

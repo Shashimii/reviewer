@@ -1,0 +1,46 @@
+{
+  "id": "vfil-wg-0003",
+  "topicId": "vfil-wastong-gamit",
+  "skill": "vfil-wg-ng-nang",
+  "difficulty": 2,
+  "stem": "Alin ang may mali sa pangungusap? Kung wala, piliin ang 'Walang mali'.\n\nNang malaman ng kapitan ang problema sa tubig, sumulat siya nang liham sa munisipyo.",
+  "choices": [
+    "Nang malaman",
+    "ng kapitan",
+    "nang liham",
+    "Walang mali"
+  ],
+  "answer": "nang liham",
+  "hints": [
+    "May tatlong 'ng' o 'nang' sa pangungusap. Suriin ang bawat isa.",
+    "Sa 'Nang malaman', palitan ang 'Nang' ng 'Noong'. May diwa pa ba ang pangungusap?",
+    "Bago ang bagay na tumatanggap ng kilos, 'ng'. Kung sinasabi kung sino ang gumawa ng kilos, 'ng' din. Kung napapalitan ng 'noong' o 'upang', 'nang'. Hanapin ang hindi sumusunod dito."
+  ],
+  "solution": {
+    "methodName": "Palitan ng 'noong' o 'upang', saka tingnan ang kasunod",
+    "steps": [
+      {
+        "action": "'Nang malaman': palitan ng 'Noong': 'Noong malaman ng kapitan ang problema'. May diwa pa rin, kaya tama ang 'Nang'."
+      },
+      {
+        "action": "'ng kapitan': ang kapitan ang nakaalam, siya ang gumawa ng kilos. Tama ang 'ng'.",
+        "why": "Kapag sinasabi kung sino ang gumawa ng kilos pagkatapos ng salitang kilos, 'ng' ang ginagamit, gaya ng 'binasa ng guro'."
+      },
+      {
+        "action": "'nang liham': ang 'liham' ay pangngalan, ang bagay na isinulat. Dapat 'ng liham'.",
+        "why": "Hindi ito napapalitan ng 'noong' o 'upang', at hindi rin ito paraan ng kilos. Bagay ito, kaya 'ng'."
+      },
+      {
+        "action": "Ang mali ay 'nang liham'. Ang wasto: 'sumulat siya ng liham sa munisipyo'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Nang malaman": "Maaaring isiping mali dahil mahaba ang 'Nang'. Pero dito, nangangahulugan itong 'Noong', kaya tama ang 'Nang'.",
+    "ng kapitan": "Tama ang 'ng' dito. Sinasabi nito kung sino ang nakaalam, ang gumawa ng kilos. Hindi ito panahon o paraan, kaya hindi 'nang'.",
+    "Walang mali": "May isang mali. Ang 'liham' ay bagay na isinulat, kaya 'ng liham' ang tama, hindi 'nang liham'."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

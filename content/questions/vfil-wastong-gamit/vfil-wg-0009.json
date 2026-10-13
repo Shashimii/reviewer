@@ -1,0 +1,48 @@
+{
+  "id": "vfil-wg-0009",
+  "topicId": "vfil-wastong-gamit",
+  "skill": "vfil-wg-may-mayroon",
+  "difficulty": 2,
+  "stem": "Alin ang wastong pangungusap?",
+  "choices": [
+    "May siyang bagong trabaho sa munisipyo.",
+    "Mayroon kaming pulong tuwing Lunes.",
+    "May pa bang bakanteng upuan sa harap?",
+    "May nga palang sulat para sa iyo."
+  ],
+  "answer": "Mayroon kaming pulong tuwing Lunes.",
+  "hints": [
+    "Tingnan ang salitang kasunod mismo ng 'may' o 'mayroon' sa bawat pangungusap.",
+    "Panghalip panao ang 'siya' at 'kami'. Kataga ang 'pa' at 'nga'.",
+    "Hindi puwedeng sundan agad ng panghalip panao o kataga ang 'may'; 'mayroon' ang ginagamit sa mga iyon. Hanapin ang pangungusap na sumusunod dito."
+  ],
+  "solution": {
+    "methodName": "Tingnan ang salitang kasunod mismo ng may o mayroon",
+    "steps": [
+      {
+        "action": "Una: 'May siyang'. Panghalip panao ang 'siya', kaya dapat 'Mayroon siyang bagong trabaho' o 'May bagong trabaho siya'. Mali ito."
+      },
+      {
+        "action": "Ikalawa: 'Mayroon kaming'. Panghalip panao ang 'kami', kaya tama ang 'mayroon'."
+      },
+      {
+        "action": "Ikatlo: 'May pa bang'. Kataga ang 'pa', kaya dapat 'Mayroon pa bang bakanteng upuan'. Mali ito.",
+        "why": "Ang kataga ay maikling salita gaya ng ba, pa, din, nga at naman. Hindi ito puwedeng isunod agad sa 'may'."
+      },
+      {
+        "action": "Ikaapat: 'May nga palang'. Kataga ang 'nga', kaya dapat 'Mayroon nga palang sulat'. Mali ito."
+      },
+      {
+        "action": "Ang wastong pangungusap ay 'Mayroon kaming pulong tuwing Lunes.'"
+      }
+    ]
+  },
+  "trapNotes": {
+    "May siyang bagong trabaho sa munisipyo.": "Ang 'may' ay sinusundan ng pangngalan, salitang kilos o salitang naglalarawan. Panghalip panao ang 'siya', kaya 'Mayroon siyang bagong trabaho' ang tama.",
+    "May pa bang bakanteng upuan sa harap?": "Kataga ang 'pa', at hindi ito puwedeng isunod agad sa 'may'. Ang tama: 'Mayroon pa bang bakanteng upuan sa harap?'",
+    "May nga palang sulat para sa iyo.": "Kataga ang 'nga', at hindi ito puwedeng isunod agad sa 'may'. Ang tama: 'Mayroon nga palang sulat para sa iyo.'"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

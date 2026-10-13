@@ -1,0 +1,46 @@
+{
+  "id": "vfil-tal-0005",
+  "topicId": "vfil-talasalitaan",
+  "skill": "vfil-tal-kasalungat",
+  "difficulty": 1,
+  "stem": "Mabagal ang usad ng mga sasakyan sa EDSA tuwing umaga.\n\nAno ang kasalungat ng salitang \"mabagal\"?",
+  "choices": [
+    "mabilis",
+    "makupad",
+    "marahan",
+    "matagal"
+  ],
+  "answer": "mabilis",
+  "hints": [
+    "Ang kasalungat ay salitang may kabaligtarang kahulugan. Hindi ang kapareho ang hinahanap.",
+    "Alamin muna ang kahulugan ng \"mabagal\": kumikilos nang dahan-dahan.",
+    "Tanggalin ang mga pagpipiliang may parehong kahulugan ng \"mabagal\". Sa mga natitira, piliin ang tunay na kabaligtaran ng dahan-dahang pagkilos."
+  ],
+  "solution": {
+    "methodName": "Alamin ang kahulugan, saka hanapin ang kabaligtaran",
+    "steps": [
+      {
+        "action": "Alamin ang kahulugan ng \"mabagal\": kumikilos nang dahan-dahan."
+      },
+      {
+        "action": "Tanggalin ang mga kasingkahulugan: ang \"makupad\" at \"marahan\" ay parehong nangangahulugang dahan-dahan.",
+        "why": "Kabaligtaran ang hinahanap, kaya hindi puwede ang mga salitang kapareho ang kahulugan."
+      },
+      {
+        "action": "Isipin ang kabaligtaran ng dahan-dahang pagkilos: ang matulin na pagkilos.",
+        "why": "Ang \"matagal\" ay tungkol sa haba ng oras, hindi sa bilis ng pagkilos."
+      },
+      {
+        "action": "Ang kasalungat ng \"mabagal\" ay \"mabilis\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "makupad": "Kasingkahulugan ito ng \"mabagal\", hindi kasalungat. Basahing mabuti kung kasingkahulugan o kasalungat ang hinihingi.",
+    "marahan": "Ang marahan ay dahan-dahan o hindi biglaan, kaya halos kapareho ito ng \"mabagal\". Kasalungat ang hinahanap.",
+    "matagal": "Tungkol ito sa haba ng panahon, hindi sa bilis ng pagkilos. Kapag mabagal ang usad, kadalasan ay matagal ang biyahe, kaya magkaugnay pa nga ang dalawa. Hindi sila magkasalungat."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

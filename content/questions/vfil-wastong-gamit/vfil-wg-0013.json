@@ -1,0 +1,45 @@
+{
+  "id": "vfil-wg-0013",
+  "topicId": "vfil-wastong-gamit",
+  "skill": "vfil-wg-iba",
+  "difficulty": 2,
+  "stem": "Alin ang may mali sa pangungusap? Kung wala, piliin ang 'Walang mali'.\n\nBiglang umulan nang pauwi na si Nilo, kaya nang hiram siya ng payong sa guwardiya.",
+  "choices": [
+    "nang pauwi na",
+    "nang hiram siya",
+    "ng payong",
+    "Walang mali"
+  ],
+  "answer": "nang hiram siya",
+  "hints": [
+    "May dalawang 'nang' sa pangungusap. Hindi pareho ang gamit nila.",
+    "Sa 'nang pauwi na', palitan ang 'nang' ng 'noong'. Sa 'nang hiram', tingnan kung bahagi ba ito ng iisang salitang kilos.",
+    "Ang salitang 'nang' ay napapalitan ng 'noong' o 'upang'. Ang 'nang-' naman ay unlapi na idinidikit sa salitang-ugat para maging salitang kilos. Hanapin ang maling pagkakasulat."
+  ],
+  "solution": {
+    "methodName": "Ihiwalay ang salitang 'nang' sa unlaping 'nang-'",
+    "steps": [
+      {
+        "action": "'nang pauwi na': palitan ng 'noong': 'noong pauwi na si Nilo'. May diwa pa rin, kaya tama ang 'nang'."
+      },
+      {
+        "action": "'nang hiram siya': hindi ito napapalitan ng 'noong' o 'upang'. Ang tinutukoy ay ang kilos na 'nanghiram', ibig sabihin ay humiram.",
+        "why": "Unlapi rito ang 'nang-'. Ang unlapi ay bahaging idinadagdag sa unahan ng salitang-ugat ('hiram'), kaya laging idinidikit: 'nanghiram'."
+      },
+      {
+        "action": "'ng payong': ang 'payong' ay bagay na hiniram. Tama ang 'ng'."
+      },
+      {
+        "action": "Ang mali ay 'nang hiram siya'. Ang wasto: 'kaya nanghiram siya ng payong sa guwardiya'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "nang pauwi na": "Tama ito. Ang 'nang' dito ay nangangahulugang 'noong': noong pauwi na si Nilo.",
+    "ng payong": "Tama ito. Ang 'payong' ay bagay na hiniram, kaya 'ng' ang nauuna rito.",
+    "Walang mali": "May isang mali. Dapat isulat nang magkadikit ang 'nanghiram', dahil unlapi ang 'nang-' at hindi hiwalay na salita."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

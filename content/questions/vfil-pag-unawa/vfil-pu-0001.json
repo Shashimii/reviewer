@@ -1,0 +1,56 @@
+{
+  "id": "vfil-pu-0001",
+  "topicId": "vfil-pag-unawa",
+  "skill": "vfil-pu-pangunahin",
+  "difficulty": 1,
+  "passage": "Noong nakaraang buwan, binaha ang Barangay Dalisay matapos ang tatlong araw na malakas na ulan. Pagkahupa ng tubig, hindi na hinintay ng mga residente ang tulong mula sa munisipyo. Kinabukasan, nagtipon sila sa plaza dala ang kani-kanilang pala, walis at timba. Ang mga kalalakihan ang naghakot ng putik at basura mula sa mga kanal. Ang mga kababaihan naman ang naglinis ng kapilya at ng paaralan. Maging ang mga kabataan ay tumulong sa pagpapatuyo ng mga nabasang aklat ng aklatan ng barangay. Sa loob lamang ng dalawang araw, malinis na muli ang buong barangay. Ayon sa kapitan, ang pagtutulungang ito ang pinakamahalagang yaman ng kanilang pamayanan.",
+  "stem": "Ano ang pangunahing ideya ng talata?",
+  "choices": [
+    "Tatlong araw na umulan nang malakas sa Barangay Dalisay.",
+    "Nagtulungan ang mga residente sa paglilinis ng barangay matapos ang baha.",
+    "Ang mga kabataan ang nagpatuyo ng mga aklat ng aklatan.",
+    "Mabagal dumating ang tulong ng munisipyo tuwing may baha."
+  ],
+  "answer": "Nagtulungan ang mga residente sa paglilinis ng barangay matapos ang baha.",
+  "hints": [
+    "Ang pangunahing ideya ay ang sinasabi ng buong talata, hindi ng iisang pangungusap lamang.",
+    "Itanong: tungkol saan ang karamihan sa mga pangungusap? Ano ang ginagawa ng mga tao sa talata?",
+    "Itapon ang mga pagpipiliang isang detalye lamang, at ang mga pagpipiliang hindi sinabi ng talata. Piliin ang pahayag na sumasaklaw sa ginawa ng mga kalalakihan, kababaihan at kabataan."
+  ],
+  "solution": {
+    "methodName": "Itanong: tungkol saan ang buong talata?",
+    "steps": [
+      {
+        "action": "Basahin ang talata at itanong: tungkol saan ang karamihan sa mga pangungusap?",
+        "why": "Ang pangunahing ideya ay ang pinakamahalagang punto ng talata. Ito ang ideyang sinusuportahan ng halos lahat ng pangungusap."
+      },
+      {
+        "action": "Pansinin na halos lahat ng pangungusap ay tungkol sa paglilinis: naghakot ang mga kalalakihan, naglinis ang mga kababaihan, at tumulong ang mga kabataan.",
+        "why": "Kapag maraming pangungusap ang tungkol sa iisang bagay, malamang na iyon ang pangunahing ideya."
+      },
+      {
+        "action": "Pansinin ang huling pangungusap: ayon sa kapitan, ang pagtutulungan ang pinakamahalagang yaman nila.",
+        "why": "Kadalasang inuulit o binubuod ng huling pangungusap ang pangunahing ideya."
+      },
+      {
+        "action": "Itapon ang mga detalye: ang tatlong araw na ulan at ang pagpapatuyo ng mga aklat ay bahagi lamang ng kuwento.",
+        "why": "Ang detalye ay tiyak na impormasyong sumusuporta sa pangunahing ideya. Totoo ito, pero maliit na bahagi lamang."
+      },
+      {
+        "action": "Itapon ang tungkol sa mabagal na tulong ng munisipyo.",
+        "why": "Sinabi lamang ng talata na hindi na naghintay ang mga residente. Hindi nito sinabing mabagal ang munisipyo."
+      },
+      {
+        "action": "Ang pangunahing ideya ay \"Nagtulungan ang mga residente sa paglilinis ng barangay matapos ang baha.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Tatlong araw na umulan nang malakas sa Barangay Dalisay.": "Nasa unang pangungusap ito, kaya madaling piliin. Pero ito lamang ang dahilan ng baha. Ang karamihan sa talata ay tungkol sa paglilinis ng mga residente.",
+    "Ang mga kabataan ang nagpatuyo ng mga aklat ng aklatan.": "Totoo ito ayon sa talata, pero isang detalye lamang. Hindi nito saklaw ang ginawa ng mga kalalakihan at kababaihan.",
+    "Mabagal dumating ang tulong ng munisipyo tuwing may baha.": "Nabanggit ang munisipyo, kaya maaaring akalaing ito ang punto. Pero ang sinabi lamang ay hindi na naghintay ang mga residente. Walang sinabing mabagal ang munisipyo."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

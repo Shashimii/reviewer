@@ -1,0 +1,47 @@
+{
+  "id": "vfil-pu-0002",
+  "topicId": "vfil-pag-unawa",
+  "skill": "vfil-pu-detalye",
+  "difficulty": 1,
+  "passage": "Noong nakaraang buwan, binaha ang Barangay Dalisay matapos ang tatlong araw na malakas na ulan. Pagkahupa ng tubig, hindi na hinintay ng mga residente ang tulong mula sa munisipyo. Kinabukasan, nagtipon sila sa plaza dala ang kani-kanilang pala, walis at timba. Ang mga kalalakihan ang naghakot ng putik at basura mula sa mga kanal. Ang mga kababaihan naman ang naglinis ng kapilya at ng paaralan. Maging ang mga kabataan ay tumulong sa pagpapatuyo ng mga nabasang aklat ng aklatan ng barangay. Sa loob lamang ng dalawang araw, malinis na muli ang buong barangay. Ayon sa kapitan, ang pagtutulungang ito ang pinakamahalagang yaman ng kanilang pamayanan.",
+  "stem": "Ayon sa talata, sino ang naglinis ng kapilya at ng paaralan?",
+  "choices": [
+    "Ang mga kalalakihan",
+    "Ang kapitan ng barangay",
+    "Ang mga kababaihan",
+    "Ang mga kabataan"
+  ],
+  "answer": "Ang mga kababaihan",
+  "hints": [
+    "Tanong ito tungkol sa isang tiyak na detalye. Nakasulat mismo sa talata ang sagot.",
+    "Hanapin sa talata ang mga susing salitang \"kapilya\" at \"paaralan.\"",
+    "Basahin muli ang buong pangungusap na may \"kapilya\" at \"paaralan.\" Tingnan kung sino ang gumawa ng kilos sa pangungusap na iyon, at huwag itong ipagkamali sa gumawa sa ibang pangungusap."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang susing salita, saka balikan ang talata",
+    "steps": [
+      {
+        "action": "Tukuyin ang susing salita sa tanong: \"kapilya\" at \"paaralan.\"",
+        "why": "Ang susing salita ay tiyak na salita sa tanong na madaling hanapin sa talata."
+      },
+      {
+        "action": "Hanapin ito sa talata: \"Ang mga kababaihan naman ang naglinis ng kapilya at ng paaralan.\""
+      },
+      {
+        "action": "Tiyakin kung sino ang gumawa: ang mga kababaihan.",
+        "why": "Ang \"naman\" ay nagpapakitang iba ang grupong ito sa naunang binanggit, ang mga kalalakihang naghakot ng putik."
+      },
+      {
+        "action": "Ang sagot ay \"Ang mga kababaihan.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Ang mga kalalakihan": "Nasa katabing pangungusap ang mga kalalakihan, kaya madaling malito. Pero sila ang naghakot ng putik at basura mula sa mga kanal.",
+    "Ang kapitan ng barangay": "Nabanggit ang kapitan sa huling pangungusap, pero nagbigay lamang siya ng pahayag tungkol sa pagtutulungan. Walang sinabing naglinis siya ng kapilya.",
+    "Ang mga kabataan": "Tumulong din ang mga kabataan, pero sa pagpapatuyo ng mga nabasang aklat, hindi sa paglilinis ng kapilya at paaralan."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

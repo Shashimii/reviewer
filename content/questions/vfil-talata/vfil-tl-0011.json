@@ -1,0 +1,51 @@
+{
+  "id": "vfil-tl-0011",
+  "topicId": "vfil-talata",
+  "skill": "vfil-tl-paksa",
+  "difficulty": 2,
+  "passage": "Tuwing tag-ulan, bumabaha sa mababang bahagi ng aming bayan. Kapag tag-init naman, natutuyo ang mga balon at nagbibitak-bitak ang lupa ng palayan. Mas madalas na rin ang malalakas na bagyo kaysa dati. Ilang magsasaka na ang lumipat sa ibang hanapbuhay dahil sa sunod-sunod na pagkasira ng ani. Ramdam na sa aming bayan ang epekto ng pagbabago ng klima. Kaya nagtatanim na ng mga puno at nag-iipon ng tubig-ulan ang mga residente.",
+  "stem": "Alin ang paksang pangungusap ng talata?",
+  "choices": [
+    "Tuwing tag-ulan, bumabaha sa mababang bahagi ng aming bayan.",
+    "Ramdam na sa aming bayan ang epekto ng pagbabago ng klima.",
+    "Mas madalas na rin ang malalakas na bagyo kaysa dati.",
+    "Kaya nagtatanim na ng mga puno at nag-iipon ng tubig-ulan ang mga residente."
+  ],
+  "answer": "Ramdam na sa aming bayan ang epekto ng pagbabago ng klima.",
+  "hints": [
+    "Hindi laging nasa simula ang paksang pangungusap. Maaari itong nasa gitna o malapit sa dulo.",
+    "Ilista kung ano ang sinasabi ng bawat pangungusap: baha, tagtuyot, bagyo, mga magsasakang lumipat ng hanapbuhay. Anong mas malawak na ideya ang nagbubuklod sa mga ito?",
+    "Hanapin ang pangungusap na nagsasabi ng malawak na ideyang iyon. Ang pangungusap na nagsisimula sa \"Kaya\" ay bunga o tugon, hindi ang pangunahing ideya."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang pangungusap na sumasaklaw sa lahat",
+    "steps": [
+      {
+        "action": "Tukuyin ang mga detalye: baha tuwing tag-ulan, tuyong balon at palayan tuwing tag-init, mas madalas na bagyo, at mga magsasakang lumipat ng hanapbuhay."
+      },
+      {
+        "action": "Itanong kung ano ang nagbubuklod sa mga ito: lahat ay epekto ng pagbabago ng klima.",
+        "why": "Ang \"pagbabago ng klima\" ay ang pangmatagalang pag-iiba ng karaniwang panahon sa isang lugar, gaya ng mas matinding init, ulan at bagyo."
+      },
+      {
+        "action": "Hanapin ang pangungusap na nagsasabi nito: \"Ramdam na sa aming bayan ang epekto ng pagbabago ng klima.\"",
+        "why": "Ito ang pangkalahatang pahayag. Ang mga naunang pangungusap ay mga halimbawa ng \"epekto\" na tinutukoy nito."
+      },
+      {
+        "action": "Suriin ang pangungusap na may \"Kaya.\" Tugon ito ng mga residente sa problema, hindi ang problema mismo.",
+        "why": "Ang \"Kaya\" ay nagpapakilala ng bunga. Bahagi ito ng talata, pero hindi ito ang ideyang sinusuportahan ng ibang pangungusap."
+      },
+      {
+        "action": "Ang paksang pangungusap ay \"Ramdam na sa aming bayan ang epekto ng pagbabago ng klima.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Tuwing tag-ulan, bumabaha sa mababang bahagi ng aming bayan.": "Pinili ito dahil ito ang unang pangungusap. Pero hindi laging nasa simula ang paksang pangungusap. Isang epekto lamang ang baha, kaya isa itong detalye.",
+    "Mas madalas na rin ang malalakas na bagyo kaysa dati.": "Isa lamang itong halimbawa ng epekto. Ang \"rin\" ay nagpapakitang dagdag ito sa mga naunang halimbawa, kaya detalye ito.",
+    "Kaya nagtatanim na ng mga puno at nag-iipon ng tubig-ulan ang mga residente.": "Pinili ito dahil nasa dulo at may \"Kaya,\" kaya mukhang buod. Pero ang \"Kaya\" ay nagpapakilala ng tugon ng mga residente. Hindi ito ang ideyang ipinaliliwanag ng baha, tagtuyot at bagyo."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

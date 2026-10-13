@@ -1,0 +1,49 @@
+{
+  "id": "vfil-pb-0013",
+  "topicId": "vfil-pangungusap",
+  "skill": "vfil-pb-anyo",
+  "difficulty": 3,
+  "stem": "Kanina pa ___ ang mga aplikante sa labas ng opisina, at hanggang ngayon ay hindi pa sila natatawag.\n\nAling anyo ng pandiwa ang angkop sa patlang?",
+  "choices": [
+    "naghintay",
+    "naghihintay",
+    "maghihintay",
+    "maghintay"
+  ],
+  "answer": "naghihintay",
+  "hints": [
+    "May dalawang hudyat ng panahon sa pangungusap. Hanapin ang dalawa.",
+    "Ang \"Kanina pa\" ay nagsasabing nagsimula na ang kilos. Ang \"hanggang ngayon\" ay nagsasabing hindi pa ito tapos.",
+    "Ang kilos na nagsimula na ngunit nagpapatuloy pa ay nasa aspektong imperpektibo. Huwag tumigil sa salitang \"Kanina\"; basahin ang buong pangungusap."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang hudyat ng panahon, saka itugma ang aspekto",
+    "steps": [
+      {
+        "action": "Hanapin ang mga hudyat ng panahon: \"Kanina pa\" at \"hanggang ngayon\".",
+        "why": "Huwag tumigil sa unang hudyat. Kailangang basahin ang buong pangungusap."
+      },
+      {
+        "action": "Ang \"Kanina pa\" ay nagsasabing nagsimula na ang paghihintay sa nakaraan."
+      },
+      {
+        "action": "Ang \"hanggang ngayon ay hindi pa sila natatawag\" ay nagsasabing hindi pa tapos ang paghihintay."
+      },
+      {
+        "action": "Nagsimula na ngunit hindi pa tapos: ito ang aspektong imperpektibo. Ang imperpektibo ng \"maghintay\" ay \"naghihintay\".",
+        "why": "Ang \"nag-\" ay nagsasabing nasimulan na ang kilos; ang inulit na \"hi\" ay nagsasabing nagpapatuloy pa ito."
+      },
+      {
+        "action": "Ang angkop na anyo ay \"naghihintay\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "naghintay": "Ito ang pinakakaraniwang patibong dahil sa salitang \"Kanina\". Ngunit sinasabi ng \"hanggang ngayon\" na hindi pa tapos ang paghihintay, kaya hindi perpektibo ang angkop.",
+    "maghihintay": "Kontemplatibo ito, para sa kilos na hindi pa nagsisimula. Nagsimula na ang paghihintay \"kanina pa\".",
+    "maghintay": "Ito ang pawatas, ang anyong walang aspekto. Hindi nito naipapakita na nagsimula na at nagpapatuloy pa ang kilos."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

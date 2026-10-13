@@ -1,0 +1,46 @@
+{
+  "id": "vfil-wg-0010",
+  "topicId": "vfil-wastong-gamit",
+  "skill": "vfil-wg-may-mayroon",
+  "difficulty": 3,
+  "stem": "Alin ang may mali sa pangungusap? Kung wala, piliin ang 'Walang mali'.\n\nPag-uwi ni Ana, may dala siyang pasalubong at may din siyang regalo para sa bunso.",
+  "choices": [
+    "Pag-uwi ni Ana",
+    "may dala siyang",
+    "may din siyang",
+    "Walang mali"
+  ],
+  "answer": "may din siyang",
+  "hints": [
+    "Dalawang beses lumabas ang 'may'. Tingnan ang salitang kasunod mismo ng bawat isa.",
+    "Sa una, ang kasunod ng 'may' ay 'dala'. Sa ikalawa, ang kasunod ay 'din'. Anong uri ng salita ang bawat isa?",
+    "Puwedeng sundan ang 'may' ng pangngalan, salitang kilos o salitang naglalarawan, kahit may panghalip pa sa bandang likod. Hindi ito puwedeng sundan agad ng kataga o panghalip panao. Hanapin ang hindi sumusunod dito."
+  ],
+  "solution": {
+    "methodName": "Tingnan ang salitang kasunod mismo ng may o mayroon",
+    "steps": [
+      {
+        "action": "'Pag-uwi ni Ana': sinasabi lang nito kung kailan nangyari. Tama ito."
+      },
+      {
+        "action": "'may dala siyang': ang kasunod mismo ng 'may' ay 'dala', ang bagay na bitbit. Hindi ito panghalip o kataga, kaya tama ang 'may'.",
+        "why": "Nasa likod ng 'dala' ang 'siya', hindi kasunod mismo ng 'may'. Ang salitang kasunod mismo lang ang tinitingnan."
+      },
+      {
+        "action": "'may din siyang': ang kasunod mismo ng 'may' ay 'din', isang kataga. Mali ito.",
+        "why": "Bago ang kataga, 'mayroon' ang ginagamit: 'mayroon din siyang regalo'."
+      },
+      {
+        "action": "Ang mali ay 'may din siyang'. Ang wasto: 'at mayroon din siyang regalo para sa bunso'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Pag-uwi ni Ana": "Tama ito. Sinasabi lang nito kung kailan nangyari, at tama ang 'ni' bago ang pangalang 'Ana'.",
+    "may dala siyang": "Maaaring isiping mali dahil may 'siya' pagkatapos ng 'may'. Pero ang kasunod mismo ng 'may' ay 'dala', hindi panghalip. Kaya tama ito.",
+    "Walang mali": "May isang mali. Kataga ang 'din', kaya 'mayroon din siyang' ang tama, hindi 'may din siyang'."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

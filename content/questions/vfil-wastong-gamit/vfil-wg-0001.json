@@ -1,0 +1,50 @@
+{
+  "id": "vfil-wg-0001",
+  "topicId": "vfil-wastong-gamit",
+  "skill": "vfil-wg-ng-nang",
+  "difficulty": 1,
+  "stem": "Punan ang mga patlang.\n\nBumili ___ gamot si Aling Rosa ___ magkasakit ang anak niya.",
+  "choices": [
+    "nang … ng",
+    "ng … ng",
+    "ng … nang",
+    "nang … nang"
+  ],
+  "answer": "ng … nang",
+  "hints": [
+    "May dalawang patlang. Tingnan ang kasunod ng bawat isa: isang bagay ba, o isang pangyayari?",
+    "Ang kasunod ng unang patlang ay 'gamot', isang pangngalan (ngalan ng bagay).",
+    "Bago ang pangngalan, 'ng' ang gamitin. Sa ikalawang patlang, palitan ito ng 'noong'. Kung may diwa pa rin ang pangungusap, 'nang' ang gamitin."
+  ],
+  "solution": {
+    "methodName": "Palitan ng 'noong' o 'upang', saka tingnan ang kasunod",
+    "steps": [
+      {
+        "action": "Tingnan ang kasunod ng unang patlang: 'gamot'. Pangngalan ito, ang ngalan ng bagay na binili.",
+        "why": "Ang pangngalan ay salitang tumutukoy sa tao, bagay, lugar o pangyayari. Bago ang bagay na tumatanggap ng kilos, 'ng' ang ginagamit: 'bumili ng gamot'."
+      },
+      {
+        "action": "Kaya 'ng' ang nasa unang patlang: 'Bumili ng gamot'."
+      },
+      {
+        "action": "Tingnan ang ikalawang patlang. Palitan ito ng 'noong': 'noong magkasakit ang anak niya'.",
+        "why": "May diwa pa rin: bumili si Aling Rosa sa panahong nagkasakit ang anak. Kapag napapalitan ng 'noong', 'nang' ang isinusulat."
+      },
+      {
+        "action": "Kaya 'nang' ang nasa ikalawang patlang: 'nang magkasakit ang anak niya'.",
+        "why": "Magkatunog ang 'ng' at 'nang', kaya ang gamit sa pangungusap ang titingnan, hindi ang tunog."
+      },
+      {
+        "action": "Ang sagot ay 'ng … nang': Bumili ng gamot si Aling Rosa nang magkasakit ang anak niya."
+      }
+    ]
+  },
+  "trapNotes": {
+    "nang … ng": "Baligtad ang dalawa. Pangngalan ang 'gamot', kaya 'ng' ang kasunod ng 'bumili'. Ang ikalawa naman ay napapalitan ng 'noong', kaya 'nang'.",
+    "ng … ng": "Tama ang una, pero ang ikalawang patlang ay nangangahulugang 'noong'. Kapag napapalitan ng 'noong', 'nang' ang isinusulat, hindi 'ng'.",
+    "nang … nang": "Tama ang ikalawa, pero mali ang una. Bago ang pangngalang 'gamot', 'ng' ang ginagamit: 'bumili ng gamot'."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,54 @@
+{
+  "id": "vfil-pu-0011",
+  "topicId": "vfil-pag-unawa",
+  "skill": "vfil-pu-pangunahin",
+  "difficulty": 3,
+  "passage": "Tuwing tag-araw, bumababa ang tubig sa mga dam, at may rasyon ng tubig sa ilang lungsod. Madalas, ang init ng panahon ang sinisisi natin dito. Ngunit may bahagi rin tayo sa problemang ito. Ang isang gripong tumutulo nang tuloy-tuloy ay maaaring makasayang ng ilang balde ng tubig sa isang araw. Malaki rin ang nasasayang kapag naghuhugas tayo ng sasakyan gamit ang hose na hinahayaang nakabukas. Kung isasara natin ang gripo habang nagsisipilyo, gagamit ng timba sa halip na hose, at aayusin agad ang mga tagas, makatitipid ng tubig ang bawat pamilya. Kapag ginawa ito ng maraming pamilya, malaki ang maitutulong nito upang tumagal ang suplay ng tubig sa buong tag-araw.",
+  "stem": "Ano ang pangunahing ideya ng talata?",
+  "choices": [
+    "Bumababa ang tubig sa mga dam tuwing tag-araw dahil sa init.",
+    "Nakasasayang ng ilang balde ng tubig ang isang tumutulong gripo.",
+    "Dapat magpatupad ng rasyon ng tubig ang bawat lungsod.",
+    "Makatutulong ang pagtitipid ng tubig sa bahay upang tumagal ang suplay."
+  ],
+  "answer": "Makatutulong ang pagtitipid ng tubig sa bahay upang tumagal ang suplay.",
+  "hints": [
+    "Hindi laging nasa unang pangungusap ang pangunahing ideya. Minsan, nagbabago ang direksiyon ng talata sa salitang \"Ngunit.\"",
+    "Pansinin ang \"Ngunit may bahagi rin tayo sa problemang ito.\" Ano ang pinag-uusapan ng talata mula roon hanggang sa dulo?",
+    "Panimula lamang ang unang dalawang pangungusap. Ang natitirang bahagi ay tungkol sa nasasayang na tubig sa bahay at sa magagawa ng bawat pamilya. Piliin ang pahayag na bumubuod sa bahaging iyon at sa pakinabang nito."
+  ],
+  "solution": {
+    "methodName": "Itanong: tungkol saan ang buong talata?",
+    "steps": [
+      {
+        "action": "Basahin ang simula: bumababa ang tubig sa dam, at ang init ang madalas sisihin.",
+        "why": "Panimula ito na naghahanda sa tunay na punto ng talata."
+      },
+      {
+        "action": "Pansinin ang \"Ngunit may bahagi rin tayo sa problemang ito.\"",
+        "why": "Ang \"Ngunit\" ay nagpapakita ng pagbabago ng direksiyon. Kadalasang kasunod nito ang tunay na punto ng manunulat."
+      },
+      {
+        "action": "Tingnan ang natitirang bahagi: tumutulong gripo, hose na nakabukas, mga paraan ng pagtitipid, at ang pakinabang kapag maraming pamilya ang gumawa nito."
+      },
+      {
+        "action": "Bumuo ng buod: kapag nagtipid ng tubig ang mga pamilya sa bahay, tatagal ang suplay.",
+        "why": "Ito ang ideyang sinusuportahan ng halos lahat ng pangungusap pagkatapos ng \"Ngunit.\""
+      },
+      {
+        "action": "Itapon ang iba. Panimula lamang ang tungkol sa init, at ayon pa sa talata, hindi lamang init ang dahilan. Isang detalye lamang ang tungkol sa gripo. Walang sinabing dapat magrasyon ang bawat lungsod."
+      },
+      {
+        "action": "Ang pangunahing ideya ay \"Makatutulong ang pagtitipid ng tubig sa bahay upang tumagal ang suplay.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Bumababa ang tubig sa mga dam tuwing tag-araw dahil sa init.": "Galing ito sa unang mga pangungusap, kaya madaling piliin. Pero panimula lamang iyon. Sinabi pa nga ng talata na hindi lamang init ang dahilan: \"may bahagi rin tayo sa problemang ito.\"",
+    "Nakasasayang ng ilang balde ng tubig ang isang tumutulong gripo.": "Totoo ito ayon sa talata, pero isang halimbawa lamang ng nasasayang na tubig. Hindi nito saklaw ang hose, ang mga paraan ng pagtitipid at ang pakinabang nito.",
+    "Dapat magpatupad ng rasyon ng tubig ang bawat lungsod.": "Nabanggit ang rasyon, pero bilang bahagi lamang ng problema sa simula. Walang sinabi ang talata na dapat itong gawin ng bawat lungsod."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

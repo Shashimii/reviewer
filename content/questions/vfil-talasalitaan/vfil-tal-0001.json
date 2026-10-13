@@ -1,0 +1,47 @@
+{
+  "id": "vfil-tal-0001",
+  "topicId": "vfil-talasalitaan",
+  "skill": "vfil-tal-kasingkahulugan",
+  "difficulty": 1,
+  "stem": "Si Liza ay isang masigasig na kawani ng munisipyo.\n\nAno ang kasingkahulugan ng salitang \"masigasig\"?",
+  "choices": [
+    "mayabang",
+    "masipag",
+    "maingay",
+    "mahiyain"
+  ],
+  "answer": "masipag",
+  "hints": [
+    "Ang kasingkahulugan ay salitang may parehong kahulugan. Isipin kung anong uri ng kawani ang \"masigasig\".",
+    "Palitan ang \"masigasig\" ng bawat pagpipilian, saka basahin muli ang pangungusap.",
+    "Piliin ang salitang hindi bumabago sa kahulugan ng pangungusap kapag ipinalit. Ang masigasig na tao ay patuloy na nagsisikap sa kanyang gawain."
+  ],
+  "solution": {
+    "methodName": "Palitan ang salita, saka basahin muli ang pangungusap",
+    "steps": [
+      {
+        "action": "Alamin ang kahulugan ng \"masigasig\": ang taong masigasig ay buong-pusong nagtatrabaho at hindi madaling sumuko.",
+        "why": "Kailangan munang malaman ang kahulugan ng salita bago maghanap ng kapareho nito."
+      },
+      {
+        "action": "Ipalit ang bawat pagpipilian sa pangungusap: \"Si Liza ay isang ___ na kawani ng munisipyo.\"",
+        "why": "Ang tamang kasingkahulugan ay hindi magbabago sa mensahe ng pangungusap."
+      },
+      {
+        "action": "Ang \"masipag\" ay may parehong kahulugan: taong laging nagsisikap sa trabaho.",
+        "why": "Nang ipalit ito, pareho pa rin ang sinasabi ng pangungusap tungkol kay Liza."
+      },
+      {
+        "action": "Ang kasingkahulugan ng \"masigasig\" ay \"masipag\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "mayabang": "Maaaring mapili ito dahil ugali rin ito ng tao. Ngunit ang mayabang ay mahilig magmalaki, hindi masipag sa gawain.",
+    "maingay": "Parehong nagsisimula sa \"ma-\" ang dalawang salita, kaya baka mapagkamalan. Ang maingay ay malakas ang boses o tunog, na walang kinalaman sa pagsisikap.",
+    "mahiyain": "Ugali rin ito ng tao, ngunit ang mahiyain ay madaling mahiya. Hindi ito tungkol sa sipag sa trabaho."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

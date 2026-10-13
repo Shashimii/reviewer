@@ -1,0 +1,46 @@
+{
+  "id": "vfil-pb-0002",
+  "topicId": "vfil-pangungusap",
+  "skill": "vfil-pb-salita",
+  "difficulty": 1,
+  "stem": "Nagdala si Lito ng payong ___ makulimlim ang langit kaninang umaga.\n\nAling salita ang angkop sa patlang?",
+  "choices": [
+    "dahil",
+    "kaya",
+    "ngunit",
+    "upang"
+  ],
+  "answer": "dahil",
+  "hints": [
+    "Bakit kaya nagdala ng payong si Lito? Hanapin ang dahilan sa pangungusap.",
+    "Ang makulimlim na langit ang dahilan; ang pagdadala ng payong ang resulta. Alin ang nauna sa pangungusap?",
+    "Nauna ang resulta at kasunod ang dahilan. Piliin ang pang-ugnay na nagpapakilala ng dahilan."
+  ],
+  "solution": {
+    "methodName": "Unawain ang buong pangungusap, saka isingit ang bawat sagot",
+    "steps": [
+      {
+        "action": "Basahin ang buong pangungusap at alamin ang ugnayan ng dalawang bahagi."
+      },
+      {
+        "action": "Ang \"makulimlim ang langit\" ang sanhi; ang pagdadala ng payong ang bunga.",
+        "why": "Nagdadala tayo ng payong kapag mukhang uulan, hindi ang kabaligtaran."
+      },
+      {
+        "action": "Nauna sa pangungusap ang bunga, kaya kailangan ng pang-ugnay na nagpapakilala ng sanhi: \"dahil\".",
+        "why": "Ang \"dahil\" ay sumasagot sa tanong na \"Bakit?\""
+      },
+      {
+        "action": "Ang angkop na salita ay \"dahil\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "kaya": "Nagpapakilala ng bunga ang \"kaya\". Kung ito ang gagamitin, lalabas na naging makulimlim ang langit dahil nagdala ng payong si Lito, na hindi lohikal.",
+    "ngunit": "Pagsalungat ang ipinapakita ng \"ngunit\". Walang pagsalungat sa pagdadala ng payong kapag makulimlim; magkatugma ang dalawa.",
+    "upang": "Ang \"upang\" ay nagpapakilala ng layunin. Hindi layunin ni Lito na maging makulimlim ang langit."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

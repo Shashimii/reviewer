@@ -1,0 +1,50 @@
+{
+  "id": "vfil-wg-0002",
+  "topicId": "vfil-wastong-gamit",
+  "skill": "vfil-wg-ng-nang",
+  "difficulty": 2,
+  "stem": "Alin ang wastong pangungusap?",
+  "choices": [
+    "Kumain nang tinapay ang mga bata sa kusina.",
+    "Tumakbo ng mabilis ang aso sa bakuran.",
+    "Umiyak ng umiyak ang sanggol kagabi.",
+    "Nagsalita nang malakas ang guro sa pulong."
+  ],
+  "answer": "Nagsalita nang malakas ang guro sa pulong.",
+  "hints": [
+    "Bawat pangungusap ay may 'ng' o 'nang'. Tingnan ang salitang kasunod nito.",
+    "Kung pangngalan (tao, bagay o lugar) ang kasunod, 'ng' ang tama. Kung sinasabi nito kung paano ginawa ang kilos, o kung inuulit ang salitang kilos, 'nang' ang tama.",
+    "Suriin ang apat. Alin ang may 'nang' bago ang isang bagay? Alin ang may 'ng' bago ang paraan, o sa pagitan ng inuulit na salita? Ang natitira ang wasto."
+  ],
+  "solution": {
+    "methodName": "Palitan ng 'noong' o 'upang', saka tingnan ang kasunod",
+    "steps": [
+      {
+        "action": "Una: 'Kumain nang tinapay'. Pangngalan ang 'tinapay', ang bagay na kinain. Dapat 'ng'. Mali ito.",
+        "why": "Bago ang pangngalang tumatanggap ng kilos, 'ng' ang ginagamit: 'kumain ng tinapay'."
+      },
+      {
+        "action": "Ikalawa: 'Tumakbo ng mabilis'. Sinasabi ng 'mabilis' kung paano tumakbo ang aso. Dapat 'nang'. Mali ito.",
+        "why": "Kapag sinasabi ang paraan ng kilos (paano ito ginawa), 'nang' ang ginagamit."
+      },
+      {
+        "action": "Ikatlo: 'Umiyak ng umiyak'. Inuulit ang salitang kilos na 'umiyak'. Dapat 'nang'. Mali ito.",
+        "why": "Sa pagitan ng inuulit na salita, 'nang' ang ginagamit: 'umiyak nang umiyak'."
+      },
+      {
+        "action": "Ikaapat: 'Nagsalita nang malakas'. Sinasabi ng 'malakas' kung paano nagsalita ang guro. Tama ang 'nang'."
+      },
+      {
+        "action": "Ang wastong pangungusap ay 'Nagsalita nang malakas ang guro sa pulong.'"
+      }
+    ]
+  },
+  "trapNotes": {
+    "Kumain nang tinapay ang mga bata sa kusina.": "Maaaring piliin dahil kasunod ito ng salitang kilos na 'kumain'. Pero ang 'tinapay' ay pangngalan, ang bagay na kinain. Bago ang pangngalan, 'ng' ang tama: 'Kumain ng tinapay'.",
+    "Tumakbo ng mabilis ang aso sa bakuran.": "Madalas itong maisulat dahil magkatunog ang 'ng' at 'nang'. Pero sinasabi ng 'mabilis' kung paano tumakbo ang aso, kaya 'nang' ang tama: 'Tumakbo nang mabilis'.",
+    "Umiyak ng umiyak ang sanggol kagabi.": "Inuulit ang salitang kilos na 'umiyak'. Sa pagitan ng inuulit na salita, 'nang' ang tama: 'Umiyak nang umiyak'."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

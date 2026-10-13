@@ -1,0 +1,51 @@
+{
+  "id": "vfil-pu-0009",
+  "topicId": "vfil-pag-unawa",
+  "skill": "vfil-pu-hinuha",
+  "difficulty": 2,
+  "passage": "Si Ana ay kawani sa tanggapan ng mga permit sa munisipyo. Isang hapon, may lalaking lumapit sa mesa niya para mag-aplay ng permit para sa isang bagong tindahan. Kulang pa ang mga dokumentong dala ng lalaki, kaya ipinaliwanag ni Ana kung ano pa ang kailangan. Bago umalis, palihim na iniabot ng lalaki ang isang sobre at bumulong, \"Para mapabilis lang po.\" Ngumiti si Ana at magalang na ibinalik ang sobre. \"Pare-pareho po ang proseso para sa lahat,\" sabi niya. \"Bumalik po kayo bukas dala ang kulang na papeles, at aasikasuhin ko agad.\" Kinabukasan, bumalik ang lalaki na kumpleto na ang mga dokumento. Sa loob ng isang oras, hawak na niya ang permit.",
+  "stem": "Batay sa talata, ano ang malamang na laman ng sobreng iniabot ng lalaki?",
+  "choices": [
+    "Perang pansuhol kay Ana",
+    "Ang kulang na mga dokumento",
+    "Isang liham ng pasasalamat",
+    "Ang opisyal na bayad sa permit"
+  ],
+  "answer": "Perang pansuhol kay Ana",
+  "hints": [
+    "Hindi sinabi nang tuwiran kung ano ang laman ng sobre. Gamitin ang mga palatandaan.",
+    "Pansinin kung paano iniabot ang sobre (\"palihim\") at kung ano ang ibinulong ng lalaki.",
+    "Pagdugtungin ang tatlong palatandaan: palihim na iniabot, \"Para mapabilis lang po,\" at ang sagot ni Ana na pare-pareho ang proseso para sa lahat. Itanong kung anong bagay ang ibibigay nang palihim para mauna sa iba."
+  ],
+  "solution": {
+    "methodName": "Pagdugtungin ang mga palatandaan sa talata",
+    "steps": [
+      {
+        "action": "Palatandaan 1: palihim na iniabot ang sobre.",
+        "why": "Ang ginagawa nang palihim ay karaniwang bagay na hindi dapat makita ng iba. Hindi itinatago ang opisyal na bayad o ang mga dokumento."
+      },
+      {
+        "action": "Palatandaan 2: \"Para mapabilis lang po.\" Gusto ng lalaki na mapadali ang permit niya kapalit ng laman ng sobre."
+      },
+      {
+        "action": "Palatandaan 3: ibinalik ni Ana ang sobre at sinabing \"Pare-pareho po ang proseso para sa lahat.\"",
+        "why": "Ipinakikita nitong tinanggihan niya ang alok na espesyal na pagtrato."
+      },
+      {
+        "action": "Pagdugtungin: ang ibinibigay nang palihim para mapabilis ang serbisyo ay suhol.",
+        "why": "Ang \"suhol\" ay pera o regalong ibinibigay para gumawa ang isang tao ng pabor na hindi dapat."
+      },
+      {
+        "action": "Ang sagot ay \"Perang pansuhol kay Ana.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Ang kulang na mga dokumento": "Kulang nga ang dokumento, pero bumalik pa ang lalaki kinabukasan para dalhin ang mga ito. Kung nasa sobre na ang mga ito, hindi na niya kailangang bumalik.",
+    "Isang liham ng pasasalamat": "Wala pang dapat ipagpasalamat dahil hindi pa naibibigay ang permit. Hindi rin kailangang itago o ibulong ang isang liham ng pasasalamat.",
+    "Ang opisyal na bayad sa permit": "Hindi ibinibigay nang palihim ang opisyal na bayad, at hindi ito ibabalik ni Ana nang may paliwanag na \"pare-pareho ang proseso.\" Ang \"Para mapabilis lang po\" ay nagpapakitang dagdag ito, hindi opisyal na bayad."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

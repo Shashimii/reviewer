@@ -1,0 +1,45 @@
+{
+  "id": "vfil-tal-0008",
+  "topicId": "vfil-talasalitaan",
+  "skill": "vfil-tal-konteksto",
+  "difficulty": 1,
+  "stem": "Hikahos sa buhay ang pamilya ni Mang Isko; madalas ay kulang ang kanilang pagkain at wala silang pambayad sa kuryente.\n\nAno ang kahulugan ng \"hikahos\" batay sa pangungusap?",
+  "choices": [
+    "maysakit",
+    "mahirap",
+    "malungkot",
+    "matanda"
+  ],
+  "answer": "mahirap",
+  "hints": [
+    "Basahin ang bahaging kasunod ng tuldok-kuwit (;). Ipinaliliwanag nito ang kalagayan ng pamilya.",
+    "Ano ang ipinahihiwatig ng kulang na pagkain at walang pambayad sa kuryente?",
+    "Ipalit ang bawat pagpipilian sa \"hikahos\". Piliin ang salitang tugma sa kakulangan sa pagkain at pera."
+  ],
+  "solution": {
+    "methodName": "Hanapin ang palatandaan, saka subukan ang bawat sagot",
+    "steps": [
+      {
+        "action": "Hanapin ang palatandaan: \"madalas ay kulang ang kanilang pagkain at wala silang pambayad sa kuryente.\"",
+        "why": "Ang bahaging kasunod ng tuldok-kuwit ay madalas nagpapaliwanag sa naunang bahagi."
+      },
+      {
+        "action": "Ang kulang na pagkain at walang pambayad ay tanda ng kakulangan sa pera."
+      },
+      {
+        "action": "Ipalit ang \"mahirap\": \"Mahirap sa buhay ang pamilya ni Mang Isko.\" Tugma ito sa palatandaan."
+      },
+      {
+        "action": "Ang \"hikahos\" ay nangangahulugang \"mahirap\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "maysakit": "Walang binanggit na sakit sa pangungusap. Ang palatandaan ay tungkol sa pagkain at pambayad, na tanda ng kakulangan sa pera.",
+    "malungkot": "Damdamin ang malungkot, ngunit hindi damdamin ang inilalarawan ng palatandaan. Ang inilalarawan ay kakulangan sa pera at pagkain.",
+    "matanda": "Edad ang tinutukoy ng matanda. Ang hikahos ay naglalarawan sa kalagayan ng buong pamilya, hindi sa edad ni Mang Isko."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

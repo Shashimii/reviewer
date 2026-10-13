@@ -1,0 +1,46 @@
+{
+  "id": "vfil-tal-0012",
+  "topicId": "vfil-talasalitaan",
+  "skill": "vfil-tal-sawikain",
+  "difficulty": 1,
+  "stem": "Ayon sa ilang matatanda sa barangay, may gatas pa sa labi si Nico kaya hindi pa siya dapat mamuno sa samahan.\n\nAno ang ibig sabihin ng sawikaing \"may gatas pa sa labi\"?",
+  "choices": [
+    "laging umiinom ng gatas sa umaga",
+    "bata pa at wala pang karanasan",
+    "madaldal at mahilig sumabad",
+    "malinis at maayos manamit"
+  ],
+  "answer": "bata pa at wala pang karanasan",
+  "hints": [
+    "Hindi literal ang sawikain. Hindi ito tungkol sa totoong gatas.",
+    "Isipin kung sino ang madalas may gatas sa labi: ang mga sanggol na umiinom pa ng gatas.",
+    "Iugnay ito sa palatandaan: \"hindi pa siya dapat mamuno.\" Anong katangian ang ipinahihiwatig ng pagiging parang sanggol pa?"
+  ],
+  "solution": {
+    "methodName": "Unawain ang buong sawikain, hindi ang bawat salita",
+    "steps": [
+      {
+        "action": "Tandaan na hindi literal ang kahulugan ng sawikain."
+      },
+      {
+        "action": "Isipin ang larawan: ang may gatas pa sa labi ay parang sanggol na umiinom pa ng gatas.",
+        "why": "Ang sanggol ay bata pa at wala pang alam sa maraming bagay."
+      },
+      {
+        "action": "Kaya ang \"may gatas pa sa labi\" ay ang taong bata pa at kulang pa sa karanasan.",
+        "why": "Tugma ito sa sinabi ng matatanda: hindi pa raw dapat mamuno si Nico."
+      },
+      {
+        "action": "Ang ibig sabihin ng sawikain ay \"bata pa at wala pang karanasan\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "laging umiinom ng gatas sa umaga": "Ito ang literal na pagbasa sa sawikain. May ibang kahulugan ang sawikain bukod sa sinasabi ng mga salita.",
+    "madaldal at mahilig sumabad": "Ginagamit ang labi sa pagsasalita, kaya baka maisip ito. Ngunit ang \"gatas\" ang susi: tumutukoy ito sa pagiging sanggol, hindi sa daldal.",
+    "malinis at maayos manamit": "Walang kinalaman sa itsura o pananamit ang sawikain. Ayaw siyang pamunuin dahil sa kanyang kakulangan sa karanasan."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}
