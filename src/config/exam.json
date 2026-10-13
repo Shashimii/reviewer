@@ -1,0 +1,56 @@
+{
+  "name": "Career Service Examination",
+  "level": "Professional",
+  "scoredItems": 150,
+  "unscoredItems": 20,
+  "timeLimitMinutes": 190,
+  "passingRating": 80,
+  "calculatorAllowed": false,
+  "source": {
+    "label": "CSC Examination Announcement No. 03, s. 2026",
+    "url": "https://csc.gov.ph/examination-advisories/examination-announcement-no-03-s-2026-conduct-of-career-service-examination-pen-and-paper-test-cse-ppt-for-professional-and-subprofessional-levels-09-august-2026"
+  },
+  "scope": [
+    {
+      "id": "verbal",
+      "name": "Verbal Ability",
+      "languages": "English and Filipino",
+      "topics": [
+        "Word meaning",
+        "Sentence completion",
+        "Error recognition",
+        "Sentence structure",
+        "Paragraph organization",
+        "Reading comprehension"
+      ]
+    },
+    {
+      "id": "numerical",
+      "name": "Numerical Ability",
+      "languages": "English",
+      "topics": ["Basic operations", "Number sequence", "Word problems"]
+    },
+    {
+      "id": "analytical",
+      "name": "Analytical Ability",
+      "languages": "English",
+      "topics": [
+        "Word analogy",
+        "Symbolic logic or abstract reasoning",
+        "Assumptions and conclusions",
+        "Data interpretation"
+      ]
+    },
+    {
+      "id": "general-information",
+      "name": "General Information",
+      "languages": "English",
+      "topics": [
+        "Philippine Constitution",
+        "RA 6713 (Code of Conduct)",
+        "Peace and human rights",
+        "Environment management and protection"
+      ]
+    }
+  ]
+}

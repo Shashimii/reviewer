@@ -1,0 +1,45 @@
+[
+  {
+    "id": "num-basic-operations",
+    "subjectId": "numerical",
+    "name": "Basic operations and order of operations",
+    "order": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "num-fractions-decimals-percent",
+    "subjectId": "numerical",
+    "name": "Fractions, decimals, percent",
+    "order": 2,
+    "prerequisites": []
+  },
+  {
+    "id": "num-ratio-proportion",
+    "subjectId": "numerical",
+    "name": "Ratio and proportion",
+    "order": 3,
+    "prerequisites": []
+  },
+  {
+    "id": "num-number-series",
+    "subjectId": "numerical",
+    "name": "Number series",
+    "order": 4,
+    "prerequisites": [],
+    "methodName": "Find the rule: check differences, then ratios"
+  },
+  {
+    "id": "num-averages",
+    "subjectId": "numerical",
+    "name": "Averages",
+    "order": 5,
+    "prerequisites": []
+  },
+  {
+    "id": "num-word-problems",
+    "subjectId": "numerical",
+    "name": "Word problems: age, work, distance–rate–time, mixture, profit and discount",
+    "order": 6,
+    "prerequisites": []
+  }
+]

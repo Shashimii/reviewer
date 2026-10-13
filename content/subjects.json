@@ -1,0 +1,8 @@
+[
+  { "id": "foundations", "name": "Foundations", "language": "en" },
+  { "id": "numerical", "name": "Numerical Ability", "language": "en" },
+  { "id": "verbal-en", "name": "Verbal Ability (English)", "language": "en" },
+  { "id": "verbal-fil", "name": "Verbal Ability (Filipino)", "language": "fil" },
+  { "id": "analytical", "name": "Analytical Ability", "language": "en" },
+  { "id": "gen-info", "name": "General Information", "language": "en", "requiresSource": true }
+]
