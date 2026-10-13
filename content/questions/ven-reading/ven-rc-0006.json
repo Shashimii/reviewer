@@ -1,0 +1,51 @@
+{
+  "id": "ven-rc-0006",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-inference",
+  "difficulty": 3,
+  "passage": "Barangay Malinis used to send about two truckloads of garbage to the city dump every day. Last year, its council started a simple program. Each household was asked to keep food scraps, fruit peels and dried leaves apart from plastic and paper. These are called biodegradable wastes, which means they rot naturally.\n\nEvery morning, barangay workers collected these wastes and brought them to a composting area behind the barangay hall. There, the wastes were mixed with soil and left to rot for about two months. The result was dark, rich compost, a natural fertilizer that the barangay gave free to residents for their vegetable gardens. Within a year, the garbage sent to the dump fell to less than one truckload a day. Several nearby barangays have since sent officials to learn how the program works.",
+  "stem": "Which of the following can be inferred from the passage?",
+  "choices": [
+    "The city dump refused to accept garbage from Barangay Malinis.",
+    "Residents of Barangay Malinis stopped using plastic and paper.",
+    "Nearby barangays have already copied the program exactly.",
+    "Much of the barangay's garbage used to be biodegradable."
+  ],
+  "answer": "Much of the barangay's garbage used to be biodegradable.",
+  "hints": [
+    "An inference must be supported by clues in the passage. Reject any choice that goes beyond what the passage shows.",
+    "Compare the garbage before and after the program. What was taken out of the garbage?",
+    "The program removed only one kind of waste, and the garbage dropped by more than half. Ask what that tells you about the old garbage."
+  ],
+  "solution": {
+    "methodName": "Find the clue, then take one small step",
+    "steps": [
+      {
+        "action": "Find the numbers: about two truckloads a day before the program, less than one truckload a day after."
+      },
+      {
+        "action": "Find what changed: only biodegradable wastes (food scraps, peels and leaves) were taken out of the garbage.",
+        "why": "Plastic and paper still went to the dump."
+      },
+      {
+        "action": "Take one small step: removing only the biodegradable wastes cut the garbage by more than half, so much of the old garbage must have been biodegradable.",
+        "why": "The passage never says this directly, but the numbers lead to it."
+      },
+      {
+        "action": "Check the other choices against the passage.",
+        "why": "No sentence says the dump refused garbage, that residents stopped using plastic, or that other barangays copied the program."
+      },
+      {
+        "action": "The answer is \"Much of the barangay's garbage used to be biodegradable.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The city dump refused to accept garbage from Barangay Malinis.": "The passage gives no reason to think the dump refused anything. The barangay council chose to start the program.",
+    "Residents of Barangay Malinis stopped using plastic and paper.": "Residents were asked to keep plastic and paper apart from food waste, not to stop using them.",
+    "Nearby barangays have already copied the program exactly.": "This goes too far. The passage says only that they sent officials to learn how the program works."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

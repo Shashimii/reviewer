@@ -1,0 +1,51 @@
+{
+  "id": "ven-ss-0006",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-parallel",
+  "difficulty": 1,
+  "stem": "Which sentence is correctly written?",
+  "choices": [
+    "The job involves typing, filing, and answering calls.",
+    "The job involves typing, filing, and to answer calls.",
+    "The job involves typing, to file, and answering calls.",
+    "The job involves to type, filing, and answering calls."
+  ],
+  "answer": "The job involves typing, filing, and answering calls.",
+  "hints": [
+    "Look at the list of three tasks. Are all three written in the same form?",
+    "In each choice, write the three tasks one under the other. Do they all end in -ing, or do some start with \"to\"?",
+    "Parallel structure: items in a list must all have the same form, such as all -ing words or all \"to\" verbs. Choose the sentence where all three tasks match."
+  ],
+  "solution": {
+    "methodName": "Line up the parts, then match the forms",
+    "steps": [
+      {
+        "action": "Find the list in each sentence: the three tasks after \"involves\"."
+      },
+      {
+        "action": "First choice: typing, filing, answering. All three are -ing words, so they match.",
+        "why": "This is parallel structure: words or groups joined by \"and\", \"or\" or commas use the same form."
+      },
+      {
+        "action": "Second choice: \"to answer\" breaks the -ing pattern. Wrong."
+      },
+      {
+        "action": "Third choice: \"to file\" breaks the pattern. Wrong."
+      },
+      {
+        "action": "Fourth choice: \"to type\" breaks the pattern. Wrong."
+      },
+      {
+        "action": "The answer is \"The job involves typing, filing, and answering calls.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The job involves typing, filing, and to answer calls.": "Each task makes sense alone, but the last one switches from -ing to \"to answer\". The list is not parallel.",
+    "The job involves typing, to file, and answering calls.": "The middle task, \"to file\", does not match \"typing\" and \"answering\".",
+    "The job involves to type, filing, and answering calls.": "Only the first task is different here, which is easy to miss. \"To type\" does not match \"filing\" and \"answering\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ven-ss-0010",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-parallel",
+  "difficulty": 2,
+  "stem": "Which sentence is correctly written?",
+  "choices": [
+    "Taking the bus is cheaper than to ride a taxi.",
+    "Taking the bus is cheaper than riding a taxi.",
+    "To take the bus is cheaper than riding a taxi.",
+    "Taking the bus is cheaper than you ride a taxi."
+  ],
+  "answer": "Taking the bus is cheaper than riding a taxi.",
+  "hints": [
+    "Each sentence compares two actions using \"than\". The two actions should be in the same form.",
+    "Find the action before \"than\" and the action after \"than\" in each choice.",
+    "When you compare two things, write them the same way: -ing with -ing, or \"to\" with \"to\". Pick the choice where both sides match."
+  ],
+  "solution": {
+    "methodName": "Line up the parts, then match the forms",
+    "steps": [
+      {
+        "action": "In each sentence, find the action before \"than\" and the action after it."
+      },
+      {
+        "action": "First choice: \"Taking\" against \"to ride\". They do not match. Wrong."
+      },
+      {
+        "action": "Second choice: \"Taking\" against \"riding\". Both are -ing words, so they match. Correct."
+      },
+      {
+        "action": "Third choice: \"To take\" against \"riding\". They do not match. Wrong."
+      },
+      {
+        "action": "Fourth choice: \"Taking\" against \"you ride\", which has its own subject. They do not match. Wrong."
+      },
+      {
+        "action": "The answer is \"Taking the bus is cheaper than riding a taxi.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Taking the bus is cheaper than to ride a taxi.": "Each half sounds fine alone, but \"taking\" (-ing) is compared with \"to ride\" (to + verb). Both sides should match.",
+    "To take the bus is cheaper than riding a taxi.": "This switches the forms the other way: \"to take\" against \"riding\". They still do not match.",
+    "Taking the bus is cheaper than you ride a taxi.": "\"You ride\" adds a subject, so the second side is no longer the same kind of word group as \"taking the bus\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ven-ss-0012",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-modifier",
+  "difficulty": 1,
+  "stem": "Which sentence is correctly written?",
+  "choices": [
+    "The clerk gave the folder with a torn cover to the manager.",
+    "The clerk gave the folder to the manager with a torn cover.",
+    "With a torn cover, the clerk gave the folder to the manager.",
+    "The clerk with a torn cover gave the folder to the manager."
+  ],
+  "answer": "The clerk gave the folder with a torn cover to the manager.",
+  "hints": [
+    "\"With a torn cover\" describes something. What in the sentence can have a cover?",
+    "In each choice, look at the noun that sits right next to \"with a torn cover\".",
+    "Rule: put a describing phrase right next to the word it describes. Choose the sentence where \"with a torn cover\" touches the thing that has a cover."
+  ],
+  "solution": {
+    "methodName": "Put the describing phrase next to what it describes",
+    "steps": [
+      {
+        "action": "Find the modifier: \"with a torn cover\". Ask what it describes: the folder.",
+        "why": "A modifier is a describing word or phrase. Folders have covers; people do not."
+      },
+      {
+        "action": "First choice: \"the folder with a torn cover\". The phrase is next to \"folder\". Correct."
+      },
+      {
+        "action": "Second choice: the phrase is next to \"the manager\", so the manager seems to have a torn cover. Wrong.",
+        "why": "A modifier in the wrong place is called a misplaced modifier."
+      },
+      {
+        "action": "Third choice: the phrase opens the sentence, so it describes the first noun after it, \"the clerk\". Wrong."
+      },
+      {
+        "action": "Fourth choice: \"The clerk with a torn cover\" says the clerk has the torn cover. Wrong."
+      },
+      {
+        "action": "The answer is \"The clerk gave the folder with a torn cover to the manager.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The clerk gave the folder to the manager with a torn cover.": "This is a common word order in speech. But the phrase lands next to \"the manager\", so it sounds like the manager has a torn cover.",
+    "With a torn cover, the clerk gave the folder to the manager.": "Putting the phrase first seems neat, but the first noun after it is \"the clerk\", so the clerk seems to have the torn cover.",
+    "The clerk with a torn cover gave the folder to the manager.": "The phrase sits right after \"The clerk\", so it describes the clerk, not the folder."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

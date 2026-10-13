@@ -1,0 +1,55 @@
+{
+  "id": "ven-po-0007",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-order",
+  "difficulty": 3,
+  "stem": "Put the sentences in the most logical order.\n\n1. To help them, the IT unit held short training sessions every Friday.\n2. Within three months, nearly every employee was comfortable with the email system.\n3. Despite these savings, some older employees found the new system hard to use at first.\n4. The change saved the office thousands of pesos in paper and ink.\n5. Last year, the regional office decided to send all its memos by email instead of on paper.",
+  "choices": [
+    "5, 3, 1, 4, 2",
+    "5, 4, 3, 1, 2",
+    "5, 4, 1, 3, 2",
+    "4, 5, 3, 1, 2"
+  ],
+  "answer": "5, 4, 3, 1, 2",
+  "hints": [
+    "Find the words that point back: \"The change\", \"these savings\" and \"them\". Each one needs something before it.",
+    "Start with the sentence that tells what the office decided. \"The change\" must come after it.",
+    "Link \"these savings\" to the sentence about saving money, and \"them\" to the older employees. End with what happened after three months."
+  ],
+  "solution": {
+    "methodName": "Find the opener, then follow the links",
+    "steps": [
+      {
+        "action": "Start with sentence 5: the office decided to send its memos by email.",
+        "why": "It introduces the topic and points back to nothing."
+      },
+      {
+        "action": "Put sentence 4 next.",
+        "why": "\"The change\" means the switch from paper to email in sentence 5."
+      },
+      {
+        "action": "Put sentence 3 after sentence 4.",
+        "why": "\"These savings\" points back to the thousands of pesos saved in sentence 4. \"Despite\" shows that a problem comes after the good news."
+      },
+      {
+        "action": "Put sentence 1 after sentence 3.",
+        "why": "\"Them\" means the older employees who found the system hard. The training was the answer to their problem."
+      },
+      {
+        "action": "End with sentence 2.",
+        "why": "\"Within three months\" shows the result of the training, so it closes the paragraph."
+      },
+      {
+        "action": "The correct order is 5, 4, 3, 1, 2."
+      }
+    ]
+  },
+  "trapNotes": {
+    "5, 3, 1, 4, 2": "Sentence 3 says \"Despite these savings\", but no savings have been mentioned yet. The savings appear in sentence 4, so sentence 4 must come before sentence 3.",
+    "5, 4, 1, 3, 2": "Here \"To help them\" comes before the older employees are mentioned, so \"them\" has no clear meaning. Sentence 3 must first introduce the people who need help.",
+    "4, 5, 3, 1, 2": "Sentence 4 cannot open the paragraph. \"The change\" points back to a change that has not been described yet."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ven-ss-0003",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-complete",
+  "difficulty": 1,
+  "stem": "Which choice is correctly written?",
+  "choices": [
+    "The office closes at five, please come early.",
+    "The office closes at five please come early.",
+    "The office closing at five. Please come early.",
+    "The office closes at five. Please come early."
+  ],
+  "answer": "The office closes at five. Please come early.",
+  "hints": [
+    "Each choice has two ideas: when the office closes, and a request. Look at how they are joined.",
+    "Two complete sentences cannot be joined by only a comma, or by nothing at all. That makes a run-on sentence.",
+    "Each part must be complete on its own, and two complete sentences must be separated by a period (or joined by a semicolon, or by a comma plus \"and\", \"but\" or \"so\"). Check each choice for both."
+  ],
+  "solution": {
+    "methodName": "Find the two complete thoughts, then check the join",
+    "steps": [
+      {
+        "action": "Find the two ideas: \"The office closes at five\" and \"Please come early\". Each is a complete sentence on its own.",
+        "why": "\"Please come early\" is a command, so its subject \"you\" is understood."
+      },
+      {
+        "action": "The first choice joins two complete sentences with only a comma. This is a comma splice. Wrong.",
+        "why": "A run-on is two complete sentences joined without the right mark or joining word. A comma splice is a run-on that uses only a comma."
+      },
+      {
+        "action": "The second choice has nothing between the two sentences. It is a run-on. Wrong."
+      },
+      {
+        "action": "The third choice starts with \"The office closing at five.\" It has no full verb, so it is a fragment. Wrong."
+      },
+      {
+        "action": "The last choice separates two complete sentences with a period. Correct."
+      },
+      {
+        "action": "The answer is \"The office closes at five. Please come early.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The office closes at five, please come early.": "A comma feels like the right pause in speech. But a comma alone cannot join two complete sentences. This is a comma splice.",
+    "The office closes at five please come early.": "This is how we often say it out loud, in one breath. In writing, two complete sentences need a period between them.",
+    "The office closing at five. Please come early.": "The period is in the right place, but \"The office closing at five\" has no full verb. It needs \"closes\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

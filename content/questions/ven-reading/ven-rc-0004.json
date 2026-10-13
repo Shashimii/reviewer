@@ -1,0 +1,49 @@
+{
+  "id": "ven-rc-0004",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-inference",
+  "difficulty": 2,
+  "passage": "Many Filipino dishes get their flavor from salty sauces such as patis, toyo and bagoong. These sauces taste good, but they also add a lot of sodium, the part of salt that can raise blood pressure. High blood pressure, or hypertension, often has no warning signs. A person can feel perfectly well for years while the extra pressure slowly damages the heart, the kidneys and the blood vessels.\n\nHealth workers suggest a few simple changes. Taste your food before adding sauce at the table. Use calamansi, garlic, onion and ginger for flavor instead of salt. Choose fresh fish and vegetables more often than canned goods and instant noodles, which are usually high in sodium. Finally, have your blood pressure checked at the barangay health center at least once a year, even if you feel fine.",
+  "stem": "Why does the writer most likely advise people to have their blood pressure checked \"even if you feel fine\"?",
+  "choices": [
+    "Barangay health centers give free medicine to everyone who visits.",
+    "People who feel fine usually eat more salty food than others do.",
+    "Blood pressure goes up only when a person is already feeling sick.",
+    "Hypertension can do harm before a person feels anything wrong."
+  ],
+  "answer": "Hypertension can do harm before a person feels anything wrong.",
+  "hints": [
+    "An inference is not stated word for word. Look for a clue in the passage that explains the advice.",
+    "Go back to the first paragraph. What does it say about how high blood pressure feels?",
+    "Connect the clue to the advice: if a problem gives no warning signs, how would a person know they have it? Choose the reason that follows from that clue."
+  ],
+  "solution": {
+    "methodName": "Find the clue, then take one small step",
+    "steps": [
+      {
+        "action": "Find the advice: get checked at least once a year \"even if you feel fine\"."
+      },
+      {
+        "action": "Find the first clue: high blood pressure \"often has no warning signs\"."
+      },
+      {
+        "action": "Find the second clue: a person \"can feel perfectly well for years\" while the pressure damages the heart, kidneys and blood vessels."
+      },
+      {
+        "action": "Take one small step: feeling fine does not prove your blood pressure is normal, so a checkup is the only way to know.",
+        "why": "The writer does not say this in one sentence, but the two clues lead straight to it. That is an inference."
+      },
+      {
+        "action": "The answer is \"Hypertension can do harm before a person feels anything wrong.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Barangay health centers give free medicine to everyone who visits.": "The passage never mentions free medicine. A choice must be supported by the passage, not by what you may know or hope.",
+    "People who feel fine usually eat more salty food than others do.": "Nothing in the passage links feeling fine to eating more salt. This choice is made up.",
+    "Blood pressure goes up only when a person is already feeling sick.": "This is the opposite of the passage, which says a person can feel perfectly well while high blood pressure does damage."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

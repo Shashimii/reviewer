@@ -1,0 +1,51 @@
+{
+  "id": "ven-rc-0008",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-purpose",
+  "difficulty": 2,
+  "passage": "After World War II, the American military left many jeeps behind in the Philippines. Filipino mechanics saw a chance. They made the bodies longer, added two long benches at the back, and put on a roof to shade passengers from the sun and rain. Owners then painted the vehicles in bright colors and decorated them with chrome horses, small flags and their family names.\n\nThese vehicles became known as jeepneys, and for decades they were the cheapest way to get around towns and cities. Today, many old jeepneys are being replaced by newer, cleaner vehicles. Still, for many Filipinos, the jeepney remains a symbol of the people's skill at making something new out of whatever is at hand.",
+  "stem": "What is the writer's main purpose in writing the passage?",
+  "choices": [
+    "To give information about the history of the jeepney",
+    "To persuade readers to ride jeepneys instead of new vehicles",
+    "To teach readers how to build and decorate a jeepney",
+    "To criticize the government for replacing old jeepneys"
+  ],
+  "answer": "To give information about the history of the jeepney",
+  "hints": [
+    "Ask: why did the writer write this? To inform, to persuade, to teach a skill, or to criticize?",
+    "Look at what most of the sentences do. Do they tell facts, give instructions, or argue for something?",
+    "A passage that mostly tells what happened is written to inform. Check whether the writer ever asks readers to do something or blames anyone."
+  ],
+  "solution": {
+    "methodName": "Ask why the writer wrote it",
+    "steps": [
+      {
+        "action": "Look at what the sentences do: they tell what happened after the war, how jeepneys were made, and what they mean today.",
+        "why": "These are facts about the past and the present, told in order."
+      },
+      {
+        "action": "Look for persuasion: the writer never asks readers to do anything.",
+        "why": "A persuasive passage uses words like \"should\" or \"must\" and asks the reader to act or agree."
+      },
+      {
+        "action": "Look for criticism: the writer does not blame anyone for replacing jeepneys.",
+        "why": "The replacement is reported as a fact in one sentence."
+      },
+      {
+        "action": "Conclude: the writer's purpose is to inform readers about the jeepney's history."
+      },
+      {
+        "action": "The answer is \"To give information about the history of the jeepney\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "To persuade readers to ride jeepneys instead of new vehicles": "The last sentence shows that the writer admires the jeepney, but the writer never asks readers to choose it over new vehicles.",
+    "To teach readers how to build and decorate a jeepney": "The passage tells how mechanics changed the jeeps long ago. It does not give steps for the reader to follow.",
+    "To criticize the government for replacing old jeepneys": "The government is never mentioned. The replacement is only reported as a fact."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

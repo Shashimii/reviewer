@@ -1,0 +1,49 @@
+{
+  "id": "ven-gr-0013",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-pronoun",
+  "difficulty": 2,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nThe officer whom answered the phone gave me the wrong form.",
+  "choices": [
+    "The officer whom",
+    "answered the phone",
+    "gave me the wrong form",
+    "No error"
+  ],
+  "answer": "The officer whom",
+  "hints": [
+    "\"Who\" and \"whom\" are not the same. One is for the doer of an action, the other for the receiver.",
+    "Look at the words \"___ answered the phone\". Who did the answering? Try putting \"he\" or \"him\" in the blank.",
+    "Swap test: if \"he\" fits, use \"who\". If \"him\" fits, use \"whom\". Do the test, then check the other parts."
+  ],
+  "solution": {
+    "methodName": "Swap in he or him",
+    "steps": [
+      {
+        "action": "Find \"whom\" and the words after it: \"whom answered the phone\"."
+      },
+      {
+        "action": "Swap in he or him: \"he answered the phone\" sounds right; \"him answered the phone\" sounds wrong.",
+        "why": "\"Who\" works like \"he\": the doer. \"Whom\" works like \"him\": the receiver. Both \"him\" and \"whom\" end in -m."
+      },
+      {
+        "action": "\"He\" fits, so the word must be \"who\": \"The officer who answered the phone\"."
+      },
+      {
+        "action": "Check the other parts. \"answered the phone\" and \"gave me the wrong form\" are correct.",
+        "why": "\"Me\" is right after \"gave\", because the form was given to me."
+      },
+      {
+        "action": "The error is \"The officer whom\". It should be \"The officer who\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "answered the phone": "This part is correct. \"Answered\" is in the past tense, which matches \"gave\".",
+    "gave me the wrong form": "\"Me\" is correct here because it receives the action of \"gave\". \"Gave I\" would be wrong.",
+    "No error": "\"Whom\" sounds more formal, so it may look correct. But the officer is the one who answered, the doer, so \"who\" is needed."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

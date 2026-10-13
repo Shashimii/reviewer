@@ -1,0 +1,51 @@
+{
+  "id": "ven-ss-0008",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-parallel",
+  "difficulty": 2,
+  "stem": "Which sentence is correctly written?",
+  "choices": [
+    "Applicants may either apply online or a visit to the office.",
+    "Applicants may either apply online or visiting the office.",
+    "Applicants either may apply online or they can visit the office.",
+    "Applicants may either apply online or visit the office."
+  ],
+  "answer": "Applicants may either apply online or visit the office.",
+  "hints": [
+    "\"Either … or\" joins two options. The two options should be in the same form.",
+    "In each choice, look at the words right after \"either\" and right after \"or\".",
+    "If \"either\" is followed by a plain action word (like \"apply\"), \"or\" must be followed by the same kind of word. Check each choice."
+  ],
+  "solution": {
+    "methodName": "Line up the parts, then match the forms",
+    "steps": [
+      {
+        "action": "In each choice, find what follows \"either\" and what follows \"or\"."
+      },
+      {
+        "action": "First choice: \"apply online\" (an action) against \"a visit to the office\" (a thing). They do not match. Wrong."
+      },
+      {
+        "action": "Second choice: \"apply online\" against \"visiting the office\" (an -ing form). They do not match. Wrong."
+      },
+      {
+        "action": "Third choice: \"may apply online\" against \"they can visit the office\". The second half has its own subject, \"they\", but the first does not. Wrong.",
+        "why": "\"Either\" sits before \"may\", so the first option starts with a verb, while the second option starts with a subject."
+      },
+      {
+        "action": "Fourth choice: \"apply online\" against \"visit the office\". Both are plain action words, so they match. Correct."
+      },
+      {
+        "action": "The answer is \"Applicants may either apply online or visit the office.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Applicants may either apply online or a visit to the office.": "\"A visit\" and \"visit\" look alike, but \"a visit\" is a thing (a noun), while \"apply\" is an action.",
+    "Applicants may either apply online or visiting the office.": "\"Visiting\" is an -ing form, but \"apply\" is a plain verb. Use the same form for both: \"apply … or visit\".",
+    "Applicants either may apply online or they can visit the office.": "It sounds natural in speech, but the half after \"or\" adds a new subject, \"they\", so the two halves do not match."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

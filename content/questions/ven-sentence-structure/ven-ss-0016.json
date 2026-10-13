@@ -1,0 +1,51 @@
+{
+  "id": "ven-ss-0016",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-combine",
+  "difficulty": 2,
+  "stem": "Which best combines the two sentences?\n\nMr. Santos is new to the office. He already knows all the rules.",
+  "choices": [
+    "Although Mr. Santos is new to the office, he already knows all the rules.",
+    "Because Mr. Santos is new to the office, he already knows all the rules.",
+    "Mr. Santos is new to the office, so he already knows all the rules.",
+    "Mr. Santos is new to the office, he already knows all the rules."
+  ],
+  "answer": "Although Mr. Santos is new to the office, he already knows all the rules.",
+  "hints": [
+    "Read both sentences. Is the second one what you would expect after the first, or a surprise?",
+    "Someone new usually does not know all the rules yet. So the second idea is a surprise: it contrasts with the first.",
+    "Contrast words: although, but, even though. Cause words: because, so. Choose the sentence with a contrast word and correct punctuation."
+  ],
+  "solution": {
+    "methodName": "Find the link between the ideas, then check the grammar",
+    "steps": [
+      {
+        "action": "Find the link: a new employee usually does not know all the rules. Knowing them already is unexpected, so the ideas contrast.",
+        "why": "The word \"already\" is a clue that the second idea is a surprise."
+      },
+      {
+        "action": "First choice: \"Although\" shows contrast, and a comma correctly ends the \"although\" part. Correct."
+      },
+      {
+        "action": "Second choice: \"Because\" says being new is the reason he knows the rules. That makes no sense. Wrong."
+      },
+      {
+        "action": "Third choice: \"so\" also shows cause and effect. Wrong link."
+      },
+      {
+        "action": "Fourth choice: a comma alone joins two complete sentences. This is a comma splice. Wrong."
+      },
+      {
+        "action": "The answer is \"Although Mr. Santos is new to the office, he already knows all the rules.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Because Mr. Santos is new to the office, he already knows all the rules.": "The grammar is fine, but \"because\" says being new caused him to know the rules. The real link is a contrast.",
+    "Mr. Santos is new to the office, so he already knows all the rules.": "\"So\" is a correct joining word, but it shows a result. Knowing the rules is not a result of being new.",
+    "Mr. Santos is new to the office, he already knows all the rules.": "It keeps the meaning, but it joins two complete sentences with only a comma. That is a comma splice."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

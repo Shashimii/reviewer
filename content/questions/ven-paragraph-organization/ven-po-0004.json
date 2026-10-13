@@ -1,0 +1,55 @@
+{
+  "id": "ven-po-0004",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-order",
+  "difficulty": 2,
+  "stem": "Put the sentences in the most logical order.\n\n1. To solve the problem, the office introduced a numbered queuing system last January.\n2. While clients wait there, a screen above the counters shows which number is being served.\n3. As a result, the average waiting time dropped from two hours to forty minutes.\n4. For years, clients of the city treasurer's office complained about long, disorderly lines.\n5. Under this system, each client gets a numbered ticket and waits in a seated area.",
+  "choices": [
+    "4, 1, 5, 3, 2",
+    "4, 5, 1, 2, 3",
+    "1, 5, 2, 4, 3",
+    "4, 1, 5, 2, 3"
+  ],
+  "answer": "4, 1, 5, 2, 3",
+  "hints": [
+    "Words like \"the problem\", \"this system\", \"there\" and \"As a result\" each point back to something. Find what each one needs before it.",
+    "Find the sentence that describes the problem. \"To solve the problem\" cannot come before it.",
+    "Use the pattern problem, solution, details of the solution, result. Match the choice that follows this pattern."
+  ],
+  "solution": {
+    "methodName": "Find the opener, then follow the links",
+    "steps": [
+      {
+        "action": "Find the opener: sentence 4 describes the problem (long, disorderly lines).",
+        "why": "Sentence 1 says \"To solve the problem\", so the problem must be described first."
+      },
+      {
+        "action": "Put sentence 1 next: the office introduced a numbered queuing system.",
+        "why": "This is the solution to the problem in sentence 4."
+      },
+      {
+        "action": "Put sentence 5 after sentence 1.",
+        "why": "\"Under this system\" points back to the queuing system just introduced."
+      },
+      {
+        "action": "Put sentence 2 after sentence 5.",
+        "why": "\"There\" points back to the seated area in sentence 5. The screen also shows \"which number\" is being served, so the numbered tickets in sentence 5 must come first."
+      },
+      {
+        "action": "End with sentence 3.",
+        "why": "\"As a result\" gives the effect of the whole system, so it closes the paragraph."
+      },
+      {
+        "action": "The correct order is 4, 1, 5, 2, 3."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4, 1, 5, 3, 2": "This puts the result in the middle of the description. Sentence 2 still describes how the system works, and \"there\" points back to the seated area in sentence 5. After sentence 3, which names no place, \"there\" would have nothing to point to.",
+    "4, 5, 1, 2, 3": "\"Under this system\" in sentence 5 needs the system to be named first. Sentence 1 introduces it, so sentence 1 must come before sentence 5.",
+    "1, 5, 2, 4, 3": "Sentence 1 cannot open the paragraph. It says \"To solve the problem\", but the problem is described only in sentence 4."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

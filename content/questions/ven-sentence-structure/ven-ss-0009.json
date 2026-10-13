@@ -1,0 +1,53 @@
+{
+  "id": "ven-ss-0009",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-parallel",
+  "difficulty": 3,
+  "stem": "Which sentence is correctly written?",
+  "choices": [
+    "The report explains what the problem is, why it happened, and to fix it.",
+    "The report explains what the problem is, why did it happen, and how it can be fixed.",
+    "The report explains what the problem is, why it happened, and how it can be fixed.",
+    "The report explains what the problem is, why it happened, and fixing it."
+  ],
+  "answer": "The report explains what the problem is, why it happened, and how it can be fixed.",
+  "hints": [
+    "Each sentence lists three things the report explains. Look at the form of each item in the list.",
+    "In each choice, write the three items one under the other. Does each one start with a question word like what, why or how, and use the same word order?",
+    "In a parallel list, each item is the same kind of word group. If one item is a question word, then a subject, then a verb (what + the problem + is), all three items should follow that same pattern and order. Find the choice where all three match."
+  ],
+  "solution": {
+    "methodName": "Line up the parts, then match the forms",
+    "steps": [
+      {
+        "action": "Find the three items explained in each sentence."
+      },
+      {
+        "action": "First choice: \"what the problem is\", \"why it happened\", \"to fix it\". The last item is a \"to\" verb, not a question-word part. Not parallel.",
+        "why": "Test it alone: \"The report explains to fix it\" does not make sense."
+      },
+      {
+        "action": "Second choice: \"what the problem is\", \"why did it happen\", \"how it can be fixed\". The middle item uses question order (why + did + it). Not parallel.",
+        "why": "Inside a sentence, a question part keeps statement order: subject first, then verb. \"What the problem is\" and \"why it happened\" follow this; \"why did it happen\" does not."
+      },
+      {
+        "action": "Fourth choice: \"what the problem is\", \"why it happened\", \"fixing it\". The last item is an -ing word. Not parallel."
+      },
+      {
+        "action": "Third choice: \"what the problem is\", \"why it happened\", \"how it can be fixed\". All three start with a question word followed by a subject and a verb. Parallel.",
+        "why": "what + the problem + is; why + it + happened; how + it + can be fixed. Same pattern three times."
+      },
+      {
+        "action": "The answer is \"The report explains what the problem is, why it happened, and how it can be fixed.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The report explains what the problem is, why it happened, and to fix it.": "The first two items match, so the change at the end is easy to miss. \"To fix it\" is a \"to\" verb, not a question-word part like the other two, and \"The report explains to fix it\" makes no sense.",
+    "The report explains what the problem is, why did it happen, and how it can be fixed.": "\"Why did it happen\" sounds right because it is how we ask the question aloud. But inside a sentence, a question part uses statement order: \"why it happened\", just like \"what the problem is\".",
+    "The report explains what the problem is, why it happened, and fixing it.": "\"Fixing it\" is an -ing word, while the other two items are question-word parts with their own subject and verb. The last item changes form, so the list is not parallel."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

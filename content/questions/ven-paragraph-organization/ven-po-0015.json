@@ -1,0 +1,48 @@
+{
+  "id": "ven-po-0015",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-odd",
+  "difficulty": 1,
+  "stem": "Which sentence does not belong in the paragraph?\n\n1. The city library has started a free reading program for children.\n2. Every Saturday morning, volunteers read stories aloud to young visitors.\n3. The library building was first painted green and white in 1998.\n4. The children may also borrow up to three books to take home.\n5. Parents say their children now look forward to reading.",
+  "choices": [
+    "Sentence 2",
+    "Sentence 3",
+    "Sentence 4",
+    "Sentence 5"
+  ],
+  "answer": "Sentence 3",
+  "hints": [
+    "Find the topic in sentence 1. Then look for a sentence that is about the library but not about that topic.",
+    "The topic is the library's free reading program for children.",
+    "Test each sentence: is it about the reading program? Find the one that talks about something else."
+  ],
+  "solution": {
+    "methodName": "Name the topic, then test each sentence",
+    "steps": [
+      {
+        "action": "Name the topic from sentence 1: the library's free reading program for children."
+      },
+      {
+        "action": "Test sentence 2: volunteers read stories every Saturday. This is part of the program, so it belongs."
+      },
+      {
+        "action": "Test sentence 3: the building was painted in 1998.",
+        "why": "It is about the library building, not the reading program. The word \"library\" only makes it look related."
+      },
+      {
+        "action": "Test sentences 4 and 5: borrowing books and children enjoying reading. Both are about the program, so they belong."
+      },
+      {
+        "action": "The sentence that does not belong is Sentence 3."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Sentence 2": "Reading stories aloud every Saturday is an activity of the reading program. It supports the topic.",
+    "Sentence 4": "Borrowing books is another part of the program. \"Also\" shows that it adds to sentence 2.",
+    "Sentence 5": "This shows the result of the program. A result supports the topic."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

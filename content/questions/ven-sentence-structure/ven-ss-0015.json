@@ -1,0 +1,51 @@
+{
+  "id": "ven-ss-0015",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-combine",
+  "difficulty": 1,
+  "stem": "Which best combines the two sentences?\n\nThe rain was very heavy. Classes were suspended.",
+  "choices": [
+    "The rain was very heavy, but classes were suspended.",
+    "Although the rain was very heavy, classes were suspended.",
+    "The rain was very heavy, classes were suspended.",
+    "Because the rain was very heavy, classes were suspended."
+  ],
+  "answer": "Because the rain was very heavy, classes were suspended.",
+  "hints": [
+    "First decide how the two ideas are related. Does one cause the other, or do they contrast?",
+    "Classes were suspended as a result of the heavy rain. So you need a joining word that shows cause and effect.",
+    "Joining words show the link: \"because\" and \"so\" show cause and effect; \"but\" and \"although\" show contrast. Pick the choice with the right link and correct punctuation."
+  ],
+  "solution": {
+    "methodName": "Find the link between the ideas, then check the grammar",
+    "steps": [
+      {
+        "action": "Find the link: the heavy rain caused the suspension of classes. This is cause and effect."
+      },
+      {
+        "action": "First choice: \"but\" shows contrast, as if the result were surprising. Wrong link."
+      },
+      {
+        "action": "Second choice: \"Although\" also shows contrast. Wrong link."
+      },
+      {
+        "action": "Third choice: two complete sentences joined by only a comma. This is a comma splice. Wrong.",
+        "why": "Two complete sentences need a joining word or a period between them."
+      },
+      {
+        "action": "Fourth choice: \"Because\" shows cause and effect, and a comma correctly ends the \"because\" part. Correct."
+      },
+      {
+        "action": "The answer is \"Because the rain was very heavy, classes were suspended.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The rain was very heavy, but classes were suspended.": "\"But\" is a common joining word, and the punctuation is right. But \"but\" means the second idea is a surprise, and it is not: heavy rain is a reason to suspend classes.",
+    "Although the rain was very heavy, classes were suspended.": "This is good grammar, but \"although\" shows contrast. It would mean classes were suspended in spite of the rain, which makes no sense.",
+    "The rain was very heavy, classes were suspended.": "It keeps both ideas, but a comma alone cannot join two complete sentences."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

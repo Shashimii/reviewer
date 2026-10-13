@@ -1,0 +1,55 @@
+{
+  "id": "ven-voc-0001",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-synonym",
+  "difficulty": 1,
+  "stem": "Attendance at the Monday flag ceremony is mandatory for all employees. Which word is closest in meaning to 'mandatory'?",
+  "choices": [
+    "optional",
+    "enjoyable",
+    "required",
+    "scheduled"
+  ],
+  "answer": "required",
+  "hints": [
+    "Look at what the sentence says about attendance and who it is for: all employees.",
+    "Ask yourself: do the employees get to choose whether to attend, or must they attend?",
+    "Say the meaning of 'mandatory' in your own words. Then put each choice in its place, reread the sentence, and keep the choice that means the same thing."
+  ],
+  "solution": {
+    "methodName": "Replace the word, then reread the sentence",
+    "steps": [
+      {
+        "action": "Find the word and what it describes: 'mandatory' describes attendance at the flag ceremony.",
+        "why": "The question asks about one word, so first see what that word is talking about."
+      },
+      {
+        "action": "Look for a clue: the rule covers 'all employees'.",
+        "why": "A rule for everyone suggests that attending is not a personal choice."
+      },
+      {
+        "action": "Say the meaning in your own words: mandatory means 'must be done'.",
+        "why": "You may have seen it in memos, as in 'mandatory training'. Making your own guess first stops a wrong choice from pulling you in."
+      },
+      {
+        "action": "Replace the word with each choice and reread. 'Attendance at the Monday flag ceremony is required for all employees' keeps the same meaning.",
+        "why": "A synonym can take the word's place without changing what the sentence says."
+      },
+      {
+        "action": "Check the others: 'optional' means the opposite, and 'enjoyable' and 'scheduled' change the meaning.",
+        "why": "If a choice makes the sentence say something different, it is not a synonym."
+      },
+      {
+        "action": "The answer is 'required'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "optional": "This is the opposite. Optional means you may choose not to attend; mandatory means you must attend.",
+    "enjoyable": "A ceremony can be enjoyable, but that is about how it feels, not about whether you must go.",
+    "scheduled": "The ceremony is set for Monday, but 'scheduled' only means 'set for a certain time'. It does not say that attending is a must."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

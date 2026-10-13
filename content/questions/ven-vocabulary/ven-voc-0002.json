@@ -1,0 +1,49 @@
+{
+  "id": "ven-voc-0002",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-synonym",
+  "difficulty": 1,
+  "stem": "The mayor asked the treasury office to expedite the release of the calamity aid. Which choice is closest in meaning to 'expedite'?",
+  "choices": [
+    "slow down",
+    "speed up",
+    "look into",
+    "call off"
+  ],
+  "answer": "speed up",
+  "hints": [
+    "Think about calamity aid. Do people hit by a disaster want their aid fast or slow?",
+    "Some offices charge an extra fee to 'expedite' a document. What do you get for that fee?",
+    "Decide whether 'expedite' means to make something faster, slower, studied or stopped. Then replace the word with each choice and reread the sentence."
+  ],
+  "solution": {
+    "methodName": "Replace the word, then reread the sentence",
+    "steps": [
+      {
+        "action": "Find the word and what it acts on: the mayor wants to 'expedite' the release of calamity aid."
+      },
+      {
+        "action": "Use the situation as a clue: calamity aid goes to people hit by a disaster, and they need it quickly.",
+        "why": "When you are not sure of a word, ask what would make sense in the situation."
+      },
+      {
+        "action": "Recall the meaning: to expedite is to make a process go faster.",
+        "why": "When an office expedites a document for an extra fee, you get the document sooner."
+      },
+      {
+        "action": "Replace and reread: 'The mayor asked the treasury office to speed up the release of the calamity aid' keeps the meaning."
+      },
+      {
+        "action": "The answer is 'speed up'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "slow down": "This is the opposite. A mayor would not ask to slow down aid for disaster victims, and expedite means to make faster.",
+    "look into": "This means to study or investigate. The mayor wants the aid released sooner, not studied.",
+    "call off": "This means to cancel. Expedite keeps the release going and makes it faster."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

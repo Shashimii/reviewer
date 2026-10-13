@@ -1,0 +1,48 @@
+{
+  "id": "ven-voc-0015",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-idiom",
+  "difficulty": 1,
+  "stem": "Many people complain about the red tape in getting a business permit, such as the many forms and signatures needed. What does 'red tape' mean in this sentence?",
+  "choices": [
+    "a red ribbon used in ceremonies",
+    "high fees charged for permits",
+    "a sign that an office is closed",
+    "too many rules and steps"
+  ],
+  "answer": "too many rules and steps",
+  "hints": [
+    "An idiom is a group of words with a meaning different from the meaning of each word. Do not think of real tape.",
+    "Look at the examples after 'such as': many forms and signatures.",
+    "Ask what many forms and many signatures have in common, and pick the choice that describes that, not a choice about real tape or ribbons."
+  ],
+  "solution": {
+    "methodName": "Read the idiom as a whole",
+    "steps": [
+      {
+        "action": "Spot the idiom: 'red tape' is not about real tape here.",
+        "why": "Nobody complains about the color of tape in a permit office. When the word-for-word meaning makes no sense, the words are an idiom."
+      },
+      {
+        "action": "Look for a clue: 'such as the many forms and signatures needed'."
+      },
+      {
+        "action": "Find the shared idea: lots of paperwork and steps before you can get something done."
+      },
+      {
+        "action": "So red tape means 'too many official rules and steps'."
+      },
+      {
+        "action": "The answer is 'too many rules and steps'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "a red ribbon used in ceremonies": "This reads the words literally. People do not complain about ribbons; the examples are forms and signatures.",
+    "high fees charged for permits": "Fees are a real complaint, but the examples are about forms and signatures, not money.",
+    "a sign that an office is closed": "Nothing in the sentence is about an office being closed. The examples show too much paperwork."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

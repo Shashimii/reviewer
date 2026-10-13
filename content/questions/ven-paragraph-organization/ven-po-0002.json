@@ -1,0 +1,51 @@
+{
+  "id": "ven-po-0002",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-order",
+  "difficulty": 1,
+  "stem": "Put the sentences in the most logical order.\n\n1. Before the planting began, a forester showed them how to set each seedling in the ground.\n2. The town plans to hold the same activity every rainy season.\n3. Last Saturday, thirty employees of the municipal hall joined a tree-planting activity.\n4. Then they planted 200 narra and molave seedlings along the riverbank.",
+  "choices": [
+    "2, 3, 1, 4",
+    "1, 3, 4, 2",
+    "3, 1, 4, 2",
+    "3, 4, 1, 2"
+  ],
+  "answer": "3, 1, 4, 2",
+  "hints": [
+    "Watch for words that point back, like \"them\", \"they\" and \"the same activity\". They cannot appear before the thing they point to.",
+    "Find the sentence that tells who did what and when, without pointing back to anything. That is your opener.",
+    "After the opener, follow the time words: \"Before the planting began\", then \"Then\". Put the sentence about future plans last."
+  ],
+  "solution": {
+    "methodName": "Find the opener, then follow the links",
+    "steps": [
+      {
+        "action": "Find the opener: sentence 3 tells who (thirty employees), what (a tree-planting activity) and when (last Saturday).",
+        "why": "It introduces everything and points back to nothing."
+      },
+      {
+        "action": "Put sentence 1 next: \"Before the planting began, a forester showed them...\"",
+        "why": "\"Them\" means the thirty employees. \"Before the planting began\" is the first event of the day."
+      },
+      {
+        "action": "Put sentence 4 after sentence 1: \"Then they planted...\"",
+        "why": "\"Then\" shows the next event. After the lesson comes the planting."
+      },
+      {
+        "action": "Put sentence 2 last.",
+        "why": "\"The same activity\" points back to the tree planting, and plans for the future make a natural ending."
+      },
+      {
+        "action": "The correct order is 3, 1, 4, 2."
+      }
+    ]
+  },
+  "trapNotes": {
+    "2, 3, 1, 4": "Sentence 2 cannot open the paragraph. \"The same activity\" points back to an activity that has not been mentioned yet.",
+    "1, 3, 4, 2": "Sentence 1 uses \"them\" before we know who \"them\" is. The employees are introduced only in sentence 3, so sentence 3 must come first.",
+    "3, 4, 1, 2": "This puts the planting before the forester's lesson. Sentence 1 says the lesson came \"before the planting began\", so it must come before sentence 4."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

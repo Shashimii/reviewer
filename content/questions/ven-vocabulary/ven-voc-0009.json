@@ -1,0 +1,54 @@
+{
+  "id": "ven-voc-0009",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-antonym",
+  "difficulty": 3,
+  "stem": "The applicants complained that the selection was arbitrary because the panel gave no reason for choosing one person over another. Which word is most nearly opposite in meaning to 'arbitrary'?",
+  "choices": [
+    "random",
+    "unfair",
+    "reasoned",
+    "final"
+  ],
+  "answer": "reasoned",
+  "hints": [
+    "Find the reason the applicants complained. It tells you what 'arbitrary' means.",
+    "The panel gave no reason for its choice. So an arbitrary choice is made without what?",
+    "Arbitrary means decided without reasons. Find the choice that means the reverse, and skip choices that mean the same thing or name a different idea."
+  ],
+  "solution": {
+    "methodName": "Find the meaning, then flip it",
+    "steps": [
+      {
+        "action": "Note the task: find the opposite of 'arbitrary'."
+      },
+      {
+        "action": "Find the clue after 'because': the panel 'gave no reason' for its choice."
+      },
+      {
+        "action": "So arbitrary means 'decided without a reason or rule, as if by chance'."
+      },
+      {
+        "action": "Flip the meaning: decided with reasons, on clear grounds."
+      },
+      {
+        "action": "Match it: 'reasoned' means based on reasons."
+      },
+      {
+        "action": "Check the traps: 'random' means the same as arbitrary, and 'unfair' is what an arbitrary choice often feels like, not its opposite.",
+        "why": "Hard antonym items include words that go with the given word. Ask: is this the reverse, or just something related?"
+      },
+      {
+        "action": "The answer is 'reasoned'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "random": "Random means done by chance, without a plan. That is close to arbitrary, so it is a synonym, not the opposite.",
+    "unfair": "An arbitrary choice often feels unfair, so this goes with the word rather than against it. The reverse of unfair is fair; the reverse of arbitrary is reasoned.",
+    "final": "Whether a decision is final is a different idea. A choice can be final and arbitrary at the same time."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

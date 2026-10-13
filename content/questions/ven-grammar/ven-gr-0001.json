@@ -1,0 +1,55 @@
+{
+  "id": "ven-gr-0001",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-agreement",
+  "difficulty": 1,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nEvery applicant need to bring two valid IDs on the day of the exam.",
+  "choices": [
+    "need to bring",
+    "two valid IDs",
+    "on the day of the exam",
+    "No error"
+  ],
+  "answer": "need to bring",
+  "hints": [
+    "Find the subject (who does the action) and the verb (the action word). Is the subject one person or more than one?",
+    "The subject is \"Every applicant\". \"Every\" looks at people one at a time, so the subject is singular (one).",
+    "In the present tense, a singular subject takes the verb form that ends in -s: he works, she writes. Check whether the verb matches the subject, then check the other two parts."
+  ],
+  "solution": {
+    "methodName": "Find the true subject, then match the verb",
+    "steps": [
+      {
+        "action": "Find the verb: \"need\". Then ask who needs to bring IDs: \"Every applicant\". That is the subject.",
+        "why": "The subject is the person or thing doing the action. The applicant is the one who must bring the IDs."
+      },
+      {
+        "action": "Decide if the subject is singular or plural. \"Every applicant\" is singular.",
+        "why": "\"Every\" and \"each\" point to people one at a time: this applicant, then that applicant. So treat the subject as one person, like \"he\" or \"she\"."
+      },
+      {
+        "action": "A singular subject in the present tense takes the -s form of the verb: \"needs\".",
+        "why": "Say it with \"he\": \"he needs\", not \"he need\". The same rule applies to \"every applicant\"."
+      },
+      {
+        "action": "Fix the sentence: \"Every applicant needs to bring two valid IDs on the day of the exam.\"",
+        "why": "Read the fixed sentence aloud to make sure it sounds right."
+      },
+      {
+        "action": "Check the other parts. \"two valid IDs\" is a correct plural, and \"on the day of the exam\" uses \"on\" correctly for a day.",
+        "why": "Always check every part before you choose. This also rules out \"No error\"."
+      },
+      {
+        "action": "The error is \"need to bring\". It should be \"needs to bring\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "two valid IDs": "This part is correct. \"Two\" needs a plural noun, and \"IDs\" is the plural of ID. The error is in the verb, not the noun.",
+    "on the day of the exam": "This part is correct. \"On\" is the right word before a day, as in \"on Monday\" or \"on the day of the exam\".",
+    "No error": "\"Need\" can sound right because many applicants will come. But \"every applicant\" means one at a time, so the verb must be \"needs\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

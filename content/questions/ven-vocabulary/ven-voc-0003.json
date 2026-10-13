@@ -1,0 +1,52 @@
+{
+  "id": "ven-voc-0003",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-synonym",
+  "difficulty": 2,
+  "stem": "The auditor is meticulous: she checks every receipt twice before she signs her report. Which word is closest in meaning to 'meticulous'?",
+  "choices": [
+    "careful",
+    "strict",
+    "slow",
+    "honest"
+  ],
+  "answer": "careful",
+  "hints": [
+    "The part after the colon explains the word. What does the auditor do?",
+    "Checking every receipt twice shows close attention to small details. What quality is that?",
+    "Say the meaning in your own words, then replace 'meticulous' with each choice. Keep the choice that names the quality the clue shows, not just another quality an auditor might have."
+  ],
+  "solution": {
+    "methodName": "Replace the word, then reread the sentence",
+    "steps": [
+      {
+        "action": "Find the clue: the words after the colon say she 'checks every receipt twice before she signs'.",
+        "why": "A colon often introduces an explanation of what came before it."
+      },
+      {
+        "action": "Name the quality this shows: paying close attention to every detail."
+      },
+      {
+        "action": "So meticulous means 'very careful about details'."
+      },
+      {
+        "action": "Replace and reread: 'The auditor is careful: she checks every receipt twice' keeps the meaning."
+      },
+      {
+        "action": "Rule out the near-misses: being strict, slow or honest are different qualities from being careful.",
+        "why": "In synonym items, wrong choices often describe the same person in a different way. Match the meaning of the word, not just the person."
+      },
+      {
+        "action": "The answer is 'careful'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "strict": "Strict means firm about following rules. The clue is about close attention to every small detail, not about rules.",
+    "slow": "Checking twice may take time, but meticulous describes how careful she is, not how fast she works.",
+    "honest": "Auditors are expected to be honest, but nothing in the sentence is about telling the truth. The clue is about checking details."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

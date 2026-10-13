@@ -1,0 +1,50 @@
+{
+  "id": "ven-rc-0003",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-main",
+  "difficulty": 2,
+  "passage": "Many Filipino dishes get their flavor from salty sauces such as patis, toyo and bagoong. These sauces taste good, but they also add a lot of sodium, the part of salt that can raise blood pressure. High blood pressure, or hypertension, often has no warning signs. A person can feel perfectly well for years while the extra pressure slowly damages the heart, the kidneys and the blood vessels.\n\nHealth workers suggest a few simple changes. Taste your food before adding sauce at the table. Use calamansi, garlic, onion and ginger for flavor instead of salt. Choose fresh fish and vegetables more often than canned goods and instant noodles, which are usually high in sodium. Finally, have your blood pressure checked at the barangay health center at least once a year, even if you feel fine.",
+  "stem": "Which statement best expresses the main idea of the passage?",
+  "choices": [
+    "Patis, toyo and bagoong are the main causes of heart disease in the Philippines.",
+    "High blood pressure often has no signs, so it can quietly damage the body.",
+    "Less salt and regular checkups can help guard against high blood pressure.",
+    "Calamansi, garlic and ginger are healthier than any kind of salt or sauce."
+  ],
+  "answer": "Less salt and regular checkups can help guard against high blood pressure.",
+  "hints": [
+    "The passage has two parts: a danger and some advice. The main idea must cover both.",
+    "Sum up each paragraph in a few words. The first explains a danger, and the second gives ways to avoid it.",
+    "Reject choices that repeat only one detail and choices that say more than the passage does. Pick the one that joins the danger and the advice."
+  ],
+  "solution": {
+    "methodName": "Find the idea that covers the whole passage",
+    "steps": [
+      {
+        "action": "Sum up paragraph 1: salty sauces add sodium, sodium can raise blood pressure, and high blood pressure quietly damages the body."
+      },
+      {
+        "action": "Sum up paragraph 2: eat less salt and have your blood pressure checked every year."
+      },
+      {
+        "action": "Join them: eating less salt and getting checked can help guard against high blood pressure.",
+        "why": "The first paragraph explains why the advice in the second paragraph matters, so the main idea joins them."
+      },
+      {
+        "action": "Check the choice about having no signs.",
+        "why": "It is true, but it is one detail that explains why checkups matter. It leaves out all the advice."
+      },
+      {
+        "action": "The main idea is \"Less salt and regular checkups can help guard against high blood pressure.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Patis, toyo and bagoong are the main causes of heart disease in the Philippines.": "This goes too far. The passage says these sauces add sodium that can raise blood pressure. It never calls them the main cause of heart disease.",
+    "High blood pressure often has no signs, so it can quietly damage the body.": "This is true, but it is a detail from the first paragraph. It leaves out the advice, which is most of the passage.",
+    "Calamansi, garlic and ginger are healthier than any kind of salt or sauce.": "The passage suggests them as flavor in place of salt. It never says they are healthier than every salt or sauce."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

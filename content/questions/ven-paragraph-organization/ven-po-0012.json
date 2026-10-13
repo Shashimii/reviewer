@@ -1,0 +1,50 @@
+{
+  "id": "ven-po-0012",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-topic",
+  "difficulty": 2,
+  "stem": "Choose the best topic sentence to fill the blank.\n\n__________. Employees must log in by 8:00 a.m. using the biometric scanner. Those who arrive after 8:15 a.m. are marked late. Three late marks in one month lead to a written warning.",
+  "choices": [
+    "The office has strict rules about being on time.",
+    "Government offices use many kinds of modern machines.",
+    "Employees who are often late may receive a warning.",
+    "Workers should eat breakfast before coming to work."
+  ],
+  "answer": "The office has strict rules about being on time.",
+  "hints": [
+    "A good topic sentence covers every detail. Watch out for choices that are too broad or too narrow.",
+    "List the details: the log-in time, the time when you are marked late, and the warning. What do they have in common?",
+    "Test each choice: does it cover all three details? Reject a choice that fits only one detail, and one so broad that it could fit a very different paragraph."
+  ],
+  "solution": {
+    "methodName": "Find the sentence that covers all the others",
+    "steps": [
+      {
+        "action": "List the details: log in by 8:00 a.m., marked late after 8:15 a.m., a warning after three late marks.",
+        "why": "All three are rules about arriving on time."
+      },
+      {
+        "action": "State the shared idea: the office has rules about coming to work on time."
+      },
+      {
+        "action": "Reject the choice that is too narrow.",
+        "why": "The choice about a warning covers only the last detail. It leaves out the log-in rule and the late mark."
+      },
+      {
+        "action": "Reject the choices that are too broad or off the topic.",
+        "why": "The details are not about modern machines or breakfast."
+      },
+      {
+        "action": "The best topic sentence is \"The office has strict rules about being on time.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Government offices use many kinds of modern machines.": "It picks up the biometric scanner, but it is far too broad. The paragraph is about rules on time, not about machines.",
+    "Employees who are often late may receive a warning.": "This is too narrow. It covers only the last detail and leaves out the log-in rule and the late mark.",
+    "Workers should eat breakfast before coming to work.": "Nothing in the paragraph mentions food. It may seem connected to mornings, but it is off the topic."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

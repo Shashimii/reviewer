@@ -1,0 +1,52 @@
+{
+  "id": "ven-gr-0002",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-agreement",
+  "difficulty": 2,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nOne of the printers in the records section are out of ink again.",
+  "choices": [
+    "One of the printers",
+    "in the records section",
+    "are out of ink",
+    "No error"
+  ],
+  "answer": "are out of ink",
+  "hints": [
+    "The subject is not always the noun closest to the verb. Ask: how many things are out of ink?",
+    "Cover the words \"of the printers in the records section\". What word is left as the subject?",
+    "In \"one of the …\", the subject is \"one\", which is singular. Match the verb to \"one\", then check the other parts."
+  ],
+  "solution": {
+    "methodName": "Find the true subject, then match the verb",
+    "steps": [
+      {
+        "action": "Find the verb: \"are\"."
+      },
+      {
+        "action": "Find the true subject: \"One\".",
+        "why": "\"Of the printers\" and \"in the records section\" are extra phrases that describe \"one\". The verb never agrees with a noun inside an \"of\" phrase."
+      },
+      {
+        "action": "\"One\" is singular, so the verb must be singular: \"is\".",
+        "why": "Read it without the extra words: \"One … is out of ink.\""
+      },
+      {
+        "action": "Check \"One of the printers\". It is correct: after \"one of the\", the noun is plural, because you pick one from a group."
+      },
+      {
+        "action": "Check \"in the records section\". It only tells where the printer is, and it is correct."
+      },
+      {
+        "action": "The error is \"are out of ink\". It should be \"is out of ink\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "One of the printers": "Some learners think \"printers\" should be \"printer\". But after \"one of the\", the noun is always plural: one of the printers, one of the clerks.",
+    "in the records section": "This phrase only tells where the printer is. It has no error. Its job is to sit between the subject and the verb and distract you.",
+    "No error": "\"Are\" sounds right because \"printers\" is plural and sits near the verb. But the subject is \"one\", so the verb must be \"is\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

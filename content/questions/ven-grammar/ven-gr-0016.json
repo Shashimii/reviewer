@@ -1,0 +1,48 @@
+{
+  "id": "ven-gr-0016",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-usage",
+  "difficulty": 2,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nThe two department heads will discuss about the budget during the meeting.",
+  "choices": [
+    "The two department heads",
+    "will discuss about",
+    "during the meeting",
+    "No error"
+  ],
+  "answer": "will discuss about",
+  "hints": [
+    "Some verbs take their object directly, with no small word in between.",
+    "Read the verb and what follows: \"discuss about the budget\". Try it without \"about\".",
+    "Some verbs take their object directly, with no preposition in between: you attend a meeting, enter a room, reach a decision. Ask whether the verb in this sentence is one of them, then check each part."
+  ],
+  "solution": {
+    "methodName": "Check the word partner",
+    "steps": [
+      {
+        "action": "Look at the verb \"discuss\" and the word after it: \"about\"."
+      },
+      {
+        "action": "\"Discuss\" already means \"talk about\", so it takes its object directly: \"discuss the budget\".",
+        "why": "Adding \"about\" says \"about\" twice."
+      },
+      {
+        "action": "Fix it: \"will discuss the budget\"."
+      },
+      {
+        "action": "Check the other parts. \"The two department heads\" and \"during the meeting\" are correct."
+      },
+      {
+        "action": "The error is \"will discuss about\". It should be \"will discuss\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The two department heads": "This part is correct. It names who will do the talking.",
+    "during the meeting": "This part is correct. \"During\" is the right word for something that happens within an event.",
+    "No error": "We say \"talk about\" and \"a discussion about\", so \"discuss about\" may sound right. But the verb \"discuss\" takes no \"about\": you discuss the budget."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

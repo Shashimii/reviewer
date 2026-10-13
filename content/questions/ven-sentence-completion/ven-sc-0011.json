@@ -1,0 +1,49 @@
+{
+  "id": "ven-sc-0011",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-form",
+  "difficulty": 2,
+  "stem": "Of the three windows at the cashier, Window 2 has the ___ line this morning.",
+  "choices": [
+    "short",
+    "shorter",
+    "shortest",
+    "most short"
+  ],
+  "answer": "shortest",
+  "hints": [
+    "Count how many things are being compared.",
+    "Use the -er form to compare two things, and the -est form to compare three or more.",
+    "Count the windows, decide whether this compares two or three-or-more, then pick the matching form of 'short'."
+  ],
+  "solution": {
+    "methodName": "Find what the blank needs, then pick the form",
+    "steps": [
+      {
+        "action": "Find the comparison: 'Of the three windows'.",
+        "why": "The words 'of the three' tell you how many things are compared."
+      },
+      {
+        "action": "Count: three windows, which is more than two."
+      },
+      {
+        "action": "Apply the rule: for three or more, use the -est form (the superlative).",
+        "why": "The -er form (comparative) is for two things: 'Window 2 is shorter than Window 1.' The -est form picks one out of a group of three or more."
+      },
+      {
+        "action": "Choose the form: 'shortest'. The word 'the' before the blank also points to the -est form."
+      },
+      {
+        "action": "The answer is 'shortest'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "short": "This is the plain form. It does not compare anything, but the sentence compares three windows.",
+    "shorter": "The -er form compares only two things. Here there are three windows.",
+    "most short": "Short words like 'short' take -est, not 'most'. 'Most' is used with longer words, as in 'most convenient'."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

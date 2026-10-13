@@ -1,0 +1,49 @@
+{
+  "id": "ven-gr-0006",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-tense",
+  "difficulty": 1,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nYesterday, the mayor visit the new health center in our barangay.",
+  "choices": [
+    "Yesterday, the mayor",
+    "visit the new health center",
+    "in our barangay",
+    "No error"
+  ],
+  "answer": "visit the new health center",
+  "hints": [
+    "Look for a word that tells you when the action happened.",
+    "\"Yesterday\" tells you the action is already finished. It happened in the past.",
+    "A finished action needs the past tense form of the verb, which usually ends in -ed. Check the verb against the time word, then check the other parts."
+  ],
+  "solution": {
+    "methodName": "Find the time clue, then match the verb",
+    "steps": [
+      {
+        "action": "Find the time clue: \"Yesterday\".",
+        "why": "Words like yesterday, last week, ago and in 2020 tell you the action is in the past."
+      },
+      {
+        "action": "Find the verb: \"visit\". It is in the present tense."
+      },
+      {
+        "action": "Change it to the past tense: \"visited\".",
+        "why": "A finished action takes the past form. Most verbs add -ed: visit, visited."
+      },
+      {
+        "action": "Check the other parts. \"Yesterday, the mayor\" and \"in our barangay\" are correct."
+      },
+      {
+        "action": "The error is \"visit the new health center\". It should be \"visited the new health center\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Yesterday, the mayor": "This part is correct. The time word and the subject are fine. It is the verb after them that does not match \"yesterday\".",
+    "in our barangay": "This part is correct. We use \"in\" for an area such as a barangay or a city.",
+    "No error": "\"Visit\" may slip by when you read quickly. But \"yesterday\" makes the action past, so the verb must be \"visited\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

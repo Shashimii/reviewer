@@ -1,0 +1,48 @@
+{
+  "id": "ven-voc-0017",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-idiom",
+  "difficulty": 2,
+  "stem": "When residents complained about the uncollected garbage, each office passed the buck, and in the end no one fixed the problem. What does 'passed the buck' mean in this sentence?",
+  "choices": [
+    "asked for more money",
+    "shifted the duty to others",
+    "collected the garbage quickly",
+    "said sorry to the residents"
+  ],
+  "answer": "shifted the duty to others",
+  "hints": [
+    "This is an idiom. Here, 'buck' has nothing to do with money.",
+    "Look at the result: every office did it, and no one fixed the problem. What were the offices doing?",
+    "If every office does the same thing and the problem stays, think about who took responsibility. Pick the choice that explains why no one acted."
+  ],
+  "solution": {
+    "methodName": "Read the idiom as a whole",
+    "steps": [
+      {
+        "action": "Spot the idiom: 'passed the buck' is not about handing over money.",
+        "why": "'Buck' can be slang for a dollar, but no money is mentioned in the complaint. Read the phrase as a whole."
+      },
+      {
+        "action": "Read the result: 'each office passed the buck, and in the end no one fixed the problem'."
+      },
+      {
+        "action": "Ask why no one fixed it: each office said it was another office's job."
+      },
+      {
+        "action": "So 'pass the buck' means 'to shift the responsibility or blame to someone else'."
+      },
+      {
+        "action": "The answer is 'shifted the duty to others'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "asked for more money": "This comes from 'buck' meaning money. But the problem stayed because no office took the job, not because of money.",
+    "collected the garbage quickly": "If an office had done that, the problem would have been fixed. The sentence says no one fixed it.",
+    "said sorry to the residents": "Saying sorry is not the same as shifting responsibility, and the sentence says nothing about an apology."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

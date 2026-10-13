@@ -1,0 +1,53 @@
+{
+  "id": "ven-gr-0010",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-tense",
+  "difficulty": 3,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nBy the time the ambulance arrived, the volunteers had already given first aid to the driver.",
+  "choices": [
+    "the ambulance arrived",
+    "had already given",
+    "first aid to the driver",
+    "No error"
+  ],
+  "answer": "No error",
+  "hints": [
+    "This sentence has two past actions. Which one happened first?",
+    "The volunteers gave first aid first. The ambulance arrived later. English marks the earlier of two past actions with \"had\" + past participle.",
+    "Rule: \"By the time\" + simple past for the later action, then \"had\" + past participle for the action that finished earlier. Check each part against this rule. If all parts fit, choose \"No error\"."
+  ],
+  "solution": {
+    "methodName": "Find the time clue, then match the verb",
+    "steps": [
+      {
+        "action": "Find the two actions: the ambulance arrived, and the volunteers gave first aid."
+      },
+      {
+        "action": "Put them in order: first aid came first, the ambulance came later.",
+        "why": "\"By the time\" means \"before this moment\". The first aid was done before the ambulance got there."
+      },
+      {
+        "action": "Check \"the ambulance arrived\". The later action uses the simple past. Correct.",
+        "why": "After \"by the time\", use the simple past (\"arrived\"), not \"had arrived\"."
+      },
+      {
+        "action": "Check \"had already given\". The earlier action uses \"had\" + past participle. Correct.",
+        "why": "\"Given\" is the past participle of \"give\". It is the form used after has, have or had."
+      },
+      {
+        "action": "Check \"first aid to the driver\". You give first aid to someone. Correct."
+      },
+      {
+        "action": "Every part is correct, so the answer is \"No error\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "the ambulance arrived": "Some think this should be \"had arrived\". But the ambulance came second. Only the earlier action takes \"had\".",
+    "had already given": "\"Already gave\" is common in everyday speech, so \"had already given\" may look too formal. But with \"by the time\", the earlier action needs \"had\" + past participle. This part is correct.",
+    "first aid to the driver": "This part is correct. You \"give first aid to\" someone."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

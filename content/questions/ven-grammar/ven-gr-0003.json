@@ -1,0 +1,50 @@
+{
+  "id": "ven-gr-0003",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-agreement",
+  "difficulty": 3,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nNeither the clerks nor the manager were told about the new schedule.",
+  "choices": [
+    "Neither the clerks",
+    "were told",
+    "about the new schedule",
+    "No error"
+  ],
+  "answer": "were told",
+  "hints": [
+    "With \"neither … nor\", the verb does not always agree with the first noun.",
+    "Find the noun that comes right after \"nor\". It is the subject nearer to the verb.",
+    "Rule: with \"neither … nor\" and \"either … or\", the verb agrees with the nearer subject. Decide if that noun is singular or plural, then check the verb and the other parts."
+  ],
+  "solution": {
+    "methodName": "Find the true subject, then match the verb",
+    "steps": [
+      {
+        "action": "Find the two subjects joined by \"neither … nor\": \"the clerks\" and \"the manager\"."
+      },
+      {
+        "action": "Find the subject nearer to the verb: \"the manager\".",
+        "why": "With \"neither … nor\" and \"either … or\", the verb follows the subject closest to it."
+      },
+      {
+        "action": "\"The manager\" is singular, so the verb must be singular: \"was told\".",
+        "why": "Say it alone: \"the manager was told\", not \"the manager were told\"."
+      },
+      {
+        "action": "Check the rest. \"Neither the clerks\" and \"about the new schedule\" are correct.",
+        "why": "You are \"told about\" something, so the preposition is right."
+      },
+      {
+        "action": "The error is \"were told\". It should be \"was told\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Neither the clerks": "Some think \"clerks\" should be \"clerk\" to match a singular verb. But \"Neither the clerks\" is a correct way to start. The problem is the verb, which must match the nearer subject, \"the manager\".",
+    "about the new schedule": "You are \"told about\" something, so this part is correct.",
+    "No error": "\"Were\" sounds right because \"clerks\" is plural and there are several people. But the verb must match the nearer subject, \"the manager\", which is singular."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

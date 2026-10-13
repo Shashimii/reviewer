@@ -1,0 +1,50 @@
+{
+  "id": "ven-gr-0009",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-tense",
+  "difficulty": 2,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nMr. Reyes works at the provincial office since 2015.",
+  "choices": [
+    "Mr. Reyes works",
+    "at the provincial office",
+    "since 2015",
+    "No error"
+  ],
+  "answer": "Mr. Reyes works",
+  "hints": [
+    "\"Since 2015\" links the past to now. Is Mr. Reyes still working there today?",
+    "He started in 2015 and still works there. The simple present (\"works\") only talks about now, not about a span from the past up to now.",
+    "With \"since\" or \"for\" and an action that is still going on, use has or have + the past participle (has lived, have taught). Check which part breaks this rule."
+  ],
+  "solution": {
+    "methodName": "Find the time clue, then match the verb",
+    "steps": [
+      {
+        "action": "Find the time clue: \"since 2015\".",
+        "why": "\"Since\" gives the starting point of an action that is still going on."
+      },
+      {
+        "action": "The action started in the past and continues now. This needs has or have + the past participle.",
+        "why": "The past participle is the verb form used after has or have: worked, eaten, written. Together they join the past and the present."
+      },
+      {
+        "action": "\"Works\" is the simple present, so it does not fit. Fix it: \"Mr. Reyes has worked\" (or \"has been working\")."
+      },
+      {
+        "action": "Check the other parts. \"at the provincial office\" and \"since 2015\" are correct.",
+        "why": "\"Since\" goes with a starting point, like a year. \"For\" goes with a length of time, like ten years."
+      },
+      {
+        "action": "The error is \"Mr. Reyes works\". It should be \"Mr. Reyes has worked\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "at the provincial office": "This part is correct. \"At\" is the right word for a workplace: at the office, at the hospital.",
+    "since 2015": "Some think it should be \"for 2015\". But \"for\" goes with a length of time (for ten years), and \"since\" goes with a starting point (since 2015). This part is correct.",
+    "No error": "\"Works\" sounds normal on its own. But with \"since 2015\", the action runs from the past up to now, so you need \"has worked\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

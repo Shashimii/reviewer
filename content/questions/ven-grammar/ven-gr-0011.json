@@ -1,0 +1,53 @@
+{
+  "id": "ven-gr-0011",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-pronoun",
+  "difficulty": 2,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nBefore the audit, the supervisor asked Ramon and I to check the payroll.",
+  "choices": [
+    "Before the audit",
+    "the supervisor asked",
+    "Ramon and I",
+    "No error"
+  ],
+  "answer": "Ramon and I",
+  "hints": [
+    "Look at the pronoun \"I\". Is it doing the action, or receiving it?",
+    "Cover \"Ramon and\". Read the sentence with the pronoun alone: \"the supervisor asked I to check the payroll.\" Does that sound right?",
+    "Use I, he, she, we and they for the doer of the action. Use me, him, her, us and them for the one who receives the action. Read each pronoun alone to test it, then check the other parts."
+  ],
+  "solution": {
+    "methodName": "Read the pronoun alone",
+    "steps": [
+      {
+        "action": "Find the pronoun: \"I\".",
+        "why": "A pronoun is a word that takes the place of a noun, such as I, me, he, him, they or them."
+      },
+      {
+        "action": "Ask what it does. The supervisor did the asking. Ramon and \"I\" received the action.",
+        "why": "The one who receives an action takes an object pronoun: me, him, her, us or them."
+      },
+      {
+        "action": "Test it alone. \"The supervisor asked I\" sounds wrong. \"The supervisor asked me\" sounds right.",
+        "why": "Covering the other name makes the error easy to hear."
+      },
+      {
+        "action": "Fix it: \"Ramon and me\"."
+      },
+      {
+        "action": "Check the other parts. \"Before the audit\" and \"the supervisor asked\" are correct."
+      },
+      {
+        "action": "The error is \"Ramon and I\". It should be \"Ramon and me\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Before the audit": "This part only tells when it happened, and it is correct.",
+    "the supervisor asked": "This part is correct. \"Asked\" is in the past tense, which fits a request made before the audit.",
+    "No error": "Many people think \"Ramon and I\" is always the polite, correct form. It is correct only when the pair does the action. Here the pair receives the action, so it should be \"Ramon and me\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

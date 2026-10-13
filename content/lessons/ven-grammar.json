@@ -1,0 +1,73 @@
+{
+  "id": "ven-grammar-lesson",
+  "topicId": "ven-grammar",
+  "workedExampleId": "ven-gr-0001",
+  "sections": [
+    {
+      "heading": "How to answer error questions",
+      "body": "In an **error recognition** item, you read one sentence. The choices are three parts of that sentence plus **\"No error\"**. Either one part is wrong, or none is.\n\n1. Read the whole sentence once for meaning.\n2. Check each part against the rules below.\n3. Choose \"No error\" only after all three parts pass your checks.\n\nTwo words you will need: the **subject** is who or what the sentence is about, and the **verb** is the action or state word (*works, is, gave*)."
+    },
+    {
+      "heading": "Subject and verb must agree",
+      "body": "The verb must **agree** with (match) its subject. **Singular** means one; **plural** means more than one. In the present tense, a singular subject usually takes a verb ending in **-s**: *The clerk works.* A plural subject does not: *The clerks work.*\n\n**Method: find the true subject, then match the verb.**\n\n- **Skip \"of\" phrases.** *The list of names **is** long.* The subject is *list*, not *names*.\n- **One of the …** is singular: *One of the cars **is** red.*\n- **Each** and **every** are singular: *Every clerk **has** a locker.*\n- A **collective noun** is a word for a group, like committee, team or family. When the group acts as one, it is singular: *The team **has** won.*\n- **Neither … nor** and **either … or:** match the nearer subject. *Neither the guards nor the driver **was** late.*"
+    },
+    {
+      "heading": "Verb tense: match the time",
+      "body": "**Tense** is the form of a verb that shows time: past, present or future.\n\n**Method: find the time clue, then match the verb.**\n\n- **Past clues** (yesterday, last week, ago, in 2020) need the past form: *Yesterday she **called**.*\n- **After did, do or does**, use the plain form: *She did not **call**.*\n- **Since** (a starting point) or **for** (a length of time), for something still going on, needs **has/have** + past participle: *He **has worked** here since 2019.* The **past participle** is the form used after has, have or had: worked, given, written.\n- **By the time** + past: the action that finished earlier takes **had** + past participle. *By the time we arrived, the bus **had left**.*\n- **Stay consistent.** Actions that happen together use the same tense."
+    },
+    {
+      "heading": "Pronouns",
+      "body": "A **pronoun** is a word that takes the place of a noun: he, him, it, its, they, who. The noun it points back to is its **antecedent**.\n\n- **Match the antecedent.** One thing takes *it/its*; more than one takes *they/their*. *The cabinet lost **its** key.*\n- **Doer or receiver? Read the pronoun alone.** *I, he, she, we, they* do the action. *Me, him, her, us, them* receive it. *The boss called Ana and **me**.* (Cover \"Ana and\": \"called me\", not \"called I\".)\n- **Who or whom? Swap in he or him.** If *he* fits, use *who*. If *him* fits, use *whom*. Both *him* and *whom* end in -m. *The clerk **who** helped me* (he helped me). *The clerk **whom** I called* (I called him)."
+    },
+    {
+      "heading": "Prepositions and word partners",
+      "body": "A **preposition** is a small linking word, such as at, on, in, to, with or of.\n\n**Time:** **at** a clock time (*at 8:00*), **on** a day or date (*on Monday*), **in** a month, year or part of the day (*in May, in the morning*). Use no preposition before every, next or last: *every Monday*.\n\n**Method: check the word partner.** Some words always take the same preposition:\n\n| Say | Not |\n| --- | --- |\n| comply with | comply to |\n| result in | result to |\n| based on | based from |\n| capable of | capable to |\n| insist on | insist to |\n| graduate from a school | graduate in a school |\n| cope with | cope up with |\n\nSome verbs take **no** partner: discuss, attend, enter. *We discussed the plan*, not *discussed about*."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **The nearest noun.** The verb matches the true subject, not the noun beside it. *The box of pens **is** here.*\n- **\"Ana and I\" is not always polite and correct.** Use *Ana and me* when the pair receives the action.\n- **Showing the past twice.** *Did not received* is wrong. Use *did not receive*.\n- **\"Whom\" is not a fancy \"who\".** Do the he/him swap every time.\n- **Habits from everyday speech.** *Comply to, result to, discuss about* and *cope up* are common, but the exam uses standard English.\n- **Fear of \"No error\".** If all three parts pass your checks, choose it."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Subject",
+      "definition": "The subject is the person or thing a sentence is about, usually the one doing the action.",
+      "taglish": "Subject – ang gumagawa ng kilos o ang pinag-uusapan sa pangungusap"
+    },
+    {
+      "term": "Verb",
+      "definition": "A verb is a word that shows an action or a state, like works, gave or is.",
+      "taglish": "Verb – pandiwa; salitang nagsasabi ng kilos o kalagayan"
+    },
+    {
+      "term": "Singular and plural",
+      "definition": "Singular means one. Plural means more than one.",
+      "taglish": "Singular – isa lang; plural – dalawa o higit pa"
+    },
+    {
+      "term": "Collective noun",
+      "definition": "A collective noun is a word for a group, like committee, team or family. It is singular when the group acts as one.",
+      "taglish": "Collective noun – salita para sa isang grupo; isahan ang turing kapag kumikilos bilang isa"
+    },
+    {
+      "term": "Tense",
+      "definition": "Tense is the form of a verb that shows when an action happens: past, present or future.",
+      "taglish": "Tense – anyo ng pandiwa na nagsasabi kung kailan nangyari ang kilos"
+    },
+    {
+      "term": "Pronoun",
+      "definition": "A pronoun is a word that takes the place of a noun, like he, him, it, they or who.",
+      "taglish": "Pronoun – panghalip; pamalit sa pangalan ng tao o bagay"
+    },
+    {
+      "term": "Antecedent",
+      "definition": "The antecedent is the noun that a pronoun points back to. In \"The cabinet lost its key\", the antecedent of \"its\" is \"cabinet\".",
+      "taglish": "Antecedent – ang salitang tinutukoy ng panghalip"
+    },
+    {
+      "term": "Preposition",
+      "definition": "A preposition is a small linking word that shows time, place or connection, like at, on, in, to, with or of.",
+      "taglish": "Preposition – maliit na salitang pang-ugnay gaya ng at, on, in, with"
+    }
+  ]
+}

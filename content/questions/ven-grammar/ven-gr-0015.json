@@ -1,0 +1,49 @@
+{
+  "id": "ven-gr-0015",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-usage",
+  "difficulty": 1,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nAll offices must comply to the new dress code starting next month.",
+  "choices": [
+    "must comply to",
+    "the new dress code",
+    "starting next month",
+    "No error"
+  ],
+  "answer": "must comply to",
+  "hints": [
+    "Some verbs always go with one fixed small word, such as to, with, on or in. Look at each verb and the small word after it.",
+    "Say the verb with its partner word: \"comply to\". Is that the standard pair in English?",
+    "Recall how this verb appears in formal memos and laws: \"Employees must comply ___ the rules.\" Which small word fills the blank there? Compare it with the sentence, then check the other parts."
+  ],
+  "solution": {
+    "methodName": "Check the word partner",
+    "steps": [
+      {
+        "action": "Look at each verb and the preposition after it: \"comply to\".",
+        "why": "A preposition is a small linking word such as in, on, at, to, with or of."
+      },
+      {
+        "action": "\"Comply\" always pairs with \"with\": comply with the rules.",
+        "why": "These pairs are fixed by usage, not by logic, so you have to memorize them."
+      },
+      {
+        "action": "Fix it: \"must comply with\"."
+      },
+      {
+        "action": "Check the other parts. \"the new dress code\" and \"starting next month\" are correct."
+      },
+      {
+        "action": "The error is \"must comply to\". It should be \"must comply with\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "the new dress code": "This part is correct. A \"dress code\" is the set of rules on what to wear at work.",
+    "starting next month": "This part is correct. \"Starting next month\" tells when the rule begins.",
+    "No error": "\"Comply to\" is common in everyday Philippine English, so it may sound right. Standard English uses \"comply with\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

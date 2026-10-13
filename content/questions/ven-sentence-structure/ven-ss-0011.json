@@ -1,0 +1,55 @@
+{
+  "id": "ven-ss-0011",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-modifier",
+  "difficulty": 2,
+  "stem": "Which sentence is correctly written?",
+  "choices": [
+    "Walking to the office, the rain soaked my uniform.",
+    "Walking to the office, my uniform got soaked by the rain.",
+    "My uniform, while walking to the office, got soaked by the rain.",
+    "Walking to the office, I got soaked by the rain."
+  ],
+  "answer": "Walking to the office, I got soaked by the rain.",
+  "hints": [
+    "A phrase like \"Walking to the office\" at the start describes the person or thing named right after the comma.",
+    "In each choice, ask: who or what is named right after the walking phrase? Can that thing walk?",
+    "Rule: an opening -ing phrase must be followed right away by the one doing that action. If the word after it cannot do the action, the phrase is a dangling modifier. Find the choice where the walker comes right after the phrase."
+  ],
+  "solution": {
+    "methodName": "Put the describing phrase next to what it describes",
+    "steps": [
+      {
+        "action": "Find the describing phrase: \"walking to the office\". It is a modifier.",
+        "why": "A modifier is a word or phrase that describes something. Readers link it to the nearest person or thing."
+      },
+      {
+        "action": "Ask who was walking: the speaker, \"I\"."
+      },
+      {
+        "action": "First choice: right after the comma is \"the rain\". Rain cannot walk. Wrong.",
+        "why": "When the doer is missing, the phrase is called a dangling modifier: it hangs with nothing correct to describe."
+      },
+      {
+        "action": "Second choice: right after the comma is \"my uniform\". A uniform cannot walk. Wrong."
+      },
+      {
+        "action": "Third choice: the phrase sits next to \"My uniform\", so it still says the uniform was walking. Wrong."
+      },
+      {
+        "action": "Last choice: right after the comma is \"I\", the one who was walking. Correct."
+      },
+      {
+        "action": "The answer is \"Walking to the office, I got soaked by the rain.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Walking to the office, the rain soaked my uniform.": "The meaning is clear in real life, but the sentence says the rain was walking to the office, because \"the rain\" comes right after the phrase.",
+    "Walking to the office, my uniform got soaked by the rain.": "\"My uniform\" is close to \"I\", but the sentence now says the uniform was walking. The walker must be named: \"I\".",
+    "My uniform, while walking to the office, got soaked by the rain.": "Moving the phrase into the middle does not fix it. It still sits next to \"My uniform\", so the uniform seems to be walking."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

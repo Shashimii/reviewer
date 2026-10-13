@@ -1,0 +1,50 @@
+{
+  "id": "ven-po-0011",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-topic",
+  "difficulty": 2,
+  "stem": "Which sentence is the topic sentence of the paragraph?\n\n1. Have you ever wondered why the rice terraces of Ifugao have lasted for centuries?\n2. The answer lies in the constant care that whole communities give them.\n3. Families repair the stone and mud walls after every heavy rain.\n4. Neighbors share water fairly through an old system of channels.\n5. Elders teach the young how to keep the terraces in good shape.",
+  "choices": [
+    "Sentence 1",
+    "Sentence 2",
+    "Sentence 4",
+    "Sentence 5"
+  ],
+  "answer": "Sentence 2",
+  "hints": [
+    "A question can open a paragraph, but a question does not state the main point. It only raises the topic.",
+    "Find the sentence that answers the opening question.",
+    "Check which sentence the rest support: repairing walls, sharing water and teaching the young are all examples of something. Choose the sentence that names it."
+  ],
+  "solution": {
+    "methodName": "Find the sentence that covers all the others",
+    "steps": [
+      {
+        "action": "Read sentence 1. It asks why the terraces have lasted.",
+        "why": "A question catches the reader's interest, but it does not tell us the main point."
+      },
+      {
+        "action": "Read sentence 2. It answers the question: communities give the terraces constant care.",
+        "why": "This is a statement of the main point."
+      },
+      {
+        "action": "Check sentences 3, 4 and 5.",
+        "why": "Repairing walls, sharing water and teaching the young are all examples of community care."
+      },
+      {
+        "action": "Since sentences 3 to 5 support sentence 2, sentence 2 is the topic sentence."
+      },
+      {
+        "action": "The topic sentence is Sentence 2."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Sentence 1": "It comes first, but it is a question. It raises the topic without stating the main point. Sentence 2 gives the answer, and the answer is the main point.",
+    "Sentence 4": "Sharing water is only one way communities care for the terraces. It is a supporting detail.",
+    "Sentence 5": "Teaching the young is one more example of community care. It is a detail at the end, not a summary."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

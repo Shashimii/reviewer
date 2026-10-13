@@ -1,0 +1,49 @@
+{
+  "id": "ven-gr-0014",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-pronoun",
+  "difficulty": 3,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nThe applicant whom the panel interviewed on Monday has accepted the job offer.",
+  "choices": [
+    "whom the panel interviewed",
+    "on Monday",
+    "has accepted",
+    "No error"
+  ],
+  "answer": "No error",
+  "hints": [
+    "In \"whom the panel interviewed\", who did the interviewing, and who was interviewed?",
+    "Turn that part into a short sentence: \"The panel interviewed ___.\" Would you put \"he\" or \"him\" in the blank?",
+    "If \"him\" fits, \"whom\" is right. If \"he\" fits, \"who\" is right. Then check that the main verb matches the main subject, \"The applicant\". If every part passes, choose \"No error\"."
+  ],
+  "solution": {
+    "methodName": "Swap in he or him",
+    "steps": [
+      {
+        "action": "Look at \"whom the panel interviewed\". The doer is \"the panel\". The applicant is the one who was interviewed."
+      },
+      {
+        "action": "Swap test: \"The panel interviewed him.\" \"Him\" fits, so \"whom\" is correct.",
+        "why": "\"Him\" receives the action, and so does \"whom\". Both end in -m."
+      },
+      {
+        "action": "Check \"on Monday\": \"on\" is the right word before a day. Correct."
+      },
+      {
+        "action": "Check \"has accepted\": the main subject is \"The applicant\", which is singular, so \"has\" is correct.",
+        "why": "\"The panel\" belongs to the describing part. It is not the subject of \"has accepted\"."
+      },
+      {
+        "action": "All parts are correct. The answer is \"No error\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "whom the panel interviewed": "Many people use \"who\" for everything, so \"whom\" looks odd. But the panel did the interviewing and the applicant received it (\"interviewed him\"), so \"whom\" is correct.",
+    "on Monday": "\"On\" is the right preposition for days of the week. This part is correct.",
+    "has accepted": "\"Have\" might seem right if you match the verb with \"the panel\" or think of many people. But the subject is \"The applicant\", one person, so \"has\" is correct."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ven-sc-0007",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-word",
+  "difficulty": 3,
+  "stem": "The council's vote on the new ordinance was ___: all fifteen members raised their hands to vote yes.",
+  "choices": [
+    "anonymous",
+    "unanimous",
+    "numerous",
+    "ambiguous"
+  ],
+  "answer": "unanimous",
+  "hints": [
+    "The part after the colon explains the blank. How many members voted yes?",
+    "When everyone agrees and votes the same way, what is the vote called?",
+    "Predict a word for 'everyone agreeing'. Then check the look-alike choices by their meaning, not their sound."
+  ],
+  "solution": {
+    "methodName": "Predict a word, then match the choices",
+    "steps": [
+      {
+        "action": "Read the whole sentence, skipping the blank."
+      },
+      {
+        "action": "Find the clue after the colon: 'all fifteen members raised their hands to vote yes'.",
+        "why": "A colon often introduces an explanation of what comes before it."
+      },
+      {
+        "action": "Predict: everyone agreed."
+      },
+      {
+        "action": "Match: 'unanimous' means agreed on by everyone."
+      },
+      {
+        "action": "Separate the look-alike: 'anonymous' means without a name, like an unsigned letter. Raising hands shows who voted, so the vote was not anonymous.",
+        "why": "Unanimous and anonymous look and sound alike. Learn them as a pair."
+      },
+      {
+        "action": "The answer is 'unanimous'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "anonymous": "Anonymous looks like the answer but means 'without a name', like an unsigned complaint letter. The members raised their hands, so everyone could see how they voted.",
+    "numerous": "Numerous means many. It does not describe a vote, and the clue is about everyone agreeing, not about how many members there are.",
+    "ambiguous": "Ambiguous means unclear. A vote where all fifteen members said yes is perfectly clear."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

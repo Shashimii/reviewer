@@ -1,0 +1,51 @@
+{
+  "id": "ven-po-0005",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-order",
+  "difficulty": 2,
+  "stem": "Put the sentences in the most logical order.\n\n1. Such water often collects in containers around the house.\n2. By removing these containers, families can cut the number of mosquitoes near their homes.\n3. Examples include old tires, flower vases and uncovered water drums.\n4. The mosquito that carries dengue lays its eggs in clean, still water.",
+  "choices": [
+    "4, 1, 3, 2",
+    "4, 3, 1, 2",
+    "1, 3, 4, 2",
+    "4, 2, 1, 3"
+  ],
+  "answer": "4, 1, 3, 2",
+  "hints": [
+    "Look for \"Such water\", \"Examples\" and \"these containers\". Each one points back to something.",
+    "Find the sentence that points back to nothing. It introduces the mosquito and the water.",
+    "Link each pointing phrase to what it needs: \"Such water\" needs the water, \"Examples\" needs the containers, and \"these containers\" needs the examples. End with the advice."
+  ],
+  "solution": {
+    "methodName": "Find the opener, then follow the links",
+    "steps": [
+      {
+        "action": "Start with sentence 4, about the mosquito and clean, still water.",
+        "why": "It is the only sentence that does not point back to anything."
+      },
+      {
+        "action": "Put sentence 1 next.",
+        "why": "\"Such water\" means the clean, still water from sentence 4."
+      },
+      {
+        "action": "Put sentence 3 after sentence 1.",
+        "why": "Old tires, vases and drums are examples of containers, which sentence 1 has just mentioned. They are not examples of water."
+      },
+      {
+        "action": "End with sentence 2.",
+        "why": "\"These containers\" points back to the list, and removing them is the solution, which makes a good ending."
+      },
+      {
+        "action": "The correct order is 4, 1, 3, 2."
+      }
+    ]
+  },
+  "trapNotes": {
+    "4, 3, 1, 2": "Right after sentence 4, the list in sentence 3 would be examples of \"still water\". Tires and vases are not water. They are examples of containers, so sentence 1 must come first.",
+    "1, 3, 4, 2": "\"Such water\" needs a kind of water mentioned before it. Sentence 4 describes the water, so it must open the paragraph.",
+    "4, 2, 1, 3": "\"These containers\" in sentence 2 appears before any container is mentioned. Containers are introduced only in sentence 1."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

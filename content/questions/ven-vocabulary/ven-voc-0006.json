@@ -1,0 +1,51 @@
+{
+  "id": "ven-voc-0006",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-antonym",
+  "difficulty": 1,
+  "stem": "Our office still uses an obsolete computer that can no longer open new files. Which word is most nearly opposite in meaning to 'obsolete'?",
+  "choices": [
+    "outdated",
+    "modern",
+    "broken",
+    "costly"
+  ],
+  "answer": "modern",
+  "hints": [
+    "This question asks for the opposite, not the same meaning. Read the question again before you choose.",
+    "The computer can no longer open new files. Is it out of date or up to date?",
+    "First say the meaning of 'obsolete' in your own words. Then look for the choice that means the reverse, and skip any choice that means the same."
+  ],
+  "solution": {
+    "methodName": "Find the meaning, then flip it",
+    "steps": [
+      {
+        "action": "Read the question carefully: it asks for the word most nearly opposite in meaning.",
+        "why": "Antonym questions often include a synonym as a trap for people who read too fast."
+      },
+      {
+        "action": "Use the clue: the computer 'can no longer open new files', so it is out of date."
+      },
+      {
+        "action": "So obsolete means 'no longer useful because it is out of date'."
+      },
+      {
+        "action": "Flip the meaning: the opposite of out of date is new and up to date."
+      },
+      {
+        "action": "Find it in the choices: 'modern' means new and up to date."
+      },
+      {
+        "action": "The answer is 'modern'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "outdated": "This means the same as obsolete, not the opposite. The question asks for the opposite.",
+    "broken": "Broken means damaged, which is a different idea. An old computer can still work, and a new one can be broken.",
+    "costly": "Price is a different idea. An old computer can be costly or cheap, so costly is not the opposite of obsolete."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

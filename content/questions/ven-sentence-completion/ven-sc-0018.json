@@ -1,0 +1,52 @@
+{
+  "id": "ven-sc-0018",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-connector",
+  "difficulty": 3,
+  "stem": "The new queuing system has shortened the waiting time at the cashier. ___, many clients still complain, because the line now forms outside the building under the hot sun.",
+  "choices": [
+    "Moreover",
+    "However",
+    "Therefore",
+    "Similarly"
+  ],
+  "answer": "However",
+  "hints": [
+    "Is the first sentence good news or bad news? What about the second?",
+    "The word 'still' in the second sentence is a clue. It means 'even so'.",
+    "Name the link between a good result and a complaint, then pick the connector for that link."
+  ],
+  "solution": {
+    "methodName": "Name the link, then pick the connector",
+    "steps": [
+      {
+        "action": "Read the first sentence: good news. The waiting time is shorter."
+      },
+      {
+        "action": "Read the second sentence: bad news. Many clients still complain."
+      },
+      {
+        "action": "Spot the clue 'still': the complaints continue even after the improvement.",
+        "why": "'Still' often signals that something is true in spite of what came before."
+      },
+      {
+        "action": "Name the link: contrast, good news set against bad news."
+      },
+      {
+        "action": "Choose the contrast connector: 'However'.",
+        "why": "Moreover adds a similar idea, therefore shows a result, and similarly shows that two things are alike. Only however shows contrast."
+      },
+      {
+        "action": "The answer is 'However'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Moreover": "Moreover adds another point of the same kind. But the second sentence is a complaint, not another good thing about the system.",
+    "Therefore": "Therefore shows a result. A shorter wait does not cause complaints; the complaints are about the line being outside in the sun.",
+    "Similarly": "Similarly shows that two things are alike. A shorter wait and new complaints are opposites, not alike."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

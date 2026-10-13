@@ -1,0 +1,52 @@
+{
+  "id": "ven-ss-0005",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-complete",
+  "difficulty": 3,
+  "stem": "Which sentence is correctly written?",
+  "choices": [
+    "The road was flooded, the bus took another route.",
+    "Because the road was flooded. The bus took another route.",
+    "The road was flooded; the bus took another route.",
+    "The road was flooded the bus took another route."
+  ],
+  "answer": "The road was flooded; the bus took another route.",
+  "hints": [
+    "All four choices have the same two ideas. Only the way they are joined is different.",
+    "Ask of each choice: is each part a complete thought? Is the mark between them allowed?",
+    "Two complete sentences may be joined by a period, by a semicolon (;), or by a comma plus \"and\", \"but\" or \"so\". A comma alone, or nothing at all, makes a run-on. A part that starts with \"Because\" cannot stand alone. Check each choice."
+  ],
+  "solution": {
+    "methodName": "Find the two complete thoughts, then check the join",
+    "steps": [
+      {
+        "action": "Find the two ideas: \"The road was flooded\" and \"the bus took another route\". Both are complete sentences."
+      },
+      {
+        "action": "First choice: joined by a comma alone. This is a comma splice. Wrong."
+      },
+      {
+        "action": "Second choice: \"Because the road was flooded.\" stands alone with a period, so it is a fragment. Wrong.",
+        "why": "\"Because\" makes it depend on the next idea. It should be joined with a comma: \"Because the road was flooded, the bus took another route.\""
+      },
+      {
+        "action": "Fourth choice: nothing between two complete sentences. This is a run-on. Wrong."
+      },
+      {
+        "action": "Third choice: a semicolon joins two complete, closely related sentences. Correct.",
+        "why": "A semicolon (;) is a strong pause. It can join two complete sentences without \"and\" or \"but\"."
+      },
+      {
+        "action": "The answer is \"The road was flooded; the bus took another route.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The road was flooded, the bus took another route.": "The comma looks like a natural pause, but a comma alone cannot hold two complete sentences together. This is a comma splice.",
+    "Because the road was flooded. The bus took another route.": "This splits the ideas with a period, which seems safe. But \"Because the road was flooded\" cannot stand alone. It must be joined to the main idea with a comma.",
+    "The road was flooded the bus took another route.": "With no mark between the two ideas, this is a run-on. It needs a period, a semicolon, or a comma plus \"so\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

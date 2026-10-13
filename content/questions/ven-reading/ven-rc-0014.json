@@ -1,0 +1,50 @@
+{
+  "id": "ven-rc-0014",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-inference",
+  "difficulty": 2,
+  "passage": "Too many people still expect to be treated badly when they go to a government office. They prepare themselves for long lines, unexplained delays and clerks who will not look up from their desks. This expectation is unfair to the many public servants who work hard every day, but it did not come from nowhere. Every rude reply and every unanswered question adds to it.\n\nThe fix does not require new buildings or expensive machines. It begins with small acts: a greeting, a clear explanation, a sincere \"I'm sorry for the wait.\" Public servants are paid by the people they serve. Treating those people with respect is not a favor. It is part of the job.",
+  "stem": "Which statement would the writer most likely agree with?",
+  "choices": [
+    "Most public servants are rude and do not deserve their pay.",
+    "People should stop expecting good service from the government.",
+    "Small courtesies can change how people see government offices.",
+    "Better service will come only when offices get modern equipment."
+  ],
+  "answer": "Small courtesies can change how people see government offices.",
+  "hints": [
+    "Find the writer's main opinion, then pick the statement that fits it. Watch for choices that say the opposite.",
+    "The writer says what \"the fix\" is. Find that sentence and ask what it fixes.",
+    "The fix is meant to change people's bad expectation of government offices. Pick the statement that agrees with this, and reject any that the passage goes against."
+  ],
+  "solution": {
+    "methodName": "Find the clue, then take one small step",
+    "steps": [
+      {
+        "action": "Find the problem: people expect to be treated badly at government offices."
+      },
+      {
+        "action": "Find the fix: it begins with small acts, such as a greeting or a clear explanation."
+      },
+      {
+        "action": "Take one small step: small courtesies can change how people see government offices.",
+        "why": "The fix is meant to solve the problem, and the problem is how people expect to be treated."
+      },
+      {
+        "action": "Check the others against the passage.",
+        "why": "The writer praises hardworking public servants, says the fix needs no expensive machines, and wants service to get better, not people to expect less."
+      },
+      {
+        "action": "The writer would most likely agree with \"Small courtesies can change how people see government offices.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Most public servants are rude and do not deserve their pay.": "The writer says the bad expectation is unfair to \"the many public servants who work hard every day\". So the writer does not think most are rude.",
+    "People should stop expecting good service from the government.": "This is the opposite of the writer's view. The writer wants service to improve so that people stop expecting bad treatment.",
+    "Better service will come only when offices get modern equipment.": "The writer says the fix \"does not require new buildings or expensive machines\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

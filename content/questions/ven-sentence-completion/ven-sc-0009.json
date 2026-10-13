@@ -1,0 +1,49 @@
+{
+  "id": "ven-sc-0009",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-form",
+  "difficulty": 1,
+  "stem": "The staff checked the census forms ___ before sending them to the regional office.",
+  "choices": [
+    "careful",
+    "care",
+    "carefulness",
+    "carefully"
+  ],
+  "answer": "carefully",
+  "hints": [
+    "The blank tells how the staff checked the forms.",
+    "A word that tells how an action is done is an adverb. Many adverbs end in -ly.",
+    "Find the action word, ask 'how?', and pick the form of 'care' that answers that question."
+  ],
+  "solution": {
+    "methodName": "Find what the blank needs, then pick the form",
+    "steps": [
+      {
+        "action": "Find what the blank describes: the action 'checked'.",
+        "why": "The blank comes after 'checked the census forms' and tells how they were checked."
+      },
+      {
+        "action": "Name the part of speech: a word that describes a verb is an adverb.",
+        "why": "An adverb tells how, when or where an action happens. Many adverbs end in -ly."
+      },
+      {
+        "action": "Find the adverb among the choices: 'carefully' ends in -ly and answers 'how?'."
+      },
+      {
+        "action": "Reread: 'The staff checked the census forms carefully before sending them to the regional office.'"
+      },
+      {
+        "action": "The answer is 'carefully'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "careful": "Careful is an adjective, so it describes a noun, as in 'a careful clerk'. Here the blank describes the action 'checked'.",
+    "care": "Care is a noun or a verb. 'Checked the census forms care' is not correct English.",
+    "carefulness": "Carefulness is a noun, the name of the quality. The blank needs a word that tells how the checking was done."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ven-sc-0010",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-form",
+  "difficulty": 2,
+  "stem": "The list of qualified applicants ___ posted on the bulletin board every Monday.",
+  "choices": [
+    "is",
+    "are",
+    "were",
+    "have"
+  ],
+  "answer": "is",
+  "hints": [
+    "Find the real subject. Ask: what is posted on the board?",
+    "Cover the words 'of qualified applicants'. What is left as the subject?",
+    "Decide whether the real subject is one thing or many, check the time words 'every Monday', then pick the verb that matches both."
+  ],
+  "solution": {
+    "methodName": "Find what the blank needs, then pick the form",
+    "steps": [
+      {
+        "action": "Find the subject: 'The list of qualified applicants'."
+      },
+      {
+        "action": "Cross out the phrase 'of qualified applicants'.",
+        "why": "A phrase starting with 'of', 'with' or 'in' can sit between the subject and the verb, but it is not the subject. The verb agrees with the main noun."
+      },
+      {
+        "action": "The main noun is 'list', which is one thing (singular)."
+      },
+      {
+        "action": "Check the time: 'every Monday' means something that happens regularly, so use the present tense."
+      },
+      {
+        "action": "Singular and present: 'is'."
+      },
+      {
+        "action": "The answer is 'is'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "are": "'Are' agrees with 'applicants', the nearest noun. But the subject is 'list', and one list is posted.",
+    "were": "Were is plural and past. The subject 'list' is singular, and 'every Monday' calls for the present.",
+    "have": "Have is plural, and 'have posted' would mean the list did the posting. The list does not post anything; someone posts it."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

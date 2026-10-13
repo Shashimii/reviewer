@@ -1,0 +1,54 @@
+{
+  "id": "ven-sc-0001",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-word",
+  "difficulty": 1,
+  "stem": "Applicants must present a ___ ID, such as a passport or driver's license that has not expired.",
+  "choices": [
+    "temporary",
+    "colorful",
+    "valid",
+    "expensive"
+  ],
+  "answer": "valid",
+  "hints": [
+    "Read the whole sentence first. The part after 'such as' describes the kind of ID needed.",
+    "The key words are 'has not expired'. What do we call an ID that can still be used?",
+    "Predict your own word for the blank from the clue 'has not expired'. Then pick the choice closest to it, put it in the blank and reread."
+  ],
+  "solution": {
+    "methodName": "Predict a word, then match the choices",
+    "steps": [
+      {
+        "action": "Read the whole sentence, skipping the blank.",
+        "why": "The clue is often after the blank, so read to the end before you choose."
+      },
+      {
+        "action": "Find the clue: 'such as a passport or driver's license that has not expired'.",
+        "why": "'Such as' gives examples of the kind of ID needed. What the examples share tells you the missing word."
+      },
+      {
+        "action": "Predict a word: an ID that has not expired can still be used, so it is 'still good'.",
+        "why": "Making your own guess first keeps you from being pulled by choices that only sound nice."
+      },
+      {
+        "action": "Match the prediction: 'valid' means officially accepted and still in force.",
+        "why": "You see this word on many government forms, as in 'valid ID' or 'valid until 2030'."
+      },
+      {
+        "action": "Reread: 'Applicants must present a valid ID, such as a passport or driver's license that has not expired.' It makes sense."
+      },
+      {
+        "action": "The answer is 'valid'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "temporary": "A temporary ID is meant for a short time only. The examples, a passport or driver's license, are regular IDs, and the clue is that they have not expired.",
+    "colorful": "How an ID looks has nothing to do with whether it is accepted. The clue is about expiry.",
+    "expensive": "The cost of the ID is not the point. The clue says the ID must not have expired."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

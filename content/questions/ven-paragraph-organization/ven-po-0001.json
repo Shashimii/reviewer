@@ -1,0 +1,55 @@
+{
+  "id": "ven-po-0001",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-order",
+  "difficulty": 1,
+  "stem": "Put the sentences in the most logical order.\n\n1. Once the clerk approved the form, Rosa paid the fee at the cashier.\n2. First, Rosa went to the barangay hall and filled out a request form.\n3. Finally, she received her barangay clearance that same afternoon.\n4. Next, a clerk checked her form and her valid ID.",
+  "choices": [
+    "2, 1, 4, 3",
+    "2, 4, 1, 3",
+    "4, 2, 1, 3",
+    "2, 4, 3, 1"
+  ],
+  "answer": "2, 4, 1, 3",
+  "hints": [
+    "Look at the words at the start of each sentence: First, Next, Once, Finally. They tell you the order of the steps.",
+    "Start with the sentence that begins with \"First\". That is sentence 2.",
+    "After the opener, find the sentence where a clerk checks the form, then the one where the clerk approves it, and put the \"Finally\" sentence last. Pick the choice that keeps this chain."
+  ],
+  "solution": {
+    "methodName": "Find the opener, then follow the links",
+    "steps": [
+      {
+        "action": "Find the opener: sentence 2 begins with \"First\".",
+        "why": "\"First\" marks the first step. A sentence that begins with \"Next\" or \"Finally\" cannot open a paragraph, because it continues something said before it."
+      },
+      {
+        "action": "Put sentence 4 next: \"Next, a clerk checked her form and her valid ID.\"",
+        "why": "\"Next\" means the step right after the first one. This sentence also brings in \"a clerk\" for the first time."
+      },
+      {
+        "action": "Put sentence 1 after sentence 4: \"Once the clerk approved the form, Rosa paid the fee.\"",
+        "why": "\"The clerk\" points back to the clerk already mentioned in sentence 4. A clerk must check a form before approving it."
+      },
+      {
+        "action": "Put sentence 3 last.",
+        "why": "\"Finally\" marks the last step, and getting the clearance ends the process."
+      },
+      {
+        "action": "Read the whole paragraph in the order 2, 4, 1, 3.",
+        "why": "The steps now follow in time, and every \"the clerk\" or \"she\" points back to someone already named. This is how you check your answer."
+      },
+      {
+        "action": "The correct order is 2, 4, 1, 3."
+      }
+    ]
+  },
+  "trapNotes": {
+    "2, 1, 4, 3": "Sentence 1 mentions the form, so it seems to follow sentence 2. But \"the clerk\" has not been introduced yet, and a clerk must check the form (sentence 4) before approving it.",
+    "4, 2, 1, 3": "Sentence 4 begins with \"Next\", so it cannot open the paragraph. \"First\" in sentence 2 shows that sentence 2 comes before it.",
+    "2, 4, 3, 1": "This puts \"Finally\" in the middle. Paying the fee (sentence 1) happens before Rosa gets her clearance, so sentence 3 must be last."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

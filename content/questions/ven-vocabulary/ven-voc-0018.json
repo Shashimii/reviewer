@@ -1,0 +1,56 @@
+{
+  "id": "ven-voc-0018",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-idiom",
+  "difficulty": 3,
+  "stem": "A co-worker said that everyone will get a big bonus this month, but take that news with a grain of salt until the official memo comes out. What does 'take that news with a grain of salt' mean in this sentence?",
+  "choices": [
+    "do not fully believe it",
+    "keep it a secret for now",
+    "share it with co-workers",
+    "accept it as true"
+  ],
+  "answer": "do not fully believe it",
+  "hints": [
+    "This idiom has nothing to do with food or real salt. Read it as a whole.",
+    "The news came from a co-worker, not from an official memo. How sure can you be that it is true?",
+    "The word 'but' and the phrase 'until the official memo comes out' tell you how to treat the news for now. Pick the choice that describes that attitude."
+  ],
+  "solution": {
+    "methodName": "Read the idiom as a whole",
+    "steps": [
+      {
+        "action": "Spot the idiom: you cannot add real salt to news, so the phrase must be read as a whole."
+      },
+      {
+        "action": "Look at where the news came from: a co-worker, not an official memo.",
+        "why": "Information that is not yet official may or may not be true."
+      },
+      {
+        "action": "Look at the signal 'but': it warns you not to simply accept what the co-worker said."
+      },
+      {
+        "action": "Read 'until the official memo comes out': the memo will show whether the news is true.",
+        "why": "So for now, you should wait before you believe it."
+      },
+      {
+        "action": "So 'take something with a grain of salt' means 'to doubt it a little; not to believe it fully'."
+      },
+      {
+        "action": "Check 'keep it a secret for now': waiting for the memo is about checking the news, not hiding it.",
+        "why": "This is the trap. The idiom is about how much you believe something, not about who you tell."
+      },
+      {
+        "action": "The answer is 'do not fully believe it'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "keep it a secret for now": "The phrase 'until the official memo comes out' may suggest keeping quiet, but the idiom is about doubting the news, not hiding it.",
+    "share it with co-workers": "Nothing in the idiom is about telling others. It is about how much to believe what you heard.",
+    "accept it as true": "This is the opposite. 'But' and 'until the official memo comes out' warn you not to accept the news yet."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

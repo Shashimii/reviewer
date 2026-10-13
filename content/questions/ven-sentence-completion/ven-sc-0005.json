@@ -1,0 +1,51 @@
+{
+  "id": "ven-sc-0005",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-word",
+  "difficulty": 2,
+  "stem": "The witness gave a ___ account of the accident, describing even the color of the jeepney and the exact time it happened.",
+  "choices": [
+    "detailed",
+    "brief",
+    "vague",
+    "careless"
+  ],
+  "answer": "detailed",
+  "hints": [
+    "Look at what the witness described: even the color of the jeepney and the exact time.",
+    "The word 'even' shows the witness included small facts. What kind of account includes small facts?",
+    "Predict a word for an account full of small facts. Find the choice with that meaning and reread the sentence."
+  ],
+  "solution": {
+    "methodName": "Predict a word, then match the choices",
+    "steps": [
+      {
+        "action": "Read the whole sentence, skipping the blank."
+      },
+      {
+        "action": "Find the clue: 'describing even the color of the jeepney and the exact time'.",
+        "why": "'Even' signals that the witness went further than expected, down to small facts."
+      },
+      {
+        "action": "Predict: the account was full of small facts."
+      },
+      {
+        "action": "Match: 'detailed' means including many small facts."
+      },
+      {
+        "action": "Reread: 'The witness gave a detailed account of the accident...' makes sense."
+      },
+      {
+        "action": "The answer is 'detailed'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "brief": "Brief means short. An account that includes the color of the jeepney and the exact time is full of facts, not short.",
+    "vague": "Vague means unclear. Giving the exact time is the opposite of vague.",
+    "careless": "A careless account would miss things. This witness remembered even small facts."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

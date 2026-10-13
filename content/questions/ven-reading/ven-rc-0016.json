@@ -1,0 +1,50 @@
+{
+  "id": "ven-rc-0016",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-inference",
+  "difficulty": 3,
+  "passage": "In many Filipino homes, grandparents live under the same roof as their children and grandchildren. Sending an aging parent to a home for the elderly is still rare, and some families see it as a sign that children have forgotten their duty. Instead, the household adjusts. A daughter may change her work hours so she can take her mother to checkups. Grandchildren learn to give their lola (grandmother) her medicine and to keep her company in the afternoon.\n\nIn return, grandparents often help raise the young ones, tell family stories and pass on old recipes. This arrangement is not always easy, especially when money and space are tight. But for many families, it is simply how love and respect are shown.",
+  "stem": "Which of the following can be inferred from the passage?",
+  "choices": [
+    "Caring for an elder can change other family members' daily routines.",
+    "Most Filipino grandparents are too weak to help at home.",
+    "Homes for the elderly do not exist in the Philippines.",
+    "Families with little money usually send elders to homes for the elderly."
+  ],
+  "answer": "Caring for an elder can change other family members' daily routines.",
+  "hints": [
+    "An inference must be supported by clues. Watch for choices that the passage goes against.",
+    "Look at the examples after \"the household adjusts\". What do the daughter and the grandchildren do?",
+    "The daughter changes her work hours and the grandchildren take on new tasks. Ask what these examples suggest about the family, then check each choice against the passage."
+  ],
+  "solution": {
+    "methodName": "Find the clue, then take one small step",
+    "steps": [
+      {
+        "action": "Find the clue: \"the household adjusts\".",
+        "why": "To adjust means to change something to fit a new need."
+      },
+      {
+        "action": "Read the examples: a daughter changes her work hours, and grandchildren give their lola her medicine and keep her company."
+      },
+      {
+        "action": "Take one small step: caring for an elder changes the daily routines of other family members."
+      },
+      {
+        "action": "Check the others.",
+        "why": "Grandparents help raise children, so they are not too weak. Homes for the elderly are \"still rare\", which means they exist. The passage never says poor families send elders away."
+      },
+      {
+        "action": "The answer is \"Caring for an elder can change other family members' daily routines.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Most Filipino grandparents are too weak to help at home.": "The passage says grandparents often help raise the young ones and pass on recipes. That is the opposite of being too weak to help.",
+    "Homes for the elderly do not exist in the Philippines.": "The passage says sending a parent to one is \"still rare\". Rare means it happens, but not often, so these homes do exist.",
+    "Families with little money usually send elders to homes for the elderly.": "The passage says money problems can make caring at home hard, but it never says poor families send their elders away."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

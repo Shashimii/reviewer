@@ -1,0 +1,55 @@
+{
+  "id": "ven-voc-0007",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-antonym",
+  "difficulty": 2,
+  "stem": "The barangay treasurer is frugal with public funds; she buys only what the office truly needs. Which word is most nearly opposite in meaning to 'frugal'?",
+  "choices": [
+    "wasteful",
+    "thrifty",
+    "careful",
+    "honest"
+  ],
+  "answer": "wasteful",
+  "hints": [
+    "The question asks for the opposite. Watch out for choices that mean the same as 'frugal'.",
+    "Read the part after the semicolon. She buys only what is truly needed. Is she saving money or spending a lot?",
+    "Write the meaning of 'frugal' in a few words, then think of its reverse. Pick the choice that matches the reverse."
+  ],
+  "solution": {
+    "methodName": "Find the meaning, then flip it",
+    "steps": [
+      {
+        "action": "Note the task: find the opposite of 'frugal'."
+      },
+      {
+        "action": "Find the clue after the semicolon: she 'buys only what the office truly needs'.",
+        "why": "A semicolon joins two closely linked ideas. Here the second idea explains the first."
+      },
+      {
+        "action": "So frugal means 'careful not to spend money on things you do not need'."
+      },
+      {
+        "action": "Flip the meaning: spending money on things you do not need."
+      },
+      {
+        "action": "Match it: 'wasteful' means using or spending more than is needed."
+      },
+      {
+        "action": "Rule out 'thrifty' and 'careful': they are close to frugal, not opposite.",
+        "why": "Antonym items often hide one or two synonyms among the choices."
+      },
+      {
+        "action": "The answer is 'wasteful'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "thrifty": "Thrifty means the same as frugal: careful with money. The question asks for the opposite.",
+    "careful": "Careful is close to the meaning of frugal, not the opposite of it.",
+    "honest": "Honesty is a different quality. A frugal treasurer and a wasteful one can both be honest, so honest is not the opposite."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

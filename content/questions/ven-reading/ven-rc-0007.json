@@ -1,0 +1,51 @@
+{
+  "id": "ven-rc-0007",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-main",
+  "difficulty": 1,
+  "passage": "After World War II, the American military left many jeeps behind in the Philippines. Filipino mechanics saw a chance. They made the bodies longer, added two long benches at the back, and put on a roof to shade passengers from the sun and rain. Owners then painted the vehicles in bright colors and decorated them with chrome horses, small flags and their family names.\n\nThese vehicles became known as jeepneys, and for decades they were the cheapest way to get around towns and cities. Today, many old jeepneys are being replaced by newer, cleaner vehicles. Still, for many Filipinos, the jeepney remains a symbol of the people's skill at making something new out of whatever is at hand.",
+  "stem": "What is the passage mainly about?",
+  "choices": [
+    "Why old jeepneys are being replaced by newer vehicles",
+    "How the jeepney began and what it means to Filipinos",
+    "What the American military left behind after the war",
+    "How owners decorate their jeepneys with bright colors"
+  ],
+  "answer": "How the jeepney began and what it means to Filipinos",
+  "hints": [
+    "Ask: what does the whole passage keep talking about, from the first sentence to the last?",
+    "Sum up each paragraph. The first tells how jeepneys were made. The second tells what they became and what they mean today.",
+    "Choose the choice that covers both paragraphs. Reject one that matches only a sentence or two."
+  ],
+  "solution": {
+    "methodName": "Find the idea that covers the whole passage",
+    "steps": [
+      {
+        "action": "Sum up paragraph 1: Filipino mechanics turned leftover military jeeps into passenger vehicles, and owners decorated them.",
+        "why": "This is how the jeepney began."
+      },
+      {
+        "action": "Sum up paragraph 2: jeepneys became cheap transport, are now being replaced, and remain a symbol for Filipinos.",
+        "why": "This is what the jeepney means."
+      },
+      {
+        "action": "Join them: the passage is about how the jeepney began and what it means."
+      },
+      {
+        "action": "Reject the narrow choices.",
+        "why": "The replacement, the leftover military jeeps and the decorations each cover only one or two sentences."
+      },
+      {
+        "action": "The passage is mainly about \"How the jeepney began and what it means to Filipinos\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Why old jeepneys are being replaced by newer vehicles": "The replacement is mentioned in only one sentence. Most of the passage is about how the jeepney began and what it means.",
+    "What the American military left behind after the war": "The leftover jeeps are only the starting point. The passage is about what Filipinos made out of them.",
+    "How owners decorate their jeepneys with bright colors": "Decoration is one detail in the first paragraph. It does not cover the jeepney's history or meaning."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

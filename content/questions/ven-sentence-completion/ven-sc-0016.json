@@ -1,0 +1,49 @@
+{
+  "id": "ven-sc-0016",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-connector",
+  "difficulty": 2,
+  "stem": "___ the line at the cashier was long and the air conditioner was broken, the clerk stayed calm and polite.",
+  "choices": [
+    "Because",
+    "Moreover",
+    "Therefore",
+    "Although"
+  ],
+  "answer": "Although",
+  "hints": [
+    "A long line in a hot room usually makes people tired and impatient. Is staying calm what you would expect?",
+    "When the second idea is surprising after the first, the link is contrast.",
+    "Name the link, then pick a contrast connector that can start a sentence and join both parts."
+  ],
+  "solution": {
+    "methodName": "Name the link, then pick the connector",
+    "steps": [
+      {
+        "action": "Split into two ideas: (1) the line was long and the air conditioner was broken; (2) the clerk stayed calm and polite."
+      },
+      {
+        "action": "Ask what we expect: a long line in a hot room usually makes a clerk tired or impatient."
+      },
+      {
+        "action": "Name the link: the second idea goes against what we expect, so it is a contrast.",
+        "why": "Contrast connectors show that something happened in spite of something else."
+      },
+      {
+        "action": "Choose a contrast connector that can start the sentence and join both parts: 'Although'.",
+        "why": "Although joins two parts inside one sentence. However would need a separate sentence."
+      },
+      {
+        "action": "The answer is 'Although'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Because": "Because gives a reason. A long line and a broken air conditioner are not reasons to stay calm; the clerk stayed calm in spite of them.",
+    "Moreover": "Moreover adds a similar idea and starts a new sentence. It cannot join two parts of one sentence, and the two ideas here are not similar.",
+    "Therefore": "Therefore shows a result, and it cannot join two parts of one sentence like this. Staying calm is not a result of the heat and the long line."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

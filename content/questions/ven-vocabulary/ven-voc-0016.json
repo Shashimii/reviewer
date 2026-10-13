@@ -1,0 +1,49 @@
+{
+  "id": "ven-voc-0016",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-idiom",
+  "difficulty": 2,
+  "stem": "The contractor cut corners on the new health center, so the roof started leaking after the first typhoon. What does 'cut corners' mean in this sentence?",
+  "choices": [
+    "changed the shape of the building",
+    "finished the work ahead of time",
+    "did the work cheaply and badly",
+    "asked for a bigger budget"
+  ],
+  "answer": "did the work cheaply and badly",
+  "hints": [
+    "This is an idiom, so it does not mean cutting real corners off a building.",
+    "Look at the result after 'so': the roof leaked after the first typhoon. What kind of work leads to that?",
+    "Think about what a leaking new roof says about how the contractor built the center. Pick the choice that explains the leak."
+  ],
+  "solution": {
+    "methodName": "Read the idiom as a whole",
+    "steps": [
+      {
+        "action": "Spot the idiom: 'cut corners' cannot mean cutting the corners of a building.",
+        "why": "The word-for-word meaning does not explain a leaking roof, so the phrase must be an idiom."
+      },
+      {
+        "action": "Read the result after 'so': the roof leaked after the first typhoon.",
+        "why": "'So' shows the leak happened because of how the contractor worked."
+      },
+      {
+        "action": "Ask what makes a new roof leak: poor work, cheap materials or skipped steps."
+      },
+      {
+        "action": "So 'cut corners' means 'to do something in the cheapest or easiest way, skipping proper steps'."
+      },
+      {
+        "action": "The answer is 'did the work cheaply and badly'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "changed the shape of the building": "This reads the words literally. Changing the shape of the building would not explain why a new roof leaks.",
+    "finished the work ahead of time": "Finishing early is not a problem by itself and does not explain the leak. Cutting corners may save time, but it means skipping proper steps.",
+    "asked for a bigger budget": "Asking for more money is not the meaning, and the sentence says nothing about the budget."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

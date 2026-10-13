@@ -1,0 +1,52 @@
+{
+  "id": "ven-sc-0004",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-word",
+  "difficulty": 2,
+  "stem": "The new city ordinance will ___ smoking in parks and terminals, and violators will pay a fine of ₱1,000.",
+  "choices": [
+    "permit",
+    "promote",
+    "prescribe",
+    "prohibit"
+  ],
+  "answer": "prohibit",
+  "hints": [
+    "Read to the end of the sentence. What happens to people who smoke in these places?",
+    "People pay a fine only when they break a rule. So does the ordinance allow smoking there or stop it?",
+    "Predict a word meaning 'not allow', then find it. Be careful with choices that look alike but mean something else."
+  ],
+  "solution": {
+    "methodName": "Predict a word, then match the choices",
+    "steps": [
+      {
+        "action": "Read the whole sentence, skipping the blank."
+      },
+      {
+        "action": "Find the clue: 'violators will pay a fine of ₱1,000'.",
+        "why": "A violator is someone who breaks a rule. If smokers are fined, smoking there is against the rule."
+      },
+      {
+        "action": "Predict: the ordinance will not allow smoking there; it will ban it."
+      },
+      {
+        "action": "Match: 'prohibit' means to forbid by law or rule."
+      },
+      {
+        "action": "Check the look-alikes: 'prescribe' and 'promote' look similar but mean 'order to be used' and 'encourage'.",
+        "why": "Similar-looking words are a common trap. Always check the meaning, not just the look."
+      },
+      {
+        "action": "The answer is 'prohibit'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "permit": "Permit means to allow. If smoking were allowed, smokers would not pay a fine.",
+    "promote": "Promote means to encourage. A city would not fine people for doing what it encourages.",
+    "prescribe": "Prescribe means to order something to be done or used, as a doctor prescribes medicine. It looks like prohibit, but the ordinance is not ordering people to smoke."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

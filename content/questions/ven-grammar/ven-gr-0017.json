@@ -1,0 +1,52 @@
+{
+  "id": "ven-gr-0017",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-usage",
+  "difficulty": 1,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nEvery Monday, the seminar for new employees starts on 9:00 a.m.",
+  "choices": [
+    "Every Monday",
+    "for new employees",
+    "starts on 9:00 a.m.",
+    "No error"
+  ],
+  "answer": "starts on 9:00 a.m.",
+  "hints": [
+    "Look at the small words that come before a time: at, on, in. Each one goes with a different kind of time.",
+    "\"9:00 a.m.\" is a clock time. Which small word goes with a clock time?",
+    "Rule: AT a clock time (at 3:30), ON a day or date (on Monday, on May 5), IN a month, a year or a part of the day (in June, in 2026, in the morning). Check each part."
+  ],
+  "solution": {
+    "methodName": "Match at, on or in to the kind of time",
+    "steps": [
+      {
+        "action": "Find the time words: \"Every Monday\" and \"9:00 a.m.\"."
+      },
+      {
+        "action": "\"9:00 a.m.\" is a clock time, and clock times take \"at\".",
+        "why": "Use \"at\" for clock times, \"on\" for days and dates, and \"in\" for months and years."
+      },
+      {
+        "action": "Fix it: \"starts at 9:00 a.m.\"."
+      },
+      {
+        "action": "Check \"Every Monday\". It is correct with no \"on\".",
+        "why": "With every, next or last, you drop the preposition: every Monday, next week, last year."
+      },
+      {
+        "action": "Check \"for new employees\". It tells who the seminar is for, and it is correct."
+      },
+      {
+        "action": "The error is \"starts on 9:00 a.m.\". It should be \"starts at 9:00 a.m.\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Every Monday": "Some think it needs \"On\" in front. But with every, next and last, no preposition is needed: every Monday, next week.",
+    "for new employees": "This part is correct. \"A seminar for new employees\" uses \"for\" to show who it is meant for.",
+    "No error": "\"On\" is right for days, so \"on 9:00 a.m.\" can slip by. But clock times take \"at\": at 9:00 a.m."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

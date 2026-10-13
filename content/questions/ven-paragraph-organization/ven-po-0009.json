@@ -1,0 +1,51 @@
+{
+  "id": "ven-po-0009",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-topic",
+  "difficulty": 1,
+  "stem": "Which sentence is the topic sentence of the paragraph?\n\n1. Teachers send lessons by text message to students in far-flung barangays.\n2. Health workers text mothers to remind them of vaccination schedules.\n3. Town officials send typhoon warnings to every registered mobile number.\n4. Clearly, the mobile phone has become a useful tool for public service.",
+  "choices": [
+    "Sentence 1",
+    "Sentence 2",
+    "Sentence 3",
+    "Sentence 4"
+  ],
+  "answer": "Sentence 4",
+  "hints": [
+    "A topic sentence states the main point. The other sentences are examples or details that support it.",
+    "Ask of each sentence: is this one example, or does it cover all the others?",
+    "A sentence about one group of people is only an example. Find the sentence that sums up what all the examples have in common."
+  ],
+  "solution": {
+    "methodName": "Find the sentence that covers all the others",
+    "steps": [
+      {
+        "action": "Read sentences 1 to 3: teachers, health workers and town officials each use text messages to reach people.",
+        "why": "Each sentence is one example of the same idea."
+      },
+      {
+        "action": "Read sentence 4: the mobile phone has become a useful tool for public service.",
+        "why": "This is a general statement. Teachers, health workers and town officials are all public servants who use phones."
+      },
+      {
+        "action": "Check that sentence 4 covers all the others.",
+        "why": "Every example supports it, but none of sentences 1 to 3 covers the other two."
+      },
+      {
+        "action": "Notice the word \"Clearly\".",
+        "why": "Words like \"Clearly\" and \"In short\" often introduce a topic sentence placed at the end of a paragraph."
+      },
+      {
+        "action": "The topic sentence is Sentence 4."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Sentence 1": "It comes first, and many topic sentences do. But it is only about teachers. It does not cover the health workers or the town officials.",
+    "Sentence 2": "This is one example, about health workers only. It does not cover the other two examples.",
+    "Sentence 3": "This is the last example, about town officials. It is a detail, not the main point."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

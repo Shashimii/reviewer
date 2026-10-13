@@ -1,0 +1,52 @@
+{
+  "id": "ven-voc-0011",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-context",
+  "difficulty": 1,
+  "stem": "The market inspector checks perishable goods, such as fish, fresh vegetables and milk, every morning. Based on the examples, what does 'perishable' mean?",
+  "choices": [
+    "sold only in large amounts",
+    "brought in from other countries",
+    "too expensive for most buyers",
+    "likely to spoil quickly"
+  ],
+  "answer": "likely to spoil quickly",
+  "hints": [
+    "The words 'such as' introduce examples. Look at what the examples are.",
+    "Fish, fresh vegetables and milk: what happens to them if they are left out for a few days?",
+    "Find what all three examples have in common. That shared quality is the meaning of 'perishable'. Pick the choice that names it."
+  ],
+  "solution": {
+    "methodName": "Find the clue, then test the meaning",
+    "steps": [
+      {
+        "action": "Find the word: 'perishable' describes the goods the inspector checks."
+      },
+      {
+        "action": "Find the signal 'such as': it introduces examples: fish, fresh vegetables and milk.",
+        "why": "Example clues use signal words like 'such as', 'for example', 'including' and 'like'."
+      },
+      {
+        "action": "Ask what all three examples have in common: they go bad after a short time."
+      },
+      {
+        "action": "So perishable means 'likely to spoil quickly'.",
+        "why": "That is also why the inspector checks them every morning."
+      },
+      {
+        "action": "Test it: 'The market inspector checks goods that are likely to spoil quickly, such as fish...' makes sense."
+      },
+      {
+        "action": "The answer is 'likely to spoil quickly'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "sold only in large amounts": "Fish, vegetables and milk can be bought in small amounts at any market, so this is not what they share.",
+    "brought in from other countries": "These goods usually come from local farms and fishing areas. Nothing in the sentence is about other countries.",
+    "too expensive for most buyers": "Fish, vegetables and milk are everyday foods. Price is not what the examples have in common."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

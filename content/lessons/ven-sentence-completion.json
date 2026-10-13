@@ -1,0 +1,64 @@
+{
+  "id": "ven-sentence-completion-lesson",
+  "topicId": "ven-sentence-completion",
+  "workedExampleId": "ven-sc-0001",
+  "sections": [
+    {
+      "heading": "How sentence completion works",
+      "body": "Each item is a sentence with one **blank** (___) and four choices. Only one choice makes the sentence both **correct** and **sensible**. These questions test three things:\n\n- **The right word:** which word fits the meaning.\n- **The right form:** which form of a word fits the grammar, such as 'sent' or 'sends'.\n- **The right connector:** which joining word shows how two ideas are linked.\n\nFor every item:\n\n1. Read the **whole** sentence, skipping the blank. The clue is often after it.\n2. Decide what the blank needs.\n3. Put your choice in the blank and reread the full sentence."
+    },
+    {
+      "heading": "Choosing the right word",
+      "body": "Method: **Predict a word, then match the choices.**\n\n1. Find the clue words.\n2. Before looking at the choices, guess your own word for the blank.\n3. Pick the choice closest to your guess.\n\n**Example:** \"The office is ___ on Sundays, so no one can file a request.\" No one can file, so you predict 'not open'. The choice **closed** matches.\n\nTwo extra checks:\n\n- **Look-alike words.** *Principal* (head of a school) and *principle* (a basic rule) sound alike. So do *personal* (private) and *personnel* (staff). Check the meaning, not the sound.\n- **Word partners.** Some words usually go together. This is called a **collocation**. We *make* a decision, *meet* a deadline and *submit* a report."
+    },
+    {
+      "heading": "Choosing the right form",
+      "body": "Method: **Find what the blank needs, then pick the form.** Ask three questions:\n\n| Ask | Look at | Example |\n| --- | --- | --- |\n| What part of speech? | the word the blank describes | She types **quickly**. |\n| One or many? | the real subject | The **box** of forms **is** heavy. |\n| When? | time words | **Last week**, he **filed** his leave application. |\n\nRules worth knowing:\n\n- A word that tells how an action is done is an **adverb**. Many adverbs end in **-ly**.\n- Ignore 'of ...' phrases when you look for the subject. In 'the box of forms', the subject is *box*.\n- With **neither ... nor** or **either ... or**, the verb agrees with the subject **nearer** to it.\n- Compare two things with **-er** (taller) and three or more with **-est** (tallest).\n- 'If + **had** + past participle' goes with '**would have** + past participle': *If I had known, I would have come.* The **past participle** is the form used after 'have', such as 'known'."
+    },
+    {
+      "heading": "Choosing the right connector",
+      "body": "A **connector** joins two ideas and shows how they are linked. Method: **Name the link, then pick the connector.**\n\n| Link | Connectors | Example |\n| --- | --- | --- |\n| Adding | moreover, also | The form is free; moreover, it is short. |\n| Contrast | although, but, however | It rained, but the parade went on. |\n| Reason | because, since | We left because it was late. |\n| Result | therefore, so | He was late; therefore, he missed the bus. |\n| Condition | unless, if | No entry unless you have an ID. |\n\nCheck the **grammar** too:\n\n- **Although, because, unless** join two parts inside one sentence: *Although it rained, we went.*\n- **However, therefore, moreover** start a new sentence or come after a semicolon (;), with a comma after them: *It rained; however, we went.*"
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Choosing before reading to the end.** The clue is often after the blank.\n- **The nearest-noun trap.** In 'The list of names ___', the verb agrees with *list*, not *names*.\n- **Ignoring time words.** Yesterday, last week and every day each call for a certain tense.\n- **Sound-alike words.** Check the meaning, not the sound.\n- **Contrast or result?** If the second idea is surprising, use a contrast word. If it is expected, use a result word.\n- **'Unless' means 'except if'.** 'Closed unless there is an emergency' means it opens only in an emergency."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Blank",
+      "definition": "The empty space (___) in a sentence where the missing word goes.",
+      "taglish": "Blank – ang patlang na pupunan ng tamang salita"
+    },
+    {
+      "term": "Part of speech",
+      "definition": "The job a word does in a sentence, such as noun, verb, adjective or adverb.",
+      "taglish": "Part of speech – bahagi ng pananalita, gaya ng pangngalan, pandiwa, pang-uri at pang-abay"
+    },
+    {
+      "term": "Adverb",
+      "definition": "A word that tells how, when or where an action happens, like 'quickly'.",
+      "taglish": "Adverb – pang-abay; nagsasabi kung paano, kailan o saan ginawa ang kilos"
+    },
+    {
+      "term": "Subject–verb agreement",
+      "definition": "The rule that a singular subject takes a singular verb and a plural subject takes a plural verb.",
+      "taglish": "Subject–verb agreement – dapat magkatugma ang simuno at pandiwa: isa sa isa, marami sa marami"
+    },
+    {
+      "term": "Tense",
+      "definition": "The form of a verb that shows when an action happens: past, present or future.",
+      "taglish": "Tense – panahunan ng pandiwa: nakaraan, kasalukuyan o hinaharap"
+    },
+    {
+      "term": "Connector",
+      "definition": "A word that joins two ideas and shows how they are linked, such as 'because' or 'however'.",
+      "taglish": "Connector – pang-ugnay; salitang nag-uugnay sa dalawang ideya, gaya ng because o however"
+    },
+    {
+      "term": "Collocation",
+      "definition": "Words that usually go together, like 'meet a deadline' or 'make a decision'.",
+      "taglish": "Collocation – mga salitang karaniwang magkasama, gaya ng 'make a decision'"
+    }
+  ]
+}

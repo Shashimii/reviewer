@@ -1,0 +1,51 @@
+{
+  "id": "ven-voc-0008",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-antonym",
+  "difficulty": 2,
+  "stem": "The instructions in the memo were ambiguous, so many employees filled out the form in different ways. Which word is most nearly opposite in meaning to 'ambiguous'?",
+  "choices": [
+    "vague",
+    "lengthy",
+    "strict",
+    "clear"
+  ],
+  "answer": "clear",
+  "hints": [
+    "Notice the result: employees filled out the form in different ways. What does that tell you about the instructions?",
+    "If people read the same instructions in different ways, the instructions have more than one possible meaning. Now think of the reverse.",
+    "Say the meaning of 'ambiguous' in your own words, flip it, and pick the choice that matches the flipped meaning. Skip any choice that means the same as 'ambiguous'."
+  ],
+  "solution": {
+    "methodName": "Find the meaning, then flip it",
+    "steps": [
+      {
+        "action": "Note the task: find the opposite of 'ambiguous'."
+      },
+      {
+        "action": "Read the result after 'so': employees filled out the form in different ways."
+      },
+      {
+        "action": "So ambiguous means 'can be understood in more than one way; not clear'.",
+        "why": "If the memo had only one possible meaning, everyone would have filled out the form the same way."
+      },
+      {
+        "action": "Flip the meaning: having one meaning that is easy to understand."
+      },
+      {
+        "action": "Match it: 'clear' means easy to understand."
+      },
+      {
+        "action": "The answer is 'clear'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "vague": "Vague means not clear, which is close to ambiguous. It is a synonym, not the opposite.",
+    "lengthy": "Length is a different idea. A short memo can be ambiguous, and a long memo can be clear.",
+    "strict": "Strict is about how firmly rules are applied. It does not tell you whether the instructions are easy to understand."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

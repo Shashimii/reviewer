@@ -1,0 +1,51 @@
+{
+  "id": "ven-voc-0010",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-context",
+  "difficulty": 1,
+  "stem": "The cashier updated the ledger, which is a book where every payment and expense of the office is written down. Based on the sentence, what is a 'ledger'?",
+  "choices": [
+    "a book of money records",
+    "a list of office workers",
+    "a box for old receipts",
+    "a calendar of office events"
+  ],
+  "answer": "a book of money records",
+  "hints": [
+    "Look right after the word 'ledger'. The sentence explains it for you.",
+    "The words 'which is' signal a definition clue. Read what comes after them.",
+    "Put the definition into a few words of your own, then find the choice that says the same thing."
+  ],
+  "solution": {
+    "methodName": "Find the clue, then test the meaning",
+    "steps": [
+      {
+        "action": "Find the word: 'ledger'."
+      },
+      {
+        "action": "Look for a signal word near it: 'which is' comes right after it.",
+        "why": "'Which is', 'means', 'is called' and 'refers to' often introduce a definition clue: the sentence tells you the meaning directly."
+      },
+      {
+        "action": "Read the definition: 'a book where every payment and expense of the office is written down'."
+      },
+      {
+        "action": "Shorten it: a ledger is a book of money records."
+      },
+      {
+        "action": "Test it: 'The cashier updated the book of money records' makes sense."
+      },
+      {
+        "action": "The answer is 'a book of money records'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "a list of office workers": "The ledger holds payments and expenses, not the names of employees.",
+    "a box for old receipts": "Receipts are about money, but the sentence says a ledger is a book where things are written down, not a box.",
+    "a calendar of office events": "A calendar lists dates and events. The definition is about payments and expenses."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

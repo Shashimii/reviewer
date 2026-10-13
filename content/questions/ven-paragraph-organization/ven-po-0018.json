@@ -1,0 +1,52 @@
+{
+  "id": "ven-po-0018",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-odd",
+  "difficulty": 3,
+  "stem": "Which sentence does not belong in the paragraph?\n\n1. Mangrove forests help keep coastal towns safe from the sea.\n2. Their thick, tangled roots slow down big waves during storms.\n3. Mangroves are also home to many kinds of crabs, shellfish and young fish.\n4. The same roots hold the soil in place, so the shore does not wash away.\n5. As a result, towns behind healthy mangroves suffer less damage when storms push seawater inland.",
+  "choices": [
+    "Sentence 2",
+    "Sentence 3",
+    "Sentence 4",
+    "Sentence 5"
+  ],
+  "answer": "Sentence 3",
+  "hints": [
+    "All five sentences are about mangroves, and all of them are true. Focus on the exact point of sentence 1.",
+    "The point is not just \"mangroves\". It is how mangroves keep towns safe from the sea.",
+    "Test each sentence: does it show how mangroves protect towns? A sentence can be about mangroves and still not support that point."
+  ],
+  "solution": {
+    "methodName": "Name the topic, then test each sentence",
+    "steps": [
+      {
+        "action": "Name the exact topic from sentence 1: mangroves keep coastal towns safe from the sea.",
+        "why": "The topic is narrower than \"mangroves\". Each sentence must support this exact point."
+      },
+      {
+        "action": "Test sentence 2: the roots slow down big waves. This protects towns, so it belongs."
+      },
+      {
+        "action": "Test sentence 3: mangroves are home to crabs, shellfish and young fish.",
+        "why": "This is true, but it is about wildlife, not about keeping towns safe. \"Also\" makes it look like one more reason, but it changes the subject."
+      },
+      {
+        "action": "Test sentence 4: the roots stop the shore from washing away. This protects towns, so it belongs."
+      },
+      {
+        "action": "Test sentence 5: towns behind mangroves suffer less damage. This is the result of the protection, so it belongs."
+      },
+      {
+        "action": "The sentence that does not belong is Sentence 3."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Sentence 2": "Slowing down big waves is one way mangroves protect towns. It supports the topic.",
+    "Sentence 4": "\"The same roots\" links it to sentence 2, and holding the soil in place protects the shore. It belongs.",
+    "Sentence 5": "\"As a result\" sums up the protection described before it. A result supports the topic."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

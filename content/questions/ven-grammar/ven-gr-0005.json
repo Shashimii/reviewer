@@ -1,0 +1,52 @@
+{
+  "id": "ven-gr-0005",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-agreement",
+  "difficulty": 3,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nThe list of projects approved by the councilors have been sent to the regional office.",
+  "choices": [
+    "The list of projects approved by the councilors",
+    "have been sent",
+    "to the regional office",
+    "No error"
+  ],
+  "answer": "have been sent",
+  "hints": [
+    "Several nouns come before the verb: \"list\", \"projects\" and \"councilors\". Only one of them is the real subject.",
+    "Cover the words between \"The list\" and the verb. Then ask: what was sent to the regional office? Is that one thing or many?",
+    "The verb agrees with the main noun before \"of\", not with the nouns in the describing words that follow it. Decide if the main noun is singular or plural, check the verb against it, then check the other parts."
+  ],
+  "solution": {
+    "methodName": "Find the true subject, then match the verb",
+    "steps": [
+      {
+        "action": "Find the verb: \"have been sent\"."
+      },
+      {
+        "action": "Find the true subject: \"list\". It is the thing that was sent.",
+        "why": "\"Of projects\" tells what is on the list, and \"approved by the councilors\" tells which projects. The verb never agrees with a noun inside these describing words."
+      },
+      {
+        "action": "\"List\" is singular: it is one list, even if it names many projects.",
+        "why": "Read it without the extra words: \"The list … has been sent.\""
+      },
+      {
+        "action": "A singular subject takes \"has\": \"The list of projects approved by the councilors has been sent to the regional office.\""
+      },
+      {
+        "action": "Check the rest. \"The list of projects approved by the councilors\" and \"to the regional office\" are correct."
+      },
+      {
+        "action": "The error is \"have been sent\". It should be \"has been sent\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The list of projects approved by the councilors": "This part is correct. A list can name many projects, so \"projects\" is rightly plural. The problem is the verb that comes after it.",
+    "to the regional office": "This part is correct. You send something to a place: \"sent to the regional office\".",
+    "No error": "\"Have\" sounds right because \"councilors\" is plural and sits right before the verb. But the subject is \"list\", one thing, so the verb should be \"has been sent\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

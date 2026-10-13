@@ -1,0 +1,49 @@
+{
+  "id": "ven-po-0016",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-odd",
+  "difficulty": 2,
+  "stem": "Which sentence does not belong in the paragraph?\n\n1. Every family should prepare a \"go bag\", a bag of emergency supplies, before the typhoon season.\n2. Storms that enter the Philippine area are given local names by PAGASA.\n3. A go bag should hold drinking water, canned food and a flashlight.\n4. Copies of birth certificates and IDs should also go inside, sealed in a plastic envelope.\n5. With a ready go bag, a family can leave home quickly when told to evacuate.",
+  "choices": [
+    "Sentence 2",
+    "Sentence 3",
+    "Sentence 4",
+    "Sentence 5"
+  ],
+  "answer": "Sentence 2",
+  "hints": [
+    "Some sentences mention storms or typhoons. Ask which sentences are about the go bag.",
+    "The topic, from sentence 1, is preparing a go bag before the typhoon season.",
+    "Test each sentence: does it tell you what to put in a go bag, or why a go bag helps? A sentence can mention storms and still not be about the go bag."
+  ],
+  "solution": {
+    "methodName": "Name the topic, then test each sentence",
+    "steps": [
+      {
+        "action": "Name the topic from sentence 1: every family should prepare a go bag."
+      },
+      {
+        "action": "Test sentence 2: PAGASA gives storms local names.",
+        "why": "This is true and it is about storms, but it says nothing about the go bag."
+      },
+      {
+        "action": "Test sentences 3 and 4: what to put inside the go bag. Both support the topic."
+      },
+      {
+        "action": "Test sentence 5: a ready go bag helps a family leave quickly.",
+        "why": "This gives the reason for having a go bag, so it belongs."
+      },
+      {
+        "action": "The sentence that does not belong is Sentence 2."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Sentence 3": "It lists what goes inside the go bag, which is part of preparing it.",
+    "Sentence 4": "Documents are more things to pack. \"Also\" links this sentence to the list in sentence 3.",
+    "Sentence 5": "It explains why the go bag matters. A reason supports the topic, so it belongs."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

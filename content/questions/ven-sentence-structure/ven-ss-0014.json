@@ -1,0 +1,51 @@
+{
+  "id": "ven-ss-0014",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-modifier",
+  "difficulty": 3,
+  "stem": "Which sentence is correctly written?",
+  "choices": [
+    "After reviewing the documents, the application was approved by the officer.",
+    "After reviewing the documents, the officer approved the application.",
+    "After reviewing the documents, approval was given by the officer.",
+    "The application, after reviewing the documents, was approved by the officer."
+  ],
+  "answer": "After reviewing the documents, the officer approved the application.",
+  "hints": [
+    "\"After reviewing the documents\" does not say who did the reviewing. The sentence must name that person right after the phrase.",
+    "Ask: who reviewed the documents? Then look at what comes right after the phrase in each choice.",
+    "An opening phrase with an -ing word must be followed at once by the doer of that action. Sentences with \"was approved by …\" often push the doer to the end, which is too late. Find the choice where the doer comes right after the phrase."
+  ],
+  "solution": {
+    "methodName": "Put the describing phrase next to what it describes",
+    "steps": [
+      {
+        "action": "Ask who reviewed the documents: the officer."
+      },
+      {
+        "action": "First choice: after the comma comes \"the application\". An application cannot review. This is a dangling modifier. Wrong.",
+        "why": "\"Was approved by the officer\" does name the officer, but only at the end, too far from the phrase."
+      },
+      {
+        "action": "Third choice: after the comma comes \"approval\". Approval cannot review. Wrong."
+      },
+      {
+        "action": "Fourth choice: the phrase sits next to \"The application\". Wrong."
+      },
+      {
+        "action": "Second choice: after the comma comes \"the officer\", the one who reviewed. Correct."
+      },
+      {
+        "action": "The answer is \"After reviewing the documents, the officer approved the application.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "After reviewing the documents, the application was approved by the officer.": "The officer is mentioned, so the meaning seems clear. But the words right after the comma are \"the application\", so the sentence says the application did the reviewing.",
+    "After reviewing the documents, approval was given by the officer.": "This sounds formal, but \"approval\" comes right after the phrase, and approval cannot review documents.",
+    "The application, after reviewing the documents, was approved by the officer.": "Moving the phrase into the middle still places it next to \"The application\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

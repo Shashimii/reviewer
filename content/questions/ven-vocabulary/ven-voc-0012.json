@@ -1,0 +1,52 @@
+{
+  "id": "ven-voc-0012",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-context",
+  "difficulty": 2,
+  "stem": "Most applicants arrived on time, but a few were tardy and had to sit at the back because the briefing had already started. Based on the clues, what does 'tardy' mean?",
+  "choices": [
+    "early",
+    "absent",
+    "late",
+    "noisy"
+  ],
+  "answer": "late",
+  "hints": [
+    "The word 'but' signals a contrast. The tardy applicants are different from the ones who arrived on time.",
+    "What is the opposite of arriving on time? Use the end of the sentence to decide: the briefing had already started.",
+    "Turn 'on time' into its opposite, check it against 'the briefing had already started', then pick the matching choice."
+  ],
+  "solution": {
+    "methodName": "Find the clue, then test the meaning",
+    "steps": [
+      {
+        "action": "Find the word: 'tardy' describes a few applicants."
+      },
+      {
+        "action": "Spot the signal 'but': it shows that the tardy applicants were different from those who 'arrived on time'.",
+        "why": "Contrast clues use words like 'but', 'unlike', 'although', 'however' and 'instead'. The unknown word means the opposite of the idea on the other side."
+      },
+      {
+        "action": "Not on time could mean early or late. Check the rest: the briefing 'had already started' when they came.",
+        "why": "This extra detail tells you which way they missed the time."
+      },
+      {
+        "action": "So tardy means 'late'."
+      },
+      {
+        "action": "Check 'absent': the tardy applicants sat at the back, so they were there."
+      },
+      {
+        "action": "The answer is 'late'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "early": "Early is also 'not on time', but people who come early would not find that the briefing had already started.",
+    "absent": "Absent means not there at all. These applicants came and sat at the back, so they were present.",
+    "noisy": "Nothing in the sentence is about noise. The contrast is with arriving on time."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

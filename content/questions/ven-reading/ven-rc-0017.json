@@ -1,0 +1,50 @@
+{
+  "id": "ven-rc-0017",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-detail",
+  "difficulty": 3,
+  "passage": "**ANNOUNCEMENT**\n\nThe City Civil Registry Office will move to the second floor of the City Hall Annex starting Monday, March 2. To prepare for the move, the office will be closed on Thursday and Friday, February 26 and 27.\n\nCertificates requested on or before February 25 will still be released on their scheduled dates, at the new office. Online requests through the city website will continue during the closure, but they will be processed only when the office reopens. For urgent concerns, residents may call the hotline listed on the city website from 8:00 a.m. to 5:00 p.m. on weekdays.\n\nWe apologize for any inconvenience.",
+  "stem": "According to the announcement, what will happen to online requests made while the office is closed?",
+  "choices": [
+    "They will be released on their scheduled dates.",
+    "They will not be accepted until March 2.",
+    "They will be processed once the office reopens.",
+    "They will be handled through the city hotline."
+  ],
+  "answer": "They will be processed once the office reopens.",
+  "hints": [
+    "The announcement gives different rules for different requests. Find the rule for online requests.",
+    "Scan for the word \"online\". Read that whole sentence, including the part after \"but\".",
+    "Make sure the rule you choose is for online requests made during the closure, not for requests made before it. Then match the choice."
+  ],
+  "solution": {
+    "methodName": "Scan for the key words, then match",
+    "steps": [
+      {
+        "action": "Find the key words in the question: \"online requests\" and \"closed\"."
+      },
+      {
+        "action": "Scan to: \"Online requests through the city website will continue during the closure, but they will be processed only when the office reopens.\""
+      },
+      {
+        "action": "Read both halves of the sentence.",
+        "why": "The first half says online requests are still accepted. The part after \"but\" says what happens to them."
+      },
+      {
+        "action": "Do not mix up the rules.",
+        "why": "\"Released on their scheduled dates\" is the rule for certificates requested on or before February 25, which is a different group."
+      },
+      {
+        "action": "The answer is \"They will be processed once the office reopens.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "They will be released on their scheduled dates.": "This is the rule for certificates requested on or before February 25, not for online requests made during the closure.",
+    "They will not be accepted until March 2.": "The announcement says online requests \"will continue during the closure\", so they are still accepted.",
+    "They will be handled through the city hotline.": "The hotline is for urgent concerns. Online requests go through the city website."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ven-ss-0007",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-parallel",
+  "difficulty": 2,
+  "stem": "Which sentence is correctly written?",
+  "choices": [
+    "The new clerk is not only careful but also works fast.",
+    "The new clerk is not only careful but also fast.",
+    "The new clerk not only is careful but also fast.",
+    "The new clerk is not only careful but also she is fast."
+  ],
+  "answer": "The new clerk is not only careful but also fast.",
+  "hints": [
+    "\"Not only … but also\" is a pair. What comes after \"not only\" must match what comes after \"but also\".",
+    "In each choice, find the words right after \"not only\" and the words right after \"but also\". Are they the same kind of word?",
+    "If \"not only\" is followed by a describing word (like \"careful\"), \"but also\" must be followed by a describing word too. Check each choice."
+  ],
+  "solution": {
+    "methodName": "Line up the parts, then match the forms",
+    "steps": [
+      {
+        "action": "In each choice, find what follows \"not only\" and what follows \"but also\"."
+      },
+      {
+        "action": "First choice: \"careful\" (a describing word) against \"works fast\" (an action). They do not match. Wrong."
+      },
+      {
+        "action": "Second choice: \"careful\" against \"fast\". Both are describing words, so they match. Correct.",
+        "why": "A describing word (an adjective) tells what a person or thing is like: careful, fast, new."
+      },
+      {
+        "action": "Third choice: \"is careful\" against \"fast\". The first half has a verb; the second does not. Wrong."
+      },
+      {
+        "action": "Fourth choice: \"careful\" against \"she is fast\", a full sentence. They do not match. Wrong."
+      },
+      {
+        "action": "The answer is \"The new clerk is not only careful but also fast.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The new clerk is not only careful but also works fast.": "\"Works fast\" says the same idea, so it sounds fine. But it is an action, while \"careful\" is a describing word. The two halves do not match.",
+    "The new clerk not only is careful but also fast.": "This moves \"is\" after \"not only\", so the first half becomes \"is careful\" while the second half is only \"fast\".",
+    "The new clerk is not only careful but also she is fast.": "Adding \"she is\" makes the second half a full sentence, while the first half is one word, \"careful\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

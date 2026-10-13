@@ -1,0 +1,49 @@
+{
+  "id": "ven-sc-0008",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-form",
+  "difficulty": 1,
+  "stem": "Yesterday, the treasurer ___ the payroll list to the bank.",
+  "choices": [
+    "sends",
+    "sent",
+    "will send",
+    "is sending"
+  ],
+  "answer": "sent",
+  "hints": [
+    "Look for a word that tells you when the action happened.",
+    "'Yesterday' means the action is already finished. Which tense is used for a finished past action?",
+    "Find the time word, decide which tense it calls for, and pick the verb form in that tense."
+  ],
+  "solution": {
+    "methodName": "Find what the blank needs, then pick the form",
+    "steps": [
+      {
+        "action": "Look for a time clue: 'Yesterday'.",
+        "why": "Time words such as yesterday, last week, now, every day and tomorrow tell you which tense to use."
+      },
+      {
+        "action": "Name the tense: yesterday is in the past, so the verb must be in the simple past."
+      },
+      {
+        "action": "Find the past form: 'send' becomes 'sent'.",
+        "why": "Send is an irregular verb: its past form is 'sent', not 'sended'."
+      },
+      {
+        "action": "Reread: 'Yesterday, the treasurer sent the payroll list to the bank.'"
+      },
+      {
+        "action": "The answer is 'sent'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "sends": "This is the present tense, used for things that happen now or regularly. 'Yesterday' needs the past.",
+    "will send": "This is the future tense. An action that happened yesterday cannot be in the future.",
+    "is sending": "This means it is happening right now. Yesterday is already over."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

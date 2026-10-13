@@ -1,0 +1,50 @@
+{
+  "id": "ven-po-0010",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-topic",
+  "difficulty": 1,
+  "stem": "Choose the best topic sentence to fill the blank.\n\n__________. A short walk after meals helps control blood sugar. Taking the stairs instead of the elevator makes the heart stronger. Even ten minutes of stretching can ease a stiff back.",
+  "choices": [
+    "Elevators in government offices are often crowded.",
+    "Doctors say that sugar is bad for the heart.",
+    "Small amounts of exercise can improve health.",
+    "Many people have no time to go to the gym."
+  ],
+  "answer": "Small amounts of exercise can improve health.",
+  "hints": [
+    "Look at what the three sentences after the blank have in common.",
+    "Each sentence names a small activity and a health benefit. Put that shared idea into a few words.",
+    "Pick the choice that covers all three activities and their benefits, not one that borrows a single word from one sentence."
+  ],
+  "solution": {
+    "methodName": "Find the sentence that covers all the others",
+    "steps": [
+      {
+        "action": "Read the details: a short walk, taking the stairs, ten minutes of stretching.",
+        "why": "These are all small, easy kinds of exercise."
+      },
+      {
+        "action": "Note what each one does: controls blood sugar, makes the heart stronger, eases a stiff back.",
+        "why": "These are all health benefits."
+      },
+      {
+        "action": "Combine the two: small amounts of exercise improve health.",
+        "why": "A topic sentence states the idea that all the details support."
+      },
+      {
+        "action": "Check the choices against this idea. Only one covers all three details."
+      },
+      {
+        "action": "The best topic sentence is \"Small amounts of exercise can improve health.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Elevators in government offices are often crowded.": "Elevators appear in only one detail, and only as something to avoid. The paragraph is about exercise and health, not crowded elevators.",
+    "Doctors say that sugar is bad for the heart.": "It borrows \"sugar\" and \"heart\" from the details but mixes them up. The paragraph is about exercise, not about sugar.",
+    "Many people have no time to go to the gym.": "The paragraph never talks about lack of time. Its details are about the health benefits of small exercises."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

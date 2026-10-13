@@ -1,0 +1,54 @@
+{
+  "id": "ven-sc-0013",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-form",
+  "difficulty": 3,
+  "stem": "Neither the clerk nor the supervisors ___ aware of the new schedule until this morning.",
+  "choices": [
+    "was",
+    "were",
+    "is",
+    "has been"
+  ],
+  "answer": "were",
+  "hints": [
+    "With 'neither ... nor', look at the subject closest to the blank.",
+    "The nearer subject is 'the supervisors'. Is that one person or more? Also check the time words 'until this morning'.",
+    "Make the verb agree with the nearer subject and use the past tense for 'until this morning'. Pick the choice that does both."
+  ],
+  "solution": {
+    "methodName": "Find what the blank needs, then pick the form",
+    "steps": [
+      {
+        "action": "Spot the pattern: 'Neither ... nor' joins two subjects."
+      },
+      {
+        "action": "Apply the rule: with 'neither ... nor' and 'either ... or', the verb agrees with the subject nearer to it.",
+        "why": "The closer subject decides. You may see this called the proximity rule."
+      },
+      {
+        "action": "Find the nearer subject: 'the supervisors', which is plural."
+      },
+      {
+        "action": "Check the time: 'until this morning' points to the past."
+      },
+      {
+        "action": "Plural and past: 'were'."
+      },
+      {
+        "action": "Reread: 'Neither the clerk nor the supervisors were aware of the new schedule until this morning.'"
+      },
+      {
+        "action": "The answer is 'were'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "was": "Was agrees with 'the clerk', the first subject. With 'neither ... nor', the verb follows the nearer subject, 'the supervisors', which is plural.",
+    "is": "Is is singular and present. The nearer subject is plural, and 'until this morning' shows the past.",
+    "has been": "Has been is singular, and it does not fit 'until this morning', which marks a finished time in the past."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ven-ss-0002",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-complete",
+  "difficulty": 3,
+  "stem": "Which is a complete sentence?",
+  "choices": [
+    "Sign your name at the bottom of the form.",
+    "Your signature at the bottom of the form.",
+    "If you sign at the bottom of the form.",
+    "Signing your name at the bottom of the form."
+  ],
+  "answer": "Sign your name at the bottom of the form.",
+  "hints": [
+    "One choice looks like it has no subject, but it is a command. In a command, the subject \"you\" is understood.",
+    "Check each choice for a real verb. Then check whether it starts with a word like \"if\" that leaves the thought unfinished.",
+    "A command such as \"Close the door.\" is complete because its subject is understood to be \"you\". A noun with no verb, an \"if\" part with no main idea, and an -ing phrase alone are all fragments. Test each choice."
+  ],
+  "solution": {
+    "methodName": "Check for subject, verb and complete thought",
+    "steps": [
+      {
+        "action": "\"Sign your name at the bottom of the form.\" is a command. Its subject, \"you\", is understood: \"(You) sign your name …\".",
+        "why": "A command gives an order or an instruction. English leaves out the \"you\", but the sentence is still complete."
+      },
+      {
+        "action": "It has a verb (sign) and a complete thought, so it is a complete sentence."
+      },
+      {
+        "action": "\"Your signature at the bottom of the form.\" has no verb. It is a fragment."
+      },
+      {
+        "action": "\"If you sign at the bottom of the form.\" starts with \"if\", so it waits for a result that never comes. It is a fragment."
+      },
+      {
+        "action": "\"Signing your name at the bottom of the form.\" has no subject and only an -ing word. It is a fragment."
+      },
+      {
+        "action": "The complete sentence is \"Sign your name at the bottom of the form.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Your signature at the bottom of the form.": "It reads like an instruction printed on a form, but it has no verb. It is only a noun with a phrase after it.",
+    "If you sign at the bottom of the form.": "It has a subject and a verb (\"you sign\"), but \"If\" means a result must follow. If you sign, then what?",
+    "Signing your name at the bottom of the form.": "This looks like the command with a few changes. But an -ing word alone is not a full verb, and there is no subject."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

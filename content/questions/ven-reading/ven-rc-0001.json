@@ -1,0 +1,56 @@
+{
+  "id": "ven-rc-0001",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-main",
+  "difficulty": 1,
+  "passage": "Three years ago, opening a small business in our town was slow and tiring. An owner had to visit five different offices, each in a different building, and the whole process could take up to three weeks. Many owners gave up and ran their stores without permits.\n\nThen the town opened a Business One-Stop Shop on the ground floor of the town hall. Now a single counter receives the application, checks the documents and collects all the fees. Staff from the different offices sit together behind the counter, so papers no longer travel from building to building. Most permits are released within two working days. Since the shop opened, the number of registered businesses in the town has almost doubled.",
+  "stem": "What is the main idea of the passage?",
+  "choices": [
+    "Many store owners in the town ran their businesses without permits.",
+    "A one-stop shop made business permits faster and easier to get.",
+    "Town offices should be placed in one building to save money.",
+    "The number of registered businesses in the town has almost doubled."
+  ],
+  "answer": "A one-stop shop made business permits faster and easier to get.",
+  "hints": [
+    "The main idea covers the whole passage, not just one part of it.",
+    "Sum up the passage in one sentence: what was the problem, and what changed it?",
+    "Test each choice: does it cover both the old problem and the new one-stop shop? Reject choices that give only one detail or say something the passage never says."
+  ],
+  "solution": {
+    "methodName": "Find the idea that covers the whole passage",
+    "steps": [
+      {
+        "action": "Read the question first: it asks for the main idea.",
+        "why": "Knowing the question tells you to read for the big picture, not for one small fact."
+      },
+      {
+        "action": "Sum up the first paragraph: getting a permit used to be slow, with five offices and up to three weeks.",
+        "why": "This is the problem the passage starts with."
+      },
+      {
+        "action": "Sum up the second paragraph: a one-stop shop now handles everything at one counter, and most permits take two working days.",
+        "why": "This is the change, and most of the passage describes it."
+      },
+      {
+        "action": "Join the two into one idea: the one-stop shop made getting a permit faster and easier.",
+        "why": "The main idea must cover the whole passage, both the problem and the solution."
+      },
+      {
+        "action": "Test the other choices.",
+        "why": "Owners without permits and the doubled number of businesses are true, but each is only one detail. Moving offices into one building to save money is never said."
+      },
+      {
+        "action": "The main idea is \"A one-stop shop made business permits faster and easier to get.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Many store owners in the town ran their businesses without permits.": "This is true, but it is one detail from the first paragraph. It describes part of the old problem, not the whole passage.",
+    "Town offices should be placed in one building to save money.": "The passage never talks about saving money or moving offices into one building. The staff sit together at one counter, which is a different idea.",
+    "The number of registered businesses in the town has almost doubled.": "This is true, and it is a result of the one-stop shop. But it is one detail at the end, not what the whole passage is about."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

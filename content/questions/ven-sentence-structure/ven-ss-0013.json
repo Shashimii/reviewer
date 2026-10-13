@@ -1,0 +1,51 @@
+{
+  "id": "ven-ss-0013",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-modifier",
+  "difficulty": 1,
+  "stem": "Which sentence is correctly written?",
+  "choices": [
+    "The nurse handed the glass to the patient filled with warm water.",
+    "Filled with warm water, the nurse handed the glass to the patient.",
+    "The nurse handed the glass filled with warm water to the patient.",
+    "The nurse filled with warm water handed the glass to the patient."
+  ],
+  "answer": "The nurse handed the glass filled with warm water to the patient.",
+  "hints": [
+    "\"Filled with warm water\" describes something. What in the sentence can be filled with water?",
+    "In each choice, look at the noun that sits right next to \"filled with warm water\".",
+    "Put a describing phrase right next to the thing it describes. Choose the sentence where the phrase touches the right noun."
+  ],
+  "solution": {
+    "methodName": "Put the describing phrase next to what it describes",
+    "steps": [
+      {
+        "action": "Find the modifier: \"filled with warm water\". It describes the glass.",
+        "why": "A glass can hold water. A nurse or a patient is not \"filled with water\"."
+      },
+      {
+        "action": "First choice: the phrase is next to \"the patient\". Wrong."
+      },
+      {
+        "action": "Second choice: the phrase opens the sentence, so it describes the first noun after the comma, \"the nurse\". Wrong."
+      },
+      {
+        "action": "Fourth choice: the phrase comes right after \"The nurse\". Wrong."
+      },
+      {
+        "action": "Third choice: \"the glass filled with warm water\". The phrase is next to \"glass\". Correct."
+      },
+      {
+        "action": "The answer is \"The nurse handed the glass filled with warm water to the patient.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The nurse handed the glass to the patient filled with warm water.": "This order puts the phrase next to \"the patient\", so it says the patient is filled with warm water.",
+    "Filled with warm water, the nurse handed the glass to the patient.": "An opening phrase describes the first noun after the comma. Here that is \"the nurse\", so the nurse seems to be filled with water.",
+    "The nurse filled with warm water handed the glass to the patient.": "The phrase follows \"The nurse\", so it describes the nurse, not the glass."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

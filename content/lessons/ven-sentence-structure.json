@@ -1,0 +1,73 @@
+{
+  "id": "ven-sentence-structure-lesson",
+  "topicId": "ven-sentence-structure",
+  "workedExampleId": "ven-ss-0001",
+  "sections": [
+    {
+      "heading": "Complete sentences and fragments",
+      "body": "A **complete sentence** has three things:\n\n1. a **subject**: who or what it is about;\n2. a **verb**: the action or state (*go, is, filed*);\n3. a **complete thought**: it does not leave you waiting for more.\n\nA **fragment** is a piece of a sentence that is missing one of these.\n\n**Method: check for subject, verb and complete thought.**\n\n- *The office near the plaza.* No verb: fragment.\n- *Waiting for the bus.* No subject, and an -ing word alone is not a full verb: fragment.\n- *Because the road was closed.* Words like because, although, if, when and after need a main idea after them: fragment.\n- *Close the door.* Complete! In a **command**, the subject \"you\" is understood."
+    },
+    {
+      "heading": "Run-on sentences",
+      "body": "A **run-on** joins two complete sentences without the right mark or joining word. A **comma splice** is a run-on that uses only a comma: *The bus is late, we will walk.*\n\n**Method: find the two complete thoughts, then check the join.** There are four correct ways to join them:\n\n1. A period: *The bus is late. We will walk.*\n2. A semicolon (;): *The bus is late; we will walk.*\n3. A comma plus and, but or so: *The bus is late, so we will walk.*\n4. A joining word like because or although: *Because the bus is late, we will walk.*"
+    },
+    {
+      "heading": "Parallel structure",
+      "body": "**Parallel structure** means the parts of a list or a pair use the same form.\n\n**Method: line up the parts, then match the forms.** Write the parts one under the other and compare them.\n\n- **Lists:** *reading, writing, and counting*, not *reading, writing, and to count*.\n- **Pairs:** not only … but also, either … or, both … and. What follows the first word must match what follows the second: *either call or **email***, not *either call or **an email***.\n- **Comparisons with than:** *Walking is cheaper than **riding***, not *than to ride*."
+    },
+    {
+      "heading": "Misplaced and dangling modifiers",
+      "body": "A **modifier** is a word or phrase that describes something. Readers link it to the nearest noun.\n\n**Method: put the describing phrase next to what it describes.**\n\n- **Misplaced modifier:** the phrase sits next to the wrong noun. *She gave the cake to her friend in a plastic box.* (Is the friend in the box?) Better: *She gave the cake in a plastic box to her friend.*\n- **Dangling modifier:** the doer is missing. *Opening the window, cold air came in.* (Did the air open the window?) Better: *Opening the window, I felt the cold air.*\n\nTip: after an opening -ing phrase and its comma, the very next noun must be the one doing that action."
+    },
+    {
+      "heading": "Combining sentences",
+      "body": "**Method: find the link between the ideas, then check the grammar.**\n\n| Link | Use | Example |\n| --- | --- | --- |\n| Cause and effect | because, so | *It rained, so the event moved indoors.* |\n| Contrast | although, but | *Although it rained, the event went on.* |\n| Same noun | who, that | *The man who called is my boss.* |\n| Renaming | commas around the new name | *Ana, our cashier, is on leave.* |\n\nA phrase that renames a noun, like *our cashier*, is called an **appositive**. Put it right after the noun it renames. Then reread your choice: no comma splice and no misplaced phrase."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Long is not complete.** A long group of words is still a fragment if the main subject has no verb of its own.\n- **Commands are complete.** *Please sign here.* has an understood subject, \"you\".\n- **The comma trap.** A comma alone never joins two complete sentences.\n- **Same meaning, wrong form.** In parallel items, all choices say the same thing. Only one has matching forms.\n- **The doer named too late.** *After checking the form, the request was approved by the officer* still dangles. The officer must come right after the comma.\n- **Good grammar, wrong link.** In combining items, a choice can be grammatical but use the wrong joining word, like \"because\" for a contrast."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Complete sentence",
+      "definition": "A complete sentence has a subject, a verb and a complete thought.",
+      "taglish": "Complete sentence – buong pangungusap; may simuno, pandiwa at buong diwa"
+    },
+    {
+      "term": "Fragment",
+      "definition": "A fragment is a piece of a sentence that is missing a subject, a verb or a complete thought.",
+      "taglish": "Fragment – putol na pangungusap; may kulang kaya hindi buo ang diwa"
+    },
+    {
+      "term": "Run-on sentence",
+      "definition": "A run-on sentence joins two complete sentences without the right punctuation or joining word.",
+      "taglish": "Run-on – dalawang pangungusap na pinagdikit nang walang tamang bantas o pang-ugnay"
+    },
+    {
+      "term": "Comma splice",
+      "definition": "A comma splice is a run-on that joins two complete sentences with only a comma.",
+      "taglish": "Comma splice – dalawang buong pangungusap na kuwit lang ang pinagdugtong"
+    },
+    {
+      "term": "Parallel structure",
+      "definition": "Parallel structure means the parts of a list, pair or comparison use the same grammar form.",
+      "taglish": "Parallel structure – pare-pareho ang anyo ng mga bahagi ng listahan o pares"
+    },
+    {
+      "term": "Modifier",
+      "definition": "A modifier is a word or phrase that describes something. It should sit next to the word it describes.",
+      "taglish": "Modifier – salitang naglalarawan; dapat katabi ng inilalarawan nito"
+    },
+    {
+      "term": "Dangling modifier",
+      "definition": "A dangling modifier is a describing phrase whose doer is missing from the sentence, so it seems to describe the wrong thing.",
+      "taglish": "Dangling modifier – naglalarawang parirala na walang tamang tinutukoy sa pangungusap"
+    },
+    {
+      "term": "Appositive",
+      "definition": "An appositive is a phrase that renames a noun, placed right after it, like \"our cashier\" in \"Ana, our cashier, is on leave.\"",
+      "taglish": "Appositive – pariralang nagbibigay ng ibang pangalan o paliwanag sa naunang pangngalan"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "ven-gr-0004",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-agreement",
+  "difficulty": 2,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nThe committee has decided to move its meeting to Friday.",
+  "choices": [
+    "has decided",
+    "to move its meeting",
+    "to Friday",
+    "No error"
+  ],
+  "answer": "No error",
+  "hints": [
+    "\"Committee\" names a group of people. In this sentence, is the group acting together, as one?",
+    "The committee made one decision together. A group that acts as one unit is treated as singular, like \"it\".",
+    "Check each part: does the verb fit a singular subject? Does the pronoun fit a singular subject? Is the small linking word right? If all three parts pass, the sentence has no error."
+  ],
+  "solution": {
+    "methodName": "Find the true subject, then match the verb",
+    "steps": [
+      {
+        "action": "Find the subject: \"The committee\". It is a collective noun.",
+        "why": "A collective noun is a word for a group, such as committee, team, family or staff."
+      },
+      {
+        "action": "Decide if the group acts as one. It does: the committee made one decision together. So treat \"committee\" as singular.",
+        "why": "In the exam, a group acting as one unit takes a singular verb, as if you said \"it\"."
+      },
+      {
+        "action": "Check \"has decided\": a singular verb for a singular subject. Correct.",
+        "why": "Say it with \"it\": \"It has decided.\""
+      },
+      {
+        "action": "Check \"to move its meeting\": \"its\" is singular and matches \"committee\". Correct."
+      },
+      {
+        "action": "Check \"to Friday\": you move a meeting to a new day. Correct."
+      },
+      {
+        "action": "All three parts are correct, so the answer is \"No error\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "has decided": "A committee has many members, so \"have decided\" may feel right. But here the committee acts as one group, so the singular \"has\" is correct.",
+    "to move its meeting": "Some think \"its\" should be \"their\" because a committee has many people. Since the group acts as one, \"its\" is correct, and it matches \"has\".",
+    "to Friday": "This part is correct. You move a meeting to a new day. \"To Friday\" tells where the meeting goes on the calendar."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

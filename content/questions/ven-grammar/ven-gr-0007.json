@@ -1,0 +1,49 @@
+{
+  "id": "ven-gr-0007",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-tense",
+  "difficulty": 1,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nThe clerk did not received the letter until Monday.",
+  "choices": [
+    "did not received",
+    "the letter",
+    "until Monday",
+    "No error"
+  ],
+  "answer": "did not received",
+  "hints": [
+    "Look at the helping verb \"did\". What form should the main verb after it take?",
+    "\"Did\" already shows that the action is in the past. Should the verb after it show the past again?",
+    "After did, do or does, use the plain form of the verb, with no -ed and no -s. Check the verb after \"did not\", then check the other parts."
+  ],
+  "solution": {
+    "methodName": "Use the plain verb after did, do or does",
+    "steps": [
+      {
+        "action": "Find the helping verb: \"did\".",
+        "why": "A helping verb is a small verb such as do, does, did, has or will that comes before the main verb."
+      },
+      {
+        "action": "\"Did\" already shows the past, so the main verb must be in its plain form: \"receive\".",
+        "why": "English shows the past only once. \"Did not received\" shows it twice. The plain form is the one you find in the dictionary."
+      },
+      {
+        "action": "Fix it: \"did not receive\"."
+      },
+      {
+        "action": "Check the other parts. \"the letter\" and \"until Monday\" are correct."
+      },
+      {
+        "action": "The error is \"did not received\". It should be \"did not receive\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "the letter": "This part is correct. It names the thing that was received.",
+    "until Monday": "This part is correct. \"Until Monday\" means the letter arrived only on Monday.",
+    "No error": "The sentence is about the past, so \"received\" may feel right. But after \"did\", the verb goes back to its plain form: \"did not receive\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ven-vocabulary-lesson",
+  "topicId": "ven-vocabulary",
+  "workedExampleId": "ven-voc-0001",
+  "sections": [
+    {
+      "heading": "Four kinds of vocabulary question",
+      "body": "Vocabulary items test what a word means. Use what you already know, plus the word's **context**: the words around it.\n\nThis topic covers four kinds of question:\n\n- **Synonym:** a word with the same or nearly the same meaning.\n- **Antonym:** a word with the opposite meaning.\n- **Context clue:** a hint in the sentence that shows what a word means.\n- **Idiom:** a group of words whose meaning is different from the meaning of each word.\n\nRead the whole sentence first. Then say the meaning **in your own words** before you look at the choices, so wrong choices can't pull you in."
+    },
+    {
+      "heading": "Synonyms: replace the word, then reread",
+      "body": "Method: **Replace the word, then reread the sentence.**\n\n1. Find the word and see what it describes.\n2. Say its meaning in your own words.\n3. Put each choice in the word's place and reread.\n4. Keep the choice that leaves the meaning the same.\n\n**Example:** \"The **diligent** clerk finished every file before going home.\" Diligent means working hard and steadily. \"The **hardworking** clerk finished every file\" keeps the meaning, so hardworking is a synonym.\n\nSome words have two meanings. **Address** can mean *where someone lives* or *to deal with a problem*. The sentence decides which one is meant."
+    },
+    {
+      "heading": "Antonyms: find the meaning, then flip it",
+      "body": "Method: **Find the meaning, then flip it.**\n\n1. Read the question twice. It asks for the **opposite**.\n2. Find the word's meaning, as you would for a synonym.\n3. Flip it: say the reverse in your own words.\n4. Pick the choice that matches the reverse.\n\n**Example:** \"The office replaced its **flimsy** chairs.\" Flimsy means weak and easy to break. The reverse is strong, so **sturdy** is the antonym.\n\nAntonym items almost always include a synonym as a trap. If a choice means the **same** as the word, cross it out."
+    },
+    {
+      "heading": "Context clues: four kinds",
+      "body": "A **context clue** is a hint near an unfamiliar word. A **signal word** tells you which kind of clue is coming. Method: **Find the clue, then test the meaning.**\n\n| Clue | What it does | Signal words |\n| --- | --- | --- |\n| Definition | Gives the meaning directly | is, means, is called, which is |\n| Example | Lists examples of the word | such as, for example, including, like |\n| Contrast | Shows the opposite idea | but, although, unlike, however, instead |\n| Restatement | Says the same idea again in simpler words | or, that is, in other words, a dash (—) |\n\n- **Definition:** \"A **memorandum**, which is a short written notice, was sent to all staff.\"\n- **Example:** \"**Utilities**, such as water and electricity, are paid monthly.\"\n- **Contrast:** \"Unlike the **cluttered** front desk, the back office was neat.\" Cluttered means messy.\n- **Restatement:** \"The **interim** director, that is, the one serving only until a new director is chosen, signed the memo.\"\n\nWith a contrast clue, **flip** the clue words. Then test your meaning by putting it in the sentence."
+    },
+    {
+      "heading": "Idioms: read the words as a whole",
+      "body": "An idiom is a fixed group of words. Its **literal meaning**, the word-for-word meaning, does not work. Method: **Read the idiom as a whole.**\n\n1. Notice that the word-for-word meaning makes no sense.\n2. Use the rest of the sentence as a clue.\n3. Choose the meaning that fits the situation.\n\n**Example:** \"After the long hearing, the panel decided to **call it a day**.\" The situation tells you it means *to stop working for now*.\n\nMore idioms from work: *on the same page* (agreeing), *back to square one* (starting over), *burn the midnight oil* (working late at night)."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Answering the wrong question.** In an antonym item, a synonym is waiting for you. Read the question twice.\n- **Copying the contrast clue.** After 'but' or 'although', the word means the **opposite** of the clue words.\n- **Picking a word that just fits the topic.** A choice can describe the same thing without matching the word's meaning. Match the clue.\n- **Reading idioms literally.** Real tape and real salt are never the answer.\n- **Forgetting a second meaning.** Let the sentence decide.\n- **Choosing before predicting.** Say the meaning first, then look."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Synonym",
+      "definition": "A word with the same or nearly the same meaning as another word, like 'big' and 'large'.",
+      "taglish": "Synonym – salitang pareho o halos pareho ang kahulugan, gaya ng big at large"
+    },
+    {
+      "term": "Antonym",
+      "definition": "A word with the opposite meaning, like 'early' and 'late'.",
+      "taglish": "Antonym – salitang kabaligtaran ang kahulugan, gaya ng early at late"
+    },
+    {
+      "term": "Context",
+      "definition": "The words and sentences around a word, which help show what it means.",
+      "taglish": "Context – ang mga salitang nakapaligid na tumutulong para maintindihan ang isang salita"
+    },
+    {
+      "term": "Context clue",
+      "definition": "A hint in the sentence that shows what an unfamiliar word means.",
+      "taglish": "Context clue – pahiwatig sa pangungusap kung ano ang ibig sabihin ng salita"
+    },
+    {
+      "term": "Signal word",
+      "definition": "A word such as 'but', 'such as' or 'that is' that tells you what kind of clue comes next.",
+      "taglish": "Signal word – salitang nagsasabi kung anong klaseng clue ang kasunod, gaya ng but o such as"
+    },
+    {
+      "term": "Idiom",
+      "definition": "A group of words with a meaning different from the meaning of each word, like 'red tape'.",
+      "taglish": "Idiom – pahayag na iba ang kahulugan sa literal na ibig sabihin ng bawat salita, gaya ng 'red tape'"
+    },
+    {
+      "term": "Literal meaning",
+      "definition": "The plain, word-for-word meaning of a group of words.",
+      "taglish": "Literal meaning – ang tuwirang kahulugan, salita por salita"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ven-rc-0009",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-detail",
+  "difficulty": 1,
+  "passage": "At the frontline counter of a government office, Liza often meets clients who are tired and upset. One morning, a man arrived shouting because his request had been returned to him for the second time. Liza did not argue or raise her voice. She let him finish speaking. Then she said, \"I understand that this is frustrating. Let me check what went wrong.\"\n\nShe looked through his papers and found that one form lacked a signature from his barangay. Instead of simply handing the papers back, she wrote down exactly what was missing and where to get it. She also told him he could come straight to her window without lining up again. The man left calmly and returned the next day with the complete form.",
+  "stem": "According to the passage, what was wrong with the man's papers?",
+  "choices": [
+    "One form lacked his barangay's signature.",
+    "He had filled out the wrong request form.",
+    "He had not yet paid the processing fee.",
+    "His ID had expired before he applied."
+  ],
+  "answer": "One form lacked his barangay's signature.",
+  "hints": [
+    "The key words in the question are \"wrong\" and \"papers\". Find where Liza looks at his papers.",
+    "Scan the second paragraph for what Liza found.",
+    "Match the exact problem Liza found to a choice. The other choices name problems that the passage never mentions."
+  ],
+  "solution": {
+    "methodName": "Scan for the key words, then match",
+    "steps": [
+      {
+        "action": "Find the key words in the question: what was wrong with his papers."
+      },
+      {
+        "action": "Scan to: \"She looked through his papers and found that one form lacked a signature from his barangay.\""
+      },
+      {
+        "action": "Match it: one form lacked his barangay's signature.",
+        "why": "\"Lacked\" means \"did not have\"."
+      },
+      {
+        "action": "Check the others.",
+        "why": "The passage says nothing about a wrong form, a fee or an ID."
+      },
+      {
+        "action": "The answer is \"One form lacked his barangay's signature.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "He had filled out the wrong request form.": "The form was the right one. It was only missing a signature.",
+    "He had not yet paid the processing fee.": "No fee is mentioned in the passage. This happens in real offices, but the passage does not say it happened here.",
+    "His ID had expired before he applied.": "The passage never mentions an ID. Choose only what the passage states."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

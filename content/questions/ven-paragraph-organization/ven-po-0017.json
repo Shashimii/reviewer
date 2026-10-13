@@ -1,0 +1,46 @@
+{
+  "id": "ven-po-0017",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-odd",
+  "difficulty": 2,
+  "stem": "Which sentence does not belong in the paragraph?\n\n1. Our office now allows some employees to work from home two days a week.\n2. Employees who work from home must stay online from 8:00 a.m. to 5:00 p.m.\n3. They must also send a short report of finished tasks every Friday.\n4. Supervisors may call them to the office if urgent work comes up.\n5. Many employees enjoy eating lunch with their co-workers at the office.",
+  "choices": [
+    "Sentence 2",
+    "Sentence 3",
+    "Sentence 4",
+    "Sentence 5"
+  ],
+  "answer": "Sentence 5",
+  "hints": [
+    "Most of the sentences are rules. Look for the sentence that is not about working from home.",
+    "The topic, from sentence 1, is the office's work-from-home arrangement.",
+    "Test each sentence: does it tell you how working from home works? Find the one about something else, even if it mentions the office."
+  ],
+  "solution": {
+    "methodName": "Name the topic, then test each sentence",
+    "steps": [
+      {
+        "action": "Name the topic from sentence 1: the work-from-home arrangement."
+      },
+      {
+        "action": "Test sentences 2, 3 and 4: stay online, send a weekly report, come in when called.",
+        "why": "These are all rules for employees who work from home, so they belong."
+      },
+      {
+        "action": "Test sentence 5: employees enjoy eating lunch with co-workers at the office.",
+        "why": "It mentions the office and employees, but it is not about working from home or its rules."
+      },
+      {
+        "action": "The sentence that does not belong is Sentence 5."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Sentence 2": "Staying online during office hours is a rule for working from home. It supports the topic.",
+    "Sentence 3": "Sending a weekly report is another rule for those who work from home. \"They\" means those employees.",
+    "Sentence 4": "Being called to the office may seem to go against working from home, but it is still one of the rules of the arrangement."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

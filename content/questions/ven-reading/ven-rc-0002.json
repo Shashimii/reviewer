@@ -1,0 +1,50 @@
+{
+  "id": "ven-rc-0002",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-detail",
+  "difficulty": 1,
+  "passage": "Three years ago, opening a small business in our town was slow and tiring. An owner had to visit five different offices, each in a different building, and the whole process could take up to three weeks. Many owners gave up and ran their stores without permits.\n\nThen the town opened a Business One-Stop Shop on the ground floor of the town hall. Now a single counter receives the application, checks the documents and collects all the fees. Staff from the different offices sit together behind the counter, so papers no longer travel from building to building. Most permits are released within two working days. Since the shop opened, the number of registered businesses in the town has almost doubled.",
+  "stem": "According to the passage, how long does it now take to release most business permits?",
+  "choices": [
+    "Two working days",
+    "Up to three weeks",
+    "Five working days",
+    "One working week"
+  ],
+  "answer": "Two working days",
+  "hints": [
+    "The key words in the question are \"now\" and \"most permits\". Look for them in the passage.",
+    "The second paragraph describes how things work now. Scan it for a length of time.",
+    "Find the sentence about permits being released and match its exact time. Do not pick a time that describes the old process."
+  ],
+  "solution": {
+    "methodName": "Scan for the key words, then match",
+    "steps": [
+      {
+        "action": "Find the key words in the question: \"now\" and \"release most permits\"."
+      },
+      {
+        "action": "Scan the second paragraph, which describes the process now.",
+        "why": "The first paragraph describes how things were three years ago."
+      },
+      {
+        "action": "Find the sentence: \"Most permits are released within two working days.\""
+      },
+      {
+        "action": "Rule out \"Up to three weeks\".",
+        "why": "That was the old process, before the one-stop shop."
+      },
+      {
+        "action": "The answer is \"Two working days\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Up to three weeks": "This was how long the process took before the one-stop shop opened. The question asks about now.",
+    "Five working days": "The number five appears in the passage, but it counts the offices an owner used to visit, not days.",
+    "One working week": "The passage never mentions a week for the new process. It says most permits are released within two working days."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

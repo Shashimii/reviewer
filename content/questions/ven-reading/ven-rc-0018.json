@@ -1,0 +1,51 @@
+{
+  "id": "ven-rc-0018",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-purpose",
+  "difficulty": 1,
+  "passage": "**ANNOUNCEMENT**\n\nThe City Civil Registry Office will move to the second floor of the City Hall Annex starting Monday, March 2. To prepare for the move, the office will be closed on Thursday and Friday, February 26 and 27.\n\nCertificates requested on or before February 25 will still be released on their scheduled dates, at the new office. Online requests through the city website will continue during the closure, but they will be processed only when the office reopens. For urgent concerns, residents may call the hotline listed on the city website from 8:00 a.m. to 5:00 p.m. on weekdays.\n\nWe apologize for any inconvenience.",
+  "stem": "What is the main purpose of the announcement?",
+  "choices": [
+    "To persuade residents to use the city website more often",
+    "To explain why the office needs a bigger space",
+    "To apologize to residents for slow service in the past",
+    "To tell residents about the office's move and closure"
+  ],
+  "answer": "To tell residents about the office's move and closure",
+  "hints": [
+    "Ask: why was this notice written? What does the office want residents to know?",
+    "Look at the first two sentences. An announcement usually states its main news first.",
+    "The rest of the notice gives details that follow from the first two sentences. Choose the purpose that covers the whole notice, not just one line."
+  ],
+  "solution": {
+    "methodName": "Ask why the writer wrote it",
+    "steps": [
+      {
+        "action": "Read the first two sentences: the office is moving on March 2 and will be closed on February 26 and 27.",
+        "why": "An announcement usually states its main news first."
+      },
+      {
+        "action": "Read the rest: what happens to requests, and how to reach the office during the closure.",
+        "why": "These details help residents deal with the move and the closure."
+      },
+      {
+        "action": "Conclude: the purpose is to tell residents about the move and the closure."
+      },
+      {
+        "action": "Check the other choices.",
+        "why": "The website and the apology are mentioned, but only as small parts. The notice never says why the office is moving."
+      },
+      {
+        "action": "The answer is \"To tell residents about the office's move and closure\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "To persuade residents to use the city website more often": "The website is mentioned for online requests and the hotline number, but the notice never urges people to use it more.",
+    "To explain why the office needs a bigger space": "The notice never gives a reason for the move. It only says when and where the office is moving.",
+    "To apologize to residents for slow service in the past": "The apology at the end is for the trouble the move may cause, not for past service."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

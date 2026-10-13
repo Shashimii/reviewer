@@ -1,0 +1,59 @@
+{
+  "id": "ven-paragraph-organization-lesson",
+  "topicId": "ven-paragraph-organization",
+  "workedExampleId": "ven-po-0001",
+  "sections": [
+    {
+      "heading": "What makes a good paragraph",
+      "body": "A **paragraph** is a group of sentences about one main point. It has two kinds of sentences:\n\n- The **topic sentence** states the main point. It is often the first sentence, but it can also come last.\n- **Supporting sentences** back up the main point with examples, details, reasons or results.\n\nThe sentences in a good paragraph **link** to one another. Watch for two kinds of links:\n\n- **Reference words** point back to something already said: *he, she, it, they, them, this, these, such, the same*.\n- **Transition words** show how two ideas connect: *first, next, then, finally* (time), *however, on the other hand* (contrast), *for example* (example), *as a result, this is why* (result)."
+    },
+    {
+      "heading": "Putting sentences in order",
+      "body": "Method: **Find the opener, then follow the links.**\n\n1. **Find the opener.** The **opener** is the first sentence. It introduces the subject and points back to nothing. A sentence that starts with *However*, *Then*, *For example* or *This* cannot open a paragraph.\n2. **Pair sentences that link.** If a sentence says *these containers*, the sentence that first mentions the containers comes right before it. *The clerk* comes after *a clerk*.\n3. **Put the ending last.** Results (*As a result*), conclusions (*This is why*) and plans for the future usually close the paragraph.\n4. **Check the choices.** Cross out every choice that starts with the wrong sentence. Then test one link in each choice that is left.\n\nTiny example:\n\n1. Then she watered them every morning.\n2. Ana planted tomato seeds in May.\n3. By July, the plants had fruit.\n\nSentence 2 points back to nothing, so it opens. *Them* in sentence 1 means the seeds, so 1 follows 2. *By July* is the latest time, so 3 ends. The order is **2, 1, 3**."
+    },
+    {
+      "heading": "Finding the topic sentence",
+      "body": "Method: **Find the sentence that covers all the others.**\n\nAsk of each sentence: *Is this one example, or does it sum up all of them?* The topic sentence is like an umbrella, and the other sentences fit under it.\n\n- It may come first, or last after a word like *Clearly* or *In short*.\n- An opening **question** is not the topic sentence. The answer to the question usually is.\n- When you choose a topic sentence to fill a blank, reject choices that are **too narrow** (they fit only one detail) or **too broad** (they could fit a very different paragraph).\n\nTiny example: *Jun sweeps the floor. Mia washes the dishes. Their father cooks.* The best topic sentence is *Everyone in the family helps with the housework.* *Mia washes the dishes* is too narrow, and *Families are important* is too broad."
+    },
+    {
+      "heading": "Finding the sentence that does not belong",
+      "body": "Method: **Name the topic, then test each sentence.**\n\n1. Name the topic of sentence 1 in a few words. Be exact: *how mangroves keep towns safe*, not just *mangroves*.\n2. Test each sentence: *Does it support this exact point?*\n3. The odd sentence often shares a **key word** with the topic, so it looks like it belongs. It may even be true. It simply talks about something else.\n\nTiny example: *(1) Our office has started a recycling drive. (2) Bins are placed on every floor. (3) The office bought a new coffee machine. (4) Paper and bottles are collected every Friday.* Sentence 3 mentions the office but not recycling, so it does not belong."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Opening with a linked sentence.** A sentence with *it, they, this, these, however* or *for example* needs something before it.\n- **Following time words only.** Check the reference words too. *The clerk* must come after *a clerk*.\n- **Picking sentence 1 as the topic sentence by habit.** It may be a question or a single example.\n- **Choosing a detail as the topic sentence.** A true detail is still too narrow.\n- **Removing a sentence just because it says \"also\".** *Also* adds one more point. Check whether that point fits the topic.\n- **Keeping a sentence because it shares a key word.** The same word with a different point means it does not belong."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Paragraph",
+      "definition": "A paragraph is a group of sentences about one main point.",
+      "taglish": "Paragraph – talata; grupo ng mga pangungusap tungkol sa iisang punto"
+    },
+    {
+      "term": "Topic sentence",
+      "definition": "The topic sentence states the main point of a paragraph. The other sentences support it.",
+      "taglish": "Topic sentence – ang pangungusap na nagsasabi ng pangunahing punto ng talata"
+    },
+    {
+      "term": "Supporting sentence",
+      "definition": "A supporting sentence gives an example, detail, reason or result that backs up the main point.",
+      "taglish": "Supporting sentence – pangungusap na nagbibigay ng halimbawa o detalye para suportahan ang punto"
+    },
+    {
+      "term": "Transition word",
+      "definition": "A transition word shows how two ideas connect, such as \"then\", \"however\" or \"as a result\".",
+      "taglish": "Transition word – salitang nag-uugnay ng mga ideya, gaya ng \"then\" (pagkatapos) o \"however\" (gayunman)"
+    },
+    {
+      "term": "Reference word",
+      "definition": "A reference word, such as \"it\", \"they\" or \"these\", points back to something already mentioned.",
+      "taglish": "Reference word – salitang tumuturo pabalik sa nabanggit na, gaya ng \"it\" o \"these\""
+    },
+    {
+      "term": "Opener",
+      "definition": "The opener is the first sentence of a paragraph. It introduces the subject and does not point back to anything.",
+      "taglish": "Opener – unang pangungusap ng talata; ipinapakilala nito ang paksa"
+    }
+  ]
+}

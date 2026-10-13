@@ -1,0 +1,55 @@
+{
+  "id": "ven-po-0006",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-order",
+  "difficulty": 2,
+  "stem": "Put the sentences in the most logical order.\n\n1. To show their thanks, residents cover their houses with fruits, vegetables and other decorations.\n2. After the festival, some families even eat the kiping, grilled or fried.\n3. Every May 15, the town of Lucban in Quezon holds the Pahiyas Festival.\n4. The most famous of these decorations is the kiping, a thin, colorful wafer made from rice.\n5. The festival thanks San Isidro Labrador, the patron saint of farmers, for a good harvest.",
+  "choices": [
+    "3, 1, 5, 4, 2",
+    "3, 5, 4, 1, 2",
+    "3, 5, 1, 4, 2",
+    "5, 3, 1, 4, 2"
+  ],
+  "answer": "3, 5, 1, 4, 2",
+  "hints": [
+    "Several sentences depend on something earlier: \"The festival\", \"To show their thanks\", \"these decorations\" and \"After the festival\".",
+    "Begin with the sentence that names the festival and says when and where it happens.",
+    "Then follow the chain: why the festival is held, how people show their thanks, the most famous decoration, and what happens after the festival."
+  ],
+  "solution": {
+    "methodName": "Find the opener, then follow the links",
+    "steps": [
+      {
+        "action": "Start with sentence 3, which names the Pahiyas Festival and tells when and where it is held.",
+        "why": "Sentence 5 says \"The festival\", which needs the festival to be named first."
+      },
+      {
+        "action": "Put sentence 5 next: the festival thanks San Isidro Labrador.",
+        "why": "It explains why the festival is held, and it brings in the idea of giving thanks."
+      },
+      {
+        "action": "Put sentence 1 after sentence 5.",
+        "why": "\"To show their thanks\" points back to the thanks in sentence 5."
+      },
+      {
+        "action": "Put sentence 4 after sentence 1.",
+        "why": "\"These decorations\" points back to the fruits, vegetables and other decorations in sentence 1."
+      },
+      {
+        "action": "End with sentence 2.",
+        "why": "\"After the festival\" tells what happens once everything is over, and it uses the word kiping, which sentence 4 has already explained."
+      },
+      {
+        "action": "The correct order is 3, 5, 1, 4, 2."
+      }
+    ]
+  },
+  "trapNotes": {
+    "3, 1, 5, 4, 2": "Sentence 1 says \"To show their thanks\", but at that point no thanks have been mentioned. Sentence 5 explains the thanks, so it must come before sentence 1.",
+    "3, 5, 4, 1, 2": "Sentence 4 mentions \"these decorations\" before any decoration is described. The decorations first appear in sentence 1.",
+    "5, 3, 1, 4, 2": "Sentence 5 says \"The festival\" before the festival has been named. Sentence 3 names it, so sentence 3 must open the paragraph."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

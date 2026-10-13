@@ -1,0 +1,52 @@
+{
+  "id": "ven-voc-0013",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-context",
+  "difficulty": 3,
+  "stem": "Errors in last month's payroll were rampant — the audit team found them in almost every office. Based on the clues, what does 'rampant' mean?",
+  "choices": [
+    "serious",
+    "widespread",
+    "hidden",
+    "rare"
+  ],
+  "answer": "widespread",
+  "hints": [
+    "The dash introduces words that say the same idea again in a different way.",
+    "Read the part after the dash. In how many offices were the errors found?",
+    "Say 'found in almost every office' in one word, then pick the choice that matches. Be careful of a choice that fits errors in general but not this clue."
+  ],
+  "solution": {
+    "methodName": "Find the clue, then test the meaning",
+    "steps": [
+      {
+        "action": "Find the word: 'rampant' describes the payroll errors."
+      },
+      {
+        "action": "Spot the dash: the part after it restates the idea.",
+        "why": "Restatement clues say the same thing again in simpler words. Watch for a dash, a colon, 'or', 'that is' and 'in other words'."
+      },
+      {
+        "action": "Read the restatement: the errors were found 'in almost every office'."
+      },
+      {
+        "action": "So rampant means 'found almost everywhere; spreading without control'."
+      },
+      {
+        "action": "Check 'serious': errors can be serious, but the clue is about how many offices had errors, not how bad each error was.",
+        "why": "This is the trap. Pick the meaning the clue supports, not a word that simply fits errors in general."
+      },
+      {
+        "action": "The answer is 'widespread'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "serious": "Payroll errors can be serious, so this sounds right. But the clue after the dash is about how many offices had errors, not how bad they were.",
+    "hidden": "The errors may have been hard to see before the audit, but the clue says they were found almost everywhere. Hidden is not what rampant means.",
+    "rare": "This is the opposite. Errors found in almost every office are common, not rare."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

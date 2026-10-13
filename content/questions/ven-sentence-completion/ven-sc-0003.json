@@ -1,0 +1,49 @@
+{
+  "id": "ven-sc-0003",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-word",
+  "difficulty": 2,
+  "stem": "The Human Resource Office will ___ a seminar on customer service for all frontline staff next month.",
+  "choices": [
+    "perform",
+    "conduct",
+    "achieve",
+    "operate"
+  ],
+  "answer": "conduct",
+  "hints": [
+    "All four choices are verbs. Think about which verb is normally used with 'a seminar'.",
+    "Ask what the office does with a seminar: it organizes and runs it. Which verb means that?",
+    "Try each verb in the blank and read '___ a seminar' aloud. Keep the one that means 'organize and run' and is normally paired with seminars."
+  ],
+  "solution": {
+    "methodName": "Predict a word, then match the choices",
+    "steps": [
+      {
+        "action": "Read the sentence: the HR Office will do something with a seminar for its staff."
+      },
+      {
+        "action": "Predict the meaning: the office will organize and run the seminar."
+      },
+      {
+        "action": "Know the word pair: in English we 'conduct' a seminar, a survey, an interview or an inspection.",
+        "why": "Some words usually go together. This is called a collocation. Other verbs may have a similar meaning but are not used with 'seminar'."
+      },
+      {
+        "action": "Check the others: we perform a task, achieve a goal and operate a machine.",
+        "why": "Each wrong verb is correct with a different noun, which is why it may sound possible."
+      },
+      {
+        "action": "The answer is 'conduct'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "perform": "We perform a task, a song or a duty, but not a seminar. 'Perform a seminar' is not natural English.",
+    "achieve": "Achieve means to reach a goal after effort, like achieving a target. A seminar is not a goal you reach.",
+    "operate": "We operate machines or businesses. 'Operate a seminar' is not used in English."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

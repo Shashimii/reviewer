@@ -1,0 +1,51 @@
+{
+  "id": "ven-sc-0002",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-word",
+  "difficulty": 1,
+  "stem": "The heavy rain caused ___ in the low-lying barangays, so families moved to the evacuation center.",
+  "choices": [
+    "flooding",
+    "drought",
+    "traffic",
+    "silence"
+  ],
+  "answer": "flooding",
+  "hints": [
+    "Look at the cause, heavy rain, and the result, families moving to an evacuation center.",
+    "What does heavy rain do to low-lying places?",
+    "Predict a word for something heavy rain causes that would force families to leave. Find it in the choices and reread the sentence."
+  ],
+  "solution": {
+    "methodName": "Predict a word, then match the choices",
+    "steps": [
+      {
+        "action": "Read the whole sentence, skipping the blank."
+      },
+      {
+        "action": "Find the clues: 'heavy rain', 'low-lying' and 'moved to the evacuation center'.",
+        "why": "Low-lying means lower than the land around it, so water collects there."
+      },
+      {
+        "action": "Predict: heavy rain in low places makes water rise."
+      },
+      {
+        "action": "Match: 'flooding' means water covering land that is usually dry."
+      },
+      {
+        "action": "Reread: 'The heavy rain caused flooding in the low-lying barangays, so families moved to the evacuation center.'"
+      },
+      {
+        "action": "The answer is 'flooding'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "drought": "A drought is a long time with no rain. It is the opposite of what heavy rain causes.",
+    "traffic": "Rain can cause traffic, but traffic does not force families to move to an evacuation center.",
+    "silence": "Heavy rain does not cause silence, and silence would not make families leave their homes."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

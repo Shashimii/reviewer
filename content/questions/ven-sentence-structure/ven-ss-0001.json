@@ -1,0 +1,55 @@
+{
+  "id": "ven-ss-0001",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-complete",
+  "difficulty": 1,
+  "stem": "Which is a complete sentence?",
+  "choices": [
+    "The new office near the public market.",
+    "Because the printer ran out of paper.",
+    "The clerk filed the reports today.",
+    "Waiting in line at the cashier's window."
+  ],
+  "answer": "The clerk filed the reports today.",
+  "hints": [
+    "A complete sentence needs a subject (who or what), a verb (the action), and a complete thought.",
+    "For each choice, ask: Who or what is it about? What does it do? Does it leave you waiting for more?",
+    "Cross out any choice with no verb, any choice with no subject, and any choice that starts with a word like \"because\" and stops before the main idea. Choose the one that is left."
+  ],
+  "solution": {
+    "methodName": "Check for subject, verb and complete thought",
+    "steps": [
+      {
+        "action": "Recall the test: a complete sentence has a subject, a verb and a complete thought.",
+        "why": "The subject is who or what the sentence is about. The verb is the action or state, like filed, is or runs. A complete thought does not leave the reader asking \"so what happened?\""
+      },
+      {
+        "action": "\"The new office near the public market.\" has a subject but no verb. It is a fragment.",
+        "why": "A fragment is a piece of a sentence that is missing a subject, a verb or a complete thought."
+      },
+      {
+        "action": "\"Because the printer ran out of paper.\" has a subject and a verb, but \"because\" makes it wait for a main idea. It is a fragment.",
+        "why": "Words like because, when, if, although and since make a group of words depend on another idea."
+      },
+      {
+        "action": "\"Waiting in line at the cashier's window.\" has no subject, and \"waiting\" alone is not a full verb. It is a fragment.",
+        "why": "An -ing word needs a helper such as \"is\" or \"was\" to work as the main verb: \"She is waiting.\""
+      },
+      {
+        "action": "\"The clerk filed the reports today.\" has a subject (the clerk), a verb (filed) and a complete thought.",
+        "why": "Nothing is missing, and the reader is not left waiting."
+      },
+      {
+        "action": "The complete sentence is \"The clerk filed the reports today.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The new office near the public market.": "It is long and names a place, so it can look complete. But nothing happens: there is no verb. It needs one, as in \"The new office is near the public market.\"",
+    "Because the printer ran out of paper.": "It has a subject and a verb (\"the printer ran\"), but \"Because\" leaves the thought unfinished. What happened because of it?",
+    "Waiting in line at the cashier's window.": "\"Waiting\" looks like a verb, but an -ing word alone cannot be the main verb, and there is no subject. Who is waiting?"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

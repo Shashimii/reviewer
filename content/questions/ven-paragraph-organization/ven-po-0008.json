@@ -1,0 +1,55 @@
+{
+  "id": "ven-po-0008",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-order",
+  "difficulty": 3,
+  "stem": "Put the sentences in the most logical order.\n\n1. Plastic, on the other hand, can stay in the environment for hundreds of years.\n2. A banana peel, for example, breaks down in a few weeks.\n3. This is why many towns now ban single-use plastic bags.\n4. Much of it ends up in rivers and seas, where it harms fish and sea turtles.\n5. Things that come from plants and animals rot quickly.",
+  "choices": [
+    "2, 5, 1, 4, 3",
+    "5, 1, 2, 4, 3",
+    "1, 4, 5, 2, 3",
+    "5, 2, 1, 4, 3"
+  ],
+  "answer": "5, 2, 1, 4, 3",
+  "hints": [
+    "Notice the linking words: \"for example\", \"on the other hand\", \"it\" and \"This is why\". None of these can start a paragraph.",
+    "Find the general statement that the banana peel is an example of. That statement opens the paragraph.",
+    "Order the ideas: a general point, its example, the contrast with plastic, what happens to plastic, and the conclusion. Match the choice that follows this order."
+  ],
+  "solution": {
+    "methodName": "Find the opener, then follow the links",
+    "steps": [
+      {
+        "action": "Start with sentence 5, a general statement: things from plants and animals rot quickly.",
+        "why": "It is the only sentence with no linking or pointing word, and the banana peel in sentence 2 is an example of it."
+      },
+      {
+        "action": "Put sentence 2 next.",
+        "why": "\"For example\" gives a case of the general statement. A banana peel comes from a plant, and it rots in weeks."
+      },
+      {
+        "action": "Put sentence 1 after sentence 2.",
+        "why": "\"On the other hand\" signals a contrast. Plastic lasts for hundreds of years, unlike the banana peel."
+      },
+      {
+        "action": "Put sentence 4 after sentence 1.",
+        "why": "\"Much of it\" means much of the plastic, so it must come right after plastic is mentioned."
+      },
+      {
+        "action": "End with sentence 3.",
+        "why": "\"This is why\" gives a conclusion based on the harm described in sentence 4, so it closes the paragraph."
+      },
+      {
+        "action": "The correct order is 5, 2, 1, 4, 3."
+      }
+    ]
+  },
+  "trapNotes": {
+    "2, 5, 1, 4, 3": "Sentence 2 says \"for example\", so it cannot open the paragraph. An example must follow the general statement it supports, which is sentence 5.",
+    "5, 1, 2, 4, 3": "This puts the banana peel right after plastic, so it reads like an example of plastic. Then \"Much of it\" would mean the banana peel, which makes no sense.",
+    "1, 4, 5, 2, 3": "Sentence 1 says \"on the other hand\", which needs something before it to contrast with. It cannot open the paragraph."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

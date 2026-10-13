@@ -1,0 +1,49 @@
+{
+  "id": "ven-ss-0004",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-complete",
+  "difficulty": 2,
+  "stem": "Which is a complete sentence?",
+  "choices": [
+    "The applicants who passed the written test last month.",
+    "The applicants who passed the test will be interviewed.",
+    "Although many applicants passed the written test last month.",
+    "After passing the written test, the applicants from our town."
+  ],
+  "answer": "The applicants who passed the test will be interviewed.",
+  "hints": [
+    "A long group of words can still be a fragment. Look for the main verb that goes with the main subject.",
+    "Words after \"who\" describe the subject. They are not its main verb. Cover the \"who\" part and see what is left.",
+    "For each choice, find the main subject, then look for its own verb. Cross out choices that start with \"Although\" or \"After …\" and never reach a main idea."
+  ],
+  "solution": {
+    "methodName": "Check for subject, verb and complete thought",
+    "steps": [
+      {
+        "action": "First choice: the main subject is \"The applicants\". \"Who passed the written test last month\" only describes them. There is no main verb, so it is a fragment.",
+        "why": "A \"who\" part tells which applicants. It does not say what they did or what will happen to them."
+      },
+      {
+        "action": "Second choice: the main subject \"The applicants\" has its own verb, \"will be interviewed\". It is complete.",
+        "why": "Cover \"who passed the test\": \"The applicants … will be interviewed.\" That is a full sentence."
+      },
+      {
+        "action": "Third choice: \"Although\" makes the group of words depend on a main idea that never comes. It is a fragment."
+      },
+      {
+        "action": "Fourth choice: \"After passing the written test\" is an opening phrase. Then \"the applicants from our town\" has no verb. It is a fragment."
+      },
+      {
+        "action": "The complete sentence is \"The applicants who passed the test will be interviewed.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The applicants who passed the written test last month.": "It has a verb, \"passed\", but that verb belongs to the \"who\" part. The main subject, \"The applicants\", never gets its own verb.",
+    "Although many applicants passed the written test last month.": "It has a subject and a verb, but \"Although\" signals that a main idea should follow, and it never does.",
+    "After passing the written test, the applicants from our town.": "It looks long and complete, but after the comma there is only a subject. What did the applicants do?"
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

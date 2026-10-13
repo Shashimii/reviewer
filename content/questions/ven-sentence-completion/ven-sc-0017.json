@@ -1,0 +1,52 @@
+{
+  "id": "ven-sc-0017",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-connector",
+  "difficulty": 2,
+  "stem": "Applicants will not be served ___ they bring a valid ID, so please check your wallet before you join the line.",
+  "choices": [
+    "unless",
+    "if",
+    "although",
+    "because"
+  ],
+  "answer": "unless",
+  "hints": [
+    "The second part tells you to check your wallet. Why would you need to?",
+    "Bringing an ID is a condition for being served. Which connector means 'except if'?",
+    "Name the link, then test each connector in the blank. Keep the one where 'not served' and 'bring a valid ID' make sense together."
+  ],
+  "solution": {
+    "methodName": "Name the link, then pick the connector",
+    "steps": [
+      {
+        "action": "Split into ideas: (1) applicants will not be served; (2) they bring a valid ID."
+      },
+      {
+        "action": "Use the clue: 'so please check your wallet'. This shows an ID is required.",
+        "why": "You check your wallet only when you need to bring something."
+      },
+      {
+        "action": "Name the link: a condition. Bringing an ID is the only way to be served."
+      },
+      {
+        "action": "Choose the connector: 'unless' means 'except if'.",
+        "why": "'Not served unless you bring an ID' means the same as 'served only if you bring an ID'."
+      },
+      {
+        "action": "Reread: 'Applicants will not be served unless they bring a valid ID, so please check your wallet...'"
+      },
+      {
+        "action": "The answer is 'unless'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "if": "'Not served if they bring a valid ID' means bringing an ID stops you from being served. That is the reverse of the meaning.",
+    "although": "Although shows contrast: 'not served even though they bring an ID'. Then checking your wallet would be pointless.",
+    "because": "Because gives a reason: 'not served because they bring an ID'. An ID is never a reason to refuse service."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

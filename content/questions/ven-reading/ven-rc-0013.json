@@ -1,0 +1,51 @@
+{
+  "id": "ven-rc-0013",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-purpose",
+  "difficulty": 2,
+  "passage": "Too many people still expect to be treated badly when they go to a government office. They prepare themselves for long lines, unexplained delays and clerks who will not look up from their desks. This expectation is unfair to the many public servants who work hard every day, but it did not come from nowhere. Every rude reply and every unanswered question adds to it.\n\nThe fix does not require new buildings or expensive machines. It begins with small acts: a greeting, a clear explanation, a sincere \"I'm sorry for the wait.\" Public servants are paid by the people they serve. Treating those people with respect is not a favor. It is part of the job.",
+  "stem": "Which phrase best describes the writer's tone?",
+  "choices": [
+    "Playful and joking",
+    "Firm and direct",
+    "Angry and insulting",
+    "Sad and hopeless"
+  ],
+  "answer": "Firm and direct",
+  "hints": [
+    "Tone is the writer's attitude, shown by the words the writer chooses. Look at how the writer makes the main point.",
+    "Read the last three sentences again. Are they gentle, funny, angry or plain and strong?",
+    "Test each choice against the whole passage: Are there jokes? Does the writer insult anyone? Does the writer sound hopeless, or offer a fix? Keep the choice that fits every part."
+  ],
+  "solution": {
+    "methodName": "Read the writer's word choices",
+    "steps": [
+      {
+        "action": "Look at the word choices: \"Too many people\", \"is not a favor\", \"It is part of the job\".",
+        "why": "These are short, strong statements with no softening words."
+      },
+      {
+        "action": "Check for anger or insults: the writer says many public servants \"work hard every day\".",
+        "why": "A writer who praises some public servants is not insulting them all."
+      },
+      {
+        "action": "Check for hopelessness: the writer says the fix \"begins with small acts\".",
+        "why": "A hopeless writer would not offer a solution."
+      },
+      {
+        "action": "Check for humor: there are no jokes or light words."
+      },
+      {
+        "action": "The tone is \"Firm and direct\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Playful and joking": "There are no jokes or light words in the passage. The writer is serious about the problem.",
+    "Angry and insulting": "The writer is strong but fair. The passage praises the many public servants who work hard, and it never calls anyone names.",
+    "Sad and hopeless": "The writer believes the problem can be fixed with small acts, which is the opposite of hopeless."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

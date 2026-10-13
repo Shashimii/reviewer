@@ -1,0 +1,68 @@
+{
+  "id": "ven-reading-lesson",
+  "topicId": "ven-reading",
+  "workedExampleId": "ven-rc-0001",
+  "sections": [
+    {
+      "heading": "How to read a passage on the exam",
+      "body": "A **passage** is a short piece of writing followed by questions. Use the same three steps every time:\n\n1. **Read the question first.** It tells you what to look for: the big picture, or one small fact.\n2. **Read the passage once, at a steady pace.** After each paragraph, sum it up in a few words in your head.\n3. **Find proof.** Every right answer can be backed up by words in the passage. If you cannot point to the proof, be careful.\n\nAnswer only from the passage, not from what you already know. A choice can be true in real life and still be wrong for the question."
+    },
+    {
+      "heading": "Main idea",
+      "body": "The **main idea** is the one point that the whole passage makes.\n\nMethod: **Find the idea that covers the whole passage.**\n\n- Sum up each paragraph, then join the summaries into one sentence.\n- Look closely at the first and last sentences. They often state or point to the main idea, but the first sentence is sometimes only background.\n- Reject a choice that is **too narrow** (one detail), **too broad** (bigger than the passage) or **not stated**.\n\nTiny example: a passage describes a town's new clinic, its free checkups and its longer hours. *The new clinic made health care easier to get* is the main idea. *The clinic opens at 7:00 a.m.* is only a detail."
+    },
+    {
+      "heading": "Details",
+      "body": "A **detail** question asks about one fact: who, what, when, where or how many.\n\nMethod: **Scan for the key words, then match.**\n\n- Pick the key words in the question and **scan** (look quickly through) the passage for them.\n- Read the whole sentence you find, not just the key word.\n- Watch for choices that use real words from the passage in the wrong place, like a number that belongs to something else.\n- In a **NOT** question, three choices are in the passage. Find the one that is missing."
+    },
+    {
+      "heading": "Inference",
+      "body": "An **inference** is something the passage does not say directly but clearly suggests.\n\nMethod: **Find the clue, then take one small step.**\n\n- Find a sentence that gives a clue, then ask: *What must also be true?*\n- Keep the step small. Reject choices that go too far (*all, always, never*) and choices that the passage goes against.\n\nTiny example: *Ben grabbed his umbrella and boots before leaving.* You can infer that Ben expected rain. You cannot infer that he hates rain."
+    },
+    {
+      "heading": "Purpose and tone",
+      "body": "The **purpose** is why the writer wrote the passage. The **tone** is the writer's attitude, shown by the words the writer chooses.\n\n| If the writer mostly... | the purpose is to... |\n| --- | --- |\n| gives facts or explains | inform |\n| says what people should do | persuade |\n| tells a funny or exciting story | entertain |\n| gives news, dates and rules | announce (inform) |\n\nFor tone, look at strong words. *Must*, *never* and *It is part of the job* sound firm. *Sadly* and *I worry* sound concerned. Choose a purpose and a tone that fit the whole passage, not just one line."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **True but too narrow.** A real detail is not the main idea.\n- **Right words, wrong place.** A number or name from the passage attached to the wrong fact.\n- **Outside knowledge.** Good advice that the passage never gives.\n- **Going too far.** Choices with *all*, *always* or *the main cause*.\n- **The opposite meaning.** A choice that says the reverse of the passage. Reread the line to check.\n- **One line, not the whole.** Purpose and tone must fit the whole passage."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Passage",
+      "definition": "A passage is a short piece of writing that questions are based on.",
+      "taglish": "Passage – maikling babasahin na pagbabatayan ng mga tanong"
+    },
+    {
+      "term": "Main idea",
+      "definition": "The main idea is the one point that the whole passage makes.",
+      "taglish": "Main idea – pangunahing punto ng buong babasahin"
+    },
+    {
+      "term": "Detail",
+      "definition": "A detail is a single fact in the passage, such as a name, number, place or reason.",
+      "taglish": "Detail – isang tiyak na impormasyon sa babasahin, gaya ng pangalan, numero o lugar"
+    },
+    {
+      "term": "Inference",
+      "definition": "An inference is something the passage does not say directly but clearly suggests.",
+      "taglish": "Inference – hinuha; hindi tahasang sinabi pero mahihinuha mula sa mga clue"
+    },
+    {
+      "term": "Purpose",
+      "definition": "The purpose is the writer's reason for writing, such as to inform or to persuade.",
+      "taglish": "Purpose – layunin ng manunulat, halimbawa para magbigay-impormasyon o manghikayat"
+    },
+    {
+      "term": "Tone",
+      "definition": "The tone is the writer's attitude toward the subject, shown by the words the writer chooses.",
+      "taglish": "Tone – tono o damdamin ng manunulat na makikita sa mga salitang ginamit"
+    },
+    {
+      "term": "Scan",
+      "definition": "To scan is to look quickly through a passage for particular words.",
+      "taglish": "Scan – mabilisang paghahanap ng tiyak na salita sa babasahin"
+    }
+  ]
+}

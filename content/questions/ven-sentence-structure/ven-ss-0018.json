@@ -1,0 +1,51 @@
+{
+  "id": "ven-ss-0018",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-combine",
+  "difficulty": 3,
+  "stem": "Which best combines the two sentences?\n\nDr. Lim is the new municipal health officer. Dr. Lim will lead the vaccination drive.",
+  "choices": [
+    "Dr. Lim is the new municipal health officer, she will lead the vaccination drive.",
+    "Dr. Lim, the new municipal health officer, will lead the vaccination drive.",
+    "Dr. Lim will lead the vaccination drive, the new municipal health officer.",
+    "Being the new municipal health officer, the vaccination drive will be led by Dr. Lim."
+  ],
+  "answer": "Dr. Lim, the new municipal health officer, will lead the vaccination drive.",
+  "hints": [
+    "The second sentence repeats \"Dr. Lim\". One of the sentences can shrink into a short phrase that renames Dr. Lim.",
+    "\"The new municipal health officer\" is another name for Dr. Lim. Where should a phrase that renames someone go?",
+    "A renaming phrase (an appositive) goes right after the name it renames, with a comma before and after it. Also watch for comma splices and opening phrases that describe the wrong noun. Check each choice."
+  ],
+  "solution": {
+    "methodName": "Find the link between the ideas, then check the grammar",
+    "steps": [
+      {
+        "action": "Find the link: \"the new municipal health officer\" is another name for Dr. Lim. A phrase that renames a noun is called an appositive.",
+        "why": "Example: \"Ana, our cashier, is on leave.\" \"Our cashier\" renames Ana."
+      },
+      {
+        "action": "Put the appositive right after \"Dr. Lim\", between commas: \"Dr. Lim, the new municipal health officer, will lead the vaccination drive.\" Correct."
+      },
+      {
+        "action": "First choice: two complete sentences joined by only a comma. This is a comma splice. Wrong."
+      },
+      {
+        "action": "Third choice: the phrase comes after \"the vaccination drive\", so it seems to rename the drive. Wrong."
+      },
+      {
+        "action": "Fourth choice: \"Being the new municipal health officer\" is followed by \"the vaccination drive\", so the drive seems to be the officer. This is a dangling modifier. Wrong."
+      },
+      {
+        "action": "The answer is \"Dr. Lim, the new municipal health officer, will lead the vaccination drive.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Dr. Lim is the new municipal health officer, she will lead the vaccination drive.": "Both ideas are kept, but \"Dr. Lim is the new …\" and \"she will lead …\" are complete sentences joined by only a comma.",
+    "Dr. Lim will lead the vaccination drive, the new municipal health officer.": "The renaming phrase is there, but it sits after \"the vaccination drive\", so it seems to say the drive is the health officer.",
+    "Being the new municipal health officer, the vaccination drive will be led by Dr. Lim.": "This sounds formal, but the first thing after the comma is \"the vaccination drive\". A drive cannot be a health officer."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

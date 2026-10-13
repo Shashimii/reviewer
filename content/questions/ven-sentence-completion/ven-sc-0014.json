@@ -1,0 +1,48 @@
+{
+  "id": "ven-sc-0014",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-connector",
+  "difficulty": 1,
+  "stem": "The municipal hall was closed on Monday ___ it was a holiday.",
+  "choices": [
+    "because",
+    "although",
+    "unless",
+    "however"
+  ],
+  "answer": "because",
+  "hints": [
+    "Ask how the two ideas are linked: the hall was closed, and it was a holiday.",
+    "Is the holiday the reason for the closing, a contrast to it, or a condition?",
+    "Name the link between the two ideas, then pick the connector that shows that link and fits in the middle of one sentence."
+  ],
+  "solution": {
+    "methodName": "Name the link, then pick the connector",
+    "steps": [
+      {
+        "action": "Split the sentence into two ideas: (1) the hall was closed on Monday; (2) it was a holiday."
+      },
+      {
+        "action": "Name the link: the holiday is the reason the hall was closed.",
+        "why": "Ask 'Why was it closed?' The second idea answers that question."
+      },
+      {
+        "action": "Choose a reason connector: 'because' introduces a reason."
+      },
+      {
+        "action": "Reread: 'The municipal hall was closed on Monday because it was a holiday.'"
+      },
+      {
+        "action": "The answer is 'because'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "although": "Although shows a surprise or contrast. Closing on a holiday is expected, not surprising.",
+    "unless": "Unless means 'except if'. 'Closed unless it was a holiday' would mean the hall opens on holidays, which is the reverse.",
+    "however": "However shows contrast, and it starts a new sentence or follows a semicolon. It does not join two parts of one sentence like this."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

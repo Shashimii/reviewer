@@ -1,0 +1,55 @@
+{
+  "id": "ven-voc-0014",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-context",
+  "difficulty": 3,
+  "stem": "Although the first draft of the report was verbose, the final version was short and easy to read. Based on the clues, what does 'verbose' mean?",
+  "choices": [
+    "too wordy",
+    "too brief",
+    "full of errors",
+    "poorly printed"
+  ],
+  "answer": "too wordy",
+  "hints": [
+    "'Although' signals a contrast. The first draft is the opposite of the final version.",
+    "The final version was 'short and easy to read'. What is the opposite of short?",
+    "Flip the clue words to get the meaning of 'verbose'. Pick the choice that matches the flipped idea, not the clue words themselves."
+  ],
+  "solution": {
+    "methodName": "Find the clue, then test the meaning",
+    "steps": [
+      {
+        "action": "Find the word: 'verbose' describes the first draft."
+      },
+      {
+        "action": "Spot the signal 'Although': it sets the first draft against the final version.",
+        "why": "'Although' joins two ideas that go against each other."
+      },
+      {
+        "action": "Read the other side of the contrast: the final version was 'short and easy to read'."
+      },
+      {
+        "action": "Flip it: the first draft was long, with more words than it needed."
+      },
+      {
+        "action": "So verbose means 'using too many words'."
+      },
+      {
+        "action": "Check 'too brief': it copies the clue word 'short' instead of flipping it.",
+        "why": "This is the classic contrast trap: choosing the meaning of the clue instead of its reverse."
+      },
+      {
+        "action": "The answer is 'too wordy'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "too brief": "This copies the clue word 'short'. 'Although' tells you the first draft was the opposite of short.",
+    "full of errors": "First drafts often have errors, but the contrast is with 'short'. The clue points to length, not mistakes.",
+    "poorly printed": "Nothing in the sentence is about printing. The contrast is about how long the report was."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

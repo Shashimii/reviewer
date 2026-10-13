@@ -1,0 +1,53 @@
+{
+  "id": "ven-sc-0006",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-word",
+  "difficulty": 3,
+  "stem": "PAGASA warned that the typhoon's landfall was ___, so residents were told to leave the coast within the hour.",
+  "choices": [
+    "eminent",
+    "permanent",
+    "imminent",
+    "prominent"
+  ],
+  "answer": "imminent",
+  "hints": [
+    "The words 'within the hour' are about time. How soon was the typhoon expected to reach land?",
+    "Two choices look and sound almost the same. Check what each one really means.",
+    "Predict a word meaning 'about to happen very soon'. Then compare the look-alike choices by meaning, not by sound."
+  ],
+  "solution": {
+    "methodName": "Predict a word, then match the choices",
+    "steps": [
+      {
+        "action": "Read the whole sentence, skipping the blank.",
+        "why": "Landfall is the moment a typhoon reaches land."
+      },
+      {
+        "action": "Find the clue: residents had to leave 'within the hour'.",
+        "why": "People are told to leave that fast only when danger is very close."
+      },
+      {
+        "action": "Predict: the landfall was about to happen very soon."
+      },
+      {
+        "action": "Match: 'imminent' means about to happen."
+      },
+      {
+        "action": "Separate the look-alike: 'eminent' means famous and respected, as in 'an eminent judge'.",
+        "why": "Eminent and imminent sound alike but mean different things. This pair is a common exam trap."
+      },
+      {
+        "action": "The answer is 'imminent'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "eminent": "Eminent sounds like the answer but means famous and respected, as in 'an eminent lawyer'. A landfall cannot be famous.",
+    "permanent": "Permanent means lasting forever. A typhoon's landfall is a short event, and the clue is about how soon it will come.",
+    "prominent": "Prominent means easy to see or important. It does not tell you how soon the typhoon will hit."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

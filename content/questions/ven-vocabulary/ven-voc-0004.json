@@ -1,0 +1,52 @@
+{
+  "id": "ven-voc-0004",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-synonym",
+  "difficulty": 2,
+  "stem": "The date of the barangay assembly is still tentative because the hall might be used for a vaccination drive. Which word is closest in meaning to 'tentative'?",
+  "choices": [
+    "fixed",
+    "postponed",
+    "announced",
+    "uncertain"
+  ],
+  "answer": "uncertain",
+  "hints": [
+    "Notice the word 'might'. Is anything settled yet?",
+    "Read the reason after 'because': the hall might be used for something else. Can anyone be sure of the date?",
+    "Use the clue to say what 'tentative' means in your own words. Then replace the word with each choice. Be careful with a choice that says something has already happened, when the sentence only says it might."
+  ],
+  "solution": {
+    "methodName": "Replace the word, then reread the sentence",
+    "steps": [
+      {
+        "action": "Find the word: 'tentative' describes the date of the assembly."
+      },
+      {
+        "action": "Read the reason after 'because': the hall might be used for a vaccination drive.",
+        "why": "'Because' introduces the reason. The reason uses 'might', so nothing is final yet."
+      },
+      {
+        "action": "So tentative means 'not yet final; may still change'."
+      },
+      {
+        "action": "Replace and reread: 'The date of the barangay assembly is still uncertain because the hall might be used...' keeps the meaning."
+      },
+      {
+        "action": "Check 'postponed': it says the date has already been moved, but the sentence only says the date might change.",
+        "why": "This is the trap. Tentative means a plan could change, not that it has already changed."
+      },
+      {
+        "action": "The answer is 'uncertain'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "fixed": "This is the opposite. A fixed date is settled, but the word 'might' shows the date could still change.",
+    "postponed": "Postponed means already moved to a later date. The sentence says only that the hall might be used, so the date is not yet sure; it has not been moved.",
+    "announced": "Announced is about telling people the date. It does not say whether the date is sure, and 'still announced' does not make sense here."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ven-rc-0005",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-detail",
+  "difficulty": 1,
+  "passage": "Barangay Malinis used to send about two truckloads of garbage to the city dump every day. Last year, its council started a simple program. Each household was asked to keep food scraps, fruit peels and dried leaves apart from plastic and paper. These are called biodegradable wastes, which means they rot naturally.\n\nEvery morning, barangay workers collected these wastes and brought them to a composting area behind the barangay hall. There, the wastes were mixed with soil and left to rot for about two months. The result was dark, rich compost, a natural fertilizer that the barangay gave free to residents for their vegetable gardens. Within a year, the garbage sent to the dump fell to less than one truckload a day. Several nearby barangays have since sent officials to learn how the program works.",
+  "stem": "According to the passage, what did the barangay do with the finished compost?",
+  "choices": [
+    "It sold the compost to nearby barangays.",
+    "It sent the compost to the city dump.",
+    "It gave the compost free to residents.",
+    "It used the compost only at the barangay hall."
+  ],
+  "answer": "It gave the compost free to residents.",
+  "hints": [
+    "The key word in the question is \"compost\". Find where the passage says what happened to it.",
+    "Scan the second paragraph for the sentence that describes the finished compost.",
+    "Read that sentence closely and match it to a choice. Watch for choices that use names from the passage, such as \"nearby barangays\", in the wrong way."
+  ],
+  "solution": {
+    "methodName": "Scan for the key words, then match",
+    "steps": [
+      {
+        "action": "Find the key word in the question: compost."
+      },
+      {
+        "action": "Scan to the sentence: \"The result was dark, rich compost, a natural fertilizer that the barangay gave free to residents for their vegetable gardens.\""
+      },
+      {
+        "action": "Match it: the barangay gave the compost free to residents."
+      },
+      {
+        "action": "Check the trap about nearby barangays.",
+        "why": "They sent officials to learn about the program. The passage never says they bought compost."
+      },
+      {
+        "action": "The answer is \"It gave the compost free to residents.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "It sold the compost to nearby barangays.": "Nearby barangays appear in the passage, but only as places that sent officials to learn about the program. Nothing was sold.",
+    "It sent the compost to the city dump.": "The dump is where the barangay sends its garbage. The program was meant to keep food scraps and leaves out of the dump, and the compost went to residents.",
+    "It used the compost only at the barangay hall.": "The composting area is behind the barangay hall, but the compost went to residents for their vegetable gardens."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

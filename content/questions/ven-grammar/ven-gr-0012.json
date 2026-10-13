@@ -1,0 +1,53 @@
+{
+  "id": "ven-gr-0012",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-pronoun",
+  "difficulty": 1,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nThe filing cabinet near the door has lost one of their handles.",
+  "choices": [
+    "near the door",
+    "has lost",
+    "one of their handles",
+    "No error"
+  ],
+  "answer": "one of their handles",
+  "hints": [
+    "A pronoun takes the place of a noun. Find the noun that \"their\" is supposed to point back to.",
+    "The handles belong to the filing cabinet. Is the cabinet one thing or many?",
+    "A pronoun must match the noun it points back to: one thing takes \"its\", more than one takes \"their\". Check the pronoun, then check the other parts."
+  ],
+  "solution": {
+    "methodName": "Find what the pronoun replaces, then match it",
+    "steps": [
+      {
+        "action": "Find the pronoun: \"their\"."
+      },
+      {
+        "action": "Find the noun it points back to: \"The filing cabinet\". This noun is called the antecedent.",
+        "why": "The antecedent is the word a pronoun points back to. The handles belong to the cabinet, so the cabinet is the antecedent."
+      },
+      {
+        "action": "\"Filing cabinet\" is one thing, so it needs a singular pronoun: \"its\".",
+        "why": "\"Their\" is for more than one. \"Its\" is for one thing or animal."
+      },
+      {
+        "action": "Fix it: \"one of its handles\"."
+      },
+      {
+        "action": "Check the other parts. \"near the door\" and \"has lost\" are correct.",
+        "why": "\"Has\" matches the singular subject \"cabinet\"."
+      },
+      {
+        "action": "The error is \"one of their handles\". It should be \"one of its handles\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "near the door": "This phrase just tells where the cabinet is. It is correct.",
+    "has lost": "\"Has\" matches the singular subject \"cabinet\", so this part is correct. You may see \"handles\" and want \"have\", but \"handles\" is not the subject.",
+    "No error": "\"Their\" sounds natural because \"handles\" is plural. But the handles belong to one cabinet, so the owner word must be \"its\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

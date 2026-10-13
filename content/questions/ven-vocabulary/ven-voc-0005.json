@@ -1,0 +1,52 @@
+{
+  "id": "ven-voc-0005",
+  "topicId": "ven-vocabulary",
+  "skill": "ven-voc-synonym",
+  "difficulty": 3,
+  "stem": "The city council voted to sanction the use of the plaza for a weekend night market, so vendors may now set up their stalls there. Which word is closest in meaning to 'sanction'?",
+  "choices": [
+    "punish",
+    "approve",
+    "inspect",
+    "delay"
+  ],
+  "answer": "approve",
+  "hints": [
+    "'Sanction' has two meanings that are almost opposite. Use the second half of the sentence to decide which one fits.",
+    "Look at the result: 'so vendors may now set up their stalls'. Did the council allow the night market or stop it?",
+    "Pick the meaning of 'sanction' that leads to vendors being allowed in. Replace the word with each choice and check that the 'so...' part still makes sense."
+  ],
+  "solution": {
+    "methodName": "Replace the word, then reread the sentence",
+    "steps": [
+      {
+        "action": "Find the word: the council voted to 'sanction' the use of the plaza for a night market."
+      },
+      {
+        "action": "Recall that sanction has two meanings: (a) to give official permission, and (b) a penalty, as in 'trade sanctions' in the news.",
+        "why": "Some words carry two very different meanings. The sentence, not your memory, decides which one is meant."
+      },
+      {
+        "action": "Read the result after 'so': vendors may now set up their stalls.",
+        "why": "'So' introduces what happened because of the vote. Vendors are now allowed in, so the vote gave permission."
+      },
+      {
+        "action": "Choose the permission meaning: here, sanction means to approve."
+      },
+      {
+        "action": "Replace and reread: 'The city council voted to approve the use of the plaza..., so vendors may now set up their stalls there' makes sense."
+      },
+      {
+        "action": "The answer is 'approve'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "punish": "This is the other meaning of sanction, as in news about sanctions on a country. But if the council punished the use of the plaza, vendors would not be allowed to set up.",
+    "inspect": "Inspecting the plaza would not by itself let vendors in, and inspect is not a meaning of sanction. Sanction means either to approve or to punish.",
+    "delay": "A delay would keep vendors out for now, but the sentence says they may now set up. Delay is also not a meaning of sanction."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

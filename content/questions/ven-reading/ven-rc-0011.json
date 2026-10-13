@@ -1,0 +1,51 @@
+{
+  "id": "ven-rc-0011",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-main",
+  "difficulty": 2,
+  "passage": "El Niño is a weather pattern that often brings months of below-normal rainfall to the Philippines. When it strikes, dams hold less water, and some households face water interruptions. Saving water at home can help everyone get through the dry months.\n\nA family can catch rainwater in clean drums whenever it does rain and use it for flushing toilets or watering plants. Washing dishes in a basin, instead of under a running faucet, can save many liters a day. Leaks should be fixed quickly, because a dripping faucet can waste thousands of liters in a year. Even small habits, such as turning off the tap while brushing your teeth, add up when millions of people practice them.",
+  "stem": "Which sentence best states the main idea of the passage?",
+  "choices": [
+    "Simple water-saving habits at home can help families through El Niño.",
+    "El Niño is a weather pattern that brings less rain to the Philippines.",
+    "A dripping faucet can waste thousands of liters of water in a year.",
+    "The government should build more dams to prepare for El Niño."
+  ],
+  "answer": "Simple water-saving habits at home can help families through El Niño.",
+  "hints": [
+    "The first sentence of a passage is not always the main idea. Sometimes it only gives background.",
+    "Ask what most of the sentences are about. Count how many give background and how many give advice.",
+    "The main idea must cover the background and the advice together. Reject a choice that gives only the background, only one tip, or something the passage never says."
+  ],
+  "solution": {
+    "methodName": "Find the idea that covers the whole passage",
+    "steps": [
+      {
+        "action": "Read the first two sentences: El Niño brings less rain, so water runs short.",
+        "why": "This is background. It sets the scene but is not the main point."
+      },
+      {
+        "action": "Read the third sentence: saving water at home can help everyone get through the dry months.",
+        "why": "This states the writer's point."
+      },
+      {
+        "action": "Read the second paragraph: it gives four ways to save water.",
+        "why": "These details all support the third sentence."
+      },
+      {
+        "action": "Choose the sentence that matches this point and covers the details: simple habits at home help families through El Niño."
+      },
+      {
+        "action": "The main idea is \"Simple water-saving habits at home can help families through El Niño.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "El Niño is a weather pattern that brings less rain to the Philippines.": "This is the background in the first sentence. The rest of the passage is about saving water, which this choice leaves out.",
+    "A dripping faucet can waste thousands of liters of water in a year.": "This is one detail that supports one tip. It is too narrow to be the main idea.",
+    "The government should build more dams to prepare for El Niño.": "The passage never says this. It mentions dams only to explain why water runs short."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

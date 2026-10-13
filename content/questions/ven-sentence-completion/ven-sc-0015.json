@@ -1,0 +1,49 @@
+{
+  "id": "ven-sc-0015",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-connector",
+  "difficulty": 1,
+  "stem": "The applicant submitted all the requirements; ___, her business permit was released on the same day.",
+  "choices": [
+    "however",
+    "although",
+    "therefore",
+    "unless"
+  ],
+  "answer": "therefore",
+  "hints": [
+    "Read both halves. Did the second thing happen in spite of the first, or because of it?",
+    "Complete requirements led to a quick release. That is a cause and a result.",
+    "Name the link, then pick a connector that shows that link and can sit after a semicolon with a comma after it."
+  ],
+  "solution": {
+    "methodName": "Name the link, then pick the connector",
+    "steps": [
+      {
+        "action": "Split into two ideas: (1) she submitted all the requirements; (2) her permit was released the same day."
+      },
+      {
+        "action": "Name the link: the second idea is the result of the first.",
+        "why": "Complete papers are why the permit could be released quickly."
+      },
+      {
+        "action": "Choose a result connector: 'therefore' means 'because of this'."
+      },
+      {
+        "action": "Check the punctuation: '; therefore,' is the normal pattern.",
+        "why": "Words like therefore, however and moreover come after a semicolon or start a new sentence, and a comma follows them."
+      },
+      {
+        "action": "The answer is 'therefore'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "however": "However shows contrast. A quick release is what we expect after complete papers, so there is no contrast.",
+    "although": "Although shows contrast, and it cannot sit between a semicolon and a comma like this.",
+    "unless": "Unless sets a condition ('except if'). The sentence states a result, not a condition, and unless does not fit after a semicolon."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

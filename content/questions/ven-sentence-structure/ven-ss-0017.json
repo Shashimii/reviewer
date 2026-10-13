@@ -1,0 +1,51 @@
+{
+  "id": "ven-ss-0017",
+  "topicId": "ven-sentence-structure",
+  "skill": "ven-ss-combine",
+  "difficulty": 2,
+  "stem": "Which best combines the two sentences?\n\nThe form is on the table. You need to sign the form.",
+  "choices": [
+    "The form is on the table, you need to sign the form.",
+    "The form is on the table that you need to sign.",
+    "The form that you need to sign is on the table.",
+    "The form, you need to sign it, is on the table."
+  ],
+  "answer": "The form that you need to sign is on the table.",
+  "hints": [
+    "Both sentences talk about the same thing: the form. You can join them by turning one sentence into a describing part.",
+    "Use \"that\" to describe the form: \"that you need to sign\". Where must that describing part go?",
+    "Put the \"that\" part right after the noun it describes, and never join two full sentences with only a comma. Check each choice."
+  ],
+  "solution": {
+    "methodName": "Find the link between the ideas, then check the grammar",
+    "steps": [
+      {
+        "action": "Find the link: both sentences are about the same thing, \"the form\". One sentence can become a describing part that starts with \"that\".",
+        "why": "\"That you need to sign\" has its own subject and verb, and it tells which form."
+      },
+      {
+        "action": "Put \"that you need to sign\" right after \"The form\": \"The form that you need to sign is on the table.\" Correct."
+      },
+      {
+        "action": "First choice: two complete sentences joined by only a comma. This is a comma splice. Wrong."
+      },
+      {
+        "action": "Second choice: \"that you need to sign\" comes right after \"the table\", so it says you need to sign the table. Wrong."
+      },
+      {
+        "action": "Fourth choice: \"you need to sign it\" is a full sentence pushed into the middle between commas. That is not a correct way to join. Wrong."
+      },
+      {
+        "action": "The answer is \"The form that you need to sign is on the table.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The form is on the table, you need to sign the form.": "It keeps both ideas, but a comma alone cannot join two complete sentences, and \"the form\" is repeated.",
+    "The form is on the table that you need to sign.": "This is short and sounds natural, but the \"that\" part sits next to \"the table\", so it says you must sign the table.",
+    "The form, you need to sign it, is on the table.": "This looks like an added detail, but \"you need to sign it\" is a full sentence. It cannot be dropped inside another sentence between commas."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

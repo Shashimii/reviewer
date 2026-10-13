@@ -1,0 +1,52 @@
+{
+  "id": "ven-rc-0012",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-detail",
+  "difficulty": 2,
+  "passage": "El Niño is a weather pattern that often brings months of below-normal rainfall to the Philippines. When it strikes, dams hold less water, and some households face water interruptions. Saving water at home can help everyone get through the dry months.\n\nA family can catch rainwater in clean drums whenever it does rain and use it for flushing toilets or watering plants. Washing dishes in a basin, instead of under a running faucet, can save many liters a day. Leaks should be fixed quickly, because a dripping faucet can waste thousands of liters in a year. Even small habits, such as turning off the tap while brushing your teeth, add up when millions of people practice them.",
+  "stem": "Which of the following is NOT given in the passage as a way to save water?",
+  "choices": [
+    "Catching rainwater in clean drums",
+    "Washing dishes in a basin",
+    "Taking shorter showers",
+    "Fixing leaking faucets quickly"
+  ],
+  "answer": "Taking shorter showers",
+  "hints": [
+    "In a NOT question, three choices are in the passage and one is not. Your job is to find the one that is missing.",
+    "Go through the passage and list every way to save water that it gives.",
+    "Check each choice against your list. The choice that matches nothing on the list is the answer, even if it sounds like good advice."
+  ],
+  "solution": {
+    "methodName": "Scan for the key words, then match",
+    "steps": [
+      {
+        "action": "List the ways in the passage: catch rainwater in drums, wash dishes in a basin, fix leaks quickly, turn off the tap while brushing your teeth."
+      },
+      {
+        "action": "Check \"Catching rainwater in clean drums\": it is in the passage."
+      },
+      {
+        "action": "Check \"Washing dishes in a basin\": it is in the passage."
+      },
+      {
+        "action": "Check \"Fixing leaking faucets quickly\": it is in the passage."
+      },
+      {
+        "action": "Check \"Taking shorter showers\": it is not in the passage.",
+        "why": "It is good advice, but the question asks what the passage gives. Do not use outside knowledge."
+      },
+      {
+        "action": "The answer is \"Taking shorter showers\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Catching rainwater in clean drums": "The passage says families can catch rainwater in clean drums. In a NOT question, a choice that is in the passage is not the answer.",
+    "Washing dishes in a basin": "The passage says washing dishes in a basin can save many liters a day, so this way is given.",
+    "Fixing leaking faucets quickly": "The passage says leaks should be fixed quickly, so this way is given."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ven-po-0013",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-topic",
+  "difficulty": 3,
+  "stem": "Choose the best topic sentence to fill the blank.\n\n__________. A fisherman in Donsol, Sorsogon now earns more by guiding tourists to see whale sharks. Farmers in La Trinidad, Benguet sell strawberries to visitors who pick the fruit themselves. In Ilocos, families who weave blankets have found new buyers among travelers.",
+  "choices": [
+    "Tourism has given many rural Filipinos new sources of income.",
+    "The Philippines has many beautiful places for tourists to visit.",
+    "Fishermen in Sorsogon earn more by working as tour guides.",
+    "Farming and fishing are the main jobs in most rural towns."
+  ],
+  "answer": "Tourism has given many rural Filipinos new sources of income.",
+  "hints": [
+    "The three details come from three different places. Look for what the people in all three have in common.",
+    "Ask: what has changed for the fisherman, the farmers and the weavers? Who brings that change?",
+    "Choose the sentence that covers all three examples: tourists, and local people earning money. Reject a choice that covers only one example, or one that misses the point about earning."
+  ],
+  "solution": {
+    "methodName": "Find the sentence that covers all the others",
+    "steps": [
+      {
+        "action": "Read the details: a fisherman guides tourists, farmers sell to visitors, weavers sell to travelers.",
+        "why": "Tourists, visitors and travelers are all tourists. In every case, local people earn money from them."
+      },
+      {
+        "action": "State the shared idea: tourism helps rural people earn money."
+      },
+      {
+        "action": "Reject the choice about beautiful places.",
+        "why": "It is about tourism, but it says nothing about earning a living, which is the point of every detail."
+      },
+      {
+        "action": "Reject the choice about fishermen in Sorsogon and the one about farming and fishing.",
+        "why": "The first covers only one detail. The second is not about tourism at all."
+      },
+      {
+        "action": "The best topic sentence is \"Tourism has given many rural Filipinos new sources of income.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The Philippines has many beautiful places for tourists to visit.": "It is about tourism, so it feels right. But the details are about people earning money from tourists, not about beautiful places.",
+    "Fishermen in Sorsogon earn more by working as tour guides.": "This is too narrow. It covers only the first detail and leaves out the farmers and the weavers.",
+    "Farming and fishing are the main jobs in most rural towns.": "It mentions farmers and fishermen, but the details are about tourism bringing new income, not about which jobs are most common."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

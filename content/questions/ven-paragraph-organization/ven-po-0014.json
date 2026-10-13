@@ -1,0 +1,52 @@
+{
+  "id": "ven-po-0014",
+  "topicId": "ven-paragraph-organization",
+  "skill": "ven-po-odd",
+  "difficulty": 1,
+  "stem": "Which sentence does not belong in the paragraph?\n\n1. Drinking enough water is important for good health.\n2. Water helps the body keep a normal temperature.\n3. It also carries nutrients to the cells.\n4. Bottled water is sold in many sizes and brands.\n5. Without enough water, a person may feel tired and dizzy.",
+  "choices": [
+    "Sentence 2",
+    "Sentence 3",
+    "Sentence 4",
+    "Sentence 5"
+  ],
+  "answer": "Sentence 4",
+  "hints": [
+    "Sentence 1 tells you the topic of the paragraph. Every other sentence should support it.",
+    "Put the topic into a few words: why drinking water matters for health.",
+    "Test each sentence: does it show how water affects health? The sentence that talks about water in a different way does not belong."
+  ],
+  "solution": {
+    "methodName": "Name the topic, then test each sentence",
+    "steps": [
+      {
+        "action": "Name the topic from sentence 1: drinking enough water is important for health."
+      },
+      {
+        "action": "Test sentence 2: water keeps body temperature normal. This supports the topic."
+      },
+      {
+        "action": "Test sentence 3: water carries nutrients to the cells. This supports the topic.",
+        "why": "\"It\" means water, so this is another health benefit."
+      },
+      {
+        "action": "Test sentence 4: bottled water comes in many sizes and brands.",
+        "why": "This is about buying water, not about why water is good for health."
+      },
+      {
+        "action": "Test sentence 5: too little water makes a person tired and dizzy. This supports the topic."
+      },
+      {
+        "action": "The sentence that does not belong is Sentence 4."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Sentence 2": "Keeping a normal body temperature is a health benefit of water, so it supports the topic.",
+    "Sentence 3": "\"It also\" may look like a new idea, but \"it\" means water, and carrying nutrients is another health benefit.",
+    "Sentence 5": "This shows what happens without enough water. It supports the point that water matters for health."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

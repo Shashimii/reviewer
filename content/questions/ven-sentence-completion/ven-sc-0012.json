@@ -1,0 +1,52 @@
+{
+  "id": "ven-sc-0012",
+  "topicId": "ven-sentence-completion",
+  "skill": "ven-sc-form",
+  "difficulty": 3,
+  "stem": "If the applicant ___ the form earlier, she would have received her permit last week.",
+  "choices": [
+    "submits",
+    "submitted",
+    "has submitted",
+    "had submitted"
+  ],
+  "answer": "had submitted",
+  "hints": [
+    "Look at the second half: 'would have received ... last week'. Is it about the past, and did it really happen?",
+    "The sentence imagines a different past: she did not submit early and did not get the permit. Which verb form talks about an imagined past?",
+    "Match the if-part to 'would have + past participle'. Pick the form that goes one step further back in the past."
+  ],
+  "solution": {
+    "methodName": "Find what the blank needs, then pick the form",
+    "steps": [
+      {
+        "action": "Look at the result part: 'she would have received her permit last week'.",
+        "why": "'Would have' plus a verb like 'received' talks about something that could have happened in the past but did not."
+      },
+      {
+        "action": "So the sentence imagines the past differently: in real life, she did not submit the form early."
+      },
+      {
+        "action": "Apply the rule: when the result uses 'would have + past participle', the if-part uses 'had + past participle'.",
+        "why": "The past participle is the verb form used after 'have' or 'had', such as 'known' or 'submitted'. Pattern: If I had known, I would have come."
+      },
+      {
+        "action": "Form it: had + submitted = 'had submitted'."
+      },
+      {
+        "action": "Reread: 'If the applicant had submitted the form earlier, she would have received her permit last week.'"
+      },
+      {
+        "action": "The answer is 'had submitted'."
+      }
+    ]
+  },
+  "trapNotes": {
+    "submits": "This is the present tense, used for real possibilities, as in 'If she submits it today, she will get it.' The result part here is about last week.",
+    "submitted": "The simple past pairs with 'would', as in 'If she submitted it, she would get it.' With 'would have received', the if-part needs 'had submitted'.",
+    "has submitted": "Has submitted links the past to now. After 'if', it is used for something that may really have happened, as in 'If she has submitted it, she will get it soon.' This sentence imagines a past that did not happen."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

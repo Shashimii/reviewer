@@ -1,0 +1,50 @@
+{
+  "id": "ven-rc-0015",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-main",
+  "difficulty": 3,
+  "passage": "In many Filipino homes, grandparents live under the same roof as their children and grandchildren. Sending an aging parent to a home for the elderly is still rare, and some families see it as a sign that children have forgotten their duty. Instead, the household adjusts. A daughter may change her work hours so she can take her mother to checkups. Grandchildren learn to give their lola (grandmother) her medicine and to keep her company in the afternoon.\n\nIn return, grandparents often help raise the young ones, tell family stories and pass on old recipes. This arrangement is not always easy, especially when money and space are tight. But for many families, it is simply how love and respect are shown.",
+  "stem": "What is the main idea of the passage?",
+  "choices": [
+    "Homes for the elderly cost too much for most Filipino families.",
+    "Grandparents help raise children and pass on family recipes.",
+    "Caring for grandparents at home is hard when money is tight.",
+    "Many Filipino families show love by caring for elders at home."
+  ],
+  "answer": "Many Filipino families show love by caring for elders at home.",
+  "hints": [
+    "The main idea is what every part of the passage supports. Some choices are true but cover only one sentence.",
+    "Sum up the passage: where do the elders live, how does the family adjust, what do grandparents give back, and why do families do it?",
+    "The last sentence explains why families do all this. Choose the choice that covers the whole arrangement and its reason. Reject a choice that is only one detail or that the passage never says."
+  ],
+  "solution": {
+    "methodName": "Find the idea that covers the whole passage",
+    "steps": [
+      {
+        "action": "Sum up paragraph 1: grandparents often live with their families, and the household adjusts to care for them."
+      },
+      {
+        "action": "Sum up paragraph 2: grandparents give back, the arrangement can be hard, but it is how love and respect are shown."
+      },
+      {
+        "action": "Join them: many Filipino families care for their elders at home as a way of showing love.",
+        "why": "The last sentence gives the reason behind every detail, so it points to the main idea."
+      },
+      {
+        "action": "Check the near-miss choices.",
+        "why": "Grandparents helping with children and money being tight are both in the passage, but each is only one detail. The cost of homes for the elderly is never mentioned."
+      },
+      {
+        "action": "The main idea is \"Many Filipino families show love by caring for elders at home.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Homes for the elderly cost too much for most Filipino families.": "The passage never talks about what these homes cost. It says some families avoid them because of duty, not money.",
+    "Grandparents help raise children and pass on family recipes.": "This is true, but it is one detail from the second paragraph. It leaves out how families care for their elders.",
+    "Caring for grandparents at home is hard when money is tight.": "The passage says this, but only as a side point. It then says families do it anyway, out of love and respect."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

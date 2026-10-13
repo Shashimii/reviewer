@@ -1,0 +1,48 @@
+{
+  "id": "ven-gr-0008",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-tense",
+  "difficulty": 2,
+  "stem": "Which part of the sentence has an error? If the sentence is correct, choose \"No error\".\n\nWhen the power went out, the employees save their files and turned off the computers.",
+  "choices": [
+    "went out",
+    "save their files",
+    "turned off the computers",
+    "No error"
+  ],
+  "answer": "save their files",
+  "hints": [
+    "Look at all the verbs in the sentence. Do they all show the same time?",
+    "\"Went out\" and \"turned off\" are both in the past tense. Is every verb in the past?",
+    "Rule: keep the tense consistent (the same) when the actions happen at the same time. Find the verb that breaks the pattern."
+  ],
+  "solution": {
+    "methodName": "Find the time clue, then match the verb",
+    "steps": [
+      {
+        "action": "List the verbs: \"went out\", \"save\", \"turned off\"."
+      },
+      {
+        "action": "Find the time clue: \"When the power went out\". It is in the past, so the whole event is finished."
+      },
+      {
+        "action": "\"Turned off\" is also in the past and matches. \"Save\" is in the present tense, so it does not match.",
+        "why": "The employees saved their files at the same time they turned off the computers, so both verbs must be in the past."
+      },
+      {
+        "action": "Fix it: \"saved their files\"."
+      },
+      {
+        "action": "The error is \"save their files\". It should be \"saved their files\"."
+      }
+    ]
+  },
+  "trapNotes": {
+    "went out": "\"Went\" is the past form of \"go\", so \"went out\" is correct. It sets the time of the whole sentence: the past.",
+    "turned off the computers": "Some choose this because it does not match \"save\". But \"turned off\" agrees with \"went out\". It is \"save\" that breaks the pattern.",
+    "No error": "\"Save\" may look fine because \"employees\" is plural. It agrees in number, but it is in the wrong tense. The sentence is about the past."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ven-rc-0010",
+  "topicId": "ven-reading",
+  "skill": "ven-rc-inference",
+  "difficulty": 3,
+  "passage": "At the frontline counter of a government office, Liza often meets clients who are tired and upset. One morning, a man arrived shouting because his request had been returned to him for the second time. Liza did not argue or raise her voice. She let him finish speaking. Then she said, \"I understand that this is frustrating. Let me check what went wrong.\"\n\nShe looked through his papers and found that one form lacked a signature from his barangay. Instead of simply handing the papers back, she wrote down exactly what was missing and where to get it. She also told him he could come straight to her window without lining up again. The man left calmly and returned the next day with the complete form.",
+  "stem": "Which of the following can most likely be inferred from the passage?",
+  "choices": [
+    "Liza was the clerk who had returned the man's papers before.",
+    "The man had not been told clearly what was missing before.",
+    "The man was angry because he had waited in line all day.",
+    "The office does not allow any client to skip the line."
+  ],
+  "answer": "The man had not been told clearly what was missing before.",
+  "hints": [
+    "Look for a clue phrase that compares what Liza did with what usually happens.",
+    "Read the sentence that begins \"Instead of simply handing the papers back\". What does \"instead of\" suggest about the earlier times?",
+    "\"Instead of\" shows that Liza did something different from the usual. Add the fact that the request came back twice, then choose the inference these clues support. Reject choices that the passage goes against or never hints at."
+  ],
+  "solution": {
+    "methodName": "Find the clue, then take one small step",
+    "steps": [
+      {
+        "action": "Find the clue: \"Instead of simply handing the papers back, she wrote down exactly what was missing.\"",
+        "why": "\"Instead of\" tells you that Liza did something different from simply returning the papers."
+      },
+      {
+        "action": "Add a second clue: the request had been returned twice, and the man was upset.",
+        "why": "Making the same mistake twice suggests he did not know what to fix."
+      },
+      {
+        "action": "Take one small step: on the earlier returns, he was most likely not told clearly what was missing."
+      },
+      {
+        "action": "Check the others.",
+        "why": "Nothing says Liza handled his papers before or that he waited all day. And Liza let him skip the line, so the office does allow it."
+      },
+      {
+        "action": "The answer is \"The man had not been told clearly what was missing before.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Liza was the clerk who had returned the man's papers before.": "Nothing in the passage says who returned the papers before. This is a guess with no clue to support it.",
+    "The man was angry because he had waited in line all day.": "The passage says he was upset because his request was returned a second time. It never says how long he waited.",
+    "The office does not allow any client to skip the line.": "This goes against the passage. Liza told the man he could come straight to her window without lining up again."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

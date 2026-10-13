@@ -1,0 +1,50 @@
+{
+  "id": "ven-gr-0018",
+  "topicId": "ven-grammar",
+  "skill": "ven-gr-usage",
+  "difficulty": 3,
+  "stem": "Which sentence is correctly written?",
+  "choices": [
+    "The guard insisted to check every bag at the gate.",
+    "The new clerk is capable of handling the payroll.",
+    "The residents had to cope up with the water shortage.",
+    "Ms. Cruz graduated in a state university in 2018."
+  ],
+  "answer": "The new clerk is capable of handling the payroll.",
+  "hints": [
+    "Each sentence has a verb or a describing word followed by a small linking word (a preposition). Only one pair is standard English.",
+    "Say each pair on its own: \"insisted to\", \"capable of\", \"cope up with\", \"graduated in (a school)\". Which ones are standard fixed pairs?",
+    "Test each sentence with three questions. Does the word need a preposition + -ing verb instead of \"to\" + verb? Is there an extra word that adds nothing? Is it the right preposition after \"graduate\" and a school? The sentence that passes all three tests is correct."
+  ],
+  "solution": {
+    "methodName": "Check the word partner",
+    "steps": [
+      {
+        "action": "Check \"insisted to check\". \"Insist\" pairs with \"on\" and an -ing verb: \"insisted on checking\". This sentence is wrong."
+      },
+      {
+        "action": "Check \"capable of handling\". \"Capable\" pairs with \"of\" and an -ing verb. This sentence is correct.",
+        "why": "\"Capable of\" means \"able to\". You say \"capable of doing\", not \"capable to do\"."
+      },
+      {
+        "action": "Check \"cope up with\". The standard phrase is \"cope with\", with no \"up\". This sentence is wrong.",
+        "why": "\"Cope up\" is common in the Philippines, but it is not standard English."
+      },
+      {
+        "action": "Check \"graduated in a state university\". You graduate from a school. This sentence is wrong.",
+        "why": "The second \"in\" (\"in 2018\") is fine, because \"in\" goes with a year."
+      },
+      {
+        "action": "The correct sentence is \"The new clerk is capable of handling the payroll.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The guard insisted to check every bag at the gate.": "\"Insist to\" follows the pattern of \"want to\", so it sounds natural. But \"insist\" takes \"on\": \"insisted on checking every bag\".",
+    "The residents had to cope up with the water shortage.": "\"Cope up with\" is very common in Philippine English, but the standard phrase is just \"cope with\".",
+    "Ms. Cruz graduated in a state university in 2018.": "\"In\" seems right for a place, but with \"graduate\" the partner word is \"from\": \"graduated from a state university\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}
