@@ -13,7 +13,7 @@ import {
 import { Link } from 'react-router'
 
 import { Badge } from '@/components/ui/badge'
-import { Button, buttonVariants } from '@/components/ui/button'
+import { buttonVariants } from '@/components/ui/button'
 import {
   Card,
   CardContent,
@@ -110,13 +110,13 @@ export function IndexPage() {
               how to solve it, step by step.
             </p>
             <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
-              <Link to="/learn" className={cn(buttonVariants(), 'h-11 px-5 text-base')}>
+              <Link to="/welcome" className={cn(buttonVariants(), 'h-11 px-5 text-base')}>
                 Start learning
                 <ArrowRight data-icon="inline-end" />
               </Link>
-              <Button variant="outline" className="h-11 px-5 text-base" disabled>
-                Basics check (coming soon)
-              </Button>
+              <Link to="/diagnostic" className={cn(buttonVariants({ variant: 'outline' }), 'h-11 px-5 text-base')}>
+                Check your basics first
+              </Link>
             </div>
           </div>
 

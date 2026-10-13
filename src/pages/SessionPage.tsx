@@ -26,6 +26,7 @@ import {
   completeStep,
   getLearner,
   recordAttempt,
+  recordDiagnostic,
   recordMasteryCheck,
   useLearner,
   type Mode,
@@ -34,7 +35,7 @@ import { LockedStep } from '@/pages/LockedStep'
 import { NotFoundPage } from '@/pages/NotFoundPage'
 
 type TopicSessionKind = 'guided' | 'practice' | 'mastery'
-type SessionKind = TopicSessionKind | 'review' | 'quick'
+type SessionKind = TopicSessionKind | 'review' | 'quick' | 'diagnostic'
 
 const TITLES: Record<SessionKind, string> = {
   guided: 'Guided practice',
@@ -42,6 +43,7 @@ const TITLES: Record<SessionKind, string> = {
   mastery: 'Mastery check',
   review: 'Mistakes deck',
   quick: 'Quick practice',
+  diagnostic: 'Basics check',
 }
 
 const CARD_MODE: Record<SessionKind, QuestionMode> = {
@@ -50,6 +52,7 @@ const CARD_MODE: Record<SessionKind, QuestionMode> = {
   mastery: 'test',
   review: 'practice',
   quick: 'practice',
+  diagnostic: 'test',
 }
 
 const NEXT_STEP: Partial<Record<SessionKind, { path: string; label: string }>> = {
@@ -106,6 +109,17 @@ export function QuickPracticePage() {
   return <Session kind="quick" pick={pick} exitTo="/learn" />
 }
 
+// The basics check: 3 questions from each Foundations topic, no hints, no feedback until the end.
+export const DIAGNOSTIC_PER_TOPIC = 3
+
+export function DiagnosticPage() {
+  const pick = () =>
+    getTopics('foundations').flatMap((t) =>
+      pickQuestions(getPracticeQuestions(t.id), DIAGNOSTIC_PER_TOPIC, getLearner().attempts),
+    )
+  return <Session kind="diagnostic" pick={pick} exitTo="/learn" />
+}
+
 interface Result {
   question: Question
   choice: string
@@ -138,8 +152,18 @@ function Session({
     })
     const next = [...results, { question, choice: result.choice, correct: result.correct }]
     setResults(next)
-    if (next.length < questions.length || !topic) return
-    // Last answer of the session: save the step or the mastery result.
+    if (next.length < questions.length) return
+    // Last answer of the session: save the basics check, the step or the mastery result.
+    if (kind === 'diagnostic') {
+      const scores: Record<string, { correct: number; total: number }> = {}
+      for (const r of next) {
+        const score = (scores[r.question.topicId] ??= { correct: 0, total: 0 })
+        score.total++
+        if (r.correct) score.correct++
+      }
+      recordDiagnostic({ takenAt: Date.now(), scores })
+    }
+    if (!topic) return
     if (kind === 'mastery') {
       const score = next.filter((r) => r.correct).length / next.length
       recordMasteryCheck(topic.id, score, score >= MASTERY_PASS)
@@ -286,6 +310,8 @@ function Summary({
         </section>
       )}
 
+      {kind === 'diagnostic' && <DiagnosticResults results={results} />}
+
       {kind === 'mastery' && missed.length > 0 && (
         <section className="flex flex-col gap-3">
           <h2 className="font-heading text-lg font-semibold">Questions you missed</h2>
@@ -322,9 +348,46 @@ function Summary({
           </Link>
         )}
         <Link to={exitTo} className={cn(buttonVariants({ variant: 'outline' }), 'h-11 px-4 text-base')}>
-          {topic ? 'Back to the topic' : 'Back to lessons'}
+          {topic ? 'Back to the topic' : 'Go to lessons'}
         </Link>
       </div>
     </div>
+  )
+}
+
+// Per Foundations topic: fine, or a refresher is recommended (fewer than 2 of 3 right).
+function DiagnosticResults({ results }: { results: Result[] }) {
+  return (
+    <section className="flex flex-col gap-3">
+      <h2 className="font-heading text-lg font-semibold">Your basics</h2>
+      <ul className="flex flex-col gap-2">
+        {getTopics('foundations').map((t) => {
+          const own = results.filter((r) => r.question.topicId === t.id)
+          if (own.length === 0) return null
+          const correct = own.filter((r) => r.correct).length
+          const ok = correct / own.length >= 2 / 3
+          return (
+            <li key={t.id} className="flex min-h-14 items-center gap-3 rounded-lg border px-3 py-2">
+              {ok ? (
+                <CircleCheck className="size-5 shrink-0 text-success" aria-hidden />
+              ) : (
+                <CircleX className="size-5 shrink-0 text-destructive" aria-hidden />
+              )}
+              <span className="flex flex-1 flex-col">
+                <span className="text-base font-medium">{t.name}</span>
+                <span className="text-sm text-muted-foreground">
+                  {correct} of {own.length} right · {ok ? 'You know this' : 'Refresher recommended'}
+                </span>
+              </span>
+              {!ok && (
+                <Link to={`/topics/${t.id}`} className={cn(buttonVariants({ variant: 'outline' }), 'h-11 px-3 text-base')}>
+                  Refresh
+                </Link>
+              )}
+            </li>
+          )
+        })}
+      </ul>
+    </section>
   )
 }

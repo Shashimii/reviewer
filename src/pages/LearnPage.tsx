@@ -7,14 +7,7 @@ import { Button, buttonVariants } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { getSubjects, getTopics } from '@/content'
 import { cn } from '@/lib/utils'
-import {
-  dueReviews,
-  masteredTopicIds,
-  STATE_LABELS,
-  STEPS,
-  topicState,
-  topicStats,
-} from '@/progress/mastery'
+import { dueReviews, masteredTopicIds } from '@/progress/mastery'
 import { useLearner } from '@/progress/store'
 
 export function LearnPage() {
@@ -26,14 +19,13 @@ export function LearnPage() {
 
   const subjects = getSubjects().map((subject) => ({ subject, topics: getTopics(subject.id) }))
   const ready = subjects.filter((s) => s.topics.length > 0)
-  const comingSoon = subjects.filter((s) => s.topics.length === 0)
 
   return (
     <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col gap-8 px-4 py-6 md:py-10">
       <div>
         <h1 className="font-heading text-2xl font-semibold tracking-tight">Learn</h1>
         <p className="mt-1 text-base text-muted-foreground">
-          Take each topic in order: lesson, worked example, practice, then the mastery check.
+          Pick a subject, then take its topics in order: lesson, worked example, practice, then the mastery check.
         </p>
       </div>
 
@@ -90,62 +82,38 @@ export function LearnPage() {
         </Card>
       </div>
 
-      {ready.map(({ subject, topics }) => {
-        const masteredCount = topics.filter((t) => learner.topics[t.id]?.mastered).length
-        return (
-          <section key={subject.id} className="flex flex-col gap-3">
-            <div className="flex items-baseline justify-between gap-4">
-              <h2 className="font-heading text-lg font-semibold">{subject.name}</h2>
-              <p className="text-sm text-muted-foreground">
-                {masteredCount} of {topics.length} mastered
-              </p>
-            </div>
-            <ol className="flex flex-col gap-2">
-              {topics.map((topic) => {
-                const record = learner.topics[topic.id]
-                const stats = topicStats(learner.attempts, topic.id)
-                const state = topicState(record)
-                return (
-                  <li key={topic.id}>
-                    <Link
-                      to={`/topics/${topic.id}`}
-                      className="flex min-h-16 items-center gap-3 rounded-xl border bg-card px-3 py-3 transition-colors hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
-                    >
-                      <span className="w-5 shrink-0 text-center text-sm font-medium text-muted-foreground">
-                        {topic.order}
-                      </span>
-                      <span className="flex min-w-0 flex-1 flex-col">
-                        <span className="text-base font-medium">{topic.name}</span>
-                        <span className="text-sm text-muted-foreground">
-                          {STATE_LABELS[state]}
-                          {stats && ` · ${Math.round(stats.accuracy * 100)}% correct`}
-                        </span>
-                      </span>
-                      <MasteryRing
-                        state={state}
-                        progress={(record?.completed.length ?? 0) / STEPS.length}
-                        showLabel={false}
-                      />
-                      <ChevronRight className="size-4 shrink-0 text-muted-foreground" aria-hidden />
-                    </Link>
-                  </li>
-                )
-              })}
-            </ol>
-          </section>
-        )
-      })}
-
-      {comingSoon.length > 0 && (
-        <section className="flex flex-col gap-2">
-          <h2 className="font-heading text-lg font-semibold">Coming later</h2>
-          <ul className="flex flex-col gap-1 text-base text-muted-foreground">
-            {comingSoon.map(({ subject }) => (
-              <li key={subject.id}>{subject.name}</li>
-            ))}
-          </ul>
-        </section>
-      )}
+      <section className="flex flex-col gap-3">
+        <h2 className="font-heading text-lg font-semibold">Subjects</h2>
+        <ul className="grid gap-3 sm:grid-cols-2">
+          {ready.map(({ subject, topics }) => {
+            const mastered = topics.filter((t) => learner.topics[t.id]?.mastered).length
+            const started = topics.some((t) => (learner.topics[t.id]?.completed.length ?? 0) > 0)
+            const optional = subject.id === 'foundations'
+            return (
+              <li key={subject.id}>
+                <Link
+                  to={`/subjects/${subject.id}`}
+                  className="flex min-h-20 items-center gap-3 rounded-xl border bg-card px-4 py-3 transition-colors hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
+                >
+                  <span className="flex min-w-0 flex-1 flex-col">
+                    <span className="text-base font-medium">{subject.name}</span>
+                    <span className="text-sm text-muted-foreground">
+                      {optional ? 'Optional refresher · ' : ''}
+                      {mastered} of {topics.length} topics mastered
+                    </span>
+                  </span>
+                  <MasteryRing
+                    state={mastered === topics.length ? 'mastered' : started ? 'learning' : 'not-started'}
+                    progress={mastered / topics.length}
+                    showLabel={false}
+                  />
+                  <ChevronRight className="size-4 shrink-0 text-muted-foreground" aria-hidden />
+                </Link>
+              </li>
+            )
+          })}
+        </ul>
+      </section>
     </main>
   )
 }
