@@ -1,0 +1,45 @@
+{
+  "id": "ana-lf-0017",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-figures",
+  "difficulty": 1,
+  "stem": "Which figure comes next?\n●○○○  |  ○●○○  |  ○○●○  |  ___",
+  "choices": [
+    "○○●○",
+    "○●○○",
+    "○○○●",
+    "○○●●"
+  ],
+  "answer": "○○○●",
+  "hints": [
+    "Each figure has one black dot (●) in a row of four dots. Watch where it is.",
+    "The black dot is in the 1st spot, then the 2nd, then the 3rd.",
+    "The black dot moves one spot to the right each time. Move it one more spot to the right."
+  ],
+  "solution": {
+    "methodName": "Check one change at a time",
+    "steps": [
+      {
+        "action": "Check what stays the same: each figure is a row of 4 dots with exactly one black dot (●)."
+      },
+      {
+        "action": "Track the black dot: it is in spot 1, then spot 2, then spot 3.",
+        "why": "Counting the spots from the left turns the picture into a number series: 1, 2, 3."
+      },
+      {
+        "action": "The black dot moves one spot to the right each time, so next it is in spot 4."
+      },
+      {
+        "action": "The next figure has the black dot in the last spot. The answer is ○○○●."
+      }
+    ]
+  },
+  "trapNotes": {
+    "○○●○": "This repeats the last figure, so the dot did not move. The dot moves one spot every step.",
+    "○●○○": "This moves the dot back to the left. The dot has been moving right: spot 1, 2, 3.",
+    "○○●●": "This has two black dots. Every figure has exactly one black dot, which moves."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

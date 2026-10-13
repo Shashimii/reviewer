@@ -1,0 +1,73 @@
+{
+  "id": "ana-letter-figure-series-lesson",
+  "topicId": "ana-letter-figure-series",
+  "workedExampleId": "ana-lf-0001",
+  "sections": [
+    {
+      "heading": "Letters as numbers",
+      "body": "The alphabet has **26 letters**. Give each letter its **place number**: A = 1, B = 2, and so on up to Z = 26.\n\n| A=1 | B=2 | C=3 | D=4 | **E=5** |\n|---|---|---|---|---|\n| F=6 | G=7 | H=8 | I=9 | **J=10** |\n| K=11 | L=12 | M=13 | N=14 | **O=15** |\n| P=16 | Q=17 | R=18 | S=19 | **T=20** |\n| U=21 | V=22 | W=23 | X=24 | **Y=25** |\n| Z=26 | | | | |\n\n**The EJOTY trick.** Learn the last column by heart: **E = 5, J = 10, O = 15, T = 20, Y = 25** (say \"e-jo-ty\"). These *anchor* letters are your starting points. Count from the nearest one: R is two before T, so R = 18.\n\n- **Opposite letters** are the same distance from each end, like A and Z, or B and Y. Each pair adds up to 27.\n- **Going around:** after Z, start again at A. Above 26? Take away 26. Y + 4 = 29, and 29 − 26 = 3 = C."
+    },
+    {
+      "heading": "Letter series",
+      "body": "A **letter series** is a list of letters that follows a rule. Solve it like a number series:\n\n1. Change each letter to its number.\n2. Find the *difference*: how far you move from one letter to the next.\n3. Apply it to the last letter, then change the number back to a letter.\n\nExample: D, F, H, J, ___ is 4, 6, 8, 10. The rule is +2, so next is 12 = **L**.\n\n- **Backward:** Z, W, T, Q, ___ is 26, 23, 20, 17. The rule is −3, so next is 14 = **N**.\n- **Two series taking turns:** in B, Y, D, W, F, U, ___ the odd places (B, D, F) go +2 and the even places (Y, W, U) go −2. The 7th place is odd, so the answer is **H**.\n- **Pairs and groups:** each position is its own series. In AZ, BY, CX, ___ the first letters go +1 and the second letters go −1, so next is **DW**.\n- **Growing steps:** if the differences change, look for a pattern in the differences."
+    },
+    {
+      "heading": "Letter and number codes",
+      "body": "A **code** changes each letter of a word by a rule. Line up the word and its code, letter by letter.\n\n- If CAT is written as DBU, each letter moves +1, so DOG is **EPH**.\n- Some codes move each letter by a different amount, like +1, +2, +3. Check every letter.\n- An opposite-letter code swaps A for Z, B for Y, and so on.\n- **Number codes** use A = 1 … Z = 26. BAD can be 2-1-4, or the sum 2 + 1 + 4 = 7."
+    },
+    {
+      "heading": "Shape patterns",
+      "body": "In a **figure series**, each figure is a small group of shapes, and a line (|) separates the figures. Check **one change at a time**:\n\n1. **Count:** in ■ | ■■ | ■■■, the next figure is ■■■■.\n2. **Turn:** *clockwise* is the way a clock's hands move: ↑ → ↓ ←. Each of these steps is a *quarter turn* (90°). *Counterclockwise* is the other way. Eighth turns (45°) add the slanted arrows: ↑ ↗ → ↘ ↓ ↙ ← ↖.\n3. **Position:** in ■□□□□ | □■□□□ | □□■□□, the next figure is □□□■□.\n4. **Color or shape:** black (■) and white (□) may take turns, or shapes may repeat in a cycle, like ■ ▲ ● ■ ▲ ●.\n\nIf two things change, find each rule on its own. The answer must obey both."
+    },
+    {
+      "heading": "Odd one out",
+      "body": "In an **odd-one-out** item, three choices share a rule and one breaks it.\n\n- ABC, LMN and WXY are three letters in a row. PQS skips R, so PQS is the odd one.\n- Also check opposite pairs (do they add up to 27?), counts, colors and arrow directions.\n- Something that is different in all four choices is not the rule."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Counting from A every time.** Count from the nearest EJOTY anchor.\n- **Off by one.** +2 skips one letter: after I comes K, not J.\n- **Wrong direction.** If the letters go backward, take away.\n- **Wrong series** when two series take turns. Count the places.\n- **Forgetting to go around** after Z.\n- **Changing the order** in codes. Each letter keeps its place.\n- **Checking only one change** in figures. Look at count, turn, position and color.\n- **Turning the wrong way.** Is it clockwise or counterclockwise?"
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Letter series",
+      "definition": "A list of letters that follows a rule.",
+      "taglish": "Letter series – listahan ng mga letra na may sinusunod na pattern o rule"
+    },
+    {
+      "term": "Place number",
+      "definition": "The number of a letter's place in the alphabet, from A = 1 to Z = 26.",
+      "taglish": "Place number – pang-ilang letra sa alpabeto, halimbawa ang E ay 5"
+    },
+    {
+      "term": "EJOTY",
+      "definition": "The anchor letters E = 5, J = 10, O = 15, T = 20 and Y = 25, used as starting points for counting.",
+      "taglish": "EJOTY – mga letrang dapat tandaan: E=5, J=10, O=15, T=20, Y=25; dito magsimulang magbilang"
+    },
+    {
+      "term": "Opposite letters",
+      "definition": "Two letters the same distance from each end of the alphabet, like A and Z. Their numbers add up to 27.",
+      "taglish": "Opposite letters – magkapares mula sa magkabilang dulo ng alpabeto, gaya ng A at Z; 27 ang kabuuan nila"
+    },
+    {
+      "term": "Code",
+      "definition": "A rule that changes each letter of a word into another letter or a number.",
+      "taglish": "Code – paraan ng pagpapalit ng bawat letra ng ibang letra o numero ayon sa isang rule"
+    },
+    {
+      "term": "Clockwise",
+      "definition": "Turning the same way as a clock's hands: up, right, down, left.",
+      "taglish": "Clockwise – pakanan, kasunod ng ikot ng kamay ng orasan"
+    },
+    {
+      "term": "Counterclockwise",
+      "definition": "Turning the opposite way to a clock's hands: up, left, down, right.",
+      "taglish": "Counterclockwise – pakaliwa, salungat sa ikot ng kamay ng orasan"
+    },
+    {
+      "term": "Odd one out",
+      "definition": "The one choice that does not follow the rule the others share.",
+      "taglish": "Odd one out – ang naiiba; hindi sumusunod sa rule ng iba"
+    }
+  ]
+}

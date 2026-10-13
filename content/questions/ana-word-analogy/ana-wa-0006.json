@@ -1,0 +1,52 @@
+{
+  "id": "ana-wa-0006",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-meaning",
+  "difficulty": 2,
+  "stem": "Which pair has the same relationship as TEMPORARY : PERMANENT?",
+  "choices": [
+    "sufficient : enough",
+    "optional : mandatory",
+    "warm : hot",
+    "permit : license"
+  ],
+  "answer": "optional : mandatory",
+  "hints": [
+    "TEMPORARY means lasting only for a short time. Compare it with PERMANENT.",
+    "Make a bridge sentence: \"Temporary is the opposite of permanent.\"",
+    "Test each pair in the bridge \"___ is the opposite of ___.\" Watch for pairs that are only a little different, like a weaker and a stronger form of the same thing."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"Temporary is the opposite of permanent.\"",
+        "why": "A temporary job lasts only a short time. A permanent job has no end date. Their meanings are opposite."
+      },
+      {
+        "action": "Test sufficient : enough. Sufficient means enough, so the two words mean the same. The bridge fails."
+      },
+      {
+        "action": "Test optional : mandatory. \"Optional is the opposite of mandatory\" is true.",
+        "why": "Optional means you may choose to do it. Mandatory means you must do it. Example: the seminar is optional, but wearing a helmet when riding a motorcycle is mandatory."
+      },
+      {
+        "action": "Test warm : hot. Hot is a stronger degree of warm, not its opposite. The opposite of hot is cold."
+      },
+      {
+        "action": "Test permit : license. Both are official papers that allow you to do something. They are close in meaning, not opposite."
+      },
+      {
+        "action": "The answer is optional : mandatory."
+      }
+    ]
+  },
+  "trapNotes": {
+    "sufficient : enough": "Sufficient means enough, so these are synonyms. The stem pair has opposite meanings.",
+    "warm : hot": "Warm and hot differ only in degree: hot is just much warmer. Opposites point in opposite directions, like hot and cold.",
+    "permit : license": "A permit and a license both give official permission. They are close in meaning, not opposite."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

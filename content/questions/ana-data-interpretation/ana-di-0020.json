@@ -1,0 +1,46 @@
+{
+  "id": "ana-di-0020",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-percent",
+  "difficulty": 3,
+  "passage": "**Building permit applications at a town engineering office, January to April 2025**\n\n| Month | Received | Approved |\n| --- | ---: | ---: |\n| January | 40 | 30 |\n| February | 50 | 40 |\n| March | 60 | 45 |\n| April | 80 | 72 |",
+  "stem": "The approval rate is the percent of applications received that were approved. A rate that goes from 40% to 50% rises by 10 percentage points. By how many percentage points did the approval rate rise from January to April?",
+  "choices": [
+    "20 percentage points",
+    "42 percentage points",
+    "40 percentage points",
+    "15 percentage points"
+  ],
+  "answer": "15 percentage points",
+  "hints": [
+    "First find the approval rate for each month as a percent: approved ÷ received.",
+    "January: 30/40. April: 72/80. Change both fractions to percents.",
+    "A change in percentage points is the new percent minus the old percent. Do not divide again."
+  ],
+  "solution": {
+    "methodName": "Percentage points = new percent − old percent",
+    "steps": [
+      {
+        "action": "January's approval rate: 30/40 = 3/4 = 75%."
+      },
+      {
+        "action": "April's approval rate: 72/80 = 9/10 = 90%."
+      },
+      {
+        "action": "Subtract the two percents: 90 − 75 = 15.",
+        "why": "When you subtract one percent from another, the answer is in percentage points."
+      },
+      {
+        "action": "The approval rate rose by 15 percentage points."
+      }
+    ]
+  },
+  "trapNotes": {
+    "20 percentage points": "This is 15 ÷ 75 = 20%, the percent change of the rate. The question asks for percentage points, which is simply 90 − 75.",
+    "42 percentage points": "This subtracts the approved counts (72 − 30). Those are numbers of applications, not rates. Change each month to a percent first.",
+    "40 percentage points": "This subtracts the received counts (80 − 40). Find each month's approval rate first, then subtract the rates."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

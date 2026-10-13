@@ -1,0 +1,49 @@
+{
+  "id": "ana-sl-0024",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-ordering",
+  "difficulty": 2,
+  "stem": "In a typing test, there were no ties.\n- Lito scored higher than Mila.\n- Nora scored lower than Mila but higher than Oscar.\n- Pia scored higher than Lito.\n\nWho ranked third?",
+  "choices": [
+    "Lito",
+    "Mila",
+    "Nora",
+    "Pia"
+  ],
+  "answer": "Mila",
+  "hints": [
+    "Turn every clue into \"higher than\" and build one line from highest to lowest.",
+    "Start with Lito above Mila, then place Nora and Oscar below Mila.",
+    "Add Pia where clue 3 puts her. With all five in one line, count from the top to find third place."
+  ],
+  "solution": {
+    "methodName": "Line them up, then test every case",
+    "steps": [
+      {
+        "action": "Clue 1: Lito is above Mila. Line: Lito, Mila."
+      },
+      {
+        "action": "Clue 2: Nora is below Mila and above Oscar. Line: Lito, Mila, Nora, Oscar.",
+        "why": "\"Lower than Mila but higher than Oscar\" puts Nora between them."
+      },
+      {
+        "action": "Clue 3: Pia is above Lito. Line: Pia, Lito, Mila, Nora, Oscar.",
+        "why": "Lito was at the top, so Pia, who beat Lito, becomes first."
+      },
+      {
+        "action": "Count from the top: 1st Pia, 2nd Lito, 3rd Mila."
+      },
+      {
+        "action": "The answer is Mila."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Lito": "Lito is second. Clue 3 puts Pia above him, and only Pia, so he is not third.",
+    "Nora": "This happens if you forget Pia. Without her, Nora would be third. Pia is above Lito, which pushes everyone down one place, so Nora is fourth.",
+    "Pia": "Pia scored higher than Lito, who is above everyone else, so Pia is first, not third."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

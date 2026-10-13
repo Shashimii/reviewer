@@ -1,0 +1,49 @@
+{
+  "id": "ana-wa-0019",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-category",
+  "difficulty": 2,
+  "stem": "VEHICLE : JEEPNEY :: FURNITURE : ___",
+  "choices": [
+    "cabinet",
+    "wood",
+    "house",
+    "carpenter"
+  ],
+  "answer": "cabinet",
+  "hints": [
+    "Look at the order. Which word is the big group, and which is one member of it?",
+    "Make a bridge sentence that keeps the order: \"Vehicle is the group, and a jeepney is one kind of vehicle.\"",
+    "Now say: \"Furniture is the group, and a ___ is one kind of furniture.\" Cross out what furniture is made of, where it is kept and who makes it."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Notice the order: the group comes first (VEHICLE) and one member comes second (JEEPNEY).",
+        "why": "This is the reverse of a pair like ROSE : FLOWER, where the member comes first. Your answer must be one kind of furniture, not a bigger group."
+      },
+      {
+        "action": "Make a bridge sentence: \"Vehicle is the group, and a jeepney is one kind of vehicle.\""
+      },
+      {
+        "action": "Use the same bridge: \"Furniture is the group, and a ___ is one kind of furniture.\"",
+        "why": "Furniture means the movable things in a room, like tables, chairs, beds and cabinets."
+      },
+      {
+        "action": "Test each choice. A cabinet is one kind of furniture. Wood is what furniture is often made of, a house is where furniture is kept, and a carpenter is a person who makes it."
+      },
+      {
+        "action": "The answer is cabinet."
+      }
+    ]
+  },
+  "trapNotes": {
+    "wood": "Wood is a material that furniture is made of. It is not a kind of furniture.",
+    "house": "A house is where furniture is kept. A house is not a kind of furniture.",
+    "carpenter": "A carpenter makes furniture. A maker is not a kind of furniture."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

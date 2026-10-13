@@ -1,0 +1,46 @@
+{
+  "id": "ana-wa-0002",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-meaning",
+  "difficulty": 1,
+  "stem": "HOT : COLD :: WET : ___",
+  "choices": [
+    "dry",
+    "damp",
+    "rain",
+    "water"
+  ],
+  "answer": "dry",
+  "hints": [
+    "Are HOT and COLD alike, or are they opposites?",
+    "Make a bridge sentence: \"Hot is the opposite of cold.\"",
+    "Now say: \"Wet is the opposite of ___.\" Test each choice. A word that only has something to do with water does not fit the bridge."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence for the first pair: \"Hot is the opposite of cold.\"",
+        "why": "HOT and COLD are antonyms: words with opposite meanings."
+      },
+      {
+        "action": "Use the same bridge for the second pair: \"Wet is the opposite of ___.\""
+      },
+      {
+        "action": "Test each choice. Only dry is the opposite of wet.",
+        "why": "Damp means a little wet, so it is close in meaning, not opposite. Rain and water make things wet, but they are not the opposite of wet."
+      },
+      {
+        "action": "The answer is dry."
+      }
+    ]
+  },
+  "trapNotes": {
+    "damp": "Damp means slightly wet. It is close to wet in meaning, but the bridge asks for the opposite.",
+    "rain": "Rain makes things wet. That is a cause, not an opposite. Always test the choice in the bridge sentence.",
+    "water": "Water is what makes things wet. It is related to wet, but it is not the opposite of wet."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ana-wa-0024",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-cause-degree",
+  "difficulty": 2,
+  "stem": "Which pair has the same relationship as TIRED : EXHAUSTED?",
+  "choices": [
+    "furious : annoyed",
+    "sleepy : awake",
+    "glad : overjoyed",
+    "hungry : food"
+  ],
+  "answer": "glad : overjoyed",
+  "hints": [
+    "EXHAUSTED means extremely tired. Which word is the stronger one, and which comes first?",
+    "Make a bridge sentence that keeps the order: \"Tired is a mild form of exhausted.\"",
+    "Test each pair in the same order: \"___ is a mild form of ___.\" The weaker word must come first and the stronger word second."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"Tired is a mild form of exhausted.\"",
+        "why": "Exhausted means extremely tired, with no energy left. Both words describe the same feeling, but the second is much stronger."
+      },
+      {
+        "action": "Test furious : annoyed. Furious means extremely angry and annoyed means a little angry. The strong word comes first, so the order is reversed."
+      },
+      {
+        "action": "Test sleepy : awake. These are opposites, not a mild and a strong form of the same feeling."
+      },
+      {
+        "action": "Test glad : overjoyed. Overjoyed means extremely happy. \"Glad is a mild form of overjoyed\" is true."
+      },
+      {
+        "action": "Test hungry : food. Food is what a hungry person needs. It is not a stronger form of hungry."
+      },
+      {
+        "action": "The answer is glad : overjoyed."
+      }
+    ]
+  },
+  "trapNotes": {
+    "furious : annoyed": "These are a strong and a mild form of anger, so the link is close. But the strong word comes first, the reverse of TIRED : EXHAUSTED.",
+    "sleepy : awake": "Sleepy and awake are opposites. The stem pair is the same feeling at two strengths, not opposites.",
+    "hungry : food": "Food is what ends hunger. This is a need and what meets it, not a mild and a strong form of the same feeling."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

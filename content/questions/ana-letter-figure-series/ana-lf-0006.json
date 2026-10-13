@@ -1,0 +1,48 @@
+{
+  "id": "ana-lf-0006",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-letters",
+  "difficulty": 2,
+  "stem": "What group comes next? ACE, BDF, CEG, ___",
+  "choices": [
+    "DEF",
+    "EGI",
+    "DGJ",
+    "DFH"
+  ],
+  "answer": "DFH",
+  "hints": [
+    "Compare the first letters of the groups, then the second letters, then the third letters.",
+    "The first letters are A, B, C. The second letters are C, D, E. The third letters are E, F, G.",
+    "Each place moves forward one letter from group to group. Move each letter of CEG forward by one."
+  ],
+  "solution": {
+    "methodName": "Change letters to numbers, then find the rule",
+    "steps": [
+      {
+        "action": "Look inside one group: A, C, E skips one letter each time (A, skip B, C, skip D, E).",
+        "why": "Every group is built the same way, so this tells you what the new group must look like."
+      },
+      {
+        "action": "Compare the groups place by place. First letters: A, B, C. Second letters: C, D, E. Third letters: E, F, G."
+      },
+      {
+        "action": "Each place moves forward by 1 from one group to the next. The rule is +1."
+      },
+      {
+        "action": "Move each letter of CEG forward by 1: C becomes D, E becomes F, G becomes H."
+      },
+      {
+        "action": "The next group is DFH. Check: D, skip E, F, skip G, H. The answer is DFH."
+      }
+    ]
+  },
+  "trapNotes": {
+    "DEF": "DEF has no skipped letters inside it. Every group skips one letter between its letters, like A, C, E.",
+    "EGI": "EGI moves each letter forward by 2. From ACE to BDF, each letter moves forward by only 1.",
+    "DGJ": "DGJ skips two letters inside the group. The groups skip only one letter each time."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

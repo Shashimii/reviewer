@@ -1,0 +1,45 @@
+{
+  "id": "ana-lf-0020",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-figures",
+  "difficulty": 3,
+  "stem": "Which figure comes next?\n■  |  ▲▲  |  ●●●  |  ■■■■  |  ___",
+  "choices": [
+    "●●●●●",
+    "■■■■■",
+    "▲▲▲▲",
+    "▲▲▲▲▲"
+  ],
+  "answer": "▲▲▲▲▲",
+  "hints": [
+    "Two things change: the shape and the number of shapes. Check them one at a time.",
+    "The count goes 1, 2, 3, 4. The shapes go square, triangle, circle, then square again.",
+    "The shapes repeat in a cycle of three: ■, ▲, ●. Find which shape comes after ■ in that cycle, and how many there should be."
+  ],
+  "solution": {
+    "methodName": "Check one change at a time",
+    "steps": [
+      {
+        "action": "Count the shapes: 1, 2, 3, 4. The count goes up by 1, so the next figure has 5 shapes."
+      },
+      {
+        "action": "List the shapes in order: ■, ▲, ●, ■."
+      },
+      {
+        "action": "The shapes repeat in a cycle of three: square, triangle, circle, then square again. After ■ comes ▲.",
+        "why": "The 4th figure goes back to ■, which shows that the shapes repeat. So the 5th figure uses the same shape as the 2nd figure."
+      },
+      {
+        "action": "Put both together: 5 triangles. The answer is ▲▲▲▲▲."
+      }
+    ]
+  },
+  "trapNotes": {
+    "●●●●●": "This skips the triangle. The cycle is ■, ▲, ●, so after ■ comes ▲, not ●.",
+    "■■■■■": "This keeps the square from the last figure. The shape changes every step: ■, ▲, ●, ■, then ▲.",
+    "▲▲▲▲": "This has the right shape but only 4 triangles. The count goes up by 1 each time, so the next figure has 5."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

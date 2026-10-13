@@ -1,0 +1,48 @@
+{
+  "id": "ana-ac-0014",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-conclusion",
+  "difficulty": 2,
+  "stem": "Facts:\n1. Barangay Mabuhay has 1,200 registered voters.\n2. In the last barangay election, 900 of them voted.\n3. Two candidates ran for barangay captain. Ana got 500 votes and Ben got 400 votes.\n\nWhich conclusion follows from the facts?",
+  "choices": [
+    "Ana won because she spent more on her campaign.",
+    "More than half of all registered voters chose Ana.",
+    "Fewer than half of all registered voters chose Ana.",
+    "The 300 who did not vote were away on election day."
+  ],
+  "answer": "Fewer than half of all registered voters chose Ana.",
+  "hints": [
+    "Watch the words \"all registered voters.\" There are 1,200 of them, not 900.",
+    "Find half of all registered voters: 1,200 ÷ 2.",
+    "Compare Ana's votes with half of all registered voters. Then check the other choices: does any of them need a reason or a fact that is not given?"
+  ],
+  "solution": {
+    "methodName": "Facts-only test: keep only what the facts prove",
+    "steps": [
+      {
+        "action": "Half of all registered voters is 1,200 ÷ 2 = 600."
+      },
+      {
+        "action": "Ana got 500 votes. 500 is less than 600."
+      },
+      {
+        "action": "So fewer than half of all registered voters chose Ana.",
+        "why": "Ana did get more than half of the votes cast, since half of 900 is 450. But the choice is about all 1,200 registered voters, and 300 of them did not vote."
+      },
+      {
+        "action": "Check the others. The facts show that Ana won, but not why. They also give no reason why 300 people did not vote."
+      },
+      {
+        "action": "The conclusion that follows: Fewer than half of all registered voters chose Ana."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Ana won because she spent more on her campaign.": "The facts show that Ana won, but they never say why. Campaign spending is not mentioned.",
+    "More than half of all registered voters chose Ana.": "Ana got more than half of the 900 votes cast, but not more than half of the 1,200 registered voters. Half of 1,200 is 600, and she got 500.",
+    "The 300 who did not vote were away on election day.": "This is merely possible. People may not vote because they are sick, busy or not interested. The facts do not say."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

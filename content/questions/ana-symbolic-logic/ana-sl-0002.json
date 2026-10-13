@@ -1,0 +1,58 @@
+{
+  "id": "ana-sl-0002",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-syllogism",
+  "difficulty": 1,
+  "stem": "Assume these two statements are true:\n1. All guards are trained.\n2. No visitors are trained.\n\nBased only on these statements, which conclusion must be true?",
+  "choices": [
+    "Some visitors are guards.",
+    "All trained people are guards.",
+    "Some trained people are not guards.",
+    "No visitors are guards."
+  ],
+  "answer": "No visitors are guards.",
+  "hints": [
+    "\"No visitors are trained\" means the visitors circle and the trained circle do not touch at all.",
+    "Draw the guards circle inside a trained circle. Then draw the visitors circle away from the trained circle.",
+    "Look at where the visitors circle is compared with the guards circle. For each choice, ask: can I draw the circles so the statements stay true but this choice is false? If yes, it does not have to be true."
+  ],
+  "solution": {
+    "methodName": "Draw circles, then look for a counterexample",
+    "steps": [
+      {
+        "action": "Statement 1: draw a guards circle inside a bigger trained circle.",
+        "why": "Every guard is trained, so no part of the guards circle can be outside the trained circle."
+      },
+      {
+        "action": "Statement 2: draw the visitors circle completely outside the trained circle.",
+        "why": "\"No A are B\" means the two circles do not overlap at all."
+      },
+      {
+        "action": "The guards circle is inside the trained circle, and the visitors circle is outside it. So the guards circle and the visitors circle cannot touch: no visitor is a guard.",
+        "why": "A visitor who was also a guard would have to be trained, and no visitor is trained."
+      },
+      {
+        "action": "\"Some visitors are guards\" is false for the same reason."
+      },
+      {
+        "action": "\"All trained people are guards\" does not have to be true: a trained nurse who is neither a guard nor a visitor keeps both statements true.",
+        "why": "Statement 1 puts the guards inside the trained circle. It does not say the trained circle holds only guards."
+      },
+      {
+        "action": "\"Some trained people are not guards\" does not have to be true either: if the guards are the only trained people, both statements stay true and this choice is false.",
+        "why": "It may sound true in real life, but we may use only the statements."
+      },
+      {
+        "action": "The conclusion that must be true is \"No visitors are guards.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Some visitors are guards.": "This goes against the statements. A visitor who is a guard would have to be trained, but statement 2 says no visitor is trained. It is always false here.",
+    "All trained people are guards.": "This turns statement 1 around. Counterexample: a trained nurse who is neither a guard nor a visitor. Both statements stay true, but not all trained people are guards.",
+    "Some trained people are not guards.": "It may sound true in real life, but the statements never mention anyone trained besides the guards. Counterexample: the guards are the only trained people. Both statements stay true, and this choice is false."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

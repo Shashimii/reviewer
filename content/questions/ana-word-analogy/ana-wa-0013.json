@@ -1,0 +1,52 @@
+{
+  "id": "ana-wa-0013",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-use",
+  "difficulty": 2,
+  "stem": "Which pair has the same relationship as THERMOMETER : TEMPERATURE?",
+  "choices": [
+    "clock : alarm",
+    "scale : weight",
+    "doctor : patient",
+    "stove : kitchen"
+  ],
+  "answer": "scale : weight",
+  "hints": [
+    "What is a THERMOMETER used for?",
+    "Make a bridge sentence: \"A thermometer is used to measure temperature.\"",
+    "Test each pair in the bridge \"A ___ is used to measure ___.\" Only one pair is a tool and the thing it measures."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"A thermometer is used to measure temperature.\"",
+        "why": "Temperature is how hot or cold something is. A thermometer shows it as a number."
+      },
+      {
+        "action": "Test clock : alarm. A clock measures time, not alarm. An alarm is a sound that some clocks make."
+      },
+      {
+        "action": "Test scale : weight. \"A scale is used to measure weight\" is true.",
+        "why": "Here a scale means a weighing scale, like the one at the market or the health center."
+      },
+      {
+        "action": "Test doctor : patient. A doctor treats a patient. A doctor is a person, not a measuring tool."
+      },
+      {
+        "action": "Test stove : kitchen. A stove is found in a kitchen. A stove does not measure a kitchen."
+      },
+      {
+        "action": "The answer is scale : weight."
+      }
+    ]
+  },
+  "trapNotes": {
+    "clock : alarm": "A clock does measure something, but it measures time. An alarm is a sound, not what a clock measures.",
+    "doctor : patient": "A doctor treats a patient. A doctor is a person, not a tool, and a patient is not something measured.",
+    "stove : kitchen": "A stove is found in a kitchen. This is a thing and its place, not a tool and what it measures."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

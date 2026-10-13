@@ -1,0 +1,52 @@
+{
+  "id": "ana-wa-0004",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-meaning",
+  "difficulty": 2,
+  "stem": "Which pair has the same relationship as ABUNDANT : PLENTIFUL?",
+  "choices": [
+    "ancient : modern",
+    "fragile : glass",
+    "eager : unwilling",
+    "vacant : empty"
+  ],
+  "answer": "vacant : empty",
+  "hints": [
+    "ABUNDANT means there is a lot of something. How is it related to PLENTIFUL?",
+    "Make a bridge sentence: \"Abundant means the same as plentiful.\"",
+    "Test each pair in the bridge \"___ means the same as ___.\" Cross out opposites, and pairs where one word only describes the other."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"Abundant means the same as plentiful.\"",
+        "why": "Both words mean \"more than enough\". For example, rice is abundant after a good harvest. They are synonyms."
+      },
+      {
+        "action": "Test ancient : modern. Ancient means very old and modern means new. They are opposites, so the bridge fails."
+      },
+      {
+        "action": "Test fragile : glass. Fragile means easily broken. It describes glass, but it does not mean the same as glass."
+      },
+      {
+        "action": "Test eager : unwilling. Eager means wanting very much to do something. Unwilling is nearly the opposite, so the bridge fails."
+      },
+      {
+        "action": "Test vacant : empty. \"Vacant means the same as empty\" is true.",
+        "why": "A vacant seat or a vacant post has no one in it. It is empty."
+      },
+      {
+        "action": "The answer is vacant : empty."
+      }
+    ]
+  },
+  "trapNotes": {
+    "ancient : modern": "These words are opposites. The stem words mean the same thing, so an opposite pair does not match.",
+    "fragile : glass": "Fragile describes glass, because glass breaks easily. But a word and the thing it describes are not synonyms.",
+    "eager : unwilling": "Eager means keen to do something, and unwilling means not wanting to. They are nearly opposite, not the same."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

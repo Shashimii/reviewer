@@ -1,0 +1,47 @@
+{
+  "id": "ana-lf-0016",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-figures",
+  "difficulty": 1,
+  "stem": "Which figure comes next?\n←  |  ↑  |  →  |  ↓  |  ___",
+  "choices": [
+    "↑",
+    "↙",
+    "→",
+    "←"
+  ],
+  "answer": "←",
+  "hints": [
+    "Watch which way the arrow points. It turns the same amount each time.",
+    "Compare the 1st and 2nd arrows. The arrow made a quarter turn in the direction a clock's hands move (clockwise).",
+    "Each step is a quarter turn clockwise: left, up, right, down. Turn the last arrow (↓) one more quarter turn clockwise."
+  ],
+  "solution": {
+    "methodName": "Check one change at a time",
+    "steps": [
+      {
+        "action": "Check how the arrow turns: ← to ↑ to → to ↓.",
+        "why": "Every figure is one arrow, so only its direction changes."
+      },
+      {
+        "action": "Each step is a quarter turn (90°) clockwise, the way a clock's hands move.",
+        "why": "Picture a clock: the hand goes from 9 to 12 to 3 to 6. That is left, up, right, down."
+      },
+      {
+        "action": "Turn ↓ a quarter turn clockwise. It now points left.",
+        "why": "On the clock, after 6 comes 9 again. After a full turn, the arrow is back where it started."
+      },
+      {
+        "action": "The answer is ←."
+      }
+    ]
+  },
+  "trapNotes": {
+    "↑": "↑ points the opposite way to ↓, which is a half turn. Each step is only a quarter turn.",
+    "↙": "↙ is only an eighth of a turn (45°) from ↓. Each step in this series is a quarter turn (90°).",
+    "→": "→ is a quarter turn the wrong way (counterclockwise). The arrow has been turning clockwise: left, up, right, down."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

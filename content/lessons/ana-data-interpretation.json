@@ -1,0 +1,64 @@
+{
+  "id": "ana-data-interpretation-lesson",
+  "topicId": "ana-data-interpretation",
+  "workedExampleId": "ana-di-0001",
+  "sections": [
+    {
+      "heading": "Read the title and units first",
+      "body": "A **table** shows numbers in rows and columns. A **row** goes across, from left to right. A **column** goes down, from top to bottom. The top row is the **heading**: it names each column.\n\nBefore you look at any number, read two things:\n\n- **The title** tells you what is counted, where and when, for example *Budget of a town by sector, 2025*.\n- **The units** tell you what each number means. If the title says *(in millions of pesos)*, then 60 means ₱60 million. If it says *(in thousands of metric tons)*, then 150 means 150 × 1,000 = 150,000 metric tons.\n\nThen use the same three steps for every question:\n\n1. **Read** the title and the units.\n2. **Find** the row and the column that the question names.\n3. **Calculate**, if the question asks for it. Then add the units to your answer."
+    },
+    {
+      "heading": "Find the row, then the column",
+      "body": "Each number sits where one row meets one column. Put your finger on the row name, then move across until you are under the right column heading.\n\n**Visitors to a town library**\n\n| Visitors | Monday | Tuesday |\n| --- | ---: | ---: |\n| Adults | 24 | 30 |\n| Children | 18 | 35 |\n\nChildren on Tuesday: go to the Children row, move across to Tuesday, and read **35**.\n\n- **Largest or smallest:** read down one column only. Leave the other columns out.\n- **Second largest** means the next biggest number, not the number in the second row.\n- **More than** means bigger. If two numbers are equal, neither one is more.\n- **Two-step questions** like \"On the day with the fewest adults, how many children came?\" First find the day in the Adults row (Monday). Then read the Children row on that day (18)."
+    },
+    {
+      "heading": "Totals, differences and averages",
+      "body": "Look for the key words:\n\n| The question says | You do this |\n| --- | --- |\n| in all, total, together | add |\n| how many more, how much less | subtract |\n| average, per month, per year | add them all, then divide by how many |\n\nExample: a barangay office got 20, 35 and 26 requests in three months. Total: 20 + 35 + 26 = 81. Average: 81 ÷ 3 = **27 requests per month**.\n\n- **Count the rows** before you add a column, so you don't leave one out.\n- **Divide by the number of items**, not the number of boxes. Five years of boys and girls is still 5 years, not 10."
+    },
+    {
+      "heading": "Percent, share and change",
+      "body": "**Share (percent of a total).** A *share* is the part divided by the total. Make the bottom 100 to read it as a percent. A school has 400 students and 60 are in Grade 10: 60/400 = 15/100 = **15%**. If the table has no Total row, add all the rows first.\n\n**Percent change.** Divide the change by the **old value**, the amount before the change (the earlier year or month).\n\n- From 40 to 50: the change is 10, and 10/40 = 1/4 = a **25% increase**.\n- From 50 to 40: the change is 10, and 10/50 = 1/5 = a **20% decrease**.\n- When an amount **doubles** (30 to 60), it grows by **100%**, not 200%.\n- The biggest increase in pesos or tons is not always the biggest percent increase. A smaller starting amount gives a bigger percent.\n\n**Percentage points.** When the numbers are already percents, their difference is in *percentage points*. A rate that goes from 40% to 50% rises by 50 − 40 = **10 percentage points**. Its percent change is different: 10 ÷ 40 = 25%.\n\nNo calculator? Use friendly fractions: 1/2 = 50%, 1/4 = 25%, 1/5 = 20%, 1/8 = 12.5%, 1/10 = 10%."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Ignoring the units.** In a table \"in thousands\", 150 means 150,000.\n- **Wrong row or column.** Check the row name and the column heading again.\n- **Leaving out a row** when you add a column. Count the rows first.\n- **Dividing by the wrong number** for an average.\n- **Wrong base.** Percent change divides by the old value, not the new one. From 40 to 50 is a 25% increase, not 20%.\n- **Reading a number as a percent.** 30 in a budget table is ₱30 million, not 30%. Divide by the total first.\n- **Mixing up percentage points and percent change.** 40% to 50% is 10 points, but a 25% increase.\n- **Answering a different question.** \"Not approved\" is not \"approved\", and the increase is not the new amount."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Row",
+      "definition": "A row is a line of a table that goes across, from left to right.",
+      "taglish": "Row – pahalang na hanay sa table, mula kaliwa pakanan"
+    },
+    {
+      "term": "Column",
+      "definition": "A column is a line of a table that goes down, from top to bottom. Its name is in the heading at the top.",
+      "taglish": "Column – patayong hanay sa table, mula itaas pababa"
+    },
+    {
+      "term": "Units",
+      "definition": "The units tell you what the numbers in a table measure, such as millions of pesos or thousands of metric tons.",
+      "taglish": "Units – ang sukat ng mga numero; kung \"in thousands\", ang 150 ay 150,000"
+    },
+    {
+      "term": "Average",
+      "definition": "The average is the total of all the values divided by how many values there are.",
+      "taglish": "Average – pagsamahin lahat, tapos hatiin sa kung ilan sila"
+    },
+    {
+      "term": "Share",
+      "definition": "A share is the part of a total that one item has, often written as a percent.",
+      "taglish": "Share – bahagi ng kabuuan, kadalasang nakasulat bilang percent"
+    },
+    {
+      "term": "Percent change",
+      "definition": "Percent change is the change divided by the old value, written as a percent. It shows how much an amount went up or down.",
+      "taglish": "Percent change – laki ng pagtaas o pagbaba kumpara sa dating halaga"
+    },
+    {
+      "term": "Percentage point",
+      "definition": "A percentage point is the unit for the difference between two percents. From 40% to 50% is a rise of 10 percentage points.",
+      "taglish": "Percentage point – diperensya ng dalawang percent; mula 40% naging 50% ay tumaas ng 10 percentage points"
+    }
+  ]
+}

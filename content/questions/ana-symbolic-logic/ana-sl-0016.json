@@ -1,0 +1,51 @@
+{
+  "id": "ana-sl-0016",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-connectives",
+  "difficulty": 1,
+  "stem": "This statement is true:\n\"Ella passed the exam and Fe passed the exam.\"\n\nWhich must be true?",
+  "choices": [
+    "Ella passed, but Fe did not.",
+    "Fe passed, but Ella did not.",
+    "Both Ella and Fe passed.",
+    "At least one of them failed."
+  ],
+  "answer": "Both Ella and Fe passed.",
+  "hints": [
+    "An \"and\" statement joins two smaller statements. Think about when the whole thing can be true.",
+    "Split it: part 1 is \"Ella passed\"; part 2 is \"Fe passed\".",
+    "An \"and\" statement is true only when both parts are true. Use that to decide what each part must be, then pick the choice that matches."
+  ],
+  "solution": {
+    "methodName": "Mark each part true or false, then combine",
+    "steps": [
+      {
+        "action": "Split the statement into its two parts: \"Ella passed\" and \"Fe passed\"."
+      },
+      {
+        "action": "An \"and\" statement is true only when both parts are true.",
+        "why": "If either part were false, the whole \"and\" statement would be false. Think of a notice that says \"Bring an ID and a photo\": you must bring both."
+      },
+      {
+        "action": "The statement is true, so both parts are true: Ella passed and Fe passed."
+      },
+      {
+        "action": "\"Ella passed, but Fe did not\" and \"Fe passed, but Ella did not\" each make one part false, so they cannot be true here."
+      },
+      {
+        "action": "\"At least one of them failed\" also makes a part false, so it is false."
+      },
+      {
+        "action": "The answer is \"Both Ella and Fe passed.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Ella passed, but Fe did not.": "If Fe did not pass, the part \"Fe passed\" would be false, and the whole \"and\" statement would be false. But we are told it is true.",
+    "Fe passed, but Ella did not.": "If Ella did not pass, the part \"Ella passed\" would be false, and the whole \"and\" statement would be false. But we are told it is true.",
+    "At least one of them failed.": "This would make at least one part false. A true \"and\" statement means neither of them failed."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

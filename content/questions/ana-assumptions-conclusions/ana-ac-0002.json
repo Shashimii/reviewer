@@ -1,0 +1,49 @@
+{
+  "id": "ana-ac-0002",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-assumption",
+  "difficulty": 1,
+  "stem": "An employee says: \"Our office should open on Saturdays, because many workers in town cannot visit us on weekdays.\"\n\nWhich of these is assumed?",
+  "choices": [
+    "Opening on Saturdays will cost the office nothing.",
+    "Every worker in town is free on Saturdays.",
+    "Some of these workers can visit on a Saturday.",
+    "These workers are too lazy to visit on weekdays."
+  ],
+  "answer": "Some of these workers can visit on a Saturday.",
+  "hints": [
+    "The speaker wants Saturday hours to help workers who cannot come on weekdays. What must be true about those workers for the plan to help them?",
+    "Find the reason and the conclusion first. The reason is about weekdays, but the conclusion is about Saturdays. What links the two?",
+    "Negate every choice. If the speaker's argument still works, the choice is not assumed. Pick the one whose opposite makes Saturday hours useless."
+  ],
+  "solution": {
+    "methodName": "Negation test: deny it, and see if the argument falls apart",
+    "steps": [
+      {
+        "action": "Find the argument: open on Saturdays (conclusion), because many workers cannot visit on weekdays (reason).",
+        "why": "An argument has a reason and a conclusion. The assumption is the hidden link between them."
+      },
+      {
+        "action": "Spot the gap: the reason is about weekdays, but the plan is about Saturdays. The speaker takes for granted that these workers are free on Saturdays."
+      },
+      {
+        "action": "Negate it: \"None of these workers can visit on a Saturday.\" Then opening on Saturdays helps no one, and the argument falls apart.",
+        "why": "When the opposite of a choice breaks the argument, that choice is the assumption."
+      },
+      {
+        "action": "Negate the others. If not every worker in town is free on Saturdays, the plan can still help some. If Saturday hours cost the office something, they can still be worth it. Laziness has nothing to do with the plan."
+      },
+      {
+        "action": "The assumption is: Some of these workers can visit on a Saturday."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Opening on Saturdays will cost the office nothing.": "This is too strong. Saturday hours may cost something, such as staff pay, and still be worth it. Negate it: if opening costs the office something, the argument still works.",
+    "Every worker in town is free on Saturdays.": "This is too broad. The plan only needs some of these workers to be free on Saturdays, not every worker in town.",
+    "These workers are too lazy to visit on weekdays.": "The speaker says the workers cannot visit, not that they will not. This adds a judgment that is not in the statement, and the argument does not need it."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ana-wa-0012",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-use",
+  "difficulty": 1,
+  "stem": "SCISSORS : CUT :: BROOM : ___",
+  "choices": [
+    "floor",
+    "wash",
+    "sweep",
+    "dirt"
+  ],
+  "answer": "sweep",
+  "hints": [
+    "What do you do with SCISSORS?",
+    "Make a bridge sentence: \"Scissors are used to cut.\"",
+    "Now say: \"A broom is used to ___.\" Test each choice. Choose an action, not a place or a thing."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Read the line SCISSORS : CUT :: BROOM : ___ as \"Scissors is to cut as broom is to what?\"",
+        "why": "The single colon ( : ) means \"is to\". The double colon ( :: ) means \"as\". So the line asks: what is a broom to, the way scissors are to cut?"
+      },
+      {
+        "action": "Make a bridge sentence for the first pair: \"Scissors are used to cut.\"",
+        "why": "A bridge sentence is a short sentence that shows exactly how the two words are linked. Here the first word is a tool and the second word is what you do with it."
+      },
+      {
+        "action": "Put the second pair into the same bridge: \"A broom is used to ___.\"",
+        "why": "In an analogy, both pairs must have the same link. So the same sentence must be true for both pairs."
+      },
+      {
+        "action": "Test floor. \"A broom is used to floor\" makes no sense. The floor is where you use a broom."
+      },
+      {
+        "action": "Test wash. \"A broom is used to wash\" is false. You wash with water and soap."
+      },
+      {
+        "action": "Test sweep. \"A broom is used to sweep\" is true."
+      },
+      {
+        "action": "Test dirt. \"A broom is used to dirt\" makes no sense. Dirt is what a broom sweeps away.",
+        "why": "Test every choice, even after you find one that fits. This protects you from picking a word that is only connected to brooms."
+      },
+      {
+        "action": "The answer is sweep."
+      }
+    ]
+  },
+  "trapNotes": {
+    "floor": "The floor is where you use a broom, not what you do with it. The bridge needs an action.",
+    "wash": "Washing is a cleaning action, but you do it with water and soap, not with a broom.",
+    "dirt": "Dirt is what the broom removes. It is connected to brooms, but it is not the action."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

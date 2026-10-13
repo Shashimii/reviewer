@@ -1,0 +1,48 @@
+{
+  "id": "ana-ac-0016",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-conclusion",
+  "difficulty": 2,
+  "stem": "Facts:\n1. On a Monday morning, the city asked 200 commuters at the Central Terminal how they get to work.\n2. 150 of them said they ride a jeepney.\n3. The other 50 said they ride a bus.\n\nWhich conclusion follows from the facts?",
+  "choices": [
+    "Most commuters asked at the terminal ride a jeepney.",
+    "Most people in the whole city ride a jeepney to work.",
+    "Commuters choose jeepneys because the fare is lower.",
+    "More jeepneys than buses pass through the terminal."
+  ],
+  "answer": "Most commuters asked at the terminal ride a jeepney.",
+  "hints": [
+    "Notice who was asked: 200 commuters at one terminal on one morning.",
+    "Is 150 out of 200 more than half? Half of 200 is 100.",
+    "Keep only the choice that stays with the group that was asked and the facts given. Throw out choices that stretch the result to everyone, or that give reasons and counts the facts never mention."
+  ],
+  "solution": {
+    "methodName": "Facts-only test: keep only what the facts prove",
+    "steps": [
+      {
+        "action": "Half of 200 is 100. 150 is more than 100, so most of the commuters asked ride a jeepney."
+      },
+      {
+        "action": "Notice the limits: only 200 people at one terminal on one morning were asked.",
+        "why": "A survey tells you about the people who were asked. It cannot prove what everyone in the city does."
+      },
+      {
+        "action": "So the conclusion must stay with the people asked: most commuters asked at the terminal ride a jeepney to work."
+      },
+      {
+        "action": "Check the others. The whole city was not asked. No one was asked why they choose a jeepney. The number of vehicles was never counted."
+      },
+      {
+        "action": "The conclusion that follows: Most commuters asked at the terminal ride a jeepney."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Most people in the whole city ride a jeepney to work.": "This is too broad. Only 200 people at one terminal were asked. People who work from home, walk or drive were not part of the survey.",
+    "Commuters choose jeepneys because the fare is lower.": "This may be true in real life, but the commuters were not asked why. Fares are outside knowledge.",
+    "More jeepneys than buses pass through the terminal.": "The survey counted people, not vehicles. One jeepney can carry many of the commuters who were asked."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

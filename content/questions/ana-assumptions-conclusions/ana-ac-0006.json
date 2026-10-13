@@ -1,0 +1,48 @@
+{
+  "id": "ana-ac-0006",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-assumption",
+  "difficulty": 2,
+  "stem": "The city plans to give free bus rides to senior citizens so that more of them will go to the health center for check-ups.\n\nWhich of these is assumed by the plan?",
+  "choices": [
+    "Most seniors in the city are sick and need care.",
+    "The health center will have to hire more doctors.",
+    "Seniors visit the health center more than younger people.",
+    "Travel costs keep some seniors from going for check-ups."
+  ],
+  "answer": "Travel costs keep some seniors from going for check-ups.",
+  "hints": [
+    "A plan assumes that its action will lead to its goal. Here the action is free bus rides and the goal is more check-ups.",
+    "Ask: why would free rides make more seniors visit? Think about what might be stopping some of them now.",
+    "Negate each choice. If the plan would still make sense, that choice is not assumed. Keep the one whose opposite means free rides would change nothing."
+  ],
+  "solution": {
+    "methodName": "Negation test: deny it, and see if the argument falls apart",
+    "steps": [
+      {
+        "action": "Find the plan: free bus rides (action) so that more seniors get check-ups (goal)."
+      },
+      {
+        "action": "Spot the gap: free rides only lead to more visits if the cost of getting there now keeps some seniors away.",
+        "why": "If cost is not a problem for anyone, making the ride free would not change how many seniors come."
+      },
+      {
+        "action": "Negate it: \"Travel costs keep no senior from going for check-ups.\" Then free rides would not bring more seniors, and the plan falls apart."
+      },
+      {
+        "action": "Check the rest. Healthy seniors also need check-ups, so they need not be sick. Hiring more doctors might happen later, but the plan does not depend on it. How often younger people visit has nothing to do with the plan."
+      },
+      {
+        "action": "The assumption is: Travel costs keep some seniors from going for check-ups."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Most seniors in the city are sick and need care.": "This is too broad, and the plan does not need it. Check-ups are for healthy people too. If most seniors are well, the plan still makes sense.",
+    "The health center will have to hire more doctors.": "This might happen if many more seniors come, but it is a possible result of the plan, not something the plan depends on.",
+    "Seniors visit the health center more than younger people.": "This compares seniors with younger people, which the plan never does. Negate it, and the reason for free rides is unchanged."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

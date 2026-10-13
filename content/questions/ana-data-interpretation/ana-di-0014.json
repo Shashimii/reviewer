@@ -1,0 +1,49 @@
+{
+  "id": "ana-di-0014",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-totals",
+  "difficulty": 2,
+  "passage": "**Rice harvest of four provinces by season, 2025** (in thousands of metric tons)\n\n| Province | Wet season | Dry season |\n| --- | ---: | ---: |\n| Province P | 100 | 60 |\n| Province Q | 50 | 70 |\n| Province R | 45 | 35 |\n| Province S | 25 | 15 |",
+  "stem": "For the four provinces together, how much more rice was harvested in the wet season than in the dry season?",
+  "choices": [
+    "40,000 metric tons",
+    "40 metric tons",
+    "400,000 metric tons",
+    "30,000 metric tons"
+  ],
+  "answer": "40,000 metric tons",
+  "hints": [
+    "Read the title: the numbers are in thousands of metric tons. You need a total for each season.",
+    "Add the Wet season column, then add the Dry season column.",
+    "Subtract the dry season total from the wet season total. Then change thousands of metric tons into metric tons."
+  ],
+  "solution": {
+    "methodName": "Find the values, then add or subtract",
+    "steps": [
+      {
+        "action": "Add the Wet season column: 100 + 50 + 45 + 25 = 220."
+      },
+      {
+        "action": "Add the Dry season column: 60 + 70 + 35 + 15 = 180."
+      },
+      {
+        "action": "Subtract: 220 − 180 = 40.",
+        "why": "\"How much more\" means find the difference."
+      },
+      {
+        "action": "Use the units in the title: 40 thousand metric tons = 40 × 1,000 = 40,000 metric tons."
+      },
+      {
+        "action": "The wet season harvest was 40,000 metric tons more than the dry season harvest."
+      }
+    ]
+  },
+  "trapNotes": {
+    "40 metric tons": "The difference is 40, but the table is in thousands of metric tons. 40 thousand is 40,000 metric tons.",
+    "400,000 metric tons": "This adds the two totals (220 + 180 = 400). \"How much more\" means subtract.",
+    "30,000 metric tons": "This leaves out Province S (25 and 15). Add all four rows in each column."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

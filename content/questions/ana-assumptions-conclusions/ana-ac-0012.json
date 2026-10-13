@@ -1,0 +1,47 @@
+{
+  "id": "ana-ac-0012",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-conclusion",
+  "difficulty": 1,
+  "stem": "Facts:\n1. Applicants for a business permit must submit Form A and Form B.\n2. An application is complete only when all required forms are in.\n3. Joel has submitted Form A but not Form B.\n\nWhich conclusion follows from the facts?",
+  "choices": [
+    "Joel forgot to bring his copy of Form B.",
+    "Joel's permit application will be turned down.",
+    "Most applicants hand in only Form A at first.",
+    "Joel's application is not yet complete."
+  ],
+  "answer": "Joel's application is not yet complete.",
+  "hints": [
+    "Look at the rule for a complete application, then look at what Joel has done.",
+    "Joel is missing one of the required forms. What does fact 2 say about that?",
+    "Keep only the choice that must be true from the facts. Throw out choices that guess a reason, predict the future, or talk about other applicants."
+  ],
+  "solution": {
+    "methodName": "Facts-only test: keep only what the facts prove",
+    "steps": [
+      {
+        "action": "Fact 1: both Form A and Form B are required."
+      },
+      {
+        "action": "Fact 3: Joel has submitted Form A but not Form B."
+      },
+      {
+        "action": "Fact 2: an application is complete only when all required forms are in. Form B is missing, so Joel's application is not complete."
+      },
+      {
+        "action": "Check the others. The facts give no reason why Form B is missing. Joel may still hand it in, so being turned down is only possible. Nothing is said about other applicants."
+      },
+      {
+        "action": "The conclusion that follows: Joel's application is not yet complete."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Joel forgot to bring his copy of Form B.": "This guesses a reason the facts never give. Joel may not have the form yet, or may still be filling it out.",
+    "Joel's permit application will be turned down.": "This is merely possible. Joel may still hand in Form B and complete his application.",
+    "Most applicants hand in only Form A at first.": "The facts are only about Joel. They say nothing about what other applicants do."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

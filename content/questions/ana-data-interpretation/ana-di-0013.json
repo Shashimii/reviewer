@@ -1,0 +1,48 @@
+{
+  "id": "ana-di-0013",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-read",
+  "difficulty": 1,
+  "passage": "**Rice harvest of four provinces by season, 2025** (in thousands of metric tons)\n\n| Province | Wet season | Dry season |\n| --- | ---: | ---: |\n| Province P | 100 | 60 |\n| Province Q | 50 | 70 |\n| Province R | 45 | 35 |\n| Province S | 25 | 15 |",
+  "stem": "In which province was the dry season harvest bigger than the wet season harvest?",
+  "choices": [
+    "Province P",
+    "Province Q",
+    "Province R",
+    "Province S"
+  ],
+  "answer": "Province Q",
+  "hints": [
+    "Look across each row. Compare the Wet season number with the Dry season number.",
+    "In most rows the wet season number is bigger. Look for the row where the dry season number is bigger.",
+    "Check all four provinces, one row at a time, and find the one row where the Dry season number is bigger."
+  ],
+  "solution": {
+    "methodName": "Read the title and units, then find the row and column",
+    "steps": [
+      {
+        "action": "Province P: wet 100, dry 60. Wet is bigger."
+      },
+      {
+        "action": "Province Q: wet 50, dry 70. Dry is bigger."
+      },
+      {
+        "action": "Province R: wet 45, dry 35. Wet is bigger."
+      },
+      {
+        "action": "Province S: wet 25, dry 15. Wet is bigger."
+      },
+      {
+        "action": "Only Province Q had a bigger dry season harvest."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Province P": "P has the biggest wet season harvest (100), but its dry season harvest (60) is smaller than that.",
+    "Province R": "The two numbers for R are close, but the wet season (45) is still bigger than the dry season (35).",
+    "Province S": "S has the smallest harvest in both seasons. Its wet season (25) is still bigger than its dry season (15)."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

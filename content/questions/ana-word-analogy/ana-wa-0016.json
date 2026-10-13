@@ -1,0 +1,55 @@
+{
+  "id": "ana-wa-0016",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-use",
+  "difficulty": 3,
+  "stem": "AUDITOR : ACCOUNTS :: PROOFREADER : ___",
+  "choices": [
+    "authors",
+    "publishers",
+    "manuscripts",
+    "dictionaries"
+  ],
+  "answer": "manuscripts",
+  "hints": [
+    "An AUDITOR is a worker who checks records. What does an auditor do with ACCOUNTS?",
+    "Make a bridge sentence: \"An auditor checks accounts for errors.\"",
+    "Now say: \"A proofreader checks ___ for errors.\" A proofreader reads written work to catch mistakes before it is printed. Cross out the people and the tools."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"An auditor checks accounts for errors.\"",
+        "why": "Accounts are records of money received and spent. An auditor examines them to find mistakes. The second word is the thing the worker checks."
+      },
+      {
+        "action": "Use the same bridge: \"A proofreader checks ___ for errors.\"",
+        "why": "A proofreader reads written work to catch spelling, grammar and typing mistakes before it is printed."
+      },
+      {
+        "action": "Test authors. An author writes the text. A proofreader checks the writing, not the person."
+      },
+      {
+        "action": "Test publishers. A publisher may hire a proofreader. A proofreader does not check publishers."
+      },
+      {
+        "action": "Test manuscripts. A manuscript is a written text before it is printed. \"A proofreader checks manuscripts for errors\" is true."
+      },
+      {
+        "action": "Test dictionaries. A proofreader may use a dictionary to check spelling. That makes it a tool, not the work being checked."
+      },
+      {
+        "action": "The answer is manuscripts."
+      }
+    ]
+  },
+  "trapNotes": {
+    "authors": "Authors write the manuscripts. A proofreader checks their writing, not the authors themselves.",
+    "publishers": "A publisher may employ a proofreader. This is an employer and worker, not a worker and the thing checked.",
+    "dictionaries": "A proofreader uses a dictionary as a tool. But in the stem, accounts are what an auditor checks, not a tool the auditor uses."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

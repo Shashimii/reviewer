@@ -1,0 +1,46 @@
+{
+  "id": "ana-wa-0022",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-cause-degree",
+  "difficulty": 1,
+  "stem": "JOKE : LAUGHTER :: INSULT : ___",
+  "choices": [
+    "smile",
+    "words",
+    "friend",
+    "anger"
+  ],
+  "answer": "anger",
+  "hints": [
+    "What usually happens when someone hears a good JOKE?",
+    "Make a bridge sentence: \"A joke causes laughter.\"",
+    "Now say: \"An insult causes ___.\" An insult is a rude remark that hurts someone's feelings. Pick the usual result."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"A joke causes laughter.\"",
+        "why": "The first word is the cause and the second word is the effect, or result."
+      },
+      {
+        "action": "Use the same bridge: \"An insult causes ___.\"",
+        "why": "An insult is a rude remark meant to hurt someone's feelings."
+      },
+      {
+        "action": "Test each choice. An insult usually causes anger. A smile is a result of a joke, not of an insult. Words are what an insult is made of, and a friend is a person, not a result."
+      },
+      {
+        "action": "The answer is anger."
+      }
+    ]
+  },
+  "trapNotes": {
+    "smile": "A smile is a result of a joke, like laughter. An insult does not usually make people smile.",
+    "words": "An insult is made of words, so the words come first. The bridge needs the result of an insult.",
+    "friend": "A friend is a person, not a result. Insults usually push friends away."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

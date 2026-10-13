@@ -1,0 +1,45 @@
+{
+  "id": "ana-wa-0023",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-cause-degree",
+  "difficulty": 1,
+  "stem": "WARM : HOT :: COOL : ___",
+  "choices": [
+    "shade",
+    "cold",
+    "fresh",
+    "wet"
+  ],
+  "answer": "cold",
+  "hints": [
+    "Both WARM and HOT describe heat. Which one is stronger?",
+    "Make a bridge sentence: \"Warm is a mild form of hot.\"",
+    "Now say: \"Cool is a mild form of ___.\" Pick the word that means very cool. Cross out opposites."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"Warm is a mild form of hot.\"",
+        "why": "Warm and hot describe the same thing, heat, but hot is much stronger. This is a degree relationship."
+      },
+      {
+        "action": "Use the same bridge: \"Cool is a mild form of ___.\""
+      },
+      {
+        "action": "Test each choice. Cool is a mild form of cold. Shade is a place, and fresh and wet are not stronger forms of cool."
+      },
+      {
+        "action": "The answer is cold."
+      }
+    ]
+  },
+  "trapNotes": {
+    "shade": "Shade can make a place cool, but shade is a place, not a stronger degree of cool.",
+    "fresh": "Cool air can feel fresh, but fresh is not a stronger degree of cool. It describes something new or clean.",
+    "wet": "Wet is about water, not temperature. It is not a stronger degree of cool."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

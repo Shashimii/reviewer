@@ -1,0 +1,55 @@
+{
+  "id": "ana-sl-0008",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-syllogism",
+  "difficulty": 3,
+  "stem": "Assume these two statements are true:\n1. No managers are trainees.\n2. Some trainees are graduates.\n\nBased only on these statements, which conclusion must be true?",
+  "choices": [
+    "Some graduates are not managers.",
+    "No graduates are managers.",
+    "Some managers are not graduates.",
+    "Some graduates are managers."
+  ],
+  "answer": "Some graduates are not managers.",
+  "hints": [
+    "Begin with statement 2: at least one trainee is a graduate. What does statement 1 say about that person?",
+    "Draw the managers circle completely apart from the trainees circle. Then put a person in the overlap of the trainees and graduates circles.",
+    "Say what you know about that person, starting with the word \"graduate\". Watch the order of the groups: \"Some A are not B\" and \"Some B are not A\" are different claims. Try a counterexample for every other choice."
+  ],
+  "solution": {
+    "methodName": "Draw circles, then look for a counterexample",
+    "steps": [
+      {
+        "action": "Statement 2: at least one trainee is a graduate. Call him Tom."
+      },
+      {
+        "action": "Statement 1: the managers circle and the trainees circle do not touch. Tom is a trainee, so Tom is not a manager.",
+        "why": "Anyone inside the trainees circle is outside the managers circle."
+      },
+      {
+        "action": "Tom is a graduate who is not a manager. So \"Some graduates are not managers\" must be true."
+      },
+      {
+        "action": "\"Some managers are not graduates\" swaps the groups. If the only manager is Gina, and she is a graduate, both statements stay true but this choice is false.",
+        "why": "Tom tells us about a graduate, not about the managers. With \"some ... are not\", the order of the groups matters."
+      },
+      {
+        "action": "\"No graduates are managers\" does not have to be true: Gina is a graduate and a manager, and she is not a trainee, so both statements stay true."
+      },
+      {
+        "action": "\"Some graduates are managers\" does not have to be true either: if the only manager is Mark, who is not a graduate, both statements stay true and no graduate is a manager."
+      },
+      {
+        "action": "The answer is \"Some graduates are not managers.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "No graduates are managers.": "The statements only keep the trainees away from the managers. Counterexample: Gina is a graduate and a manager, but not a trainee. Both statements stay true, so this choice does not have to be true.",
+    "Some managers are not graduates.": "This swaps the order of the groups. We know a graduate (Tom) who is not a manager, not a manager who is not a graduate. Counterexample: the only manager is Gina, who is a graduate. Both statements stay true, but this choice is false.",
+    "Some graduates are managers.": "Nothing forces a graduate to be a manager. Counterexample: the only manager is Mark, who is not a graduate. Both statements stay true, and this choice is false."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

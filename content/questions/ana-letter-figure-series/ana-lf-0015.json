@@ -1,0 +1,45 @@
+{
+  "id": "ana-lf-0015",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-figures",
+  "difficulty": 1,
+  "stem": "Which figure comes next?\n◆◆◆◆◆  |  ◆◆◆◆  |  ◆◆◆  |  ___",
+  "choices": [
+    "◆◆◆",
+    "◆◆",
+    "◇◇",
+    "◆"
+  ],
+  "answer": "◆◆",
+  "hints": [
+    "Count the shapes in each figure.",
+    "The figures have 5, 4 and 3 black diamonds. Does the number go up or down, and by how much?",
+    "One diamond is taken away each time, and the shape stays a black diamond. Take one away from the last figure."
+  ],
+  "solution": {
+    "methodName": "Check one change at a time",
+    "steps": [
+      {
+        "action": "Check the shape: every figure uses black diamonds (◆).",
+        "why": "Check one thing at a time. The shape never changes, so the next figure also uses ◆."
+      },
+      {
+        "action": "Count the diamonds in each figure: 5, 4, 3."
+      },
+      {
+        "action": "The count goes down by 1 each time, so the next figure has 3 − 1 = 2 diamonds."
+      },
+      {
+        "action": "The next figure is 2 black diamonds. The answer is ◆◆."
+      }
+    ]
+  },
+  "trapNotes": {
+    "◆◆◆": "This repeats the last figure. The count changes every step (5, 4, 3), so it must go down again.",
+    "◇◇": "The count is right, but these are white diamonds (◇). Every figure uses black diamonds (◆).",
+    "◆": "This has 1 diamond, which is two steps ahead (3, then 2, then 1). The question asks only for the next figure."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

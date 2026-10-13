@@ -1,0 +1,52 @@
+{
+  "id": "ana-sl-0011",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-conditional",
+  "difficulty": 1,
+  "stem": "Consider this rule:\nIf a form is complete, it is accepted.\n\nWhich statement means exactly the same as this rule?",
+  "choices": [
+    "If a form is not accepted, it is not complete.",
+    "If a form is accepted, it is complete.",
+    "If a form is not complete, it is not accepted.",
+    "If a form is complete, it is not accepted."
+  ],
+  "answer": "If a form is not accepted, it is not complete.",
+  "hints": [
+    "Only one way of rewriting an if-then rule keeps its meaning. It swaps the two parts and puts \"not\" in both.",
+    "Name the parts. If-part: the form is complete. Then-part: it is accepted.",
+    "Swap the if-part and the then-part, and put \"not\" in both. Find the choice that makes both moves. Swapping without \"not\", or adding \"not\" without swapping, changes the meaning."
+  ],
+  "solution": {
+    "methodName": "Go forward, or flip and negate both parts",
+    "steps": [
+      {
+        "action": "Name the parts. If-part (p): the form is complete. Then-part (q): it is accepted."
+      },
+      {
+        "action": "The contrapositive swaps the parts and puts \"not\" in both: if not q, then not p. Here: if a form is not accepted, it is not complete.",
+        "why": "If every complete form is accepted, then a form that was not accepted cannot be complete. Both rules forbid the same thing: a complete form that is not accepted."
+      },
+      {
+        "action": "\"If a form is accepted, it is complete\" only swaps the parts. This is the converse, and it is not the same.",
+        "why": "The rule allows an incomplete form to be accepted too. The converse would forbid that."
+      },
+      {
+        "action": "\"If a form is not complete, it is not accepted\" only adds \"not\". This is the inverse. It is not the same either, for the same reason."
+      },
+      {
+        "action": "\"If a form is complete, it is not accepted\" goes against the rule."
+      },
+      {
+        "action": "The answer is \"If a form is not accepted, it is not complete.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "If a form is accepted, it is complete.": "This is the converse: it only swaps the parts. The rule never says incomplete forms are refused. Counterexample: an incomplete form is accepted. The rule stays true, but this statement is false.",
+    "If a form is not complete, it is not accepted.": "This is the inverse: it only adds \"not\". The rule says what happens to complete forms, not to incomplete ones. Counterexample: an incomplete form is accepted. The rule stays true, but this statement is false.",
+    "If a form is complete, it is not accepted.": "This says the opposite of the rule's then-part. Any complete form would break it, so it cannot mean the same thing."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ana-lf-0019",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-figures",
+  "difficulty": 2,
+  "stem": "Which figure comes next?\n→  |  ↗  |  ↑  |  ↖  |  ___",
+  "choices": [
+    "↙",
+    "←",
+    "↑",
+    "↘"
+  ],
+  "answer": "←",
+  "hints": [
+    "The arrow turns a little each time. Check which way it turns and by how much.",
+    "From → to ↗ is an eighth of a turn (45°) against the way a clock's hands move (counterclockwise).",
+    "Each step is an eighth of a turn counterclockwise: right, up-right, up, up-left. Turn ↖ one more eighth of a turn the same way."
+  ],
+  "solution": {
+    "methodName": "Check one change at a time",
+    "steps": [
+      {
+        "action": "Check how the arrow turns: → to ↗ to ↑ to ↖."
+      },
+      {
+        "action": "Each step is an eighth of a turn (45°) counterclockwise, the opposite way to a clock's hands.",
+        "why": "Going around counterclockwise in eighths: →, ↗, ↑, ↖, ←, ↙, ↓, ↘. The series moves along this list one arrow at a time."
+      },
+      {
+        "action": "Turn ↖ one more eighth of a turn counterclockwise. It now points straight left."
+      },
+      {
+        "action": "The answer is ←."
+      }
+    ]
+  },
+  "trapNotes": {
+    "↙": "↙ is two eighths (a quarter turn) from ↖. Each step in this series is only one eighth of a turn (45°).",
+    "↑": "↑ turns back the way it came (clockwise). The arrow keeps turning counterclockwise: →, ↗, ↑, ↖, then ←.",
+    "↘": "↘ points the opposite way to ↖, which is a half turn. Each step is only an eighth of a turn."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

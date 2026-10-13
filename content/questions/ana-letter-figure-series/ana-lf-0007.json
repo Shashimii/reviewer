@@ -1,0 +1,50 @@
+{
+  "id": "ana-lf-0007",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-letters",
+  "difficulty": 3,
+  "stem": "What letter goes in the blank? A, Y, D, V, ___, S, J",
+  "choices": [
+    "G",
+    "F",
+    "P",
+    "H"
+  ],
+  "answer": "G",
+  "hints": [
+    "The letters jump between the start and the end of the alphabet. Two series may be taking turns.",
+    "Split the letters by place. Odd places: A, D, ___, J. Even places: Y, V, S.",
+    "Write the odd-place letters as numbers: A = 1, D = 4, J = 10. Find the step from A to D, then check that the blank plus the same step gives J."
+  ],
+  "solution": {
+    "methodName": "Change letters to numbers, then find the rule",
+    "steps": [
+      {
+        "action": "Split the series by place. Odd places (1st, 3rd, 5th, 7th): A, D, ___, J. Even places (2nd, 4th, 6th): Y, V, S.",
+        "why": "The blank is the 5th letter, an odd place, so it belongs to the first series."
+      },
+      {
+        "action": "Even places as numbers: Y = 25, V = 22, S = 19. The rule is −3.",
+        "why": "A steady rule here shows the split is right."
+      },
+      {
+        "action": "Odd places as numbers: A = 1, D = 4. The step is 4 − 1 = 3, so the rule is +3."
+      },
+      {
+        "action": "Apply +3 to D: 4 + 3 = 7 = G."
+      },
+      {
+        "action": "Check with the next odd-place letter: 7 + 3 = 10 = J, which matches. The answer is G.",
+        "why": "A blank in the middle must fit both the letter before it and the letter after it."
+      }
+    ]
+  },
+  "trapNotes": {
+    "F": "F is D + 2. Then F + 2 = H, not J. The step is 3 (A to D), and the blank must lead to J.",
+    "P": "P is S − 3, the next letter of the Y, V, S series. But the blank is in the 5th place, which belongs to the A, D, ___, J series.",
+    "H": "H is D + 4. Then H + 4 = L, not J. The step from A to D is 3, not 4."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

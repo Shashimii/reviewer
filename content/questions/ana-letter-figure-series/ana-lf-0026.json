@@ -1,0 +1,49 @@
+{
+  "id": "ana-lf-0026",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-odd",
+  "difficulty": 3,
+  "stem": "Which group does NOT belong with the others?",
+  "choices": [
+    "KNQ",
+    "CFJ",
+    "QTW",
+    "PSV"
+  ],
+  "answer": "CFJ",
+  "hints": [
+    "The letters in each group are spread out. Check how many places apart they are.",
+    "Write KNQ as numbers: K = 11, N = 14, Q = 17. Find the steps.",
+    "In three groups, each letter is 3 places after the one before it. Check every step in every group, and find the group with a different step."
+  ],
+  "solution": {
+    "methodName": "Find the rule three of them share",
+    "steps": [
+      {
+        "action": "Write each group as numbers. KNQ = 11, 14, 17. CFJ = 3, 6, 10. QTW = 17, 20, 23. PSV = 16, 19, 22."
+      },
+      {
+        "action": "Check the steps in KNQ: 14 − 11 = 3 and 17 − 14 = 3. The rule is +3.",
+        "why": "Each letter skips two letters: K (skip L, M) N (skip O, P) Q."
+      },
+      {
+        "action": "Check QTW: 20 − 17 = 3 and 23 − 20 = 3. Check PSV: 19 − 16 = 3 and 22 − 19 = 3. Both follow +3."
+      },
+      {
+        "action": "Check CFJ: 6 − 3 = 3, but 10 − 6 = 4. The second step is 4.",
+        "why": "Count on from F: G, H, I. Three places after F is I, not J."
+      },
+      {
+        "action": "CFJ breaks the rule. The answer is CFJ."
+      }
+    ]
+  },
+  "trapNotes": {
+    "KNQ": "If you count K as 10, KNQ looks uneven. But J = 10, so K = 11, and KNQ is 11, 14, 17: each step is 3.",
+    "QTW": "If you count Q as 16, QTW looks uneven. But Q is three before T = 20, so Q = 17, and QTW is 17, 20, 23: each step is 3.",
+    "PSV": "If you count P as 15, PSV looks uneven. But O = 15, so P = 16, and PSV is 16, 19, 22: each step is 3."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

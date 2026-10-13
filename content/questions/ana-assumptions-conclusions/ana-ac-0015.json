@@ -1,0 +1,48 @@
+{
+  "id": "ana-ac-0015",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-conclusion",
+  "difficulty": 2,
+  "stem": "Facts:\n1. The evacuation center can hold 300 people.\n2. Sitio Malinis has 120 families, with an average of 4 people per family.\n3. During a strong typhoon, all residents of Sitio Malinis must go to an evacuation center.\n\nWhich conclusion follows from the facts?",
+  "choices": [
+    "The sitio will need exactly two evacuation centers.",
+    "Most families in the sitio have exactly 4 members.",
+    "A strong typhoon will hit Sitio Malinis this year.",
+    "The center cannot hold all of the sitio's residents."
+  ],
+  "answer": "The center cannot hold all of the sitio's residents.",
+  "hints": [
+    "An average of 4 people per family lets you find the total number of residents.",
+    "Multiply the number of families by the average: 120 × 4.",
+    "Compare the total number of residents with what the center can hold. Then throw out choices that need facts you were not given, or that misread what an average means."
+  ],
+  "solution": {
+    "methodName": "Facts-only test: keep only what the facts prove",
+    "steps": [
+      {
+        "action": "Find the total number of residents: 120 families × 4 people = 480 people.",
+        "why": "Multiplying an average by the number of families gives the total, even though each family may have a different size."
+      },
+      {
+        "action": "Compare: 480 people need shelter, but the center holds only 300."
+      },
+      {
+        "action": "480 is more than 300, so the center cannot hold all of the sitio's residents."
+      },
+      {
+        "action": "Check the others. The facts do not say how big other centers are, so \"exactly two\" is not supported. An average of 4 does not mean most families have exactly 4. Nothing says a typhoon will come this year."
+      },
+      {
+        "action": "The conclusion that follows: The center cannot hold all of the sitio's residents."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The sitio will need exactly two evacuation centers.": "Other evacuation centers may be bigger or smaller than this one. The facts do not say how many centers the sitio will need.",
+    "Most families in the sitio have exactly 4 members.": "An average is not the most common size. Families of 2 and 6 also average 4. The facts do not tell you how many families have exactly 4.",
+    "A strong typhoon will hit Sitio Malinis this year.": "The facts only say what residents must do if a strong typhoon comes. They never say one will come this year."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

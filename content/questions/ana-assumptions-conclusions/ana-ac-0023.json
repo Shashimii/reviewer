@@ -1,0 +1,46 @@
+{
+  "id": "ana-ac-0023",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-inference",
+  "difficulty": 2,
+  "passage": "**Municipal Agriculture Office price watch**\n\nThis week, the price of red onions at the public market rose from ₱120 to ₱180 a kilo. Last week's typhoon flooded many onion farms in the north. Market inspectors counted 12 onion stalls open this week, down from 20 last month. The price rise was most likely caused by the farm damage. One shopper told inspectors that paying ₱180 for a kilo of onions is simply unfair. The office will keep checking prices every Monday.",
+  "stem": "Which statement from the price watch is an inference?",
+  "choices": [
+    "This week, red onions rose from ₱120 to ₱180 a kilo.",
+    "Last week's typhoon flooded many onion farms in the north.",
+    "The price rise was most likely caused by the farm damage.",
+    "Paying ₱180 for a kilo of onions is simply unfair."
+  ],
+  "answer": "The price rise was most likely caused by the farm damage.",
+  "hints": [
+    "An inference explains or predicts something by reasoning from facts. It often uses words like \"likely\" or \"probably.\"",
+    "First mark the choices that report something that was seen, counted or recorded.",
+    "Set aside the choices that report what was seen or counted, and the one that judges something as fair or unfair. The inference is the one that reasons about why something happened."
+  ],
+  "solution": {
+    "methodName": "Checked, reasoned or judged?",
+    "steps": [
+      {
+        "action": "The onion price and the flooded farms are facts. Prices can be checked at the market, and the floods were seen and reported."
+      },
+      {
+        "action": "\"Paying ₱180 is simply unfair\" is the shopper's opinion. \"Unfair\" is a judgment."
+      },
+      {
+        "action": "\"The price rise was most likely caused by the farm damage\" links two facts as cause and effect. No one checked this link; the writer reasoned it out.",
+        "why": "Prices can rise for other reasons too, such as fewer stalls or higher fuel costs. Saying which cause is behind it is an inference."
+      },
+      {
+        "action": "The inference is: The price rise was most likely caused by the farm damage."
+      }
+    ]
+  },
+  "trapNotes": {
+    "This week, red onions rose from ₱120 to ₱180 a kilo.": "This is a fact. Inspectors can check the price at the market and compare it with last week's price.",
+    "Last week's typhoon flooded many onion farms in the north.": "This is a fact about what happened. It is part of the writer's reasoning, but the flooding itself was seen and reported, not guessed.",
+    "Paying ₱180 for a kilo of onions is simply unfair.": "This is the shopper's opinion. \"Unfair\" is a judgment that others may not share."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

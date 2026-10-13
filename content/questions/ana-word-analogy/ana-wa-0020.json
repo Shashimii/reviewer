@@ -1,0 +1,52 @@
+{
+  "id": "ana-wa-0020",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-category",
+  "difficulty": 2,
+  "stem": "Which pair has the same relationship as TAGALOG : LANGUAGE?",
+  "choices": [
+    "currency : peso",
+    "Manila : Luzon",
+    "adobo : dish",
+    "rice : farmer"
+  ],
+  "answer": "adobo : dish",
+  "hints": [
+    "TAGALOG is one of the many languages spoken in the Philippines. Is it a kind of language, or a part of one?",
+    "Make a bridge sentence: \"Tagalog is a kind of language.\"",
+    "Test each pair in the same order: \"___ is a kind of ___.\" The specific thing must come first and the group second."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"Tagalog is a kind of language.\"",
+        "why": "Language is the group. Tagalog is one member, along with Cebuano, Ilocano and many others."
+      },
+      {
+        "action": "Test currency : peso. The peso is a kind of currency, but here the group comes first. The order is reversed."
+      },
+      {
+        "action": "Test Manila : Luzon. Manila is a city located in Luzon. It is a part of Luzon, not a kind of Luzon."
+      },
+      {
+        "action": "Test adobo : dish. \"Adobo is a kind of dish\" is true.",
+        "why": "A dish is a prepared food served at a meal. Adobo, sinigang and kare-kare are all dishes."
+      },
+      {
+        "action": "Test rice : farmer. A farmer grows rice. Rice is not a kind of farmer."
+      },
+      {
+        "action": "The answer is adobo : dish."
+      }
+    ]
+  },
+  "trapNotes": {
+    "currency : peso": "The peso is a kind of currency (the money used in a country), so the link is right but the order is reversed. The stem puts the specific thing first.",
+    "Manila : Luzon": "Manila is a city inside Luzon. This is a part and its whole, not a kind and its group.",
+    "rice : farmer": "A farmer grows rice. This is a product and its producer, not a kind and its group."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ana-ac-0018",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-conclusion",
+  "difficulty": 3,
+  "stem": "Facts:\n1. All staff who work at the front desk must wear a name tag.\n2. Some staff of the cashier's section also work at the front desk.\n3. Everyone in the cashier's section has finished the customer service course.\n\nWhich conclusion follows from the facts?",
+  "choices": [
+    "All staff who wear a name tag work in the cashier's section.",
+    "Everyone at the front desk has finished the customer service course.",
+    "Some cashier staff do not have to wear a name tag.",
+    "Some staff who must wear a name tag have finished the course."
+  ],
+  "answer": "Some staff who must wear a name tag have finished the course.",
+  "hints": [
+    "Follow the people who belong to two groups at once: the cashier staff who also work at the front desk.",
+    "What do facts 1 and 3 each tell you about those cashier staff at the front desk?",
+    "Keep only the choice that must be true for the people you can trace through the facts. Be careful with \"all\" and \"everyone\": the facts tell you about only some of the front desk staff."
+  ],
+  "solution": {
+    "methodName": "Facts-only test: keep only what the facts prove",
+    "steps": [
+      {
+        "action": "Fact 2: some cashier staff also work at the front desk. Focus on these people."
+      },
+      {
+        "action": "Fact 1: everyone at the front desk must wear a name tag. So these cashier staff must wear a name tag."
+      },
+      {
+        "action": "Fact 3: everyone in the cashier's section has finished the course. So these same people have finished the course."
+      },
+      {
+        "action": "So some staff who must wear a name tag have finished the course.",
+        "why": "The cashier staff at the front desk belong to both groups, so they link the two facts."
+      },
+      {
+        "action": "Check the others. Front desk staff from other sections may not have taken the course. Staff from other sections may wear name tags too. And nothing says any cashier staff are free from wearing a tag.",
+        "why": "\"Some\" means at least one. It does not tell you that the rest are different."
+      },
+      {
+        "action": "The conclusion that follows: Some staff who must wear a name tag have finished the course."
+      }
+    ]
+  },
+  "trapNotes": {
+    "All staff who wear a name tag work in the cashier's section.": "This turns fact 1 around and stretches it. Name tags are required at the front desk, and staff from other sections may work there too.",
+    "Everyone at the front desk has finished the customer service course.": "This is too broad. Only the cashier staff are known to have finished the course. Other front desk staff may not have.",
+    "Some cashier staff do not have to wear a name tag.": "This is merely possible. \"Some\" means at least one, not \"only some.\" The facts never say that any cashier staff are free from wearing a tag."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

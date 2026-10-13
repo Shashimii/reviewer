@@ -1,0 +1,59 @@
+{
+  "id": "ana-sl-0007",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-syllogism",
+  "difficulty": 3,
+  "stem": "Assume these three statements are true:\n1. All auditors are accountants.\n2. No accountants are lawyers.\n3. Some lawyers are professors.\n\nBased only on these statements, which conclusion must be true?",
+  "choices": [
+    "No professors are accountants.",
+    "Some lawyers are auditors.",
+    "Some of the accountants are professors.",
+    "Some professors are not auditors."
+  ],
+  "answer": "Some professors are not auditors.",
+  "hints": [
+    "Start with the person in statement 3, the lawyer who is a professor. Follow that one person through the other statements.",
+    "Statement 2 tells you this lawyer is not an accountant. Now use statement 1: every auditor is an accountant.",
+    "If someone is not an accountant, can that person be an auditor? Decide what you know for sure about the professor who is a lawyer, then try to break each other choice with a counterexample."
+  ],
+  "solution": {
+    "methodName": "Draw circles, then look for a counterexample",
+    "steps": [
+      {
+        "action": "Statement 3: at least one lawyer is a professor. Call her Pia."
+      },
+      {
+        "action": "Statement 2: no accountant is a lawyer. Pia is a lawyer, so Pia is not an accountant.",
+        "why": "The accountants circle and the lawyers circle do not touch. Anyone inside the lawyers circle is outside the accountants circle."
+      },
+      {
+        "action": "Statement 1: every auditor is an accountant. Pia is not an accountant, so Pia cannot be an auditor.",
+        "why": "The auditors circle sits inside the accountants circle. Anyone outside the accountants circle is also outside the auditors circle."
+      },
+      {
+        "action": "Pia is a professor who is not an auditor. So \"Some professors are not auditors\" must be true."
+      },
+      {
+        "action": "\"No professors are accountants\" does not have to be true: add Andy, an accountant and professor who is not a lawyer. All three statements stay true.",
+        "why": "We only know that the professors who are lawyers are not accountants. Other professors could be accountants."
+      },
+      {
+        "action": "\"Some lawyers are auditors\" is false: a lawyer who is an auditor would also be an accountant, but no accountant is a lawyer."
+      },
+      {
+        "action": "\"Some of the accountants are professors\" does not have to be true: if the only professor is Pia, no accountant is a professor, and all three statements stay true."
+      },
+      {
+        "action": "The answer is \"Some professors are not auditors.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "No professors are accountants.": "We only know that the professors who are lawyers are not accountants. Counterexample: Andy is an accountant and a professor but not a lawyer. All three statements stay true, but this choice is false.",
+    "Some lawyers are auditors.": "This goes against the statements. A lawyer who is an auditor would also be an accountant (statement 1), but no accountant is a lawyer (statement 2). It is always false here.",
+    "Some of the accountants are professors.": "Nothing links the accountants to the professors. Counterexample: the only professor is Pia, who is a lawyer. All three statements stay true, but no accountant is a professor."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

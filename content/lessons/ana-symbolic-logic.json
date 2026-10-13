@@ -1,0 +1,73 @@
+{
+  "id": "ana-symbolic-logic-lesson",
+  "topicId": "ana-symbolic-logic",
+  "workedExampleId": "ana-sl-0001",
+  "sections": [
+    {
+      "heading": "The one test: must it be true?",
+      "body": "Logic questions give you some **statements**, also called **premises**. A premise is a fact you must accept as true, even if it sounds odd. You then pick the **conclusion**, the statement that **must** follow from them.\n\nA conclusion must be true only if there is **no way** to keep every premise true and make the conclusion false.\n\nTo test a choice, look for a **counterexample**: a small made-up situation where every premise is true but the choice is false. If you can build one, the choice is wrong.\n\nUse only the statements given. Real-life knowledge does not count."
+    },
+    {
+      "heading": "All, some and no: draw circles",
+      "body": "A **syllogism** is a set of \"all\", \"some\" or \"no\" statements followed by a conclusion. Picture each group as a circle:\n\n| Statement | Circle sketch |\n| --- | --- |\n| All A are B | The A circle sits **inside** the B circle |\n| No A are B | The two circles **do not touch** |\n| Some A are B | The circles **overlap**, with at least one person in the overlap |\n| Some A are not B | At least one A is **outside** the B circle |\n\n**\"Some\" means \"at least one\"**, and it could even be all of them.\n\n**Example.** All nurses are health workers. All health workers are vaccinated. The nurses circle sits inside health workers, which sits inside vaccinated, so **all nurses are vaccinated**. But \"all vaccinated people are nurses\" does not follow: a vaccinated farmer keeps both premises true.\n\nFor a \"some\" statement, give the person in the overlap a name and follow that person through the other statements."
+    },
+    {
+      "heading": "If-then statements",
+      "body": "A **conditional** is an if-then statement: \"if p, then q\". p is the **if-part** and q is the **then-part**.\n\nRule: If the power goes out, the elevator stops.\n\n| You know | You conclude | Valid? |\n| --- | --- | --- |\n| The power goes out | The elevator stops | **Yes** (modus ponens) |\n| The elevator did not stop | The power did not go out | **Yes** (contrapositive) |\n| The elevator stopped | The power went out | **No** (affirming the consequent) |\n| The power did not go out | The elevator did not stop | **No** (denying the antecedent) |\n\n**Modus ponens** means moving forward: the if-part happened, so the then-part happens. The last two rows fail because the elevator could stop for another reason, like repairs.\n\nThe **contrapositive**, \"if not q, then not p\", always means the same as the rule. The **converse**, \"if q, then p\", does not."
+    },
+    {
+      "heading": "And, or, not",
+      "body": "A **connective** is a word that joins small statements into a **compound statement**. Logic writes them as symbols; the exam uses words.\n\n| Words | Symbol | The compound is true when... |\n| --- | --- | --- |\n| not p | ¬p | p is false |\n| p and q | p ∧ q | both parts are true |\n| p or q | p ∨ q | at least one part is true (both is fine) |\n| if p, then q | p → q | every case except p true and q false |\n\n**Method:** mark each small part T (true) or F (false), then combine.\n\n**Example.** The jeep is full (T). It is raining (F). \"The jeep is full or it is raining\" is T or F: **true**. \"The jeep is full and it is raining\" is T and F: **false**.\n\nTo deny an \"and\": \"not (p and q)\" means \"not p, **or** not q\"."
+    },
+    {
+      "heading": "Ordering and seating",
+      "body": "1. Rewrite every clue with one word. \"Nestor is younger than Mara\" becomes \"Mara is older than Nestor\".\n2. Draw a line (oldest to youngest) or numbered seats. Place the clues that give an exact spot first.\n3. If a clue allows two options, such as \"sits at one end\", work out **each case**.\n4. The answer must be true in **every** case. Two people the clues never compare can be in either order.\n\n**Example.** Lino is older than Mara. Nestor is younger than Mara. Line: Lino, Mara, Nestor. So Lino is older than Nestor."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Turning \"all\" around.** All clerks are employees does not mean all employees are clerks.\n- **Reading \"some are\" as \"some are not\".** \"Some drivers sing\" does not mean some drivers don't.\n- **A shared middle group.** All A are B and some B are C: the C's may all be outside A.\n- **Swapping the order in \"some ... are not\".** Some A are not B is a different claim from some B are not A.\n- **Going backward on an if-then.** A stopped elevator does not prove the power went out.\n- **A false if-part.** When the if-part is false, the rule tells you nothing about the then-part.\n- **\"Or\" as \"one but not both\".** In logic, \"p or q\" is still true when both parts are true.\n- **\"Could be\" is not \"must be\".** Always try for a counterexample."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Premise",
+      "definition": "A statement you are given and must accept as true when you reason.",
+      "taglish": "Premise – ibinigay na pahayag na tatanggapin mong totoo, kahit kakaiba pakinggan"
+    },
+    {
+      "term": "Conclusion",
+      "definition": "A statement that is claimed to follow from the premises.",
+      "taglish": "Conclusion – ang hinuha o resulta na dapat lumabas mula sa mga premise"
+    },
+    {
+      "term": "Counterexample",
+      "definition": "A situation where all the premises are true but a choice is false. It proves the choice does not have to be true.",
+      "taglish": "Counterexample – halimbawang sitwasyon na totoo lahat ng premise pero mali ang choice, kaya hindi ito \"must be true\""
+    },
+    {
+      "term": "Syllogism",
+      "definition": "A set of \"all\", \"some\" or \"no\" statements followed by a conclusion.",
+      "taglish": "Syllogism – mga pahayag na may \"all\", \"some\" o \"no\" na sinusundan ng conclusion; i-drawing bilang mga bilog"
+    },
+    {
+      "term": "Conditional",
+      "definition": "An if-then statement: \"if p, then q\". It promises that whenever p happens, q happens.",
+      "taglish": "Conditional – pahayag na \"kung p, then q\"; tuwing mangyari ang p, mangyayari ang q"
+    },
+    {
+      "term": "Contrapositive",
+      "definition": "\"If not q, then not p\". It always means the same as \"if p, then q\".",
+      "taglish": "Contrapositive – baligtarin ang dalawang bahagi at lagyan pareho ng \"not\"; pareho pa rin ang ibig sabihin"
+    },
+    {
+      "term": "Converse",
+      "definition": "\"If q, then p\". It swaps the parts and does not mean the same as the original rule.",
+      "taglish": "Converse – pinagpalit lang ang dalawang bahagi; iba na ang ibig sabihin, kaya bitag ito"
+    },
+    {
+      "term": "Connective",
+      "definition": "A word such as \"and\", \"or\", \"not\" or \"if-then\" that joins small statements into a compound statement.",
+      "taglish": "Connective – salitang nagdudugtong ng mga pahayag, gaya ng \"and\", \"or\", \"not\""
+    }
+  ]
+}

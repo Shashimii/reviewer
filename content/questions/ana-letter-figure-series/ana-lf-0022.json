@@ -1,0 +1,46 @@
+{
+  "id": "ana-lf-0022",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-odd",
+  "difficulty": 1,
+  "stem": "Which group does NOT belong with the others?",
+  "choices": [
+    "CDE",
+    "RST",
+    "JKM",
+    "NOP"
+  ],
+  "answer": "JKM",
+  "hints": [
+    "Check whether the letters in each group come one right after another in the alphabet.",
+    "C, D, E come one after another. Check the other groups the same way.",
+    "Three groups use 3 letters in a row with no gaps. Find the group that skips a letter."
+  ],
+  "solution": {
+    "methodName": "Find the rule three of them share",
+    "steps": [
+      {
+        "action": "Check CDE: C, D, E come one after another. No letter is skipped.",
+        "why": "In odd-one-out items, look for a rule that three choices share and one breaks."
+      },
+      {
+        "action": "Check RST and NOP: R, S, T and N, O, P also come one after another."
+      },
+      {
+        "action": "Check JKM: J, K, then L is skipped before M.",
+        "why": "J = 10, K = 11, M = 13. The jump from 11 to 13 is 2, not 1."
+      },
+      {
+        "action": "Three groups follow the rule \"three letters in a row\". JKM breaks it. The answer is JKM."
+      }
+    ]
+  },
+  "trapNotes": {
+    "CDE": "C, D, E come one right after another (3, 4, 5), so CDE follows the rule.",
+    "RST": "RST may look odd because its letters are near the end of the alphabet, but where a group sits does not matter. R, S, T come one after another (18, 19, 20), so it follows the rule.",
+    "NOP": "NOP may stand out because it holds the vowel O, but CDE also has a vowel (E). N, O, P come one after another (14, 15, 16), so it follows the rule."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

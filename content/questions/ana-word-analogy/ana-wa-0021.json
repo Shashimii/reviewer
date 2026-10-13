@@ -1,0 +1,52 @@
+{
+  "id": "ana-wa-0021",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-category",
+  "difficulty": 3,
+  "stem": "Which pair has the same relationship as ANGER : EMOTION?",
+  "choices": [
+    "honesty : virtue",
+    "smile : happiness",
+    "fear : courage",
+    "tears : grief"
+  ],
+  "answer": "honesty : virtue",
+  "hints": [
+    "These words are ideas, not objects. Is ANGER a kind of EMOTION, a sign of it, or its opposite?",
+    "Make a bridge sentence: \"Anger is a kind of emotion.\" An emotion is a strong feeling.",
+    "Test each pair in the bridge \"___ is a kind of ___.\" Cross out pairs where the first word is only a sign of a feeling, or its opposite."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"Anger is a kind of emotion.\"",
+        "why": "An emotion is a strong feeling. Anger, joy, fear and sadness are all kinds of emotion."
+      },
+      {
+        "action": "Test honesty : virtue. \"Honesty is a kind of virtue\" is true.",
+        "why": "A virtue is a good quality in a person, like honesty, patience or courage."
+      },
+      {
+        "action": "Test smile : happiness. A smile is a sign that a person is happy. A smile is not a kind of happiness."
+      },
+      {
+        "action": "Test fear : courage. Fear and courage are nearly opposite. Fear is not a kind of courage."
+      },
+      {
+        "action": "Test tears : grief. Tears can be a sign of grief, or deep sadness. Tears are not a kind of grief."
+      },
+      {
+        "action": "The answer is honesty : virtue."
+      }
+    ]
+  },
+  "trapNotes": {
+    "smile : happiness": "A smile shows happiness on the face. This is a sign and the feeling, not a kind and its group.",
+    "fear : courage": "Fear is an emotion, so this pair looks close. But courage is not the group that fear belongs to. The two are nearly opposite.",
+    "tears : grief": "Tears can show grief, a deep sadness. Like the smile pair, this is a sign of a feeling, not a kind of it."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

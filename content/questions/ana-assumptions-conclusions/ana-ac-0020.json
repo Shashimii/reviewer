@@ -1,0 +1,46 @@
+{
+  "id": "ana-ac-0020",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-inference",
+  "difficulty": 1,
+  "passage": "**City Engineering Office advisory**\n\nRepair work on Rizal Street will start on Monday and is set to last 10 days. During the repair work, only one lane will be open. The office has posted traffic aides at both ends of the street. A jeepney driver told reporters that closing a lane on school days is a terrible idea. Since one lane will carry all the traffic, trips along Rizal Street will likely take longer than usual. Motorists may use Mabini Street instead.",
+  "stem": "Which statement from the advisory is an opinion?",
+  "choices": [
+    "Closing a lane on school days is a terrible idea.",
+    "Only one lane will be open during the repair work.",
+    "Trips along Rizal Street will likely take longer than usual.",
+    "Repair work on Rizal Street is set to last 10 days."
+  ],
+  "answer": "Closing a lane on school days is a terrible idea.",
+  "hints": [
+    "An opinion tells what someone thinks or feels. It cannot be proven true or false.",
+    "Look for judging words such as good, bad, best, terrible or unfair.",
+    "For each choice, ask: can it be checked, is it a likely guess from the facts, or is it a personal judgment? Choose the personal judgment."
+  ],
+  "solution": {
+    "methodName": "Checked, reasoned or judged?",
+    "steps": [
+      {
+        "action": "\"Only one lane will be open\" and \"set to last 10 days\" can be checked against the office's work plan. They are facts."
+      },
+      {
+        "action": "\"Trips will likely take longer\" is an inference. The writer reasons from one lane carrying all the traffic.",
+        "why": "\"Likely\" is a clue word for a reasoned guess. It is based on facts but not yet proven."
+      },
+      {
+        "action": "\"Closing a lane on school days is a terrible idea\" is the driver's judgment. \"Terrible\" shows a feeling, and others may disagree."
+      },
+      {
+        "action": "The opinion is: Closing a lane on school days is a terrible idea."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Only one lane will be open during the repair work.": "This is a fact. It can be checked by looking at the street or at the office's work plan.",
+    "Trips along Rizal Street will likely take longer than usual.": "This is an inference. The writer reasons from a fact (one lane for all the traffic) to a likely result. It uses \"likely,\" not a judging word.",
+    "Repair work on Rizal Street is set to last 10 days.": "This is a fact about the work schedule. It can be checked against the office's plan."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

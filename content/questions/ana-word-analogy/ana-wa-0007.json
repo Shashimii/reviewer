@@ -1,0 +1,46 @@
+{
+  "id": "ana-wa-0007",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-part-whole",
+  "difficulty": 1,
+  "stem": "PAGE : BOOK :: PETAL : ___",
+  "choices": [
+    "leaf",
+    "garden",
+    "flower",
+    "stem"
+  ],
+  "answer": "flower",
+  "hints": [
+    "How is a PAGE related to a BOOK?",
+    "Make a bridge sentence: \"A page is one part of a book.\"",
+    "Now say: \"A petal is one part of a ___.\" Test each choice. Pick the thing that a petal belongs to directly."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"A page is one part of a book.\"",
+        "why": "A book is made of many pages. The page is the part and the book is the whole."
+      },
+      {
+        "action": "Use the same bridge: \"A petal is one part of a ___.\"",
+        "why": "A petal is one of the soft, colored pieces around the center of a flower."
+      },
+      {
+        "action": "Test each choice. A petal is one part of a flower. It is not part of a leaf or a stem, and a garden is a place where flowers grow."
+      },
+      {
+        "action": "The answer is flower."
+      }
+    ]
+  },
+  "trapNotes": {
+    "leaf": "A leaf is another part of a plant. A petal is not a part of a leaf, so the bridge fails.",
+    "garden": "A garden is a place where flowers grow. A petal belongs to a flower, not directly to a garden.",
+    "stem": "The stem is another part of the plant: the stalk that holds the flower up. A petal is not part of the stem."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

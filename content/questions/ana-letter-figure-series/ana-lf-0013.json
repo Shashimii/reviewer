@@ -1,0 +1,42 @@
+{
+  "id": "ana-lf-0013",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-codes",
+  "difficulty": 2,
+  "stem": "If A = 1, B = 2, C = 3 and so on up to Z = 26, the code of a word is the sum of its letters. For example, BAD = 2 + 1 + 4 = 7. What is the code of TOY?",
+  "choices": [
+    "59",
+    "61",
+    "60",
+    "45"
+  ],
+  "answer": "60",
+  "hints": [
+    "All three letters of TOY are anchor letters: E = 5, J = 10, O = 15, T = 20, Y = 25.",
+    "Write T, O and Y as numbers.",
+    "T = 20, O = 15 and Y = 25. Add the three numbers."
+  ],
+  "solution": {
+    "methodName": "Write each letter as its number",
+    "steps": [
+      {
+        "action": "Write each letter as a number: T = 20, O = 15, Y = 25.",
+        "why": "The anchors go up by 5: E = 5, J = 10, O = 15, T = 20, Y = 25. Only Z = 26 comes after Y."
+      },
+      {
+        "action": "Add the numbers: 20 + 15 = 35, then 35 + 25 = 60."
+      },
+      {
+        "action": "The code of TOY is 60."
+      }
+    ]
+  },
+  "trapNotes": {
+    "45": "This adds only T and Y (20 + 25). The code adds every letter, so include O = 15.",
+    "59": "This counts O as 14, the number for N. O is an anchor letter: O = 15.",
+    "61": "This counts Y as 26, the number for Z. Y = 25 and Z = 26."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

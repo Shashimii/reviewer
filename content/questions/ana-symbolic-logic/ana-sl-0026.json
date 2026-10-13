@@ -1,0 +1,56 @@
+{
+  "id": "ana-sl-0026",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-ordering",
+  "difficulty": 3,
+  "stem": "Five runners finished a race with no ties.\n- Nico finished before Kiko.\n- Kiko finished before Lea.\n- Mon finished after Lea.\n- Odi finished after Nico but before Lea.\n\nWhich must be true?",
+  "choices": [
+    "Lea finished fourth.",
+    "Kiko finished second.",
+    "Odi finished third.",
+    "Mon finished fourth."
+  ],
+  "answer": "Lea finished fourth.",
+  "hints": [
+    "\"Before\" means a better place. Find who must be first and who must be last.",
+    "Nico is before Kiko and before Odi, and both of them are before Lea. Lea is before Mon.",
+    "Place the runners whose spots are fixed, then look for two runners the clues never compare with each other. A choice about their order does not have to be true."
+  ],
+  "solution": {
+    "methodName": "Line them up, then test every case",
+    "steps": [
+      {
+        "action": "List who finished before whom: Nico before Kiko; Nico before Odi; Kiko before Lea; Odi before Lea; Lea before Mon."
+      },
+      {
+        "action": "Nico is before Kiko and Odi, and they are both before Lea, who is before Mon. So Nico is first.",
+        "why": "Every other runner finished after Nico, either directly or through a chain of clues."
+      },
+      {
+        "action": "Lea comes after Nico, Kiko and Odi, so three runners are ahead of her. Mon comes after Lea. So Lea is fourth and Mon is fifth.",
+        "why": "Three runners ahead means fourth place, and only Mon is left behind her."
+      },
+      {
+        "action": "Kiko and Odi take second and third, but the clues never compare Kiko with Odi. Either order works.",
+        "why": "Both are only said to be after Nico and before Lea."
+      },
+      {
+        "action": "\"Kiko finished second\" and \"Odi finished third\" do not have to be true: the order Nico, Odi, Kiko, Lea, Mon fits every clue, with Odi second and Kiko third."
+      },
+      {
+        "action": "\"Mon finished fourth\" is false: Mon finished after Lea, so Mon is fifth."
+      },
+      {
+        "action": "The answer is \"Lea finished fourth.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Kiko finished second.": "This is possible but not certain. Counterexample: Nico, Odi, Kiko, Lea, Mon. Every clue holds, and Kiko is third.",
+    "Odi finished third.": "This is possible but not certain. Counterexample: Nico, Odi, Kiko, Lea, Mon. Every clue holds, and Odi is second.",
+    "Mon finished fourth.": "Mon finished after Lea, and Lea already has three runners ahead of her. So Mon is fifth, not fourth."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

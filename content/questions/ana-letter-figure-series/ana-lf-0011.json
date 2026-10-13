@@ -1,0 +1,49 @@
+{
+  "id": "ana-lf-0011",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-codes",
+  "difficulty": 2,
+  "stem": "In a code, A is written as Z, B as Y, C as X, and so on. How is BOX written in this code?",
+  "choices": [
+    "YMC",
+    "YLC",
+    "XOB",
+    "CPY"
+  ],
+  "answer": "YLC",
+  "hints": [
+    "The code swaps each letter with the letter in the same place counting from the end of the alphabet.",
+    "Each letter and its code add up to 27: A (1) + Z (26) = 27. So the code number is 27 minus the letter's number.",
+    "Write B, O and X as numbers, take each one away from 27, and change the results back to letters."
+  ],
+  "solution": {
+    "methodName": "Compare each letter with its code",
+    "steps": [
+      {
+        "action": "Find the rule: A (1) and Z (26), B (2) and Y (25), C (3) and X (24) each add up to 27.",
+        "why": "Each letter swaps with its opposite: the letter the same distance from the other end of the alphabet."
+      },
+      {
+        "action": "B = 2, so its code is 27 − 2 = 25 = Y."
+      },
+      {
+        "action": "O = 15, so its code is 27 − 15 = 12 = L.",
+        "why": "O = 15 is an anchor letter. 12 is two after J = 10: K = 11, L = 12."
+      },
+      {
+        "action": "X = 24, so its code is 27 − 24 = 3 = C."
+      },
+      {
+        "action": "Join the letters in order: Y, L, C. The answer is YLC."
+      }
+    ]
+  },
+  "trapNotes": {
+    "YMC": "YMC codes O as M (13). But 15 + 13 = 28, not 27. The opposite of O is L (12).",
+    "XOB": "XOB just writes BOX backward. The code swaps each letter for its opposite in the alphabet, not the order of the letters.",
+    "CPY": "CPY moves each letter forward by 1. In this code, A becomes Z, the other end of the alphabet, not the next letter."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,48 @@
+{
+  "id": "ana-ac-0005",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-assumption",
+  "difficulty": 2,
+  "stem": "A section head says: \"Complaints at our office fell by half after we put in a queue number machine in March. The machine is clearly the reason for the drop.\"\n\nWhich of these is assumed?",
+  "choices": [
+    "No other change in March could explain the drop.",
+    "Fewer complaints led the office to buy the machine.",
+    "The machine will stop every complaint at the office.",
+    "The office should buy machines for its other branches."
+  ],
+  "answer": "No other change in March could explain the drop.",
+  "hints": [
+    "The head says one thing caused another. When an argument claims a cause, ask: could something else explain the result?",
+    "Split the argument into two parts: what happened (complaints fell after the machine came) and what the head concludes (the machine caused it).",
+    "Negate each choice. A choice is assumed only if its opposite makes \"the machine is clearly the reason\" fall apart. Check the order of events too: which came first?"
+  ],
+  "solution": {
+    "methodName": "Negation test: deny it, and see if the argument falls apart",
+    "steps": [
+      {
+        "action": "Split the argument: the fact is that complaints fell after the machine came in; the conclusion is that the machine caused the drop."
+      },
+      {
+        "action": "Spot the gap: one thing happening after another does not prove that the first caused the second. The head takes for granted that nothing else changed.",
+        "why": "Maybe new staff joined, or fewer clients came. The head ignores these, so the argument depends on them not being true."
+      },
+      {
+        "action": "Negate it: \"Another change in March could explain the drop.\" Then the machine is not clearly the reason, and the argument falls apart."
+      },
+      {
+        "action": "Check the rest. The machine came before the drop, so the drop could not have led to buying it. \"Every complaint\" goes far beyond \"fell by half.\" Other branches are not part of this argument."
+      },
+      {
+        "action": "The assumption is: No other change in March could explain the drop."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Fewer complaints led the office to buy the machine.": "This reverses cause and effect. The machine came first, in March, and the drop came after. A later drop cannot be the reason for an earlier purchase.",
+    "The machine will stop every complaint at the office.": "This is too broad. Complaints fell by half, not to zero. The argument does not need the machine to stop every complaint.",
+    "The office should buy machines for its other branches.": "This goes beyond the argument. The head is only explaining the drop at this office, not making a plan for other branches."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ana-di-0021",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-totals",
+  "difficulty": 3,
+  "passage": "**Building permit applications at a town engineering office, January to April 2025**\n\n| Month | Received | Approved |\n| --- | ---: | ---: |\n| January | 40 | 30 |\n| February | 50 | 40 |\n| March | 60 | 45 |\n| April | 80 | 72 |",
+  "stem": "Each application was either approved or turned down in the same month it was received. From January to April, how many of the applications received were not approved?",
+  "choices": [
+    "43",
+    "35",
+    "187",
+    "230"
+  ],
+  "answer": "43",
+  "hints": [
+    "For each month, the applications not approved are the ones received minus the ones approved.",
+    "Find the number not approved in each month, January to April.",
+    "Add the four monthly numbers. To check, add each column, then subtract the Approved total from the Received total."
+  ],
+  "solution": {
+    "methodName": "Find the values, then add or subtract",
+    "steps": [
+      {
+        "action": "January: 40 − 30 = 10 not approved."
+      },
+      {
+        "action": "February: 50 − 40 = 10 not approved."
+      },
+      {
+        "action": "March: 60 − 45 = 15 not approved."
+      },
+      {
+        "action": "April: 80 − 72 = 8 not approved."
+      },
+      {
+        "action": "Add: 10 + 10 + 15 + 8 = 43.",
+        "why": "Check with the column totals: 230 received − 187 approved = 43."
+      },
+      {
+        "action": "43 applications were not approved."
+      }
+    ]
+  },
+  "trapNotes": {
+    "35": "This leaves out April (8). Add all four months, January to April.",
+    "187": "This is the total number approved (30 + 40 + 45 + 72). The question asks for the ones not approved.",
+    "230": "This is the total number received. Subtract the approved ones to find how many were not approved."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

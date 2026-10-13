@@ -1,0 +1,46 @@
+{
+  "id": "ana-wa-0001",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-meaning",
+  "difficulty": 1,
+  "stem": "BEGIN : START :: END : ___",
+  "choices": [
+    "open",
+    "finish",
+    "continue",
+    "pause"
+  ],
+  "answer": "finish",
+  "hints": [
+    "Look at how BEGIN and START are related. Do they mean the same thing or opposite things?",
+    "Make a bridge sentence: \"Begin means the same as start.\"",
+    "Use the same bridge for the second pair: \"End means the same as ___.\" Try each choice in the blank and keep the one that makes a true sentence."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence for the first pair: \"Begin means the same as start.\"",
+        "why": "BEGIN and START are synonyms: words with the same meaning. When you begin a task, you start it."
+      },
+      {
+        "action": "Use the same bridge for the second pair: \"End means the same as ___.\""
+      },
+      {
+        "action": "Test each choice. \"End means the same as finish\" is true. Open, continue and pause do not mean end.",
+        "why": "When you end a meeting, you finish it. Open goes with begin, continue means keep going, and pause means stop for a short time only."
+      },
+      {
+        "action": "The answer is finish."
+      }
+    ]
+  },
+  "trapNotes": {
+    "open": "Open goes with begin and start, not with end. The bridge needs a word that means the same as END.",
+    "continue": "Continue means to keep going, which is almost the opposite of end. The bridge needs the same meaning, not the opposite.",
+    "pause": "A pause is a short stop before you go on again. To end something is to stop it for good, so pause does not mean the same as end."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

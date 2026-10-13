@@ -1,0 +1,50 @@
+{
+  "id": "ana-di-0009",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-totals",
+  "difficulty": 2,
+  "passage": "**Business permit applications received by a town office, January to May 2025**\n\n| Month | New | Renewal |\n| --- | ---: | ---: |\n| January | 35 | 120 |\n| February | 40 | 60 |\n| March | 25 | 45 |\n| April | 30 | 30 |\n| May | 50 | 20 |",
+  "stem": "What is the average number of new applications per month from January to May?",
+  "choices": [
+    "45",
+    "36",
+    "55",
+    "26"
+  ],
+  "answer": "36",
+  "hints": [
+    "Use only the New column. Count how many months there are from January to May.",
+    "Add the five numbers in the New column: 35 + 40 + 25 + 30 + 50.",
+    "Divide the total by the number of months, 5."
+  ],
+  "solution": {
+    "methodName": "Average = total ÷ number of values",
+    "steps": [
+      {
+        "action": "Find the New column: 35, 40, 25, 30 and 50."
+      },
+      {
+        "action": "Add them: 35 + 40 + 25 + 30 + 50 = 180.",
+        "why": "Add in easy pairs: 35 + 25 = 60 and 40 + 30 = 70. Then 60 + 70 + 50 = 180."
+      },
+      {
+        "action": "Count the months: January to May is 5 months."
+      },
+      {
+        "action": "Divide: 180 ÷ 5 = 36.",
+        "why": "An easy way to divide by 5: double the number, then divide by 10. 180 × 2 = 360, and 360 ÷ 10 = 36."
+      },
+      {
+        "action": "The average is 36 new applications per month."
+      }
+    ]
+  },
+  "trapNotes": {
+    "26": "This uses a total of 130, which leaves out May (50). Add all five months before you divide.",
+    "45": "This divides 180 by 4. January to May is 5 months, so divide by 5.",
+    "55": "This is the average of the Renewal column (275 ÷ 5). The question asks about new applications."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ana-wa-0003",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-meaning",
+  "difficulty": 2,
+  "stem": "Which pair has the same relationship as GENEROUS : STINGY?",
+  "choices": [
+    "honest : truthful",
+    "tired : sleepy",
+    "brave : cowardly",
+    "strong : muscle"
+  ],
+  "answer": "brave : cowardly",
+  "hints": [
+    "First decide: do GENEROUS and STINGY mean the same thing, or opposite things?",
+    "Make a bridge sentence: \"Generous is the opposite of stingy.\" A stingy person does not like to share.",
+    "Put each pair into the bridge: \"___ is the opposite of ___.\" Cross out pairs whose words mean nearly the same, and pairs that are only loosely related."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"Generous is the opposite of stingy.\"",
+        "why": "A generous person shares freely. A stingy person does not like to share. Their meanings are opposite."
+      },
+      {
+        "action": "Test honest : truthful. \"Honest is the opposite of truthful\" is false. The two words mean the same."
+      },
+      {
+        "action": "Test tired : sleepy. \"Tired is the opposite of sleepy\" is false. The two words are close in meaning."
+      },
+      {
+        "action": "Test brave : cowardly. \"Brave is the opposite of cowardly\" is true.",
+        "why": "A cowardly person is easily scared and runs from danger. That is the opposite of brave."
+      },
+      {
+        "action": "Test strong : muscle. \"Strong is the opposite of muscle\" makes no sense. Muscles are what make a person strong."
+      },
+      {
+        "action": "The answer is brave : cowardly."
+      }
+    ]
+  },
+  "trapNotes": {
+    "honest : truthful": "These words mean the same thing (synonyms). The stem pair has opposite meanings, so a same-meaning pair does not match.",
+    "tired : sleepy": "Tired and sleepy often go together and are close in meaning. They are not opposites like generous and stingy.",
+    "strong : muscle": "Muscles help make a person strong, so these words are related. But the link is not \"opposite of\"."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

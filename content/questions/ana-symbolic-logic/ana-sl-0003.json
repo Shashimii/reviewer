@@ -1,0 +1,53 @@
+{
+  "id": "ana-sl-0003",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-syllogism",
+  "difficulty": 1,
+  "stem": "In one office, this statement is true:\nSome engineers are choir members.\n\nBased only on this statement, which must also be true?",
+  "choices": [
+    "Some engineers are not choir members.",
+    "All choir members are engineers.",
+    "Some choir members are engineers.",
+    "No engineers are choir members."
+  ],
+  "answer": "Some choir members are engineers.",
+  "hints": [
+    "In logic, \"some\" means \"at least one\". It says nothing about the rest of the group.",
+    "Draw an engineers circle and a choir circle that overlap. Put at least one person in the overlap.",
+    "Read the overlap from both sides: the person there belongs to both groups. Then, for each other choice, try to draw a picture where the statement is true but the choice is false."
+  ],
+  "solution": {
+    "methodName": "Draw circles, then look for a counterexample",
+    "steps": [
+      {
+        "action": "\"Some engineers are choir members\" means at least one person is both an engineer and a choir member. Draw two overlapping circles and put that person, call her Joy, in the overlap.",
+        "why": "\"Some\" only promises at least one. It could be one person, a few, or even all of them."
+      },
+      {
+        "action": "Joy is a choir member, and Joy is an engineer. So at least one choir member is an engineer: \"Some choir members are engineers\" must be true.",
+        "why": "The overlap belongs to both circles, so you can read it starting from either group."
+      },
+      {
+        "action": "\"Some engineers are not choir members\" does not have to be true: if every engineer in the office sings in the choir, the statement is still true.",
+        "why": "\"Some are\" does not mean \"some are not.\" The statement says nothing about engineers outside the choir."
+      },
+      {
+        "action": "\"All choir members are engineers\" does not have to be true: a choir member who is an accountant keeps the statement true."
+      },
+      {
+        "action": "\"No engineers are choir members\" is false, because Joy is both."
+      },
+      {
+        "action": "The answer is \"Some choir members are engineers.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Some engineers are not choir members.": "\"Some are\" does not mean \"some are not.\" Counterexample: every engineer in the office is in the choir. The statement is still true, but this choice is false.",
+    "All choir members are engineers.": "This turns one overlap into a whole circle. Counterexample: the choir also has an accountant who is not an engineer. The statement is still true, but this choice is false.",
+    "No engineers are choir members.": "This goes against the statement. At least one engineer is a choir member, so this is false."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

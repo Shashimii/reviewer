@@ -1,0 +1,45 @@
+{
+  "id": "ana-lf-0023",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-odd",
+  "difficulty": 1,
+  "stem": "Which figure does NOT belong with the others?",
+  "choices": [
+    "◆◆",
+    "▲▲▲",
+    "■■■",
+    "★★★"
+  ],
+  "answer": "◆◆",
+  "hints": [
+    "Every figure uses a different shape, so the shape cannot be the rule. Look for something else.",
+    "Count the shapes in each figure.",
+    "Three figures have the same number of shapes. Find the one with a different count."
+  ],
+  "solution": {
+    "methodName": "Find the rule three of them share",
+    "steps": [
+      {
+        "action": "Check the shapes: diamond, triangle, square, star. Every figure uses a different shape, so the shape is not the rule.",
+        "why": "In odd-one-out items, look for something three figures share and one does not. A feature that is different in all four cannot be the rule."
+      },
+      {
+        "action": "Check the colors: all four figures are black, so the color is not the rule either."
+      },
+      {
+        "action": "Count the shapes: ◆◆ has 2, ▲▲▲ has 3, ■■■ has 3, ★★★ has 3."
+      },
+      {
+        "action": "Three figures have 3 shapes. ◆◆ has only 2, so it breaks the rule. The answer is ◆◆."
+      }
+    ]
+  },
+  "trapNotes": {
+    "▲▲▲": "▲▲▲ has 3 shapes, like ■■■ and ★★★. Its shape is different, but so is every figure's shape.",
+    "■■■": "■■■ has 3 shapes, like ▲▲▲ and ★★★, so it follows the rule.",
+    "★★★": "A star may look like the odd shape, but every figure uses a different shape. ★★★ has 3 shapes, so it follows the rule."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

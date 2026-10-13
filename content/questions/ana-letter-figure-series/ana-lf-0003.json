@@ -1,0 +1,47 @@
+{
+  "id": "ana-lf-0003",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-letters",
+  "difficulty": 2,
+  "stem": "What pair comes next? CX, DW, EV, ___",
+  "choices": [
+    "FU",
+    "FV",
+    "GT",
+    "FW"
+  ],
+  "answer": "FU",
+  "hints": [
+    "Look at each pair as two separate series: the first letters, and the second letters.",
+    "The first letters are C, D, E. The second letters are X, W, V. Which way does each series move?",
+    "The first letters go forward one letter at a time. The second letters go backward one letter at a time. Move each one more step and join them."
+  ],
+  "solution": {
+    "methodName": "Change letters to numbers, then find the rule",
+    "steps": [
+      {
+        "action": "Split the pairs. First letters: C, D, E. Second letters: X, W, V.",
+        "why": "In a pair series, each position follows its own rule. Check them one at a time."
+      },
+      {
+        "action": "First letters as numbers: C = 3, D = 4, E = 5. The rule is +1, so the next first letter is 5 + 1 = 6 = F."
+      },
+      {
+        "action": "Second letters as numbers: X = 24, W = 23, V = 22. The rule is −1, so the next second letter is 22 − 1 = 21 = U.",
+        "why": "U is one after the anchor T = 20."
+      },
+      {
+        "action": "Join the two letters: F, then U. The answer is FU.",
+        "why": "Check: C + X = 3 + 24 = 27, and F + U = 6 + 21 = 27. Each pair is a letter and its opposite in the alphabet."
+      }
+    ]
+  },
+  "trapNotes": {
+    "FV": "FV moves only the first letter. The second letter also changes each time (X, W, V), so it must move back one more, to U.",
+    "GT": "GT moves each letter by 2. Each series moves by only 1: C, D, E and X, W, V.",
+    "FW": "FW moves the second letter forward. The second letters go backward (X, W, V), so the next one comes before V, not after it."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

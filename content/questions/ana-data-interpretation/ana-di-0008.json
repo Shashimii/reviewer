@@ -1,0 +1,52 @@
+{
+  "id": "ana-di-0008",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-read",
+  "difficulty": 2,
+  "passage": "**Business permit applications received by a town office, January to May 2025**\n\n| Month | New | Renewal |\n| --- | ---: | ---: |\n| January | 35 | 120 |\n| February | 40 | 60 |\n| March | 25 | 45 |\n| April | 30 | 30 |\n| May | 50 | 20 |",
+  "stem": "In how many months did the office receive more new applications than renewals?",
+  "choices": [
+    "2 months",
+    "3 months",
+    "4 months",
+    "1 month"
+  ],
+  "answer": "1 month",
+  "hints": [
+    "Check each month one at a time. Compare the two numbers on the same row.",
+    "A month counts only if the New number is bigger than the Renewal number. Equal numbers do not count.",
+    "Go through all five rows, January to May, and count the months where New is the bigger number."
+  ],
+  "solution": {
+    "methodName": "Read the title and units, then find the row and column",
+    "steps": [
+      {
+        "action": "January: 35 new, 120 renewals. New is smaller, so January does not count."
+      },
+      {
+        "action": "February: 40 new, 60 renewals. New is smaller, so February does not count."
+      },
+      {
+        "action": "March: 25 new, 45 renewals. New is smaller, so March does not count."
+      },
+      {
+        "action": "April: 30 new, 30 renewals. They are equal, so April does not count.",
+        "why": "\"More than\" means bigger. 30 is not more than 30."
+      },
+      {
+        "action": "May: 50 new, 20 renewals. New is bigger, so May counts."
+      },
+      {
+        "action": "Only May counts. The answer is 1 month."
+      }
+    ]
+  },
+  "trapNotes": {
+    "2 months": "This counts April too. In April, new applications and renewals are equal (30 and 30), so new is not more than renewals.",
+    "3 months": "This counts the months where renewals are more than new applications (January, February and March). The question asks the opposite.",
+    "4 months": "This counts the months where renewals are at least as many as new applications. The question asks when new applications are more."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

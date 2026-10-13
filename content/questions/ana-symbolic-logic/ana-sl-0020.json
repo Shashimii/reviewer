@@ -1,0 +1,55 @@
+{
+  "id": "ana-sl-0020",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-connectives",
+  "difficulty": 3,
+  "stem": "This statement is false:\n\"The store is open and the cashier is in.\"\n\nWhich must be true?",
+  "choices": [
+    "The store is not open, and the cashier is not in.",
+    "The store is open, but the cashier is not in.",
+    "The store is not open, or the cashier is not in.",
+    "The cashier is in, but the store is not open."
+  ],
+  "answer": "The store is not open, or the cashier is not in.",
+  "hints": [
+    "An \"and\" statement is false when at least one part is false. It does not tell you which part.",
+    "List every way the statement can be false: open but the cashier is not in; not open but the cashier is in; not open and the cashier is not in.",
+    "The answer must be true in all three of those situations. Test each choice against all three. A choice that fails in even one situation does not have to be true."
+  ],
+  "solution": {
+    "methodName": "Mark each part true or false, then combine",
+    "steps": [
+      {
+        "action": "Split the statement: part 1 is \"the store is open\"; part 2 is \"the cashier is in\"."
+      },
+      {
+        "action": "An \"and\" statement is false when at least one part is false. So there are three possible situations: (a) open, cashier not in; (b) not open, cashier in; (c) not open, cashier not in.",
+        "why": "Only \"open and cashier in\" would make the statement true, and we are told it is false."
+      },
+      {
+        "action": "\"The store is not open, or the cashier is not in\": in (a) the second part is true; in (b) the first part is true; in (c) both are true. It is true in all three situations, so it must be true.",
+        "why": "A rule worth remembering: \"not (p and q)\" means the same as \"not p, or not q\"."
+      },
+      {
+        "action": "\"The store is not open, and the cashier is not in\" fails in situation (a), where the store is open. It does not have to be true."
+      },
+      {
+        "action": "\"The store is open, but the cashier is not in\" fails in situation (b), where the store is not open. It does not have to be true."
+      },
+      {
+        "action": "\"The cashier is in, but the store is not open\" fails in situation (a), where the cashier is not in. It does not have to be true."
+      },
+      {
+        "action": "The answer is \"The store is not open, or the cashier is not in.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The store is not open, and the cashier is not in.": "This is the most common mistake: putting \"not\" on both parts and keeping \"and\". Counterexample: the store is open but the cashier is not in. The original statement is false, but this choice is false too.",
+    "The store is open, but the cashier is not in.": "This is one possible situation, but not the only one. Counterexample: the store is not open and the cashier is in. The original statement is false, but this choice is false too.",
+    "The cashier is in, but the store is not open.": "This is one possible situation, but not the only one. Counterexample: the store is open and the cashier is not in. The original statement is false, but this choice is false too."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

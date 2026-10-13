@@ -1,0 +1,55 @@
+{
+  "id": "ana-sl-0019",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-connectives",
+  "difficulty": 2,
+  "stem": "A manager says:\n\"If it is a holiday, the office is closed.\"\n\nIn which situation is the manager's statement false?",
+  "choices": [
+    "It is a holiday, and the office is closed.",
+    "It is a holiday, and the office is open.",
+    "It is not a holiday, and the office is closed.",
+    "It is not a holiday, and the office is open."
+  ],
+  "answer": "It is a holiday, and the office is open.",
+  "hints": [
+    "Think of the statement as a promise. Which situation would prove the manager wrong?",
+    "The statement only promises something about holidays. Look first at the choices where it is a holiday.",
+    "An if-then statement is false only when the if-part is true and the then-part is false. In every other situation, including when the if-part is false, it counts as true."
+  ],
+  "solution": {
+    "methodName": "Mark each part true or false, then combine",
+    "steps": [
+      {
+        "action": "Split the statement. If-part: it is a holiday. Then-part: the office is closed."
+      },
+      {
+        "action": "An if-then statement is false only when the if-part happens but the then-part does not.",
+        "why": "Think of a promise. The manager only promised something about holidays. The promise is broken only if a holiday comes and the office is open."
+      },
+      {
+        "action": "Holiday and office open: the if-part is true and the then-part is false. The statement is false."
+      },
+      {
+        "action": "Holiday and office closed: the promise is kept. The statement is true."
+      },
+      {
+        "action": "Not a holiday, office closed: the promise says nothing about ordinary days. The office may close for another reason, like a power outage. The statement is not broken.",
+        "why": "When the if-part is false, an if-then statement counts as true."
+      },
+      {
+        "action": "Not a holiday, office open: again the promise says nothing about ordinary days. The statement is not broken."
+      },
+      {
+        "action": "The answer is \"It is a holiday, and the office is open.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "It is a holiday, and the office is closed.": "This is exactly what the manager said would happen. The promise is kept, so the statement is true.",
+    "It is not a holiday, and the office is closed.": "This is the most common trap. The manager made no promise about ordinary days. The office can close on a normal day, for example for a power outage, without breaking the statement.",
+    "It is not a holiday, and the office is open.": "The manager said nothing about ordinary days, so an open office on a normal day does not break the statement."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

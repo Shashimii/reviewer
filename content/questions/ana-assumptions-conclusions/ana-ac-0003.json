@@ -1,0 +1,48 @@
+{
+  "id": "ana-ac-0003",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-assumption",
+  "difficulty": 1,
+  "stem": "City hall announced: \"This week, the vaccination site will move from the open plaza to the covered gym, because heavy rain is expected every day.\"\n\nWhich of these is assumed?",
+  "choices": [
+    "It will rain every day for the rest of the month.",
+    "The plaza is closed this week for repair work.",
+    "Fewer people than usual will come for vaccines this week.",
+    "The gym gives more shelter from rain than the plaza."
+  ],
+  "answer": "The gym gives more shelter from rain than the plaza.",
+  "hints": [
+    "The reason for the move is the rain. What must be true about the gym for the move to make sense?",
+    "Find the reason (heavy rain) and the action (move to the covered gym). Ask what the move takes for granted about the new place.",
+    "For each choice, imagine its opposite is true. If the reason for the move still works, the choice is not assumed. The assumption is the one whose opposite makes the move pointless."
+  ],
+  "solution": {
+    "methodName": "Negation test: deny it, and see if the argument falls apart",
+    "steps": [
+      {
+        "action": "Find the argument: the site moves to the covered gym (action) because heavy rain is expected (reason)."
+      },
+      {
+        "action": "Spot the gap: moving only helps if the gym protects people from the rain better than the open plaza does.",
+        "why": "The announcement never says this, but the plan depends on it. That makes it an assumption."
+      },
+      {
+        "action": "Negate it: \"The gym gives no more shelter from rain than the plaza.\" Then there is no point in moving, and the argument falls apart."
+      },
+      {
+        "action": "Negate the other choices. If it does not rain all month, if the plaza is not under repair, or if just as many people come, the move for this week still makes sense."
+      },
+      {
+        "action": "The assumption is: The gym gives more shelter from rain than the plaza."
+      }
+    ]
+  },
+  "trapNotes": {
+    "It will rain every day for the rest of the month.": "This is too broad. The announcement is about this week only. If the rain stops next week, the move for this week still makes sense.",
+    "The plaza is closed this week for repair work.": "This brings in a reason the announcement never gives. The stated reason is rain. Negate it, and the move still makes sense because of the rain.",
+    "Fewer people than usual will come for vaccines this week.": "This might happen, but the move does not depend on it. Whether more or fewer people come, they still need shelter from the rain."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

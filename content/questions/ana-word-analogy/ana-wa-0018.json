@@ -1,0 +1,51 @@
+{
+  "id": "ana-wa-0018",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-category",
+  "difficulty": 1,
+  "stem": "Which pair has the same relationship as COBRA : SNAKE?",
+  "choices": [
+    "fish : water",
+    "eagle : bird",
+    "cat : mouse",
+    "hen : egg"
+  ],
+  "answer": "eagle : bird",
+  "hints": [
+    "A COBRA is a dangerous animal. How is it related to SNAKE?",
+    "Make a bridge sentence: \"A cobra is a kind of snake.\"",
+    "Test each pair in the bridge \"A ___ is a kind of ___.\" Cross out pairs about where an animal lives, what it eats or what it produces."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"A cobra is a kind of snake.\"",
+        "why": "Snake is the group. A cobra is one type of snake."
+      },
+      {
+        "action": "Test fish : water. A fish lives in water. It is not a kind of water."
+      },
+      {
+        "action": "Test eagle : bird. \"An eagle is a kind of bird\" is true."
+      },
+      {
+        "action": "Test cat : mouse. A cat hunts mice. A cat is not a kind of mouse."
+      },
+      {
+        "action": "Test hen : egg. A hen lays eggs. A hen is not a kind of egg."
+      },
+      {
+        "action": "The answer is eagle : bird."
+      }
+    ]
+  },
+  "trapNotes": {
+    "fish : water": "Water is where a fish lives. This is an animal and its home, not a type and its group.",
+    "cat : mouse": "A cat chases and eats mice. This is a hunter and its prey, not a type and its group.",
+    "hen : egg": "A hen lays eggs. This is a producer and its product, not a type and its group."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

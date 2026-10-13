@@ -1,0 +1,51 @@
+{
+  "id": "ana-ac-0004",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-assumption",
+  "difficulty": 2,
+  "stem": "A kagawad says: \"The barangay should post its announcements on its Facebook page, not only on the bulletin board. Most residents now check Facebook every day, but few walk past the bulletin board.\"\n\nWhich of these is assumed?",
+  "choices": [
+    "Residents on Facebook can see the barangay's posts.",
+    "Most residents now check Facebook every day.",
+    "Every resident in the barangay owns a smartphone.",
+    "The old bulletin board should be taken down for good."
+  ],
+  "answer": "Residents on Facebook can see the barangay's posts.",
+  "hints": [
+    "An assumption is never stated in the argument. Cross out any choice that the kagawad already said.",
+    "Find the reason and the conclusion. The reason is that residents check Facebook. What else must be true for a Facebook post to reach them?",
+    "Negate each choice that is not already stated. If the argument still works, it is not assumed. Keep the one whose opposite makes posting on Facebook useless."
+  ],
+  "solution": {
+    "methodName": "Negation test: deny it, and see if the argument falls apart",
+    "steps": [
+      {
+        "action": "Find the argument: post on Facebook (conclusion), because most residents check Facebook daily but few see the bulletin board (reason)."
+      },
+      {
+        "action": "Cross out \"Most residents now check Facebook every day.\" The kagawad says this out loud, so it is a stated reason, not an assumption.",
+        "why": "An assumption is a hidden step. Anything written in the argument is stated, not assumed."
+      },
+      {
+        "action": "Spot the gap: checking Facebook only helps if residents can actually see the barangay's posts there."
+      },
+      {
+        "action": "Negate it: \"Residents on Facebook cannot see the barangay's posts.\" Then posting there reaches no one, and the argument falls apart."
+      },
+      {
+        "action": "Check the rest. The plan works even if some residents have no smartphone. The kagawad wants to post \"not only\" on the board, so the board is not being removed."
+      },
+      {
+        "action": "The assumption is: Residents on Facebook can see the barangay's posts."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Most residents now check Facebook every day.": "This is stated in the argument. An assumption is something the speaker takes for granted without saying it.",
+    "Every resident in the barangay owns a smartphone.": "This is too broad. The argument says most residents, not all. It still works if some residents have no smartphone.",
+    "The old bulletin board should be taken down for good.": "The kagawad says \"not only on the bulletin board,\" so the board stays. The argument does not need it removed."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

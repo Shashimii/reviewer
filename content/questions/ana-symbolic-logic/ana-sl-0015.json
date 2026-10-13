@@ -1,0 +1,56 @@
+{
+  "id": "ana-sl-0015",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-conditional",
+  "difficulty": 3,
+  "stem": "Assume these statements are true:\n1. If Carla passed the exam, she applied at the city hall.\n2. If Carla applied at the city hall, she rented a room in the city.\n3. Carla did not rent a room in the city.\n\nWhich must be true?",
+  "choices": [
+    "Carla did not take the exam.",
+    "Carla applied but did not rent a room.",
+    "Carla passed but did not apply.",
+    "Carla did not pass the exam."
+  ],
+  "answer": "Carla did not pass the exam.",
+  "hints": [
+    "The fact in statement 3 is a then-part that did not happen. Work backward with \"not\", one rule at a time.",
+    "Start with rule 2. Carla did not rent a room, so what can you say about applying at the city hall?",
+    "Use the contrapositive twice (if not q, then not p): first on rule 2, then use that result on rule 1. Pick the choice that says only what you found, nothing more."
+  ],
+  "solution": {
+    "methodName": "Go forward, or flip and negate both parts",
+    "steps": [
+      {
+        "action": "Statement 3: Carla did not rent a room in the city."
+      },
+      {
+        "action": "Rule 2, flipped (contrapositive): if Carla did not rent a room, she did not apply at the city hall. So Carla did not apply.",
+        "why": "If applying always led to renting, then no renting means no applying."
+      },
+      {
+        "action": "Rule 1, flipped: if Carla did not apply, she did not pass the exam. So Carla did not pass.",
+        "why": "Use the result of step 2 as the new fact. The same contrapositive move works again."
+      },
+      {
+        "action": "\"Carla applied but did not rent a room\" goes against rule 2."
+      },
+      {
+        "action": "\"Carla passed but did not apply\" goes against rule 1."
+      },
+      {
+        "action": "\"Carla did not take the exam\" says too much: she may have taken it and failed. That fits all three statements.",
+        "why": "\"Did not pass\" covers both failing and not taking the exam. We cannot tell which one."
+      },
+      {
+        "action": "The answer is \"Carla did not pass the exam.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Carla did not take the exam.": "This goes further than the facts. Counterexample: Carla took the exam and failed, so she did not apply and did not rent a room. All three statements stay true, but she did take the exam.",
+    "Carla applied but did not rent a room.": "This breaks rule 2: if Carla applied, she rented a room. Since the rules are true, this cannot happen.",
+    "Carla passed but did not apply.": "This breaks rule 1: if Carla passed, she applied. Since the rules are true, this cannot happen."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

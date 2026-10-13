@@ -1,0 +1,69 @@
+{
+  "id": "ana-word-analogy-lesson",
+  "topicId": "ana-word-analogy",
+  "workedExampleId": "ana-wa-0012",
+  "sections": [
+    {
+      "heading": "What a word analogy is",
+      "body": "A **word analogy** shows two pairs of words that are linked in the same way. The link between two words is called their **relationship**.\n\nIt is written like this: **PEN : WRITE :: KNIFE : CUT**\n\n- The single colon ( : ) means **\"is to\"**.\n- The double colon ( :: ) means **\"as\"**.\n- Read it as: \"Pen is to write as knife is to cut.\"\n\nOn the exam you will see two kinds of item:\n\n1. **Fill the blank:** PEN : WRITE :: KNIFE : ___. You choose one word.\n2. **Find the pair:** \"Which pair has the same relationship as PEN : WRITE?\" You choose a pair, such as knife : cut.\n\nBoth kinds test the same skill: seeing exactly how the first two words are linked."
+    },
+    {
+      "heading": "The bridge sentence method",
+      "body": "A **bridge sentence** is a short sentence that states exactly how the first two words are linked. You then test every choice in it.\n\n1. **Make the bridge** from the first pair: \"A pen is used to write.\"\n2. **Put each choice into the same sentence:** \"A knife is used to cut.\" True. \"A knife is used to kitchen.\" Makes no sense.\n3. **Keep the one choice that makes a true sentence.**\n\nTips:\n\n- **Keep the order.** If the stem puts the tool first, the answer must also put the tool first.\n- **Make the bridge exact.** \"A carpenter works with a hammer\" is loose, because a carpenter also works with a helper. \"A carpenter uses a hammer as a work tool\" is exact.\n- **If two choices fit, make the bridge more exact** and test again.\n- **Test all four choices.** Don't stop at the first one that looks related."
+    },
+    {
+      "heading": "Relationships of meaning and parts",
+      "body": "A **synonym** is a word with the same meaning as another word. An **antonym** is a word with the opposite meaning.\n\n| Relationship | Bridge sentence | Example |\n| --- | --- | --- |\n| Same meaning | A means the same as B | big : large |\n| Opposite meaning | A is the opposite of B | early : late |\n| Part to whole | A is one part of B | door : house |\n| Whole to part | A is made up of many B | week : day |\n| Member to group | A is one member of B | player : team |\n\nFor parts and wholes, always check which comes first: the smaller part or the bigger whole."
+    },
+    {
+      "heading": "Relationships of use, kind, cause and degree",
+      "body": "A **category** is a group of things of the same kind, like fruit or vehicle. A **cause** makes something happen, and the **effect** is the result. **Degree** means how strong or weak something is.\n\n| Relationship | Bridge sentence | Example |\n| --- | --- | --- |\n| Tool and action | A is used to B | pen : write |\n| Tool and what it measures | A is used to measure B | ruler : length |\n| Worker and tool | A uses B as a work tool | barber : scissors |\n| Worker and workplace | A works in a B | nurse : hospital |\n| Kind and category | A is a kind of B | tilapia : fish |\n| Category and kind | A is the group, and B is one kind of it | fruit : banana |\n| Cause and effect | A can cause B | typhoon : flood |\n| Degree | A is a mild form of B | big : huge |"
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Reversed order.** LEAF : TREE is part to whole. TREE : LEAF is whole to part. A choice with the right link in the wrong order is wrong.\n- **Related, but a different link.** A knife is linked to kitchen, bread and cut, but only \"cut\" fits \"is used to\". Being related is not enough. The link must be the same.\n- **Degree is not the same meaning.** Big and huge are not exact synonyms, because huge is much bigger.\n- **Nearly opposite is not opposite.** Warm is not the opposite of hot. Cold is.\n- **A sign is not a kind.** A frown shows anger, but a frown is not a kind of anger.\n- **A loose bridge.** If more than one choice fits, your bridge is too loose. Make it more exact and test again."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Analogy",
+      "definition": "A word analogy shows two pairs of words that are linked in the same way, like PEN : WRITE :: KNIFE : CUT.",
+      "taglish": "Analogy – paghahambing ng dalawang pares ng salita na pareho ang ugnayan"
+    },
+    {
+      "term": "Relationship",
+      "definition": "A relationship is the way two words are linked, such as \"means the same as\" or \"is one part of\".",
+      "taglish": "Relationship – ang ugnayan o koneksyon ng dalawang salita"
+    },
+    {
+      "term": "Bridge sentence",
+      "definition": "A bridge sentence is a short sentence that states exactly how the first two words are linked. You test each choice in it.",
+      "taglish": "Bridge sentence – maikling pangungusap na nag-uugnay sa dalawang salita; dito mo susubukan ang bawat choice"
+    },
+    {
+      "term": "Synonym",
+      "definition": "A synonym is a word that means the same, or nearly the same, as another word.",
+      "taglish": "Synonym – salitang magkasingkahulugan, gaya ng big at large"
+    },
+    {
+      "term": "Antonym",
+      "definition": "An antonym is a word that means the opposite of another word.",
+      "taglish": "Antonym – salitang magkasalungat ang kahulugan, gaya ng early at late"
+    },
+    {
+      "term": "Category",
+      "definition": "A category is a group of things of the same kind, like fruit, fish or vehicle.",
+      "taglish": "Category – grupo o uri na kinabibilangan ng isang bagay"
+    },
+    {
+      "term": "Cause and effect",
+      "definition": "A cause makes something happen. The effect is what happens as a result.",
+      "taglish": "Cause and effect – sanhi at bunga"
+    },
+    {
+      "term": "Degree",
+      "definition": "Degree is how strong or weak something is, like big (mild) and huge (strong).",
+      "taglish": "Degree – tindi o lakas; halimbawa, malaki kumpara sa napakalaki"
+    }
+  ]
+}

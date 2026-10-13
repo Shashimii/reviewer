@@ -1,0 +1,47 @@
+{
+  "id": "ana-di-0004",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-read",
+  "difficulty": 2,
+  "passage": "**Budget of a town by sector, 2024 and 2025** (in millions of pesos)\n\n| Sector | 2024 | 2025 |\n| --- | ---: | ---: |\n| Education | 40 | 45 |\n| Health | 25 | 30 |\n| Roads and bridges | 50 | 60 |\n| Agriculture | 20 | 15 |\n| Social welfare | 25 | 50 |",
+  "stem": "Which sector had the second largest budget in 2024?",
+  "choices": [
+    "Health",
+    "Social welfare",
+    "Roads and bridges",
+    "Education"
+  ],
+  "answer": "Education",
+  "hints": [
+    "The table has two years. Use only the 2024 column.",
+    "Read down the 2024 column and find the largest number first.",
+    "Set the largest number aside. The biggest number left is the second largest. Read across to its sector name."
+  ],
+  "solution": {
+    "methodName": "Read the title and units, then find the row and column",
+    "steps": [
+      {
+        "action": "Find the 2024 column. Its numbers are 40, 25, 50, 20 and 25.",
+        "why": "The question asks about 2024, so leave out the 2025 column."
+      },
+      {
+        "action": "The largest is 50, for Roads and bridges."
+      },
+      {
+        "action": "Set 50 aside. The largest number left is 40.",
+        "why": "The second largest is the biggest number after the largest one."
+      },
+      {
+        "action": "Read across the row with 40: it is Education. Education had the second largest budget in 2024."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Health": "Health is in the second row of the table, but the question asks for the second largest budget, not the second row. Health had only ₱25 million in 2024.",
+    "Social welfare": "Social welfare is the second largest in 2025 (₱50 million). In 2024 it had only ₱25 million. Use the 2024 column.",
+    "Roads and bridges": "Roads and bridges had the largest budget in 2024 (₱50 million), not the second largest."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

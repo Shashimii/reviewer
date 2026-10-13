@@ -1,0 +1,52 @@
+{
+  "id": "ana-sl-0023",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-ordering",
+  "difficulty": 2,
+  "stem": "Ana, Ben, Cora, Dan and Eva sit in a row of five seats, numbered 1 to 5 from left to right.\n- Cora sits in the middle seat.\n- Ana sits in seat 1.\n- Ben sits next to Ana.\n- Eva does not sit in seat 5.\n\nWho sits in seat 5?",
+  "choices": [
+    "Ben",
+    "Eva",
+    "Dan",
+    "Cora"
+  ],
+  "answer": "Dan",
+  "hints": [
+    "Draw five boxes in a row and number them 1 to 5. Fill in the clues that give an exact seat first.",
+    "Cora takes seat 3 and Ana takes seat 1. Seat 1 has only one neighbour, so where must Ben sit?",
+    "After placing Ana, Ben and Cora, two seats and two people are left. Use the clue about Eva to decide who takes which seat."
+  ],
+  "solution": {
+    "methodName": "Line them up, then test every case",
+    "steps": [
+      {
+        "action": "Draw five seats: 1 2 3 4 5. Put Cora in seat 3 (the middle) and Ana in seat 1."
+      },
+      {
+        "action": "Ben sits next to Ana. Seat 1 has only one neighbour, seat 2. So Ben is in seat 2.",
+        "why": "Ana is at the left end, so the only seat beside her is seat 2."
+      },
+      {
+        "action": "Seats 4 and 5 are left for Dan and Eva."
+      },
+      {
+        "action": "Eva does not sit in seat 5, so Eva is in seat 4 and Dan is in seat 5."
+      },
+      {
+        "action": "Check: Ana 1, Ben 2, Cora 3, Eva 4, Dan 5. Every clue is satisfied.",
+        "why": "Always check your final row against every clue before you answer."
+      },
+      {
+        "action": "The answer is Dan."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Ben": "Ben must sit next to Ana. Ana is in seat 1, so Ben is in seat 2, far from seat 5.",
+    "Eva": "The clues say Eva does not sit in seat 5. She takes seat 4.",
+    "Cora": "Cora is in the middle seat. With five seats, the middle is seat 3."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

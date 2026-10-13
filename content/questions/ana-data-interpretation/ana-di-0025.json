@@ -1,0 +1,46 @@
+{
+  "id": "ana-di-0025",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-read",
+  "difficulty": 3,
+  "passage": "**ID applications received by a city social welfare office, January to March 2025**\n\n| Type of ID | January | February | March |\n| --- | ---: | ---: | ---: |\n| Senior citizen ID | 60 | 45 | 63 |\n| PWD ID | 36 | 42 | 30 |\n| Solo parent ID | 20 | 26 | 24 |\n\nPWD means person with disability.",
+  "stem": "In the month when the office received the fewest PWD ID applications, how many senior citizen ID applications did it receive?",
+  "choices": [
+    "63",
+    "45",
+    "30",
+    "60"
+  ],
+  "answer": "63",
+  "hints": [
+    "This question has two steps. First find a month, then read a different row for that month.",
+    "Read across the PWD ID row and find the smallest number. Note its month.",
+    "Go to the Senior citizen ID row and read the number under that same month."
+  ],
+  "solution": {
+    "methodName": "Read the title and units, then find the row and column",
+    "steps": [
+      {
+        "action": "Read the PWD ID row: 36 in January, 42 in February, 30 in March."
+      },
+      {
+        "action": "The smallest is 30, so the month is March.",
+        "why": "\"Fewest\" means the smallest number."
+      },
+      {
+        "action": "Go to the Senior citizen ID row and read the March column: 63."
+      },
+      {
+        "action": "In March, the office received 63 senior citizen ID applications."
+      }
+    ]
+  },
+  "trapNotes": {
+    "30": "This is the number of PWD ID applications in March. The question asks for senior citizen ID applications in that month.",
+    "45": "February has the fewest senior citizen ID applications. But the month must come from the PWD ID row, where March is the lowest.",
+    "60": "This is the senior citizen ID number for January. The month with the fewest PWD ID applications is March, not January."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

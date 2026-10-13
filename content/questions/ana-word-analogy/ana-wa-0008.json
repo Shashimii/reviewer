@@ -1,0 +1,51 @@
+{
+  "id": "ana-wa-0008",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-part-whole",
+  "difficulty": 1,
+  "stem": "Which pair has the same relationship as WHEEL : CAR?",
+  "choices": [
+    "driver : bus",
+    "garage : van",
+    "highway : jeep",
+    "finger : hand"
+  ],
+  "answer": "finger : hand",
+  "hints": [
+    "Is a WHEEL a part of a CAR, a user of a car, or a place for a car?",
+    "Make a bridge sentence: \"A wheel is one part of a car.\"",
+    "Test each pair in the bridge \"A ___ is one part of a ___.\" Only one pair is a part and its whole."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"A wheel is one part of a car.\"",
+        "why": "A car has many parts: wheels, doors, seats. The wheel is the part, and the car is the whole."
+      },
+      {
+        "action": "Test driver : bus. A driver is a person who drives a bus, not a part of it."
+      },
+      {
+        "action": "Test garage : van. A garage is a place where a van is kept, not a part of it."
+      },
+      {
+        "action": "Test highway : jeep. A jeep travels on a highway. The highway is not part of the jeep."
+      },
+      {
+        "action": "Test finger : hand. \"A finger is one part of a hand\" is true."
+      },
+      {
+        "action": "The answer is finger : hand."
+      }
+    ]
+  },
+  "trapNotes": {
+    "driver : bus": "A driver uses a bus but is not part of it. This is a worker and the thing used, not a part and whole.",
+    "garage : van": "A garage is where a van is parked. This is a thing and its place, not a part and whole.",
+    "highway : jeep": "A jeep runs on a highway. The highway is outside the jeep, so it is not one of its parts."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

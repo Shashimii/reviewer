@@ -1,0 +1,48 @@
+{
+  "id": "ana-ac-0007",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-assumption",
+  "difficulty": 2,
+  "stem": "A barangay advisory says: \"To fight dengue, we will hold a clean-up every Saturday to remove standing water from old tires, cans and flower pots.\"\n\nWhich of these is assumed by the advisory?",
+  "choices": [
+    "Dengue cases in the barangay will drop to zero.",
+    "Removing standing water helps lower dengue cases.",
+    "Residents are unable to clean their own yards.",
+    "Dengue is more common during the rainy season."
+  ],
+  "answer": "Removing standing water helps lower dengue cases.",
+  "hints": [
+    "The advisory wants to fight dengue by removing standing water. What link between the two does it take for granted?",
+    "Find the action (remove standing water) and the goal (fight dengue). The assumption connects them.",
+    "Negate each choice. A true-sounding fact is not the answer unless the advisory depends on it. Keep the choice whose opposite makes the clean-up pointless for fighting dengue."
+  ],
+  "solution": {
+    "methodName": "Negation test: deny it, and see if the argument falls apart",
+    "steps": [
+      {
+        "action": "Find the plan: remove standing water every Saturday (action) to fight dengue (goal)."
+      },
+      {
+        "action": "Spot the gap: the clean-up only fights dengue if getting rid of standing water actually helps lower dengue.",
+        "why": "The advisory does not explain why standing water matters. It takes the link for granted."
+      },
+      {
+        "action": "Negate it: \"Removing standing water does nothing to lower dengue cases.\" Then the clean-up is pointless, and the plan falls apart."
+      },
+      {
+        "action": "Check the rest. The plan can be worth doing without bringing cases to zero. Residents may clean their own yards and still join. The rainy season may matter in real life, but the advisory never mentions it."
+      },
+      {
+        "action": "The assumption is: Removing standing water helps lower dengue cases."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Dengue cases in the barangay will drop to zero.": "This is too broad. A plan is worth doing if it lowers cases, even if some cases remain.",
+    "Residents are unable to clean their own yards.": "The advisory does not say this. Negate it: if residents can clean their own yards, a weekly clean-up still makes sense.",
+    "Dengue is more common during the rainy season.": "This may be true in real life, but it is outside knowledge. The advisory never mentions seasons, and its plan does not depend on them."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

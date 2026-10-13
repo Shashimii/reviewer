@@ -1,0 +1,46 @@
+{
+  "id": "ana-lf-0021",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-figures",
+  "difficulty": 3,
+  "stem": "Each figure is a row of 4 boxes, and □ is an empty box. Which figure comes next?\n▲□□●  |  □▲●□  |  □●▲□  |  ___",
+  "choices": [
+    "□●□▲",
+    "●□□▲",
+    "●□▲□",
+    "□□●▲"
+  ],
+  "answer": "●□□▲",
+  "hints": [
+    "Two shapes move. Follow the triangle (▲) and the circle (●) one at a time.",
+    "Number the boxes 1 to 4 from the left. The triangle is in box 1, then 2, then 3. The circle is in box 4, then 3, then 2.",
+    "The triangle moves one box to the right each time. The circle moves one box to the left. Move each one by one more box and build the new row."
+  ],
+  "solution": {
+    "methodName": "Check one change at a time",
+    "steps": [
+      {
+        "action": "Number the boxes 1 to 4 from the left.",
+        "why": "Turning places into numbers makes each shape's movement a simple number series."
+      },
+      {
+        "action": "Follow the triangle (▲): box 1, box 2, box 3. It moves one box right each time, so next it is in box 4."
+      },
+      {
+        "action": "Follow the circle (●): box 4, box 3, box 2. It moves one box left each time, so next it is in box 1.",
+        "why": "In the 3rd figure the two shapes have passed each other. That is why ● is now to the left of ▲."
+      },
+      {
+        "action": "Build the figure: ● in box 1, ▲ in box 4, and boxes 2 and 3 empty. The answer is ●□□▲."
+      }
+    ]
+  },
+  "trapNotes": {
+    "□●□▲": "The triangle is right (box 4), but the circle did not move. The circle moves left every step, from box 2 to box 1.",
+    "●□▲□": "The circle is right (box 1), but the triangle did not move. The triangle moves right every step, from box 3 to box 4.",
+    "□□●▲": "This moves the circle to the right, into box 3. The circle has been moving left (box 4, 3, 2), so next it is in box 1."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

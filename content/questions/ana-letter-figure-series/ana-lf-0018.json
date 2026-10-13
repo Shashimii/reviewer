@@ -1,0 +1,42 @@
+{
+  "id": "ana-lf-0018",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-figures",
+  "difficulty": 2,
+  "stem": "Which figure comes next?\n■  |  □□  |  ■■■  |  □□□□  |  ___",
+  "choices": [
+    "■■■■■",
+    "□□□□□",
+    "■■■■",
+    "■■■■■■"
+  ],
+  "answer": "■■■■■",
+  "hints": [
+    "Two things change: the number of squares and their color.",
+    "Count the squares: 1, 2, 3, 4. Then look at the colors: black, white, black, white.",
+    "The count goes up by 1, and the color switches each time. Find the next count, then the next color."
+  ],
+  "solution": {
+    "methodName": "Check one change at a time",
+    "steps": [
+      {
+        "action": "Count the squares: 1, 2, 3, 4. The count goes up by 1, so the next figure has 5 squares."
+      },
+      {
+        "action": "Check the colors: black (■), white (□), black, white. The color switches every time, so the next figure is black.",
+        "why": "Check one change at a time. Count first, then color, so you don't mix them up."
+      },
+      {
+        "action": "Put both together: 5 black squares. The answer is ■■■■■."
+      }
+    ]
+  },
+  "trapNotes": {
+    "□□□□□": "This has the right count but the wrong color. The colors switch: after white (□□□□) comes black.",
+    "■■■■": "This has the right color but only 4 squares. The count goes up by 1 each time, so the next figure has 5.",
+    "■■■■■■": "This has 6 squares, adding 2 instead of 1. The count goes 1, 2, 3, 4, so next is 5."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

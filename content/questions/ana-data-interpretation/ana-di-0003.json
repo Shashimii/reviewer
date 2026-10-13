@@ -1,0 +1,47 @@
+{
+  "id": "ana-di-0003",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-totals",
+  "difficulty": 2,
+  "passage": "**Budget of a town by sector, 2025** (in millions of pesos)\n\n| Sector | Budget |\n| --- | ---: |\n| Education | 45 |\n| Health | 30 |\n| Roads and bridges | 60 |\n| Agriculture | 15 |\n| Social welfare | 50 |",
+  "stem": "What is the average budget per sector in 2025?",
+  "choices": [
+    "₱40 million",
+    "₱50 million",
+    "₱200 million",
+    "₱30 million"
+  ],
+  "answer": "₱40 million",
+  "hints": [
+    "An average shares the total equally among all the items. Count how many sectors are in the table.",
+    "Add the five budgets: 45 + 30 + 60 + 15 + 50.",
+    "Divide the total by the number of sectors, 5. Keep the unit, millions of pesos."
+  ],
+  "solution": {
+    "methodName": "Average = total ÷ number of values",
+    "steps": [
+      {
+        "action": "Count the sectors: Education, Health, Roads and bridges, Agriculture and Social welfare. That is 5 sectors."
+      },
+      {
+        "action": "Add the five budgets: 45 + 30 + 60 + 15 + 50 = 200.",
+        "why": "Add in easy pairs: 45 + 15 = 60 and 30 + 50 = 80. Then 60 + 80 + 60 = 200."
+      },
+      {
+        "action": "Divide the total by 5: 200 ÷ 5 = 40.",
+        "why": "The average is what each sector would get if the total were shared equally among the 5 sectors."
+      },
+      {
+        "action": "Add the unit: the average budget is ₱40 million per sector."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱50 million": "This divides 200 by 4. There are 5 sectors, so divide by 5.",
+    "₱200 million": "This is the total budget. To get the average, divide the total by the 5 sectors.",
+    "₱30 million": "This uses a total of 150, which leaves out Social welfare (50). Add all five rows before you divide."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

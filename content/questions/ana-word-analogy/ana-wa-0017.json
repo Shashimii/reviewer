@@ -1,0 +1,45 @@
+{
+  "id": "ana-wa-0017",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-category",
+  "difficulty": 1,
+  "stem": "ROSE : FLOWER :: MANGO : ___",
+  "choices": [
+    "seed",
+    "sweet",
+    "yellow",
+    "fruit"
+  ],
+  "answer": "fruit",
+  "hints": [
+    "Is a ROSE a part of a flower, or a kind of flower?",
+    "Make a bridge sentence: \"A rose is a kind of flower.\"",
+    "Now say: \"A mango is a kind of ___.\" Test each choice. Cross out parts, colors and tastes."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"A rose is a kind of flower.\"",
+        "why": "Flower is the group, or category. A rose is one member of that group, like a sampaguita or an orchid."
+      },
+      {
+        "action": "Use the same bridge: \"A mango is a kind of ___.\""
+      },
+      {
+        "action": "Test each choice. A mango is a kind of fruit. A seed is a part of a mango, sweet is how it tastes, and yellow is its color when ripe."
+      },
+      {
+        "action": "The answer is fruit."
+      }
+    ]
+  },
+  "trapNotes": {
+    "seed": "A seed is a part inside a mango. The bridge needs the group a mango belongs to, not one of its parts.",
+    "sweet": "Sweet describes how a ripe mango tastes. A taste is not the category a mango belongs to.",
+    "yellow": "Yellow is the color of a ripe mango. A color is not the category a mango belongs to."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ana-sl-0010",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-conditional",
+  "difficulty": 1,
+  "stem": "Assume these statements are true:\n1. If a person passed the exam, that person's name is on the list of passers.\n2. Lorna's name is not on the list of passers.\n\nWhich must be true?",
+  "choices": [
+    "Lorna passed the exam.",
+    "Lorna did not take the exam.",
+    "Lorna did not pass the exam.",
+    "Lorna's name was left off by mistake."
+  ],
+  "answer": "Lorna did not pass the exam.",
+  "hints": [
+    "Here the \"then\" part did not happen. What does that tell you about the \"if\" part?",
+    "Flip the rule and put \"not\" in both parts: If a name is not on the list of passers, then ...",
+    "A rule \"if p then q\" always means the same as \"if not q, then not p\". Use this flipped rule on Lorna, then pick the choice that says exactly that and nothing more."
+  ],
+  "solution": {
+    "methodName": "Go forward, or flip and negate both parts",
+    "steps": [
+      {
+        "action": "Split statement 1. If-part: a person passed. Then-part: that person's name is on the list."
+      },
+      {
+        "action": "Make the contrapositive: swap the two parts and put \"not\" in both. \"If a name is not on the list, the applicant did not pass.\"",
+        "why": "The contrapositive always means the same as the original rule. If passing always puts you on the list, then anyone missing from the list cannot have passed."
+      },
+      {
+        "action": "Statement 2: Lorna's name is not on the list. So Lorna did not pass the exam."
+      },
+      {
+        "action": "\"Lorna passed the exam\" is false: if she had passed, her name would be on the list."
+      },
+      {
+        "action": "\"Lorna did not take the exam\" does not have to be true: she may have taken the exam and failed. Both statements stay true.",
+        "why": "\"Did not pass\" covers both failing and not taking the exam. The statements do not tell us which."
+      },
+      {
+        "action": "\"Lorna's name was left off by mistake\" would mean she passed but is missing from the list. That breaks statement 1, which we must accept as true."
+      },
+      {
+        "action": "The answer is \"Lorna did not pass the exam.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Lorna passed the exam.": "If Lorna had passed, statement 1 says her name would be on the list. It is not, so this is false.",
+    "Lorna did not take the exam.": "This says more than we know. Counterexample: Lorna took the exam and failed. Her name is not on the list, and both statements stay true.",
+    "Lorna's name was left off by mistake.": "This brings in an idea the statements do not give. We must accept statement 1 as true: every passer is on the list. A passer left off the list would make statement 1 false."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ana-wa-0025",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-cause-degree",
+  "difficulty": 3,
+  "stem": "Which pair has the same relationship as DROUGHT : FAMINE?",
+  "choices": [
+    "smoke : fire",
+    "rain : umbrella",
+    "summer : season",
+    "germ : disease"
+  ],
+  "answer": "germ : disease",
+  "hints": [
+    "A DROUGHT is a long time with little or no rain. A FAMINE is a serious lack of food. How does one lead to the other?",
+    "Make a bridge sentence: \"A drought can cause a famine.\"",
+    "Test each pair in the same order: \"A ___ can cause ___.\" The cause must come first and the result second."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"A drought can cause a famine.\"",
+        "why": "Without rain, crops die. With no harvest, people run out of food. So the first word is the cause and the second is the effect."
+      },
+      {
+        "action": "Test smoke : fire. Fire causes smoke, so smoke is the effect. Here the effect comes first, so the order is reversed."
+      },
+      {
+        "action": "Test rain : umbrella. An umbrella protects you from rain. Rain does not cause an umbrella."
+      },
+      {
+        "action": "Test summer : season. Summer is a kind of season. This is a type and its group, not a cause and effect."
+      },
+      {
+        "action": "Test germ : disease. \"A germ can cause disease\" is true.",
+        "why": "Germs are tiny living things, too small to see, that can make people sick."
+      },
+      {
+        "action": "The answer is germ : disease."
+      }
+    ]
+  },
+  "trapNotes": {
+    "smoke : fire": "Smoke and fire are linked by cause and effect, but fire causes smoke. Here the effect comes first, so the pair is reversed.",
+    "rain : umbrella": "An umbrella is used against rain. This is a problem and the thing that protects you from it, not a cause and its effect.",
+    "summer : season": "Summer is one kind of season. This is a type and its category, not a cause and effect."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

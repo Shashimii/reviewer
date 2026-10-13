@@ -1,0 +1,49 @@
+{
+  "id": "ana-ac-0019",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-inference",
+  "difficulty": 1,
+  "passage": "**Barangay Maligaya health bulletin**\n\nThe barangay health center will hold a free blood-pressure check on Saturday from 9 a.m. to 12 noon. Last month, 85 residents came to the same event. The month before, 60 residents came. Because more people come each month, the center will probably need more volunteers this time. Kagawad Diaz called the program \"the most useful service our barangay offers.\" Nurse Joy said the checks are \"a wonderful gift to our seniors.\" Residents are asked to bring their health cards.",
+  "stem": "Which statement from the bulletin is a fact?",
+  "choices": [
+    "The center will probably need more volunteers this time.",
+    "It is the most useful service our barangay offers.",
+    "Last month, 85 residents came to the same event.",
+    "The checks are a wonderful gift to our seniors."
+  ],
+  "answer": "Last month, 85 residents came to the same event.",
+  "hints": [
+    "A fact can be checked and proven true or false, for example by counting or by looking at records.",
+    "Look for clue words. \"Probably\" points to a guess. Words like \"most useful\" and \"wonderful\" point to a personal judgment.",
+    "For each choice, ask: could someone check this in a record or by counting? Is it a guess from other facts? Or is it someone's feeling? Choose the one that can be checked."
+  ],
+  "solution": {
+    "methodName": "Checked, reasoned or judged?",
+    "steps": [
+      {
+        "action": "\"The center will probably need more volunteers\" is an inference. The writer reasons from rising attendance to a guess about Saturday.",
+        "why": "\"Probably\" is a clue word for an inference: a likely conclusion, not a checked fact."
+      },
+      {
+        "action": "\"It is the most useful service our barangay offers\" is an opinion. Other people may judge a different service as more useful."
+      },
+      {
+        "action": "\"The checks are a wonderful gift to our seniors\" is an opinion. \"Wonderful\" shows a feeling, which cannot be proven."
+      },
+      {
+        "action": "\"Last month, 85 residents came\" can be checked by counting the names on last month's list. It is a fact."
+      },
+      {
+        "action": "The fact is: Last month, 85 residents came to the same event."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The center will probably need more volunteers this time.": "This is an inference. The word \"probably\" shows the writer is guessing from the rising numbers, not reporting something already checked.",
+    "It is the most useful service our barangay offers.": "This is Kagawad Diaz's opinion. \"Most useful\" is a judgment, and others may disagree.",
+    "The checks are a wonderful gift to our seniors.": "This is Nurse Joy's opinion. \"Wonderful\" describes a feeling, which cannot be proven true or false."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ana-ac-0021",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-inference",
+  "difficulty": 1,
+  "passage": "**Memo to all staff, City Civil Registry Office**\n\nIn June, the office received 1,240 requests for birth certificates, up from 820 in May. Most of the June requests came from new graduates who need the document to apply for jobs. The office still has six staff members at the request window. The average wait for a document rose from 2 days to 5 days. With graduation season over, requests will probably fall in July. The office head thanks everyone for their hard work.",
+  "stem": "Read this sentence from the memo:\n\"With graduation season over, requests will probably fall in July.\"\n\nWhat kind of statement is it?",
+  "choices": [
+    "Fact: it can be checked against the office's records.",
+    "Inference: it is a likely guess drawn from the facts.",
+    "Opinion: it shows how the writer feels about the work.",
+    "Fact: it was written in an official office memo."
+  ],
+  "answer": "Inference: it is a likely guess drawn from the facts.",
+  "hints": [
+    "Look for a clue word. Words like \"probably\" and \"likely\" often mark a guess.",
+    "Ask: has July happened yet? Can anyone check July's requests right now?",
+    "A fact can be checked now. An inference is a reasoned guess from facts. An opinion is a personal judgment. Decide which one fits, and make sure the reason given in the choice is also right."
+  ],
+  "solution": {
+    "methodName": "Checked, reasoned or judged?",
+    "steps": [
+      {
+        "action": "The sentence is about July, which has not happened yet. No record of July's requests exists, so it cannot be checked now."
+      },
+      {
+        "action": "The writer reasons from facts in the memo: most June requests came from new graduates, and graduation season is over."
+      },
+      {
+        "action": "So the sentence is a likely guess drawn from those facts. The word \"probably\" also shows this.",
+        "why": "An inference goes one step beyond the facts. It may turn out wrong, but it has a reason behind it."
+      },
+      {
+        "action": "It is not an opinion, because it does not judge anything as good or bad."
+      },
+      {
+        "action": "The sentence is an inference: it is a likely guess drawn from the facts."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Fact: it can be checked against the office's records.": "July's requests have not happened yet, so there is no record to check. Only past numbers, like June's 1,240, are facts here.",
+    "Opinion: it shows how the writer feels about the work.": "The sentence does not say that anything is good, bad or unfair. It is a reasoned guess, not a feeling.",
+    "Fact: it was written in an official office memo.": "Being in an official memo does not make every sentence a fact. A memo can also contain guesses and opinions."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,46 @@
+{
+  "id": "ana-ac-0024",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-inference",
+  "difficulty": 2,
+  "passage": "**Barangay council minutes**\n\nThe council reviewed the fee for a barangay clearance, which has been ₱50 since 2019. Records show that the barangay issued 1,800 clearances last year. Kagawad Lim said that ₱50 is too high a fee for jobless residents who need a clearance to apply for work. The treasurer reported that the fees are used to pay for forms and printer ink. If the fee is lowered, the barangay will likely need other funds to cover these costs. The council will vote on the matter next week.",
+  "stem": "Which statement from the minutes is an opinion?",
+  "choices": [
+    "₱50 is too high a fee for jobless residents.",
+    "The barangay issued 1,800 clearances last year.",
+    "The clearance fee has been ₱50 since 2019.",
+    "If the fee is lowered, other funds will likely be needed."
+  ],
+  "answer": "₱50 is too high a fee for jobless residents.",
+  "hints": [
+    "A number in a sentence does not make it a fact. Look for words that judge.",
+    "First mark the choices that could be checked in the barangay's records.",
+    "Set aside what can be checked in records, and the sentence that makes a likely guess. The opinion is the one that judges, even if it contains a number."
+  ],
+  "solution": {
+    "methodName": "Checked, reasoned or judged?",
+    "steps": [
+      {
+        "action": "\"The clearance fee has been ₱50 since 2019\" and \"1,800 clearances last year\" can be checked in the barangay's records. They are facts."
+      },
+      {
+        "action": "\"Other funds will likely be needed\" is an inference. It reasons from the treasurer's report that the fees pay for forms and ink."
+      },
+      {
+        "action": "\"₱50 is too high a fee for jobless residents\" is a judgment. What is too high for one person may be fine for another.",
+        "why": "The amount ₱50 is a fact, but \"too high\" is Kagawad Lim's view. A judging word turns the sentence into an opinion."
+      },
+      {
+        "action": "The opinion is: ₱50 is too high a fee for jobless residents."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The barangay issued 1,800 clearances last year.": "This is a fact. The number of clearances can be checked in the barangay's records.",
+    "The clearance fee has been ₱50 since 2019.": "This is a fact. The fee and the year it started can be checked in the records.",
+    "If the fee is lowered, other funds will likely be needed.": "This is an inference. It is a likely result reasoned from the treasurer's report, and it does not judge the fee as good or bad."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

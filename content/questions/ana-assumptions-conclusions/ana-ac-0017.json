@@ -1,0 +1,51 @@
+{
+  "id": "ana-ac-0017",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-conclusion",
+  "difficulty": 3,
+  "stem": "Facts:\n1. To get the city's senior citizen discount card, a person must be at least 60 years old and must have lived in the city for at least 6 months.\n2. Lorna is 64. She moved to the city 3 months ago.\n3. Tomas is 61. He has lived in the city all his life.\n4. Rina is 59. She has lived in the city for 10 years.\n\nWhich conclusion about Lorna, Tomas and Rina follows from the facts?",
+  "choices": [
+    "Lorna and Tomas both meet the requirements now.",
+    "Only Tomas meets both of the requirements now.",
+    "Lorna can never get the city's discount card.",
+    "Rina will be able to get the card before Lorna."
+  ],
+  "answer": "Only Tomas meets both of the requirements now.",
+  "hints": [
+    "There are two requirements: age 60 or above, and at least 6 months in the city. Check each person against both.",
+    "Make a small table: each name, then \"meets age?\" and \"meets 6 months?\"",
+    "A person qualifies only if both answers are yes. Then check the choices about the future: do the facts tell you enough to be sure?"
+  ],
+  "solution": {
+    "methodName": "Facts-only test: keep only what the facts prove",
+    "steps": [
+      {
+        "action": "Lorna: 64 meets the age rule, but 3 months is less than 6 months. She does not qualify yet."
+      },
+      {
+        "action": "Tomas: 61 meets the age rule, and he has lived in the city all his life. He qualifies."
+      },
+      {
+        "action": "Rina: 10 years meets the 6-month rule, but 59 is below 60. She does not qualify yet."
+      },
+      {
+        "action": "So only Tomas meets both of the requirements now.",
+        "why": "The word \"and\" in the rule means a person must meet both parts, not just one."
+      },
+      {
+        "action": "Check the others. Lorna needs only 3 more months in the city, so \"never\" is wrong. We do not know Rina's birthday, so we cannot tell who will qualify first."
+      },
+      {
+        "action": "The conclusion that follows: Only Tomas meets both of the requirements now."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Lorna and Tomas both meet the requirements now.": "Lorna meets the age rule, but she has lived in the city for only 3 months. The rule needs both the age and 6 months of living in the city.",
+    "Lorna can never get the city's discount card.": "This is too broad. If Lorna stays in the city 3 more months, she will meet both requirements.",
+    "Rina will be able to get the card before Lorna.": "This is merely possible. Rina turns 60 sometime within the year, but we do not know when. Lorna will qualify in 3 months, so either one could be first."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

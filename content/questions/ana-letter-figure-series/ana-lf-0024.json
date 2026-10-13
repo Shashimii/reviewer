@@ -1,0 +1,46 @@
+{
+  "id": "ana-lf-0024",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-odd",
+  "difficulty": 2,
+  "stem": "Which pair does NOT belong with the others?",
+  "choices": [
+    "CX",
+    "DW",
+    "HS",
+    "FV"
+  ],
+  "answer": "FV",
+  "hints": [
+    "Each pair has one letter from the first half of the alphabet and one from the second half. Think about opposite letters, like A and Z.",
+    "Write each pair as numbers. CX is 3 and 24.",
+    "Add the two numbers in each pair. Three pairs give the same total. Find the pair that does not."
+  ],
+  "solution": {
+    "methodName": "Find the rule three of them share",
+    "steps": [
+      {
+        "action": "Write each pair as numbers: CX = 3 and 24, DW = 4 and 23, HS = 8 and 19, FV = 6 and 22."
+      },
+      {
+        "action": "Add the numbers in each pair: 3 + 24 = 27, 4 + 23 = 27, 8 + 19 = 27, 6 + 22 = 28.",
+        "why": "Opposite letters, like A and Z, are the same distance from each end of the alphabet. Their numbers always add up to 27."
+      },
+      {
+        "action": "Three pairs add up to 27, so each is a letter and its opposite. FV adds up to 28.",
+        "why": "The opposite of F (6) is 27 − 6 = 21 = U, not V."
+      },
+      {
+        "action": "FV breaks the rule. The answer is FV."
+      }
+    ]
+  },
+  "trapNotes": {
+    "CX": "C and X are opposites: C is 3rd from the start and X is 3rd from the end (3 + 24 = 27). CX follows the rule.",
+    "DW": "D and W are opposites: D is 4th from the start and W is 4th from the end (4 + 23 = 27). DW follows the rule.",
+    "HS": "HS may look odd because its letters are closer together, but H (8) and S (19) are opposites: 8 + 19 = 27. HS follows the rule."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

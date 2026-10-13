@@ -1,0 +1,50 @@
+{
+  "id": "ana-di-0012",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-percent",
+  "difficulty": 3,
+  "passage": "**Rice production of four provinces, 2024 and 2025** (in thousands of metric tons)\n\n| Province | 2024 | 2025 |\n| --- | ---: | ---: |\n| Province A | 120 | 150 |\n| Province B | 80 | 72 |\n| Province C | 200 | 240 |\n| Province D | 60 | 90 |",
+  "stem": "Which province had the largest percent increase in rice production from 2024 to 2025?",
+  "choices": [
+    "Province C",
+    "Province A",
+    "Province B",
+    "Province D"
+  ],
+  "answer": "Province D",
+  "hints": [
+    "The largest increase in metric tons is not always the largest percent increase. A small starting amount can grow by a bigger percent.",
+    "For each province, find the change (2025 − 2024). Then divide it by the 2024 value.",
+    "Write each change over its 2024 value, change each one to a percent, and compare. Leave out any province that went down."
+  ],
+  "solution": {
+    "methodName": "Percent change = change ÷ old value × 100",
+    "steps": [
+      {
+        "action": "Province A: 150 − 120 = 30, and 30/120 = 1/4 = 25%."
+      },
+      {
+        "action": "Province B: 72 is less than 80, so B went down. It cannot have the largest increase.",
+        "why": "A decrease is not an increase at all."
+      },
+      {
+        "action": "Province C: 240 − 200 = 40, and 40/200 = 1/5 = 20%."
+      },
+      {
+        "action": "Province D: 90 − 60 = 30, and 30/60 = 1/2 = 50%.",
+        "why": "D grew by the same 30 thousand metric tons as A, but from a smaller start, so its percent is bigger."
+      },
+      {
+        "action": "Compare 25%, 20% and 50%. Province D had the largest percent increase."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Province C": "C had the largest increase in metric tons (40 thousand), but it started from 200. 40/200 is only 20%.",
+    "Province A": "A grew by 30 thousand metric tons, the same as D. But A started from 120, so 30/120 is only 25%. D started from 60.",
+    "Province B": "B's production went down, from 80 to 72. If you subtracted the wrong way (2024 − 2025), B's decrease looks like an increase."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ana-sl-0021",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-ordering",
+  "difficulty": 1,
+  "stem": "Ana is taller than Ben. Carlo is shorter than Ben.\n\nWhich must be true?",
+  "choices": [
+    "Ana is taller than Carlo.",
+    "Carlo is taller than Ana.",
+    "Ben is the shortest of the three.",
+    "Carlo is taller than Ben."
+  ],
+  "answer": "Ana is taller than Carlo.",
+  "hints": [
+    "Put all three people in one line, from tallest to shortest.",
+    "\"Carlo is shorter than Ben\" is the same as \"Ben is taller than Carlo\". Now both facts use \"taller\".",
+    "Write the line with the tallest on the left. Use the first fact for Ana and Ben, and the second for Ben and Carlo. Then read each choice from your line."
+  ],
+  "solution": {
+    "methodName": "Line them up, then test every case",
+    "steps": [
+      {
+        "action": "Rewrite both facts with the same word. \"Ana is taller than Ben\" stays. \"Carlo is shorter than Ben\" becomes \"Ben is taller than Carlo\".",
+        "why": "Using one word, \"taller\", for every fact makes the order easier to see."
+      },
+      {
+        "action": "Line them up from tallest to shortest: Ana, Ben, Carlo.",
+        "why": "Ana is above Ben, and Ben is above Carlo, so Ben is in the middle."
+      },
+      {
+        "action": "\"Ana is taller than Carlo\": Ana is first and Carlo is last, so this is true."
+      },
+      {
+        "action": "\"Carlo is taller than Ana\" and \"Carlo is taller than Ben\" are false: Carlo is the shortest."
+      },
+      {
+        "action": "\"Ben is the shortest of the three\" is false: Ben is in the middle."
+      },
+      {
+        "action": "The answer is \"Ana is taller than Carlo.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Carlo is taller than Ana.": "This reverses the order. Ana is taller than Ben, and Ben is taller than Carlo, so Ana is taller than Carlo.",
+    "Ben is the shortest of the three.": "Ben is taller than Carlo, so Ben is in the middle, not the shortest.",
+    "Carlo is taller than Ben.": "This reverses the second fact. \"Carlo is shorter than Ben\" means Ben is the taller one."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

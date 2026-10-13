@@ -1,0 +1,49 @@
+{
+  "id": "ana-di-0015",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-percent",
+  "difficulty": 3,
+  "passage": "**Rice harvest of four provinces by season, 2025** (in thousands of metric tons)\n\n| Province | Wet season | Dry season |\n| --- | ---: | ---: |\n| Province P | 100 | 60 |\n| Province Q | 50 | 70 |\n| Province R | 45 | 35 |\n| Province S | 25 | 15 |",
+  "stem": "What percent of the four provinces' total rice harvest in 2025 came from Province Q?",
+  "choices": [
+    "17.5%",
+    "40%",
+    "30%",
+    "12.5%"
+  ],
+  "answer": "30%",
+  "hints": [
+    "Province Q's harvest has two parts, the wet season and the dry season. Use both.",
+    "Add Q's two numbers to get its part. Then add both columns for all four provinces to get the total.",
+    "Divide Q's part by the total, then make the bottom 100."
+  ],
+  "solution": {
+    "methodName": "Share = part ÷ total × 100",
+    "steps": [
+      {
+        "action": "Find Province Q's harvest: 50 + 70 = 120 (thousand metric tons).",
+        "why": "The question asks about the whole year, so add both seasons."
+      },
+      {
+        "action": "Find the total for all four provinces. Wet season: 100 + 50 + 45 + 25 = 220. Dry season: 60 + 70 + 35 + 15 = 180. Total: 220 + 180 = 400."
+      },
+      {
+        "action": "Write the share as a fraction: 120/400."
+      },
+      {
+        "action": "Make the bottom 100: divide the top and the bottom by 4. 120/400 = 30/100 = 30%."
+      },
+      {
+        "action": "Province Q produced 30% of the total harvest."
+      }
+    ]
+  },
+  "trapNotes": {
+    "17.5%": "This uses only Q's dry season harvest (70/400). Q's share of the whole year needs both seasons: 50 + 70 = 120.",
+    "40%": "This is Province P's share (160/400). Check that you used the Province Q row.",
+    "12.5%": "This uses only Q's wet season harvest (50/400). Add both seasons first: 50 + 70 = 120."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

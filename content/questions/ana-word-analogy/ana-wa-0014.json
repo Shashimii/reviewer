@@ -1,0 +1,55 @@
+{
+  "id": "ana-wa-0014",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-use",
+  "difficulty": 2,
+  "stem": "CARPENTER : HAMMER :: SURGEON : ___",
+  "choices": [
+    "hospital",
+    "patient",
+    "nurse",
+    "scalpel"
+  ],
+  "answer": "scalpel",
+  "hints": [
+    "How does a CARPENTER use a HAMMER?",
+    "Make a bridge sentence: \"A carpenter uses a hammer as a work tool.\"",
+    "Now say: \"A surgeon uses a ___ as a work tool.\" Cross out places and people. If your bridge only says \"works with\", make it more exact."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"A carpenter uses a hammer as a work tool.\"",
+        "why": "A carpenter is a worker who builds with wood, and the hammer is a tool of the job. Saying \"work tool\" keeps the bridge exact."
+      },
+      {
+        "action": "Use the same bridge: \"A surgeon uses a ___ as a work tool.\"",
+        "why": "A surgeon is a doctor who does operations."
+      },
+      {
+        "action": "Test hospital. A hospital is where a surgeon works. A place is not a tool."
+      },
+      {
+        "action": "Test patient. A patient is the person a surgeon treats. A person is not a tool."
+      },
+      {
+        "action": "Test nurse. A nurse helps the surgeon, but a nurse is a person, not a tool."
+      },
+      {
+        "action": "Test scalpel. A scalpel is a small, very sharp knife used in operations. \"A surgeon uses a scalpel as a work tool\" is true."
+      },
+      {
+        "action": "The answer is scalpel."
+      }
+    ]
+  },
+  "trapNotes": {
+    "hospital": "A hospital is where a surgeon works. This is a worker and workplace, not a worker and tool.",
+    "patient": "A patient is the person a surgeon treats. A patient is not a tool.",
+    "nurse": "A surgeon works with a nurse, so a loose bridge like \"works with\" lets this in. The exact bridge, \"uses as a work tool\", rules it out, because a nurse is a person."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

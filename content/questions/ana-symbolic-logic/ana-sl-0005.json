@@ -1,0 +1,56 @@
+{
+  "id": "ana-sl-0005",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-syllogism",
+  "difficulty": 2,
+  "stem": "Assume these two statements are true:\n1. Some employees are part-timers.\n2. No part-timers get a bonus.\n\nBased only on these statements, which conclusion must be true?",
+  "choices": [
+    "Some employees get a bonus.",
+    "No employees get a bonus.",
+    "Some employees get no bonus.",
+    "Some part-timers get a bonus."
+  ],
+  "answer": "Some employees get no bonus.",
+  "hints": [
+    "Follow the person in statement 1: at least one employee is a part-timer. What does statement 2 say about that person?",
+    "Draw the employees circle overlapping the part-timers circle. Draw the bonus circle away from the part-timers circle, since no part-timer gets a bonus.",
+    "Look at the person in the overlap of employees and part-timers: that person is outside the bonus circle. Then check each choice by trying to draw a picture where the statements are true but the choice is false."
+  ],
+  "solution": {
+    "methodName": "Draw circles, then look for a counterexample",
+    "steps": [
+      {
+        "action": "Statement 1: at least one employee is a part-timer. Call her Pat and put her in the overlap of the employees and part-timers circles."
+      },
+      {
+        "action": "Statement 2: the part-timers circle and the bonus circle do not touch. So Pat gets no bonus.",
+        "why": "Pat is a part-timer, and no part-timer gets a bonus."
+      },
+      {
+        "action": "Pat is an employee who gets no bonus. So \"Some employees get no bonus\" must be true."
+      },
+      {
+        "action": "\"No employees get a bonus\" does not have to be true: a full-time employee named Fil may get a bonus, and both statements stay true.",
+        "why": "The statements only talk about part-timers. Employees who are not part-timers could be inside or outside the bonus circle."
+      },
+      {
+        "action": "\"Some employees get a bonus\" does not have to be true either: if every employee is a part-timer, then no employee gets a bonus, and both statements stay true.",
+        "why": "Knowing that some employees get no bonus does not tell you that the others get one."
+      },
+      {
+        "action": "\"Some part-timers get a bonus\" is false, because statement 2 says no part-timer gets one."
+      },
+      {
+        "action": "The answer is \"Some employees get no bonus.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Some employees get a bonus.": "The statements never say any employee gets a bonus. Counterexample: every employee is a part-timer. Both statements stay true, and no employee gets a bonus.",
+    "No employees get a bonus.": "This turns \"some\" into \"all\". Counterexample: Fil is a full-time employee who gets a bonus. Both statements stay true, so this choice does not have to be true.",
+    "Some part-timers get a bonus.": "This goes against statement 2, which says no part-timer gets a bonus. It is always false here."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

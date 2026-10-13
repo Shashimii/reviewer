@@ -1,0 +1,49 @@
+{
+  "id": "ana-lf-0005",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-letters",
+  "difficulty": 2,
+  "stem": "What letter comes next? A, B, D, G, K, ___",
+  "choices": [
+    "O",
+    "P",
+    "N",
+    "Q"
+  ],
+  "answer": "P",
+  "hints": [
+    "The gaps between the letters are not the same. Check whether the gaps themselves follow a pattern.",
+    "Write the letters as numbers: A = 1, B = 2, D = 4, G = 7, K = 11. Find the differences.",
+    "The differences are 1, 2, 3, 4. Each one is 1 more than the one before. Add the next difference to 11, then change the number back to a letter."
+  ],
+  "solution": {
+    "methodName": "Change letters to numbers, then find the rule",
+    "steps": [
+      {
+        "action": "Write each letter as a number: A = 1, B = 2, D = 4, G = 7, K = 11.",
+        "why": "K is one after the anchor J = 10."
+      },
+      {
+        "action": "Find the differences: 2 − 1 = 1, 4 − 2 = 2, 7 − 4 = 3, 11 − 7 = 4."
+      },
+      {
+        "action": "The differences grow by 1 each time, so the next difference is 5.",
+        "why": "When the differences are not equal, look for a pattern in the differences themselves, just as in number series."
+      },
+      {
+        "action": "Add it to the last term: 11 + 5 = 16."
+      },
+      {
+        "action": "Change 16 back to a letter: O = 15, so 16 = P. The answer is P."
+      }
+    ]
+  },
+  "trapNotes": {
+    "O": "O is 11 + 4 = 15. This reuses the last difference. The differences grow (1, 2, 3, 4), so the next one is 5.",
+    "N": "N is 11 + 3 = 14. The differences never go back down; after 4 comes 5.",
+    "Q": "Q is 11 + 6 = 17. This skips a step. After a difference of 4, the next difference is 5, not 6."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

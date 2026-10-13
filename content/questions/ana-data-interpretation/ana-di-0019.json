@@ -1,0 +1,49 @@
+{
+  "id": "ana-di-0019",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-percent",
+  "difficulty": 1,
+  "passage": "**Building permit applications at a town engineering office, January to April 2025**\n\n| Month | Received | Approved |\n| --- | ---: | ---: |\n| January | 40 | 30 |\n| February | 50 | 40 |\n| March | 60 | 45 |\n| April | 80 | 72 |",
+  "stem": "What percent of the applications received in April were approved?",
+  "choices": [
+    "72%",
+    "80%",
+    "90%",
+    "10%"
+  ],
+  "answer": "90%",
+  "hints": [
+    "Use only the April row. The part is the number approved, and the whole is the number received.",
+    "Write the fraction approved over received: 72/80.",
+    "Simplify the fraction, then make the bottom 100 so you can read it as a percent."
+  ],
+  "solution": {
+    "methodName": "Share = part ÷ total × 100",
+    "steps": [
+      {
+        "action": "Find the April row: 80 received and 72 approved."
+      },
+      {
+        "action": "Write the share as a fraction: 72/80.",
+        "why": "Approved is the part. Received is the whole, because every approved application was first received."
+      },
+      {
+        "action": "Simplify: divide the top and the bottom by 8. 72/80 = 9/10."
+      },
+      {
+        "action": "Make the bottom 100: 9/10 = 90/100 = 90%."
+      },
+      {
+        "action": "90% of April's applications were approved."
+      }
+    ]
+  },
+  "trapNotes": {
+    "72%": "72 is the number of approved applications, not a percent. Divide it by the 80 applications received.",
+    "80%": "This is February's rate (40/50), the wrong row. Check that you used the April row.",
+    "10%": "This is the share that was not approved (8/80). The question asks for the share that was approved."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

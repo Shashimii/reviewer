@@ -1,0 +1,58 @@
+{
+  "id": "ana-wa-0005",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-meaning",
+  "difficulty": 3,
+  "stem": "DILIGENT : HARDWORKING :: OBSTINATE : ___",
+  "choices": [
+    "stubborn",
+    "flexible",
+    "lazy",
+    "obedient"
+  ],
+  "answer": "stubborn",
+  "hints": [
+    "DILIGENT is a word often used in work evaluations. How is it related to HARDWORKING?",
+    "Make a bridge sentence: \"Diligent means the same as hardworking.\" Now you need a word that means the same as OBSTINATE.",
+    "An obstinate person refuses to change their mind, even when given good reasons. Say \"Obstinate means the same as ___\" with each choice, and cross out any word with an opposite meaning."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"Diligent means the same as hardworking.\"",
+        "why": "A diligent employee works hard and carefully. The two words are synonyms."
+      },
+      {
+        "action": "Recall the meaning of OBSTINATE: refusing to change your mind or your ways.",
+        "why": "Example: \"The obstinate driver would not move his car, even after the traffic enforcer asked him twice.\""
+      },
+      {
+        "action": "Use the same bridge: \"Obstinate means the same as ___.\""
+      },
+      {
+        "action": "Test flexible. Flexible means willing to change. That is the opposite of obstinate."
+      },
+      {
+        "action": "Test lazy. Lazy is the opposite of diligent. It does not mean the same as obstinate."
+      },
+      {
+        "action": "Test obedient. An obedient person does what they are told. An obstinate person does not, so the meanings clash."
+      },
+      {
+        "action": "Test stubborn. Stubborn means refusing to change. \"Obstinate means the same as stubborn\" is true."
+      },
+      {
+        "action": "The answer is stubborn."
+      }
+    ]
+  },
+  "trapNotes": {
+    "flexible": "Flexible means willing to change, which is the opposite of obstinate. The bridge needs the same meaning.",
+    "lazy": "Lazy is the opposite of DILIGENT, the first word. Here you need a word that means the same as OBSTINATE.",
+    "obedient": "An obedient person does what they are told. An obstinate person refuses, so the meanings clash rather than match."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

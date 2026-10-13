@@ -1,0 +1,64 @@
+{
+  "id": "ana-assumptions-conclusions-lesson",
+  "topicId": "ana-assumptions-conclusions",
+  "workedExampleId": "ana-ac-0001",
+  "sections": [
+    {
+      "heading": "Arguments, reasons and conclusions",
+      "body": "An **argument** gives a **reason** to believe something. The point it wants you to accept is the **conclusion**.\n\nExample: \"Bring an umbrella to the flag ceremony, because it may rain.\"\n\n- Conclusion: bring an umbrella.\n- Reason: it may rain.\n\nThis topic has three kinds of question:\n\n- **Which is assumed?** Find the hidden step the argument needs.\n- **Which conclusion follows?** Find what the facts prove.\n- **Fact, inference or opinion?** Name the kind of statement.\n\nOne rule covers all three: **use only what is written.** Your own knowledge, however true, is not part of the question."
+    },
+    {
+      "heading": "Finding the assumption: the negation test",
+      "body": "An **assumption** is something the speaker takes for granted but does not say. The argument needs it in order to work.\n\nTo **negate** a sentence means to turn it into its opposite. Use the **negation test**:\n\n1. Find the reason and the conclusion.\n2. Look for the gap between them. What must be true for the reason to lead to the conclusion?\n3. Negate each choice. If the argument **falls apart**, that choice is assumed. If the argument still works, it is not.\n\nExample: \"Bring an umbrella to the flag ceremony, because it may rain.\"\n\n- \"An umbrella can keep you dry.\" Negated: an umbrella cannot keep you dry. Now the advice is pointless. **Assumed.**\n- \"It will rain all week.\" Negated: it will not rain all week. The advice still makes sense. **Not assumed.**\n\nA choice the speaker already said out loud is **stated**, not assumed. Cross it out."
+    },
+    {
+      "heading": "Which conclusion follows: the facts-only test",
+      "body": "A conclusion **follows** only if the facts prove it. It must be true whenever the facts are true.\n\n1. Read each fact slowly. Watch small words like *all*, *some*, *only* and *at least*.\n2. Link the facts, and do any small sums.\n3. Ask of each choice: \"Do the facts prove this, or could it still be false?\" Keep only the one that must be true.\n\nExample. Facts: The library lends books only to people with a library card. Nilo has no library card.\n\n- \"Nilo cannot borrow books from the library.\" **Follows.**\n- \"Nilo does not like to read.\" **Does not follow.** The facts say nothing about what he likes.\n- \"Nilo will get a card next week.\" **Does not follow.** It is only possible."
+    },
+    {
+      "heading": "Fact, inference or opinion",
+      "body": "| Type | How to spot it | Example |\n| --- | --- | --- |\n| **Fact** | Can be checked and proven true or false: numbers, dates, records, things seen | \"The office served 300 clients on Monday.\" |\n| **Inference** | A likely conclusion reasoned from facts. It may turn out wrong. Clues: *probably, likely, must be* | \"Tuesday will probably be busy too.\" |\n| **Opinion** | A personal judgment or feeling that cannot be proven. Clues: *best, fair, unfair, terrible, should* | \"The staff here are the friendliest in town.\" |\n\nFor each statement, ask: **Can it be checked? Is it reasoned from facts? Or is it a judgment?**\n\n- Judge the sentence, not the speaker. A mayor's opinion is still an opinion.\n- A number does not make a fact. \"₱20 is too much for a form\" is an opinion.\n- A count of opinions is a fact. \"40 of 50 people rated the food good\" can be checked.\n- An inference does not always say \"probably.\" If a statement is reasoned from facts but goes beyond what was counted or seen, it is an inference."
+    },
+    {
+      "heading": "Common traps",
+      "body": "- **Too broad.** Words like *all*, *every*, *never* and *always* claim more than the facts give, or more than the argument needs.\n- **Outside knowledge.** A choice may be true in real life but not in the statement. Leave your own knowledge out.\n- **Reversed cause.** Check which came first. If complaints fell after a new rule began, the drop cannot have caused the rule.\n- **Merely possible.** It could happen, but the facts do not prove it. Guesses about the future or about someone's reasons often fall here.\n- **Stated, not assumed.** A choice that repeats the argument is not an assumption.\n- **Wrong group.** A survey of 200 commuters tells you about those 200, not the whole city.\n- **Works against the argument.** An argument never assumes something that would weaken it."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Argument",
+      "definition": "An argument gives a reason to believe a conclusion.",
+      "taglish": "Argument – pangangatwiran; may dahilan (reason) at may konklusyon"
+    },
+    {
+      "term": "Assumption",
+      "definition": "An assumption is something a speaker takes for granted but does not say. The argument needs it to work.",
+      "taglish": "Assumption – bagay na ipinapalagay na totoo kahit hindi sinabi"
+    },
+    {
+      "term": "Negation test",
+      "definition": "The negation test turns a choice into its opposite. If the argument then falls apart, the choice is assumed.",
+      "taglish": "Negation test – baligtarin ang choice; kapag nasira ang argumento, iyon ang assumption"
+    },
+    {
+      "term": "Conclusion",
+      "definition": "A conclusion is the point an argument wants you to accept. In \"which conclusion follows\" questions, it must be proven by the facts.",
+      "taglish": "Conclusion – ang punto o konklusyon; dapat patunayan ng facts"
+    },
+    {
+      "term": "Fact",
+      "definition": "A fact is a statement that can be checked and proven true or false.",
+      "taglish": "Fact – katotohanang mapapatunayan, gaya ng bilang, petsa o record"
+    },
+    {
+      "term": "Inference",
+      "definition": "An inference is a likely conclusion reasoned from facts. It may turn out wrong.",
+      "taglish": "Inference – hinuha; matalinong hula batay sa facts"
+    },
+    {
+      "term": "Opinion",
+      "definition": "An opinion is a personal judgment or feeling. It cannot be proven true or false.",
+      "taglish": "Opinion – sariling pananaw o damdamin; hindi mapapatunayan"
+    }
+  ]
+}

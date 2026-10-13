@@ -1,0 +1,48 @@
+{
+  "id": "ana-ac-0010",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-conclusion",
+  "difficulty": 1,
+  "stem": "Facts:\n1. The health center gives free flu shots only to people aged 60 and above.\n2. Mang Ben is 57 years old.\n3. On Tuesday, Mang Ben asked the health center for a free flu shot.\n\nWhich conclusion follows from the facts?",
+  "choices": [
+    "Mang Ben does not qualify for a free flu shot.",
+    "Mang Ben paid for a flu shot at the health center.",
+    "Mang Ben will qualify for a free flu shot next year.",
+    "The health center ran out of flu shots on Tuesday."
+  ],
+  "answer": "Mang Ben does not qualify for a free flu shot.",
+  "hints": [
+    "Use only what the facts say. Do not add your own guesses.",
+    "Compare Mang Ben's age with the rule in fact 1.",
+    "Check each choice against the facts. Keep only the choice that must be true from the facts alone. Throw out any choice that is merely possible or that needs information you were not given."
+  ],
+  "solution": {
+    "methodName": "Facts-only test: keep only what the facts prove",
+    "steps": [
+      {
+        "action": "Read the rule: free flu shots go only to people aged 60 and above.",
+        "why": "\"Only\" means no one under 60 gets a free shot."
+      },
+      {
+        "action": "Compare: Mang Ben is 57, which is below 60."
+      },
+      {
+        "action": "So by the rule, Mang Ben does not qualify for a free flu shot."
+      },
+      {
+        "action": "Check the others. The facts never say he paid. He is 57, so he will still be under 60 next year. Nothing is said about running out of shots."
+      },
+      {
+        "action": "The conclusion that follows: Mang Ben does not qualify for a free flu shot."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Mang Ben paid for a flu shot at the health center.": "This might have happened, but the facts never say it. He may have left without a shot or gone somewhere else.",
+    "Mang Ben will qualify for a free flu shot next year.": "Mang Ben is 57, so he will still be under 60 next year. The facts do not support this.",
+    "The health center ran out of flu shots on Tuesday.": "The age rule already explains why he cannot get a free shot. Nothing in the facts says the supply ran out."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

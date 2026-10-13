@@ -1,0 +1,46 @@
+{
+  "id": "ana-di-0023",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-totals",
+  "difficulty": 1,
+  "passage": "**Enrollment at a public high school by grade level, school year 2025–2026** (number of students)\n\n| Grade level | Students |\n| --- | ---: |\n| Grade 7 | 300 |\n| Grade 8 | 275 |\n| Grade 9 | 250 |\n| Grade 10 | 175 |\n| Total | 1,000 |",
+  "stem": "How many more students are in Grade 7 than in Grade 10?",
+  "choices": [
+    "50",
+    "475",
+    "25",
+    "125"
+  ],
+  "answer": "125",
+  "hints": [
+    "\"How many more\" means find the difference.",
+    "Find the Grade 7 row and the Grade 10 row.",
+    "Subtract the smaller number from the bigger number."
+  ],
+  "solution": {
+    "methodName": "Find the values, then add or subtract",
+    "steps": [
+      {
+        "action": "Grade 7 has 300 students."
+      },
+      {
+        "action": "Grade 10 has 175 students."
+      },
+      {
+        "action": "Subtract: 300 − 175 = 125.",
+        "why": "Count up from 175: 175 + 25 = 200, then 200 + 100 = 300. That is 25 + 100 = 125."
+      },
+      {
+        "action": "Grade 7 has 125 more students than Grade 10."
+      }
+    ]
+  },
+  "trapNotes": {
+    "25": "This subtracts Grade 8 (300 − 275). Check that you used the Grade 10 row.",
+    "50": "This subtracts Grade 9 (300 − 250). Check that you used the Grade 10 row.",
+    "475": "This adds the two grades (300 + 175). \"How many more\" means subtract."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

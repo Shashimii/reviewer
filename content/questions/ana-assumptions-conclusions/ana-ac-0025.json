@@ -1,0 +1,49 @@
+{
+  "id": "ana-ac-0025",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-inference",
+  "difficulty": 3,
+  "passage": "**Municipal Environment Office survey results**\n\nIn September, the office asked 100 residents of Barangay Luntian to rate the garbage collection service. Sixty rated it as poor, 30 as fair and 10 as good. Most of those who rated it poor live on streets the truck visits only once a week. The truck probably skips some streets because they are too narrow for it. Councilor Santos called the results \"a shame for the whole town.\" The office will meet with barangay officials next week.",
+  "stem": "Read this sentence about the survey:\n\"In the survey, 60 of the 100 residents rated the garbage collection as poor.\"\n\nWhat kind of statement is it?",
+  "choices": [
+    "Opinion: it says the garbage collection service is poor.",
+    "Fact: it reports a survey result that can be checked.",
+    "Inference: it guesses how every resident in the barangay feels.",
+    "Opinion: it is built on the residents' personal feelings."
+  ],
+  "answer": "Fact: it reports a survey result that can be checked.",
+  "hints": [
+    "Separate two things: what the residents felt, and what the sentence reports about them.",
+    "Ask: if you had the 100 survey forms, could you count how many said \"poor\"?",
+    "A sentence that reports what people said or chose can be checked, even when what they chose was a judgment. Classify the sentence itself, not the residents' answers."
+  ],
+  "solution": {
+    "methodName": "Checked, reasoned or judged?",
+    "steps": [
+      {
+        "action": "Each resident's rating, like \"poor,\" is that person's opinion of the service."
+      },
+      {
+        "action": "But the sentence does not say the service is poor. It reports how many residents chose \"poor\": 60 of 100."
+      },
+      {
+        "action": "That number can be checked by counting the survey forms. So the sentence is a fact.",
+        "why": "A count of opinions is still a count. Anyone with the forms would get the same number, 60."
+      },
+      {
+        "action": "It is not an inference either. It reports only the 100 residents who were asked, without guessing about anyone else."
+      },
+      {
+        "action": "The sentence is a fact: it reports a survey result that can be checked."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Opinion: it says the garbage collection service is poor.": "The sentence does not judge the service itself. It reports how 60 residents rated it, and that count can be checked.",
+    "Inference: it guesses how every resident in the barangay feels.": "The sentence talks only about the 100 residents who were asked. It makes no guess about everyone else in the barangay.",
+    "Opinion: it is built on the residents' personal feelings.": "The ratings are the residents' opinions, but the sentence only counts them. Counting the forms proves it true or false, which makes it a fact."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

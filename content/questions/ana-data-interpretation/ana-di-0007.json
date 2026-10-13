@@ -1,0 +1,46 @@
+{
+  "id": "ana-di-0007",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-read",
+  "difficulty": 1,
+  "passage": "**Business permit applications received by a town office, January to May 2025**\n\n| Month | New | Renewal |\n| --- | ---: | ---: |\n| January | 35 | 120 |\n| February | 40 | 60 |\n| March | 25 | 45 |\n| April | 30 | 30 |\n| May | 50 | 20 |",
+  "stem": "In which month did the office receive the most new applications?",
+  "choices": [
+    "January",
+    "February",
+    "May",
+    "March"
+  ],
+  "answer": "May",
+  "hints": [
+    "The table has two columns of numbers. The question asks only about new applications.",
+    "Read down the New column and find the largest number.",
+    "Read across from that largest number to the month on the same row."
+  ],
+  "solution": {
+    "methodName": "Read the title and units, then find the row and column",
+    "steps": [
+      {
+        "action": "Find the New column: 35, 40, 25, 30 and 50.",
+        "why": "The Renewal column counts a different kind of application, so leave it out."
+      },
+      {
+        "action": "The largest number in the New column is 50."
+      },
+      {
+        "action": "Read across to the month on the same row: May."
+      },
+      {
+        "action": "The office received the most new applications in May."
+      }
+    ]
+  },
+  "trapNotes": {
+    "January": "January has the most renewals (120), not the most new applications. In the New column, January has only 35.",
+    "February": "February has 40 new applications, the second largest. May has more, with 50.",
+    "March": "March has the fewest new applications (25), not the most."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

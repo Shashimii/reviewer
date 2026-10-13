@@ -1,0 +1,51 @@
+{
+  "id": "ana-lf-0014",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-codes",
+  "difficulty": 3,
+  "stem": "In a code, BAG is written as CCJ. How is TOP written in the same code?",
+  "choices": [
+    "UQS",
+    "UPQ",
+    "WQQ",
+    "VQR"
+  ],
+  "answer": "UQS",
+  "hints": [
+    "Compare each letter with its code. The letters do not all move by the same amount.",
+    "B becomes C, A becomes C, G becomes J. Count how many places each letter moves forward.",
+    "The 1st letter moves 1 place, the 2nd moves 2 places and the 3rd moves 3 places. Do the same to T, O and P."
+  ],
+  "solution": {
+    "methodName": "Compare each letter with its code",
+    "steps": [
+      {
+        "action": "Line up the word and its code: B with C, A with C, G with J."
+      },
+      {
+        "action": "Count each move: B (2) to C (3) is +1, A (1) to C (3) is +2, G (7) to J (10) is +3.",
+        "why": "The moves are different, but they follow a pattern: each letter moves by its place in the word."
+      },
+      {
+        "action": "Apply the same moves to TOP. 1st letter: T (20) + 1 = 21 = U."
+      },
+      {
+        "action": "2nd letter: O (15) + 2 = 17 = Q."
+      },
+      {
+        "action": "3rd letter: P (16) + 3 = 19 = S."
+      },
+      {
+        "action": "Join the letters: U, Q, S. The answer is UQS."
+      }
+    ]
+  },
+  "trapNotes": {
+    "UPQ": "UPQ moves every letter by 1. That works for B to C, but A to C is 2 places and G to J is 3 places.",
+    "WQQ": "WQQ uses the moves in reverse order (+3, +2, +1). The 1st letter moves 1 place and the 3rd letter moves 3 places.",
+    "VQR": "VQR moves every letter by 2. Only the middle letter moves 2 places; the 1st moves 1 and the 3rd moves 3."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

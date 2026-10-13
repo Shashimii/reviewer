@@ -1,0 +1,49 @@
+{
+  "id": "ana-di-0026",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-totals",
+  "difficulty": 2,
+  "passage": "**ID applications received by a city social welfare office, January to March 2025**\n\n| Type of ID | January | February | March |\n| --- | ---: | ---: | ---: |\n| Senior citizen ID | 60 | 45 | 63 |\n| PWD ID | 36 | 42 | 30 |\n| Solo parent ID | 20 | 26 | 24 |\n\nPWD means person with disability.",
+  "stem": "What was the average number of senior citizen ID applications per month from January to March?",
+  "choices": [
+    "84",
+    "56",
+    "168",
+    "36"
+  ],
+  "answer": "56",
+  "hints": [
+    "Use only the Senior citizen ID row. Count how many months there are.",
+    "Add the three numbers in the Senior citizen ID row: 60 + 45 + 63.",
+    "Divide the total by the number of months, 3."
+  ],
+  "solution": {
+    "methodName": "Average = total ÷ number of values",
+    "steps": [
+      {
+        "action": "Read the Senior citizen ID row: 60, 45 and 63."
+      },
+      {
+        "action": "Add them: 60 + 45 + 63 = 168."
+      },
+      {
+        "action": "Count the months: January, February and March is 3 months."
+      },
+      {
+        "action": "Divide: 168 ÷ 3 = 56.",
+        "why": "Split 168 into 150 + 18. Then 150 ÷ 3 = 50 and 18 ÷ 3 = 6, so 50 + 6 = 56."
+      },
+      {
+        "action": "The average is 56 senior citizen ID applications per month."
+      }
+    ]
+  },
+  "trapNotes": {
+    "36": "This is the average of the PWD ID row (108 ÷ 3). Check that you used the Senior citizen ID row.",
+    "84": "This divides 168 by 2. January to March is 3 months, so divide by 3.",
+    "168": "This is the total for the three months. An average divides the total by the number of months."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

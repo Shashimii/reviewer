@@ -1,0 +1,57 @@
+{
+  "id": "ana-sl-0006",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-syllogism",
+  "difficulty": 2,
+  "stem": "Assume these two statements are true:\n1. Some clerks are encoders.\n2. All encoders are typists.\n\nBased only on these statements, which conclusion must be true?",
+  "choices": [
+    "All clerks are typists.",
+    "Some typists are clerks.",
+    "Some clerks are not encoders.",
+    "All typists are encoders."
+  ],
+  "answer": "Some typists are clerks.",
+  "hints": [
+    "Start from the person in statement 1, the one who is both a clerk and an encoder.",
+    "Statement 2 puts every encoder inside the typists circle. So where does that person end up?",
+    "Say what you know for sure about that one person, and read it starting from either group. For the other choices, try a drawing where the statements are true but the choice is false."
+  ],
+  "solution": {
+    "methodName": "Draw circles, then look for a counterexample",
+    "steps": [
+      {
+        "action": "Statement 1: at least one clerk is an encoder. Call him Ed. Ed is a clerk and an encoder."
+      },
+      {
+        "action": "Statement 2: every encoder is a typist. So Ed is also a typist.",
+        "why": "The encoders circle sits inside the typists circle, so Ed is inside it too."
+      },
+      {
+        "action": "Ed is a typist and a clerk. So \"Some typists are clerks\" must be true.",
+        "why": "\"Some typists are clerks\" only needs one person who is both. Ed is that person."
+      },
+      {
+        "action": "\"All clerks are typists\" does not have to be true: a clerk named Cleo may be neither an encoder nor a typist. Both statements stay true.",
+        "why": "Statement 2 only covers encoders. Clerks who are not encoders could be anything."
+      },
+      {
+        "action": "\"Some clerks are not encoders\" does not have to be true: if every clerk is an encoder, both statements are still true.",
+        "why": "\"Some are\" does not mean \"some are not.\""
+      },
+      {
+        "action": "\"All typists are encoders\" turns statement 2 around. A typist named Tina who is not an encoder keeps both statements true, so it does not have to be true."
+      },
+      {
+        "action": "The answer is \"Some typists are clerks.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "All clerks are typists.": "Only the clerks who are encoders are sure to be typists. Counterexample: Cleo is a clerk who is neither an encoder nor a typist. Both statements stay true, but not all clerks are typists.",
+    "Some clerks are not encoders.": "\"Some are\" does not mean \"some are not.\" Counterexample: every clerk is an encoder. Both statements stay true, and this choice is false.",
+    "All typists are encoders.": "This turns statement 2 around. Counterexample: Tina is a typist who is not an encoder. Both statements stay true, but this choice is false."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

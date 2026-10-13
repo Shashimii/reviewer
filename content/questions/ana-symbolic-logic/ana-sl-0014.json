@@ -1,0 +1,52 @@
+{
+  "id": "ana-sl-0014",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-conditional",
+  "difficulty": 2,
+  "stem": "Assume these statements are true:\n1. If Ana is on leave, Ben handles the payroll.\n2. If Ana is not on leave, Ana leads the Monday meeting.\n3. This week, Ana is not on leave.\n\nWhich must be true this week?",
+  "choices": [
+    "Ben does not handle the payroll.",
+    "Ben handles the payroll.",
+    "Ana leads the Monday meeting.",
+    "Ben leads the Monday meeting."
+  ],
+  "answer": "Ana leads the Monday meeting.",
+  "hints": [
+    "Two rules talk about Ana's leave. Find the rule whose if-part matches the fact in statement 3.",
+    "Statement 3 says Ana is not on leave. That is exactly the if-part of rule 2.",
+    "Apply the rule whose if-part is true. Rule 1's if-part is false this week, and a false if-part tells you nothing about the then-part. So don't conclude anything about Ben from it."
+  ],
+  "solution": {
+    "methodName": "Go forward, or flip and negate both parts",
+    "steps": [
+      {
+        "action": "Statement 3: this week, Ana is not on leave."
+      },
+      {
+        "action": "Rule 2's if-part is \"Ana is not on leave\". It is true, so the then-part is true: Ana leads the Monday meeting.",
+        "why": "Modus ponens: the if-part happened, so the then-part happens."
+      },
+      {
+        "action": "Rule 1's if-part is \"Ana is on leave\". It is false this week. When the if-part is false, the rule says nothing about the then-part.",
+        "why": "Rule 1 only tells us what happens when Ana is away. It does not say who handles the payroll at other times."
+      },
+      {
+        "action": "So \"Ben does not handle the payroll\" does not have to be true: Ben may handle it every week anyway. And \"Ben handles the payroll\" does not have to be true: someone else may handle it this week."
+      },
+      {
+        "action": "\"Ben leads the Monday meeting\" is not in any rule. Ana may lead it alone, so it does not have to be true."
+      },
+      {
+        "action": "The answer is \"Ana leads the Monday meeting.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Ben does not handle the payroll.": "This is denying the antecedent: rule 1's if-part is false, so you assume its then-part is false too. Counterexample: Ben handles the payroll every week, whether or not Ana is on leave. All three statements stay true.",
+    "Ben handles the payroll.": "Rule 1 needs Ana to be on leave, and she is not. Counterexample: this week someone other than Ben handles the payroll. All three statements stay true.",
+    "Ben leads the Monday meeting.": "No rule says anything about Ben and the meeting. Counterexample: Ana leads the meeting by herself. All three statements stay true."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

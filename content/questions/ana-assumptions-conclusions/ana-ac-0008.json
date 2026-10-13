@@ -1,0 +1,52 @@
+{
+  "id": "ana-ac-0008",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-assumption",
+  "difficulty": 3,
+  "stem": "An agency head says: \"Our new online booking system cut the average wait at our main office from 2 hours to 30 minutes. We should use the same system in our provincial offices, where clients also wait for hours.\"\n\nWhich of these is assumed?",
+  "choices": [
+    "Every client in the provinces owns a computer.",
+    "Provincial clients now wait longer than 2 hours.",
+    "Clients in the provinces are able to book online.",
+    "Waiting times at the main office will keep falling."
+  ],
+  "answer": "Clients in the provinces are able to book online.",
+  "hints": [
+    "The head says a system that worked in one place will work in another. What must be true in the new place for the system to work there too?",
+    "Find the evidence (the system worked at the main office) and the conclusion (use it in the provinces). Then ask what the system needs from clients in order to work.",
+    "Negate each choice. Be careful with choices that say \"every\" or \"longer\": the argument may not need that much. The assumption is the choice whose opposite means the system could not work in the provinces."
+  ],
+  "solution": {
+    "methodName": "Negation test: deny it, and see if the argument falls apart",
+    "steps": [
+      {
+        "action": "Find the argument: the system cut waiting at the main office (evidence), so use it in the provinces (conclusion)."
+      },
+      {
+        "action": "Spot the gap: an online booking system only helps if clients can book online. The head takes for granted that provincial clients can do this.",
+        "why": "When an argument says \"it worked there, so it will work here,\" it assumes the new place is alike in the ways that matter."
+      },
+      {
+        "action": "Negate it: \"Clients in the provinces are not able to book online.\" Then the system cannot cut their waiting, and the argument falls apart."
+      },
+      {
+        "action": "Test the close rival: \"Not every client in the provinces owns a computer.\" Clients can still book with a phone or at a help desk. The argument survives, so this choice asks for too much.",
+        "why": "An assumption is something the argument needs. A claim stronger than what is needed is not assumed."
+      },
+      {
+        "action": "Check the rest. The head says provincial clients \"also wait for hours,\" not more than 2 hours, and the system already cut a 2-hour wait. Future waits at the main office do not affect the plan for the provinces."
+      },
+      {
+        "action": "The assumption is: Clients in the provinces are able to book online."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Every client in the provinces owns a computer.": "This is too strong. Clients could book with a phone or at a help desk. If some clients have no computer, the argument still works.",
+    "Provincial clients now wait longer than 2 hours.": "The head only says provincial clients \"also wait for hours.\" The system already cut a 2-hour wait at the main office, so the argument works even if provincial waits are no longer than 2 hours.",
+    "Waiting times at the main office will keep falling.": "This is about the main office's future, not the provinces. Negate it, and the reason for using the system in the provinces is unchanged."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

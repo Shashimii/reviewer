@@ -1,0 +1,55 @@
+{
+  "id": "ana-wa-0026",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-cause-degree",
+  "difficulty": 3,
+  "stem": "DRIZZLE : DOWNPOUR :: BREEZE : ___",
+  "choices": [
+    "gale",
+    "calm",
+    "air",
+    "fan"
+  ],
+  "answer": "gale",
+  "hints": [
+    "A DRIZZLE is a light rain. A DOWNPOUR is a very heavy rain. What changes from the first word to the second?",
+    "Make a bridge sentence: \"A drizzle is a weak rain, and a downpour is a very strong rain.\"",
+    "Now say: \"A breeze is a weak wind, and a ___ is a very strong wind.\" Cross out any word that is weaker than a breeze or is not a wind at all."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"A drizzle is a weak rain, and a downpour is a very strong rain.\"",
+        "why": "Both words are about rain, but the second is much stronger. This is a degree relationship."
+      },
+      {
+        "action": "Use the same bridge: \"A breeze is a weak wind, and a ___ is a very strong wind.\"",
+        "why": "A breeze is a light, gentle wind."
+      },
+      {
+        "action": "Test calm. Calm means no wind at all. It is weaker than a breeze, not stronger."
+      },
+      {
+        "action": "Test air. Wind is moving air, so air is what wind is made of. Air is not a strong wind."
+      },
+      {
+        "action": "Test fan. A fan makes a breeze. It is a machine, not a strong wind."
+      },
+      {
+        "action": "Test gale. A gale is a very strong wind, the kind that makes sea travel unsafe for small boats. The bridge is true."
+      },
+      {
+        "action": "The answer is gale."
+      }
+    ]
+  },
+  "trapNotes": {
+    "calm": "Calm means no wind. It goes the wrong way: it is weaker than a breeze, not much stronger.",
+    "air": "Wind is moving air, so air is linked to a breeze. But air is not a stronger form of wind.",
+    "fan": "A fan makes a breeze. It is a cause of wind, not a stronger wind."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

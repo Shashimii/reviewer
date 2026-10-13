@@ -1,0 +1,48 @@
+{
+  "id": "ana-ac-0013",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-conclusion",
+  "difficulty": 2,
+  "stem": "Facts:\n1. A new city rule bans single-use plastic bags in all public markets in the city.\n2. The Poblacion Market is a public market in the city.\n3. Aling Rosa sells fish at the Poblacion Market.\n\nWhich conclusion follows from the facts?",
+  "choices": [
+    "Every market in the whole province now bans plastic bags.",
+    "Single-use plastic bags are banned at Aling Rosa's stall.",
+    "Aling Rosa now wraps her fish in banana leaves instead.",
+    "The rule has reduced garbage in the city's rivers."
+  ],
+  "answer": "Single-use plastic bags are banned at Aling Rosa's stall.",
+  "hints": [
+    "Link the facts like a chain: the rule covers certain markets, and Aling Rosa sells at one of them.",
+    "Start with facts 1 and 2: does the rule cover the Poblacion Market?",
+    "Keep only the choice that must be true from the facts. Throw out choices that go beyond the city, guess what Aling Rosa does now, or claim a result the facts never mention."
+  ],
+  "solution": {
+    "methodName": "Facts-only test: keep only what the facts prove",
+    "steps": [
+      {
+        "action": "Facts 1 and 2: the rule covers all public markets in the city, and the Poblacion Market is one of them. So the rule covers the Poblacion Market."
+      },
+      {
+        "action": "Fact 3: Aling Rosa sells at the Poblacion Market. So the rule covers her stall too."
+      },
+      {
+        "action": "So single-use plastic bags are banned at Aling Rosa's stall."
+      },
+      {
+        "action": "Check the others. The rule is for the city's public markets, not every market in the province. The facts never say what Aling Rosa uses now, or whether the rule has helped the rivers.",
+        "why": "Banana leaves and cleaner rivers may sound likely, but a conclusion must come from the facts alone."
+      },
+      {
+        "action": "The conclusion that follows: Single-use plastic bags are banned at Aling Rosa's stall."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Every market in the whole province now bans plastic bags.": "This is too broad. The rule is for public markets in the city only. Other towns in the province may have no such rule.",
+    "Aling Rosa now wraps her fish in banana leaves instead.": "This is merely possible. She may use paper bags, cloth bags or something else. The facts do not say.",
+    "The rule has reduced garbage in the city's rivers.": "This may be what the city hopes for, but the facts say nothing about rivers or garbage. That is outside knowledge."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

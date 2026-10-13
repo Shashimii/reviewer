@@ -1,0 +1,52 @@
+{
+  "id": "ana-ac-0009",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-assumption",
+  "difficulty": 3,
+  "stem": "Only 40 of the 200 residents invited came to the barangay assembly. The barangay secretary said: \"This shows that most residents are not interested in barangay affairs.\"\n\nWhich of these is assumed by the secretary?",
+  "choices": [
+    "The assembly was held at a bad time for workers.",
+    "Most who stayed away could have come if they wanted.",
+    "The 40 who came are interested in barangay affairs.",
+    "No resident will come to the next barangay assembly."
+  ],
+  "answer": "Most who stayed away could have come if they wanted.",
+  "hints": [
+    "The secretary uses who came and who stayed away to judge interest. What is she taking for granted about the people who stayed away?",
+    "Think of other reasons someone might miss an assembly. The secretary's conclusion ignores them.",
+    "Negate each choice and check whether the conclusion still follows from the attendance numbers. Watch for a choice that would weaken her point instead of support it, and one whose opposite would make her point even stronger."
+  ],
+  "solution": {
+    "methodName": "Negation test: deny it, and see if the argument falls apart",
+    "steps": [
+      {
+        "action": "Find the argument: only 40 of 200 came (evidence), so most residents are not interested (conclusion)."
+      },
+      {
+        "action": "Spot the gap: staying away shows a lack of interest only if people chose to stay away. Some may have been at work, sick or never got the invitation.",
+        "why": "The secretary treats every absence as a choice. That is the hidden step."
+      },
+      {
+        "action": "Negate it: \"Most who stayed away could not have come even if they wanted to.\" Then the low turnout says nothing about interest, and the argument falls apart."
+      },
+      {
+        "action": "Check the 40 who came: if they were not interested either, the secretary's point gets stronger, not weaker. So the argument does not depend on their interest.",
+        "why": "The negation test flags a choice only when its opposite hurts the argument."
+      },
+      {
+        "action": "Check the rest. A bad time for workers is a reason against the secretary's view, so she cannot be assuming it. The next assembly is a prediction she never makes."
+      },
+      {
+        "action": "The assumption is: Most who stayed away could have come if they wanted."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The assembly was held at a bad time for workers.": "This would weaken the secretary's point, because it gives another reason for the low turnout. An argument does not assume something that works against it.",
+    "The 40 who came are interested in barangay affairs.": "Negate it: if the 40 who came were not interested, the secretary's conclusion becomes even stronger. Her argument is about those who stayed away, so it does not depend on this.",
+    "No resident will come to the next barangay assembly.": "This is a prediction the secretary never makes. Her claim is about interest now, based on this one assembly."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

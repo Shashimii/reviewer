@@ -1,0 +1,49 @@
+{
+  "id": "ana-di-0011",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-percent",
+  "difficulty": 2,
+  "passage": "**Rice production of four provinces, 2024 and 2025** (in thousands of metric tons)\n\n| Province | 2024 | 2025 |\n| --- | ---: | ---: |\n| Province A | 120 | 150 |\n| Province B | 80 | 72 |\n| Province C | 200 | 240 |\n| Province D | 60 | 90 |",
+  "stem": "From 2024 to 2025, by what percent did Province B's rice production change?",
+  "choices": [
+    "A decrease of 8%",
+    "An increase of 10%",
+    "A decrease of 10%",
+    "A decrease of 90%"
+  ],
+  "answer": "A decrease of 10%",
+  "hints": [
+    "Compare Province B's two numbers. Did production go up or down?",
+    "Find the change: 80 − 72. Then compare it with the old value, the 2024 amount.",
+    "Divide the change by 80 and change the answer to a percent. Remember whether it is an increase or a decrease."
+  ],
+  "solution": {
+    "methodName": "Percent change = change ÷ old value × 100",
+    "steps": [
+      {
+        "action": "Read the Province B row: 80 in 2024 and 72 in 2025 (thousands of metric tons)."
+      },
+      {
+        "action": "72 is less than 80, so production went down. This is a decrease."
+      },
+      {
+        "action": "Find the change: 80 − 72 = 8."
+      },
+      {
+        "action": "Divide the change by the old value: 8/80 = 1/10.",
+        "why": "Percent change compares the change with the 2024 amount, the amount before the change."
+      },
+      {
+        "action": "Change to a percent: 1/10 = 10%. Production fell by 10%, so the answer is a decrease of 10%."
+      }
+    ]
+  },
+  "trapNotes": {
+    "A decrease of 8%": "8 is the change in thousands of metric tons, not a percent. Divide it by the old value: 8/80 = 10%.",
+    "An increase of 10%": "The size is right, but production went down, from 80 to 72. This is a decrease.",
+    "A decrease of 90%": "72/80 = 90% shows that the 2025 amount is 90% of the 2024 amount. The drop is the missing part: 100% − 90% = 10%."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

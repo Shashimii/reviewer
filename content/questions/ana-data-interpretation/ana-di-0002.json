@@ -1,0 +1,51 @@
+{
+  "id": "ana-di-0002",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-percent",
+  "difficulty": 2,
+  "passage": "**Budget of a town by sector, 2025** (in millions of pesos)\n\n| Sector | Budget |\n| --- | ---: |\n| Education | 45 |\n| Health | 30 |\n| Roads and bridges | 60 |\n| Agriculture | 15 |\n| Social welfare | 50 |",
+  "stem": "What percent of the town's total 2025 budget goes to Health?",
+  "choices": [
+    "30%",
+    "25%",
+    "15%",
+    "20%"
+  ],
+  "answer": "15%",
+  "hints": [
+    "A percent of the total needs two numbers: the Health budget (the part) and the whole budget (the total). The table does not show the total.",
+    "Add all five budgets to get the total: 45 + 30 + 60 + 15 + 50.",
+    "Divide the Health budget by the total. Then change the fraction to a percent by making the bottom 100."
+  ],
+  "solution": {
+    "methodName": "Share = part ÷ total × 100",
+    "steps": [
+      {
+        "action": "Find the Health budget: 30 (₱30 million)."
+      },
+      {
+        "action": "Add all five rows to get the total: 45 + 30 + 60 + 15 + 50 = 200 (₱200 million).",
+        "why": "The total is the whole budget. Count the rows first (there are five) so you do not leave one out."
+      },
+      {
+        "action": "Write the share as a fraction: 30/200.",
+        "why": "Share means part over whole: the Health budget over the total budget."
+      },
+      {
+        "action": "Make the bottom 100: divide the top and the bottom by 2. 30/200 = 15/100.",
+        "why": "Percent means \"out of 100\", so 15 out of 100 is 15%."
+      },
+      {
+        "action": "Health gets 15% of the total budget."
+      }
+    ]
+  },
+  "trapNotes": {
+    "30%": "30 is the Health budget in millions of pesos, not a percent. You still need to divide it by the total, ₱200 million.",
+    "25%": "This is the share of Social welfare (50/200). Check that you used the Health row.",
+    "20%": "This divides by 150, which leaves Social welfare (50) out of the total. Add all five rows: the total is 200."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

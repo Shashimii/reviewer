@@ -1,0 +1,45 @@
+{
+  "id": "ana-lf-0009",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-codes",
+  "difficulty": 1,
+  "stem": "In a code, PEN is written as QFO. How is CUP written in the same code?",
+  "choices": [
+    "DVQ",
+    "BTO",
+    "EWR",
+    "DVP"
+  ],
+  "answer": "DVQ",
+  "hints": [
+    "Compare each letter of PEN with the letter in the same place in QFO.",
+    "P becomes Q. Which way did P move in the alphabet, and by how many letters?",
+    "Each letter moves forward by the same number of places. Move each letter of CUP the same way."
+  ],
+  "solution": {
+    "methodName": "Compare each letter with its code",
+    "steps": [
+      {
+        "action": "Line up the word and its code: P with Q, E with F, N with O.",
+        "why": "A letter code changes each letter by a rule. Comparing them one pair at a time shows the rule."
+      },
+      {
+        "action": "Each letter moves forward by 1: P (16) to Q (17), E (5) to F (6), N (14) to O (15). The rule is +1."
+      },
+      {
+        "action": "Apply +1 to each letter of CUP: C becomes D, U becomes V, P becomes Q."
+      },
+      {
+        "action": "The code for CUP is DVQ."
+      }
+    ]
+  },
+  "trapNotes": {
+    "BTO": "BTO moves each letter back by 1. In the example, P became Q, which is a move forward.",
+    "EWR": "EWR moves each letter forward by 2. P to Q is only 1 step.",
+    "DVP": "DVP leaves the last letter unchanged. Every letter in the code moves forward by 1, so P becomes Q."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ana-di-0016",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-read",
+  "difficulty": 1,
+  "passage": "**Enrollment at a public high school, 2021 to 2025** (number of students)\n\n| Year | Boys | Girls |\n| --- | ---: | ---: |\n| 2021 | 420 | 380 |\n| 2022 | 450 | 400 |\n| 2023 | 400 | 440 |\n| 2024 | 480 | 470 |\n| 2025 | 500 | 500 |",
+  "stem": "In which year were there more girls than boys enrolled?",
+  "choices": [
+    "2025",
+    "2024",
+    "2021",
+    "2023"
+  ],
+  "answer": "2023",
+  "hints": [
+    "Compare the Boys and Girls numbers on the same row, one year at a time.",
+    "You want the row where the Girls number is bigger than the Boys number.",
+    "Check all five years. Remember that when two numbers are equal, neither one is more."
+  ],
+  "solution": {
+    "methodName": "Read the title and units, then find the row and column",
+    "steps": [
+      {
+        "action": "2021: boys 420, girls 380. More boys."
+      },
+      {
+        "action": "2022: boys 450, girls 400. More boys."
+      },
+      {
+        "action": "2023: boys 400, girls 440. More girls."
+      },
+      {
+        "action": "2024: boys 480, girls 470. More boys."
+      },
+      {
+        "action": "2025: boys 500, girls 500. Equal, so not more girls.",
+        "why": "\"More than\" means bigger. 500 is not more than 500."
+      },
+      {
+        "action": "Only in 2023 were there more girls than boys."
+      }
+    ]
+  },
+  "trapNotes": {
+    "2021": "In 2021 there were more boys (420) than girls (380). You may have compared the columns the wrong way round.",
+    "2024": "The numbers are close, but in 2024 there were 480 boys and only 470 girls.",
+    "2025": "In 2025, girls and boys are equal (500 each). Equal is not more."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

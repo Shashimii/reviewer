@@ -1,0 +1,52 @@
+{
+  "id": "ana-lf-0001",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-letters",
+  "difficulty": 1,
+  "stem": "What letter comes next? C, E, G, I, ___",
+  "choices": [
+    "J",
+    "K",
+    "M",
+    "L"
+  ],
+  "answer": "K",
+  "hints": [
+    "Look at how far apart the letters are in the alphabet. Is a letter skipped each time?",
+    "Change each letter to its place in the alphabet: C = 3, E = 5. Find how much is added from one letter to the next.",
+    "C = 3, E = 5, G = 7, I = 9. Each step adds the same number. Add it to 9, then change the number back to a letter."
+  ],
+  "solution": {
+    "methodName": "Change letters to numbers, then find the rule",
+    "steps": [
+      {
+        "action": "Write each letter as its place in the alphabet: C = 3, E = 5, G = 7, I = 9.",
+        "why": "The alphabet has 26 letters. Numbering them A = 1, B = 2, C = 3 and so on up to Z = 26 turns a letter series into a number series, which is easier to check."
+      },
+      {
+        "action": "Find the differences: 5 − 3 = 2, 7 − 5 = 2, 9 − 7 = 2.",
+        "why": "A difference is how much you add to get from one term to the next. Here it is the same each time."
+      },
+      {
+        "action": "The rule is +2. In letters, one letter is skipped each time: C (skip D) E (skip F) G (skip H) I.",
+        "why": "Saying the skipped letters out loud is a quick check that the rule is right."
+      },
+      {
+        "action": "Apply the rule to the last term: 9 + 2 = 11.",
+        "why": "The next term always comes from the last term in the list."
+      },
+      {
+        "action": "Change 11 back to a letter: J = 10, so 11 = K. The answer is K.",
+        "why": "Use J = 10 as an anchor (E = 5, J = 10, O = 15, T = 20, Y = 25), then count one more."
+      }
+    ]
+  },
+  "trapNotes": {
+    "J": "J comes right after I (9 + 1 = 10). The rule is +2, so one letter is skipped: after I, skip J.",
+    "M": "M is 9 + 4 = 13. That is two steps ahead (I to K, then K to M). The question asks only for the very next letter.",
+    "L": "L is 9 + 3 = 12. The letters are 2 apart, not 3: C to E skips only one letter, D."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

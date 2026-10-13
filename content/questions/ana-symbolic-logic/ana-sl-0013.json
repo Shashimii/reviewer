@@ -1,0 +1,52 @@
+{
+  "id": "ana-sl-0013",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-conditional",
+  "difficulty": 2,
+  "stem": "Assume these statements are true:\n1. If it rains, the basketball game is cancelled.\n2. If the game is cancelled, the tickets are refunded.\n3. The game is cancelled.\n\nWhich must be true?",
+  "choices": [
+    "It rained on the game day.",
+    "The tickets are refunded.",
+    "It did not rain on the game day.",
+    "The tickets are not refunded."
+  ],
+  "answer": "The tickets are refunded.",
+  "hints": [
+    "Statement 3 tells you which part of which rule happened. Is it an if-part or a then-part?",
+    "\"The game is cancelled\" is the then-part of rule 1 but the if-part of rule 2. Only one of these lets you move forward.",
+    "Use the rule where the fact is the if-part: its then-part must be true. Going backward from a then-part is a trap, because something else could have caused it."
+  ],
+  "solution": {
+    "methodName": "Go forward, or flip and negate both parts",
+    "steps": [
+      {
+        "action": "Statement 3 says the game is cancelled."
+      },
+      {
+        "action": "In rule 2, \"the game is cancelled\" is the if-part. The if-part happened, so the then-part must happen: the tickets are refunded.",
+        "why": "Modus ponens: if p then q; p is true; so q is true."
+      },
+      {
+        "action": "In rule 1, \"the game is cancelled\" is the then-part. Knowing the then-part does not tell you the if-part. The game could be cancelled for another reason, like a power outage on a dry day.",
+        "why": "Going from the then-part back to the if-part is called affirming the consequent. It is not a valid step."
+      },
+      {
+        "action": "So \"It rained on the game day\" does not have to be true. \"It did not rain on the game day\" does not have to be true either: rain and a cancelled game also fit all three statements."
+      },
+      {
+        "action": "\"The tickets are not refunded\" goes against rule 2."
+      },
+      {
+        "action": "The answer is \"The tickets are refunded.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "It rained on the game day.": "This is affirming the consequent: going backward from rule 1's then-part. Counterexample: the game is cancelled because of a power outage on a dry day. All three statements stay true, but it did not rain.",
+    "It did not rain on the game day.": "This does not follow either. Counterexample: it rained, so the game was cancelled. All three statements stay true, and this choice is false.",
+    "The tickets are not refunded.": "This goes against rule 2: if the game is cancelled, the tickets are refunded."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

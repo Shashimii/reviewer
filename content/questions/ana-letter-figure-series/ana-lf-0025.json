@@ -1,0 +1,49 @@
+{
+  "id": "ana-lf-0025",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-odd",
+  "difficulty": 2,
+  "stem": "Which figure does NOT belong with the others?",
+  "choices": [
+    "↖↗",
+    "↓↑",
+    "←→",
+    "↗↙"
+  ],
+  "answer": "↖↗",
+  "hints": [
+    "Each figure has two arrows. Compare the two arrows in each figure with each other.",
+    "In ↓↑, the arrows point in opposite directions: down and up.",
+    "Check whether the two arrows in each figure point in exactly opposite directions. Find the figure where they do not."
+  ],
+  "solution": {
+    "methodName": "Find the rule three of them share",
+    "steps": [
+      {
+        "action": "Check ↓↑: down and up are opposite directions."
+      },
+      {
+        "action": "Check ←→: left and right are opposite directions."
+      },
+      {
+        "action": "Check ↗↙: up-right and down-left are opposite directions.",
+        "why": "Opposite arrows lie on the same straight line and point away from each other, a half turn apart."
+      },
+      {
+        "action": "Check ↖↗: up-left and up-right both point partly up. They are only a quarter turn apart, not opposite.",
+        "why": "The opposite of ↖ is ↘."
+      },
+      {
+        "action": "↖↗ breaks the rule. The answer is ↖↗."
+      }
+    ]
+  },
+  "trapNotes": {
+    "↓↑": "↓↑ is the only upright pair, but every pair sits at a different angle. Its two arrows are opposite, like the others.",
+    "←→": "←→ is the only flat pair, but every pair sits at a different angle. Its arrows are opposite, so it follows the rule.",
+    "↗↙": "↗↙ is slanted, but so is ↖↗. Its arrows point exactly opposite ways, so it follows the rule."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

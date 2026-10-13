@@ -1,0 +1,52 @@
+{
+  "id": "ana-sl-0022",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-ordering",
+  "difficulty": 2,
+  "stem": "Dina is older than Eli. Fe is older than Eli. Gil is younger than Eli.\n\nWhich must be true?",
+  "choices": [
+    "Dina is older than Fe.",
+    "Fe is the oldest of the four.",
+    "Eli is the second oldest of the four.",
+    "Gil is the youngest of the four."
+  ],
+  "answer": "Gil is the youngest of the four.",
+  "hints": [
+    "Eli appears in every fact. Place everyone in relation to Eli.",
+    "Write the older people above Eli and the younger people below Eli. Who is above Eli? Who is below?",
+    "Check whether the facts ever compare the two people above Eli with each other. A choice that depends on a comparison the facts never make does not have to be true."
+  ],
+  "solution": {
+    "methodName": "Line them up, then test every case",
+    "steps": [
+      {
+        "action": "Put Eli in the middle. Dina and Fe are both older, so they go above Eli. Gil is younger, so he goes below Eli."
+      },
+      {
+        "action": "Gil is younger than Eli, and Eli is younger than both Dina and Fe. So Gil is younger than all three: Gil is the youngest.",
+        "why": "Gil is below Eli, and Eli is below the other two, so Gil is at the very bottom."
+      },
+      {
+        "action": "The facts never compare Dina with Fe. Either one could be the oldest.",
+        "why": "Both are only said to be older than Eli."
+      },
+      {
+        "action": "So \"Dina is older than Fe\" does not have to be true (Fe could be 40 and Dina 35), and \"Fe is the oldest of the four\" does not have to be true (Dina could be the oldest)."
+      },
+      {
+        "action": "\"Eli is the second oldest of the four\" is false: two people, Dina and Fe, are older than Eli, so Eli is third."
+      },
+      {
+        "action": "The answer is \"Gil is the youngest of the four.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Dina is older than Fe.": "The facts never compare Dina and Fe. Counterexample: Fe is 40, Dina is 35, Eli is 30 and Gil is 20. All the facts are true, but Dina is younger than Fe.",
+    "Fe is the oldest of the four.": "Fe might be the oldest, but it is not certain. Counterexample: Dina is 40, Fe is 35, Eli is 30 and Gil is 20. All the facts are true, but Dina is the oldest.",
+    "Eli is the second oldest of the four.": "Both Dina and Fe are older than Eli, so Eli is the third oldest, not the second."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

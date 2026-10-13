@@ -1,0 +1,48 @@
+{
+  "id": "ana-ac-0011",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-conclusion",
+  "difficulty": 1,
+  "stem": "Facts:\n1. The training room can seat at most 50 people.\n2. Sixty-five employees signed up for the training.\n3. Everyone who signed up must have a seat during the training.\n\nWhich conclusion follows from the facts?",
+  "choices": [
+    "Fifteen employees will be taken off the list.",
+    "The training will be held in two batches.",
+    "The room cannot seat everyone at one time.",
+    "Most employees want to join the training."
+  ],
+  "answer": "The room cannot seat everyone at one time.",
+  "hints": [
+    "Compare the number of seats with the number of people.",
+    "65 people signed up, and the room holds at most 50. Is that enough for one session?",
+    "Keep only the choice that must be true from the facts. The facts show a problem but do not say how the office will solve it, so throw out any choice that picks a solution."
+  ],
+  "solution": {
+    "methodName": "Facts-only test: keep only what the facts prove",
+    "steps": [
+      {
+        "action": "Compare: 65 people need seats, but the room holds at most 50."
+      },
+      {
+        "action": "65 is more than 50. 65 − 50 = 15 people would have no seat if everyone came at one time."
+      },
+      {
+        "action": "So the room cannot seat everyone at one time."
+      },
+      {
+        "action": "Check the others. Removing 15 people and holding two batches are possible fixes, but the facts do not say which, if any, the office will choose. The facts never give the total number of employees.",
+        "why": "A conclusion must follow from the facts. A plan the office might choose is only possible."
+      },
+      {
+        "action": "The conclusion that follows: The room cannot seat everyone at one time."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Fifteen employees will be taken off the list.": "This is one possible fix, but the facts never say the office will do it. It could also use a bigger room or hold two batches.",
+    "The training will be held in two batches.": "This is another possible fix, not something the facts tell you. The office could also find a bigger room.",
+    "Most employees want to join the training.": "The facts give no total number of employees, so you cannot tell whether 65 is most of them."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

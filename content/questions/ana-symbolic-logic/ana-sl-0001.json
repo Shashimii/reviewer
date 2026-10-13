@@ -1,0 +1,59 @@
+{
+  "id": "ana-sl-0001",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-syllogism",
+  "difficulty": 1,
+  "stem": "Assume these two statements are true:\n1. All clerks are employees.\n2. All employees are taxpayers.\n\nBased only on these statements, which conclusion must be true?",
+  "choices": [
+    "All taxpayers are clerks.",
+    "All clerks are taxpayers.",
+    "All employees are clerks.",
+    "Some employees are not taxpayers."
+  ],
+  "answer": "All clerks are taxpayers.",
+  "hints": [
+    "Picture each group as a circle. \"All clerks are employees\" puts the clerks circle inside the employees circle.",
+    "Draw the clerks circle inside the employees circle. Then draw the employees circle inside a taxpayers circle.",
+    "With the three circles one inside the next, check each choice. A conclusion must be true only if no drawing of the two statements can make it false. Remember that \"All A are B\" does not turn around into \"All B are A\"."
+  ],
+  "solution": {
+    "methodName": "Draw circles, then look for a counterexample",
+    "steps": [
+      {
+        "action": "Statement 1 says every clerk is an employee. Draw a small circle for clerks inside a bigger circle for employees.",
+        "why": "\"All A are B\" means the whole A circle sits inside the B circle. It says nothing about whether the B circle has other people in it."
+      },
+      {
+        "action": "Statement 2 says every employee is a taxpayer. Draw the employees circle inside an even bigger circle for taxpayers.",
+        "why": "Now you have three circles, one inside the next, like a target: clerks in the centre, then employees, then taxpayers."
+      },
+      {
+        "action": "Check \"All clerks are taxpayers\": the clerks circle is inside the employees circle, which is inside the taxpayers circle. So every clerk is inside the taxpayers circle. This must be true.",
+        "why": "If you are inside a room, and the room is inside a house, then you are inside the house."
+      },
+      {
+        "action": "Check \"All taxpayers are clerks\": imagine a farmer who pays taxes but is not an employee. He is inside the taxpayers circle but outside the clerks circle. Both statements stay true, so this choice does not have to be true.",
+        "why": "A choice that can be false while the statements are true is not a \"must be true\" conclusion. The farmer is a counterexample."
+      },
+      {
+        "action": "Check \"All employees are clerks\": imagine a driver who is an employee but not a clerk. Both statements stay true, so this choice does not have to be true.",
+        "why": "Statement 1 only puts the clerks inside the employees. The employees circle can hold other workers too."
+      },
+      {
+        "action": "Check \"Some employees are not taxpayers\": statement 2 puts every employee inside the taxpayers circle, so this is false.",
+        "why": "A choice that goes against a statement can never be the answer."
+      },
+      {
+        "action": "The conclusion that must be true is \"All clerks are taxpayers.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "All taxpayers are clerks.": "This turns the statements around. \"All clerks are taxpayers\" does not mean \"All taxpayers are clerks.\" Counterexample: a farmer who pays taxes but is not an employee or a clerk. Both statements stay true, but this choice is false.",
+    "All employees are clerks.": "This turns statement 1 around. Counterexample: a driver who is an employee and a taxpayer but not a clerk. Both statements stay true, but this choice is false.",
+    "Some employees are not taxpayers.": "This goes against statement 2, which says every employee is a taxpayer. It can never be true while the statements are true."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

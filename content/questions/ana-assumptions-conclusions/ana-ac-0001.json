@@ -1,0 +1,54 @@
+{
+  "id": "ana-ac-0001",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-assumption",
+  "difficulty": 1,
+  "stem": "A barangay notice says: \"The water supply will be cut off on Saturday from 8 a.m. to 5 p.m. Please store enough water on Friday night.\"\n\nWhich of these is assumed by the notice?",
+  "choices": [
+    "The water company is fixing a broken pipe on Saturday.",
+    "Residents are able to store water before the cut-off.",
+    "Every resident will run out of water on Saturday.",
+    "The water supply is cut off every Saturday."
+  ],
+  "answer": "Residents are able to store water before the cut-off.",
+  "hints": [
+    "An assumption is something the notice takes for granted but does not say. Ask what must be true for the advice \"store enough water\" to make sense.",
+    "Take one choice and imagine it is false. Start with the pipe: if no pipe is being fixed, does the notice still make sense?",
+    "Use the negation test on every choice: turn it into its opposite. If the notice still makes sense, that choice is not assumed. The assumed choice is the one whose opposite makes the advice pointless."
+  ],
+  "solution": {
+    "methodName": "Negation test: deny it, and see if the argument falls apart",
+    "steps": [
+      {
+        "action": "Find the notice's point: the water will be cut off, so residents should store water the night before.",
+        "why": "Before you look for an assumption, know what the speaker wants you to believe or do."
+      },
+      {
+        "action": "Negate the pipe choice: \"The company is not fixing a broken pipe.\" The notice still makes sense, because the cut-off could be for any reason.",
+        "why": "The notice never gives a reason for the cut-off, so it does not depend on any one reason."
+      },
+      {
+        "action": "Negate the storing choice: \"Residents are not able to store water before the cut-off.\" Now the advice to store water is pointless.",
+        "why": "This is the negation test. When the opposite of a choice makes the argument fall apart, the argument depends on that choice. That is the assumption."
+      },
+      {
+        "action": "Negate the \"every resident\" choice: \"Not every resident will run out of water.\" The notice still makes sense, since some residents will still need water.",
+        "why": "\"Every\" is too broad. The notice only needs some residents to need water, not all of them."
+      },
+      {
+        "action": "Negate the last choice: \"The supply is not cut off every Saturday.\" The notice is about this one Saturday, so it still makes sense."
+      },
+      {
+        "action": "The assumption is: Residents are able to store water before the cut-off."
+      }
+    ]
+  },
+  "trapNotes": {
+    "The water company is fixing a broken pipe on Saturday.": "This is a likely reason, but the notice never gives one. Negate it: if no pipe is being fixed, the advice to store water still makes sense. So the notice does not depend on it.",
+    "Every resident will run out of water on Saturday.": "This is too broad. The notice only needs some residents to need water during the cut-off. If not everyone runs out, the advice still makes sense.",
+    "The water supply is cut off every Saturday.": "The notice is about this one Saturday only. Nothing says cut-offs happen every week, and the notice works either way."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

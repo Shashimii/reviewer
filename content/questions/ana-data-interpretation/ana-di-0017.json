@@ -1,0 +1,43 @@
+{
+  "id": "ana-di-0017",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-totals",
+  "difficulty": 1,
+  "passage": "**Enrollment at a public high school, 2021 to 2025** (number of students)\n\n| Year | Boys | Girls |\n| --- | ---: | ---: |\n| 2021 | 420 | 380 |\n| 2022 | 450 | 400 |\n| 2023 | 400 | 440 |\n| 2024 | 480 | 470 |\n| 2025 | 500 | 500 |",
+  "stem": "How many students in all were enrolled in 2024?",
+  "choices": [
+    "950",
+    "470",
+    "1,000",
+    "840"
+  ],
+  "answer": "950",
+  "hints": [
+    "\"In all\" means boys and girls together.",
+    "Find the 2024 row. Read the Boys number and the Girls number.",
+    "Add the two numbers on the 2024 row."
+  ],
+  "solution": {
+    "methodName": "Find the values, then add or subtract",
+    "steps": [
+      {
+        "action": "Find the 2024 row: 480 boys and 470 girls."
+      },
+      {
+        "action": "Add them: 480 + 470 = 950.",
+        "why": "\"In all\" means the total, so add. Add the hundreds: 400 + 400 = 800. Add the tens: 80 + 70 = 150. Then 800 + 150 = 950."
+      },
+      {
+        "action": "There were 950 students in all in 2024."
+      }
+    ]
+  },
+  "trapNotes": {
+    "470": "This is only the number of girls in 2024. \"In all\" means add the boys too.",
+    "840": "This is the total for 2023 (400 + 440), the row above. Check that you are on the 2024 row.",
+    "1,000": "This is the total for 2025 (500 + 500), the row below. Check that you are on the 2024 row."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

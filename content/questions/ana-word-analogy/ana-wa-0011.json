@@ -1,0 +1,52 @@
+{
+  "id": "ana-wa-0011",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-part-whole",
+  "difficulty": 3,
+  "stem": "Which pair has the same relationship as SENTENCE : PARAGRAPH?",
+  "choices": [
+    "book : page",
+    "author : essay",
+    "reader : novel",
+    "stanza : poem"
+  ],
+  "answer": "stanza : poem",
+  "hints": [
+    "Several SENTENCES together make a PARAGRAPH. Which comes first in the stem: the smaller unit or the bigger one?",
+    "Make a bridge sentence that keeps the order: \"Several sentences are grouped to form a paragraph.\"",
+    "Test each pair in the same order: \"Several ___ are grouped to form a ___.\" Watch for a pair where the bigger unit comes first, and for people who only write or read."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"Several sentences are grouped to form a paragraph.\"",
+        "why": "The smaller unit (sentence) comes first and the bigger unit (paragraph) comes second."
+      },
+      {
+        "action": "Test book : page. A book is made up of many pages, so the book is the bigger unit. Here the bigger unit comes first, the reverse of the stem."
+      },
+      {
+        "action": "Test author : essay. An author writes an essay. A writer is not a section of what they write."
+      },
+      {
+        "action": "Test reader : novel. A reader reads a novel. A reader is not a section of a novel."
+      },
+      {
+        "action": "Test stanza : poem. \"Several stanzas are grouped to form a poem\" is true.",
+        "why": "A stanza is a group of lines in a poem, called a saknong in Filipino. A poem is divided into stanzas the way an essay is divided into paragraphs."
+      },
+      {
+        "action": "The answer is stanza : poem."
+      }
+    ]
+  },
+  "trapNotes": {
+    "book : page": "A book and its pages are a whole and its parts, like a paragraph and its sentences. But the bigger unit (book) comes first. The stem has the smaller unit first.",
+    "author : essay": "An author writes an essay. This is a maker and what they make, not a part and whole.",
+    "reader : novel": "A reader reads a novel. This is a person and what they use, not a part and whole."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

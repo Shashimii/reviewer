@@ -1,0 +1,51 @@
+{
+  "id": "ana-wa-0010",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-part-whole",
+  "difficulty": 2,
+  "stem": "Which pair has the same relationship as KEYBOARD : KEY?",
+  "choices": [
+    "stairs : step",
+    "leaf : tree",
+    "glove : hand",
+    "computer : desk"
+  ],
+  "answer": "stairs : step",
+  "hints": [
+    "Look at the order. Which comes first here: the whole or the part?",
+    "Make a bridge sentence that keeps the order: \"A keyboard is made up of many keys.\"",
+    "Test each pair in the same order: \"A ___ is made up of many ___.\" A pair with the part first does not match, even if the two things are related."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence in the same order as the stem: \"A keyboard is made up of many keys.\"",
+        "why": "The whole (keyboard) comes first and the part (key) comes second. The answer must follow the same order."
+      },
+      {
+        "action": "Test stairs : step. \"Stairs are made up of many steps\" is true. The whole comes first and the part second."
+      },
+      {
+        "action": "Test leaf : tree. \"A leaf is made up of many trees\" is false. Here the part comes first, so the order is reversed."
+      },
+      {
+        "action": "Test glove : hand. A glove covers a hand. A glove is not made up of hands."
+      },
+      {
+        "action": "Test computer : desk. A computer sits on a desk. It is not made up of desks."
+      },
+      {
+        "action": "The answer is stairs : step."
+      }
+    ]
+  },
+  "trapNotes": {
+    "leaf : tree": "A leaf is part of a tree, but here the part comes first. The stem puts the whole first (keyboard, then key), so this pair is in reversed order.",
+    "glove : hand": "A glove is worn over a hand. It covers the hand, but it is not made up of hands.",
+    "computer : desk": "A computer is placed on a desk. This is a thing and its place, not a whole and its parts."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

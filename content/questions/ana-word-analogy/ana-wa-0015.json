@@ -1,0 +1,51 @@
+{
+  "id": "ana-wa-0015",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-use",
+  "difficulty": 2,
+  "stem": "Which pair has the same relationship as TEACHER : CLASSROOM?",
+  "choices": [
+    "chef : kitchen",
+    "court : judge",
+    "farmer : harvest",
+    "lawyer : client"
+  ],
+  "answer": "chef : kitchen",
+  "hints": [
+    "The first word is a worker. What is the second word: a tool, a place or a product?",
+    "Make a bridge sentence: \"A teacher works in a classroom.\"",
+    "Test each pair in the same order: \"A ___ works in a ___.\" The worker must come first and the place second."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"A teacher works in a classroom.\"",
+        "why": "The first word is a worker, and the second is the place where that worker does the job."
+      },
+      {
+        "action": "Test chef : kitchen. A chef is a cook. \"A chef works in a kitchen\" is true."
+      },
+      {
+        "action": "Test court : judge. A judge works in a court, but here the place comes first. \"A court works in a judge\" makes no sense, so the order is reversed."
+      },
+      {
+        "action": "Test farmer : harvest. The harvest is the crop a farmer gathers. It is the product of the work, not the place."
+      },
+      {
+        "action": "Test lawyer : client. A client is the person a lawyer serves, not the place where a lawyer works."
+      },
+      {
+        "action": "The answer is chef : kitchen."
+      }
+    ]
+  },
+  "trapNotes": {
+    "court : judge": "These words are a worker and workplace, but in the wrong order. The stem puts the worker first, so the judge would need to come first.",
+    "farmer : harvest": "The harvest is what a farmer produces. This is a worker and product, not a worker and workplace.",
+    "lawyer : client": "A client is the person a lawyer helps. This is a worker and the person served, not a workplace."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

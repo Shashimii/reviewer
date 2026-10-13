@@ -1,0 +1,50 @@
+{
+  "id": "ana-di-0022",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-percent",
+  "difficulty": 1,
+  "passage": "**Enrollment at a public high school by grade level, school year 2025–2026** (number of students)\n\n| Grade level | Students |\n| --- | ---: |\n| Grade 7 | 300 |\n| Grade 8 | 275 |\n| Grade 9 | 250 |\n| Grade 10 | 175 |\n| Total | 1,000 |",
+  "stem": "What percent of the school's students are in Grade 10?",
+  "choices": [
+    "25%",
+    "17.5%",
+    "1.75%",
+    "27.5%"
+  ],
+  "answer": "17.5%",
+  "hints": [
+    "The table gives the total in the last row. Grade 10 is the part.",
+    "Write the fraction: Grade 10 students over all students, 175/1,000.",
+    "Make the bottom 100 by dividing the top and the bottom by 10."
+  ],
+  "solution": {
+    "methodName": "Share = part ÷ total × 100",
+    "steps": [
+      {
+        "action": "Find the Grade 10 row: 175 students."
+      },
+      {
+        "action": "Find the Total row: 1,000 students.",
+        "why": "The total is the whole school, so it goes at the bottom of the fraction."
+      },
+      {
+        "action": "Write the share as a fraction: 175/1,000."
+      },
+      {
+        "action": "Divide the top and the bottom by 10: 175/1,000 = 17.5/100 = 17.5%.",
+        "why": "Dividing 175 by 10 moves the decimal point one place to the left: 17.5."
+      },
+      {
+        "action": "17.5% of the students are in Grade 10."
+      }
+    ]
+  },
+  "trapNotes": {
+    "25%": "This is Grade 9's share (250/1,000), the row above. Check that you used the Grade 10 row.",
+    "1.75%": "The decimal point moved one place too far. 175/1,000 = 17.5/100, which is 17.5%.",
+    "27.5%": "This is Grade 8's share (275/1,000). Check that you used the Grade 10 row."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

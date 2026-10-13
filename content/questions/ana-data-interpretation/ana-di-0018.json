@@ -1,0 +1,51 @@
+{
+  "id": "ana-di-0018",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-totals",
+  "difficulty": 3,
+  "passage": "**Enrollment at a public high school, 2021 to 2025** (number of students)\n\n| Year | Boys | Girls |\n| --- | ---: | ---: |\n| 2021 | 420 | 380 |\n| 2022 | 450 | 400 |\n| 2023 | 400 | 440 |\n| 2024 | 480 | 470 |\n| 2025 | 500 | 500 |",
+  "stem": "What was the average number of students enrolled per year from 2021 to 2025?",
+  "choices": [
+    "900",
+    "888",
+    "444",
+    "840"
+  ],
+  "answer": "888",
+  "hints": [
+    "First find each year's total enrollment: boys + girls on each row.",
+    "Add the five yearly totals to get one grand total.",
+    "Divide the grand total by the number of years, 5, not by the 10 numbers in the table."
+  ],
+  "solution": {
+    "methodName": "Average = total ÷ number of values",
+    "steps": [
+      {
+        "action": "Find each year's total: 2021: 420 + 380 = 800. 2022: 450 + 400 = 850. 2023: 400 + 440 = 840. 2024: 480 + 470 = 950. 2025: 500 + 500 = 1,000."
+      },
+      {
+        "action": "Add the five totals: 800 + 850 + 840 + 950 + 1,000 = 4,440.",
+        "why": "Add one at a time: 800 + 850 = 1,650. Then 1,650 + 840 = 2,490. Then 2,490 + 950 = 3,440. Then 3,440 + 1,000 = 4,440."
+      },
+      {
+        "action": "Count the years: 2021, 2022, 2023, 2024 and 2025 is 5 years.",
+        "why": "Count them one by one. Working out 2025 − 2021 = 4 would miss a year."
+      },
+      {
+        "action": "Divide: 4,440 ÷ 5 = 888.",
+        "why": "An easy way to divide by 5: double the number, then divide by 10. 4,440 × 2 = 8,880, and 8,880 ÷ 10 = 888."
+      },
+      {
+        "action": "The average enrollment was 888 students per year."
+      }
+    ]
+  },
+  "trapNotes": {
+    "444": "This divides by 10, the number of boxes with numbers in them. There are only 5 years, so divide by 5.",
+    "840": "This is the total for 2023, the middle year. The middle year is not the average. Add all five years, then divide by 5.",
+    "900": "This is the average of only the first and last years: (800 + 1,000) ÷ 2. An average must use all five years."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

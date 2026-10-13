@@ -1,0 +1,55 @@
+{
+  "id": "ana-sl-0025",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-ordering",
+  "difficulty": 3,
+  "stem": "Rosa, Sam, Tess, Uly and Vic sit in a row of five chairs, numbered 1 to 5 from left to right.\n- Tess sits in chair 3.\n- Rosa sits at one end of the row.\n- Sam sits next to Rosa.\n- Uly does not sit next to Tess.\n\nWhich must be true?",
+  "choices": [
+    "Rosa sits in chair 1.",
+    "Uly sits in chair 5.",
+    "Uly sits next to Sam.",
+    "Vic sits next to Tess."
+  ],
+  "answer": "Vic sits next to Tess.",
+  "hints": [
+    "Rosa can be at either end, so there are two cases. Work out both.",
+    "Case 1: Rosa in chair 1. Case 2: Rosa in chair 5. In each case, place Sam next to Rosa, and remember Tess is in chair 3.",
+    "In each case, two chairs are left for Uly and Vic. Uly cannot be in chair 2 or 4, because those are next to Tess. Finish both rows. The answer is the choice that is true in both."
+  ],
+  "solution": {
+    "methodName": "Line them up, then test every case",
+    "steps": [
+      {
+        "action": "Tess is in chair 3. Rosa is at an end, so she is in chair 1 or chair 5. Try both cases.",
+        "why": "When a clue allows two options, work out each one. A choice must be true in every case to be the answer."
+      },
+      {
+        "action": "Case 1: Rosa in chair 1. Sam must be next to her, in chair 2. Chairs 4 and 5 are left. Chair 4 is next to Tess, so Uly takes chair 5 and Vic takes chair 4. Row: Rosa, Sam, Tess, Vic, Uly."
+      },
+      {
+        "action": "Case 2: Rosa in chair 5. Sam must be in chair 4. Chairs 1 and 2 are left. Chair 2 is next to Tess, so Uly takes chair 1 and Vic takes chair 2. Row: Uly, Vic, Tess, Sam, Rosa."
+      },
+      {
+        "action": "\"Vic sits next to Tess\": Vic is in chair 4 in case 1 and in chair 2 in case 2. Both are next to chair 3. It is true in both cases, so it must be true.",
+        "why": "Vic always gets the chair beside Tess, because Uly is not allowed there."
+      },
+      {
+        "action": "\"Rosa sits in chair 1\" and \"Uly sits in chair 5\" are true in case 1 but false in case 2. They could be true, but they do not have to be."
+      },
+      {
+        "action": "\"Uly sits next to Sam\" is false in both cases: in case 1 Uly is in chair 5 and Sam in chair 2; in case 2 Uly is in chair 1 and Sam in chair 4."
+      },
+      {
+        "action": "The answer is \"Vic sits next to Tess.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Rosa sits in chair 1.": "This is true only in case 1. Counterexample (case 2): Uly, Vic, Tess, Sam, Rosa. Every clue holds, and Rosa is in chair 5.",
+    "Uly sits in chair 5.": "This is true only in case 1. Counterexample (case 2): Uly, Vic, Tess, Sam, Rosa. Every clue holds, and Uly is in chair 1.",
+    "Uly sits next to Sam.": "This is false in both cases. In case 1 Uly is in chair 5 and Sam in chair 2; in case 2 Uly is in chair 1 and Sam in chair 4. They are never side by side."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

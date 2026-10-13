@@ -1,0 +1,56 @@
+{
+  "id": "ana-sl-0004",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-syllogism",
+  "difficulty": 2,
+  "stem": "Assume these two statements are true:\n1. All inspectors are engineers.\n2. Some engineers are supervisors.\n\nBased only on these statements, which conclusion must be true?",
+  "choices": [
+    "Some supervisors are engineers.",
+    "Some inspectors are supervisors.",
+    "All engineers are inspectors.",
+    "No inspectors are supervisors."
+  ],
+  "answer": "Some supervisors are engineers.",
+  "hints": [
+    "The engineers circle links the inspectors and the supervisors. Ask whether that link forces the inspectors and the supervisors to meet.",
+    "Draw the inspectors circle inside the engineers circle. Then draw a supervisors circle that overlaps the engineers circle, and try putting the overlap away from the inspectors.",
+    "A conclusion must be true only if every possible drawing makes it true. For each choice, try to draw the circles so both statements hold but the choice fails. The choice you cannot break is the answer."
+  ],
+  "solution": {
+    "methodName": "Draw circles, then look for a counterexample",
+    "steps": [
+      {
+        "action": "Statement 1: draw the inspectors circle inside the engineers circle."
+      },
+      {
+        "action": "Statement 2: at least one engineer is a supervisor. Draw a supervisors circle that overlaps the engineers circle.",
+        "why": "Statement 2 does not say which engineers are supervisors. The overlap can be inside or outside the inspectors circle."
+      },
+      {
+        "action": "Check \"Some supervisors are engineers\": the person in the overlap is a supervisor and an engineer. This must be true.",
+        "why": "\"Some engineers are supervisors\" and \"Some supervisors are engineers\" describe the same overlap."
+      },
+      {
+        "action": "Check \"Some inspectors are supervisors\": let Ian be an inspector (so an engineer) who is not a supervisor, and Sol an engineer and supervisor who is not an inspector. Both statements are true, but no inspector is a supervisor. So this does not have to be true.",
+        "why": "The supervisors could be engineers who are not inspectors. A shared middle group does not force the two outer groups to meet."
+      },
+      {
+        "action": "Check \"All engineers are inspectors\": Sol is an engineer who is not an inspector. This does not have to be true."
+      },
+      {
+        "action": "Check \"No inspectors are supervisors\": if Ian is also a supervisor, both statements are still true and this choice is false. So it does not have to be true either."
+      },
+      {
+        "action": "The only conclusion that must be true is \"Some supervisors are engineers.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "Some inspectors are supervisors.": "This is the most common trap here. The supervisors may be engineers who are not inspectors. Counterexample: Ian is an inspector and an engineer but not a supervisor; Sol is an engineer and a supervisor but not an inspector. Both statements are true, but no inspector is a supervisor.",
+    "All engineers are inspectors.": "This turns statement 1 around. Counterexample: Sol is an engineer but not an inspector. Both statements stay true, but this choice is false.",
+    "No inspectors are supervisors.": "This could be true, but it does not have to be. Counterexample: Ian is an inspector, an engineer and a supervisor. Both statements are true, and this choice is false."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

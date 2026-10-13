@@ -1,0 +1,46 @@
+{
+  "id": "ana-wa-0009",
+  "topicId": "ana-word-analogy",
+  "skill": "ana-wa-part-whole",
+  "difficulty": 2,
+  "stem": "CHAPTER : NOVEL :: SCENE : ___",
+  "choices": [
+    "actor",
+    "play",
+    "stage",
+    "audience"
+  ],
+  "answer": "play",
+  "hints": [
+    "A NOVEL is a long story in a book. What is a CHAPTER to a novel?",
+    "Make a bridge sentence: \"A chapter is one section of a novel.\"",
+    "Now say: \"A scene is one section of a ___.\" Cross out the people and places that are only connected with a show."
+  ],
+  "solution": {
+    "methodName": "Make a bridge sentence, then test each choice",
+    "steps": [
+      {
+        "action": "Make a bridge sentence: \"A chapter is one section of a novel.\"",
+        "why": "A novel is divided into chapters. Each chapter is one part of the whole story."
+      },
+      {
+        "action": "Use the same bridge: \"A scene is one section of a ___.\""
+      },
+      {
+        "action": "Test each choice. A play, a story acted out on a stage, is divided into scenes. \"A scene is one section of a play\" is true.",
+        "why": "An actor performs in a play, the stage is where it happens, and the audience watches it. They are linked to a play, but a scene is not a section of any of them."
+      },
+      {
+        "action": "The answer is play."
+      }
+    ]
+  },
+  "trapNotes": {
+    "actor": "An actor performs the scenes, but a scene is not a section of an actor. This is a person linked to a play, not a whole.",
+    "stage": "The stage is the place where scenes are acted out. A place is not the whole that a scene is a section of.",
+    "audience": "The audience is the people who watch the play. A scene is not a section of the audience."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

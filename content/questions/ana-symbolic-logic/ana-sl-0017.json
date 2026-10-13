@@ -1,0 +1,52 @@
+{
+  "id": "ana-sl-0017",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-connectives",
+  "difficulty": 1,
+  "stem": "Suppose these are the facts today:\n- The office is open.\n- The printer is not working.\n\nWhich statement is true?",
+  "choices": [
+    "The office is open or the printer is working.",
+    "The office is open and the printer is working.",
+    "The office is not open or the printer is working.",
+    "The office is not open and the printer is not working."
+  ],
+  "answer": "The office is open or the printer is working.",
+  "hints": [
+    "Mark each small part as true (T) or false (F) using the facts before judging the whole statement.",
+    "\"The office is open\" is T. \"The printer is working\" is F. Adding \"not\" flips T to F and F to T.",
+    "\"And\" is true only when both parts are T. \"Or\" is true when at least one part is T. Mark the parts of each choice, then combine them."
+  ],
+  "solution": {
+    "methodName": "Mark each part true or false, then combine",
+    "steps": [
+      {
+        "action": "From the facts: \"the office is open\" is true (T); \"the printer is working\" is false (F)."
+      },
+      {
+        "action": "\"The office is open or the printer is working\": T or F. An \"or\" statement needs at least one true part, so it is true.",
+        "why": "\"Or\" is false only when both parts are false."
+      },
+      {
+        "action": "\"The office is open and the printer is working\": T and F. An \"and\" statement needs both parts true, so it is false.",
+        "why": "One false part is enough to make an \"and\" statement false."
+      },
+      {
+        "action": "\"The office is not open or the printer is working\": \"not open\" is F, and \"working\" is F. F or F is false."
+      },
+      {
+        "action": "\"The office is not open and the printer is not working\": F and T. One part is false, so it is false."
+      },
+      {
+        "action": "The answer is \"The office is open or the printer is working.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The office is open and the printer is working.": "\"And\" needs both parts true. The printer is not working, so this is false.",
+    "The office is not open or the printer is working.": "Both parts are false here: the office is open, and the printer is not working. An \"or\" statement with two false parts is false.",
+    "The office is not open and the printer is not working.": "The second part is true, but the first part, \"the office is not open\", is false. An \"and\" statement with a false part is false."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

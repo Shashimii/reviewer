@@ -1,0 +1,47 @@
+{
+  "id": "ana-lf-0002",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-letters",
+  "difficulty": 1,
+  "stem": "What letter comes next? Y, W, U, S, ___",
+  "choices": [
+    "U",
+    "R",
+    "P",
+    "Q"
+  ],
+  "answer": "Q",
+  "hints": [
+    "The letters go backward through the alphabet. Check how far each one moves.",
+    "Write the letters as numbers: Y = 25, W = 23. How much is taken away each time?",
+    "Y = 25, W = 23, U = 21, S = 19. Each step takes away the same amount. Take it away from 19, then change the number back to a letter."
+  ],
+  "solution": {
+    "methodName": "Change letters to numbers, then find the rule",
+    "steps": [
+      {
+        "action": "Write each letter as its place in the alphabet: Y = 25, W = 23, U = 21, S = 19.",
+        "why": "Y = 25 is an anchor letter (E = 5, J = 10, O = 15, T = 20, Y = 25). W is two before Y, so W = 23."
+      },
+      {
+        "action": "Find the differences: 23 − 25 = −2, 21 − 23 = −2, 19 − 21 = −2.",
+        "why": "The numbers get smaller, so the series goes backward through the alphabet."
+      },
+      {
+        "action": "The rule is −2. Apply it to the last term: 19 − 2 = 17."
+      },
+      {
+        "action": "Change 17 back to a letter: T = 20, S = 19, R = 18, Q = 17. The answer is Q.",
+        "why": "Count back from the nearest anchor letter, T = 20."
+      }
+    ]
+  },
+  "trapNotes": {
+    "U": "U is S + 2, going forward. The series goes backward (Y, W, U, S), so take away, don't add.",
+    "R": "R is 19 − 1 = 18, the letter right before S. The rule is −2, so one letter (R) is skipped.",
+    "P": "P is 19 − 3 = 16. The letters are 2 apart, not 3: from Y back to W, only X is skipped."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

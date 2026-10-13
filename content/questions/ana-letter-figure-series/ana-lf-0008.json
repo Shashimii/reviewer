@@ -1,0 +1,49 @@
+{
+  "id": "ana-lf-0008",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-letters",
+  "difficulty": 3,
+  "stem": "What letter goes in the blank? R, U, X, ___, D",
+  "choices": [
+    "Z",
+    "Y",
+    "A",
+    "B"
+  ],
+  "answer": "A",
+  "hints": [
+    "The series runs past the end of the alphabet. After the last letter, it starts again from the beginning.",
+    "Write the letters as numbers: R = 18, U = 21, X = 24. Find the step.",
+    "The step is +3. Count 3 letters on from X, starting again from the beginning of the alphabet after Z. Then check that 3 more letters on from your answer gives D."
+  ],
+  "solution": {
+    "methodName": "Change letters to numbers, then find the rule",
+    "steps": [
+      {
+        "action": "Write the letters as numbers: R = 18, U = 21, X = 24.",
+        "why": "R is two before the anchor T = 20, so R = 18."
+      },
+      {
+        "action": "Find the differences: 21 − 18 = 3, 24 − 21 = 3. The rule is +3."
+      },
+      {
+        "action": "Apply +3 to X: 24 + 3 = 27."
+      },
+      {
+        "action": "There is no 27th letter, so go around: 27 − 26 = 1 = A.",
+        "why": "The alphabet has 26 letters. After Z it starts again at A, like the numbers on a clock. Counting on from X: Y, Z, A."
+      },
+      {
+        "action": "Check: A + 3 = 1 + 3 = 4 = D, which matches the last letter. The answer is A."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Z": "Z is X + 2. The step is 3, so count 3 letters: Y, Z, then A.",
+    "Y": "Y is X + 1. The letters move 3 places each time (R to U, U to X).",
+    "B": "B is X + 4 (Y, Z, A, B). Then B + 3 = E, not D. Count only 3 letters on from X."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

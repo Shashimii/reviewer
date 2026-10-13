@@ -1,0 +1,50 @@
+{
+  "id": "ana-lf-0004",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-letters",
+  "difficulty": 2,
+  "stem": "What letter comes next? A, Z, C, X, E, V, ___",
+  "choices": [
+    "T",
+    "F",
+    "G",
+    "U"
+  ],
+  "answer": "G",
+  "hints": [
+    "The letters jump between the start and the end of the alphabet. There may be two series taking turns.",
+    "Split the letters by place. 1st, 3rd and 5th: A, C, E. 2nd, 4th and 6th: Z, X, V.",
+    "A, C, E goes forward by 2. Z, X, V goes backward by 2. The blank is the 7th letter, so it belongs to the series of the 1st, 3rd and 5th letters. Continue that series."
+  ],
+  "solution": {
+    "methodName": "Change letters to numbers, then find the rule",
+    "steps": [
+      {
+        "action": "Split the series by place. Odd places (1st, 3rd, 5th): A, C, E. Even places (2nd, 4th, 6th): Z, X, V.",
+        "why": "When letters jump back and forth like this, two series are taking turns. Each one has its own rule."
+      },
+      {
+        "action": "Odd places as numbers: A = 1, C = 3, E = 5. The rule is +2."
+      },
+      {
+        "action": "Even places as numbers: Z = 26, X = 24, V = 22. The rule is −2.",
+        "why": "You do not need this series for the answer, but a steady rule here shows the split is right."
+      },
+      {
+        "action": "The blank is in the 7th place, an odd place, so it continues A, C, E.",
+        "why": "The places take turns: odd, even, odd, even, odd, even, then odd again."
+      },
+      {
+        "action": "Apply +2 to the last odd-place letter: E = 5, and 5 + 2 = 7 = G. The answer is G."
+      }
+    ]
+  },
+  "trapNotes": {
+    "T": "T is V − 2, the next letter of the Z, X, V series. But the 7th place belongs to the A, C, E series.",
+    "F": "F is E + 1. The A, C, E series moves by 2, skipping one letter each time.",
+    "U": "U is V − 1. The 7th letter continues A, C, E, not the series that ends with V."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

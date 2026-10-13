@@ -1,0 +1,55 @@
+{
+  "id": "ana-sl-0012",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-conditional",
+  "difficulty": 2,
+  "stem": "Rule: If the office is closed, the gate is locked.\n\nAssume the rule is true. Which reasoning is correct?",
+  "choices": [
+    "The gate is locked, so the office is closed.",
+    "The office is open, so the gate is not locked.",
+    "The office is closed, so the gate is not locked.",
+    "The gate is not locked, so the office is open."
+  ],
+  "answer": "The gate is not locked, so the office is open.",
+  "hints": [
+    "Two kinds of reasoning are always correct: the if-part happens, so the then-part happens; or the then-part does not happen, so the if-part did not happen.",
+    "Name the parts. If-part: the office is closed. Then-part: the gate is locked. Note that \"open\" means \"not closed\".",
+    "For each choice, see which part it starts from. Starting from \"the gate is locked\" or from \"the office is open\" leads nowhere. Pick the choice that follows one of the two correct patterns."
+  ],
+  "solution": {
+    "methodName": "Go forward, or flip and negate both parts",
+    "steps": [
+      {
+        "action": "Name the parts. If-part: the office is closed. Then-part: the gate is locked."
+      },
+      {
+        "action": "Correct pattern 1 (modus ponens): the office is closed, so the gate is locked. Correct pattern 2 (contrapositive): the gate is not locked, so the office is not closed.",
+        "why": "If a closed office always means a locked gate, an unlocked gate can only happen when the office is not closed."
+      },
+      {
+        "action": "\"The gate is not locked, so the office is open\" is pattern 2, because \"open\" means \"not closed\". It is correct."
+      },
+      {
+        "action": "\"The gate is locked, so the office is closed\" starts from the then-part. This is called affirming the consequent. The gate may be locked for another reason, like a fire drill while the office is open.",
+        "why": "The rule only says what happens when the office is closed. It does not say a locked gate always means a closed office."
+      },
+      {
+        "action": "\"The office is open, so the gate is not locked\" starts from a false if-part. This is called denying the antecedent. The same fire drill shows it can fail."
+      },
+      {
+        "action": "\"The office is closed, so the gate is not locked\" goes against the rule."
+      },
+      {
+        "action": "The answer is \"The gate is not locked, so the office is open.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "The gate is locked, so the office is closed.": "This is affirming the consequent: going backward from the then-part. Counterexample: during a fire drill the gate is locked while the office is open. The rule stays true, but the reasoning fails.",
+    "The office is open, so the gate is not locked.": "This is denying the antecedent: the if-part is false, so you assume the then-part is false too. Counterexample: the office is open but the gate is locked for a fire drill. The rule stays true, but the reasoning fails.",
+    "The office is closed, so the gate is not locked.": "This goes against the rule. When the office is closed, the rule says the gate is locked."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

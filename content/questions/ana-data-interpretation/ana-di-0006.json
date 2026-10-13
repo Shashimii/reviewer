@@ -1,0 +1,50 @@
+{
+  "id": "ana-di-0006",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-percent",
+  "difficulty": 3,
+  "passage": "**Budget of a town by sector, 2024 and 2025** (in millions of pesos)\n\n| Sector | 2024 | 2025 |\n| --- | ---: | ---: |\n| Education | 40 | 45 |\n| Health | 25 | 30 |\n| Roads and bridges | 50 | 60 |\n| Agriculture | 20 | 15 |\n| Social welfare | 25 | 50 |",
+  "stem": "By what percent did the town's total budget increase from 2024 to 2025?",
+  "choices": [
+    "25%",
+    "20%",
+    "40%",
+    "125%"
+  ],
+  "answer": "25%",
+  "hints": [
+    "The table does not show the totals. You need the total for each year.",
+    "Add the 2024 column, then add the 2025 column. Subtract to find the change.",
+    "Divide the change by the 2024 total, the old value. Then change the fraction to a percent."
+  ],
+  "solution": {
+    "methodName": "Percent change = change ÷ old value × 100",
+    "steps": [
+      {
+        "action": "Add the 2024 column: 40 + 25 + 50 + 20 + 25 = 160 (₱160 million)."
+      },
+      {
+        "action": "Add the 2025 column: 45 + 30 + 60 + 15 + 50 = 200 (₱200 million).",
+        "why": "Check that you added all five rows in each column."
+      },
+      {
+        "action": "Find the change: 200 − 160 = 40 (₱40 million)."
+      },
+      {
+        "action": "Divide the change by the old total: 40/160 = 1/4.",
+        "why": "Percent change compares the change with the amount before the change, the 2024 total. Divide the top and the bottom by 40 to simplify."
+      },
+      {
+        "action": "Change to a percent: 1/4 = 25%. The total budget increased by 25%."
+      }
+    ]
+  },
+  "trapNotes": {
+    "20%": "This divides the change by the 2025 total (40/200). Percent change uses the old value, the 2024 total of 160.",
+    "40%": "40 is the change in millions of pesos, not a percent. Divide it by the old total, 160.",
+    "125%": "This is 200/160. It shows the 2025 total is 125% of the 2024 total. The increase is only the part above 100%."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

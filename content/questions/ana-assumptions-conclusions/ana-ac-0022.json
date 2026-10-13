@@ -1,0 +1,46 @@
+{
+  "id": "ana-ac-0022",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-inference",
+  "difficulty": 2,
+  "passage": "**Human Resource Office notice**\n\nStarting next month, employees may choose to work from 7 a.m. to 4 p.m. or from 9 a.m. to 6 p.m. In a survey last March, 72 of the office's 90 employees asked for flexible hours. The HR head said, \"This is the fairest work schedule our office has ever had.\" Employees who choose the early schedule will probably miss the worst of the morning traffic. Requests for a schedule must be filed by the 25th of this month.",
+  "stem": "Read this sentence from the notice:\n\"This is the fairest work schedule our office has ever had.\"\n\nWhat kind of statement is it?",
+  "choices": [
+    "Fact: it was said by the head of the HR office.",
+    "Inference: it is a likely guess based on the survey.",
+    "Fact: it is backed up by the survey of 90 employees.",
+    "Opinion: it is a judgment that cannot be proven."
+  ],
+  "answer": "Opinion: it is a judgment that cannot be proven.",
+  "hints": [
+    "Look at the word \"fairest.\" Can fairness be measured or counted?",
+    "Who said it does not decide the type. Look at the statement itself.",
+    "A fact can be checked, an inference is a likely guess from facts, and an opinion is a personal judgment. Classify the statement, then check the reason given in each choice."
+  ],
+  "solution": {
+    "methodName": "Checked, reasoned or judged?",
+    "steps": [
+      {
+        "action": "Look at the key word: \"fairest.\" What seems fair to one employee may not seem fair to another.",
+        "why": "Words like fair, best, worst, beautiful and terrible show a judgment. People can disagree, and no record can settle it."
+      },
+      {
+        "action": "Who said it does not change its type. The HR head's words are still a personal judgment."
+      },
+      {
+        "action": "The survey shows that 72 employees asked for flexible hours. It does not prove that this schedule is the fairest ever."
+      },
+      {
+        "action": "So the sentence is an opinion: it is a judgment that cannot be proven."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Fact: it was said by the head of the HR office.": "It is a fact that the HR head said these words, but what was said is a judgment. A statement does not become a fact because an official says it.",
+    "Inference: it is a likely guess based on the survey.": "An inference is a likely guess about something that could later be checked, like traffic or numbers. \"Fairest\" is a judgment that no record could ever prove.",
+    "Fact: it is backed up by the survey of 90 employees.": "The survey shows that many employees wanted flexible hours. That does not prove this is the fairest schedule the office has ever had."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

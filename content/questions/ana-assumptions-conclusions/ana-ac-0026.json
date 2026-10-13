@@ -1,0 +1,50 @@
+{
+  "id": "ana-ac-0026",
+  "topicId": "ana-assumptions-conclusions",
+  "skill": "ana-ac-inference",
+  "difficulty": 3,
+  "passage": "**Notes from the General Services Office**\n\nThe parking lot of the provincial capitol has 120 slots. Last month, the lot was usually full by 8 a.m. This month, it has been full by 7 a.m. every working day. Employees are now coming to work earlier than they did last month. On Monday, the guard counted 15 cars parked along the road outside the gate. The office head said a bigger parking lot is the best gift the province could give its staff. A new parking area will be studied next year.",
+  "stem": "Read this sentence from the notes:\n\"Employees are now coming to work earlier than they did last month.\"\n\nWhat kind of statement is it?",
+  "choices": [
+    "Fact: it is stated plainly, with no word like \"probably.\"",
+    "Opinion: it judges how hard the employees work.",
+    "Fact: the guard's count of cars proves it.",
+    "Inference: it is reasoned from when the lot fills up."
+  ],
+  "answer": "Inference: it is reasoned from when the lot fills up.",
+  "hints": [
+    "Ask how the writer knows this. Do the notes give any record of what time employees arrive?",
+    "Look at the facts just before the sentence: when the lot was full last month and this month.",
+    "An inference does not always use \"probably.\" If a statement goes beyond what was counted or recorded, it is a reasoned conclusion. Check whether this one judges anything, and whether any fact in the notes proves it directly."
+  ],
+  "solution": {
+    "methodName": "Checked, reasoned or judged?",
+    "steps": [
+      {
+        "action": "Find what was checked: the lot was full by 8 a.m. last month and by 7 a.m. this month, and the guard counted 15 cars outside on Monday."
+      },
+      {
+        "action": "The notes give no record of employees' arrival times. The writer reasons from the lot filling up earlier to employees arriving earlier.",
+        "why": "There could be other reasons the lot fills sooner, such as more visitors parking there. So the sentence is a conclusion, not a checked fact."
+      },
+      {
+        "action": "It does not judge anyone as good or bad, so it is not an opinion."
+      },
+      {
+        "action": "It is an inference even without the word \"probably.\"",
+        "why": "Clue words help, but they are not always there. Ask what the statement is based on."
+      },
+      {
+        "action": "The sentence is an inference: it is reasoned from when the lot fills up."
+      }
+    ]
+  },
+  "trapNotes": {
+    "Fact: it is stated plainly, with no word like \"probably.\"": "Inferences do not always use words like \"probably.\" The notes give no record of arrival times, so this was reasoned out, not checked.",
+    "Opinion: it judges how hard the employees work.": "The sentence says nothing about how hard anyone works. It is about arrival times, and it has no judging words.",
+    "Fact: the guard's count of cars proves it.": "The guard counted cars outside the gate on one day. That count does not show what time employees arrive."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

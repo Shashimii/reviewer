@@ -1,0 +1,53 @@
+{
+  "id": "ana-di-0001",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-totals",
+  "difficulty": 1,
+  "passage": "**Budget of a town by sector, 2025** (in millions of pesos)\n\n| Sector | Budget |\n| --- | ---: |\n| Education | 45 |\n| Health | 30 |\n| Roads and bridges | 60 |\n| Agriculture | 15 |\n| Social welfare | 50 |",
+  "stem": "How much more money is budgeted for Roads and bridges than for Health?",
+  "choices": [
+    "₱90 million",
+    "₱30 million",
+    "₱15 million",
+    "₱30,000"
+  ],
+  "answer": "₱30 million",
+  "hints": [
+    "Read the title first. The numbers are in millions of pesos, so 60 means ₱60 million.",
+    "Find the Roads and bridges row and the Health row, and read the budget on each.",
+    "\"How much more\" means subtract: the Roads and bridges budget minus the Health budget. Then add the unit, millions of pesos."
+  ],
+  "solution": {
+    "methodName": "Find the values, then add or subtract",
+    "steps": [
+      {
+        "action": "Read the title and units: the budget is in millions of pesos.",
+        "why": "The units tell you what each number means. Here 60 stands for ₱60 million, not ₱60."
+      },
+      {
+        "action": "Find the Roads and bridges row. Its budget is 60, or ₱60 million.",
+        "why": "Put your finger on the sector name and move across the same line to its number."
+      },
+      {
+        "action": "Find the Health row. Its budget is 30, or ₱30 million.",
+        "why": "Health is the second row. Be careful not to read the row above or below it."
+      },
+      {
+        "action": "Subtract: 60 − 30 = 30.",
+        "why": "\"How much more\" asks for the difference between two amounts, so you subtract the smaller from the bigger."
+      },
+      {
+        "action": "Add the unit: Roads and bridges gets ₱30 million more than Health.",
+        "why": "The table counts in millions of pesos, so the answer is in millions of pesos too."
+      }
+    ]
+  },
+  "trapNotes": {
+    "₱90 million": "This adds the two budgets (60 + 30). \"How much more\" means subtract, not add.",
+    "₱15 million": "This subtracts the Education budget (60 − 45). Education is the row above Health. Check that you are on the Health row.",
+    "₱30,000": "The difference is 30, but the table is in millions of pesos. Here 30 means ₱30 million, not ₱30,000."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ana-di-0010",
+  "topicId": "ana-data-interpretation",
+  "skill": "ana-di-read",
+  "difficulty": 2,
+  "passage": "**Rice production of four provinces, 2024 and 2025** (in thousands of metric tons)\n\n| Province | 2024 | 2025 |\n| --- | ---: | ---: |\n| Province A | 120 | 150 |\n| Province B | 80 | 72 |\n| Province C | 200 | 240 |\n| Province D | 60 | 90 |",
+  "stem": "How much rice did Province A produce in 2025?",
+  "choices": [
+    "150,000 metric tons",
+    "150 metric tons",
+    "120,000 metric tons",
+    "72,000 metric tons"
+  ],
+  "answer": "150,000 metric tons",
+  "hints": [
+    "Read the title. The numbers are in thousands of metric tons.",
+    "Find the Province A row and the 2025 column, and read the number where they meet.",
+    "A number given in thousands must be multiplied by 1,000. Do this to the number you found, then find the matching choice."
+  ],
+  "solution": {
+    "methodName": "Read the title and units, then find the row and column",
+    "steps": [
+      {
+        "action": "Read the title: the numbers are in thousands of metric tons.",
+        "why": "The table writes a short number to save space. The real amount is that number of thousands."
+      },
+      {
+        "action": "Find the Province A row and the 2025 column. They meet at 150."
+      },
+      {
+        "action": "Multiply by 1,000: 150 × 1,000 = 150,000.",
+        "why": "To multiply by 1,000, write three zeros after the number."
+      },
+      {
+        "action": "Province A produced 150,000 metric tons of rice in 2025."
+      }
+    ]
+  },
+  "trapNotes": {
+    "150 metric tons": "This leaves out the units in the title. The table is in thousands of metric tons, so 150 means 150,000 metric tons.",
+    "120,000 metric tons": "This is Province A's production in 2024. The question asks about 2025.",
+    "72,000 metric tons": "This is Province B's production in 2025, the row below. Check that you are on the Province A row."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

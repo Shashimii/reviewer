@@ -1,0 +1,52 @@
+{
+  "id": "ana-sl-0009",
+  "topicId": "ana-symbolic-logic",
+  "skill": "ana-sl-conditional",
+  "difficulty": 1,
+  "stem": "Assume these statements are true:\n1. If it rains on Monday, the flag ceremony is held in the gym.\n2. It rains this Monday.\n\nWhich must be true?",
+  "choices": [
+    "This Monday, the ceremony is held on the field.",
+    "This Monday, the ceremony is held in the gym.",
+    "This Monday, the ceremony is cancelled.",
+    "Next Monday, it will rain again."
+  ],
+  "answer": "This Monday, the ceremony is held in the gym.",
+  "hints": [
+    "Statement 1 is an if-then rule. Check whether its \"if\" part has happened.",
+    "The \"if\" part is \"it rains on Monday\". Statement 2 says it does rain this Monday.",
+    "When the \"if\" part of a rule is true, the \"then\" part must be true too. Read the \"then\" part of statement 1 and find the choice that matches it."
+  ],
+  "solution": {
+    "methodName": "Go forward, or flip and negate both parts",
+    "steps": [
+      {
+        "action": "Split statement 1 into its two parts. If-part: it rains on Monday. Then-part: the flag ceremony is held in the gym.",
+        "why": "An if-then rule says: whenever the if-part happens, the then-part happens."
+      },
+      {
+        "action": "Statement 2 says the if-part happened: it rains this Monday."
+      },
+      {
+        "action": "So the then-part must happen: this Monday, the ceremony is held in the gym.",
+        "why": "This move is called modus ponens: if p then q; p is true; so q is true."
+      },
+      {
+        "action": "\"Held on the field\" and \"cancelled\" both go against this, so they are false."
+      },
+      {
+        "action": "\"Next Monday, it will rain again\" is about a different day. Nothing in the statements tells us about next Monday."
+      },
+      {
+        "action": "The answer is \"This Monday, the ceremony is held in the gym.\""
+      }
+    ]
+  },
+  "trapNotes": {
+    "This Monday, the ceremony is held on the field.": "The rule says that on a rainy Monday the ceremony is held in the gym. It cannot be on the field and in the gym at the same time, so this is false.",
+    "This Monday, the ceremony is cancelled.": "Nothing says the ceremony is cancelled. The rule says a rainy Monday moves it to the gym, so it is still held there.",
+    "Next Monday, it will rain again.": "The statements say nothing about next Monday. Counterexample: next Monday is sunny. Both statements stay true, but this choice is false."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}

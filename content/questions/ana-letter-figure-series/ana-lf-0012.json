@@ -1,0 +1,44 @@
+{
+  "id": "ana-lf-0012",
+  "topicId": "ana-letter-figure-series",
+  "skill": "ana-lf-codes",
+  "difficulty": 2,
+  "stem": "If MILK is written as LHKJ, how is RICE written in the same code?",
+  "choices": [
+    "SJDF",
+    "QHDB",
+    "PGAC",
+    "QHBD"
+  ],
+  "answer": "QHBD",
+  "hints": [
+    "Compare each letter of MILK with the letter in the same place in LHKJ.",
+    "M becomes L. Does the code move forward or backward in the alphabet?",
+    "Every letter moves back by 1. Move each letter of RICE back by 1 and keep the letters in the same order."
+  ],
+  "solution": {
+    "methodName": "Compare each letter with its code",
+    "steps": [
+      {
+        "action": "Line up the word and its code: M with L, I with H, L with K, K with J."
+      },
+      {
+        "action": "Each letter moves back by 1: M (13) to L (12), I (9) to H (8), L (12) to K (11), K (11) to J (10). The rule is −1."
+      },
+      {
+        "action": "Apply −1 to each letter of RICE: R becomes Q, I becomes H, C becomes B, E becomes D."
+      },
+      {
+        "action": "Keep the same order. The code for RICE is QHBD."
+      }
+    ]
+  },
+  "trapNotes": {
+    "SJDF": "SJDF moves each letter forward by 1. In the example, M became L, which is a move back.",
+    "QHDB": "QHDB has the right letters in the wrong order. The code changes each letter but keeps it in its place, so the code for C comes before the code for E.",
+    "PGAC": "PGAC moves each letter back by 2. M to L is only 1 step back."
+  },
+  "status": "draft",
+  "authorId": "claude",
+  "version": 1
+}
