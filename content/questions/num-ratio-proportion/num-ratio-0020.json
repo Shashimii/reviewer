@@ -12,7 +12,7 @@
   ],
   "answer": "60 km/h",
   "hints": [
-    "Speed is a rate: how many kilometres the van covers in one hour.",
+    "Speed is a rate: how many kilometers the van covers in one hour.",
     "Speed = distance ÷ time.",
     "Divide 180 km by 3 hours."
   ],
@@ -28,7 +28,7 @@
         "why": "Think: 18 ÷ 3 = 6, then put back the zero. Check: 60 × 3 = 180."
       },
       {
-        "action": "The van's speed is 60 km/h (60 kilometres per hour)."
+        "action": "The van's speed is 60 km/h (60 kilometers per hour)."
       }
     ]
   },

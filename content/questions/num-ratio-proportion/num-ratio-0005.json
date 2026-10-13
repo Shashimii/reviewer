@@ -3,7 +3,7 @@
   "topicId": "num-ratio-proportion",
   "skill": "ratio-simplify",
   "difficulty": 3,
-  "stem": "A dressmaker has a piece of cloth 2.4 metres long. She cuts off 60 centimetres to make a pillowcase. What is the ratio of the cloth left to the cloth she cut off?",
+  "stem": "A dressmaker has a piece of cloth 2.4 meters long. She cuts off 60 centimeters to make a pillowcase. What is the ratio of the cloth left to the cloth she cut off?",
   "choices": [
     "4 : 1",
     "1 : 3",
@@ -13,14 +13,14 @@
   "answer": "3 : 1",
   "hints": [
     "Watch two things: the units are different, and the question asks about the cloth that is left.",
-    "Change 2.4 metres into centimetres. 1 metre = 100 centimetres.",
+    "Change 2.4 meters into centimeters. 1 meter = 100 centimeters.",
     "2.4 × 100 gives the whole cloth in cm. Subtract 60 to find what is left. Then write left : cut off and simplify."
   ],
   "solution": {
     "methodName": "Convert to the same unit, then simplify",
     "steps": [
       {
-        "action": "Change metres to centimetres: 2.4 × 100 = 240 cm.",
+        "action": "Change meters to centimeters: 2.4 × 100 = 240 cm.",
         "why": "Both lengths must be in the same unit before you compare them."
       },
       {

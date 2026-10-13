@@ -17,11 +17,11 @@
     },
     {
       "heading": "Rates and unit prices",
-      "body": "A **rate** compares two different kinds of amount, like pesos per kilo or kilometres per hour. Divide to find the amount for **one**.\n\n- **Unit price** = price ÷ number of items. 5 pens for ₱60 cost ₱60 ÷ 5 = ₱12 each.\n- **Speed** = distance ÷ time. 150 km in 3 hours is 150 ÷ 3 = 50 km/h.\n- **Best buy:** compare prices for the same amount. 250 g for ₱40 is the same as 500 g for ₱80, so 500 g for ₱75 is the better buy.\n- **Minutes to hours:** build up to 60 minutes. 10 km in 20 minutes: an hour is 3 lots of 20 minutes, so the speed is 3 × 10 = 30 km/h."
+      "body": "A **rate** compares two different kinds of amount, like pesos per kilo or kilometers per hour. Divide to find the amount for **one**.\n\n- **Unit price** = price ÷ number of items. 5 pens for ₱60 cost ₱60 ÷ 5 = ₱12 each.\n- **Speed** = distance ÷ time. 150 km in 3 hours is 150 ÷ 3 = 50 km/h.\n- **Best buy:** compare prices for the same amount. 250 g for ₱40 is the same as 500 g for ₱80, so 500 g for ₱75 is the better buy.\n- **Minutes to hours:** build up to 60 minutes. 10 km in 20 minutes: an hour is 3 lots of 20 minutes, so the speed is 3 × 10 = 30 km/h."
     },
     {
       "heading": "Common traps",
-      "body": "- **Wrong order.** Losses to wins is not wins to losses. 2 : 3 and 3 : 2 are different answers.\n- **Adding instead of multiplying.** If 2 cups of rice serve 4 people, then 4 cups serve 8, not 6. Ratios grow by multiplying.\n- **Mixed units.** Change hours to minutes, or metres to centimetres, before you compare.\n- **Dividing by the wrong number.** When sharing, divide the total by all the parts (2 + 3 = 5), not by one person's number.\n- **Stopping too early.** One part is rarely the final answer. Check whether the question wants a share, the total or a difference.\n- **Inverse treated as direct.** Ask yourself: should the answer be bigger or smaller? More workers means fewer days.\n- **Cheapest tag is not the best buy.** Compare the price for the same amount."
+      "body": "- **Wrong order.** Losses to wins is not wins to losses. 2 : 3 and 3 : 2 are different answers.\n- **Adding instead of multiplying.** If 2 cups of rice serve 4 people, then 4 cups serve 8, not 6. Ratios grow by multiplying.\n- **Mixed units.** Change hours to minutes, or meters to centimeters, before you compare.\n- **Dividing by the wrong number.** When sharing, divide the total by all the parts (2 + 3 = 5), not by one person's number.\n- **Stopping too early.** One part is rarely the final answer. Check whether the question wants a share, the total or a difference.\n- **Inverse treated as direct.** Ask yourself: should the answer be bigger or smaller? More workers means fewer days.\n- **Cheapest tag is not the best buy.** Compare the price for the same amount."
     }
   ],
   "glossaryTerms": [
@@ -57,7 +57,7 @@
     },
     {
       "term": "Rate",
-      "definition": "A rate compares two different kinds of amount, like kilometres per hour or pesos per kilo.",
+      "definition": "A rate compares two different kinds of amount, like kilometers per hour or pesos per kilo.",
       "taglish": "Rate – dami kada isang yunit, gaya ng km kada oras o piso kada kilo"
     },
     {

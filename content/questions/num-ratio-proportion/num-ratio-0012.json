@@ -3,7 +3,7 @@
   "topicId": "num-ratio-proportion",
   "skill": "ratio-proportion",
   "difficulty": 3,
-  "stem": "An evacuation centre has enough rice to feed 40 evacuees for 15 days. Before any of the rice is used, 10 more evacuees arrive. How many days will the rice last now?",
+  "stem": "An evacuation center has enough rice to feed 40 evacuees for 15 days. Before any of the rice is used, 10 more evacuees arrive. How many days will the rice last now?",
   "choices": [
     "5 days",
     "20 days",
@@ -25,7 +25,7 @@
       },
       {
         "action": "Find the total rice in person-days: 40 × 15 = 600.",
-        "why": "A person-day is the rice one person eats in one day. The centre has 600 of these, no matter how many people share them."
+        "why": "A person-day is the rice one person eats in one day. The center has 600 of these, no matter how many people share them."
       },
       {
         "action": "Find the new number of evacuees: 40 + 10 = 50."
